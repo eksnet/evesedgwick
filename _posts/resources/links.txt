@@ -1,0 +1,44 @@
+title/                                            
+Links
+/title
+
+sub/
+Obituaries
+/sub
+
+[[Bay Area Reporter]]link/ http://www.ebar.com/news/article.php?sec=news&article=3880 /link
+[[Berliner Zeitung (German)]]link/ http://www.berlinonline.de/berliner-zeitung/archiv/.bin/dump.fcgi/2009/0416/feuilleton/0088/index.html /link
+[[Inside Higher Education]]link/ http://www.insidehighered.com/news/2009/04/14/qt/eve_kosofsky_sedgwick_1950_2009 /link
+[[New York Times (Arts Section)]]link/ http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=1 /link
+[[New York Times (Papercuts Blog)]]link/ http://papercuts.blogs.nytimes.com/2009/04/15/remembering-eve-kosofsky-sedgwick/ /link
+[[New York Times (Week in Review)]]link/ http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html /link
+[[The Advocate]]link/ http://www.advocate.com/News/Daily_News/2009/04/13/Educator,_Author_Eve_Kosofsky_Sedgwick_Dies_at_58/ /link
+[[The Guardian]]link/ http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory /link
+[[The New Yorker]]link/ http://www.newyorker.com/online/blogs/books/2009/04/eve-kosofsky-sedgwick.html /link
+[[Toronto Star]]link/ http://www.thestar.com/News/Insight/article/620442 /link
+[[Duke University Press]]link/ http://dukeupress.typepad.com/dukeupresslog/2009/04/eve-kosofsky-sedgwick-19502009.html /link
+
+sub/
+Personal Tributes and Appreciations
+/sub
+
+[[Emily Apter, Artforum]]link/ http://artforum.com/inprint/id=23498 /link
+[[Andy Campbell, The Austin Chronicle]]link/ http://www.austinchronicle.com/gyrobase/Blogs/GayPlace/?oid=765573 /link
+[[Cathy Davidson, HASTAC]]link/ http://www.hastac.org/node/2081 /link
+[[Lauren Elkin, Maitresse]]link/ http://maitresse.typepad.com/maitresse/2009/04/-in-memoriam.html /link
+[[Katherine Franke, Columbia Law School Gender and Sexuality Blog]]link/ http://blogs.law.columbia.edu/genderandsexualitylawblog/2009/04/19/eve-kosofsky-sedgwick-a-tribute-from-marrakech/ /link
+[[Richard Kim, The Nation]]link/ http://www.bu.edu/honoringeve/files/2009/09/richard-kim-obituary.pdf /link
+[[Kevin Kopelson, n+1]]link/ http://www.nplusonemag.com/sentimental-journey /link
+[[Geoffroy de Lagasnerie interviews Judith Butler and Didier Eribon, Mediapart]]link/ http://www.mediapart.fr/club/blog/geoffroy-de-lagasnerie/130409/hommage-a-eve-kosofsky-sedgwick /link
+[[Roxie Smith Lindemann, Roxie's World]]link/ http://roxies-world.blogspot.com/2009/04/eve-anescence.html /link
+[[Joseph Litvak, Libération]]link/ http://philosophie.blogs.liberation.fr/noudelmann/2009/04/le-culot-deve-kosofsky-sedgwick.html /link
+[[lgbt@nypl]]link/ http://lgbt.nypl.org/?p=155 /link
+[[Andrew Parker, Amherst Magazine]]link/ https://www.amherst.edu/aboutamherst/magazine/issues/2009summer/collegerow/sedgwick /link
+[[Ann Pellegrini, The Chronicle of Higher Education]]link/ http://chronicle.com/article/Eve-Kosofsky-Sedgwick/15045 /link
+[[Silvia Posocco, The Guardian]]link/ http://www.guardian.co.uk/commentisfree/2009/apr/15/sexual-identity /link
+[[Darren Rosenblum, Feminist Law Professors]]link/ http://feministlawprofessors.com/?p=9962 /link
+[[David Shankbone, Shankbone]]link/ http://blog.shankbone.org/2009/04/13/eve-kosofsky-sedgwick-58-prominent-writer-dies-of-cancer/ /link
+[[Amardeep Singh, The Valve]]link/ http://www.thevalve.org/go/valve/article/eve_sedgwick_a_few_reflections/ /link
+[[Kristen Taylor, Kthread]]link/ http://www.kthread.com/kthread/2009/04/22/kthread-spins-in-memory-of-eve-kosofsky-sedgwick/ /link
+[[Oh!Industry]]link/ http://www.ohindustry.com/2009/04/in-memoriam-eve-kosofsky-sedgwick-1950.html /link
+
