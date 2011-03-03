@@ -1,0 +1,51 @@
+pygments:       false
+permalink:      /:categories/:title.html
+paginate:       5
+
+exclude:
+    - README.md
+    - Rakefile
+
+title:          jekyll_trial_1_0
+#url:            
+feed:           /atom.xml
+description:    "Initial jekyll trial by boris"
+comment:        better, stronger, smarter
+
+author:
+    name:       boris
+    email:      boris.boris@gmail.com
+    #twitter:    
+    
+about: >
+    About text should be entered here
+    
+disqus:
+    id:         evesedgwick
+
+nav:
+    - name:     Blog
+      url:      /
+    
+    - name:     Portfolio
+      url:      /portfolio/
+    
+    - name:     About
+      url:      /about/
+      subnav:
+        - name: Contact
+          url:  mailto:info@evesedgwick.com
+
+      
+copyright:
+    - Design by <a href="http://bryanreedy.org">boris</a>
+    - "&copy; Copyright 2011, Hal Sedgwick. All Rights Reserved."
+      
+css:
+    - /lib/appden.css
+    - /lib/syntax.css
+    
+js:
+    - http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js
+    - /lib/mootools-more.js
+    - /lib/appden.js
