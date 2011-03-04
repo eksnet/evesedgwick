@@ -55,7 +55,7 @@ Tuesday, November 16: Performance/reading by Don Belton place/time TBA
 Monday, November 22: CP Cavafy, Collected Poems  
 Monday, November 29: Conclusion  
 
-#### Annotated Bibliography/review essay topics:  
+Annotated Bibliography/review essay topics:  
 performativity in/and:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;camp  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;affect/shame  
