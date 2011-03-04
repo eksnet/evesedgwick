@@ -1,4 +1,4 @@
----
+marker-offset: auto;---
 layout: document
 public: true
 
@@ -14,7 +14,7 @@ date: ND
 related_media:
     - {type: image, format: pdf, src: Asian-Encounters_pdf.pdf, public: true}
     - {type: text, format: txt, src: Asian-Encounters_ocr.txt, public: false}
-#	- {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
+#   - {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
 summary:>
     This seminar concerns the relation of Asian religious thought--especially Buddhism--to European and American culture. Brahmanism and Buddhism have ìarrivedî and been influential in western thought in many forms through many different encounters over many centuries.  Thus, by now an Asian encounter with western culture must also be understood as a re-encounter with a palimpsest of previous Asian currents and influences (as well as vice versa).  Necessarily, then, the seminar also involves a range of difficult methodological, theoretical, and political issues surrounding authenticity, dissemination, appropriation, and perhaps especially, pedagogy.
     
