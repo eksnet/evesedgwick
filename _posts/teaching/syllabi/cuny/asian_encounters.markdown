@@ -12,8 +12,9 @@ location: CUNY
 date: ND
 
 related_media:
-    - {type: image, format: pdf, src: Asian-Encounters_pdf, public: true}
-    - {type: text, format: txt, src: Asian-Encounters_ocr, public: false}
+    - {type: image, format: pdf, src: Asian-Encounters_pdf.pdf, public: true}
+    - {type: text, format: txt, src: Asian-Encounters_ocr.txt, public: false}
+#	- {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
 summary:>
     This seminar concerns the relation of Asian religious thought--especially Buddhism--to European and American culture. Brahmanism and Buddhism have ìarrivedî and been influential in western thought in many forms through many different encounters over many centuries.  Thus, by now an Asian encounter with western culture must also be understood as a re-encounter with a palimpsest of previous Asian currents and influences (as well as vice versa).  Necessarily, then, the seminar also involves a range of difficult methodological, theoretical, and political issues surrounding authenticity, dissemination, appropriation, and perhaps especially, pedagogy.
     
@@ -74,7 +75,7 @@ All auditors and enrolled students are required to
 Enrolled students are required to complete a mutually-agreed-on writing project.  Depending on where you are in your graduate work and what you want to use this class for, you have a variety of options for this project.  One possibility would be a reading journal, with weekly entries of  >5 pages recording your reflections on the current assignment, perhaps in relation to your other ongoing reading projects.  Or you might choose to write a full-dress (20-25 pp.) paper, which could be structured either around one or more of the texts studied, or around an encounter between another literary text and some of the material from this seminar.  Another possibility would be individual/small group research on some other aspect of Asian-western encounters.
 I expect you to consult with me substantively, early, and often about the nature and progress of your writing project.
 
-#### Heart Sutra of the PrajÒa Paramita  
+#### Heart Sutra of the Prajna Paramita  
 (from the Sanskrit)
 
 When the Bodhisattva Avalokitesvara practiced the Profound Perfection of Transcendent wisdom, he saw that the Five Aggregates* were empty, thus completely relieving misfortune and pain.  
@@ -85,7 +86,7 @@ No gain and thus the Bodhisattvas realize the Profound Perfection of Transcenden
 Therefore, the Profound Perfection of Transcendent Wisdom is known as the great mantra, the vivid mantra, the best mantra, the unsurpassable mantra.  It completely clears all pain. This is the truth and not a lie. So set forth the mantra of the Profound Perfection of Transcendent Wisdom, set forth this mantra and say:  
 ga-te ga-te para-gate para-samgate bodhi SVAHA! 
 
-End of the Heart Sutra of the PrajÒa Paramita 
+End of the Heart Sutra of the Prajna Paramita 
 
 *The aggregates of which a human body is composed: form, feeling, conception, impulse, and consciousness
 
