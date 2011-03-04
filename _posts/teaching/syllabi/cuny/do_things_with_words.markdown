@@ -26,8 +26,7 @@ categories:
 
 ### How to Do Things with Words and Other Materials: ND, CUNY
 
-#### Preliminary Syllabus:  
-#### How to Do Things with Words and Other Materials
+#### Preliminary Syllabus: How to Do Things with Words and Other Materials
 
 How to Do Things with Words and Other Materials' is an experimental seminar/studio workshop in which participants will think about and practice a variety of ways of combining written text with other visual media.  Roughly speaking, the ìartist's book' will be our subject, but we will also consider comics and graphic novels, mail art, graffiti, broadsides, playing cards, and other genres that make unconventional use of the materiality of both the written word and its support.  In parallel with historical and theoretical discussions, participants will work on creating a portfolio of works in various formats and materials, each exploring different aspects of the complex relations among language, materiality, and visuality. 
 
