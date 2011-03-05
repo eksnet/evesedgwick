@@ -1,6 +1,13 @@
+markdown: rdiscount
+pygments: false
+permalink: /:categories/:title.html
+sass: true
+haml: true
+post_defaults:
+  layout: post
+
 pygments:       false
-permalink:      /:categories/:title.html
-paginate:       5
+paginate:       false
 
 exclude:
     - README.md
@@ -42,10 +49,9 @@ copyright:
     - "&copy; Copyright 2011, Hal Sedgwick. All Rights Reserved."
       
 css:
-    - /lib/appden.css
+    - /lib/screen.css
     - /lib/syntax.css
     
 js:
     - http://ajax.googleapis.com/ajax/libs/mootools/1.2.4/mootools-yui-compressed.js
-    - /lib/mootools-more.js
-    - /lib/appden.js
+    - /lib/eks.js
