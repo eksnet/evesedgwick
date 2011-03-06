@@ -2,7 +2,6 @@ markdown: rdiscount
 pygments: false
 permalink: /:categories/:title.html
 sass: true
-haml: true
 post_defaults:
   layout: post
 
@@ -13,11 +12,12 @@ exclude:
     - README.md
     - Rakefile
 
-title:          jekyll_trial_1_0
+title:          Eve Kosofsky Sedgwick
 #url:            
 feed:           /atom.xml
 description:    "Initial jekyll trial by boris"
-comment:        better, stronger, smarter
+comment:>
+                better, stronger, smarter
 
 author:
     name:       boris
@@ -25,7 +25,7 @@ author:
     #twitter:    
     
 about: >
-    About text should be entered here
+                About text should be entered here
     
 disqus:
     id:         evesedgwick

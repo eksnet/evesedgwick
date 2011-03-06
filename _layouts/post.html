@@ -1,0 +1,10 @@
+---
+layout: base
+---
+    {% include header.html %}
+    {% include nav.html %}
+      <div class="entry-content">
+        <h2>{{ page.title }}</h2>
+        <span>Published: {{ page.date }}</span>
+        {{ content }}
+      </div>
