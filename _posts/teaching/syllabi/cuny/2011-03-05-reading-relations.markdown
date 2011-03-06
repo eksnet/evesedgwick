@@ -1,27 +1,16 @@
 ---
-layout: base
-public: true
+layout: post
+published: true
 
-categories: 
-    - teaching
-    - syllabi
-    - cuny
-
+category: CUNY
 title: Reading Relations in British Fiction
 location: CUNY
-date: ND
+creation_date: ND
 
 related_media:
     - {type: image, format: pdf, src: Reading-Relations-in-British-Fiction_pdf.pdf, public: true}
     - {type: text, format: txt, src: Reading-Relations-in-British-Fiction_ocr.txt, public: false}
-#	- {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
-summary:>
-    This seminar will practise close reading of a sample of British fiction in pursuit of 'reading relations' in several senses, through several intertwined questions.
-    
-categories: 
-    - teaching
-    - syllabi
-    - cuny
+
 ---
 
 ### Reading Relations in British Fiction: ND, CUNY

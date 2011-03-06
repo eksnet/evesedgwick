@@ -1,6 +1,6 @@
 ---
-layout: document
-public: true
+layout: post
+published: true
 
 categories: 
     - teaching
@@ -9,19 +9,12 @@ categories:
 
 title: Queer Performativity
 location: Duke
-date: 1993
+creation_date: 1993
 
 related_media:
     - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
-#   - {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
-summary:>
-    none
-    
-categories: 
-    - teaching
-    - syllabi
-    - duke
+
 ---
 
 ### Queer Performativity: Duke, 1993

@@ -1,63 +1,27 @@
 <!-- collection -->
-    <div class="collection container cc_12 bg5">
-      <div class="header container cc_12 bg4">
-        <div class="right cc_12 text_l bg3" ><a class="block" href=#><h3>In the Bardo, SUNY-Stony Brook, 2001</h3></a></div>
-      </div>
-      <div class="body container cc_12 bg4">
-        <div class="left_column left cc_02 text_r bg3"></div>
-        <div class="right cc_10 text_l bg3">
-            <div class="left cc_02 bg2"><h5>Title:</h5></div><div class="right cc_08 text_l bg2"><h6>In the Bardo</h6></div>
-            <div class="left cc_02 bg2"><h5>Venue:</h5></div><div class="right cc_08 text_l bg2"><h6>SUNY-stony Brook</h6></div>
-            <div class="left cc_02 bg2"><h5>Date:</h5></div><div class="right cc_08 text_l bg2"><h6>2001</h6></div>
-            <div class="left cc_02 bg2"><h5>Media:</h5></div><div class="right cc_08 text_l bg2"><h6>5 images, 1 document</h6></div>
-        </div>
-      </div>
-      <div class="footer container rule_b cc_12 bg4">
-        <div class="footer_top left nm cc_12">
-          <div class="left cc_02 bg3"></div>
-          <div class="right text_l cc_10 bg3">
-            <div class="left cc_08 bg2"></div><div class="right cc_02 bg2"><a href=#><h5>Read More</h5></a></div>
-          </div>
-        </div>
+<div class="collection container cc_12 bg5">
+	<div class="header container cc_12 bg4">
+		<div class="right cc_12 text_l bg3" ><a class="block" href={{ post.url }}><h3>{{ post.title }}: {{ post.creation_date }}, {{ post.location }}</h3></a></div>
+	</div>
+	<div class="body container cc_12 bg4">
+		<div class="left_column left cc_02 text_r bg3">	</div>
+		<div class="right cc_10 text_l bg3">
+
+			<div class="left cc_02 bg2"><h5>Title:</h5></div><div class="right cc_08 text_l bg2"><h6>{{ post.title }}</h6></div>
+			<div class="left cc_02 bg2"><h5>Venue:</h5></div><div class="right cc_08 text_l bg2"><h6>{{ post.creation_date }}, CUNY</h6></div>
+			<div class="left cc_02 bg2"><h5>Date:</h5></div><div class="right cc_08 text_l bg2"><h6>?</h6></div>
+			<div class="left cc_02 bg2"><h5>Media:</h5></div><div class="right cc_08 text_l bg2"><h6>1 image, 1 document</h6></div>
+
+		</div>
+	</div>
+	<div class="footer container rule_b cc_12 bg4">
+		<div class="footer_top left nm cc_12">
+			<div class="left cc_02 bg3"></div>
+			<div class="right text_l cc_10 bg3">
+				<div class="left cc_08 bg2"></div>
+				<div class="right cc_02 bg2"><a href={{post.url}}><h5>view more</h5></a></div>
 			</div>
 		</div>
-    <!-- /collection -->
-
-
-
--- include post example from appden.com --
-
-    <div class="entry">
-  <h2>
-    {% if detail %}
-      {{ post.title }}
-    {% else %}
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    {% endif %}
-  </h2>
-  
-  <div class="entry-date">{{ post.date | date:'%b <div>%d</div> %Y' | replace:'>0','>' }}</div>
-  
-  <div class="entry-contents">
-    {% if detail %}
-      {{ content }}
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-  </div>
-  
-  <div class="entry-footer">
-    <a class="entry-comments" href="{{ post.url }}#disqus_thread">0</a>
-    <p>
-      Posted by {{ site.author.name }} on {{ post.date | date:'%A, %B %d, %Y' | replace:' 0',' ' }}
-    </p>
-    <p>
-      Filed in
-      {{ post.categories | array_to_sentence_string | capitalize }}
-      {% unless post.tags == empty %}
-        and tagged
-        {{ post.tags | array_to_sentence_string }}
-      {% endunless %}
-    </p>
-  </div>
+	</div>
 </div>
+<!-- /collection -->

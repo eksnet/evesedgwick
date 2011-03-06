@@ -1,27 +1,15 @@
 ---
-layout: base
-public: true
-
-categories: 
-    - teaching
-    - syllabi
-    - cuny
+layout: post
+published: true
 
 title: Zero, Infinity, Chaos, Sublimity
 location: CUNY
-date: Spring 2002
+creation_date: Spring 2002
 
 related_media:
     - {type: image, format: pdf, src:  Zero-Infinity-Chaos-Sublimity_pdf.pdf, public: true}
     - {type: text, format: txt, src: Zero-Infinity-Chaos-Sublimity_ocr.txt, public: false}
-#	- {type: image|text|link|?, format: pdf|jpg|png|gif|txt|doc|html|url, src: full-file-name.pdf, public: false}
-summary:>
-    This course examines how science and literature deal with the limits of representation. With readings from contemporary writers on chaos theory such as Gleick, Peats and Briggs, as well as lay writings on number theory (focusing particular on the notions of zero, infinity, and the infinitesimal) by Seife, Rotman, and most importantly, Wittgenstein.
-    
-categories: 
-    - teaching
-    - syllabi
-    - cuny
+
 ---
 
 ### Zero, Infinity, Chaos, Sublimity: CUNY, Spring 2002 (with Josh Wilner)

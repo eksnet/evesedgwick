@@ -1,0 +1,59 @@
+---
+layout: base
+permalink: teaching/syllabi/index.html
+---
+
+<!-- page title -->
+<div class="page_title container cc_12 rule_b">
+	<h2><a href=#>Teaching</a>: <a href=#>Syllabi</a></h2>
+</div>
+<!-- /page title -->
+<!-- Outer Container -->
+<div id="center" class="container cc_12;">
+
+
+	<!-- category -->
+	<div class="category container cc_12 bg5">
+		<div class="header container cc_12 bg4">
+			<div class="right cc_12 text_l bg3" ><h3 class="category">CUNY</h3></div>
+		</div>
+		<!-- /category_body -->
+		<div class="category_body cc_12 left">
+			{% for post in site.topics.syllabi %}
+				{% if post.topics contains 'cuny' %}
+					{% unless post.type == 'index' %}
+						
+						{% include collection.html %}
+						
+					{% endunless %}
+				{% endif %}
+			{% endfor %}
+		</div>
+		<!-- /category_body -->
+	</div>
+	<!-- /category -->
+
+	<!-- category -->
+	<div class="category container cc_12 bg5">
+		<div class="header container cc_12 bg4">
+			<div class="right cc_12 text_l bg3" ><h3 class="category">Duke</h3></div>
+		</div>
+		<!-- /category_body -->
+		<div class="category_body cc_12 left">
+			{% for post in site.topics.syllabi %}
+			{% if post.topics contains 'duke' %}
+				{% unless post.type == 'index' %}
+					
+					{% include collection.html %}
+					
+				{% endunless %}
+			{% endif %}
+			{% endfor %}
+		</div>
+		<!-- /category_body -->
+	</div>
+	<!-- /category -->
+
+
+</div>
+<!-- /Outer Container -->
