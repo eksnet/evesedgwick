@@ -1,8 +1,28 @@
-Fat Art, Thin Art (Duke University Press, 1994)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-fatartthinart.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: Duke University Press
+publication_date: 1994
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: fatartthinart.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Fat Art, Thin Art (Duke University Press, 1994)
 
 Eve Kosofsky Sedgwick is best known as a cultural and literary critic, as one of the primary forces behind the development of queer and gay/lesbian studies, and as author of several influential books: <i>Tendencies</i>, <i>Epistemology of the Closet</i>, and <i>Between Men: English Literature and Male Homosocial Desire</i>. The publication of <i>Fat Art, Thin Art</i>, Sedgwick’s first volume of poetry, opens up another dimension of her continuing project of crossing and re-crossing the electrified boundaries between theory, lyric, and narrative.
 

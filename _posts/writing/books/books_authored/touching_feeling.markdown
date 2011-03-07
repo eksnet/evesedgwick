@@ -1,8 +1,28 @@
-Touching Feeling (Duke University Press, 2003)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-touchingfeeling.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: Duke University Press
+publication_date: 2003
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: touchingfeeling.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Touching Feeling (Duke University Press, 2003)
 
 A pioneer in queer theory and literary studies, Eve Kosofsky Sedgwick brings together for the first time in <i>Touching Feeling</i> her most powerful explorations of emotion and expression. In essays that show how her groundbreaking work in queer theory has developed into a deep interest in affect, Sedgwick offers what she calls "tools and techniques for nondualistic thought," in the process touching and transforming such theoretical discourses as psychoanalysis, speech-act theory, Western Buddhism, and the Foucauldian "hermeneutics of suspicion."
 

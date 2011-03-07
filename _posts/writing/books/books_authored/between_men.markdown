@@ -1,8 +1,28 @@
-Between Men: English Literature and Male Homosocial Desire (Columbia University Press, 1985)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-betweenmen.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: Columbia University Press
+publication_date: 1985
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: betweenmen.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Between Men: English Literature and Male Homosocial Desire (Columbia University Press, 1985)
 
 Hailed by the New York Times as "one of the most influential texts in gender studies, men's studies and gay studies," this book uncovers the homosocial desire between men, from Restoration comedies to Tennyson's <i>Princess</i>. --<i>From the jacket copy</i>
 

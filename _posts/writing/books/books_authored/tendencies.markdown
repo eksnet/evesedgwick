@@ -1,8 +1,28 @@
-Tendencies (Duke University Press, 1993)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-tendencies.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: Duke University Press
+publication_date: 1993
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: tendencies.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Tendencies (Duke University Press, 1993)
 
 <i>Tendencies</i> brings together for the first time the essays that have made Eve Kosofsky Sedgwick "the soft-spoken queen of gay studies" (Rolling Stone). Combining poetry, wit, polemic, and dazzling scholarship with memorial and autobiography, these essays have set new standards of passion and truthfulness for current theoretical writing.
 

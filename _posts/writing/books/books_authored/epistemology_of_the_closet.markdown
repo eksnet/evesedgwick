@@ -1,8 +1,28 @@
-Epistemology of the Closet (University of California Press, 1990)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-epistemologyofthecloset.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: University of California Press
+publication_date: 1990
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: epistemologyofthecloset.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Epistemology of the Closet (University of California Press, 1990)
 
 What is at stake in male homo/heterosexual definition? At a time when the politics of homosexuality are more contested with every day’s news, Eve Kosofsky Sedgwick argues that the vexed imperatives to specify straight and gay identities have become central to every important form of knowledge of the twentieth century. 
 

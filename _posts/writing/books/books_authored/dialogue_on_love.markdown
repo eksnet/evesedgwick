@@ -1,8 +1,28 @@
-A Dialogue on Love (Beacon Press, 1999)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-dialogueonlove.jpg
-/image
+type: book
+title: "Between Men: English Literature and Male Homosocial Desire"
+publisher: Beacon Press
+publication_date: 1999
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: dialogueonlove.jpg
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### A Dialogue on Love (Beacon Press, 1999)
 
 When she begins therapy for depression after breast cancer treatment, the author brings with her an extraordinarily open and critical mind, but also shyness about revealing herself. Resisting easy responses to issues of dependence, desire, and mortality, she warily commits to a male therapist who shares little of her cultural and intellectual world.
 

@@ -1,4 +1,20 @@
-Rhetorical Devices: 2001
+---
+layout: syllabus
+published: true
+permalink: /teaching/supporting_materials/rhetorical_devices.html
+
+type: document
+
+meta_data:
+    - {k: Title, v: "Rhetorical Devices"}
+
+related_media:
+    - {type: image, format: pdf, src: rhetorical_devices_pdf.pdf, public: true}
+    - {type: text, format: txt, src: rhetorical_devices_ocr.txt, public: false}
+
+---
+
+### Rhetorical Devices: 2001
 
 There's no particular reason why most of you need an encyclopedic knowledge of classical rhetorical figures, though they're fun. But some of them have gotten picked up for use in recent theories of representation; especially structuralist and deconstructive, and to some extent psychoanalytic, feminist, and postcolonial. Jonathan Culler's <i>Structuralist Poetics</i> and <i>On Deconstruction</i> are good introductions to the first two of these areas. A good online introduction to classical rhetoric--along with an amazingly extensive list of definitions--is at //humanities.byu.edu/rhetoric/silva/html. 
 
@@ -17,8 +33,3 @@ Here are a few tropes that have turned up in literary theory, with definitions a
 <i>mise en abyme</i>: MEEZ-on-a-BEEM. Fr. "putting-in-the-abyss" (not classical--coined by André Gide in 1926). A concentric or recursive structure, like the Cracker Jack box with a picture of a sailor holding a Cracker Jack box with a picture of a sailor holding a Cracker Jack box etc., or like a novel within a novel within a novel etc. Postmodern fiction is fond of this structure, though it goes back at least as far as <i>The 1001 Nights</i>.
 
 <i>prosopopoeia</i>: PRO-so-po-PAY-a. Gr. "giving a face; making a person." In classical rhetoric this refers either to personification (speaking of an abstraction or object as if it were a person: "Fear convinced me to flee") or, alternatively, impersonation (an imitation of a person, comparable to the modern dramatic monologue). Paul de Man and J. Hillis Miller describe prosopopoeia as a kind of primordial figure of figures: prosopopoeia gives face to that which has no face, thereby creating a world within which, once it's in place, one can distinguish the literal from the figural. De Man associates this figure with personal identity: "Prosopopeia is the trope of autobiography, by which one's name [...] is made as intelligible and memorable as a face. Our topic deals with the giving and taking away of faces, with face and deface, figure, figuration and disfiguration" (<i>Rhetoric of Romanticism</i>, p.76). In her <i>Decomposing figures: Rhetorical Readings on the Romantic Traditions</i>, Cynthia Chase especially attends to prosopopoeia as a trope of absence and mourning, as when it features on gravestones or invokes the voice of the dead. Judith Butler implicitly invokes such arguments in her discussion of gender identity as a form or effect of melancholia (<i>Gender Trouble</i>). A good queer-theory use of the concept is in Jonathan Flatley's essay, "Warhol Gives Good Face," in the collection <i>Pop Out: Queer Warhol</i> (ed. Flatley et al).
-
-
-
-
-
