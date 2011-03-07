@@ -1,11 +1,12 @@
 ---
 layout: base
-permalink: teaching/syllabi/index.html
+permalink: /teaching/syllabi/index.html
+browser_title: Teaching - Syllabi
 ---
 
 <!-- page title -->
 <div class="page_title container cc_12 rule_b">
-	<h2><a href=#>Teaching</a>: <a href=#>Syllabi</a></h2>
+	<h2>Teaching: Syllabi</h2>
 </div>
 <!-- /page title -->
 <!-- Outer Container -->
@@ -17,13 +18,14 @@ permalink: teaching/syllabi/index.html
 		<div class="header container cc_12 bg4">
 			<div class="right cc_12 text_l bg3" ><h3 class="category">CUNY</h3></div>
 		</div>
+		
 		<!-- /category_body -->
 		<div class="category_body cc_12 left">
 			{% for post in site.topics.syllabi %}
 				{% if post.topics contains 'cuny' %}
 					{% unless post.type == 'index' %}
 						
-						{% include collection.html %}
+						{% include collection.liquid %}
 						
 					{% endunless %}
 				{% endif %}
@@ -44,7 +46,7 @@ permalink: teaching/syllabi/index.html
 			{% if post.topics contains 'duke' %}
 				{% unless post.type == 'index' %}
 					
-					{% include collection.html %}
+					{% include collection.liquid %}
 					
 				{% endunless %}
 			{% endif %}
@@ -53,7 +55,6 @@ permalink: teaching/syllabi/index.html
 		<!-- /category_body -->
 	</div>
 	<!-- /category -->
-
 
 </div>
 <!-- /Outer Container -->

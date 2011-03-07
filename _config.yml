@@ -4,13 +4,11 @@ multiviews:     false
 sass:           false
 haml:           false
 
-permalink: /Users/pilchard/Code/FRL/EKS/evesedgwick/_site/:title.html
-base_url: file:///Users/pilchard/Code/FRL/EKS/evesedgwick
-
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
 description:    "Initial jekyll trial by boris"
 
+base_url: file:///Users/pilchard/Code/FRL/EKS/evesedgwick/_site
 author:
     name:       boris
     email:      boris.boris@gmail.com

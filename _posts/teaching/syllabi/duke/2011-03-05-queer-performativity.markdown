@@ -1,15 +1,17 @@
 ---
-layout: post
+layout: syllabus
 published: true
+permalink: /teaching/syllabi/duke/Queer-Performativity.html
 
-categories: 
-    - teaching
-    - syllabi
-    - cuny
-
+type: syllabus
 title: Queer Performativity
 location: Duke
 creation_date: 1993
+
+meta_data:
+    - {k: Title, v: "Queer Performativity"}
+    - {k: Location, v: Duke}
+    - {k: Date,  v: 1993}
 
 related_media:
     - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}

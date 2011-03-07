@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: syllabus
 published: true
+permalink: /teaching/syllabi/cuny/Zero-Infinity-Chaos-Sublimity.html
 
+type: syllabus
 title: Zero, Infinity, Chaos, Sublimity
 location: CUNY
 creation_date: Spring 2002
+
+meta_data:
+    - {k: Title, v: "Zero, Infinity, Chaos, Sublimity"}
+    - {k: Location, v: CUNY}
+    - {k: Date,  v: Spring 2002}
 
 related_media:
     - {type: image, format: pdf, src:  Zero-Infinity-Chaos-Sublimity_pdf.pdf, public: true}

@@ -1,10 +1,17 @@
 ---
-layout: post
+layout: syllabus
 published: true
+permalink: /teaching/syllabi/cuny/Asian-Encounters.html
 
+type: syllabus
 title: Asian Encounters
 location: CUNY
 creation_date: ND
+
+meta_data:
+    - {k: Title, v: "Asian Encounters"}
+    - {k: Location, v: CUNY}
+    - {k: Date,  v: ND}
 
 related_media:
     - {type: image, format: pdf, src: Asian-Encounters_pdf.pdf, public: true}

@@ -6,15 +6,16 @@
 	<div class="body container cc_12 bg4">
 		<div class="left_column left cc_02 text_r bg3">	</div>
 		<div class="right cc_10 text_l bg3">
-
-			<div class="left cc_02 bg2"><h5>Title:</h5></div><div class="right cc_08 text_l bg2"><h6>{{ post.title }}</h6></div>
-			<div class="left cc_02 bg2"><h5>Venue:</h5></div><div class="right cc_08 text_l bg2"><h6>{{ post.creation_date }}, CUNY</h6></div>
-			<div class="left cc_02 bg2"><h5>Date:</h5></div><div class="right cc_08 text_l bg2"><h6>?</h6></div>
-			<div class="left cc_02 bg2"><h5>Media:</h5></div><div class="right cc_08 text_l bg2"><h6>1 image, 1 document</h6></div>
+			
+			{% for datum in post.meta_data %}
+					<div class="left cc_02 bg2"><h5>{{ datum.k }}:</h5></div><div class="right cc_08 text_l bg2"><h6>{{ datum.v }}</h6></div>
+			{% endfor %}
 
 		</div>
 	</div>
+	 
 	<div class="footer container rule_b cc_12 bg4">
+		<!--
 		<div class="footer_top left nm cc_12">
 			<div class="left cc_02 bg3"></div>
 			<div class="right text_l cc_10 bg3">
@@ -22,6 +23,8 @@
 				<div class="right cc_02 bg2"><a href={{post.url}}><h5>view more</h5></a></div>
 			</div>
 		</div>
+		-->
 	</div>
+	
 </div>
 <!-- /collection -->
