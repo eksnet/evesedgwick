@@ -4,7 +4,24 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
+role: author
+with: none
+title: "Fat Art, Thin Art"
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     Durham, N.C.
+      series:       Gender and Culture Series
+      date:         1994
+      binding:      cloth and paper
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
+
+publisher_location: 
 publisher: Duke University Press
 publication_date: 1994
 isbn:
@@ -14,6 +31,8 @@ indiebound_url:
 worldcat_url:
 
 cover_img: fatartthinart.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

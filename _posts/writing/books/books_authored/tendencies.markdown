@@ -4,16 +4,30 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: Duke University Press
-publication_date: 1993
-isbn:
+role: author
+with: none
+title: Tendencies
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Columbia University Press
+      location:     "Durham, N.C."
+      series:       Series Q
+      date:         1993
+      binding:      cloth and paper
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: tendencies.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

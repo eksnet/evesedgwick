@@ -1,19 +1,33 @@
 ---
 layout: book
 published: true
-permalink: /writing/books/books_authored/between-men.html
+permalink: /writing/books/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: Duke University Press
-publication_date: 2003
-isbn:
+role: author
+with: none
+title: Touching Feeling
+sub_title: Affect, Pedagogy, Performativity
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     "Durham, N.C"
+      series:       Gender and Culture Series
+      date:         2003
+      binding:      cloth and paper
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: touchingfeeling.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

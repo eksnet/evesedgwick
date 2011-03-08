@@ -1,8 +1,32 @@
-Gary in Your Pocket: Stories and Notebooks of Gary Fisher (Duke University Press, 1996)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-garyinyourpocket.jpg
-/image
+type: book
+role: editor
+with: none
+title: "Gary in Your Pocket: Stories and Notebooks of Gary Fisher"
+publisher: Columbia University Press
+publication_date: 1985
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: garyinyourpocket.jpg
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date} 
+    - {k: isbn,  v: isbn} 
+
+---
+
+### Gary in Your Pocket: Stories and Notebooks of Gary Fisher (Duke University Press, 1996)
 
 The incandescent African American writer Gary Fisher was completely unpublished when he died of AIDS in 1994 at the age of 32. This volume, which includes all of Fisher’s stories and a generous selection from his journals, notebooks, and poems, will introduce readers to a tender, graphic, extravagant, and unswervingly incisive talent. In Fisher’s writings the razor-sharp rage is equalled only by the enveloping sweetness; the raw eroticism by a dazzling writerly elegance. Evocations of a haunting and mobile childhood are mixed in Fisher’s stories with an X-ray view of the racialized sexual vernaculars of gay San Francisco; while the journals braid together the narratives of sexual exploration and discovery, a joyous and deepening vocation as a writer, a growing intimacy with death, and an engagement with racial problematics that becomes ever more gravely and probingly imaginative.
 

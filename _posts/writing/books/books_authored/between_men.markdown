@@ -4,16 +4,36 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: Columbia University Press
-publication_date: 1985
-isbn:
+role: author
+with: none
+title: Between Men
+sub-title: English Literature and Male Homosocial Desire
+
+editions:
+    - description:  none
+      publisher:    Columbia University Press
+      location:     New York
+      series:       Gender and Culture Series
+      date:         1985
+      binding:      cloth and paper
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions:
+        - type:         paperback
+          date:         1986
+          series:       none
+          notes:        none
+          translations: Japanese
+          isbn:         
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: betweenmen.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

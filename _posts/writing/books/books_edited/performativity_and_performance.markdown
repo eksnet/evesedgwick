@@ -1,8 +1,31 @@
-Performativity and Performance (with Andrew Parker; Routledge, 1995)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-performativityandperformance.jpg
-/image
+type: book
+role: editor
+with: Andrew Parker
+title: Performativity and Performance
+publisher: Routledge
+publication_date: 1995
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: performativityandperformance.jpg
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Performativity and Performance (with Andrew Parker; Routledge, 1995)
 
 When is saying something doing something? And how is saying something doing something?
 

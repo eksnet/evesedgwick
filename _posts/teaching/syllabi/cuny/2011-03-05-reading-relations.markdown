@@ -8,10 +8,12 @@ title: Reading Relations in British Fiction
 location: CUNY  
 creation_date: ND
 
-meta_data:
-    - {k: Title, v: "Reading Relations in British Fiction"}
-    - {k: Location, v: CUNY}
-    - {k: Date,  v: ND}
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: location, v: Location}
+    - {k: creation_date, v: Date}
 
 related_media:
     - {type: image, format: pdf, src: Reading-Relations-in-British-Fiction_pdf.pdf, public: true}

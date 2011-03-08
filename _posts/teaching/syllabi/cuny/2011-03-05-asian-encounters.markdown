@@ -8,10 +8,12 @@ title: Asian Encounters
 location: CUNY
 creation_date: ND
 
-meta_data:
-    - {k: Title, v: "Asian Encounters"}
-    - {k: Location, v: CUNY}
-    - {k: Date,  v: ND}
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: location, v: Location}
+    - {k: creation_date, v: Date}
 
 related_media:
     - {type: image, format: pdf, src: Asian-Encounters_pdf.pdf, public: true}

@@ -4,16 +4,36 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: Beacon Press
-publication_date: 1999
-isbn:
+role: author
+with: none
+title: A Dialogue on Love
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Beacon Press
+      location:     Boston, MA
+      series:       Gender and Culture Series
+      date:         1999
+      binding:      cloth and paper
+      notes:        none
+      translations: Chinese
+      isbn: 
+      further_editions:
+        - type:         paperback
+          date:         2000
+          series:       none
+          notes:        none
+          translations: none
+          isbn:         
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: dialogueonlove.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

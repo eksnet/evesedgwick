@@ -4,16 +4,46 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: Arno Press
-publication_date: 1980
-isbn:
+role: author
+with: none
+title: The Coherence of Gothic Conventions
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Arno Press
+      location:     New York
+      series:       Gothic Studies Series
+      date:         1980
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions:
+        - type:         paperback
+          date:         1986
+          series:       none
+          notes:        none
+          translations: Japanese
+          isbn:      
+    - description:  paperback reissue with new material
+      publisher:    Methuen & Co
+      location:     New York
+      series:       none
+      date:         1986
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: coherence.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

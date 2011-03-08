@@ -4,16 +4,36 @@ published: true
 permalink: /writing/books/books_authored/between-men.html
 
 type: book
-title: "Between Men: English Literature and Male Homosocial Desire"
-publisher: University of California Press
-publication_date: 1990
-isbn:
+role: author
+with: none
+title: Epistemology of the Closet
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    University of California Press
+      location:     Berkeley
+      series:       Gender and Culture Series
+      date:         1990
+      binding:      none
+      notes:        A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991.
+      translations: Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese
+      isbn: 
+      further_editions:
+        - type:         paperback reissue with new material
+          date:         2008
+          series:       none
+          notes:        none
+          translations: none
+          isbn:         
 
 amazon_url:
 indiebound_url:
 worldcat_url:
 
 cover_img: epistemologyofthecloset.jpg
+category: Books Authored
+description:
 
 display_data:
     - {k: title, v: Title}

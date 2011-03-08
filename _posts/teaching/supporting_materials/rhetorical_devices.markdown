@@ -4,9 +4,14 @@ published: true
 permalink: /teaching/supporting_materials/rhetorical_devices.html
 
 type: document
+title: Rhetorical Devices
+creation_date: 2001
 
-meta_data:
-    - {k: Title, v: "Rhetorical Devices"}
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: creation_date, v: Date}
 
 related_media:
     - {type: image, format: pdf, src: rhetorical_devices_pdf.pdf, public: true}

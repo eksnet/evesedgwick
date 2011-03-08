@@ -1,8 +1,31 @@
-Shame and Its Sisters: A Silvan Tomkins Reader (with Adam Frank; Duke University Press, 1995)
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
 
-image/left
-shameanditssisters.jpg
-/image
+type: book
+role: editor
+with: Adam Frank
+title: "Shame and Its Sisters: A Silvan Tomkins Reader"
+publisher: Duke University Press
+publication_date: 1995
+isbn:
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: shameanditssisters.jpg
+description:
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+### Shame and Its Sisters: A Silvan Tomkins Reader (with Adam Frank; Duke University Press, 1995)
 
 The question of affect is central to critical theory, psychology, politics, and the entire range of the humanities; but no discipline, including psychoanalysis, has offered a theory of affect that would be rich enough to account for the delicacy and power, the evanescence and durability, the bodily rootedness and the cultural variability of human emotion.
 
