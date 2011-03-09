@@ -2,6 +2,7 @@
 layout: book
 published: true
 permalink: /writing/books/between-men.html
+category: Books Authored
 
 type: book
 role: author
@@ -26,7 +27,6 @@ indiebound_url:
 worldcat_url:
 
 cover_img: touchingfeeling.jpg
-category: Books Authored
 description:
 
 display_data:

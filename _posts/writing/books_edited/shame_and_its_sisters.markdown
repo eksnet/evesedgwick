@@ -2,14 +2,25 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Edited
 
 type: book
 role: editor
 with: Adam Frank
-title: "Shame and Its Sisters: A Silvan Tomkins Reader"
-publisher: Duke University Press
-publication_date: 1995
-isbn:
+title: Shame and Its Sisters
+sub-title: A Silvan Tomkins Reader
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     "Durham, N.C."
+      series:       none
+      date:         1995
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:

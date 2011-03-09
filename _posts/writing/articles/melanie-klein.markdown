@@ -1,0 +1,36 @@
+---
+layout: book
+published: true
+permalink: /writing/articles/melanie-klein-and-the-difference-affect-makes.html
+category: Published Articles
+
+type: article
+role: author
+with: none
+title: Melanie Klein and the Difference Affect Makes
+sub_title: none
+
+in:
+    - description:  journal
+      editors:      none
+      publication:  South Atlantic Quarterly
+      issue:        106
+      publisher:    none
+      location:     none
+      series:       none
+      date:         Summer 2007
+      binding:      none
+      notes:        none
+      translations: none
+      isbn:         none
+      further_editions: none
+
+cover_img: none
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---

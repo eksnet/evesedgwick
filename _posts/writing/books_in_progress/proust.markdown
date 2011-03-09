@@ -1,0 +1,43 @@
+---
+layout: book
+published: true
+permalink: /writing/books/proust.html
+category: Books in Progress
+
+type: book
+role: author
+with: none
+title: Proust and the Queer Little Gods
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    none
+      location:     none
+      series:       none
+      date:         none
+      binding:      none
+      notes:>
+        A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.
+      translations: none
+      isbn:         none
+      further_editions: none 
+
+amazon_url:
+indiebound_url:
+worldcat_url:
+
+cover_img: none
+description:>
+    A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+
+---
+
+### Proust and the Queer Little Gods
+
+A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.

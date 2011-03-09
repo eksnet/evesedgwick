@@ -2,6 +2,7 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Authored
 
 type: book
 role: author
@@ -32,13 +33,12 @@ indiebound_url:
 worldcat_url:
 
 cover_img: betweenmen.jpg
-category: Books Authored
 description:
 
 display_data:
     - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
 
 ---
 

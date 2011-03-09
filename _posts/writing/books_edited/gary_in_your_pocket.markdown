@@ -2,14 +2,25 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Edited
 
 type: book
 role: editor
 with: none
-title: "Gary in Your Pocket: Stories and Notebooks of Gary Fisher"
-publisher: Columbia University Press
-publication_date: 1985
-isbn:
+title: Gary in Your Pocket
+sub-title: Stories and Notebooks of Gary Fisher
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     "Durham, N.C."
+      series:       Series Q
+      date:         1996
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:

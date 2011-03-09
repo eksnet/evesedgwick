@@ -1,0 +1,36 @@
+---
+layout: book
+published: true
+permalink: /writing/articles/memorial-for-michael-lynch.html
+category: Published Articles
+
+type: article
+role: author
+with: none
+title: Memorial for Michael Lynch
+sub_title: Scholarship and Affection
+
+in:
+    - description:  journal
+      editors:      none
+      publication:  Lesbian and Gay Studies Newsletter
+      issue:        none
+      publisher:    none
+      location:     none
+      series:       none
+      date:         Fall 1991
+      binding:      none
+      notes:        none
+      translations: none
+      isbn:         none
+      further_editions: none
+
+cover_img: none
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---

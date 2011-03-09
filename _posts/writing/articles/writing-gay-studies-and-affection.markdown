@@ -1,0 +1,38 @@
+---
+layout: book
+published: true
+permalink: /writing/articles/writing-gay-studies-and-affection.html
+category: Published Articles
+
+type: article
+role: author
+with: none
+title: Proust and the Queer Little Gods
+sub_title: none
+
+in:
+    - description:  journal
+      editors:      none
+      publication:  Social Text
+      issue:        52-3
+      publisher:    none
+      location:     none
+      series:       none
+      date:         Autumn-Winter 1997
+      binding:      none
+      notes:        none
+      translations: none
+      isbn:         none
+      further_editions: none
+
+cover_img: none
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---
+
+"Writing, Gay Studies, and Affection," <i>Lesbian and Gay Studies Newsletter</i> 18, November, 1991.

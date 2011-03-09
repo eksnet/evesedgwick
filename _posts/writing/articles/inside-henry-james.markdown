@@ -1,0 +1,38 @@
+---
+layout: book
+published: true
+permalink: /writing/articles/inside-henry-james.html
+category: Published Articles
+
+type: article
+role: author
+with: none
+title: Inside Henry James
+sub_title: Toward A Lexicon for the Art of the Novel
+
+in:
+    - description:  book
+      editors:      
+        - M. Dorenkamp
+        - R. Henke
+      publication:  Negotiating Lesbian and Gay Subjects
+      issue:        52-3
+      publisher:    Routledge
+      location:     London and New York
+      series:       none
+      date:         1995
+      binding:      none
+      notes:        none
+      translations: none
+      isbn:         none
+      further_editions: none
+
+cover_img: none
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---

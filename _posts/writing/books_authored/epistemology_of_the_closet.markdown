@@ -2,6 +2,7 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Authored
 
 type: book
 role: author
@@ -32,7 +33,6 @@ indiebound_url:
 worldcat_url:
 
 cover_img: epistemologyofthecloset.jpg
-category: Books Authored
 description:
 
 display_data:

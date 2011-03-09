@@ -2,14 +2,25 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Edited
 
 type: book
 role: editor
 with: Andrew Parker
 title: Performativity and Performance
-publisher: Routledge
-publication_date: 1995
-isbn:
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Routledge
+      location:     New York
+      series:       none
+      date:         1995
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:

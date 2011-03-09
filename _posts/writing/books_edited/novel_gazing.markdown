@@ -2,14 +2,25 @@
 layout: book
 published: true
 permalink: /writing/books/books_authored/between-men.html
+category: Books Edited
 
 type: book
 role: editor
 with: none
-title: "Novel Gazing: Queer Readings in Fiction"
-publisher: Duke University Press
-publication_date: 1997
-isbn:
+title: Novel Gazing
+sub-title: Queer Readings in Fiction
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     "Durham, N.C."
+      series:       Series Q
+      date:         1997
+      binding:      none
+      notes:        none
+      translations: none
+      isbn: 
+      further_editions: none
 
 amazon_url:
 indiebound_url:
