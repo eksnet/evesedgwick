@@ -1,24 +1,27 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/warhols-shyness-warhols-whiteness.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: "Warhol's Shyness, Warhol's Whiteness"
 sub_title: none
 
 in:
-    - description:  journal
-      editors:      none
-      publication:  Social Text
+    - description:  book
+      editors:      
+        - Jennifer Doyle
+        - Jonathan Flatley
+        - JosŽ Munoz
+      publication:  "Pop Out: Queer Warhol"
       issue:        52-3
-      publisher:    none
-      location:     none
+      publisher:    Duke University Press
+      location:     Durham
       series:       none
-      date:         Autumn-Winter 1997
+      date:         1996
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +37,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Warhol's Shyness, Warhol's Whiteness," in Jennifer Doyle, Jonathan Flatley, and JosŽ Munoz, eds., <i>Pop Out: Queer Warhol</i> (Durham: Duke University Press, 1996)

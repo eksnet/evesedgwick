@@ -13,12 +13,12 @@ sub_title: none
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  Amherst
+      issue:        none
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         Winter l985
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Sabrina Doesn't Live Here Anymore" <i>Amherst</i>, Winter, l985.

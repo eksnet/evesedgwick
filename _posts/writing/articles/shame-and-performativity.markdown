@@ -1,24 +1,24 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/shame-and-performativity.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
-sub_title: none
+title: Shame and Performativity
+sub_title: Henry James's <i>New York Edition Prefaces</i>
 
 in:
-    - description:  journal
-      editors:      none
-      publication:  Social Text
-      issue:        52-3
-      publisher:    none
-      location:     none
+    - description:  book
+      editors:      D. McWhirter
+      publication:  "<i>Henry James's New York Editions: The Construction of Authorship</i>"
+      issue:        none
+      publisher:    Stanford University Press
+      location:     Stanford
       series:       none
-      date:         Autumn-Winter 1997
+      date:         1995
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Shame and Performativity: Henry James's <i>New York Edition Prefaces</i>," in D. McWhirter (ed), <i>Henry James's New York Editions: The Construction of Authorship</i>. (Stanford: Stanford University Press, 1995).

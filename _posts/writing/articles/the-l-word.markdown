@@ -1,24 +1,24 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/the-l-word.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
-sub_title: none
+title: "'The L Word'"
+sub_title: Novelty in Normalcy
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  The Chronicle of Higher Education
+      issue:        none
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         "January 16, 2004"
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"'The L Word': Novelty in Normalcy," <i>The Chronicle of Higher Education</i>, January 16, 2004.

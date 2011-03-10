@@ -7,18 +7,18 @@ category: Published Articles
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: "Writing, Gay Studies, and Affection"
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  Lesbian and Gay Studies Newsletter
+      issue:        18
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         "November, 1991"
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Writing, Gay Studies, and Affection," <i>Lesbian and Gay Studies Newsletter</i> 18, November, 1991.

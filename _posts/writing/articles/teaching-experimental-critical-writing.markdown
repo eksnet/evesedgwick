@@ -1,24 +1,26 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/teaching-experimental-critical-writing.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: Teaching Experimental Critical Writing
 sub_title: none
 
 in:
     - description:  journal
-      editors:      none
-      publication:  Social Text
-      issue:        52-3
-      publisher:    none
-      location:     none
+      editors:      
+        - J. Lane
+        - Phelan
+      publication:  The Ends of Performance
+      issue:        none
+      publisher:    New York University Press
+      location:     New York
       series:       none
-      date:         Autumn-Winter 1997
+      date:         1998
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +36,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Teaching Experimental Critical Writing," in J. Lane and Phelan (eds), <i>The Ends of Performance</i> (New York: New York University Press, 1998).

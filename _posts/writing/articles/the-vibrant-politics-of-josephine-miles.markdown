@@ -1,24 +1,24 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/the-vibrant-politics-of-josephine-miles.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: The Vibrant Politics of Josephine Miles
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  Epoch
+      issue:        3l.l
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         1982
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"The Vibrant Politics of Josephine Miles," <i>Epoch</i> 3l.l, 1982.

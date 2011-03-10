@@ -1,24 +1,24 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/teaching-depression.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: Teaching/Depression
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  The Scholar and Feminist Online
+      issue:        4
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         Spring 2006
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Teaching/Depression," <i>The Scholar and Feminist Online</i> 4, Spring, 2006.

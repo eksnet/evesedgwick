@@ -1,24 +1,24 @@
 ---
 layout: book
 published: true
-permalink: /writing/articles/.html
+permalink: /writing/articles/tide-and-trust.html
 category: Published Articles
 
 type: article
 role: author
 with: none
-title: Proust and the Queer Little Gods
+title: Tide and Trust
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  Critical Inquiry
+      issue:        none
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         "Summer, 1989"
       binding:      none
       notes:        none
       translations: none
@@ -34,5 +34,3 @@ display_data:
     - {k: editions.date, v: Publication Date}
   
 ---
-
-"Tide and Trust," <i>Critical Inquiry</i>, Summer, 1989.
