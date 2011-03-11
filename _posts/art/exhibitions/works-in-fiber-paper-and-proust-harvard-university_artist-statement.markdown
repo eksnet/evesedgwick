@@ -1,0 +1,5 @@
+Works in Fiber, Paper, and Proust, Harvard University, 2005
+
+### Works in Fiber, Paper, and Proust: Artist Statement
+
+The pieces in this show emerge from a decades-long engagement with Marcel Proust's novel, <i>A la recherche du temps perdu,</i> but they are not meant either to illustrate the book or to evoke its time, place, or atmospheres. The show's title reflects my interest in using Proust's language and thought as a medium, one with texture and materiality comparable to other artistic media, that can be manipulated through various processes to show new aspects. But if these are works "in" Proust in the same sense that they're "in" fiber or paper, they also reflect the transformative potential of a prolonged immersion in someone else's mental world, a way of being "in Proust." I am especially interested in the dailiness of a mysticism that doesn't rely on the esoteric or occult, but on simple material metamorphoses as they are emulsified with language and meaning.

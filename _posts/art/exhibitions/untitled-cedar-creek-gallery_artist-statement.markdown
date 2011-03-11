@@ -1,0 +1,1 @@
+-----, Cedar Creek Gallery, Durham, NC 2000
