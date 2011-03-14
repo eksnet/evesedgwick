@@ -19,18 +19,18 @@ editions:
       binding:      cloth and paper
       notes:        none
       translations: none
-      isbn: 
+      isbn:         none
       further_editions:
         - type:         paperback
           date:         1986
           series:       none
           notes:        none
           translations: Japanese
-          isbn:         
+          isbn:         none
 
-amazon_url:
-indiebound_url:
-worldcat_url:
+amazon_url:         none
+indiebound_url:     none
+worldcat_url:       none
 
 cover_img: betweenmen.jpg
 description:

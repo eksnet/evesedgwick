@@ -23,9 +23,9 @@ editions:
       isbn:         none
       further_editions: none 
 
-amazon_url:
-indiebound_url:
-worldcat_url:
+amazon_url:		none
+indiebound_url:	none
+worldcat_url:		none
 
 cover_img: none
 description:>

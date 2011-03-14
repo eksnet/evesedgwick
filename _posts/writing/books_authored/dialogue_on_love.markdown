@@ -1,7 +1,7 @@
 ---
 layout: book
 published: true
-permalink: /writing/books/books_authored/between-men.html
+permalink: /writing/books/books_authored/a-dialogue-on- love.html
 category: Books Authored
 
 type: book
@@ -19,18 +19,18 @@ editions:
       binding:      cloth and paper
       notes:        none
       translations: Chinese
-      isbn: 
+      isbn: 		none
       further_editions:
         - type:         paperback
           date:         2000
           series:       none
           notes:        none
           translations: none
-          isbn:         
+          isbn:         none
 
-amazon_url:
-indiebound_url:
-worldcat_url:
+amazon_url:		none
+indiebound_url:	none
+worldcat_url:		none
 
 cover_img: dialogueonlove.jpg
 description:

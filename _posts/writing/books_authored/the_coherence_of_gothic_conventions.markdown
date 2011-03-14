@@ -1,7 +1,7 @@
 ---
 layout: book
 published: true
-permalink: /writing/books/books_authored/between-men.html
+permalink: /writing/books/books_authored/the-coherence-of-gothic-conventions.html
 category: Books Authored
 
 type: book
@@ -19,7 +19,7 @@ editions:
       binding:      none
       notes:        none
       translations: none
-      isbn: 
+      isbn: 		none
       further_editions:
         - type:         paperback
           date:         1986
@@ -35,12 +35,12 @@ editions:
       binding:      none
       notes:        none
       translations: none
-      isbn: 
+      isbn: 		none
       further_editions: none
 
-amazon_url:
-indiebound_url:
-worldcat_url:
+amazon_url:		none
+indiebound_url:	none
+worldcat_url:		none
 
 cover_img: coherence.jpg
 description:

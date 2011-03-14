@@ -19,7 +19,7 @@ editions:
       binding:      cloth and paper
       notes:        none
       translations: none
-      isbn: 
+      isbn: 		none
       further_editions: none
 
 publisher_location: 
@@ -27,9 +27,9 @@ publisher: Duke University Press
 publication_date: 1994
 isbn:
 
-amazon_url:
-indiebound_url:
-worldcat_url:
+amazon_url:		none
+indiebound_url:	none
+worldcat_url:		none
 
 cover_img: fatartthinart.jpg
 description:
