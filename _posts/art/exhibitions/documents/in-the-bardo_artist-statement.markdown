@@ -1,4 +1,27 @@
-In the Bardo, SUNY-Stony Brook, 2001
+---
+layout: document
+published: true
+permalink: /writing/articles/bodhisattva-fractal-world_artist-statement.html
+category: Exhibition Document, Artist's Statement
+
+type: document
+role: artist
+with: none
+title: In the Bardo
+sub_title: none
+
+exhibitions:
+	- venue: SUNY-Stony Brook
+	- date: 2001
+
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---
 
 ### In the Bardo: From "Come as You Are" (Unpublished, 1999)
 

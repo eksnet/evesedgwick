@@ -1,4 +1,27 @@
-Works in Fiber, Paper, and Proust, Harvard University, 2005
+---
+layout: document
+published: true
+permalink: /writing/articles/bodhisattva-fractal-world_artist-statement.html
+category: Exhibition Document, Artist's Statement
+
+type: document
+role: artist
+with: none
+title: "Works in Fiber, Paper, and Proust"
+sub_title: none
+
+exhibitions:
+	- venue: Harvard University
+	- date: 2005
+
+description: none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: editions.publisher, v: Publisher}
+    - {k: editions.date, v: Publication Date}
+  
+---
 
 ### Works in Fiber, Paper, and Proust: Artist Statement
 
