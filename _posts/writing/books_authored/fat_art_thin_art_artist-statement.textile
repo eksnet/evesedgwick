@@ -1,0 +1,56 @@
+---
+layout: book
+published: true
+permalink: /writing/books/books_authored/between-men.html
+category: Books Authored
+
+type: book
+role: author
+with: none
+title: "Fat Art, Thin Art"
+sub-title: none
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     Durham, N.C.
+      series:       Gender and Culture Series
+      date:         1994
+      binding:      cloth and paper
+      notes:        none
+      translations: none
+      isbn: 		none
+      further_editions: none
+
+publisher_location: 
+publisher: Duke University Press
+publication_date: 1994
+isbn:
+
+amazon_url:     none
+indiebound_url:	www.indiebound.org/book/9780822315124
+worldcat_url:		none
+
+cover_img:      fatartthinart.jpg
+description:    none
+
+display_data:
+    - {k: title, v: Title}
+    - {k: publisher, v: Publisher}
+    - {k: publication_date,  v: Publication Date}
+
+---
+
+h3. Fat Art, Thin Art (Duke University Press, 1994)
+
+Eve Kosofsky Sedgwick is best known as a cultural and literary critic, as one of the primary forces behind the development of queer and gay/lesbian studies, and as author of several influential books: _Tendencies_, _Epistemology of the Closet_, and _Between Men: English Literature and Male Homosocial Desire_. The publication of _Fat Art, Thin Art_, Sedgwick’s first volume of poetry, opens up another dimension of her continuing project of crossing and re-crossing the electrified boundaries between theory, lyric, and narrative.
+
+Embodying a decades-long adventure, the poems collected here offer the most accessible and definitive formulations to appear anywhere in Sedgwick’s writing on some characteristic subjects and some new ones: passionate attachments within and across genders; queer childhoods of many kinds; the performativity of a long, unconventional marriage; depressiveness, hilarity, and bliss; grave illness; despised and magnetic bodies and bodily parts. In two long fictional poems, a rich narrative momentum engages readers in the mysterious places -- including Victorian novels -- where characters, sexualities, and fates are unmade and made. Sedgwick’s poetry opens an unfamiliar, intimate, daring space that steadily refigures not only what a critic may be, but what a poem can do. --_From the jacket copy_
+
+"_Fat Art, Thin Art_ is a wrenchingly honest account -- or enactment--of a writer’s relation to her gift ... filled with hesitations, self-cancellations, erasures, and gratifying fireworks. The pleasure of _Fat Art, Thin Art_ is witnessing Sedgwick discovering, again and again, the wonders--gorgeous shames and vindications -- of what she can say." --_Wayne Koestenbaum_
+
+"How often the fiercest, the most autonomous American critics have been poets; from Emerson to Blackmur, from Burke to Hartman, many a discursion could be illustrated, even illuminated by reading the ulterior verse. Eve Kosofsky Sedgwick is such another, and it will enrich certain enigmas she has proposed, as well as appeal to certain appetites she has awakened, to immerse in this element--fragmentary at its widest reach (a deconstructed Victorian 3-decker), healing at its most abrupt ('the yard, the mud, the morning / in their new, punished clothes'), and ever searching for the makings of the dilemma. Such is the true poetics of Eve Kosofsky Sedgwick, and of course it is the poetry as well." --_Richard Howard_
+
+"Reading _Fat Art, Thin Art_ is a thrilling experience. The publication of these poems will help to complete our picture of Eve Kosofsky Sedgwick who, already recognized as one of the most extraordinary critics of her generation, now proves herself one of its truly innovative poets." --_Maud Ellmann_
+
+"This is poetry of a great soul which presents to mind shapely and unmistakable presences brought very close to the eye. _Fat Art, Thin Art_ is a work of poetic distinction and indispensable human use." --_Allen Grossman_

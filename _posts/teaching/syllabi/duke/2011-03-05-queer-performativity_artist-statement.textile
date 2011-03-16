@@ -21,7 +21,7 @@ related_media:
 
 ---
 
-### Queer Performativity: Duke, 1993
+h3. Queer Performativity: Duke, 1993
 
 Monday, August 30: Introduction  
 Monday, September 6:  JL Austin, How to Do Things With Words  

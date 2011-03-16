@@ -38,12 +38,12 @@ editions:
       isbn: 		none
       further_editions: none
 
-amazon_url:		none
+amazon_url:     none
 indiebound_url:	none
 worldcat_url:		none
 
-cover_img: coherence.jpg
-description:
+cover_img:      coherence.jpg
+description:    none
 
 display_data:
     - {k: title, v: Title}
@@ -52,6 +52,6 @@ display_data:
 
 ---
 
-### The Coherence of Gothic Conventions (Arno Press, 1980)
+h3. The Coherence of Gothic Conventions (Arno Press, 1980)
 
-Containing revised opening and closing chapters, this new edition of <i>The Coherence of Gothic Conventions</i> makes the case that the Gothic in English literature has been marked by a distinctive and highly influential set of ambitions about relations of meaning. Through readings of classic Gothic authors as well as of De Quincey and the Brontes, Sedgwick links the most characteristic thematic content of the Gothic firmly and usably to the genre’s radical claims for representation. A new introduction to this reprint of a 1980 study clarifies the connection between the linguistic or epistemological argument of the Gothic and its epochal crystallization of modern gender and modern homophobia. --<i>From the jacket copy</i>
+Containing revised opening and closing chapters, this new edition of _The Coherence of Gothic Conventions_ makes the case that the Gothic in English literature has been marked by a distinctive and highly influential set of ambitions about relations of meaning. Through readings of classic Gothic authors as well as of De Quincey and the Brontes, Sedgwick links the most characteristic thematic content of the Gothic firmly and usably to the genre’s radical claims for representation. A new introduction to this reprint of a 1980 study clarifies the connection between the linguistic or epistemological argument of the Gothic and its epochal crystallization of modern gender and modern homophobia. --_From the jacket copy_
