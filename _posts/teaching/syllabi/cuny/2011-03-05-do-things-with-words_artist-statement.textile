@@ -1,14 +1,14 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/syllabi/cuny/How-to-Do-Things-with-Words-and-Other-Materials.html
+categories: teaching syllabi cuny
 
 type: syllabus
 title: How to Do Things with Words and Other Materials
 location: CUNY  
 creation_date: ND
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}

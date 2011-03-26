@@ -8,7 +8,7 @@ title: Queer Performativity
 location: Duke
 creation_date: 1993
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}

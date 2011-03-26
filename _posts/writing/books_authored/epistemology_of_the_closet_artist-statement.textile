@@ -19,7 +19,7 @@ editions:
       binding:      none
       notes:        A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991.
       translations: Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese
-      isbn: 		none
+      isbn:         none
       further_editions:
         - type:         paperback reissue with new material
           date:         2008
@@ -28,9 +28,9 @@ editions:
           translations: none
           isbn:         none
 
-amazon_url:		  none
-indiebound_url:	www.indiebound.org/book/9780520254060
-worldcat_url:		none
+amazon_url:          none
+indiebound_url:    www.indiebound.org/book/9780520254060
+worldcat_url:        none
 
 cover_img:      epistemologyofthecloset.jpg
 description:    none

@@ -1,14 +1,14 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/syllabi/cuny/Asian-Encounters.html
+categories: syllabi cuny
 
 type: syllabus
 title: Asian Encounters
 location: CUNY
 creation_date: ND
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}
@@ -30,7 +30,7 @@ h4. Assigned Readings:
 Cleary, Thomas, tr.  The Essential Tao.  HarperSanFrancisco.  
 Kerouac, Jack.  Dharma Bums.  Penguin.  
 Kipling, Rudyard.  Kim.  Penguin.  
-Merrill, James. Divine Comedies.  Atheneum.  (Out of printñwill duplicate and hand out)  
+Merrill, James. Divine Comedies.  Atheneum.  (Out of print - will duplicate and hand out)  
 Sogyal Rinpoche,  The Tibetan Book of Living and Dying.  HarperSanFrancisco  
 Stone, Jacqueline I. 'The Contemplation of Suchness.'  In Tanabe, George J., ed.  Religions of Japan in Practice.  Princeton U. Press (handout)  
 Thurman, Robert A. F., tr.,  The Holy Teaching of Vimalakirti.  Pennsylvania State U. Press.  
@@ -97,4 +97,4 @@ Since there is no obscuration of mind, there is no fear. They transcend falsity 
 OM GATE GATE PARAGATE PARASAMGATE BODHI SVAHA  
 Thus, Shariputra, the bodhisattva mahasattva should train in the profound prajnaparamita.  
 Then the Blessed One arose from that samadhi and praised noble Avalokiteshvara, the bodhisattva mahasattva, saying, "Good, good, O son of noble family; thus it is, O son of noble family, thus it is. One should practice the profound prajnaparamita just as you have taught and all the tathagatas will rejoice."   
-When the Blessed One had said this, venerable Shariputra and noble Avalokiteshvara, the bodhisattva mahasattva, that whole assembly and the world with its gods, humans, asuras, and gandharvas rejoiced and praised the words of the Blessed One.  
+When the Blessed One had said this, venerable Shariputra and noble Avalokiteshvara, the bodhisattva mahasattva, that whole assembly and the world with its gods, humans, asuras, and gandharvas rejoiced and praised the words of the Blessed One.

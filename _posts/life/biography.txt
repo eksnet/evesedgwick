@@ -17,7 +17,7 @@ Durham: 1988 to 1997
 New York: 1998 to 2009
 
 sub/
-Dayton: 1950 to 1957	
+Dayton: 1950 to 1957    
 /sub
 
 image/left
@@ -36,12 +36,12 @@ childhood09.jpg
 Eve attended public schools in Dayton for two years: kindergarten and second grade, skipping first grade due to her early mastery of reading and general intellectual precocity. She took ballet lessons, made paintings and drawings inspired by art reproductions her parents borrowed each month from the Dayton Museum of Art, and by the age of seven had decided that she would be a poet.
 
 sub/
-Bethesda: 1957 to 1967		
+Bethesda: 1957 to 1967        
 
 image/right
 childhood10.jpg
 /image
-					
+                    
 In 1957 Leon Kosofsky was offered a position with the Army Map Service, doing the same sort of photogrammetric work as in Dayton. The salary and advancement possibilities were somewhat better, but the real lure was location: the relatively cosmopolitan Washington, D.C. area. So, when Eve was seven, the family moved to a house in Bethesda, Maryland, inside the not-yet-completed Beltway, where she spent the next decade of her life.
 
 image/left
@@ -144,7 +144,7 @@ that she was (as she wrote in her note to the poem) "to regard as current work" 
 Beyond her positive experiences with her friends in FWC, Sedgwick found little to attract her to Hamilton and was eager to get out of Clinton before her four-year term expired.
 
 sub/
-Boston: 1981 to 1984		
+Boston: 1981 to 1984        
 /sub
 
 In the fall of 1981, Sedgwick joined the English Department of Boston University as a tenure-track Assistant Professor. 
@@ -194,7 +194,7 @@ The AIDS epidemic was already underway but only beginning to be widely recognize
 During the year of her Guggenheim, Sedgwick continued to explore ways of more permanently increasing her time for writing. It was this, rather than a wish to leave Amherst, that made her tentatively receptive to a feeler from Stanley Fish, who was then engaged in transforming the English department at Duke University. Following negotiations and a visit to Durham, in North Carolina, Sedgwick was persuaded. She accepted an offer of a full professorship at Duke.
 
 sub/
-Durham: 1988 to 1997	
+Durham: 1988 to 1997    
 /sub
 
 If Sedgwick’s move to Duke contributed to the impression that its English department was becoming a center for new developments in literary criticism, it also enhanced her reputation as a rising academic star. This in turn perhaps heightened the attention that was paid to <i>Epistemology of the Closet</i> when it appeared in 1990. Such attention was amply rewarded, and <i>Epistemology</i> rapidly became a central text in the emerging field of gay studies. It was awarded second place ("honorable mention") for the MLA’s 1990 prize for "outstanding literary or linguistic study" (first place went to Fredric Jameson, a senior colleague of Sedgwick’s at Duke, also recruited by Fish). In 1992 Sedgwick became a distinguished professor at Duke, receiving the Newman Ivy White [[Chair.]] 

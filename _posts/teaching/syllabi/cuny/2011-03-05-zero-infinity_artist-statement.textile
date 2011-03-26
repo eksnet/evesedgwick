@@ -8,7 +8,7 @@ title: Zero, Infinity, Chaos, Sublimity
 location: CUNY
 creation_date: Spring 2002
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}

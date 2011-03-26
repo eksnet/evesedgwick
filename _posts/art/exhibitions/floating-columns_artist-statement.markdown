@@ -11,8 +11,8 @@ title: Floating Columns
 sub_title: none
 
 exhibitions:
-	- venue: Rhode Island School of Design
-	- date: 1999
+    - venue: Rhode Island School of Design
+    - date: 1999
 
 description: none
 

@@ -11,8 +11,8 @@ title: Bodhisattva Fractal World
 sub_title: none
 
 exhibitions:
-	- location: Johns Hopkins University
-	- date: 2002
+    - location: Johns Hopkins University
+    - date: 2002
 
 description: none
 

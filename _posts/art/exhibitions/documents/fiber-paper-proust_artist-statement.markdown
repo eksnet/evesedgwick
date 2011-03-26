@@ -11,8 +11,8 @@ title: "Works in Fiber, Paper, and Proust"
 sub_title: none
 
 exhibitions:
-	- venue: Harvard University
-	- date: 2005
+    - venue: Harvard University
+    - date: 2005
 
 description: none
 

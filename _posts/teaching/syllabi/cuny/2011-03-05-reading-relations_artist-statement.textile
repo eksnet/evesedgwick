@@ -8,7 +8,7 @@ title: Reading Relations in British Fiction
 location: CUNY  
 creation_date: ND
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}

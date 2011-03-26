@@ -19,12 +19,12 @@ editions:
       binding:      none
       notes:        none
       translations: none
-      isbn: 		none
+      isbn:         none
       further_editions: none
 
-amazon_url:		  none
-indiebound_url:	http://www.indiebound.org/book/9780822317999
-worldcat_url:		none
+amazon_url:          none
+indiebound_url:    http://www.indiebound.org/book/9780822317999
+worldcat_url:        none
 
 cover_img:      garyinyourpocket.jpg
 description:    none

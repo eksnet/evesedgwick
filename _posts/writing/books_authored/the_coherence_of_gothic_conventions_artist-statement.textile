@@ -19,7 +19,7 @@ editions:
       binding:      none
       notes:        none
       translations: none
-      isbn: 		none
+      isbn:         none
       further_editions:
         - type:         paperback
           date:         1986
@@ -35,12 +35,12 @@ editions:
       binding:      none
       notes:        none
       translations: none
-      isbn: 		none
+      isbn:         none
       further_editions: none
 
 amazon_url:     none
-indiebound_url:	none
-worldcat_url:		none
+indiebound_url:    none
+worldcat_url:        none
 
 cover_img:      coherence.jpg
 description:    none
