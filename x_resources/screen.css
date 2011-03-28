@@ -51,83 +51,131 @@ body {
   min-width: 896px;
   margin:0px;
   padding: 0px;
-  color: #5E595E;
+  color: #3E403F;
   font-family: Georgia, serif;
   font-size: 12px;
   line-height: 18px;
   font-weight: normal;
   text-align: left;
-  overflow:auto;
-  background-color:#E0E0D7;
+  background-color:#fff;
 }
 
 #page_header { border-top: 4px solid #292627; }
 article, aside, footer, header, hgroup, nav, section {
-  overflow:auto;
+
 }
 #container {
   float: left;
   width: 1267px;
+}
+header {
+  /*border-top:14px solid #292627;*/
+  margin-bottom:80px;
+  padding:0px 0px 120px;
 }
 .left, .content, .right {
   min-height:20px;
 }
 .left {
   float: left;
-  width: 100px;
+  width: 200px;
 }
 .content {
   float: left;
   width: 935px;
-  padding-left:30px;
+  margin-left:200px;
 }
 .right {
   float: right;
   width:172px;
 }
-#page_footer { border-top: 2px solid #292627; }
-.side_module { /*border-bottom: 1px solid #999999;*/ }
+section.item {
+/*
+  border-top: 1px solid #999;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;*/
 
-.left {
-  float: left;
-  margin: 0px 12px 0px 0px;
+  border-bottom: 1px solid #999;
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+
+  
+  padding: 0px 12px 4px;
+  /*
+  border-top:6px solid #3E403F;
+    border-bottom:6px solid #3E403F;*/
+  
+  font-family: arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:14px;
+  color:#70686b;
+  margin-bottom:36px;
+  background-color:#C5D2DD;
 }
-.right {
-  float: right;
-  margin: 0px;
-  text-align: right;
+nav {
+  
+  border-top: 1px solid #999;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+/*
+
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  */
+
+  height:16px;
+  font-family: "arial bold", Helvetica, sans-serif;
+  margin: 0px 0px 36px;
+  padding: 8px 0px;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: none;
+  font-weight:600;
+  background-color:#d3d3d3;
+  color: #3E403F;
 }
-.container {
-  clear: both;
-  float: left;
-  margin: 0px 0px 12px 0px;
+nav ul, nav li {
+  display:inline;
+  float:right;
 }
-h1 ,h2, h3, h4, h5, h6 {
+nav li {
+  padding:0px 12px;
+/*  text-shadow: white 1px 1px 0px;*/
+}
+h1 ,h2{
   font-family: arial, Helvetica, sans-serif;
 }
 h1 {
   margin: 0px;
-  padding: 100px 0px 40px 0px;
-  font-size: 22px;
-  line-height: 22px;
+  padding: 0px 12px;
+  font-size: 36px;
+  line-height: 36px;
   text-transform: none;
-  color: #292627;
+  font-weight:100;
+  color: #3E403F;
+}
+h1 span {
+  font-weight:100;
 }
 h2 {
+  font-family: "arial bold", Helvetica, sans-serif;
   margin: 0px;
-  padding: 0px 0px 0px 2px;
-  font-size: 18px;
-  line-height: 32px;
+  padding: 14px 0px 6px;
+  font-size: 21px;
+  line-height: 21px;
   text-transform: none;
-  color: #292627;
+  color: #3E403F;
+}
+h2 span {
+  font-weight:100;
 }
 h3 {
-  margin: 0px;
+  margin: 0px 0px 12px;
   padding: 0px 0px 0px 2px;
   font-size: 12px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #292627;
+  color: #3E403F;
 }
 h4 {
   margin: 0px;
@@ -135,7 +183,6 @@ h4 {
   font-size: 12px;
   line-height: 28px;
   text-transform: none;
-  color: #191a19;
 }
 h4.leading {
   margin: 0px;
@@ -143,7 +190,6 @@ h4.leading {
   font-size: 12px;
   line-height: 12px;
   text-transform: none;
-  color: #191a19;
 }
 h5 {
   margin: 0px;
@@ -152,7 +198,6 @@ h5 {
   line-height: 18px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #70686b;
 }
 h5.normal {
   margin: 0px;
@@ -161,7 +206,6 @@ h5.normal {
   line-height: 18px;
   font-weight: normal;
   text-transform: uppercase;
-  color: #70686b;
 }
 h6 {
   margin: 0px;
@@ -170,23 +214,22 @@ h6 {
   line-height: 18px;
   font-weight: normal;
   text-transform: none;
-  color: #70686b;
 }
-p { margin: 0px 0px 12px 0px; }
+p { margin: 0px 0px 8px 0px; }
 a {
-  color: #292627;
+  color: #70686b;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
 }
 a:link {
-  color: #292627;
+  color: #3E403F;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
 }
 a:visited {
-  color: #292627;
+  color: #70686b;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
@@ -204,19 +247,19 @@ a:active {
   background-color: transparent;
 }
 a.block {
-  color: #292627;
+  color: #3E403F;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
 }
 a:link.block {
-  color: #292627;
+  color: #3E403F;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
 }
 a:visited.block {
-  color: #292627;
+  color: #3E403F;
   font-weight: bold;
   text-decoration: none;
   background-color: transparent;
@@ -289,7 +332,7 @@ p.caption { padding: 0px 2px 0px 0px; }
   border-bottom: 1px solid #cccccc;
 }
 #navigation a {
-  color: #292627;
+  color: #3E403F;
   display: block;
   padding: 2px 0px 2px 3px;
   font-size: 12px;
@@ -323,8 +366,8 @@ p.caption { padding: 0px 2px 0px 0px; }
   font-weight: bold;
   text-transform: uppercase;
 }
-#navigation a:link.menu { color: #292627; }
-#navigation a:visited.menu { color: #292627; }
+#navigation a:link.menu { color: #3E403F; }
+#navigation a:visited.menu { color: #3E403F; }
 #navigation a:hover.menu {
   color: #249159;
   text-decoration: none;
@@ -339,32 +382,32 @@ p.caption { padding: 0px 2px 0px 0px; }
   font-weight: bold;
   text-transform: uppercase;
 }
-#navigation a:link.nonlinking { color: #292627; }
-#navigation a:visited.nonlinking { color: #292627; }
+#navigation a:link.nonlinking { color: #3E403F; }
+#navigation a:visited.nonlinking { color: #3E403F; }
 #navigation a:active.nonlinking {
-  color: #292627;
+  color: #3E403F;
   text-decoration: none;
   background-color: transparent;
 }
 #navigation a:hover.nonlinking {
-  color: #292627;
+  color: #3E403F;
   text-decoration: none;
   background-color: transparent;
 }
 #navigation a:link.current {
-  color: #292627;
+  color: #3E403F;
   font-weight: bold;
   text-decoration: underline;
   background-color: transparent;
 }
 #navigation a:visited.current {
-  color: #292627;
+  color: #3E403F;
   font-weight: normal;
   text-decoration: none;
   background-color: transparent;
 }
 #navigation a.sub {
-  color: #292627;
+  color: #3E403F;
   display: block;
   margin-left: 10px;
   font-size: 11px;
@@ -372,13 +415,13 @@ p.caption { padding: 0px 2px 0px 0px; }
 }
 #navigation li.leaf { margin-left: 8px; }
 #navigation ul.sub_menu a:link.current {
-  color: #292627;
+  color: #3E403F;
   font-weight: normal;
   text-decoration: underline;
   background-color: transparent;
 }
 #navigation ul.sub_menu a:visited.current {
-  color: #292627;
+  color: #3E403F;
   font-weight: normal;
   text-decoration: none;
   background-color: transparent;
@@ -432,7 +475,7 @@ h3.category {
 .album .body .thumb {
   height: 116px;
   width: 84px;
-  background-color: #292627;
+  background-color: #3E403F;
 }
 .document {
   margin: 0px 0px 0px 0px;
