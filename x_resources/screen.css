@@ -89,17 +89,30 @@ header {
   float: right;
   width:172px;
 }
+section.meta {
+  border-top: 1px solid white;
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+ /* border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;*/
+  background-color:#E0E0E0;
+  margin:0px 0px 12px;
+  padding: 6px 12px ;
+  font-family: arial, Helvetica, sans-serif;
+  font-size:11px;
+  line-height:14px;
+  color:#70686b;
+}
 section.item {
 /*
   border-top: 1px solid #999;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;*/
 
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #8C959D;
   border-top-left-radius: 5px 5px;
   border-top-right-radius: 5px 5px;
 
-  
   padding: 0px 12px 4px;
   /*
   border-top:6px solid #3E403F;
@@ -109,29 +122,22 @@ section.item {
   font-size:11px;
   line-height:14px;
   color:#70686b;
-  margin-bottom:36px;
   background-color:#C5D2DD;
 }
 nav {
-  font-family: arial, Helvetica, sans-serif;
-/*  border-top: 1px solid #999;
+  
+  border-top: 1px solid #999;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
 
-
+/*
   border-top-left-radius: 5px 5px;
   border-top-right-radius: 5px 5px;
   */
-
   height:16px;
   margin: 0px 0px 0px;
   padding: 8px 0px;
-  font-size: 11px;
-  line-height: 16px;
-  text-transform: none;
-  font-weight:600;
-  /*background-color:#d3d3d3;*/
-  color: #3E403F;
+  background-color:#d3d3d3;
 }
 nav ul, nav li {
   display:inline;
@@ -168,8 +174,8 @@ nav li ul {
   color: #3E403F;
 }
 .sub-nav ul, .sub-nav li {
+  float:left;
  /* display:inline;
-  
   float:right;*/
 }
 .sub-nav li {
@@ -204,18 +210,26 @@ h2 span {
   font-weight:100;
 }
 h3 {
-  margin: 0px 0px 12px;
-  padding: 0px 0px 0px 2px;
-  font-size: 12px;
-  line-height: 28px;
-  text-transform: uppercase;
-  color: #3E403F;
+  margin: 2px 0px;
+  padding: 0px;
+  font-size: 11px;
+  line-height: 18px;
+  text-transform: none;
+  font-weight:100;
+  color: #70686B;
+}
+h3 span {
+  font-weight:600;
+  float:left; width:90px;
 }
 h4 {
-  margin: 0px;
-  padding: 0px 0px 0px 2px;
-  font-size: 12px;
-  line-height: 28px;
+  margin:0px;
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: none;
+  font-weight:600;
+  color: #3E403F;
   text-transform: none;
 }
 h4.leading {
