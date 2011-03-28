@@ -82,8 +82,8 @@ header {
 }
 .content {
   float: left;
-  width: 935px;
-  margin-left:200px;
+  width: 700px;
+  padding:0px 200px 0px 120px;
 }
 .right {
   float: right;
@@ -113,25 +113,24 @@ section.item {
   background-color:#C5D2DD;
 }
 nav {
-  
-  border-top: 1px solid #999;
+  font-family: arial, Helvetica, sans-serif;
+/*  border-top: 1px solid #999;
   border-bottom-left-radius: 5px 5px;
   border-bottom-right-radius: 5px 5px;
-/*
+
 
   border-top-left-radius: 5px 5px;
   border-top-right-radius: 5px 5px;
   */
 
   height:16px;
-  font-family: "arial bold", Helvetica, sans-serif;
-  margin: 0px 0px 36px;
+  margin: 0px 0px 0px;
   padding: 8px 0px;
   font-size: 11px;
   line-height: 16px;
   text-transform: none;
   font-weight:600;
-  background-color:#d3d3d3;
+  /*background-color:#d3d3d3;*/
   color: #3E403F;
 }
 nav ul, nav li {
@@ -139,6 +138,41 @@ nav ul, nav li {
   float:right;
 }
 nav li {
+  width:80px;
+  padding:0px 12px;
+/*  text-shadow: white 1px 1px 0px;*/
+}
+nav li ul {
+  padding:0px;
+  font-weight:normal;
+/*  text-shadow: white 1px 1px 0px;*/
+}
+.sub-nav {
+  font-family: arial, Helvetica, sans-serif;
+
+  border-bottom-left-radius: 5px 5px;
+  border-bottom-right-radius: 5px 5px;
+/*
+
+  border-top-left-radius: 5px 5px;
+  border-top-right-radius: 5px 5px;
+  */
+  
+  margin: 0px 0px 36px;
+  padding: 8px 0px;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: none;
+  font-weight:100;
+  background-color:transparent;
+  color: #3E403F;
+}
+.sub-nav ul, .sub-nav li {
+ /* display:inline;
+  
+  float:right;*/
+}
+.sub-nav li {
   padding:0px 12px;
 /*  text-shadow: white 1px 1px 0px;*/
 }
@@ -148,7 +182,7 @@ h1 ,h2{
 h1 {
   margin: 0px;
   padding: 0px 12px;
-  font-size: 36px;
+  font-size: 18px;
   line-height: 36px;
   text-transform: none;
   font-weight:100;
@@ -158,13 +192,13 @@ h1 span {
   font-weight:100;
 }
 h2 {
-  font-family: "arial bold", Helvetica, sans-serif;
   margin: 0px;
   padding: 14px 0px 6px;
   font-size: 21px;
   line-height: 21px;
   text-transform: none;
   color: #3E403F;
+  font-weight:600;
 }
 h2 span {
   font-weight:100;
