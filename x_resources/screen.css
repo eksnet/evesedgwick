@@ -89,15 +89,20 @@ header {
   float: right;
   width:172px;
 }
-section#control {
+#main {
+  float: left;
+  width: 700px;
+  padding:0px 200px 0px 120px;
+}
+#control {
   width: 700px;
   font-family: arial, Helvetica, sans-serif;
   font-size:11px;
   line-height:14px;
   color:#70686b;
 }
-div#nav-block {
-  width:100%;
+#nav-block {
+  width: 700px;
   float:left;
   border-bottom: 1px solid #8C959D;
   border-top-left-radius: 5px 5px;
@@ -106,8 +111,8 @@ div#nav-block {
 
   background-color:#E0E0E0;
 }
-div#title-block {
-  width:100%;
+#title-block {
+  width: 700px;
   float:left;
 /*
   border-top: 1px solid #999;
@@ -122,8 +127,8 @@ div#title-block {
   padding: 0px 12px 4px;
   background-color:#C5D2DD;
 }
-div#meta-block {
-  width:100%;
+#meta-block {
+  width: 700px;
   float:left;
   border-top: 1px solid white;
   border-bottom-left-radius: 5px 5px;
