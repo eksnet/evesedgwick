@@ -2,64 +2,28 @@
 layout: base
 ---
 
-<!-- page title -->
-<div class="page_title container cc_12 rule_b">
-    <h2><a href='/teaching/syllabi/'>Syllabi</a>: <a href='/teaching/syllabi/{{ page.location | downcase }}/'>{{ page.location }}</a>: {{ page.title }}</h2>
-</div>
-<!-- /page title -->
-<!-- Outer Container -->
-<div id="center" class="container cc_12;">
-    <!-- document -->
-    <div id="document1" class="document container cc_12 bg5">
-        <div class="header container cc_12 bg4">
-            <div class="right cc_12 text_l bg3" ><h3>{{ page.title }} - {{ page.location | capitalize }}, {{ page.creation_date }}</h3></div>
-        </div>
-        <!-- hideable -->
-        <div id="document1_body" class="hideable">
-            <!-- left column -->
-            <div class="left_column left cc_02 text_r bg3">
-                <!--
-                <div class='image_container_meta bg2'> 
-                <img src='thumb.jpg' width='84' height='121' alt='image'>
-                <p class='caption text_r bg1'><em><a href=#>view pdf</a></em></p>
+<section id='control-bar'>
+                <div id='nav-block'>
+                    <ul class='nav'>
+                        <li style='padding:2px 8px 2px 0px;float:left;border-right:1px solid #8C959D;background-color:#C5D2DD;'><h3>BIOGRAPHY</h3></li>
+                        <li style='padding:2px 8px;float:left;border-right:1px solid #8C959D;border-left:1px solid white;'><h3>PHOTOGRAPHS</h3></li>
+
+                    </ul>
                 </div>
-                -->
-            </div>
-            <div class="right cc_10 text_l bg3">
-                <!-- body -->
-                <div class="body container cc_10 bg4">
+                <div id='title-block'>
+                    <h2>{{ page.title | capitalize }} <span>{{ page.location | capitalize }}, {{ page.creation_date | capitalize }}</span></h2>
+                    <div id='title-meta'>
+                        <h3>FILED UNDER <a href="teaching">TEACHING</a> <a href=#>SYLLABI</a>    <a href=#>CUNY</a></h3>
+                    </div>
+                </div>    
+                <div id='meta-block'>
+                    <ul class='meta'>
+                        {% for datum in page.display_data %}
+                            <li style='width:338px;float:left;'><h3><span>{{ datum['v'] }}</span> {{ page[datum['k']] }}</h3></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+            <section id='content' style="padding:0px 12px;">
 
                     {{ content }}
-
-                </div>
-            </div>
-            <!-- /body -->
-            <!--  
-            <!-- footnotes -->
-            <!--
-            <div class="footnote left rule_t cc_12">
-            <h4>Notes</h4>
-            <ol>
-            <li><p>Footnote. <a href=# style="color:#999;font-weight:normal;">reference/link</a></p></li>
-            <li><p>Footnote. <a href=# style="color:#999;font-weight:normal;">reference/link</a></p></li>
-            <li><p>Footnote. <a href=# style="color:#999;font-weight:normal;">reference/link</a></p></li>
-            </ol>
-            </div>
-            -->
-            <!-- /footnotes --> 
-            <!-- footer -->
-            <div class="footer container rule_b cc_12 bg4">
-                <div class="footer_top left nm cc_12">
-                    <div class="left cc_02 bg3"></div>
-                    <div class="right text_l cc_10 bg3">
-                        <div class="left cc_08 bg2"><h5></h5></div><div class="right cc_02 bg2"><a href=#><h5></h5></a></div>
-                    </div>
-                </div>
-            </div>
-            <!-- /footer -->
-        </div>
-        <!-- /hideable -->
-    </div>
-    <!-- /document -->
-</div>
-<!-- /Outer Container -->
