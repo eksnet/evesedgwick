@@ -32,7 +32,6 @@ module Jekyll
     end
 
     def convert(content)
-      puts content
       engine = Sass::Engine.new(content, :syntax => :scss)
       engine.render
     end

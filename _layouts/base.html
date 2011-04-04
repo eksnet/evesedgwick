@@ -18,8 +18,10 @@ $( ".draggable" ).resizable();
 </script>
     <div id="container" style='width:100%'>
         <header>
-            <div class='content'>
-                <nav class='draggable'>
+        </div class='title'>
+                <h1>EVE KOSOFSKY SEDGWICK</h1>
+            </div>
+                <div class='nav'>
                     <ul>
                         <li><h4>RESOURCES</h4></li>
                         <li><h4>TEACHING</h4></li>
@@ -27,23 +29,22 @@ $( ".draggable" ).resizable();
                         <li><h4>WRITING</h4></li>
                         <li><h4>LIFE</h4></li>
                     </ul>
-                </nav>
-            <div class='sub-nav draggable'>
+                </div>
+            <div class='sub-nav'>
                 <ul>
                     <li>PHOTOGRAPHS</li>
                     <li>BIOGRAPHY</li>
                 </ul>
             </div>
-                <h1 class='draggable'>EVE KOSOFSKY SEDGWICK</h1>
-            </div>
-            <div class='right'></div>
         </header>
+        <div>
         
+        {{ site.categories['teaching'][0].layout }}
+
         <div id='main' class='draggable'>
 
         {{ content }}
 
-     </section>
         </div>
         <footer>
             <div class='left'></div>

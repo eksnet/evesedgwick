@@ -1,0 +1,22 @@
+<section id='control-bar'>
+    <div id='nav-block'>
+        <ul class='nav'>
+            <li style='padding:2px 8px 2px 0px;float:left;border-right:1px solid #8C959D;background-color:#C5D2DD;'><h3>BIOGRAPHY</h3></li>
+            <li style='padding:2px 8px;float:left;border-right:1px solid #8C959D;border-left:1px solid white;'><h3>PHOTOGRAPHS</h3></li>
+
+        </ul>
+    </div>
+    <div id='title-block'>
+        <h2>{{ page.title | capitalize }} <span>{{ page.location | capitalize }}, {{ page.creation_date | capitalize }}</span></h2>
+        <div id='title-meta'>
+            <h3>FILED UNDER <a href="teaching">TEACHING</a> <a href=#>SYLLABI</a>    <a href=#>CUNY</a></h3>
+        </div>
+    </div>    
+    <div id='meta-block'>
+        <ul class='meta'>
+            {% for datum in page.display_data %}
+                <li style='width:338px;float:left;'><h3><span>{{ datum['v'] }}</span> {{ page[datum['k']] }}</h3></li>
+            {% endfor %}
+        </ul>
+    </div>
+</section>
