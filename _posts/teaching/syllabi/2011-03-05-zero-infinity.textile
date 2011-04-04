@@ -1,7 +1,8 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/syllabi/cuny/Zero-Infinity-Chaos-Sublimity.html
+categories: teaching
+tags: syllabi cuny
 
 type: syllabus
 title: Zero, Infinity, Chaos, Sublimity

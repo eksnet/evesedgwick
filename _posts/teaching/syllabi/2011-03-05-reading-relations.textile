@@ -1,7 +1,8 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/syllabi/cuny/Reading-Relations-in-British-Fiction.html
+categories: teaching
+tags: syllabi cuny
 
 type: syllabus
 title: Reading Relations in British Fiction

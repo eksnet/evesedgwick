@@ -1,7 +1,7 @@
 markdown:       rdiscount
 pygments:       false
 multiviews:     false
-sass:           true
+sass:           false
 haml:           false
 
 permalink:      /:categories/:title.html

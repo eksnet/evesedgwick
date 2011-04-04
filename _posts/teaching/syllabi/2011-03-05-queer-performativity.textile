@@ -1,7 +1,8 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/syllabi/duke/Queer-Performativity.html
+categories: teaching
+tags: syllabi cuny
 
 type: syllabus
 title: Queer Performativity

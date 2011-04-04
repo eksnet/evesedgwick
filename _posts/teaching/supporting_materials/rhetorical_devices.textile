@@ -1,7 +1,8 @@
 ---
 layout: syllabus
 published: true
-permalink: /teaching/supporting_materials/rhetorical_devices.html
+categories: teaching
+tags: "supporting material" cuny
 
 type: document
 title: Rhetorical Devices

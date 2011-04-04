@@ -1,7 +1,8 @@
 ---
 layout: syllabus
 published: true
-categories: syllabi cuny
+categories: teaching
+tags: syllabi cuny
 
 type: syllabus
 title: Asian Encounters
