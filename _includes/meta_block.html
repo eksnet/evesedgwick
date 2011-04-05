@@ -1,0 +1,9 @@
+<div id='meta-block'>
+    <ul class='meta'>
+        {% for datum in page.meta %}
+            {% if datum['display'] %}
+            <li><span>{{ datum['display-value'] | upcase }}</span> {{ datum['value'] | upcase }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

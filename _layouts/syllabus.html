@@ -7,15 +7,9 @@ layout: base
         <h2>{{ page.title | upcase }} <span>{{ page.location | upcase }}, {{ page.creation_date | upcase }}</span></h2>
         <h3>FILED UNDER {{ page.tags | tag_links }}</h3>
     </div>
-    <div id='meta-block'>
-        <ul class='meta'>
-            {% for datum in page.display_data %}
-                <li><h3><span>{{ datum['v'] | upcase }}</span> {{ page[datum['k']] | upcase }}</h3></li>
-            {% endfor %}
-        </ul>
-    </div>
 
-    <div style="color:red">{{ page}}</div>
+    {% include meta_block.html %}
+
     <div class='content'>
         
         {{ content }}

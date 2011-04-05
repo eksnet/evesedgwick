@@ -7,7 +7,7 @@ tags: syllabi cuny
 type: syllabus
 title: How to Do Things with Words and Other Materials
 location: CUNY  
-creation_date: ND
+creation_date: none
 
 description: none
 
