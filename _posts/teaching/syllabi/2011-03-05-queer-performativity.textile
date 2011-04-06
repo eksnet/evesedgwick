@@ -5,10 +5,11 @@ categories: teaching
 tags: syllabi duke
 
 meta:
-    - {key: type, value: syllabus, display-value: Type, display: true,}
+    - {key: type, value: incubus, display-value: Type, display: true,}
     - {key: title, value: Queer Performativity, display-value: Title, display: true}
     - {key: location, value: Duke, display-value: Location, display: true}
     - {key: creation_date, value: 1993, display-value: Date, display: true}
+    - {key: creation_date, value: bus, display-value: Date, display: true}
 
 description: none
 

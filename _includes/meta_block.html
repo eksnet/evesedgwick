@@ -2,7 +2,7 @@
     <ul class='meta'>
         {% for datum in page.meta %}
             {% if datum['display'] %}
-            <li><span>{{ datum['display-value'] | upcase }}</span> {{ datum['value'] | upcase }}</li>
+            <li><span>{{ datum['display-value'] | upcase }}</span> {{ datum['value'] | meta_link: site.tags }}</li>
             {% endif %}
         {% endfor %}
     </ul>
