@@ -1,5 +1,7 @@
 require 'linguistics'
 Linguistics::use( :en ) # extends Array, String, and Numeric
+Linguistics::classical=(true)
+
 
 module Jekyll
 
@@ -78,7 +80,18 @@ module Jekyll
     def meta_link(meta, tags)
       meta=meta.to_s
       meta_plural=meta.en.plural
-      meta_plural
+      if tags
+        tags = tags.keys.sort!.map do |item|
+          item.downcase
+        end
+      end
+      if tags.include?(meta.downcase)
+        '<a href="/tag/'+meta.downcase+'/">'+meta+'</a>'
+      elsif tags.include?(meta_plural.downcase)
+        '<a href="/tag/'+meta_plural.downcase+'/">'+meta+'</a>'
+      else
+        meta
+      end
 
     end
     

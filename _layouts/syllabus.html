@@ -5,7 +5,8 @@ layout: base
 <article>
     <div id='title-block'>
         <h2>{{ page.title | upcase }} <span>{{ page.location | upcase }}, {{ page.creation_date | upcase }}</span></h2>
-        <h3>FILED UNDER {{ page.tags | tag_links }}</h3>
+        <h3>CATEGORIES {{ page.categories | category_links }}</h3>
+        <h3>TAGS {{ page.tags | tag_links }}</h3>
     </div>
 
     {% include meta_block.html %}

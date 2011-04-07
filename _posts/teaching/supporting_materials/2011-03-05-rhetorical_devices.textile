@@ -2,13 +2,15 @@
 layout: syllabus
 published: true
 categories: teaching
-tags: "supporting material" cuny
+tags:
+    - supporting material
+    - cuny
 
 type: document
 title: Rhetorical Devices
 creation_date: 2001
 
-description:
+description: none
 
 display_data:
     - {k: title, v: Title}
