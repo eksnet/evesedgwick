@@ -2,8 +2,8 @@
 layout: syllabus
 published: true
 category: teaching
-tags: syllabi duke
 type: syllabus
+tags: syllabi duke
 
 meta:
     - {key: type, value: syllabus, display-value: Type, display: true, sort: true}

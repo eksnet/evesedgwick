@@ -37,9 +37,16 @@ $( ".draggable" ).resizable();
                 </ul>
             </div>
         </header>
-
-        {{ site.categories_by_type }}
-
+        <div>
+        {% for category in site.categories_by_type['teaching'] %}
+            {% for sortable in category %}
+                {{ sortable.name }}<br>
+                {% for post in sortable.posts %}
+                    {{ post.title}}<br>
+                {% endfor %}
+            {% endfor %}
+        {% endfor %}
+        </div>
         <div id='main' class='draggable'>
 
         {{ content }}

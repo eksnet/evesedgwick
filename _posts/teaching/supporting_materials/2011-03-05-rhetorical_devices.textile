@@ -6,7 +6,7 @@ tags:
     - supporting material
     - cuny
 
-type: document
+type: "supporting material"
 title: Rhetorical Devices
 creation_date: 2001
 
