@@ -112,7 +112,7 @@ module Jekyll
     priority :low
 
     def generate(site)
-      puts "entering generate with #{site}"
+      puts "entering generate tags with #{site}"
       site.write_tag_indexes
     end
 

@@ -1,5 +1,30 @@
 module Jekyll
 
+  class Post
+
+    alias_method :orig_initialize, :initialize
+    def initialize(site, source, dir, name)
+      orig_initialize(site, source, dir, name)
+
+      self.tags ||= []
+      if self.data['meta']
+        self.data['meta'].each do |d|
+          if d['sort']
+            tag = d['value'].to_s.downcase
+            if d['key'] == 'type'
+              puts "KEY: #{d['key']}"
+              tag=tag.en.plural
+              puts "TAG: #{tag}"
+            end
+            self.tags << tag
+          end
+        end
+      end
+
+    end
+
+  end
+
   class Site
 
     # Returns [<category> => [{'type' => <type>, 'posts' => [{},{},{},{}]},{}]
@@ -11,6 +36,10 @@ module Jekyll
         hash[cat] << type_array
       end
       return hash
+    end
+
+    def attribute_by_category(attribute)
+      puts attribute
     end
     
     def collect_by_attribute(attribute)
@@ -39,6 +68,9 @@ module Jekyll
       payload = orig_site_payload
       payload['site']['types'] = self.collect_by_attribute('type')
       payload['site']['categories_by_type'] = self.categories_by_attribute('type')
+      self.tags.keys.each do |attribute|
+        payload['site']['#{attribute}_by_category'] = self.attribute_by_category(attribute)
+      end
       payload
     end
 
