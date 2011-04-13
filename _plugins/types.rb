@@ -5,7 +5,6 @@ module Jekyll
     alias_method :orig_initialize, :initialize
     def initialize(site, source, dir, name)
       orig_initialize(site, source, dir, name)
-
       self.tags ||= []
       if self.data['meta']
         self.data['meta'].each do |d|
@@ -20,35 +19,32 @@ module Jekyll
           end
         end
       end
-
     end
 
   end
 
   class Site
 
-    # Returns [<category> => [{'type' => <type>, 'posts' => [{},{},{},{}]},{}]
-    def categories_by_attribute(attribute)
+    # Returns [{<collection.title> => [{'name' => <attribute>, 'posts' => [{},{},{},{}]}]
+    def collection_by_attribute(collection, attribute)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
-      self.categories.keys.each do |cat|
-        type_hash = collect_by_attribute(attribute)
-        type_array = make_iterable(type_hash, :index => 'name', :items => 'posts')
-        hash[cat] << type_array
+      collection.keys.each do |item|
+        attribute_hash = collect_by_attribute(attribute, collection[item])
+        type_array = make_iterable(attribute_hash, :index => 'name', :items => 'posts')
+        hash[item] << type_array
       end
       return hash
     end
-
-    def attribute_by_category(attribute)
-      puts attribute
-    end
     
-    def collect_by_attribute(attribute)
+    def collect_by_attribute(attribute, posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
-      self.posts.each do |post|
-        hash[post.data[attribute]] << post
+      posts.each do |post|
+        if post.data[attribute]
+          hash[post.data[attribute]] << post
+        end  
       end
       hash.values.map do |sort|
-        sort.sort! {|a, b| b.data[attribute] <=> a.data[attribute]}
+        sort.sort! {|a, b| a.slug <=> b.slug}
       end
       return hash
     end
@@ -66,11 +62,9 @@ module Jekyll
     alias_method :orig_site_payload, :site_payload
     def site_payload
       payload = orig_site_payload
-      payload['site']['types'] = self.collect_by_attribute('type')
-      payload['site']['categories_by_type'] = self.categories_by_attribute('type')
-      self.tags.keys.each do |attribute|
-        payload['site']['#{attribute}_by_category'] = self.attribute_by_category(attribute)
-      end
+      payload['site']['types'] = self.collect_by_attribute('type', self.posts)
+      payload['site']['categories_by_type'] = self.collection_by_attribute(self.categories, 'type')
+      payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload
     end
 

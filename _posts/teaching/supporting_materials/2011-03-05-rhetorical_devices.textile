@@ -1,7 +1,7 @@
 ---
 layout: syllabus
 published: true
-categories: teaching
+category: teaching
 tags:
     - supporting material
     - cuny

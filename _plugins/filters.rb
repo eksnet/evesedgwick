@@ -1,5 +1,5 @@
 require 'linguistics'
-Linguistics::use( :en ) # extends Array, String, and Numeric
+Linguistics::use( :en )         # extends Array, String, and Numeric
 Linguistics::classical=(true)
 
 
@@ -107,6 +107,10 @@ module Jekyll
       result
     end
     
+    def plural(input)
+      input.dup.en.plural
+    end
+
   end
   
 end
