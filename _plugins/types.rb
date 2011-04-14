@@ -63,7 +63,7 @@ module Jekyll
     def site_payload
       payload = orig_site_payload
       payload['site']['types'] = self.collect_by_attribute('type', self.posts)
-      payload['site']['categories_by_type'] = self.collection_by_attribute(self.categories, 'type')
+      payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload
     end

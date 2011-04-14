@@ -1,6 +1,6 @@
 require 'linguistics'
 Linguistics::use( :en )         # extends Array, String, and Numeric
-Linguistics::classical=(true)
+Linguistics::classical=true
 
 
 module Jekyll

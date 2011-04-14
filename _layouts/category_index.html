@@ -3,7 +3,7 @@ layout: base
 ---
 <h1 class="category">{{ page.title }}</h1>
 <div class="posts">
-    {% for category in site.categories_by_type[page.category] %}
+    {% for category in site.categories_by_sub[page.category] %}
             {% for attribute in category %}
                 <h2>{{ attribute.name | plural }}</h2>
                 {% for post in attribute.posts %}

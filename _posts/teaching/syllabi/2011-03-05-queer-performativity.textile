@@ -2,10 +2,10 @@
 layout: syllabus
 published: true
 category: teaching
-type: syllabus
+sub-category: syllabus
 
 meta:
-    - {key: type, value: syllabus, display-value: Type, display: true, sort: true}
+    - {key: type, value: document, display-value: Type, display: true, sort: true}
     - {key: title, value: Queer Performativity, display-value: Title, display: true, sort: false}
     - {key: location, value: Duke, display-value: Location, display: true, sort: true}
     - {key: creation-date, value: 1993, display-value: Date, display: true, sort: false}
