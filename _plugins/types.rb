@@ -11,11 +11,11 @@ module Jekyll
           if d['sort']
             tag = d['value'].to_s.downcase
             if d['key'] == 'type'
-              puts "KEY: #{d['key']}"
               tag=tag.en.plural
-              puts "TAG: #{tag}"
             end
-            self.tags << tag
+            unless tag == 'none'
+              self.tags << tag
+            end
           end
         end
       end
@@ -62,7 +62,7 @@ module Jekyll
     alias_method :orig_site_payload, :site_payload
     def site_payload
       payload = orig_site_payload
-      payload['site']['types'] = self.collect_by_attribute('type', self.posts)
+      payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts)
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload

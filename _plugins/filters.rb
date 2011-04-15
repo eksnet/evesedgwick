@@ -34,28 +34,35 @@ module Jekyll
       end
     end
 
-        # Outputs a list of categories as comma-separated <a> links. This is used
+    # Outputs a list of categories as comma-separated <a> links. This is used
     # to output the category list for each post on a category page.
     #
     #  +categories+ is the list of categories to format.
     #
     # Returns string
-    def category_links(categories)
-      categories = categories.sort!.map do |item|
-        '<a href="/category/'+item+'/">'+item+'</a>'
-      end
-      
-      connector = "and"
-      case categories.length
-      when 0
-        ""
-      when 1
-        categories[0].to_s
-      when 2
-        "#{categories[0]} #{connector} #{categories[1]}"
+    def category_link(category, dir)
+      if category.respond_to?('each')
+        item = category[0]
       else
-        "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
-      end
+        item = category
+      end  
+      '<a href="/'+dir+'/'+item+'/">'+item+'</a>'
+
+      #categories = categories.sort!.map do |item|
+      #  '<a href="/'+dir+'/'+item+'/">'+item+'</a>'
+      #end
+      #
+      #connector = "and"
+      #case categories.length
+      #when 0
+      #  ""
+      #when 1
+      #  categories[0].to_s
+      #when 2
+      #  "#{categories[0]} #{connector} #{categories[1]}"
+      #else
+     #  "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
+      #end
     end
 
     def tag_links(tags)

@@ -2,7 +2,7 @@
 layout: syllabus
 published: true
 category: teaching
-sub-category: syllabus
+sub-category: syllabi
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}

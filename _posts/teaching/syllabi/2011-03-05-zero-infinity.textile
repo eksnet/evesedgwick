@@ -2,23 +2,19 @@
 layout: syllabus
 published: true
 category: teaching
-tags: syllabi cuny
+sub-category: syllabi
 
-type: syllabus
-title: Zero, Infinity, Chaos, Sublimity
-location: CUNY
-creation_date: Spring 2002
+meta:
+    - {key: type, value: document, display-value: Type, display: true, sort: true}
+    - {key: title, value: "Zero, Infinity, Chaos, Sublimity", display-value: Title, display: true, sort: false}
+    - {key: location, value: CUNY, display-value: Location, display: true, sort: true}
+    - {key: creation-date, value: Spring 2002, display-value: Date, display: true, sort: false}
 
 description: none
 
-display_data:
-    - {k: title, v: Title}
-    - {k: location, v: Location}
-    - {k: creation_date, v: Date}
-
 related_media:
-    - {type: image, format: pdf, src:  Zero-Infinity-Chaos-Sublimity_pdf.pdf, public: true}
-    - {type: text, format: txt, src: Zero-Infinity-Chaos-Sublimity_ocr.txt, public: false}
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
 

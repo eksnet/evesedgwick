@@ -1,24 +1,20 @@
 ---
-layout: syllabus
+layout: document
 published: true
 category: teaching
-tags:
-    - supporting material
-    - cuny
+sub-category: "supporting material"
 
-type: "supporting material"
-title: Rhetorical Devices
-creation_date: 2001
+meta:
+    - {key: type, value: document, display-value: Type, display: true, sort: true}
+    - {key: title, value: Rhetorical Devices, display-value: Title, display: true, sort: false}
+    - {key: location, value: none, display-value: Location, display: true, sort: none}
+    - {key: creation-date, value: 2001, display-value: Date, display: true, sort: false}
 
 description: none
 
-display_data:
-    - {k: title, v: Title}
-    - {k: creation_date, v: Date}
-
 related_media:
-    - {type: image, format: pdf, src: rhetorical_devices_pdf.pdf, public: true}
-    - {type: text, format: txt, src: rhetorical_devices_ocr.txt, public: false}
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
 
