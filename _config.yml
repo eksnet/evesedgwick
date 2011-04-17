@@ -7,6 +7,10 @@ haml:           false
 permalink:      /:categories/:title.html
 plugins:        ./_plugins
 
+nav:
+    - life
+    - archive
+    - resources	
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml

@@ -1,13 +1,22 @@
 ---
 layout: base
 ---
-<h1 class="category">{{ page.title }}</h1>
+<div class='sub_nav'>
+	{% for category in site.categories_by_sub[page.category] %}
+        <ul>
+        {% for sub in category %}
+            <li>{{ sub.name | category_link: 'sub' }}</li>   
+        {% endfor %}
+        </ul>
+    {% endfor %}
+</div>
+<h2 class="category">{{ page.title }}</h2>
 <div class="posts">
     {% for category in site.categories_by_sub[page.category] %}
         {% for sub in category %}
-            <h2>{{ sub.name | category_link: 'sub' }}</h2>
+            <h3>{{ sub.name | category_link: 'sub' }}</h3>
             {% for post in sub.posts %}
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
                 <div class="categories">Filed under {{ post.categories | category_link: 'category' }}</div>
             {% endfor %}
         {% endfor %}

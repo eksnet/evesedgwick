@@ -18,24 +18,10 @@ $( ".draggable" ).resizable();
 </script>
     <div id="container" style='width:100%'>
         <header>
-        </div class='title'>
+            </div class='title'>
                 <h1>EVE KOSOFSKY SEDGWICK</h1>
             </div>
-                <div class='nav'>
-                    <ul>
-                        <li><h4>RESOURCES</h4></li>
-                        <li><h4>TEACHING</h4></li>
-                        <li><h4>ART</h4></li>
-                        <li><h4>WRITING</h4></li>
-                        <li><h4>LIFE</h4></li>
-                    </ul>
-                </div>
-            <div class='sub-nav'>
-                <ul>
-                    <li>PHOTOGRAPHS</li>
-                    <li>BIOGRAPHY</li>
-                </ul>
-            </div>
+            {% include nav.html %}
         </header>
 
         <div id='main' class='draggable'>

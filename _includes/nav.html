@@ -1,0 +1,24 @@
+<div class='nav'>
+    <ul>
+        <li>RESOURCES</li>
+        <li>TEACHING</li>
+        <li>ART</li>
+        <li>WRITING</li>
+        <li>LIFE</li>
+    </ul>
+</div>
+
+<div class='nav'>
+	<ul>
+	{% for nav in site.nav %}
+		<li>{{ nav }}</li> 
+			<ul>
+			{% for categories in site.navs_by_category[nav] %}
+				{% for category in categories %}
+		            <li>{{ category.name | category_link: 'category' }}</li>   
+				{% endfor %}
+	        {% endfor %}
+	        </ul>
+	  	{% endfor %}
+	</ul>
+</div>

@@ -1,6 +1,7 @@
 ---
-layout: syllabus
+layout: document
 published: true
+nav: archive
 category: teaching
 sub-category: syllabi
 

@@ -62,9 +62,16 @@ module Jekyll
     alias_method :orig_site_payload, :site_payload
     def site_payload
       payload = orig_site_payload
+      # Custom collections
       payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts)
+      payload['site']['navs'] = self.collect_by_attribute('nav', self.posts)
+      # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
+      payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
+      # Iterable collections
+      payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
+      payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
       payload
     end
 

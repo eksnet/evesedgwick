@@ -63,10 +63,10 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'sub_index.html')
       self.data['sub']         = sub
       # Set the title for this page.
-      title_prefix             = site.config['sub_title_prefix'] || 'Sub: '
+      title_prefix             = site.config['sub_title_prefix'] || ''
       self.data['title']       = "#{title_prefix}#{sub}"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['sub_meta_description_prefix'] || 'Sub: '
+      meta_description_prefix  = site.config['sub_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{sub}"
     end
     

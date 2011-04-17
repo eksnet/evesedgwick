@@ -1,6 +1,7 @@
 ---
 layout: document
 published: true
+nav: archive
 category: teaching
 sub-category: "supporting material"
 
