@@ -53,7 +53,7 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, category)
+    def initialize(site, base, category_dir, category, sub)
       @site = site
       @base = base
       @dir  = category_dir
@@ -62,6 +62,7 @@ module Jekyll
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['category']    = category
+      self.data['sub']         = sub
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || ''
       self.data['title']       = "#{title_prefix}#{category}"
@@ -81,8 +82,8 @@ module Jekyll
     #
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
-    def write_category_index(category_dir, category)
-      index = CategoryIndex.new(self, self.source, category_dir, category)
+    def write_category_index(category_dir, category, sub)
+      index = CategoryIndex.new(self, self.source, category_dir, category, sub)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
@@ -93,8 +94,14 @@ module Jekyll
     def write_category_indexes
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || 'category'
-        self.categories.keys.each do |category|
-          self.write_category_index(File.join(dir, category), category)
+        cat = self.collection_by_attribute(self.categories, 'sub-category')
+        cat.keys.each do |category|
+          self.write_category_index(File.join(dir, category), category, 'all')
+          cat[category].each do |sub_array|
+            sub_array.each do |sub|
+              self.write_category_index(File.join(dir, category, sub['name']), category,  sub['name'])
+            end
+          end
         end
         
       # Throw an exception if the layout couldn't be found.
