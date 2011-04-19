@@ -71,6 +71,7 @@ module Jekyll
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
       # Iterable collections
       payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
+      payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
       payload
     end

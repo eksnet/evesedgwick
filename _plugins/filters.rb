@@ -40,29 +40,34 @@ module Jekyll
     #  +categories+ is the list of categories to format.
     #
     # Returns string
-    def category_link(category, dir)
+    def category_link(category)
       if category.respond_to?('each')
-        item = category[0]
+        categories = category.sort!.map do |item|
+          '<a href="/'+item+'/">'+item+'</a>'
+        end
+
+        connector = "and"
+        case categories.length
+          when 0
+            ""
+          when 1
+            categories[0].to_s
+          when 2
+            "#{categories[0]} #{connector} #{categories[1]}"
+          else
+            "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
+          end
       else
         item = category
+        '<a href="/'+item+'/">'+item+'</a>'
       end  
-      '<a href="/'+dir+'/'+item+'/">'+item+'</a>'
+    end
 
-      #categories = categories.sort!.map do |item|
-      #  '<a href="/'+dir+'/'+item+'/">'+item+'</a>'
-      #end
-      #
-      #connector = "and"
-      #case categories.length
-      #when 0
-      #  ""
-      #when 1
-      #  categories[0].to_s
-      #when 2
-      #  "#{categories[0]} #{connector} #{categories[1]}"
-      #else
-     #  "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
-      #end
+    def sub_category_link(sub_category, category)
+      if category.respond_to?('each')
+        category = category[0]
+      end
+        '<a href="/'+category+'/'+sub_category+'/">'+sub_category+'</a>'
     end
 
     def tag_links(tags)

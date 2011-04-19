@@ -5,11 +5,11 @@ layout: base
 <div class="posts">
     {% for tag in site.tags_by_category[page.tag] %}
         {% for category in tag %}
-            <h3>{{ category.name | category_link: 'category' }}</h3>
+            <h3>{{ category.name | category_link }}</h3>
 		    {% for post in category.posts %}
                 <h4>{{ post.name }}</h4>
                 <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-                <div class="categories">Filed under {{ post.categories | category_link: 'category' }}</div>
+                <div class="categories">Filed under {{ post.categories | category_link }}</div>
             {% endfor %}
         {% endfor %}
     {% endfor %}

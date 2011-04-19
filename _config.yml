@@ -10,7 +10,7 @@ plugins:        ./_plugins
 nav:
     - life
     - archive
-    - resources	
+    - resources 
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
