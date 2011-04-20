@@ -6,7 +6,6 @@ layout: base
         <h2>{{ page.title | upcase }} <span>{{ page.location | upcase }}, {{ page.creation_date | upcase }}</span></h2>
         <h3>{{ page.categories | category_link }}/{{ page.sub-category | sub_category_link: page.categories }}</h3>
         <h3>TAGS {{ page.tags | tag_links }}</h3>
-        <h3>FILTER BY {% include filter_by.liquid %}
     </div>
 
     {% include meta_block.html %}

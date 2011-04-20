@@ -53,16 +53,14 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, nav, category, sub)
+    def initialize(site, base, category_dir, category, sub)
       @site = site
       @base = base
       @dir  = category_dir
-      puts category_dir
       @name = 'index.html'
       self.process(@name)
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
-      self.data['nav']         = nav
       self.data['category']    = category
       self.data['sub']         = sub
       # Set the title for this page.
@@ -84,8 +82,8 @@ module Jekyll
     #
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
-    def write_category_index(category_dir, nav, category, sub)
-      index = CategoryIndex.new(self, self.source, category_dir, nav, category, sub)
+    def write_category_index(category_dir, category, sub)
+      index = CategoryIndex.new(self, self.source, category_dir, category, sub)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
@@ -96,20 +94,12 @@ module Jekyll
     def write_category_indexes
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || ''
-        nav_hash = self.collect_by_attribute('nav', self.posts)
-        nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
-        cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
-        nav_hash.keys.each do |nav|
-          self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
-          nav_by_cat[nav].each do |cat_array| 
-            cat_array.each do |category| 
-              self.write_category_index(File.join(dir, nav, category['name']), nav, category['name'], 'all')
-              cat_by_sub[category].each do |sub_array|
-                puts sub_array
-                sub_array.each do |sub|
-                  self.write_category_index(File.join(dir, nav, category['name'], sub['name']), nav, category['name'],  sub['name'])
-                end
-              end
+        cat = self.collection_by_attribute(self.categories, 'sub-category')
+        cat.keys.each do |category|
+          self.write_category_index(File.join(dir, category), category, 'all')
+          cat[category].each do |sub_array|
+            sub_array.each do |sub|
+              self.write_category_index(File.join(dir, category, sub['name']), category,  sub['name'])
             end
           end
         end
