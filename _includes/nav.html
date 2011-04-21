@@ -2,7 +2,7 @@
 	<ul class='nav'>
 	Entering nav with: {{page.nav}}/{{page.category}}
 	{% for nav in site.nav %}
-		<li>{{ nav }}</li> 
+		<li>{{ nav | category_link }}</li> 
 	{% endfor %}
 	</ul>
 </div>

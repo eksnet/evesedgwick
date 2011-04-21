@@ -57,7 +57,6 @@ module Jekyll
       @site = site
       @base = base
       @dir  = category_dir
-      puts category_dir
       @name = 'index.html'
       self.process(@name)
       # Read the YAML data from the layout page.
@@ -97,17 +96,18 @@ module Jekyll
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || ''
         nav_hash = self.collect_by_attribute('nav', self.posts)
+        puts nav_hash
         nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
+        puts nav_by_cat
         cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
         nav_hash.keys.each do |nav|
           self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
           nav_by_cat[nav].each do |cat_array| 
             cat_array.each do |category| 
-              self.write_category_index(File.join(dir, nav, category['name']), nav, category['name'], 'all')
-              cat_by_sub[category].each do |sub_array|
-                puts sub_array
+              self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
+              cat_by_sub[category['name']].each do |sub_array|
                 sub_array.each do |sub|
-                  self.write_category_index(File.join(dir, nav, category['name'], sub['name']), nav, category['name'],  sub['name'])
+                  self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
                 end
               end
             end

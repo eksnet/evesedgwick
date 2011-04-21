@@ -16,7 +16,9 @@
                 <h1>EVE KOSOFSKY SEDGWICK</h1>
             </div>
             {% include nav.html %}
-            {% include sub-nav.html %}
+            <h2 class='nav'>{{ page.nav }}</h2>
+            {% include nav-cat.html %}
+            <h3 class="category">{{ page.category }}</h3>
             {% include filter_by.liquid %}
         </header>
 
