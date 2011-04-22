@@ -1,11 +1,11 @@
 <div class='sub_nav'>
-	{% for nav in site.nav %}
+
 		<ul class='sub' id ='nav'>
-		{% for nav in site.navs_by_category[nav] %}
+		{% for nav in site.navs_by_category[page.nav] %}
 			{% for category in nav %}
 		    	<li>{{ category.name | category_link }}</li>   
 	        {% endfor %}
     	{% endfor %}
 		</ul>
-	{% endfor %}
+
 </div>

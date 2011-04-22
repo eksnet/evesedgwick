@@ -96,9 +96,7 @@ module Jekyll
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || ''
         nav_hash = self.collect_by_attribute('nav', self.posts)
-        puts nav_hash
         nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
-        puts nav_by_cat
         cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
         nav_hash.keys.each do |nav|
           self.write_category_index(File.join(dir, nav), nav, 'all', 'all')

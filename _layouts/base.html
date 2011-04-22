@@ -21,7 +21,9 @@
             <h3 class="category">{{ page.category }}</h3>
             {% include filter_by.liquid %}
         </header>
-
+        <div>
+            {{ site.albums }}
+        </div>
         <div id='main' class='draggable'>
 
         {{ content }}

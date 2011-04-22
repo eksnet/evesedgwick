@@ -40,7 +40,7 @@ module Jekyll
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
         if post.data[attribute]
-          hash[post.data[attribute]] << post
+            hash[post.data[attribute]] << post
         end  
       end
       hash.values.map do |sort|
@@ -58,6 +58,23 @@ module Jekyll
       result
     end
 
+    def collect_albums()
+      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      self.posts.each do |post|
+        if post.data['album']
+          post.data['image-list'].each do |i_hash|
+            if i_hash['public']
+              hash[post.data['album']] << i_hash['src']
+            end
+          end
+        end
+      end
+      hash.values.map do |sort|
+        sort.sort! {|a, b| a <=> b}
+      end
+      return hash
+    end
+
     # Redefine site_payload to include our new method.
     alias_method :orig_site_payload, :site_payload
     def site_payload
@@ -65,6 +82,7 @@ module Jekyll
       # Custom collections
       payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts)
       payload['site']['navs'] = self.collect_by_attribute('nav', self.posts)
+      payload['site']['albums'] = self.collect_albums
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
