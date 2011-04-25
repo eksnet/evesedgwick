@@ -22,6 +22,15 @@ layout: base
 
     <div class='content'>
         
+        {% for media in page.related_media %}
+            {% if media['type'] == 'album' %}
+             {{ media[''] }}
+            {% assign images = media['images'] %}
+                {{ media['images'] }}
+                {% include album.html %}
+            {% endif %}
+        {% endfor %}
+
         {{ content }}
 
     </div>
