@@ -2,8 +2,6 @@
 layout: document
 published: true
 nav: life
-category: biography
-type: document
 
 description: none
 

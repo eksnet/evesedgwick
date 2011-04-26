@@ -8,7 +8,6 @@ permalink:      /:categories/:title.html
 plugins:        ./_plugins
 
 nav:
-    - life
     - archive
     - resources 
 

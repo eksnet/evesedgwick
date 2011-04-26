@@ -1,8 +1,8 @@
 <div class='nav'>
 	<ul class='nav'>
-	Entering nav with: {{page.nav}}/{{page.category}}
-	{% for nav in site.nav %}
+		<li><a href='/biography.html'>life</a></li> 
+		{% for nav in site.nav %}
 		<li>{{ nav | category_link }}</li> 
-	{% endfor %}
+		{% endfor %}
 	</ul>
 </div>

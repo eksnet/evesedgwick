@@ -5,7 +5,7 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-<link rel="stylesheet" type="text/css" href="/lib/sass/screen.css" title="opening" /> 
+<link rel="stylesheet" type="text/css" href="/lib/css/screen.css" title="opening" /> 
 
 <script src="../lib/js/jquery/jquery.min.js" type="text/javascript"></script> 
 <script src="../lib/js/jquery/jquery-ui.min.js" type="text/javascript"></script>
@@ -13,28 +13,22 @@
 </head>
 <body>
     <div id="container" style='width:100%'>
-        <header>
-            </div class='title'>
+
+        <div id="header">
+            <div class='title'>
                 <h1>EVE KOSOFSKY SEDGWICK</h1>
             </div>
             {% include nav.html %}
-            <h2 class='nav'>{{ page.nav }}</h2>
-            {% include nav-cat.html %}
-            <h3 class="category">{{ page.category }}</h3>
-            {% include filter_by.liquid %}
-        </header>
-        <div>
-            {% for album in site.iterable_albums %}
-                {% for image in album['images'] %}
-                    {{ image.title }}
-                {% endfor %}
-            {% endfor %}
+            
         </div>
-        <div id='main' class='draggable'>
 
+        <div id='main' class='draggable'>
+        {% include nav-cat.html %}
+            {% include filter_by.liquid %}
         {{ content }}
 
         </div>
+
         <footer>
             <div class='left'></div>
             <div class='content'></div>
