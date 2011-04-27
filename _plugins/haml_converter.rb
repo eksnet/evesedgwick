@@ -24,7 +24,7 @@ module Jekyll
     priority :low
 
     def matches(ext)
-      ext =~ /scss/i
+      ext =~ /sass/i
     end
 
     def output_ext(ext)

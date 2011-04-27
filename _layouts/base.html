@@ -12,21 +12,27 @@
 
 </head>
 <body>
-    <div id="container" style='width:100%'>
+    <div id="container" class='cc_18'>
 
-        <div id="header">
-            <div class='title'>
-                <h1>EVE KOSOFSKY SEDGWICK</h1>
+        <div id="header" class='cc_18'>
+            <div class='title cc_06' style='float:left;'>
+                <h1 class='cc_06'>EVE KOSOFSKY SEDGWICK</h1>
             </div>
             {% include nav.html %}
             
         </div>
 
-        <div id='main' class='draggable'>
-        {% include nav-cat.html %}
-            {% include filter_by.liquid %}
-        {{ content }}
+        <div id='content-container' class='cc_18'>
+            <div id='content' class='cc_14'>
 
+                {% include nav-cat.html %}
+                {% include filter_by.liquid %}
+
+                {{ content }}
+            
+            </div>
+            <div id='right' class='cc_04'>
+            </div>
         </div>
 
         <footer>
