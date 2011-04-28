@@ -1,37 +1,34 @@
 ---
 layout: base
 ---
-<article>
-    <div id='title-block'>
-        <h2>{{ page.title | upcase }} <span>
-        	{% for datum in page.meta %}
-            	{% if datum['key'] == 'location' %}
-            		{{ datum['value'] | upcase }}, 
-            	{% endif %}
-        	{% endfor %}
-        	{% for datum in page.meta %}
-            	{% if datum['key'] == 'creation-date' %}
-            		{{ datum['value'] | no_date | upcase }} 
-            	{% endif %}
-        	{% endfor %}</span></h2>
-        <h3>{{ page.categories | category_link }}/{{ page.sub-category | sub_category_link: page.categories }}</h3>
-        <h3>TAGS {{ page.tags | tag_links }}</h3>
-    </div>
 
-    {% include meta_block.html %}
+<div id='title-block'>
+    <h2>{{ page.title | upcase }} <span>
+    	{% for datum in page.meta %}
+        	{% if datum['key'] == 'location' %}
+        		{{ datum['value'] | upcase }}, 
+        	{% endif %}
+    	{% endfor %}
+    	{% for datum in page.meta %}
+        	{% if datum['key'] == 'creation-date' %}
+        		{{ datum['value'] | no_date | upcase }} 
+        	{% endif %}
+    	{% endfor %}</span></h2>
+    <h3>{{ page.categories | category_link }}/{% if page.sub-category %}{{ page.sub-category | sub_category_link: page.categories }}{% endif %}</h3>
+    <h3>TAGS {{ page.tags | tag_links }}</h3>
+</div>
 
-    <div class='content'>
-        
-        {% for media in page.related_media %}
-            {% if media['type'] == 'album' %}
-             {{ media[''] }}
-            {% assign images = media['images'] %}
-                {{ media['images'] }}
-                {% include album.html %}
-            {% endif %}
-        {% endfor %}
+{% include meta_block.html %}
 
-        {{ content }}
+<div class='content'>
+    {% for media in page.related_media %}
+        {% if media['type'] == 'album' %}
+         {{ media[''] }}
+        {% assign images = media['images'] %}
+            {{ media['images'] }}
+            {% include album.html %}
+        {% endif %}
+    {% endfor %}
 
-    </div>
-</article>
+    {{ content }}
+</div>

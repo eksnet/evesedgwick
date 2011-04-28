@@ -18,18 +18,43 @@
             <div class='title cc_06' style='float:left;'>
                 <h1 class='cc_06'>EVE KOSOFSKY SEDGWICK</h1>
             </div>
-            {% include nav.html %}
+
+            <div class='nav'>
+                <ul class='nav'>
+                    <li><a href='/biography.html'>life</a></li> 
+                    {% for nav in site.nav %}
+                    <li>{{ nav | category_link }}</li> 
+                    {% endfor %}
+                </ul>
+            </div>
             
         </div>
 
         <div id='content-container' class='cc_18'>
             <div id='content' class='cc_14'>
 
-                {% include nav-cat.html %}
-                {% include filter_by.liquid %}
+                <div class='sub_nav'>
+                    <ul class='sub' id ='nav'>
+                    {% for nav in site.navs_by_category[page.nav] %}
+                        {% for category in nav %}
+                            <li>{{ category.name | category_link }}</li>   
+                        {% endfor %}
+                    {% endfor %}
+                    </ul>
+                </div>
+                
+              <!--  {% for category in site.categories_by_sub[page.category] %}
+                    <ul id='categories'>
+                    {% for sub in category %}
+                        <li>{{ sub.name | sub_category_link: page.category }}</li>   
+                    {% endfor %}
+                    </ul>
+                {% endfor %} -->
 
-                {{ content }}
-            
+                <article>
+                    {{ content }}
+                </article>
+
             </div>
             <div id='right' class='cc_04'>
             </div>
