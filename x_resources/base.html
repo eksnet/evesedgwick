@@ -27,8 +27,14 @@
         text-align: center;
         vertical-align:baseline;
     }
+    h1, h2, h3, h4, h5, h6 {
+        margin:0px;
+        padding:0px;
+    }
     h1 {
-        
+        font-size:28px;
+        line-height:28px;
+        padding:74px 0px 0px;
     }
     h2 {
         display:inline-block;
@@ -39,36 +45,64 @@
         margin:2px 0px;
     }
     h3 {
-        
+        display:inline-block;
+        font-size:16px;
+        line-height:16px;
+        width:296px;
+        color:#9E0C08;
+        margin-bottom:24px; 
     }
     h4 {
-        
+        font-size:14px;
+        line-height:14px;
+        margin:0px 0px 6px;
+    }
+    h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+        font-weight:normal; 
     }
     h5 {
         
     }
     h6 {
-        
+        font-size:10px;
+        line-height:10px;
+        color:#939196;
+        margin:0px 0px 12px;
     }
     li { 
         display:inline-block;
-        padding:5px 9px 4px;
+        padding:5px 0px 4px 9px;
         font-size:10px;
         line-height:10px;
         margin-top:5px;
+    }
+    p {
+        font-family:Georgia;
+        font-size:14px;
+        line-height:18px;
+        margin:0px 0px 12px;
+    }
+    .block {
+        background-color:rgba(128,128,128,0.6);
+    }
+    section {
+        margin:0px 0px 28px;
+    }
+    .subsection {
+        margin:18px 0px 28px;
     }
 </style>
 
 </head>
 <body style='min-width:942px; border-top:4px solid black;'>
     <div id="container" style="width:912px; margin:0px auto; text-align:left; height:100%;">
-        <header style='width:912px; height:180px; border-bottom:1px dotted black;'>
-
+        <header style='width:912px; height:180px; margin-bottom:32px; border-bottom:1px solid #3A393B;'>
+            <h1 style=''>EVE<br>KOSOFSKY<br>SEDGWICK</h1>
         </header>
 
-        <section style='width:604px; height:300px; margin: 20px 0px 20px 308px; background-color:rgba(128,128,128,0.6);'>
-                <section id='title' style='border-bottom:1px solid #2D303D;'>    
-                <h2 style=''>Archive</h2>
+        <section style='width:604px; margin: 20px 0px 36px 308px;'>
+                <section id='title' style='margin-bottom:28px;border-bottom:1px solid #3A393B;'>    
+                <h2 style=''>ARCHIVE</h2>
                 <ul style='float:right;'>
                     <li>ART</li>
                     <li>TEACHING</li>
@@ -76,13 +110,33 @@
                 </ul>
                 </section>
 
-                <article>
-                    
-                </article>
+                <h2 class='subsection'><span>TEACHING</span></h2>
+
+                <section class='preview'>
+                    <h4>ASIAN ENCOUNTERS <span>CUNY, NO DATE</span></h4>
+                    <p>Halbfass, Wilhelm. 1988. India and Europe: An Essay in Understanding.  Albany: State U. of New York Press.  Especially good for its discussion of Hindu/Buddhist influences on European thought in the 18th and 19th centuries.</p>
+                </section>
+                <section class='preview'>
+                    <h4>SPANNING ENCOUNTERS <span>DUKE, 1993</span></h4>
+                    <h6>RELATED CUNY, SYLLABI </h6>
+                    <p>Halbfass, Wilhelm. 1988. India and Europe: An Essay in Understanding.  Albany: State U. of New York Press.  Especially good for its discussion of Hindu/Buddhist influences on European thought in the 18th and 19th centuries.</p>
+                </section>
+
+                <h2 class='subsection'><span>WRITING</span></h2>
+                
+                <section class='preview'>
+                    <h4>ASIAN ENCOUNTERS <span>CUNY, NO DATE</span></h4>
+                    <p>Halbfass, Wilhelm. 1988. India and Europe: An Essay in Understanding.  Albany: State U. of New York Press.  Especially good for its discussion of Hindu/Buddhist influences on European thought in the 18th and 19th centuries.</p>
+                </section>
+                <section class='preview'>
+                    <h4>SPANNING ENCOUNTERS <span>DUKE, 1993</span></h4>
+                    <h6>RELATED CUNY, SYLLABI </h6>
+                    <p>Halbfass, Wilhelm. 1988. India and Europe: An Essay in Understanding.  Albany: State U. of New York Press.  Especially good for its discussion of Hindu/Buddhist influences on European thought in the 18th and 19th centuries.</p>
+                </section>
 
         </section>
 
-        <footer style='width:912px; height:65px; border-bottom:1px dotted black;border-top:1px dotted black; background-color:rgba(128,128,128,0.6);'>
+        <footer style='width:912px; height:65px; border-bottom:1px solid #3A393B; border-top:1px solid #3A393B;'>
  
         </footer>
     </div>
