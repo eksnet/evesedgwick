@@ -29,7 +29,7 @@ module Jekyll
       when 1
         tags[0].to_s
       when 2
-        "#{tags[0]} #{connector} #{tags[1]}"
+        "#{tags[0]},  #{tags[1]}"
       else
         "#{tags[0...-1].join(', ')}, #{connector} #{tags[-1]}"
       end
@@ -69,24 +69,6 @@ module Jekyll
         category = category[0]
       end
         '<a href="/'+category+'/'+sub_category+'/">'+sub_category+'</a>'
-    end
-
-    def tag_links(tags)
-      tags = tags.sort!.map do |item|
-        '<a href="/tag/'+item+'/">'+item+'</a>'
-      end
-      
-      connector = "and"
-      case tags.length
-      when 0
-        ""
-      when 1
-        tags[0].to_s
-      when 2
-        "#{tags[0]} #{connector} #{tags[1]}"
-      else
-        "#{tags[0...-1].join(', ')}, #{connector} #{tags[-1]}"
-      end
     end
 
      # Returns string

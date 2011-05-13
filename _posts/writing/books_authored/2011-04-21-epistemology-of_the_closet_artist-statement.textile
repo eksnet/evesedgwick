@@ -1,8 +1,10 @@
 ---
-layout: book
+layout: document
 published: true
-permalink: /writing/books/books_authored/between-men.html
-category: Books Authored
+nav: archive
+category: writing
+sub-category: "books authored"
+type: book
 
 type: book
 role: author
