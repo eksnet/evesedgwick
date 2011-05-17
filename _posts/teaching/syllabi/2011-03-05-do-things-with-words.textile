@@ -19,9 +19,9 @@ related_media:
 
 ---
 
-h3. How to Do Things with Words and Other Materials: ND, CUNY
+h5. How to Do Things with Words and Other Materials: ND, CUNY
 
-h4. Preliminary Syllabus: How to Do Things with Words and Other Materials
+Preliminary Syllabus: How to Do Things with Words and Other Materials
 
 How to Do Things with Words and Other Materials' is an experimental seminar/studio workshop in which participants will think about and practice a variety of ways of combining written text with other visual media.  Roughly speaking, the ìartist's book' will be our subject, but we will also consider comics and graphic novels, mail art, graffiti, broadsides, playing cards, and other genres that make unconventional use of the materiality of both the written word and its support.  In parallel with historical and theoretical discussions, participants will work on creating a portfolio of works in various formats and materials, each exploring different aspects of the complex relations among language, materiality, and visuality. 
 
@@ -30,7 +30,7 @@ Some notes: (1) This is not a class in fine printing or bookbinding.  (2) While 
 Text:
 The required text is Keith Smith's Structure of the Visual Book, Expanded 4th Edition (2003).  Some selections from Johanna Drucker's The Century of Artists' Books (1994, 2004) will be distributed.
 
-h4. Meeting Times and Places:
+Meeting Times and Places:
 
 Classes will meet on Tuesdays and Wednesdays (by assigned groups; see below) at 16 W. 16th St., #2M-S, at 6:30 p.m.  (Phone: 212-633-1372.)  Students are welcome to stay until 9:30.
 
@@ -41,7 +41,7 @@ Wednesdays: Basu, Henkle, Lauer, Keithley, Nielsen, Sherwood
 Field Trips:
 I'm currently working to set up three field trips for us: 1) to the incredibly full artists books collection at the New York Public Library; 2) to the Fales Library Downtown Collection at NYU, which documents the downtown arts scene of the 1970s-1990s, birthplace of artist books as they're currently thought of; 3) to Printed Matter, a bookstore in Chelsea, founded in 1976 with a mission to foster the appreciation, dissemination, and understanding of artists' publications.
 
-h4. Schedule of Classes:
+Schedule of Classes:
 
 Jan. 29, 30: Bring calendar if you've made one.  Introduction to course and studio. Discuss insides/outsides.  Assign hexaflexagons.  
 February 5, 6: Bring hexaflexagons. Assign card project. 

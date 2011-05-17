@@ -8,7 +8,7 @@ module Jekyll
 
   # Adds some extra filters used during the tag creation process.
   module Filters
-    
+
     # Outputs a list of tags as comma-separated <a> links. This is used
     # to output the tag list for each post on a tag page.
     #
@@ -21,7 +21,7 @@ module Jekyll
           '<a href="/tag/'+item+'/">'+item.upcase+'</a>'
         end
       end
-      
+
       connector = " "
       case tags.length
       when 0
@@ -44,23 +44,23 @@ module Jekyll
     def category_link(category)
       if category.respond_to?('each')
         categories = category.sort!.map do |item|
-          '<a href="/'+item+'/">'+item+'</a>'
+          '<a href="/'+item+'/">'+item.upcase+'</a>'
         end
 
         connector = "and"
         case categories.length
-          when 0
-            ""
-          when 1
-            categories[0].to_s
-          when 2
-            "#{categories[0]} #{connector} #{categories[1]}"
-          else
-            "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
-          end
+        when 0
+          ""
+        when 1
+          categories[0].to_s
+        when 2
+          "#{categories[0]} #{connector} #{categories[1]}"
+        else
+          "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
+        end
       else
         item = category
-        '<a href="/'+item+'/">'+item+'</a>'
+        '<a href="/'+item+'/">'+item.upcase+'</a>'
       end  
     end
 
@@ -68,10 +68,10 @@ module Jekyll
       if category.respond_to?('each')
         category = category[0]
       end
-        '<a href="/'+category+'/'+sub_category+'/">'+sub_category+'</a>'
+      '<a href="/'+category+'/'+sub_category+'/">'+sub_category.upcase+'</a>'
     end
 
-     # Returns string
+    # Returns string
     def meta_link(meta, tags)
       meta=meta.to_s
       meta_plural=meta.en.plural
@@ -89,7 +89,7 @@ module Jekyll
       end
 
     end
-    
+
     # Outputs the post.date as formatted html, with hooks for CSS styling.
     #
     #  +date+ is the date object to format as HTML.
@@ -101,10 +101,30 @@ module Jekyll
       result += date.strftime('<span class="year">%Y</span> ')
       result
     end
-    
+
     def no_date(input)
-      if input == 'ND'
-        'Date Unknown'
+      if input == 'ND' or input == 'none'
+        'DATE UNKNOWN'
+      else
+        input.to_s.upcase
+      end
+    end
+    def no_location(input)
+      if input == 'ND' or input=='none'
+        ''
+      else
+        input.upcase+', '
+      end
+    end
+    def no_with(input)
+      if input
+      if input == 'ND' or input == 'none'
+        ''
+      else
+        ' (with '+input+')'
+      end
+    else
+      ''
       end
     end
 
@@ -113,5 +133,5 @@ module Jekyll
     end
 
   end
-  
+
 end

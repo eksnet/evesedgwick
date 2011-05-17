@@ -20,11 +20,11 @@ related_media:
 
 ---
 
-h3. Asian Encounters: ND, CUNY
+h5. Asian Encounters
 
 This seminar concerns the relation of Asian religious thought -- especially Buddhism -- to European and American culture. Brahmanism and Buddhism have 'arrived' and been influential in western thought in many forms through many different encounters over many centuries.  Thus, by now an Asian encounter with western culture must also be understood as a re-encounter with a palimpsest of previous Asian currents and influences (as well as vice versa).  Necessarily, then, the seminar also involves a range of difficult methodological, theoretical, and political issues surrounding authenticity, dissemination, appropriation, and perhaps especially, pedagogy.
 
-h4. Assigned Readings:
+Assigned Readings:
 
 Cleary, Thomas, tr.  The Essential Tao.  HarperSanFrancisco.  
 Kerouac, Jack.  Dharma Bums.  Penguin.  
@@ -37,13 +37,13 @@ Walker, Alice.  Meridian. Pocket Books.
 Watts, Alan.  The Way of Zen.  Vintage.  
 Wordsworth, William.  'Ode: Intimations of Immortality from Reflections of Early Childhood.'  Handout.  
 
-h4. Recommended Supplementary Readings:
+Recommended Supplementary Readings:
 
 Fields, Rick.  1992.  How the Swans Came to the Lake: A Narrative History of Buddhism in America.  Shambhala.  Fascinating and very readable discussion of many traditions of American Buddhism since the 19th century.  
 Halbfass, Wilhelm. 1988. India and Europe: An Essay in Understanding.  Albany: State U. of New York Press.  Especially good for its discussion of Hindu/Buddhist influences on European thought in the 18th and 19th centuries.  
 Lopez, Donald S., ed.  1995.  Curators of the Buddha: The Study of Buddhism Under Colonialism.  U. of Chicago Press.  A collection of incisive and very informative essays on Western Buddhism and Buddhology, written under the stimulus of Edward Saidís Orientalism.  
 
-h4. Schedule of Classes:
+Schedule of Classes:
 
 Jan. 30:  Introduction: Heart Sutra (handout)  
 Feb. 6: Kim (first half)  
@@ -63,7 +63,7 @@ May 8: James Merrill (handout) (first half)
 May 15: Last class: finish James Merrill  
 May 25: All papers and written work due  
 
-h4. Course Requirements:
+Course Requirements:
 
 All auditors and enrolled students are required to   
 (1) keep up with the reading on a weekly basis, and   
@@ -71,7 +71,7 @@ All auditors and enrolled students are required to
 Enrolled students are required to complete a mutually-agreed-on writing project.  Depending on where you are in your graduate work and what you want to use this class for, you have a variety of options for this project.  One possibility would be a reading journal, with weekly entries of  >5 pages recording your reflections on the current assignment, perhaps in relation to your other ongoing reading projects.  Or you might choose to write a full-dress (20-25 pp.) paper, which could be structured either around one or more of the texts studied, or around an encounter between another literary text and some of the material from this seminar.  Another possibility would be individual/small group research on some other aspect of Asian-western encounters.
 I expect you to consult with me substantively, early, and often about the nature and progress of your writing project.
 
-h4. Heart Sutra of the Prajna Paramita  
+Heart Sutra of the Prajna Paramita  
 (from the Sanskrit)
 
 When the Bodhisattva Avalokitesvara practiced the Profound Perfection of Transcendent wisdom, he saw that the Five Aggregates* were empty, thus completely relieving misfortune and pain.  
@@ -86,7 +86,7 @@ End of the Heart Sutra of the Prajna Paramita
 
 *The aggregates of which a human body is composed: form, feeling, conception, impulse, and consciousness
 
-h4. The Heart Sutra  
+The Heart Sutra  
 (from the Tibetan)
 
 Thus have I heard. Once the Blessed One was dwelling in Rajagriha at Vulture Peak mountain, together with a great gathering of the sangha of monks and a great gathering of the sangha of bodhisattvas. At that time the Blessed One entered the samadhi that expresses the dharma called "profound illumination," and at the same time noble Avalokiteshvara, the bodhisattva mahasattva, while practicing the profound prajnaparamita, saw in this way: he saw the five skandhas to be empty of nature.  

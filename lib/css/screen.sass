@@ -2,195 +2,230 @@
 title: screen.sass
 ---
 
-a, img { 
-  border: none; 
-}
-a img { 
-  border: none; 
-}
-img {
+$black: #000;
+$dark: #3A393B;
+$light: #939196;
+$accent: #BF1710; 
+
+@mixin bottom-border {
+  border-bottom:1px solid $dark;
+} 
+
+iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img { 
+  border: none;
   margin: 0px;
   padding: 0px;
-}
-iframe, form, fieldset, abbr, acronym, object, applet, table { border: none; }
-table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
-ul, ol, dir, menu {
-  padding: 0px;
-  margin: 0px;
-}
-ul {
+  border-spacing: 0px;
   list-style: none;
 }
-ol {
-  padding:0px 0px 0px 20px;
-}
-em {
-  font-style: normal;
+html, body {
+  font-family: Georgia, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
   font-weight: normal;
+  line-height: 13px;
+  color: #000;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align:baseline;
 }
-.cc_18 { width: 852px; }
-.cc_16 { width: 756px; }
-.cc_14 { width: 660px; }
-.cc_12 { width: 564px; }
-.cc_11 { width: 504px; }
-.cc_10 { width: 468px; }
-.cc_09 { width: 420px; }
-.cc_08 { width: 372px; }
-.cc_06 { width: 276px; }
-.cc_04 { width: 180px; }
-.cc_03 { width: 132px; }
-.cc_02 { width: 84px; }
-.cc_01 { width: 36px; }
-
-.bg1 { background-color: #8cb75d; }
-.bg2 { background-color: #a9c38d; }
-.bg3 { background-color: #bddf98; }
-.bg4 { background-color: #e3f9ca; }
-.bg5 { background-color: #eff9e4; }
-
-/* Start Subtraction Stylesheet */
-
-#header {
-    height:30px;
+h1, h2, h3, h4, h5, h6 {
+  margin:0px;
+  padding:0px;
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  font-weight:normal; 
+}
+h1 {
+  display:inline-block;
+  width:296px;
+  font-size:20px;
+  line-height:20px;
+  padding:100px 0px 6px;
+}
+h2 {
+  display:inline-block;
+  width:296px;
+  font-size:20px;
+  line-height:20px;
+  padding:0px;
+  margin:6px 0px;
+}
+h3 {
+  display:inline-block;
+  font-size:20px;
+  line-height:20px;
+  padding:0px;
+  margin:6px 0px 8px;
+}
+h4 {
+  font-size:16px;
+  line-height:16px;
+  width:296px;
+  color:$black;
+  margin-bottom:12px;
+}
+h5 {
+  font-family: Georgia, serif;
+   font-size:16px;
+   line-height:16px;
+   color:$black;
+   margin-bottom:18px;
+}
+h6 {
+  font-weight:normal;
+  font-size:10px;
+  line-height:10px;
+  color:$light;
+  margin:0px 0px 8px;
+}
+ul.nav {
+  float:right;
+}
+li { 
+  display:inline-block;
+  padding:5px 0px 4px 9px;
+  font-size:10px;
+  line-height:10px;
+  margin-top:9px;
+}
+header li { 
+  display:inline-block;
+  padding:5px 0px 4px 12px;
+  font-size:12px;
+  line-height:12px;
+  margin-top:123px;
+}
+p {
+  font-family:Georgia;
+  font-size:14px;
+  line-height:18px;
+  margin:0px 0px 12px;
+}
+.preview p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block {
+  background-color:rgba(128,128,128,0.6);
+}
+body {
+  min-width:942px;
+  border-top:4px solid black;
+}
+#container {
+  width:912px;
+  margin:0px 96px;
+  text-align:left;
+  height:100%;
+}
+header {
+  width:912px;
+  margin-bottom:32px;
+  @include bottom-border;
+}
+section {
+  margin:0px 0px 28px;
+}
+.subsection {
+  margin:18px 0px 28px;
+}
+footer {
+  width:912px;
+  height:65px;
+  @include bottom-border;
+  border-top:1px solid #3A393B;
+  margin-bottom:18px;
+}
+#title {
+  margin-bottom:28px;
+  @include bottom-border;
+}
+#main {
+  width:604px;
+  margin: 20px 0px 36px 308px;
+}
+ul#nav {
+  height:141px; 
+  padding-bottom:6px; 
+  text-align:right;
 }
 
-div.nav {
-    float:right; 
+.marginal {
+  float:left;
+  clear:left;
+  margin:0px 0px 0px -308px;
+  width:296px;
+}
+.record_count {
+  margin:23px 0px 0px -308px;
+  text-align: right;
+  font-style: italic;
+  color: $light;
+  font-size: 12px;
 }
 
-div.nav li {
-    float:left;
-    width:90px;
-    text-align:right;
+/* ------------------- LINKS */
+
+a   {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
 }
 
+a:link  {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
+} 
 
-/* page styles */
+a:visited   {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
+}
 
-    html, body {
-        font-family: arial, helvetica, sans-serif;
-        font-size: 11px;
-        font-weight: normal;
-        line-height: 13px;
-        color: #000;
-        background-color: #FFF;
-        margin: 0px;
-        padding: 10px 10px 20px 10px;
-        text-align: left;
-        }
-    /* 
+a:active    { 
+  color: $light;  
+  text-decoration:none;
+  background-color: transparent;
+} 
 
-    A Note About Arial vs. Helvetica
+a:hover     { 
+  color: $accent; 
+  text-decoration:none; 
+  background-color: transparent;
+}
 
-    Below a certain point size, Helvetica renders very
-    poorly on the Windows platform. This is the reason
-    that I've reluctantly specified Arial instead, which
-    is much more reliably rendered across multiple platforms. 
+h6 a   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
 
-    */
+h6 a:link  {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+} 
 
-    
-/*  body    {
-            background-image: url(http://assets.subtraction.com/assets/grid.gif);
-            background-position: top left;
-            background-repeat: repeat-y;
-        }
+h6 a:visited   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
 
-/* general type styles */
+h6 a:active    { 
+  color: $dark;  
+  text-decoration:none;
+  background-color: transparent;
+} 
 
-    a   {
-        color: #000;
-        font-weight:bold;
-        text-decoration: none;
-        background-color: transparent;
-        }
+h6 a:hover     { 
+  color: $dark; 
+  text-decoration:none; 
+  background-color: transparent;
+}
 
-    a:link  {
-        color: #000;
-        text-decoration: none;
-        background-color: transparent;
-        } 
-
-    a:visited   {
-        color: #000;
-        text-decoration: none;
-        background-color: transparent;
-        } 
-
-    a:active    { 
-        color: #F60;  
-        text-decoration:underline;
-        background-color: transparent;
-        } 
-
-    a:hover     { 
-        color: #F60; 
-        text-decoration:underline; 
-        background-color: transparent;
-        } 
-        
-    .post-lead  h4  a[href$=".pdf"]::after,
-    .post-lead  p   a[href$=".pdf"]::after {
-        content: url(http://assets.subtraction.com/assets/pdf_icon.gif);
-        padding: 0px 4px 0px 4px;
-        }
-        
-
-    img {
-        padding: 0px;
-        border: 0px;
-        margin: 0px;
-        }
-        
-    h1  {
-        font-family: helvetica, arial, sans-serif;
-        font-size: 18px;
-        line-height: 14px;
-        font-weight: bold;
-        padding: 0px;
-        margin: 0px;
-        }
-
-    h2  {
-        font-size: 12px;
-        font-family: arial, helvetica, sans-serif;
-        color: #000;
-        line-height: 16px;
-        font-weight: bold;
-        padding: 0px 0px 10px 0px;
-        border: 0px;
-        margin: 0px 0px 0px 0px;
-        }       
-
-    h3  {
-        font-size: 12px;
-        font-family: arial, helvetica, sans-serif;
-        line-height: 16px;
-        font-weight: bold;
-        padding: 0px 0px 10px 0px;
-        border: 0px;
-        margin: 0px 0px 0px 0px;
-        }
-        
-    h4  {
-        font-size: 11px;
-        font-family: arial, helvetica, sans-serif;
-        line-height: 13px;
-        font-weight: bold;
-        padding: 0px 0px 3px 0px;
-        border: 0px;
-        margin: 0px 0px 0px 0px;
-        }
-
-    p   {
-        padding: 0px 0px 10px 0px;
-        }
-        
-    img {
-        margin: 0px;
-        padding: 0px;
-        border: none;
-        }
