@@ -1,0 +1,26 @@
+---
+layout: base
+---
+<section id='title'>   
+    <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
+    <h6>FILED UNDER - {{ page.nav | category_link }}/{{ page.category | category_link }}/{{ page.sub-category | sub_category_link: page.category }}
+        {% assign related = false %}
+        {% for tag in page.tags %}
+            {% assign related = true %}
+        {% endfor %}
+        {% if page.amazon_url or page.indiebound_url or page.worldcat_url %}
+            <span class='right'>ONLINE - {% if page.indiebound_url %}<a href='{{ page.indiebound_url }}' target='blank'>INDIEBOUND</a>{% endif %} {% if page.amazon_url %}<a href='{{ page.amazon_url }}' target='blank'>AMAZON</a>{% endif %} {% if page.worldcat_url %}<a href='{{ page.worldcat_url }}' target='blank'>WORLDCAT</a>{% endif %}</span></h6>
+        {% endif %}
+</section>
+
+<div class='content book'>
+    {% if page.cover_img %}
+    <img class='cover' src='/images/archive/book-covers/{{ page.cover_img }}' style="float:left; clear:left; margin-left:-154px; width:142px;" width='142'>
+    {% endif %}
+    <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
+    {% assign biblio = page.editions[0] %}
+    <h6 class='biblio'>({{ biblio['location'] | upcase }}: {{ biblio['publisher'] | upcase }}, {{ biblio['date'] }}. {{ biblio['binding'] | upcase }}. {{ biblio['isbn'] }}. {{ biblio['pages'] }})</h6>
+    
+    {{ content }}
+    
+</div>

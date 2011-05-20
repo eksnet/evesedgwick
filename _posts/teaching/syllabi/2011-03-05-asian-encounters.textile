@@ -1,10 +1,10 @@
 ---
 layout: document
 published: true
-nav: archive
+nav: blog
 category: teaching
 sub-category: syllabi
-type: document
+type: post
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}

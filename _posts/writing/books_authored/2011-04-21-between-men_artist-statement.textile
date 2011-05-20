@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: book
 published: true
 nav: archive
 category: writing
@@ -17,10 +17,11 @@ editions:
       location:     New York
       series:       Gender and Culture Series
       date:         1985
-      binding:      cloth and paper
+      binding:      Paperback
       notes:        none
       translations: none
-      isbn:         none
+      isbn:         9780231082730
+      pages:        244pp.
       further_editions:
         - type:         paperback
           date:         1986
@@ -29,9 +30,9 @@ editions:
           translations: Japanese
           isbn:         none
 
-amazon_url:     none
-indiebound_url: none
-worldcat_url:   none
+amazon_url:     "http://www.amazon.com/Between-Men-English-Literature-Homosocial/dp/0231082738/ref=sr_1_1?s=books&ie=UTF8&qid=1305861332&sr=1-1"
+indiebound_url: "http://www.indiebound.org/book/9780231082730"
+worldcat_url:   "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/11089512&referer=brief_results"
 
 cover_img:      betweenmen.jpg
 description:    none
@@ -42,8 +43,6 @@ display_data:
     - {k: editions.date, v: Publication Date}
 
 ---
-
-h3. Between Men: English Literature and Male Homosocial Desire (Columbia University Press, 1985)
 
 Hailed by the New York Times as "one of the most influential texts in gender studies, men's studies and gay studies," this book uncovers the homosocial desire between men, from Restoration comedies to Tennyson's _Princess_. --_From the jacket copy_
 

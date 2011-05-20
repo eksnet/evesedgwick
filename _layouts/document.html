@@ -1,31 +1,32 @@
 ---
 layout: base
 ---
-<section id='title'>
-{% for datum in page.meta %}
-    {% case datum["key"] %} 
-      {% when 'location' %}
-        {% assign location = datum["value"] %}
-      {% when 'creation-date' %} 
-       {% assign creation_date = datum['value'] %}
-      {% when 'with' %} 
-        {% assign with = datum['value'] %}
-    {% endcase %}
-{% endfor %}    
-<h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
-<h6>FILED UNDER - {{ page.nav | category_link }}/{{ page.category | category_link }}/{{ page.sub-category | sub_category_link: page.category }}
-{% assign related = false %}
-{% for tag in page.tags %}
-    {% assign related = true %}
-{% endfor %}
-{% if related %}
-    <span style='float:right; text-align:right;'>RELATED - {{ page.tags | tag_links }}</span></h6>
-{% endif %}
+<section id='title'>   
+    {% for datum in page.meta %}
+        {% case datum["key"] %} 
+            {% when 'location' %}
+                {% assign location = datum["value"] %}
+            {% when 'creation-date' %} 
+                {% assign creation_date = datum['value'] %}
+            {% when 'with' %} 
+                {% assign with = datum['value'] %}
+        {% endcase %}
+    {% endfor %}
+    <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
+    <h6>FILED UNDER - {{ page.nav | category_link }}/{{ page.category | category_link }}/{{ page.sub-category | sub_category_link: page.category }}
+        {% assign related = false %}
+        {% for tag in page.tags %}
+            {% assign related = true %}
+        {% endfor %}
+        {% if related %}
+            <span class='right'>RELATED - {{ page.tags | tag_links }}</span></h6>
+        {% endif %}
 </section>
+
 <div class='content'>
     {% for media in page.related_media %}
         {% if media['type'] == 'album' %}
-         {{ media[''] }}
+         {{ media }}
         {% assign images = media['images'] %}
             {{ media['images'] }}
             {% include album.html %}

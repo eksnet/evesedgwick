@@ -12,7 +12,7 @@ related_media:
 
 ---
 
-h3. Biography
+h5. Biography
 
 Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.
 

@@ -38,6 +38,6 @@ display_data:
 
 ---
 
-h3. Proust and the Queer Little Gods
+h5. Proust and the Queer Little Gods
 
 A study of _A la recherche du temps perdu_ from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.

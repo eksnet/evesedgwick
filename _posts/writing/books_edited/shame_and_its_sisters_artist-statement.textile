@@ -36,7 +36,7 @@ display_data:
 
 ---
 
-h3. Shame and Its Sisters: A Silvan Tomkins Reader (with Adam Frank; Duke University Press, 1995)
+h5. Shame and Its Sisters: A Silvan Tomkins Reader (with Adam Frank; Duke University Press, 1995)
 
 The question of affect is central to critical theory, psychology, politics, and the entire range of the humanities; but no discipline, including psychoanalysis, has offered a theory of affect that would be rich enough to account for the delicacy and power, the evanescence and durability, the bodily rootedness and the cultural variability of human emotion.
 

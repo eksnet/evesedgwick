@@ -9,6 +9,7 @@ plugins:        ./_plugins
 
 nav:
     - archive
+    - blog
     - resources 
 
 title:          Eve Kosofsky Sedgwick

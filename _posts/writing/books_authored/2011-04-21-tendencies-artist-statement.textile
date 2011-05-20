@@ -38,7 +38,7 @@ display_data:
 
 ---
 
-h3. Tendencies (Duke University Press, 1993)
+h5. Tendencies (Duke University Press, 1993)
 
 _Tendencies_ brings together for the first time the essays that have made Eve Kosofsky Sedgwick "the soft-spoken queen of gay studies" (Rolling Stone). Combining poetry, wit, polemic, and dazzling scholarship with memorial and autobiography, these essays have set new standards of passion and truthfulness for current theoretical writing.
 

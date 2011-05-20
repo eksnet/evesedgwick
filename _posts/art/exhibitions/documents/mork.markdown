@@ -23,7 +23,7 @@ display_data:
 
 ---
 
-h3. In the Bardo: From "Come as You Are" (Unpublished, 1999)
+h5. In the Bardo: From "Come as You Are" (Unpublished, 1999)
 
 A few months ago, getting a checkup, I mentioned to my oncologist an academic conference on death and dying, and remarked that as far as I could tell from the program, I was the only sick person involved in it. He said, You know, it is a nice philosophical question at this point, in exactly what sense you can be said to be sick. He meant his comment to be cheering, and it actually was--Iím feeling very well, and I liked his acknowledging that.
 

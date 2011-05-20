@@ -103,17 +103,21 @@ module Jekyll
     end
 
     def no_date(input)
-      if input == 'ND' or input == 'none'
-        'DATE UNKNOWN'
-      else
-        input.to_s.upcase
+      if input
+        if input == 'ND' or input == 'none'
+          'DATE UNKNOWN'
+        else
+          input.to_s.upcase
+        end
       end
     end
     def no_location(input)
-      if input == 'ND' or input=='none'
-        ''
-      else
-        input.upcase+', '
+      if input
+        if input=='none'
+          ''
+        else
+          input.upcase+', '
+        end
       end
     end
     def no_with(input)
