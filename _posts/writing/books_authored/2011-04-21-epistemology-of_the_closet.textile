@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: book
 published: true
 nav: archive
 category: writing
@@ -43,8 +43,6 @@ display_data:
     - {k: publication_date,  v: Publication Date}
 
 ---
-
-h5. Epistemology of the Closet (University of California Press, 1990)
 
 What is at stake in male homo/heterosexual definition? At a time when the politics of homosexuality are more contested with every day’s news, Eve Kosofsky Sedgwick argues that the vexed imperatives to specify straight and gay identities have become central to every important form of knowledge of the twentieth century. 
 

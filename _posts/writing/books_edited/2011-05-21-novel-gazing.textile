@@ -1,8 +1,10 @@
 ---
 layout: book
 published: true
-permalink: /writing/books/books_authored/between-men.html
-category: Books Edited
+nav: archive
+category: writing
+sub-category: "books edited"
+type: book
 
 type: book
 role: editor
@@ -35,8 +37,6 @@ display_data:
     - {k: publication_date,  v: Publication Date}
 
 ---
-
-h5. Novel Gazing: Queer Readings in Fiction (Duke University Press, 1997)
 
 _Novel Gazing_ is the first collection of queer criticism on the history of the novel. The contributors to this volume navigate new territory in literary theory with essays that implicitly challenge the "hermeneutic of suspicion" widespread in current critical theory. In a stunning introductory essay, Eve Kosofsky Sedgwick delineates the possibilities for a criticism that would be "reparative" rather than cynical or paranoid. The startlingly imaginative essays in the volume explore new critical practices that can weave the pleasures and disorientations of reading into the fabric of queer analyses.
 

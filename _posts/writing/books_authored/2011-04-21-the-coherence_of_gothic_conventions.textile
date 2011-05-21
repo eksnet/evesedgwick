@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: book
 published: true
 nav: archive
 category: writing

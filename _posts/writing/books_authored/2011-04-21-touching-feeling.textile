@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: book
 published: true
 nav: archive
 category: writing
@@ -37,8 +37,6 @@ display_data:
     - {k: publication_date,  v: Publication Date}
 
 ---
-
-h5. Touching Feeling (Duke University Press, 2003)
 
 A pioneer in queer theory and literary studies, Eve Kosofsky Sedgwick brings together for the first time in _Touching Feeling_ her most powerful explorations of emotion and expression. In essays that show how her groundbreaking work in queer theory has developed into a deep interest in affect, Sedgwick offers what she calls "tools and techniques for nondualistic thought," in the process touching and transforming such theoretical discourses as psychoanalysis, speech-act theory, Western Buddhism, and the Foucauldian "hermeneutics of suspicion."
 

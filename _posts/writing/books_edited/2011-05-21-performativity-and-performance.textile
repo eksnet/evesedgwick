@@ -1,9 +1,10 @@
 ---
 layout: book
 published: true
-permalink: /writing/books/books_authored/between-men.html
-category: Books Edited
-
+nav: archive
+category: writing
+sub-category: "books edited"
+type: book
 type: book
 role: editor
 with: Andrew Parker
@@ -35,8 +36,6 @@ display_data:
     - {k: publication_date,  v: Publication Date}
 
 ---
-
-h5. Performativity and Performance (with Andrew Parker; Routledge, 1995)
 
 When is saying something doing something? And how is saying something doing something?
 

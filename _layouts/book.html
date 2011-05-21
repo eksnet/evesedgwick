@@ -15,7 +15,7 @@ layout: base
 
 <div class='content book'>
     {% if page.cover_img %}
-    <img class='cover' src='/images/archive/book-covers/{{ page.cover_img }}' style="float:left; clear:left; margin-left:-154px; width:142px;" width='142'>
+    <img class='cover' src='/images/archive/book-covers/{{ page.cover_img }}'>
     {% endif %}
     <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
     {% assign biblio = page.editions[0] %}
