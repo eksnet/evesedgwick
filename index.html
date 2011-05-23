@@ -2,13 +2,12 @@
 layout: base
 ---
     {% for post in site.posts %}
-      <div id="container">
-        <div class="entry-content">
-          <h2 class="clear">
+
+          <h4>
             <a href="{{ post.url }}/" title="{{ post.title }}"> 
               {{ post.title }}
             </a>
-          </h2>
+          </h4>
           <span class="date" 
               title="{{ post.date | date_to_xmlschema }}">
             <span class="published">Published: </span>
@@ -18,7 +17,5 @@ layout: base
             </span>
             <span class="year">{{ post.date | date: '%Y' }}</span>
           </span>
-          {{ content }}
-        </div> <!-- /.entry-content -->
-      </div> <!-- /#container -->
+
     {% endfor %}

@@ -30,9 +30,10 @@ editions:
           translations: Japanese
           isbn:         none
 
-amazon_url:     "http://www.amazon.com/Between-Men-English-Literature-Homosocial/dp/0231082738/ref=sr_1_1?s=books&ie=UTF8&qid=1305861332&sr=1-1"
-indiebound_url: "http://www.indiebound.org/book/9780231082730"
-worldcat_url:   "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/11089512&referer=brief_results"
+urls:
+    - { display: amazon, url: "http://www.amazon.com/Between-Men-English-Literature-Homosocial/dp/0231082738/ref=sr_1_1?s=books&ie=UTF8&qid=1305861332&sr=1-1"}
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780231082730"}
+    - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/11089512&referer=brief_results"}
 
 cover_img:      betweenmen.jpg
 description:    none

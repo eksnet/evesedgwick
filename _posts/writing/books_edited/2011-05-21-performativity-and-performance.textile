@@ -5,7 +5,7 @@ nav: archive
 category: writing
 sub-category: "books edited"
 type: book
-type: book
+
 role: editor
 with: Andrew Parker
 title: Performativity and Performance

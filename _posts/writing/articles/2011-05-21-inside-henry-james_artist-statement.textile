@@ -1,26 +1,27 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/gender-criticism.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: Gender Criticism
-sub_title: none
+title: Inside Henry James
+sub_title: Toward A Lexicon for the Art of the Novel
 
 in:
     - description:  book
       editors:      
-        - Stephen Greenblatt
-        - Giles Gunn
-      publication:  Redrawing the Boundaries
+        - M. Dorenkamp
+        - R. Henke
+      publication:  Negotiating Lesbian and Gay Subjects
       issue:        52-3
-      publisher:    MLA
-      location:     New York
+      publisher:    Routledge
+      location:     London and New York
       series:       none
-      date:         1993
+      date:         1995
       binding:      none
       notes:        none
       translations: none

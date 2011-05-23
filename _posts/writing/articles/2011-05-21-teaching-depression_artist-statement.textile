@@ -1,24 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/a-response-to-c-jacob-hale.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: A Response to C. Jacob Hale
+title: Teaching/Depression
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  Social Text
-      issue:        52-3
+      publication:  The Scholar and Feminist Online
+      issue:        4
       publisher:    none
       location:     none
       series:       none
-      date:         Autumn-Winter 1997
+      date:         Spring 2006
       binding:      none
       notes:        none
       translations: none

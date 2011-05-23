@@ -1,10 +1,11 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: 
   - Michael Moon

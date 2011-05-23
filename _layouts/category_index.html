@@ -4,7 +4,7 @@ layout: base
     {% if page.category == 'all' %}
         <section id='title'>    
             <h2>{{ page.nav | category_link}}</h2>
-            <ul class='nav'>
+            <ul class='nav' id='sub-nav'>
             {% for nav in site.navs_by_category[page.nav] %}
                 {% for category in nav %}
                     <li>{{ category.name | category_link }}</li>   
@@ -20,7 +20,7 @@ layout: base
         <div class='marginal record_count'> 
             {{ record_count }} Records
         </div>
-        {% for post in category['posts'] limit:2 %}
+        {% for post in category['posts'] limit:3 %}
         <section class='preview'>
             <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
             <p>{{ post.description }}</p>
@@ -37,7 +37,7 @@ layout: base
     {% else %}
         <section id='title'>    
             <h2 style=''>{{ page.nav | category_link }} <span>{{ page.category | category_link}}</span></h2>
-            <ul class='nav'>
+            <ul class='nav' id='sub-nav'>
             {% for category in site.categories_by_sub[page.category] %}
                 {% for sub in category %}
                     <li>{{ sub.name | sub_category_link: page.category }}</li>   
@@ -55,7 +55,7 @@ layout: base
                 <div class='marginal record_count'> 
                     {{ record_count }} Records
                 </div>
-                {% for post in sub.posts %}
+                {% for post in sub.posts limit:3 %}
                 <section class='preview'>
                     <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
                     <p>{{ post.description }}</p>

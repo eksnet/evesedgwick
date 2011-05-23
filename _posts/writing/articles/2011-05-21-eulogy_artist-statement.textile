@@ -1,24 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/melanie-klein-and-the-difference-affect-makes.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: Melanie Klein and the Difference Affect Makes
+title: Eulogy
 sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  South Atlantic Quarterly
-      issue:        106
+      publication:  "Women and Performance: A Journal of Feminist Theory"
+      issue:        25
       publisher:    none
       location:     none
       series:       none
-      date:         Summer 2007
+      date:         none
       binding:      none
       notes:        none
       translations: none

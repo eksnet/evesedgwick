@@ -1,27 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/against-epistemology.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: Against Epistemology
-sub_title: none
+title: Shame and Performativity
+sub_title: Henry James's <i>New York Edition Prefaces</i>
 
 in:
     - description:  book
-      editors:      
-        - James Chandler
-        - Arnold I. Davidson
-        - Harry Harootunian
-      publication:  Questions of Evidence
+      editors:      D. McWhirter
+      publication:  "<i>Henry James's New York Editions: The Construction of Authorship</i>"
       issue:        none
-      publisher:    University of Chicago Press
-      location:     Chicago
+      publisher:    Stanford University Press
+      location:     Stanford
       series:       none
-      date:         1994
+      date:         1995
       binding:      none
       notes:        none
       translations: none

@@ -6,7 +6,6 @@ category: writing
 sub-category: "books edited"
 type: book
 
-type: book
 role: editor
 with: none
 title: Gary in Your Pocket

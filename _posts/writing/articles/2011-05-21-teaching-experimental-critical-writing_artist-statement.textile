@@ -1,24 +1,27 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/review-of-sandra-gilbert-and-susan-gubar.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: "Review of Sandra Gilbert and Susan Gubar, <i>No Man's Land, vol. 1: The War of the Words</i>"
+title: Teaching Experimental Critical Writing
 sub_title: none
 
 in:
     - description:  journal
-      editors:      none
-      publication:  English Language Notes
-      issue:        XXVIII.1
-      publisher:    none
-      location:     none
+      editors:      
+        - J. Lane
+        - Phelan
+      publication:  The Ends of Performance
+      issue:        none
+      publisher:    New York University Press
+      location:     New York
       series:       none
-      date:         September 1990
+      date:         1998
       binding:      none
       notes:        none
       translations: none

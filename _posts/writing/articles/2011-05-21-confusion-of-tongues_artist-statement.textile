@@ -1,25 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/warhols-shyness-warhols-whiteness.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
-with: none
-title: "Warhol's Shyness, Warhol's Whiteness"
-sub_title: none
+with: Michael Moon
+title: Confusion of Tongues
+sub_title: Louisa Van Velsor Whitman and Walt Whitman
 
 in:
     - description:  book
       editors:      
-        - Jennifer Doyle
-        - Jonathan Flatley
-        - JosŽ Munoz
-      publication:  "Pop Out: Queer Warhol"
-      issue:        52-3
-      publisher:    Duke University Press
-      location:     Durham
+        - Betsy Erkkila
+        - Jay Grossman
+      publication:  "Breaking Bounds: New Essays on Walt Whitman"
+      issue:        none
+      publisher:    Oxford University Press
+      location:     Oxford
       series:       none
       date:         1996
       binding:      none

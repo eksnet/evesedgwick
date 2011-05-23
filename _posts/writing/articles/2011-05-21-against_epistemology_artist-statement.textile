@@ -1,24 +1,28 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/memorial-for-michael-lynch.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: Memorial for Michael Lynch
-sub_title: Scholarship and Affection
+title: Against Epistemology
+sub_title: none
 
 in:
-    - description:  journal
-      editors:      none
-      publication:  Lesbian and Gay Studies Newsletter
+    - description:  book
+      editors:      
+        - James Chandler
+        - Arnold I. Davidson
+        - Harry Harootunian
+      publication:  Questions of Evidence
       issue:        none
-      publisher:    none
-      location:     none
+      publisher:    University of Chicago Press
+      location:     Chicago
       series:       none
-      date:         Fall 1991
+      date:         1994
       binding:      none
       notes:        none
       translations: none

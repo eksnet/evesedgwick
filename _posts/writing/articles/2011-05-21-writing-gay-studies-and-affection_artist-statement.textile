@@ -1,26 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/teaching-experimental-critical-writing.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: Teaching Experimental Critical Writing
+title: "Writing, Gay Studies, and Affection"
 sub_title: none
 
 in:
     - description:  journal
-      editors:      
-        - J. Lane
-        - Phelan
-      publication:  The Ends of Performance
-      issue:        none
-      publisher:    New York University Press
-      location:     New York
+      editors:      none
+      publication:  Lesbian and Gay Studies Newsletter
+      issue:        18
+      publisher:    none
+      location:     none
       series:       none
-      date:         1998
+      date:         "November, 1991"
       binding:      none
       notes:        none
       translations: none

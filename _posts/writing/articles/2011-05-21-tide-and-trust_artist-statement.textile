@@ -1,24 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/the-l-word.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
 with: none
-title: "'The L Word'"
-sub_title: Novelty in Normalcy
+title: Tide and Trust
+sub_title: none
 
 in:
     - description:  journal
       editors:      none
-      publication:  The Chronicle of Higher Education
+      publication:  Critical Inquiry
       issue:        none
       publisher:    none
       location:     none
       series:       none
-      date:         "January 16, 2004"
+      date:         "Summer, 1989"
       binding:      none
       notes:        none
       translations: none

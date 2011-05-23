@@ -1,24 +1,25 @@
 ---
-layout: book
+layout: article
 published: true
-permalink: /writing/articles/confusion-of-tongues.html
-category: Published Articles
-
+nav: archive
+category: writing
+sub-category: "articles"
 type: article
+
 role: author
-with: Michael Moon
-title: Confusion of Tongues
-sub_title: Louisa Van Velsor Whitman and Walt Whitman
+with: none
+title: "Gosh, Boy George, You Must be Awfully Secure in your Masculinity"
+sub_title: none
 
 in:
     - description:  book
       editors:      
-        - Betsy Erkkila
-        - Jay Grossman
-      publication:  "Breaking Bounds: New Essays on Walt Whitman"
+        - Maurice Berger
+        - et al.
+      publication:  Constructing Masculinity
       issue:        none
-      publisher:    Oxford University Press
-      location:     Oxford
+      publisher:    Routledge
+      location:     New York
       series:       none
       date:         1996
       binding:      none

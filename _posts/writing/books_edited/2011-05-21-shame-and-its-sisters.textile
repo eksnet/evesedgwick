@@ -6,7 +6,6 @@ category: writing
 sub-category: "books edited"
 type: book
 
-type: book
 role: editor
 with: Adam Frank
 title: Shame and Its Sisters

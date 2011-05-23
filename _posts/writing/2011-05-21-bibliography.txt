@@ -1,3 +1,12 @@
+---
+layout: bibliography
+published: true
+nav: archive
+category: writing
+type: document
+
+---
+
 Books Authored:
 
 <i>Touching Feeling: Affect, Pedagogy, Performativity</i>, Durham, N.C: Duke University Press, 2003, cloth and paper.
