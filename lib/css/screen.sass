@@ -12,7 +12,11 @@ $margin:18px;
 
 @mixin bottom-border {
   border-bottom:1px solid $dark;
-} 
+}
+
+@mixin top-border {
+  border-top:1px solid $dark;
+}
 
 iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img { 
   border: none;
@@ -99,6 +103,7 @@ img.cover {
   margin-top:2px;
 }
 ul.nav {
+  display:inline-block;
   float:right;
 }
 li { 
@@ -122,6 +127,9 @@ p {
 }
 .preview p {
   font-family: Arial, Helvetica, sans-serif;
+}
+.nosub {
+  padding-top:18px;
 }
 .block {
   background-color:rgba(128,128,128,0.6);
@@ -162,12 +170,16 @@ footer {
 #title.under {
   @include bottom-border;
 }
+#extra {
+  @include top-border;
+}
 #main {
   width:($column * 4) + ($margin * 3);
   margin: 20px 0px 36px (($column * 2) + ($margin * 1));
   min-height:500px;
 }
 ul#nav {
+  
   height:141px; 
   padding-bottom:6px; 
   text-align:right;

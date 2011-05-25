@@ -3,19 +3,9 @@ layout: base
 ---
 <section id='title' class='under'>   
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
-    <h6>FILED UNDER - {{ page.nav | category_link }}/{{ page.category | category_link }}/{{ page.sub-category | sub_category_link: page.category }}
-         {% assign online = false %}
-            {% for url in page.urls %}
-                {% assign online = true %}
-            {% endfor %}
-            {% if online %}
-                <span class='right'>ONLINE - 
-                {% for url in page.urls %}
-                <a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a>            
-                {% endfor %}
-                </span>
-            {% endif %}
-            </h6>
+    
+    {% include filing_notes.liquid %}
+    
 </section>
 
 <div class='content book'>
@@ -26,3 +16,5 @@ layout: base
     {{ content }}
     
 </div>
+
+{% include external_links.liquid %}

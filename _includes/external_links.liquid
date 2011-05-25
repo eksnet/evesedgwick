@@ -1,0 +1,12 @@
+{% assign online = false %}
+{% for url in page.urls %}
+    {% assign online = true %}
+{% endfor %}
+{% if online %}
+    <section id='extra'>
+        <h6>EXTERNAL LINKS</h6> 
+    {% for url in page.urls %}
+    <a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a><br>            
+    {% endfor %}
+    </section>
+{% endif %}

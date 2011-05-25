@@ -1,7 +1,8 @@
 ---
 layout: base
 ---
-    {% for post in site.posts %}
+    {{ paginator.page }}
+    {% for post in paginator.posts %}
 
           <h4>
             <a href="{{ post.url }}/" title="{{ post.title }}"> 

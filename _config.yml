@@ -4,6 +4,8 @@ multiviews:     false
 sass:           false
 haml:           false
 
+paginate:       5
+
 permalink:      /:categories/:title.html
 plugins:        ./_plugins
 
