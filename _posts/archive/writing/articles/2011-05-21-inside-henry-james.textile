@@ -7,9 +7,9 @@ sub-category: "articles"
 type: article
 
 role: author
-with: none
 title: Inside Henry James
 sub_title: Toward A Lexicon for the Art of the Novel
+pub-date: 1995
 
 in:
     - description:  book
@@ -20,13 +20,7 @@ in:
       issue:        52-3
       publisher:    Routledge
       location:     London and New York
-      series:       none
       date:         1995
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 cover_img: none
 description: none

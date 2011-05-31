@@ -35,7 +35,7 @@ module Jekyll
       end
       return hash
     end
-    
+
     def collect_by_attribute(attribute, posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
@@ -56,7 +56,7 @@ module Jekyll
       end
       return hash
     end
-    
+
     def make_iterable(kv_hash, options)
       options = {:index => 'name', :items => 'items'}.merge(options)
       result = []
@@ -83,6 +83,42 @@ module Jekyll
       return hash
     end
 
+    def collect_bibliography(posts)
+      bib=posts['writing']
+      bib.each do |posts|
+        posts.each do |p|
+          p['posts'].sort! {|a, b| b.data['pub-date'] <=> a.data['pub-date']}
+        
+          puts "POSTS_____: #{p}"
+        end
+      end
+      return bib
+    end
+
+    # Returns {<collection.title> => [<sub>, <sub>, <sub>]}
+    def collect_keys(key_attribute, collection)
+      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      posts.each do |post|
+        if post.data[collection]
+          if post.data[collection].respond_to?('each')
+            post.data[collection].each do |c|
+              if post.data[key_attribute]
+                hash[c] << post.data[key_attribute]
+              end
+            end
+          else
+            hash[post.data[collection]] << post.data[key_attribute]
+          end
+        end  
+      end
+      hash.values.map do |sort|
+        sort.compact!
+        sort.uniq!
+        sort.sort! {|a, b| a <=> b}
+      end
+      return hash
+    end
+
     # Redefine site_payload to include our new method.
     alias_method :orig_site_payload, :site_payload
     def site_payload
@@ -100,6 +136,9 @@ module Jekyll
       payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
       payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
+      # Key collections
+      payload['site']['sub_keys_by_category'] = self.collect_keys('sub-category', 'category')
+      payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload
     end
 

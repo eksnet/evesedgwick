@@ -8,7 +8,7 @@ layout: base
         
 </section>
 
-<div class='content book'>
+<section class='content book'>
     {% if page.cover_img %}
     <img class='cover' src='/images/archive/book-covers/{{ page.cover_img }}'>
     {% endif %}
@@ -18,7 +18,7 @@ layout: base
     
     {{ content }}
     
-    </div>
+</section>
     
     {% include external_links.liquid %}
 

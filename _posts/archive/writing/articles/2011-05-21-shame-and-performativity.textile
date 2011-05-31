@@ -7,24 +7,17 @@ sub-category: "articles"
 type: article
 
 role: author
-with: none
 title: Shame and Performativity
 sub_title: Henry James's <i>New York Edition Prefaces</i>
+pub-date: 1995
 
 in:
     - description:  book
       editors:      D. McWhirter
       publication:  "<i>Henry James's New York Editions: The Construction of Authorship</i>"
-      issue:        none
       publisher:    Stanford University Press
       location:     Stanford
-      series:       none
       date:         1995
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 cover_img: none
 description: none

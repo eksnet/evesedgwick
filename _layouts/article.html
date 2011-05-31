@@ -8,13 +8,13 @@ layout: base
     
 </section>
 
-<div class='content book'>
+<section class='content book'>
     <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
     {% assign biblio = page.in[0] %}
     <h6 class='biblio'><i>in</i> {% for editor in biblio['editors'] %}{{ editor }}, {% endfor %}<i>{{ biblio['publication'] }}</i> ({% if biblio['location'] and biblio['location'] != 'none' %}{{ biblio['location'] }}: {% endif %}{% if biblio['publisher'] and biblio['publisher'] != 'none'  %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }})</h6>
     
     {{ content }}
     
-</div>
+</section>
 
 {% include external_links.liquid %}

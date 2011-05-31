@@ -10,7 +10,7 @@ type: book
 role: author
 with: none
 title: The Coherence of Gothic Conventions
-sub-title: none
+pub-date: 1980
 
 editions:
     - description:  none
@@ -18,28 +18,13 @@ editions:
       location:     New York
       series:       Gothic Studies Series
       date:         1980
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
       further_editions:
-        - type:         paperback
+        - type:         paperback reissue with new material
+          publisher:    Methuen & Co
+          location:     New York
           date:         1986
-          series:       none
-          notes:        none
           translations: Japanese
-          isbn:      
-    - description:  paperback reissue with new material
-      publisher:    Methuen & Co
-      location:     New York
-      series:       none
-      date:         1986
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
-
+          
 amazon_url:     none
 indiebound_url:    none
 worldcat_url:        none

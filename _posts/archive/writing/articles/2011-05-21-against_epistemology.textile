@@ -7,9 +7,8 @@ sub-category: "articles"
 type: article
 
 role: author
-with: none
 title: Against Epistemology
-sub_title: none
+pub-date: 1994
 
 in:
     - description:  book
@@ -18,16 +17,9 @@ in:
         - Arnold I. Davidson
         - Harry Harootunian
       publication:  Questions of Evidence
-      issue:        none
       publisher:    University of Chicago Press
       location:     Chicago
-      series:       none
       date:         1994
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 cover_img: none
 description: none

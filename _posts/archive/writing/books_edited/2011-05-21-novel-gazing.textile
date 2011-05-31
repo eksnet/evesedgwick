@@ -10,6 +10,7 @@ role: editor
 with: none
 title: Novel Gazing
 sub-title: Queer Readings in Fiction
+pub-date: 1997
 
 editions:
     - description:  none
@@ -17,11 +18,6 @@ editions:
       location:     "Durham, N.C."
       series:       Series Q
       date:         1997
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 amazon_url:     none
 indiebound_url:    http://www.indiebound.org/book/9780822320401

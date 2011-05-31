@@ -12,29 +12,26 @@ related_media:
 
 ---
 
-h5. Biography
+<span style='font-size:18px; line-height:26px;'>Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.</span> 
 
-Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.
+h5. <a href="#container" name="1">Dayton: 1950 to 1957</a>
 
-PLACES
-Dayton: 1950 to 1957
-Bethesda: 1957 to 1967
-Ithaca: 1967 to 1971
-New Haven: 1971 to 1976
-Ithaca again: 1976 to 1978
-Clinton: 1978 to 1981
-Boston: 1981 to 1984
-Amherst: 1984 to 1988
-Durham: 1988 to 1997
-New York: 1998 to 2009
-
-h4. Dayton: 1950 to 1957
+<div class='marginal toc'><a href='#1'><span class='heading'>DAYTON</span> 1950 - 1957</a>
+<a href='#2'><span class='heading'>BETHESDA</span> 1957 - 1967</a>
+<a href='#3'><span class='heading'>ITHACA</span> 1967 - 1971</a>
+<a href='#4'><span class='heading'>NEW HAVEN</span> 1971 - 1976</a>
+<a href='#5'><span class='heading'>ITHACA AGAIN</span> 1976 - 1978</a>
+<a href='#6'><span class='heading'>CLINTON</span> 1978 - 1981</a>
+<a href='#7'><span class='heading'>BOSTON</span> 1981 - 1984</a>
+<a href='#8'><span class='heading'>AMHERST</span> 1984 - 1988</a>
+<a href='#9'><span class='heading'>DURHAM</span> 1988 - 1997</a>
+<a href='#10'><span class='heading'>NEW YORK</span> 1998 - 2009</a></div>
 
 Eve Kosofsky was born on May 2, 1950, at Good Samaritan Hospital, in Dayton, Ohio. Her parents, Leon Kosofsky and Rita Goldstein Kosofsky, were both natives of Brooklyn, New York, and graduates of Brooklyn College. The only members of their respective families to live outside of New York City, they were among the relatively few Jews living in Dayton, where Leon worked at Wright-Patterson Air Force Base as a civilian photogrammetrist specializing in aerial reconnaissance. Eve was a middle child: her sister Nina was born in 1947; her brother David in 1953.
 
 Eve attended public schools in Dayton for two years: kindergarten and second grade, skipping first grade due to her early mastery of reading and general intellectual precocity. She took ballet lessons, made paintings and drawings inspired by art reproductions her parents borrowed each month from the Dayton Museum of Art, and by the age of seven had decided that she would be a poet.
 
-h4. Bethesda: 1957 to 1967
+h5. <a href="#container" name="2">Bethesda: 1957 to 1967</a>
 
 In 1957 Leon Kosofsky was offered a position with the Army Map Service, doing the same sort of photogrammetric work as in Dayton. The salary and advancement possibilities were somewhat better, but the real lure was location: the relatively cosmopolitan Washington, D.C. area. So, when Eve was seven, the family moved to a house in Bethesda, Maryland, inside the not-yet-completed Beltway, where she spent the next decade of her life.
 
@@ -54,7 +51,7 @@ While attending graduate school, Rita worked for the Montgomery County public sc
 
 In the summer of 1966, following her junior year in high school, Eve attended a six-week summer program at Cornell University. The program was run by the Telluride Association, which also maintained a scholarship house for talented Cornell students. Following Eve's summer program, she was offered a scholarship at Telluride House, which led to her entering Cornell in the fall of 1967. 
 
-h4. Ithaca: 1967 to 1971
+h5. <a href="#container" name="3">Ithaca: 1967 to 1971</a>
 
 Telluride House was established in 1910 as an institution for men only. In the 1960s it was gradually making the transition to accepting women as well. During Eve’s first year at Cornell, undergraduate women were not yet allowed to sleep at Telluride House although they took their meals there and participated in all of the activities of the house. So Eve had a room in a Cornell dormitory. The following year she was permitted to stay at the house. 
 
@@ -64,19 +61,21 @@ In the summer of 1969, following her sophomore year, Eve and Hal were married. F
 
 At Cornell Sedgwick was accepted into a college-wide honors program that allowed her to shape her own course of study and to largely avoid the college’s distribution requirements. (What could not be avoided was the two-year physical education requirement, which Sedgwick satisfied by taking archery in the mild weather and ice skating in the cold weather, two activities in which she became highly proficient.) Sedgwick concentrated on English literature, taking many courses and seminars in that area. Most importantly, she took several seminars with Neil Hertz, who strongly influenced her thinking and became a life-long friend. A year-long seminar in poetry writing with A. R. Ammons, whose poetry she admired, led to the writing of a substantial number of poems, many of which are still unpublished. Another important influence was Allan Bloom, a political philosopher and student of Leo Strauss. Sedgwick took several courses and seminars from Bloom, who had a close connection with Telluride House and drew a number of Sedgwick’s friends there into careers as Straussian political philosophers. Sedgwick discusses her fascination with Bloom in ??Epistemology of the Closet??. Sedgwick also studied anthropology (with James Seigel), history of psychology (with Robert MacLeod) and diverse other courses such as mathematical logic. Sedgwick graduated summa cum laude from Cornell in June of 1971.
 
-h4. New Haven: 1971 to 1976
+h5. <a href="#container" name="4">New Haven: 1971 to 1976</a>
 
 Eve Sedgwick entered the Ph.D. program in English at Yale in the fall of 1971. At the same time Hal Sedgwick began a post-doctoral fellowship in New York City and later took up a faculty position there. After a brief attempt at living with Hal in suburban Westchester county and commuting to New Haven, Eve found a room near the Yale campus in New Haven. This was the beginning of a long-distance, weekend relationship with Hal that continued for over 26 years.
 
 Sedgwick was drawn to Yale by the strength of its reputation in literary theory, particularly the then new theory of deconstruction. She studied with Paul de Man, Harold Bloom, Geoffrey Hartman, and J. Hillis Miller, among others. Yale graduate school was not a particularly happy experience for Sedgwick. She experienced the faculty as remote, and received little recognition of her abilities. Determined not to linger, she finished her graduate studies in four years, submitting a dissertation (The Coherence of Gothic Conventions) to a committee chaired by Miller.
 
 Sedgwick was much happier with her fellow graduate students, forming sustaining, and lasting, friendships with Jonathan Kamholtz, Joseph Gordon, and several others, and continuing from Cornell her close friendships with Josh Wilner and Marsha Hill. She also continued to write and publish poetry during her years in New Haven.
+
+<div class='marginal'><span class='heading'>Modern Language Association</span> The MLA, which held its annual convention during the last week of December, was the main job market for academic positions in English literature.  Sedgwick first attended the MLA as a job seeker, beginning in 1970 and for many years thereafter.  Later, the MLA became the most public forum for her work, including the much commented on (and deplored)  “Jane Austen and the Masturbating Girl”.  Sedgwick also became active in the administrative structure of the MLA, serving as a member, then co-chair, of their Commission on the Status of Women in the Profession (1983-86), as a member, then chair, of the Executive Committee of the Division on Gay Studies in Language and Literature (1986-90), and as a member of the MLA Executive Council (1996-99).</div>
  
 The completion of her Ph.D. marked the beginning of Sedgwick’s long efforts to obtain a stable academic position. Over the following nine years Sedgwick submitted innumerable job applications. She once estimated that she had had over a hundred job interviews, almost all of which were unsuccessful. She remarked, however, that she had made many friends, even from the unsuccessful applications, and had learned a great deal about the process. She later wrote a pamphlet, published by the MLA, with advice for graduate students on the job market.
 
 Failing to find a job, Sedgwick was given a one-year lectureship by Yale, and remained in New Haven for the 1975-76 academic year.
 
-h4. Ithaca again: 1976 to 78
+h5. <a href="#container" name="5">Ithaca again: 1976 to 78</a>
 
 In the Fall of 1976 Sedgwick returned to Ithaca with a Mellon postdoctoral fellowship in English and creative writing at Cornell. While in Ithaca, Sedgwick continued to work on the subject of her dissertation, substantially revising its first chapter, and working on a new paper on “the character in the veil.” 
 
@@ -86,7 +85,7 @@ While at Cornell, Sedgwick also engaged in an extended study of the poetry and o
 
 Sedgwick was strongly attracted to Ithaca, and even after she had moved away she returned to live there for several summers.
 
-h4. Clinton: 1978 to 81
+h5. <a href="#container" name="6">Clinton: 1978 to 81</a>
 
 Sedgwick’s first faculty position was at Hamilton College in Clinton, New York. 
 
@@ -98,11 +97,13 @@ While she was at Hamilton, Sedgwick published her revised dissertation. She also
 
 Beyond her positive experiences with her friends in FWC, Sedgwick found little to attract her to Hamilton and was eager to get out of Clinton before her four-year term expired.
 
-h4. Boston: 1981 to 1984        
+h5. <a href="#container" name="7">Boston: 1981 to 1984</a>        
 
 In the fall of 1981, Sedgwick joined the English Department of Boston University as a tenure-track Assistant Professor. 
 
-The ‘tenure-track’ designation was only nominal, however. The decade prior to Sedgwick’s arrival at BU had been turbulent. A new right-wing president at BU had moved aggressively against more progressive faculty, leading to an unsuccessful faculty vote for his ouster and, in 1979, a faculty strike[1] that succeeded in unionizing the faculty. The success was brief however. The union was decertified the following year when the National Labor Relations Board decided, farcically in the case of BU, that faculty at private universities were included in management. By 1981, tenure at BU had become a political decision, made by the BU president, and it was clear to Sedgwick from the onset that she would never be tenured there.
+<div class='marginal'><sup><span class='heading'>1</span></sup><a href='http://www.scribd.com/doc/26915090/The-Boston-University-Strike-of-1979'>http://www.scribd.com/doc/26915090/The-Boston-University-Strike-of-1979</a></div>
+
+The ‘tenure-track’ designation was only nominal, however. The decade prior to Sedgwick’s arrival at BU had been turbulent. A new right-wing president at BU had moved aggressively against more progressive faculty, leading to an unsuccessful faculty vote for his ouster and, in 1979, a faculty strike<sup class='marginal-note'>1</sup> that succeeded in unionizing the faculty. The success was brief however. The union was decertified the following year when the National Labor Relations Board decided, farcically in the case of BU, that faculty at private universities were included in management. By 1981, tenure at BU had become a political decision, made by the BU president, and it was clear to Sedgwick from the onset that she would never be tenured there.
 
 Nevertheless, Sedgwick enjoyed her time at BU. Her department was congenial to her and she made good friends there, including Helen Vendler, a senior scholar and, at the time, recent president of the MLA, who also became an important supporter and mentor for Sedgwick.
 
@@ -114,8 +115,7 @@ In the fall of 1983 Sedgwick moved across the Charles River, from Boston to Camb
 
 While she was at the Bunting Institute, Sedgwick was offered a faculty position at Amherst College in Massachusetts. Nine years out of graduate school, with a substantial body of published poetry and critical writing, including one book published and another almost completed, Sedgwick was offered an associate professorship. Her tenuous and shifting footing in academia had become secure. She went to Amherst with tenure.
 
-h4. Amherst: 1984 to 1988
-
+h5. <a href="#container" name="8">Amherst: 1984 to 1988</a>
 
 After over 150 years as an all-male college, Amherst had become co-educational in 1976. An increased sensitivity to women’s issues contributed to Amherst taking the dramatic step in 1984 of banning fraternities on the campus, converting the on-campus fraternities into alternative forms of student housing. Additionally, the academic field of women’s and gender studies had been growing throughout the 1970s. Sedgwick was hired to bring an increased presence of gender studies to the English department, and hiring her with tenure gave her a secure position from which to encourage further change at Amherst. 
 
@@ -124,6 +124,8 @@ This she did. For example, early in her tenure at Amherst, when invited to speak
 A highly regarded undergraduate liberal arts college, Amherst placed strong emphasis on teaching, and this was reflected in the interests and priorities of the English department. Preparing and teaching her courses placed heavy demands on Sedgwick’s time. Also, during her time there, the department offered a year-long introductory course in reading and writing, taught in small sections by all of the department faculty, but with a common syllabus. Discussing, revising, and reaching agreement on the contents of this syllabus was a major and time-consuming preoccupation of the department, which Sedgwick participated in energetically, successfully advocating, for example, for the first-time inclusion of the town’s local poet, Emily Dickinson, previously regarded as too minor to be included with the likes of Robert Frost, the town’s other local poet. 
 
 Sedgwick of course was not alone in working for change at Amherst. Her closest ally in this effort was Andrew Parker, who had helped to bring Sedgwick to Amherst.  Other faculty friends included Cindy Patton, Margaret Hunt, Judith Frank, and Rhonda Cobham-Sander. In addition to her friends at Amherst, Sedgwick also formed close friendships at some of the nearby colleges in the Pioneer Valley, including Mary Russo and Dan Warner at Hampshire College, and Maud Ellmann, who was visiting at Smith College and then at Amherst.
+
+<div class='marginal'><span class='heading'>The English Institute</span>  Founded around 1940,</div>
 
 Sedgwick’s arrival at Amherst nearly coincided with the publication of ??Between Men: English Literature and Male Homosocial Desire?? (1985). This publication sharply increased Sedgwick’s recognition within the academic community. She traveled frequently to other colleges, but now, rather than hunting for a job, she was being invited to share her latest work. By the time that ??Between Men?? was published, Sedgwick had already begun writing the essays that would form her next book, ??Epistemology of the Closet??. In 1985, in what was for her a highly significant personal accomplishment, she was invited to speak at the English Institute. Her talk there--one of the essays for her book-in-progress--was "The Beast in the closet: James and the writing of homosexual panic," which later received the Crompton Noll award in gay and lesbian criticism from the Modern Language Association.
 
@@ -135,7 +137,9 @@ The AIDS epidemic was already underway but only beginning to be widely recognize
 
 During the year of her Guggenheim, Sedgwick continued to explore ways of more permanently increasing her time for writing. It was this, rather than a wish to leave Amherst, that made her tentatively receptive to a feeler from Stanley Fish, who was then engaged in transforming the English department at Duke University. Following negotiations and a visit to Durham, in North Carolina, Sedgwick was persuaded. She accepted an offer of a full professorship at Duke.
 
-h4. Durham: 1988 to 1997    
+h5. <a href="#container" name="9">Durham: 1988 to 1997</a>    
+
+<div class='marginal'><span class='heading'>Chairs</span> New appointments as distinguished professor were announced and celebrated annually at Duke, with recipients of chairs in all departments across the university gathering for a formal and festive ceremony.  The surprise of the occasion, for Sedgwick, was that her new chair proved to be not just a title but a physical chair - handsome, broad, wooden, hard, and heavy.  After the dinner and speeches, the parking lot outside the Gothic revival building was filled with newly distinguished professors, in their evening dresses or tuxedos, struggling more or less unsuccessfully to load these ungainly chairs into their cars.</div>
 
 If Sedgwick’s move to Duke contributed to the impression that its English department was becoming a center for new developments in literary criticism, it also enhanced her reputation as a rising academic star. This in turn perhaps heightened the attention that was paid to ??Epistemology of the Closet?? when it appeared in 1990. Such attention was amply rewarded, and ??Epistemology?? rapidly became a central text in the emerging field of gay studies. It was awarded second place ("honorable mention") for the MLA’s 1990 prize for "outstanding literary or linguistic study" (first place went to Fredric Jameson, a senior colleague of Sedgwick’s at Duke, also recruited by Fish). In 1992 Sedgwick became a distinguished professor at Duke, receiving the Newman Ivy White Chair.
 
@@ -155,17 +159,21 @@ Moon was Sedgwick’s housemate for seven years. In 1995 Goldberg also accepted 
 
 Sedgwick’s house was also a focal point for AIDS activism. Although the so-called "research triangle" formed by Durham, Chapel Hill, and Raleigh, was relatively liberal, North Carolina was a conservative state, and its senior senator then and for many years was the notoriously homophobic Jesse Helms. The local chapter of ACT UP (the direct action group formed to advocate for better treatment - medical, social, and political - for those who were HIV-positive or living with AIDS), which was called Triangle ACT UP, organized frequent protests and demonstrations. Sedgwick and a number of her students were involved, sometimes meeting at her house to make plans and to create posters and t-shirts for their protests. Sedgwick’s writing about her participation in one of these protests was later included in her book Touching Feeling.
 
+<div class='marginal'><span class='heading'>The changing situation at Duke</span> Even before Sedgwick left Duke, the English department was changing in ways that made her more willing to go.  Fish’s buildup of the English department had created tensions.  As one long-time faculty member put it, before Fish arrived “we were a very standard, middle-of-the-road, probably conservative, traditional English department” [Yaffe ref].  When Fish arrived and used good salaries and other perks to attract a critical mass of innovative, theoretically-oriented academic “stars”, it was natural for the earlier faculty to feel neglected and under-valued.  In 1992, Fish’s term as department chair ended, and under his successors these tensions began to surface, and the more traditional values of the department began to be reasserted in hiring, tenure and other decisions.  The intellectually exciting environment that Fish had been instrumental in creating at Duke began to erode, and the enthusiasm of the newer faculty for Duke began to fade.  By the end of the decade, almost all of them, including Fish, had either left or had distanced themselves from the English department.  Sedgwick, however, still believed in the value of what, for a few years, had been created at Duke.  As she said “It was a wonderful thing to have happened” [Yaffe ref].</div>
+
 Early in 1991, Sedgwick was diagnosed with breast cancer. There followed major surgery and then six months of debilitating chemotherapy. This sudden encounter with mortality and medical practice was of course intensely disruptive in many ways. It also changed her perceived relation to AIDS and to her friends living with it, placing her with them on the same side of the divide between the healthy and those facing an early death. This change profoundly affected her thinking and writing. As she said in "White glasses:" "...in many ways it is full of stimulation and interest, even, to be ill and writing."
 
 And write she did. In 1993 she published ??Tendencies??, her most intensely personal book thus far, whose essays helped to bring into being the field of queer theory. In 1994 she published her first book of poetry, ??Fat Art, Thin Art??, bringing together some new poems with older poems that were either unpublished or published only in journals or magazines. In 1995, together with her graduate student, Adam Frank, she published ??Shame and its Sisters: A Silvan Tomkins Reader??. In 1996, she published ??Gary in Your Pocket??, a selection of the Gary Fisher’s writing that she edited and introduced after his death from AIDS (Fisher had made her his literary executor). In 1997 she published ??Novel Gazing: Queer Readings in Fiction??, a collection of essays by Sedgwick and her students and colleagues.  And in 2000 she published ??A Dialogue on Love??, a blend of poetry and prose, in a 17th-century Japanese form known as haibun, drawing on the years of psychotherapy that she had entered into with Shannon Van Wey, following her breast cancer diagnosis. But although the events of ??A Dialogue on Love?? took place in Durham, by the time it was published Sedgwick was no longer at Duke.
 
-Even before Sedgwick left Duke, the English department was changing in ways that made her more willing to go. Fish’s buildup of the English department had created tensions. As one long-time faculty member put it, before Fish arrived "we were a very standard, middle-of-the-road, probably conservative, traditional English department." When Fish arrived and used good salaries and other perks to attract a critical mass of innovative, theoretically-oriented academic "stars," it was natural for the earlier faculty to feel neglected and under-valued. In 1992, Fish’s term as department chair ended, and under his successors these tensions began to surface, and the more traditional values of the department began to be reasserted in hiring, tenure and other decisions. The intellectually exciting environment that Fish and those he hired had been instrumental in creating at Duke began to erode, and the enthusiasm of the newer faculty for Duke began to fade. By the end of the decade, almost all of them, including Fish, had either left or had distanced themselves from the English department. Sedgwick, however, still believed in the value of what, for a few years, had been created at Duke. As she said "It was a wonderful thing to have happened[2]." 
+Even before Sedgwick left Duke, the English department was changing in ways that made her more willing to go. Fish’s buildup of the English department had created tensions. As one long-time faculty member put it, before Fish arrived "we were a very standard, middle-of-the-road, probably conservative, traditional English department." When Fish arrived and used good salaries and other perks to attract a critical mass of innovative, theoretically-oriented academic "stars," it was natural for the earlier faculty to feel neglected and under-valued. In 1992, Fish’s term as department chair ended, and under his successors these tensions began to surface, and the more traditional values of the department began to be reasserted in hiring, tenure and other decisions. The intellectually exciting environment that Fish and those he hired had been instrumental in creating at Duke began to erode, and the enthusiasm of the newer faculty for Duke began to fade. By the end of the decade, almost all of them, including Fish, had either left or had distanced themselves from the English department. Sedgwick, however, still believed in the value of what, for a few years, had been created at Duke. As she said "It was a wonderful thing to have happened<sup class="marginal-note">2</sup>."
+
+<div class='marginal'><sup><span class='heading'>2</span></sup><a href='http://linguafranca.mirror.theinfo.org/9902/yaffe.html'>http://linguafranca.mirror.theinfo.org/9902/yaffe.html</a></div>
 
 In the spring of 1996, Sedgwick began to suffer from pains in her neck and upper back. At the end of the summer, after some months of misdiagnosis, imaging revealed the source of the pain to be a recurrence of her breast cancer, which had spread to the bones in the upper part of her spinal column. To help stabilize her spine, Sedgwick was immediately put into a neck brace, which she then wore for many months. She also underwent an extended treatment of radiation therapy which successfully killed most of the cancer in her spine and allowed the bones to partially heal. But the metastasis of her original cancer to a distant part of her body meant that it was no longer curable and that, although treatment might succeed in slowing its progress, the cancer would eventually kill her. How long this might take was known to vary greatly across individuals, but Sedgwick was told that the odds were that she might live another two to three years. 
 
 Sedgwick’s commuting relationship with Hal Sedgwick, taking turns flying back and forth between Durham and New York on weekends, was no longer sufficient. Also, although Duke had a good hospital, the range of care available in New York was greater. During the 1996-1997 academic year Sedgwick began to let some of her colleagues know that she would be interested in moving to New York City. One of those to whom she spoke was her friend Josh Wilner, who was on the faculty at the City University of New York (CUNY) and who then spoke about Sedgwick’s interest to the CUNY administration. The CUNY PhD program in English responded enthusiastically. In the fall of 1997 Sedgwick taught a seminar there, continuing to commute from Durham, while discussions went on about a permanent move. By the end of the year it was agreed that she would leave Duke and join the faculty at CUNY. She sold her house in Durham, along with much of its furnishings, and rented a small studio apartment close to Hal Sedgwick’s equally small studio apartment in Greenwich Village. Just before January 1,1998, she moved to New York.
 
-h4. New York City: 1998 to 2009
+h5. <a href="#container" name="10">New York City: 1998 to 2009</a>
 
 Sedgwick’s move to New York made the news. ??The New York Times?? ran a long article by Dinitia Smith, titled "'Queer theory' is entering the literary mainstream," which examined Sedgwick’s work in some detail. ??New York Magazine??, in an article with the heading "Agit Profs" and a photo of Sedgwick with Wayne Koestenbaum, who was also moving to CUNY, described their moves to CUNY as "instantly elevating its gay-and-lesbian-studies faculty to one of the nation’s best." 
 
@@ -198,7 +206,3 @@ As inevitably happens with metastatic cancer, however, this therapy eventually s
 Toward the end of the summer of 2008 Sedgwick's illness worsened again, eventually making her cancel or postpone all of her travel plans. A promised essay that she finished in November was the last writing project that she completed, although she continued to make plans for further projects. In the 2008-2009 academic year, she was again giving her Proust seminar. She continued to attend and participate in these seminars although increasingly relying on her graduate students to help lead them. In February of 2009, the cancer in her spine, no longer controlled by her therapy, began to press on her spinal cord, progressively weakening her legs over several weeks until she was confined to a wheel chair. For several weeks in March, no longer able to travel to the Graduate Center, Sedgwick held her Proust seminar, with beer and pizza, in her studio. Throughout this period Sedgwick continued to believe in the possibility that a new therapy might stabilize or even improve her condition, and she continued to make plans for such a future. By the end of March, however, Sedgwick’s physicians had concluded, as they then explained to her, that further therapy would not be helpful and that she did not have long to live. On April 10 she entered the hospice program at Beth Israel Medical Center in lower Manhattan. She died there just before midnight on Sunday April 12, 2009. 
 
 Although Sedgwick's primary caregiver during her illness was Hal Sedgwick, many students, friends, and family also gave her tremendous help and support. Following her death, Josh Wilner took over her Proust seminar for the remainder of the semester. Jon Goldberg, as noted above, has edited her writings from the last decade of her life into a book. Work on her archives and on many other projects, as described elsewhere in this website, continues.
-
-fn1. "http://www.scribd.com/doc/26915090/The-Boston-University-Strike-of-1979":http://www.scribd.com/doc/26915090/The-Boston-University-Strike-of-1979
-
-fn2. "http://linguafranca.mirror.theinfo.org/9902/yaffe.html":http://linguafranca.mirror.theinfo.org/9902/yaffe.html

@@ -1,20 +1,9 @@
-<h6>FILED UNDER - {{ page.nav | category_link }}/{{ page.category | category_link }}/{{ page.sub-category | sub_category_link: page.category }}
+<h6>FILED UNDER - {{ page.nav | category_link }}{% if page.category %}/{{ page.category | category_link }}{% endif %}{% if page.sub-category %}/{{ page.sub-category | sub_category_link: page.category }}{% endif %}
     {% assign related = false %}
     {% for tag in page.tags %}
         {% assign related = true %}
     {% endfor %}
     {% if related %}
-        <span class='right'>RELATED - {{ page.tags | tag_links }}</span></h6>
+        <span class='right'>RELATED - {{ page.tags | tag_links }}</span>
     {% endif %}
-    
-    {% assign online = false %}
-    {% for url in page.urls %}
-        {% assign online = true %}
-    {% endfor %}
-    {% if online %}
-        <h6>EXTERNAL LINKS <span>
-        {% for url in page.urls %}
-        <a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a>           
-        {% endfor %}
-        </span></h6>
-    {% endif %}
+</h6>

@@ -1,0 +1,32 @@
+<p>
+{% for record in sub.posts %}
+    {% if record.type == 'book' %}
+        {% assign biblio = record.editions[0] %}
+        <i><a href="{{ record.url }}">{{ record.title }}{% if record.sub-title %}: {{ record.sub-title }}{% endif %}</a>.</i>{% if biblio['publisher'] %} {{ biblio['location'] }}: {{ biblio['publisher'] }}, {{ biblio['date'] }}{% if biblio['series'] %} ({{ biblio['series'] }}){% endif %}{% if biblio['binding'] %}, {{ biblio['binding'] }}.{% endif %}{% endif %}{% if biblio['notes'] %} {{ biblio['notes'] }}.{% endif %}{% if biblio['translations'] %} ({{ biblio['translations'] }}).{% endif %}<br>
+        {% if biblio.further_editions %}
+            {% assign biblio = biblio.further_editions[0] %}
+            -----, {{ biblio['type'] }}, {% if biblio['location'] %}{{ biblio['location'] }}: {% endif %}{% if biblio['publisher'] %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }}{% if biblio['series'] %} ({{ biblio['series'] }}){% endif %}. {% if biblio['notes'] %} {{ biblio['notes'] }}{% endif %}{% if biblio['translations'] %} ({{ biblio['translations'] }}){% endif %}<br>
+        {% endif %}
+    {% endif %}
+    
+    {% if record.type == 'article' %}
+        {% assign biblio = record.in[0] %}
+        "<a href="{{ record.url }}">{{ record.title }}{% if record.sub-title %}: {{ record.sub-title }}{% endif %}</a>,"
+        {% if record.with %} (with {{ record.with }}),{% endif %}
+        {% if biblio['notes'] %} {{ biblio['notes'] }},{% endif %}
+        {% if biblio['editors'] %} in {% for ed in biblio['editors'] %}{{ ed }}, {% endfor %}eds.,{% endif %}
+        {% if biblio['publication'] %}<i>{{ biblio['publication' ]}}</i>{% endif %}
+        {% if biblio['publisher'] %} ({% if biblio['location'] %}{{ biblio['location'] }}: {% endif %}{{ biblio['publisher'] }}, {{ biblio['date'] }}).
+        {% else %},{% if biblio['issue'] %} {{ biblio['issue'] }},{% endif %}{% if biblio['date'] %} {{ biblio['date'] }}{% endif %}{% endif %}<br>
+    {% endif %}
+    {% if biblio.further_editions %}
+        {% assign editions = biblio.further_editions %}
+        -----, also featured in {% for edition in editions %}
+            {% if edition['publication'] %}<i>{{ edition['publication' ]}}</i>{% endif %}
+            {% if edition['publisher'] %} ({% if edition['location'] %}{{ edition['location'] }}: {% endif %}{{ edition['publisher'] }}, {{ edition['date'] }}).
+            {% else %}
+            {% if edition['issue'] %}, {{ edition['issue'] }}{% endif %}{% if edition['date'] %}, {{ edition['date'] }}{% endif %}{% endif %}{% if forloop.first %}; and in {% else %}{% unless forloop.last %} and {% endunless %}{% endif %} 
+        {% endfor %}<br>
+    {% endif %}
+{% endfor %}
+</p>

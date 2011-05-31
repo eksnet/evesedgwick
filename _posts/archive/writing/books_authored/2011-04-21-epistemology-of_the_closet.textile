@@ -10,7 +10,7 @@ type: book
 role: author
 with: none
 title: Epistemology of the Closet
-sub-title: none
+pub-date: 1990
 
 editions:
     - description:  none
@@ -18,17 +18,12 @@ editions:
       location:     Berkeley
       series:       Gender and Culture Series
       date:         1990
-      binding:      none
-      notes:        A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991.
-      translations: Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese
-      isbn:         none
+      binding:      cloth and paper
+      notes:        "A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991"
+      translations: "Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese"
       further_editions:
         - type:         paperback reissue with new material
           date:         2008
-          series:       none
-          notes:        none
-          translations: none
-          isbn:         none
 
 amazon_url:          none
 indiebound_url:    www.indiebound.org/book/9780520254060

@@ -2,7 +2,7 @@
 layout: base
 ---
 <section id='title'>    
-    <h2 class="category">ARCHIVE <span>{{ page.tag | upcase }}</span></h2>
+    <h2>{{ "ARCHIVE" | category_link}} <span>{{ page.tag | category_link}}</span></h2>
     <ul class='nav'>
         {% for tag in site.tags_by_category[page.tag] %}
             {% for category in tag %}

@@ -7,25 +7,15 @@ sub-category: "articles"
 type: article
 
 role: author
-with: none
-title: Breast Cancer
-sub_title: Issues and Resources
+title: "Writing, Gay Studies, and Affection"
+pub-date: 1991
 
 in:
     - description:  journal
-      editors:      none
       publication:  Lesbian and Gay Studies Newsletter
-      issue:        none
-      publisher:    none
-      location:     none
-      series:       none
-      date:         Fall 1995
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
-
+      issue:        18
+      date:         "November, 1991"
+      
 cover_img: none
 description: none
 

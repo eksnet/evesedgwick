@@ -1,0 +1,9 @@
+{% for media in page.related_media %}
+{{ media }}
+    {% if media['type'] == 'album' %}
+    {% assign images = media['images'] %}
+    <section class='album'>
+        {{ site.albums }}
+    </section>
+    {% endif %}
+{% endfor %}

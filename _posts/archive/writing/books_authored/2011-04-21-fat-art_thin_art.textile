@@ -10,7 +10,7 @@ type: book
 role: author
 with: none
 title: "Fat Art, Thin Art"
-sub-title: none
+pub-date: 1994
 
 editions:
     - description:  none
@@ -19,10 +19,6 @@ editions:
       series:       Gender and Culture Series
       date:         1994
       binding:      cloth and paper
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 publisher_location: 
 publisher: Duke University Press

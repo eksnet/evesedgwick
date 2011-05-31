@@ -122,8 +122,8 @@ header li {
 p {
   font-family:Georgia;
   font-size:14px;
-  line-height:18px;
-  margin:0px 0px 12px;
+  line-height:20px;
+  margin:0px 0px 20px;
 }
 .preview p {
   font-family: Arial, Helvetica, sans-serif;
@@ -170,12 +170,10 @@ footer {
 #title.under {
   @include bottom-border;
 }
-#extra {
-  @include top-border;
-}
+
 #main {
   width:($column * 4) + ($margin * 3);
-  margin: 20px 0px 36px (($column * 2) + ($margin * 1));
+  margin: 20px 0px 36px (($column * 2) + ($margin * 2));
   min-height:500px;
 }
 ul#nav {
@@ -192,19 +190,56 @@ ul#sub-nav {
   clear:left;
   margin-left:(($column * 2) + ($margin * 2)) * -1;
   width:($column * 2) + ($margin * 1);
+  margin-top:2px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  color:$black;
+  span.heading {
+  font-weight: bold;  
+  }
 }
 .record_count {
-  margin-left:(($column * 2) + ($margin * 2)) * -1;
   margin-top:-43px;
   text-align: right;
   font-style: italic;
-  color: $light;
-  font-size: 12px;
+  color:$light;
+}
+.toc {
+  text-align: right;
 }
 span.right {
   float:right; 
   text-align:right;
 }
+
+/* ------------------- SECTIONS */
+
+section.content {
+  min-height:300px;
+}
+
+section.extra { 
+  
+  h4 {
+    @include bottom-border;
+    padding:3px 0px;
+    margin:4px 0px 12px;
+  }  
+  ul li {
+   display:block;
+   padding:3px 0px;
+   margin:0px; 
+  }
+}
+
+section.biblio {
+  p {
+    font-size:12px;
+    line-height:20px;
+  }
+}
+
 /* ------------------- LINKS */
 
 a   {

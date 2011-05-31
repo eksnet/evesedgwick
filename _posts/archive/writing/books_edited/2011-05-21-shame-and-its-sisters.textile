@@ -10,18 +10,13 @@ role: editor
 with: Adam Frank
 title: Shame and Its Sisters
 sub-title: A Silvan Tomkins Reader
+pub-date: 1995
 
 editions:
     - description:  none
       publisher:    Duke University Press
       location:     "Durham, N.C."
-      series:       none
       date:         1995
-      binding:      none
-      notes:        none
-      translations: none
-      isbn:         none
-      further_editions: none
 
 amazon_url:     none
 indiebound_url:    www.indiebound.org/book/9780822316947

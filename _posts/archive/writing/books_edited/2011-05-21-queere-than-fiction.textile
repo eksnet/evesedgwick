@@ -1,0 +1,26 @@
+---
+layout: book
+published: true
+nav: archive
+category: writing
+sub-category: "journal special issues edited"
+type: article
+
+role: editor
+with: none
+title: Queerer than Fiction
+pub-date: 1996
+
+in:
+    - description:  journal
+      publication:  Studies in the Novel
+      issue:        28.3
+      date:         Fall 1996
+
+urls:
+  - { display: studies in the novel archives, url: "http://www.engl.unt.edu/sitn/archives_vol_28.html"}
+
+cover_img:      none
+description:    none
+
+---

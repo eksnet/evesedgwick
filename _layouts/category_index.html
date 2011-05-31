@@ -45,7 +45,7 @@ layout: base
             {% endfor %}
             </ul>
         </section>
-        
+            {% if page.sub == 'all' %}
             {% for post in site.categories[page.category] %}
                 {% if post.sub-category %}
                 {% else %}
@@ -62,7 +62,8 @@ layout: base
                     </section>
                 {% endif %}
             {% endfor %}
-                    
+            {% endif %}
+        
         {% for category in site.categories_by_sub[page.category] %}
             {% for sub in category %}
             {% if page.sub == 'all' %}
