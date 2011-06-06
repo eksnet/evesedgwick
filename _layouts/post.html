@@ -2,7 +2,29 @@
 layout: base
 ---
 
-{% case page.type %} 
-  {% when  syllabus %} 
-    {% include syllabus.liquid %}
-{% endcase %}
+{{ site.blog[0] }}
+
+<section id='title' class='under'>   
+    {% for datum in page.meta %}
+        {% case datum["key"] %} 
+            {% when 'location' %}
+                {% assign location = datum["value"] %}
+            {% when 'creation-date' %} 
+                {% assign creation_date = datum['value'] %}
+            {% when 'with' %} 
+                {% assign with = datum['value'] %}
+        {% endcase %}
+    {% endfor %}
+    <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
+    
+    {% include filing_notes.liquid %}
+    
+</section>
+
+{% include album.liquid %}
+
+<section class='content'>
+    
+    {{ content }}
+    
+</section>

@@ -1,0 +1,15 @@
+---
+layout: post
+published: true
+nav: blog
+category: events
+
+tags: events, talks
+
+description: none
+
+---
+
+h5. October 28, 2010: Eve Kosofsky Sedgwick Memorial Lecture
+
+Henry Abelove gave the inaugural Eve Kosofksy Sedgwick Memorial Lecture in Gender and Sexuality Studies at Boston University. His lecture was titled “Gay Liberation Reconsidered.” The Memorial Lecture will be an annual event and came out of the momentum created by the highly successful 2009 symposium in Eve’s honor.

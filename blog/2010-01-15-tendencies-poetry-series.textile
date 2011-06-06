@@ -1,0 +1,15 @@
+---
+layout: post
+published: true
+nav: blog
+category: events
+
+tags: events, talks
+
+description: none
+
+---
+
+h5. Ongoing: Tendencies poetry series
+
+This "series of talks":http://tendenciespoetics.com by and about contemporary poets, curated by Tim Peterson (Trace) and titled in honor of Eve Kosofsky Sedgwick, explores the relationship between queer theory, contemporary poetic practice, manifesto, and pedagogy.

@@ -88,11 +88,24 @@ module Jekyll
       bib.each do |posts|
         posts.each do |p|
           p['posts'].sort! {|a, b| b.data['pub-date'] <=> a.data['pub-date']}
-        
-          puts "POSTS_____: #{p}"
         end
       end
       return bib
+    end
+    
+    def collect_blog(posts)
+      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      array = []
+      self.posts.each do |post|
+        if post.data['type'] 
+          if post.data['type'] == 'blog'
+            array.push(post)
+          end
+        end
+      end
+      array.sort! {|a, b| a.date <=> b.date}
+      puts array
+      return array
     end
 
     # Returns {<collection.title> => [<sub>, <sub>, <sub>]}
@@ -136,9 +149,10 @@ module Jekyll
       payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
       payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
-      # Key collections
+      # Specific collections
       payload['site']['sub_keys_by_category'] = self.collect_keys('sub-category', 'category')
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
+      payload['site']['blog'] = self.collect_blog(self.collection_by_attribute(self.categories, 'category'))
       payload
     end
 
