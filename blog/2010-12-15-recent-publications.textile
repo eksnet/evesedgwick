@@ -1,10 +1,9 @@
 ---
 layout: post
 published: true
-nav: blog
-category: news
+type: blog
 
-tags: publications
+tags: news, publications
 
 description: none
 

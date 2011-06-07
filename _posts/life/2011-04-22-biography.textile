@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: biography
 published: true
 nav: life
 
