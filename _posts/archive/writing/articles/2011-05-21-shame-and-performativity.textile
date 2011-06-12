@@ -3,12 +3,12 @@ layout: article
 published: true
 nav: archive
 category: writing
-sub-category: "articles"
+sub-category: articles
 type: article
 
 role: author
 title: Shame and Performativity
-sub-title:Henry James's <i>New York Edition Prefaces</i>
+sub-title: "Henry James's <i>New York Edition Prefaces</i>"
 pub-date: 1995
 
 in:

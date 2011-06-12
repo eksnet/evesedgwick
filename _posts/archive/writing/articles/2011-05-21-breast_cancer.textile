@@ -3,12 +3,12 @@ layout: article
 published: true
 nav: archive
 category: writing
-sub-category: "articles"
+sub-category: articles
 type: article
 
 role: author
 title: Breast Cancer
-sub-title:Issues and Resources
+sub-title: Issues and Resources
 pub-date: 1995
 
 in:

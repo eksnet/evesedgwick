@@ -1,16 +1,16 @@
 ---
 layout: base
 ---
-<section id='title' class='under'>   
+<div id='title' class='under'>   
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
     
     {% include filing_notes.liquid %}
         
-</section>
+</div>
 
 {% include album.liquid %}
 
-<section class='content book'>
+<div class='content book'>
     
     {% include marginal.liquid %}
     
@@ -20,7 +20,7 @@ layout: base
     
     {{ content }}
     
-</section>
+</div>
 
 {% include extras.liquid %}
 

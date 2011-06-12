@@ -11,7 +11,7 @@ role: author
 with: none
 title: Epistemology of the Closet
 pub-date: 1990
-preview_img:      epistemologyofthecloset.jpg
+preview_img: epistemologyofthecloset.jpg
 
 description:    none
 

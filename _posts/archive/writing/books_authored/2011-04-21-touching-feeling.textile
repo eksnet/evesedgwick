@@ -10,9 +10,9 @@ type: book
 role: author
 with: none
 title: Touching Feeling
-sub-title:Affect, Pedagogy, Performativity
+sub-title: Affect, Pedagogy, Performativity
 pub-date: 2003
-preview_img:      touchingfeeling.jpg
+preview_img: touchingfeeling.jpg
 
 description:    none
 

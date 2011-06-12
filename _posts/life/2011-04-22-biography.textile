@@ -2,6 +2,7 @@
 layout: biography
 published: true
 nav: life
+category: biography
 
 description: none
 

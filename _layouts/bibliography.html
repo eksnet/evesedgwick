@@ -3,14 +3,14 @@ layout: base
 
 ---
 
-<section id='title' class='under'>   
+<div id='title' class='under'>   
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
 
     {% include filing_notes.liquid %}
 
-</section>
+</div>
 
-<section class='content biblio'>
+<div class='content biblio'>
         
         {% for sub in site.bibliography[0] %}
             {% if sub.name == 'books authored' %}
@@ -57,4 +57,4 @@ layout: base
             {% endif %}
         {% endfor %}
 
-</section>
+</div>

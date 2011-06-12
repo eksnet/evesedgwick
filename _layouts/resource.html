@@ -2,7 +2,7 @@
 layout: base
 ---
 
-<section id='title'>    
+<div id='title'>    
     <h2 style=''>{{ page.nav | upcase }} <span>{{ page.category | resource_link}}</span></h2>
     <ul class='nav' id='sub-nav'>
         {% for nav in site.navs_by_category[page.nav] %}
@@ -11,16 +11,16 @@ layout: base
         {% endfor %}
         {% endfor %}
     </ul>
-</section>
+</div>
 
 {% include album.liquid %}
 
-<section class='content'>
+<div class='content'>
 
     {% include marginal.liquid %}
 
     {{ content }}
 
-</section>
+</div>
 
 {% include extras.liquid %}

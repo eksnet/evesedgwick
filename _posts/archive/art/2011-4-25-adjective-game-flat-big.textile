@@ -1,6 +1,7 @@
 ---
 layout: image
 published: true
+category: images
 
 src: adjective-game-flat-big.jpg
 
@@ -13,5 +14,4 @@ meta:
 albums: 
     - exhibitions
     - bodhi
-
 ---

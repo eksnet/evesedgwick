@@ -3,12 +3,12 @@ layout: article
 published: true
 nav: archive
 category: writing
-sub-category: "articles"
+sub-category: articles
 type: article
 
 role: author
 title: Inside Henry James
-sub-title:Toward A Lexicon for the Art of the Novel
+sub-title: Toward A Lexicon for the Art of the Novel
 pub-date: 1995
 
 in:

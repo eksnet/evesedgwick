@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<section id='title' class='under'>   
+<div id='title' class='under'>   
     {% for datum in page.meta %}
         {% case datum["key"] %} 
             {% when 'location' %}
@@ -14,12 +14,12 @@ layout: base
     {% endfor %}
     <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
     
-</section>
+</div>
 
 {% include album.liquid %}
 
-<section class='content'>
+<div class='content'>
     
     {{ content }}
     
-</section>
+</div>

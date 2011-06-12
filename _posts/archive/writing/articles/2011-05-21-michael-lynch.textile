@@ -3,12 +3,12 @@ layout: article
 published: true
 nav: archive
 category: writing
-sub-category: "articles"
+sub-category: articles
 type: article
 
 role: author
 title: Memorial for Michael Lynch
-sub-title:Scholarship and Affection
+sub-title: Scholarship and Affection
 pub-date: 1991
 
 in:
