@@ -1,0 +1,18 @@
+---
+layout: exhibition
+published: true
+nav: archive
+category: art
+sub-category: "exhibitions"
+type: collection
+
+role: artist
+with: none
+title: Untitled
+
+description: none
+
+exhibition-location: Dartmouth College
+exhibition-date: 2003
+
+---

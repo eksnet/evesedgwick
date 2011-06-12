@@ -3,14 +3,14 @@
     {% assign formats = true %}
 {% endfor %}
 {% if formats %}
-<div class='extra' id='formats'>
+<section class='extra' id='formats'>
     <h4><span>ALTERNATE FORMATS</span></h4>
     <ul> 
         {% for url in page.urls %}
         <li><a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a><br></li>            
         {% endfor %}
     </ul>
-</div>
+</section>
 {% endif %}
 
 {% assign records = false %}
@@ -18,14 +18,14 @@
     {% assign records = true %}
 {% endfor %}
 {% if records %}
-<div class='extra' id='records'>
+<section class='extra' id='records'>
     <h4><span>RELATED RECORDS</span></h4>
     <ul> 
         {% for record in page.related_records %}
         <li><a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a><br></li>            
         {% endfor %}
     </ul>
-</div>
+</section>
 {% endif %}
 
 {% assign online = false %}
@@ -33,12 +33,12 @@
     {% assign online = true %}
 {% endfor %}
 {% if online %}
-<div class='extra' id='links'>
+<section class='extra' id='links'>
     <h4><span>EXTERNAL LINKS</span></h4>
     <ul> 
         {% for url in page.urls %}
         <li><a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a><br></li>            
         {% endfor %}
     </ul>
-</div>
+</section>
 {% endif %}

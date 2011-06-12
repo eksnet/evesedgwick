@@ -2,7 +2,7 @@
 layout: base
 ---
     {% if page.category == 'all' %}
-        <div id='title'>    
+        <section id='title'>    
             <h2>{{ page.nav | category_link}}</h2>
             <ul class='nav' id='sub-nav'>
             {% for nav in site.navs_by_category[page.nav] %}
@@ -11,7 +11,7 @@ layout: base
                 {% endfor %}
             {% endfor %}
             </ul>
-        </div>
+        </section>
         
         {% for category in site.navs_by_category[page.nav][0] %}
         <h2 class='subsection'><span>{{ category['name'] | category_link }}</span></h2>
@@ -22,7 +22,7 @@ layout: base
             {{ record_count }} Records
         </div>
         {% for post in category['posts'] limit:3 %}
-        <div class='preview'>
+        <section class='preview'>
             <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
             <p>{{ post.description }}</p>
             {% assign related = false %}
@@ -32,11 +32,11 @@ layout: base
             {% if related %}
                 <h6>RELATED - {{ post.tags | tag_links }}</h6>
             {% endif %}
-        </div>
+        </section>
         {% endfor %}
         {% endfor %}
     {% else %}
-        <div id='title'>    
+        <section id='title'>    
             <h2 style=''>{{ page.nav | category_link }} <span>{{ page.category | category_link}}</span></h2>
             <ul class='nav' id='sub-nav'>
             {% for category in site.categories_by_sub[page.category] %}
@@ -45,12 +45,12 @@ layout: base
                 {% endfor %}
             {% endfor %}
             </ul>
-        </div>
+        </section>
             {% if page.sub == 'all' %}
             {% for post in site.categories[page.category] %}
                 {% if post.sub-category %}
                 {% else %}
-                    <div class='preview nosub'>
+                    <section class='preview nosub'>
                         <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
                         <p>{{ post.description }}</p>
                         {% assign related = false %}
@@ -60,7 +60,7 @@ layout: base
                         {% if related %}
                             <h6>RELATED - {{ post.tags | tag_links }}</h6>
                         {% endif %}
-                    </div>
+                    </section>
                 {% endif %}
             {% endfor %}
             {% endif %}
@@ -76,7 +76,7 @@ layout: base
                     {{ record_count }} Records
                 </div>
                 {% for post in sub.posts limit:3 %}
-                <div class='preview'>
+                <section class='preview'>
                     <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
                     <p>{{ post.description }}</p>
                     {% assign related = false %}
@@ -86,7 +86,7 @@ layout: base
                     {% if related %}
                         <h6>RELATED - {{ post.tags | tag_links }}</h6>
                     {% endif %}
-                </div>
+                </section>
                 {% endfor %}
             {% else %}
             {% if page.sub == sub.name %}
@@ -98,7 +98,7 @@ layout: base
                         {{ record_count }} Records
                     </div>
                 {% for post in sub.posts %}
-                <div class='preview'>
+                <section class='preview'>
                     <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
                     <p>{{ post.description }}</p>
                     {% assign related = false %}
@@ -108,7 +108,7 @@ layout: base
                     {% if related %}
                         <h6>RELATED - {{ post.tags | tag_links }}</h6>
                     {% endif %}
-                </div>
+                </section>
                 {% endfor %}
                 {% endif %}
             {% endif %}

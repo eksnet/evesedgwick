@@ -19,6 +19,15 @@ module Jekyll
           end
         end
       end
+      if self.data['type']
+          tag = self.data['type'].to_s.downcase
+          tag = tag.en.plural
+          unless tag == 'none'
+            self.tags << tag
+          end
+      end
+      self.tags.compact!
+      self.tags.uniq!
     end
 
   end

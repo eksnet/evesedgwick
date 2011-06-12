@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+nav: blog
 category: blog
 
 tags: news publications

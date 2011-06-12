@@ -1,9 +1,6 @@
 ---
 layout: base
 ---
-
-{{ site.blog[0] }}
-
 <section id='title' class='under'>   
     {% for datum in page.meta %}
         {% case datum["key"] %} 
@@ -21,13 +18,14 @@ layout: base
     
 </section>
 
-{% include meta.liquid %}
-
 {% include album.liquid %}
 
 <section class='content'>
     
     {% include marginal.liquid %}
+    
+    <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
+    <h6 class='biblio'>{% if page.exhibition-location %}{{ page.exhibition-location | upcase }}, {{ page.exhibition-date }}{% endif %}</h6>
     
     {{ content }}
     
