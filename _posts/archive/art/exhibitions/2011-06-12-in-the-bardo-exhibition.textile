@@ -12,7 +12,4 @@ title: In the Bardo
 
 description: none
 
-exhibition-location: ?
-exhibition-date: ?
-
 ---

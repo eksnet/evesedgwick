@@ -2,7 +2,7 @@
 layout: resource
 published: true
 nav: resources
-category: About
+category: about
 type: resource
 
 title: About
