@@ -11,24 +11,25 @@ with: Adam Frank
 title: Shame and Its Sisters
 sub-title: A Silvan Tomkins Reader
 pub-date: 1995
+preview_img:      shameanditssisters.jpg
+
+description:    none
 
 editions:
     - description:  none
       publisher:    Duke University Press
       location:     "Durham, N.C."
       date:         1995
-
-amazon_url:     none
-indiebound_url:    www.indiebound.org/book/9780822316947
-worldcat_url:        none
-
-cover_img:      shameanditssisters.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+      isbn:         9780822316947
+      
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822316947"}
+    
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
 
 ---
 

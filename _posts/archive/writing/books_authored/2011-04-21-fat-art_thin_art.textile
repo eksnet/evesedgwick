@@ -11,6 +11,9 @@ role: author
 with: none
 title: "Fat Art, Thin Art"
 pub-date: 1994
+preview_img: fatartthinart.jpg
+
+description: none
 
 editions:
     - description:  none
@@ -19,23 +22,10 @@ editions:
       series:       Gender and Culture Series
       date:         1994
       binding:      cloth and paper
+      isbn:         9780822315124
 
-publisher_location: 
-publisher: Duke University Press
-publication_date: 1994
-isbn:
-
-amazon_url:     none
-indiebound_url:    www.indiebound.org/book/9780822315124
-worldcat_url:        none
-
-cover_img:      fatartthinart.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822315124"}
 
 ---
 

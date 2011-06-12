@@ -23,7 +23,6 @@ formats:
     - {type: transcript, format: html}
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
-
 ---
 
 h5. Asian Encounters

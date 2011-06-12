@@ -3,7 +3,7 @@ layout: post
 published: true
 type: blog
 
-tags: news, publications
+tags: news publications
 
 description: none
 

@@ -8,15 +8,19 @@ layout: base
         
 </section>
 
+{% include album.liquid %}
+
 <section class='content book'>
-    {% if page.cover_img %}
-    <img class='cover' src='/images/archive/book-covers/{{ page.cover_img }}'>
-    {% endif %}
+    
+    {% include marginal.liquid %}
+    
     <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
     {% assign biblio = page.editions[0] %}
     <h6 class='biblio'>({{ biblio['location'] | upcase }}: {{ biblio['publisher'] | upcase }}, {{ biblio['date'] }}. {{ biblio['binding'] | upcase }}. {{ biblio['isbn'] }}. {{ biblio['pages'] }})</h6>
     
     {{ content }}
     
-    </section>
+</section>
+
+{% include extras.liquid %}
 

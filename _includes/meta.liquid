@@ -1,0 +1,9 @@
+<div id='meta'>
+{% for datum in page.meta %}
+    {% if datum.display %}
+    <p>
+        <span class='heading'>{{ datum.display-value | upcase }}</span> {{ datum.value | upcase }}
+    </p>
+    {% endif %}
+{% endfor %}
+</div>

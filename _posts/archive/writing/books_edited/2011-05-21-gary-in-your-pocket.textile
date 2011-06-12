@@ -11,6 +11,9 @@ with: none
 title: Gary in Your Pocket
 sub-title: Stories and Notebooks of Gary Fisher
 pub-date: 1996
+preview_img:      garyinyourpocket.jpg
+
+description:    none
 
 editions:
     - description:  none
@@ -18,19 +21,16 @@ editions:
       location:     "Durham, N.C."
       series:       Series Q
       date:         1996
-
-amazon_url:          none
-indiebound_url:      http://www.indiebound.org/book/9780822317999
-worldcat_url:        none
-
-cover_img:      garyinyourpocket.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date} 
-    - {k: isbn,  v: isbn} 
+      isbn:         9780822317999
+      
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822317999"}
+    
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
 
 ---
 

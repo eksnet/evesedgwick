@@ -9,7 +9,7 @@ type: article
 role: author
 with: Michael Moon
 title: Confusion of Tongues
-sub_title: Louisa Van Velsor Whitman and Walt Whitman
+sub-title:Louisa Van Velsor Whitman and Walt Whitman
 pub-date: 1996
 
 in:
@@ -22,12 +22,5 @@ in:
       location:     Oxford
       date:         1996
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

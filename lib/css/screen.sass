@@ -94,13 +94,17 @@ h6.biblio {
   font-size:10px;
   margin:-10px 0px 18px;
 }
-img.cover {
+div#meta-container{
   float:left; 
   clear:left; 
-  margin-left:(($column * 1) + ($margin * 1)) * -1; 
-  width:142px;
-  height:215px;
+  margin-left:(($column * 2) + ($margin * 2)) * -1;
   margin-top:2px;
+  width:(($column * 2) + ($margin * 1)) * -1;;
+}
+img.preview {
+  width:$column;
+  height:215px;
+  margin-left:($column * 1) + ($margin * 1);
 }
 ul.nav {
   display:inline-block;
@@ -124,6 +128,10 @@ p {
   font-size:14px;
   line-height:20px;
   margin:0px 0px 20px;
+}
+p.intro {
+  font-size:18px; 
+  line-height:26px;
 }
 .preview p {
   font-family: Arial, Helvetica, sans-serif;
@@ -195,8 +203,14 @@ ul#sub-nav {
   font-size:12px;
   line-height:18px;
   color:$black;
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color:$black;
+  }
   span.heading {
-  font-weight: bold;  
+    font-weight: bold;  
   }
 }
 .record_count {
@@ -216,7 +230,7 @@ span.right {
 /* ------------------- SECTIONS */
 
 section.content {
-  min-height:300px;
+  min-height:500px;
 }
 
 section.extra { 
@@ -233,10 +247,63 @@ section.extra {
   }
 }
 
+section.preview {
+  margin-bottom:32px;
+}
+
 section.biblio {
   p {
     font-size:12px;
     line-height:20px;
+  }
+}
+
+div#meta-container {
+  div {
+    width:$column;
+    margin-left:($column * 1) + ($margin * 1);
+    margin-top:18px;
+  }
+  p {
+    font-size:10px;
+    line-height:13px;
+    margin-bottom:6px;
+  }
+  ul {
+    margin-top:18px;
+    li {
+      float:right;
+      width:100%;
+      text-align:right;
+    }
+    a   {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    a:link  {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    } 
+
+    a:visited   {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    a:active    { 
+      color: $light;  
+      text-decoration:none;
+      background-color: transparent;
+    } 
+
+    a:hover     { 
+      color: $accent; 
+      text-decoration:none; 
+      background-color: transparent;
+    }
   }
 }
 

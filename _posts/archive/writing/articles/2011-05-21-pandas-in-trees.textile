@@ -15,12 +15,5 @@ in:
       publication:  Women and Performance
       date:         1996
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

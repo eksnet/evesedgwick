@@ -12,7 +12,7 @@ related_media:
 
 ---
 
-<span style='font-size:18px; line-height:26px;'>Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.</span> 
+p(intro). Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.
 
 h5. <a href="#container" name="1">Dayton: 1950 to 1957</a>
 

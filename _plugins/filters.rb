@@ -18,7 +18,7 @@ module Jekyll
     def tag_links(tags)
       tags = tags.sort!.map do |item|
         if item
-          '<a href="/tag/'+item+'/">'+item.upcase+'</a>'
+          '<a href="/'+item+'/">'+item.upcase+'</a>'
         end
       end
 
@@ -70,6 +70,29 @@ module Jekyll
       end
       '<a href="/'+category+'/'+sub_category+'/">'+sub_category.upcase+'</a>'
     end
+    
+     def resource_link(category)
+        if category.respond_to?('each')
+          categories = category.sort!.map do |item|
+            '<a href="/'+item+'/">'+item.upcase+'</a>'
+          end
+
+          connector = "and"
+          case categories.length
+          when 0
+            ""
+          when 1
+            categories[0].to_s
+          when 2
+            "#{categories[0]} #{connector} #{categories[1]}"
+          else
+            "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
+          end
+        else
+          item = category
+          '<a href="/'+item+'/'+item+'.html">'+item.upcase+'</a>'
+        end  
+      end
 
     # Returns string
     def meta_link(meta, tags)

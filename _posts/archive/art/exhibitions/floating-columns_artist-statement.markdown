@@ -8,7 +8,7 @@ type: document
 role: artist
 with: none
 title: Floating Columns
-sub_title: none
+sub-title:none
 
 exhibitions:
     - venue: Rhode Island School of Design

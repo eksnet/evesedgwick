@@ -11,6 +11,8 @@ with: none
 title: Queerer than Fiction
 pub-date: 1996
 
+Description: none
+
 in:
     - description:  journal
       publication:  Studies in the Novel
@@ -21,9 +23,6 @@ urls:
   - { display: studies in the novel archives, url: "http://www.engl.unt.edu/sitn/archives_vol_28.html"}
   - { display: "excerpt: questia.com", url: "http://www.questia.com/googleScholar.qst?docId=5000436497"}
   - { display: highbeam research, url: "http://www.highbeam.com/publications/studies-in-the-novel-p1128/september-1996"}
-
-cover_img:      none
-description:    none
 
 ---
 

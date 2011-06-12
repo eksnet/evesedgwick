@@ -1,0 +1,11 @@
+---
+layout: resource
+published: true
+nav: resources
+category: About
+type: resource
+
+title: About
+---
+
+h5. About

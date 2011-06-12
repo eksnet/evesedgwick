@@ -16,12 +16,5 @@ in:
       issue:        4
       date:         Spring 2006
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

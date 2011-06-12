@@ -8,19 +8,12 @@ type: article
 
 role: author
 title: Memorial for Michael Lynch
-sub_title: Scholarship and Affection
+sub-title:Scholarship and Affection
 pub-date: 1991
 
 in:
     - description:  journal
       publication:  Lesbian and Gay Studies Newsletter
       date:         Fall 1991
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

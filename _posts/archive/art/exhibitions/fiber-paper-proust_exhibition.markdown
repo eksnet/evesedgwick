@@ -8,7 +8,7 @@ type: collection
 role: artist
 with: none
 title: "Works in Fiber, Paper, and Proust"
-sub_title: none
+sub-title:none
 
 exhibitions:
     - venue: Harvard University

@@ -11,6 +11,9 @@ role: author
 with: none
 title: Epistemology of the Closet
 pub-date: 1990
+preview_img:      epistemologyofthecloset.jpg
+
+description:    none
 
 editions:
     - description:  none
@@ -19,23 +22,15 @@ editions:
       series:       Gender and Culture Series
       date:         1990
       binding:      cloth and paper
+      isbn:         9780520254060
       notes:        "A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991"
       translations: "Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese"
       further_editions:
         - type:         paperback reissue with new material
           date:         2008
-
-amazon_url:          none
-indiebound_url:    www.indiebound.org/book/9780520254060
-worldcat_url:        none
-
-cover_img:      epistemologyofthecloset.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+          
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780520254060"}
 
 ---
 

@@ -8,7 +8,7 @@ type: document
 role: artist
 with: none
 title: In the Bardo
-sub_title: none
+sub-title:none
 
 exhibitions:
     - venue: "SUNY-Stony Brook"

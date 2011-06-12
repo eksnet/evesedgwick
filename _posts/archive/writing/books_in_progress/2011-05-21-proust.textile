@@ -12,23 +12,20 @@ with: none
 title: Proust and the Queer Little Gods
 pub-date: 0
 
+description:>
+    A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.
+
+
 editions:
     - description:  none
       notes: "A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein"
 
-amazon_url:        none
-indiebound_url:    none
-worldcat_url:        none
-
-cover_img: none
-description:>
-    A study of <i>A la recherche du temps perdu</i> from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
-
+meta:
+  - {key: type,           value: document,            display-value: Type,        display: true}
+  - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+  - {key: location,       value: CUNY,                display-value: Location,    display: true}
+  - {key: creation-date,  value: none,                display-value: Date,        display: true}
+    
 ---
 
 A study of _A la recherche du temps perdu_ from two, interlocking points of view: Proust's pagan and Neoplatonic mysticism on the one hand, and on the other hand the ideas of Melanie Klein.

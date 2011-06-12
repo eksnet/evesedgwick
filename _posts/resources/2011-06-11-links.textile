@@ -1,0 +1,46 @@
+---
+layout: resource
+published: true
+nav: resources
+category: links
+type: resource
+
+title: Links
+---
+
+h5. Obituaries
+
+"Bay Area Reporter":http://www.ebar.com/news/article.php?sec=news&article=3880
+"Berliner Zeitung (German&#41;":http://www.berlinonline.de/berliner-zeitung/archiv/.bin/dump.fcgi/2009/0416/feuilleton/0088/index.html
+"Inside Higher Education":http://www.insidehighered.com/news/2009/04/14/qt/eve_kosofsky_sedgwick_1950_2009
+"New York Times (Arts Section&#41;":http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=1
+"New York Times (Papercuts Blog&#41;":http://papercuts.blogs.nytimes.com/2009/04/15/remembering-eve-kosofsky-sedgwick/
+"New York Times (Week in Review&#41;":http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html
+"The Advocate":http://www.advocate.com/News/Daily_News/2009/04/13/Educator,_Author_Eve_Kosofsky_Sedgwick_Dies_at_58/
+"The Guardian":http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory
+"The New Yorker":http://www.newyorker.com/online/blogs/books/2009/04/eve-kosofsky-sedgwick.html
+"Toronto Star":http://www.thestar.com/News/Insight/article/620442
+"Duke University Press":http://dukeupress.typepad.com/dukeupresslog/2009/04/eve-kosofsky-sedgwick-19502009.html
+
+h5. Personal Tributes and Appreciations
+
+"Emily Apter, Artforum":http://artforum.com/inprint/id=23498
+"Andy Campbell, The Austin Chronicle":http://www.austinchronicle.com/gyrobase/Blogs/GayPlace/?oid=765573
+"Cathy Davidson, HASTAC":http://www.hastac.org/node/2081
+"Lauren Elkin, Maitresse":http://maitresse.typepad.com/maitresse/2009/04/-in-memoriam.html
+"Katherine Franke, Columbia Law School Gender and Sexuality Blog":http://blogs.law.columbia.edu/genderandsexualitylawblog/2009/04/19/eve-kosofsky-sedgwick-a-tribute-from-marrakech/
+"Richard Kim, The Nation":http://www.bu.edu/honoringeve/files/2009/09/richard-kim-obituary.pdf
+"Kevin Kopelson, n+1":http://www.nplusonemag.com/sentimental-journey
+"Geoffroy de Lagasnerie interviews Judith Butler and Didier Eribon, Mediapart":http://www.mediapart.fr/club/blog/geoffroy-de-lagasnerie/130409/hommage-a-eve-kosofsky-sedgwick
+"Roxie Smith Lindemann, Roxie's World":http://roxies-world.blogspot.com/2009/04/eve-anescence.html
+"Joseph Litvak, Libération":http://philosophie.blogs.liberation.fr/noudelmann/2009/04/le-culot-deve-kosofsky-sedgwick.html
+"lgbt@nypl":http://lgbt.nypl.org/?p=155
+"Andrew Parker, Amherst Magazine":https://www.amherst.edu/aboutamherst/magazine/issues/2009summer/collegerow/sedgwick
+"Ann Pellegrini, The Chronicle of Higher Education":http://chronicle.com/article/Eve-Kosofsky-Sedgwick/15045
+"Silvia Posocco, The Guardian":http://www.guardian.co.uk/commentisfree/2009/apr/15/sexual-identity
+"Darren Rosenblum, Feminist Law Professors":http://feministlawprofessors.com/?p=9962
+"David Shankbone, Shankbone":http://blog.shankbone.org/2009/04/13/eve-kosofsky-sedgwick-58-prominent-writer-dies-of-cancer/
+"Amardeep Singh, The Valve":http://www.thevalve.org/go/valve/article/eve_sedgwick_a_few_reflections/
+"Kristen Taylor, Kthread":http://www.kthread.com/kthread/2009/04/22/kthread-spins-in-memory-of-eve-kosofsky-sedgwick/
+"Oh!Industry":http://www.ohindustry.com/2009/04/in-memoriam-eve-kosofsky-sedgwick-1950.html
+

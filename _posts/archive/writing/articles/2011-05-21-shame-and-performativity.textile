@@ -8,7 +8,7 @@ type: article
 
 role: author
 title: Shame and Performativity
-sub_title: Henry James's <i>New York Edition Prefaces</i>
+sub-title:Henry James's <i>New York Edition Prefaces</i>
 pub-date: 1995
 
 in:
@@ -19,12 +19,5 @@ in:
       location:     Stanford
       date:         1995
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

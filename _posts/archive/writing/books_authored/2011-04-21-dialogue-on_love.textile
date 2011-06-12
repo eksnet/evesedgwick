@@ -11,6 +11,9 @@ role: author
 with: none
 title: A Dialogue on Love
 pub-date: 1999
+preview_img:      dialogueonlove.jpg
+
+description:    none
 
 editions:
     - description:  none
@@ -19,22 +22,14 @@ editions:
       series:       Gender and Culture Series
       date:         1999
       binding:      cloth and paper
+      isbn:         9780807029237
       translations: Chinese
       further_editions:
         - type:         paperback
           date:         2000
 
-amazon_url:     none
-indiebound_url: www.indiebound.org/book/9780807029237
-worldcat_url:        none
-
-cover_img:      dialogueonlove.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780807029237"}
 
 ---
 

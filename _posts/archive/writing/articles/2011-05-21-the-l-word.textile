@@ -8,20 +8,14 @@ type: article
 
 role: author
 title: "'The L Word'"
-sub_title: Novelty in Normalcy
+sub-title: "Novelty in Normalcy"
 pub-date: 2004
+
+description: none
 
 in:
     - description:  journal
       publication:  The Chronicle of Higher Education
       date:         "January 16, 2004"
-
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

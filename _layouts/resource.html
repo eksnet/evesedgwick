@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<section id='title'>    
+    <h2 style=''>{{ page.nav | upcase }} <span>{{ page.category | resource_link}}</span></h2>
+    <ul class='nav' id='sub-nav'>
+        {% for nav in site.navs_by_category[page.nav] %}
+        {% for category in nav %}
+        <li>{{ category.name | resource_link }}</li>   
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</section>
+
+{% include album.liquid %}
+
+<section class='content'>
+
+    {% include marginal.liquid %}
+
+    {{ content }}
+
+</section>
+
+{% include extras.liquid %}

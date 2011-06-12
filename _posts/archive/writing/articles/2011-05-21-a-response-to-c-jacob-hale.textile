@@ -16,7 +16,7 @@ in:
       issue:        52-3
       date:         Autumn-Winter 1997
 
-cover_img: none
+preview_img: none
 description: none
   
 ---

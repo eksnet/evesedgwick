@@ -8,7 +8,7 @@ type: article
 
 role: author
 title: Inside Henry James
-sub_title: Toward A Lexicon for the Art of the Novel
+sub-title:Toward A Lexicon for the Art of the Novel
 pub-date: 1995
 
 in:
@@ -22,12 +22,5 @@ in:
       location:     London and New York
       date:         1995
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

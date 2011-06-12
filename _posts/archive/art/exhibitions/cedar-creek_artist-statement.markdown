@@ -8,7 +8,7 @@ type: document
 role: artist
 with: none
 title: untitled
-sub_title: none
+sub-title:none
 
 exhibitions:
     - venue: "Cedar Creek Gallery, Durham, NC"

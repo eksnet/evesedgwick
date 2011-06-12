@@ -12,7 +12,8 @@ layout: base
             {% endfor %}
             </ul>
         </section>
-        {% for category in site.iterable_categories %}
+        
+        {% for category in site.navs_by_category[page.nav][0] %}
         <h2 class='subsection'><span>{{ category['name'] | category_link }}</span></h2>
         {% for post in category['posts'] %}
             {% assign record_count = forloop.length %}

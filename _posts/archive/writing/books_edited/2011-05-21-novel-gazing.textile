@@ -11,6 +11,9 @@ with: none
 title: Novel Gazing
 sub-title: Queer Readings in Fiction
 pub-date: 1997
+preview_img:      novelgazing.jpg
+
+description:    none
 
 editions:
     - description:  none
@@ -18,18 +21,16 @@ editions:
       location:     "Durham, N.C."
       series:       Series Q
       date:         1997
+      isbn:         9780822320401
+      
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822320401"}
 
-amazon_url:     none
-indiebound_url:    http://www.indiebound.org/book/9780822320401
-worldcat_url:        none
-
-cover_img:      novelgazing.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
 
 ---
 

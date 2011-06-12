@@ -8,7 +8,7 @@ type: document
 role: artist
 with: none
 title: Bodhisattva Fractal World
-sub_title: none
+sub-title:none
 
 exhibitions:
     - venue: Johns Hopkins University

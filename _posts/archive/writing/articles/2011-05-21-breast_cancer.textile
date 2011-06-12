@@ -8,7 +8,7 @@ type: article
 
 role: author
 title: Breast Cancer
-sub_title: Issues and Resources
+sub-title:Issues and Resources
 pub-date: 1995
 
 in:
@@ -16,12 +16,5 @@ in:
       publication:  Lesbian and Gay Studies Newsletter
       date:         Fall 1995
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

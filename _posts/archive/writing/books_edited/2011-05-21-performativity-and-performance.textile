@@ -10,24 +10,25 @@ role: editor
 with: Andrew Parker
 title: Performativity and Performance
 pub-date: 1995
+preview_img:      performativityandperformance.jpg
+
+description:    none
 
 editions:
     - description:  none
       publisher:    Routledge
       location:     New York
       date:         1995
+      isbn:         9780415910552
 
-amazon_url:     none
-indiebound_url:    www.indiebound.org/book/9780415910552
-worldcat_url:        none
-
-cover_img:      performativityandperformance.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780415910552"}
+    
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
 
 ---
 

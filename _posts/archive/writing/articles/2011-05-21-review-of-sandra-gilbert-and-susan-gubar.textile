@@ -16,12 +16,5 @@ in:
       issue:        XXVIII.1
       date:         September 1990
 
-cover_img: none
-description: none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: editions.publisher, v: Publisher}
-    - {k: editions.date, v: Publication Date}
   
 ---

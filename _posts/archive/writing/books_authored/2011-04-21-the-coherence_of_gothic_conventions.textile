@@ -11,6 +11,9 @@ role: author
 with: none
 title: The Coherence of Gothic Conventions
 pub-date: 1980
+preview_img:      coherence.jpg
+
+description:    none
 
 editions:
     - description:  none
@@ -18,24 +21,16 @@ editions:
       location:     New York
       series:       Gothic Studies Series
       date:         1980
+      isbn:         9780416014112
       further_editions:
         - type:         paperback reissue with new material
           publisher:    Methuen & Co
           location:     New York
           date:         1986
           translations: Japanese
-          
-amazon_url:     none
-indiebound_url:    none
-worldcat_url:        none
 
-cover_img:      coherence.jpg
-description:    none
-
-display_data:
-    - {k: title, v: Title}
-    - {k: publisher, v: Publisher}
-    - {k: publication_date,  v: Publication Date}
+urls:
+    - { display: amazon, url: "http://www.amazon.com/Coherence-Gothic-Conventions-University-Paperback/dp/0416014119"}
 
 ---
 
