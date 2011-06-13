@@ -1,8 +1,10 @@
 ---
 layout: base
 ---
-    {{ paginator.page }}
-    {% for post in paginator.posts %}
+    {% assign blog = site.blog[0] %}
+    {{ blog["name"] }}
+
+    {% for post in site.blog['posts'] %}
 
           <h4>
             <a href="{{ post.url }}/" title="{{ post.title }}"> 

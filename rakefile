@@ -1,3 +1,7 @@
+# on Windows, you can't invoke rake via a "system" cmd, as rake actually should invoke rake.bat
+RAKE_CMD = RUBY_PLATFORM.match(/win/) ? "rake.bat" : "rake"
+
+
 task :default => :dev
 
 desc 'Ping pingomatic'

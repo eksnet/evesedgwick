@@ -103,18 +103,15 @@ module Jekyll
     end
     
     def collect_blog(posts)
-      hash = Hash.new { |hash, key| hash[key] = Array.new }
-      array = []
-      self.posts.each do |post|
-        if post.data['type'] 
-          if post.data['type'] == 'blog'
-            array.push(post)
-          end
+      blog=posts['blog']
+      puts blog.class
+      blog.each do |posts|
+        posts.each do |p|
+          p['posts'].sort! {|a, b| b.date <=> a.date}
         end
       end
-      array.sort! {|a, b| a.date <=> b.date}
-      puts array
-      return array
+      puts blog
+      return blog
     end
 
     # Returns {<collection.title> => [<sub>, <sub>, <sub>]}

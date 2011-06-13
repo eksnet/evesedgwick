@@ -17,6 +17,8 @@ nav:
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
 description:    "Eve Kosofsky Sedgwick"
-    
+
+posts_per_page: 5
+
 disqus:
     id:         evesedgwick
