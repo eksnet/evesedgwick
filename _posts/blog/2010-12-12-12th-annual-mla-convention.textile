@@ -3,14 +3,15 @@ layout: post
 published: true
 nav: blog
 category: blog
+type: post
 
 tags: events conferences
 
 description: none
 
----
+title: "January 6-9, 2011: 12th Annual MLA Convention"
 
-h5. January 6-9, 2011: 12th Annual MLA Convention
+---
 
 Three panels at the Modern Language Association Convention in Los Angeles, California will focus on Eve’s work.  On Thursday, January 6, at 3:30 p,. Jay Grossman (Northwestern University) will preside over a forum titled "Writing with Eve: The Legacy of Eve Kosofsky Sedgwick." Jonathan Goldberg (Emory University) and Michael Moon (Emory University) will deliver a paper titled "Eve’s Future Figures," and Judith Butler (UC Berkeley) will give a paper titled "Proust and the Life of Desire."  On Friday the 7th at 5:15 pm, Michael Cobb (University of Toronto) will preside over a linked session, "Sedwick’s Endurance: Writing with Loss"; talks will include Lauren Berlant (University of Chicago) and Lee Charles Edelman (Tufts University) on "What Survives?" and José Munoz (NUY) on "Figurations of Experience: Sedgwick with Fisher and Others." Finally, on Saturday the 8th at 3:30 pm, Emily S. Apter (NYU) will preside over the session "Queer Gothic: The Space-Time of Sedgwick’s Nineteenth Century," with Andrew C. Parker (Amherst College) presenting "The Age of Frankenstein," Jane Gallop (University of Wisconsin, Milwaukee) presenting "Early and Earlier Sedgwick," and Christopher Nealon (Johns Hopkins University) presenting "Sedgwick, James, and the Inexhaustible." 
 

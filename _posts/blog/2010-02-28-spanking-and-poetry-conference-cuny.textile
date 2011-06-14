@@ -3,14 +3,15 @@ layout: post
 published: true
 nav: blog
 category: blog
+type: post
 
 tags: events talks
 
 description: none
 
----
+title: "February 25-26, 2010: Spanking and Poetry conference, CUNY"
 
-h5. February 25-26, 2010: Spanking and Poetry conference, CUNY
+---
 
 From the "call for proposals":http://sedgwickconference.wordpress.com/:
 "When I was a child the two most rhythmic things that happened to me were spanking and poetry." (<i>Tendencies</i> 182)

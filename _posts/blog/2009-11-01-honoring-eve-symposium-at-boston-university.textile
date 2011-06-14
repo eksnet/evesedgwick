@@ -3,6 +3,7 @@ layout: post
 published: true
 nav: blog
 category: blog
+type: post
 
 tags: events talks
 

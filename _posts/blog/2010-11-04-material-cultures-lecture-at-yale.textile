@@ -3,14 +3,15 @@ layout: post
 published: true
 nav: blog
 category: blog
+type: post
 
 tags: events talks
 
 description: none
 
----
+title: "November 4, 2010: Material Cultures Lecture at Yale"
 
-h5. November 4, 2010: Material Cultures Lecture at Yale
+---
 
 P1010861.JPG
 

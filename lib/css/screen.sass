@@ -97,13 +97,6 @@ h6.biblio {
   font-size:10px;
   margin:-10px 0px 18px;
 }
-div#meta-container{
-  float:left; 
-  clear:left; 
-  margin-left:(($column * 2) + ($margin * 2)) * -1;
-  margin-top:2px;
-  width:(($column * 2) + ($margin * 1)) * -1;;
-}
 img.preview {
   width:$column;
   height:215px;
@@ -223,6 +216,12 @@ ul#sub-nav {
   font-style: italic;
   color:$light;
 }
+.post-meta {
+  margin-top: 0px;
+  text-align: right;
+  font-style: normal;
+  color:$light;
+}
 .toc {
   text-align: right;
 }
@@ -261,7 +260,13 @@ section.biblio {
     line-height:20px;
   }
 }
-
+div#meta-container{
+  float:left; 
+  clear:left; 
+  margin-left:(($column * 2) + ($margin * 2)) * -1;
+  margin-top:2px;
+  width:(($column * 2) + ($margin * 1)) * -1;;
+}
 div#meta-container {
   div {
     width:$column;
@@ -272,6 +277,10 @@ div#meta-container {
     font-size:10px;
     line-height:13px;
     margin-bottom:6px;
+  }
+  p.data {
+    color: $light;
+    font-style:normal;
   }
   ul {
     margin-top:18px;

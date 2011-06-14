@@ -101,42 +101,6 @@ module Jekyll
       end
       return bib
     end
-    
-    def collect_blog(posts)
-      blog=posts['blog']
-      puts blog.class
-      blog.each do |posts|
-        posts.each do |p|
-          p['posts'].sort! {|a, b| b.date <=> a.date}
-        end
-      end
-      puts blog
-      return blog
-    end
-
-    # Returns {<collection.title> => [<sub>, <sub>, <sub>]}
-    def collect_keys(key_attribute, collection)
-      hash = Hash.new { |hash, key| hash[key] = Array.new }
-      posts.each do |post|
-        if post.data[collection]
-          if post.data[collection].respond_to?('each')
-            post.data[collection].each do |c|
-              if post.data[key_attribute]
-                hash[c] << post.data[key_attribute]
-              end
-            end
-          else
-            hash[post.data[collection]] << post.data[key_attribute]
-          end
-        end  
-      end
-      hash.values.map do |sort|
-        sort.compact!
-        sort.uniq!
-        sort.sort! {|a, b| a <=> b}
-      end
-      return hash
-    end
 
     # Redefine site_payload to include our new method.
     alias_method :orig_site_payload, :site_payload
@@ -156,9 +120,7 @@ module Jekyll
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
       payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
       # Specific collections
-      payload['site']['sub_keys_by_category'] = self.collect_keys('sub-category', 'category')
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
-      payload['site']['blog'] = self.collect_blog(self.collection_by_attribute(self.categories, 'category'))
       payload
     end
 

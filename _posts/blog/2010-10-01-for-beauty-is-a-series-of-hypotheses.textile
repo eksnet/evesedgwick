@@ -3,14 +3,15 @@ layout: post
 published: true
 nav: blog
 category: blog
+type: post
 
 tags: events talks
 
 description: none
 
----
+title: "October 1, 2010: For Beauty is a Series of Hypotheses"
 
-h5. October 1, 2010: For Beauty is a Series of Hypotheses
+---
 
 Author and scholar Eve Sedgwick was also a devoted and passionate fiber artist. In this lecture, scholar Jason Edwards examined a broad range of Sedgwick's art works, as the culminating presentation in a series of seminars on Sedgwick's art. 
 
