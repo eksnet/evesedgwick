@@ -6,6 +6,8 @@ category: art
 sub-category: "exhibitions"
 type: collection
 
+record_no: 0003
+
 role: artist
 with: none
 title: Bodhisattva Fractal World

@@ -3,7 +3,7 @@ layout: image
 published: true
 category: images
 
-src: adjective-game-flat-big.jpg
+src: /images/archive/art/adjective-game-flat-big.jpg
 
 meta:
     - {key: type, value: image, display-value: Type, display: true, sort: true}

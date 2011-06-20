@@ -11,7 +11,7 @@ with: none
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
 pub-date: 1985
-preview_img:      betweenmen.jpg
+preview_img: betweenmen.jpg
 
 description:    none
 
