@@ -9,9 +9,9 @@ tags: events talks
 
 description: none
 
----
+title: "October 2009: Honoring Eve symposium at Boston University"
 
-h5. October 2009: Honoring Eve symposium at Boston University
+---
 
 Text taken from the "Honoring Eve website":http://www.bu.edu/phpbin/calendar/event.php?id=92477&cid=73.
 

@@ -53,23 +53,24 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, nav, category, sub)
+    def initialize(site, base, page_dir, page, pages)
       @site = site
       @base = base
-      @dir  = category_dir
+      @dir  = page_dir
       @name = 'index.html'
       self.process(@name)
       # Read the YAML data from the layout page.
-      self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
-      self.data['nav']         = nav
-      self.data['category']    = category
-      self.data['sub']         = sub
+      self.read_yaml(File.join(base, '_layouts'), 'blog_index.html')
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || ''
-      self.data['title']       = "#{title_prefix}#{category}"
+      self.data['title']       = "#{title_prefix}page#{page}"
+      self.data['page']        = page
+      self.data['previous']    = page - 1
+      self.data['next']        = page + 1
+      self.data['pages']       = pages
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
-      self.data['description'] = "#{meta_description_prefix}#{category}"
+      self.data['description'] = "#{meta_description_prefix}#{page}"
     end
     
   end
@@ -83,8 +84,8 @@ module Jekyll
     #
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
-    def write_category_index(category_dir, nav, category, sub)
-      index = BlogIndex.new(self, self.source, category_dir, nav, category, sub)
+    def write_blog_page(page_dir, page, pages)
+      index = BlogIndex.new(self, self.source, page_dir, page, pages)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
@@ -92,26 +93,18 @@ module Jekyll
     end
     
     # Loops through the list of category pages and processes each one.
-    def write_category_indexes
-      if self.layouts.key? 'category_index'
-        dir = self.config['category_dir'] || ''
-        nav_hash = self.collect_by_attribute('nav', self.posts)
-        nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
-        cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
-        nav_hash.keys.each do |nav|
-          self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
-          nav_by_cat[nav].each do |cat_array| 
-            cat_array.each do |category| 
-              self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
-              cat_by_sub[category['name']].each do |sub_array|
-                sub_array.each do |sub|
-                  self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
-                end
-              end
-            end
-          end
+    def write_blog_pages
+      if self.layouts.key? 'blog_index'
+        dir = self.config['blog_dir'] || ''
+        bposts = self.categories['blog']
+        i=0
+        page=1
+        pages=self.categories['blog'].length/self.config['posts_per_page']
+        while i<pages
+          self.write_blog_page(File.join(dir, 'blog', 'page'+page.to_s), page, pages)
+          page+=1
+          i+=1
         end
-        
       # Throw an exception if the layout couldn't be found.
       else
         throw "No 'category_index' layout found."
@@ -122,13 +115,13 @@ module Jekyll
   
   
   # Jekyll hook - the generate method is called by jekyll, and generates all of the category pages.
-  class GenerateCategories < Generator
+  class GenerateBlog < Generator
     safe true
     priority :low
 
     def generate(site)
       puts "entering generate with #{site}"
-      site.write_category_indexes
+      site.write_blog_pages
     end
 
   end

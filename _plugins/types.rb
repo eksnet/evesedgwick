@@ -20,11 +20,11 @@ module Jekyll
         end
       end
       if self.data['type']
-          tag = self.data['type'].to_s.downcase
-          tag = tag.en.plural
-          unless tag == 'none'
-            self.tags << tag
-          end
+        tag = self.data['type'].to_s.downcase
+        tag = tag.en.plural
+        unless tag == 'none'
+          self.tags << tag
+        end
       end
       self.tags.compact!
       self.tags.uniq!
@@ -102,6 +102,26 @@ module Jekyll
       return bib
     end
 
+    def collect_blogposts(posts)
+      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      blogposts=posts['blog']
+      i=0
+      page=1
+      pagelimit=self.config['posts_per_page']
+      blogposts.sort! {|a, b| b.date <=> a.date}
+      blogposts.each do |p|
+        if i<pagelimit
+          hash['page'+page.to_s] << p
+          i+=1
+        else
+          i=0
+          page+=1
+        end
+      end
+
+      return hash
+    end
+
     # Redefine site_payload to include our new method.
     alias_method :orig_site_payload, :site_payload
     def site_payload
@@ -121,6 +141,7 @@ module Jekyll
       payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
       # Specific collections
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
+      payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
       payload
     end
 

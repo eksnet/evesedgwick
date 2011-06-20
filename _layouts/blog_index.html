@@ -1,0 +1,76 @@
+---
+layout: base
+---
+
+<section id='title' style="margin-bottom:56px;">    
+    <h2><a href="/blog/page1">BLOG</a></h2>
+    <ul class='nav' id='sub-nav'>
+        <li><a href="/blog/page{% if page.page == 1 %}{{ page.page }}{% else %}{{ page.previous }}{% endif %}">NEWER POSTS </a></li>
+        <li><a href="/blog/page{% if page.page == page.pages %}{{ page.page }}{% else %}{{ page.next }}{% endif %}"> OLDER POSTS</a></li>
+            <!-- {% if page.page != 1 %}
+               <li><a href="">NEWER </a></li>
+               {% endif %}
+               {% for i in (1..page.pages) %}
+                   {% if i == page.page %}
+                   <li><span style='font-weight:bold;'>{{ i }}</span></li>
+                   {% else %}
+                   <li><a href="">{{ i }}</a></li>
+                   {% endif %}
+               {% endfor %}
+               {% if page.page != page.pages %}
+                   <li><a href=""> OLDER</a></li>
+                   {% else %}
+                   <li><span style='color:white'>OLDER ></span></li>
+               {% endif %}
+    -->
+       
+    </ul>
+</section>
+    {% for post in site.blog-pages[page.title] %}
+
+        <section class='preview'>
+
+            <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
+
+            <div class='marginal post-meta'>
+              <!--{{ post.date | date: "%A, %b %d, %Y" | upcase}}-->
+              {{ post.date | date: "%B %d, %Y" | upcase}}
+            </div>
+            
+            {{ post.content | textilize }}
+            
+            {% assign related = false %}
+            {% for tag in post.tags %}
+                {% assign related = true %}
+            {% endfor %}
+            {% if related %}
+                <h6>RELATED - {{ post.tags | tag_links }}</h6>
+            {% endif %}
+        </section>
+
+    {% endfor %}
+    
+    <section id='footer' style="margin-bottom:56px;">    
+        <h2>&nbsp;</h2>
+        <ul class='nav' id='sub-nav'>
+            <li><a href="/blog/page{% if page.page == 1 %}{{ page.page }}{% else %}{{ page.previous }}{% endif %}">NEWER POSTS </a></li>
+            <li><a href="/blog/page{% if page.page == page.pages %}{{ page.page }}{% else %}{{ page.next }}{% endif %}"> OLDER POSTS</a></li>
+                <!-- {% if page.page != 1 %}
+                   <li><a href="">NEWER </a></li>
+                   {% endif %}
+                   {% for i in (1..page.pages) %}
+                       {% if i == page.page %}
+                       <li><span style='font-weight:bold;'>{{ i }}</span></li>
+                       {% else %}
+                       <li><a href="">{{ i }}</a></li>
+                       {% endif %}
+                   {% endfor %}
+                   {% if page.page != page.pages %}
+                       <li><a href=""> OLDER</a></li>
+                       {% else %}
+                       <li><span style='color:white'>OLDER ></span></li>
+                   {% endif %}
+        -->
+
+        </ul>
+    </section>

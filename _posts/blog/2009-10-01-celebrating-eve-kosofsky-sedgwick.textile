@@ -9,7 +9,8 @@ tags: events
 
 description: none
 
-title: "September 26 2009: Celebrating Eve Kosofsky Sedgwick"
+title: "September 26, 2009: Celebrating Eve Kosofsky Sedgwick"
 
 ---
+
 The Center for the Humanities honors the extraordinary life and work of Graduate Center faculty member Eve Kosofsky Sedgwick (1950-2009). Her groundbreaking works include <i>Between Men: English Literature and Male Homosocial Desire</i> (1986); <i>Epistemology of the Closet</i> (1991); <i>Tendencies</i> (1993); <i>Touching Feeling: Affect, Pedagogy, Performativity</i> (2003); <i>Dialogue on Love</i> (1999); and a book of poems, <i>Fat Art Thin Art</i> (1994).

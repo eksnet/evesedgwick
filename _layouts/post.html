@@ -2,8 +2,6 @@
 layout: base
 ---
 
-{{ site.blog[0] }}
-
 <section id='title' class='under'>   
     {% for datum in page.meta %}
         {% case datum["key"] %} 
@@ -17,7 +15,15 @@ layout: base
     {% endfor %}
     <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
     
-    {% include filing_notes.liquid %}
+    <h6>&nbsp;
+        {% assign related = false %}
+        {% for tag in page.tags %}
+            {% assign related = true %}
+        {% endfor %}
+        {% if related %}
+            <span class='right'>RELATED - {{ page.tags | tag_links }}</span>
+        {% endif %}
+    </h6>
     
 </section>
 
