@@ -75,19 +75,17 @@ module Jekyll
       result
     end
 
-    def collect_albums()
+    def collect_albums(posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       self.posts.each do |post|
-        if post.data['album']
-          post.data['image-list'].each do |i_hash|
-            if i_hash['public']
-              hash[post.data['album']] << i_hash['src']
-            end
+        if post.data['type'] == 'image'
+          post.data['albums'].each do |album|
+              hash[album] << post
           end
         end
       end
       hash.values.map do |sort|
-        sort.sort! {|a, b| a <=> b}
+        sort.sort! {|a, b| a.slug <=> b.slug}
       end
       return hash
     end
@@ -129,7 +127,9 @@ module Jekyll
       # Custom collections
       payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts)
       payload['site']['navs'] = self.collect_by_attribute('nav', self.posts)
-      payload['site']['albums'] = self.collect_by_attribute('albums', self.posts)
+      payload['site']['albums'] = self.collect_albums(self.posts)
+      payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
+      payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
@@ -138,10 +138,7 @@ module Jekyll
       payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
       payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
-      payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
-      # Specific collections
-      payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
-      payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
+      payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')      
       payload
     end
 

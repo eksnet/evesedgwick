@@ -1,0 +1,13 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Childhood 15
+
+src: childhood15.jpg
+
+albums: 
+    - childhood
+---

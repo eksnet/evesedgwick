@@ -76,7 +76,7 @@ end
 desc 'create a new draft post'
 task :post do
   title, slug = get_title
-  file = File.join(File.dirname(__FILE__), '_posts', slug + '.markdown')
+  file = File.join(File.dirname(__FILE__), '_posts', slug + '.textile')
   create_blank_post(file, title)
   open_in_editor(file)
 end

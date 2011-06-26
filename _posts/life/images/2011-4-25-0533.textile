@@ -1,0 +1,13 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Childhood 16
+
+src: childhood16.jpg
+
+albums: 
+    - childhood
+---

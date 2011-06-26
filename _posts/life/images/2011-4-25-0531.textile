@@ -1,0 +1,13 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Childhood 14
+
+src: childhood14.jpg
+
+albums: 
+    - childhood
+---

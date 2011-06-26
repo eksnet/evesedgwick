@@ -1,0 +1,13 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Childhood 8
+
+src: childhood08.jpg
+
+albums: 
+    - childhood
+---

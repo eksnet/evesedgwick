@@ -45,6 +45,10 @@
             
 
         <section id='main'>
+
+                {% for image in site.albums['childhood'] %}
+                    {{ image.title }}, {{ image.slug }}<br>
+                {% endfor %}
                 
                 {{ content }}
 
