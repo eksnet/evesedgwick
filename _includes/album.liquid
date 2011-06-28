@@ -1,8 +1,13 @@
 {% for media in page.related_media %}
     {% if media['type'] == 'album' %}
-    {% assign images = media['images'] %}
-    <section class='album'>
-
+    <div class='album' style='height:150px; width:622px; overflow:hidden;'>
+    <section class='gallery carousel' style='height:150px; width:10000px;'>
+    	{% for image in site.albums[media['name']] %}
+    	<a href="/images/archive/{{ image.src }}" title="{{ image.caption }}">
+    		<img src=/images/archive/{{ image.src }} height='150px' style='float:left; margin-right:18px;'>
+    	</a>
+    	{% endfor %}
     </section>
+    </div>
     {% endif %}
 {% endfor %}

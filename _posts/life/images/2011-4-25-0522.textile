@@ -8,6 +8,8 @@ title: Childhood 5
 
 src: childhood05.jpg
 
+caption: "Caption for 'childhood 1'."
+
 albums: 
     - childhood
 ---
