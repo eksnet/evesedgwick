@@ -8,7 +8,8 @@ title: Childhood 1
 
 src: childhood01.jpg
 
-caption: "Caption for 'childhood 1'."
+caption-title: "Caption Title"
+caption: "Here is a story that follows along with the picture."
 
 albums: 
     - childhood

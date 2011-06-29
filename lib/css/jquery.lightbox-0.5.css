@@ -1,6 +1,4 @@
----
-title: lightbox stylesheet
----
+
 /**
  * jQuery lightBox plugin
  * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
@@ -74,13 +72,16 @@ title: lightbox stylesheet
 	float: right;
 }
 #lightbox-container-image-data-box {
-	font: 10px Verdana, Helvetica, sans-serif;
+	font: 12px Arial, Helvetica, sans-serif;
 	background-color: #fff;
 	margin: 0 auto;
-	line-height: 1.4em;
+	line-height: 18px;
 	overflow: auto;
 	width: 100%;
 	padding: 0 10px 0;
+}
+#lightbox-container-image-data-box .heading {
+	font-weight:bold;
 }
 #lightbox-container-image-data {
 	padding: 0 10px; 
