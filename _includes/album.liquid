@@ -9,7 +9,7 @@
     <div id='aperture' style='height:150px; width:534px; margin-left:44px; overflow:hidden; position:relative;'>
     <div class='carousel' style='height:150px; width:{{ carousel_width }}px; position:absolute; top:0px; left:0px;'>
     	{% for image in site.albums[media['name']] %}
-    	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}">
+    	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album1">
     		<img src="/images/archive/{{ image.src }}_thumb.jpg" height='150' width='120' style='float:left; margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
     	</a>
     	{% endfor %}
