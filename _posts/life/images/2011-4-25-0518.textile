@@ -6,7 +6,7 @@ type: image
 
 title: Childhood 1
 
-src: childhood01.jpg
+src: childhood01
 
 caption-title: "Caption Title"
 caption: "Here is a story that follows along with the picture."

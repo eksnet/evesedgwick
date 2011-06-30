@@ -7,6 +7,8 @@ $dark: #3A393B;
 $light: #939196;
 $accent: #BF1710;
 
+$containerMargin:12px;
+
 $column:142px;
 $margin:18px;
 
@@ -137,13 +139,13 @@ p.intro {
   background-color:rgba(128,128,128,0.6);
 }
 body {
-  min-width:(($column * 6) + ($margin * 5)) + 192;
+  min-width:(($column * 6) + ($margin * 5)) + ($containerMargin * 2);
   width:100%;
   border-top:4px solid black;
 }
 #container {
   width:($column * 6) + ($margin * 5);
-  margin:0px 96px;
+  margin:0px $containerMargin;
   text-align:left;
   height:100%;
 }

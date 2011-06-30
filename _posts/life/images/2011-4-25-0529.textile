@@ -6,8 +6,9 @@ type: image
 
 title: Childhood 12
 
-src: childhood12.jpg
+src: childhood12
 
+caption-title: "Caption Title"
 caption: "Caption for 'childhood 1'."
 
 albums: 

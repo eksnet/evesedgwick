@@ -3,8 +3,8 @@
     <section class='album' style='height:150px; width:622px; overflow:hidden;'>
     <div class='gallery carousel' style='height:150px; width:10000px;'>
     	{% for image in site.albums[media['name']] %}
-    	<a href="/images/archive/{{ image.src }}" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}">
-    		<img src=/images/archive/{{ image.src }} height='150px' style='float:left; margin-right:18px;'>
+    	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}">
+    		<img src="/images/archive/{{ image.src }}_thumb.jpg" height='150px' style='float:left; margin-right:18px;'>
     	</a>
     	{% endfor %}
     </div>
