@@ -1,13 +1,21 @@
 {% for media in page.related_media %}
     {% if media['type'] == 'album' %}
-    <section class='album' style='height:150px; width:622px; overflow:hidden;'>
-    <div class='gallery carousel' style='height:150px; width:10000px;'>
+    {% for image in site.albums[media['name']] %}
+        {% assign count = forloop.length %}
+        {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
+    {% endfor %}
+    <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
+        {% if count > 4 %} <div id='carousel_left' style='width:44px; height:150px; background-color:transparent; position:absolute; left:0px; top:0px; background-image: url("/images/utility/carousel_left.png");'></div> {% endif %}
+    <div id='aperture' style='height:150px; width:534px; margin-left:44px; overflow:hidden; position:relative;'>
+    <div class='carousel' style='height:150px; width:{{ carousel_width }}px; position:absolute; top:0px; left:0px;'>
     	{% for image in site.albums[media['name']] %}
     	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}">
-    		<img src="/images/archive/{{ image.src }}_thumb.jpg" height='150px' style='float:left; margin-right:18px;'>
+    		<img src="/images/archive/{{ image.src }}_thumb.jpg" height='150' width='120' style='float:left; margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
     	</a>
     	{% endfor %}
     </div>
+    </div>
+        {% if count > 4 %} <div id='carousel_right' style='width:44px; height:150px; position:absolute; right:0px; top:0px; background-image: url("/images/utility/carousel_right.png");'></div> {% endif %}
     </section>
     {% endif %}
 {% endfor %}

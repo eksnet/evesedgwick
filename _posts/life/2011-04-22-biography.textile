@@ -7,8 +7,6 @@ category: biography
 description: none
 
 related_media:
-    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
-    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
     - {type: album, name: childhood}
 
 ---

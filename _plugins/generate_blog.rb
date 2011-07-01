@@ -120,7 +120,7 @@ module Jekyll
     priority :low
 
     def generate(site)
-      puts "entering generate with #{site}"
+      puts "entering generate BLOG with #{site}"
       site.write_blog_pages
     end
 

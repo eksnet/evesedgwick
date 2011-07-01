@@ -158,7 +158,10 @@ module Jekyll
     def plural(input)
       input.dup.en.plural
     end
-
+    
+    def carousel_width(input)
+      (input.to_i * 138) - 18
+    end
   end
 
 end
