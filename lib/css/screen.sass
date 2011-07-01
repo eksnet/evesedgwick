@@ -426,13 +426,86 @@ a:hover     {
     font-size:12px;
     line-height:18px;
     color:$black;
-    margin-bottom: 8px;
+    margin-bottom: 0px 0px 8px 2px;
   }
   span.heading {
     font-weight: bold;  
   }
   h6 {
     text-align: right;
-    margin:0px;
+    margin:0px 2px 0px 0px;
   }
+}
+
+.aperture {
+  height:150px;
+  width:622px;
+  overflow:hidden;
+  position:relative;
+}
+
+.carousel {
+   position:absolute; 
+   top:0px; 
+   left:0px;
+   height:150px;
+}
+
+img.thumb {
+  float:left;
+  height: 150px;
+  width: 120px;
+}
+
+#carousel_right, 
+#carousel_left {
+  width:50px;
+  height:50px;
+  position:absolute;
+  background-image: url("/images/utility/carousel_right.png");
+  background-color:transparent;
+  display:block;
+  z-index:100;
+  opacity:0.7;
+}
+
+#carousel_right:hover,
+#carousel_left:hover {
+  opacity:1;
+}
+
+#carousel_right {
+  right:0px;
+  top:50px;
+}
+
+#carousel_left {
+  left:0px;
+  top:50px;
+}
+
+#carousel_right_ico,
+#carousel_left_ico {
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top:-15px;
+  z-index: 102;
+}
+
+#carousel_right_ico {
+  background-image: url('/lib/fancybox/fancybox.png');
+  background-position: -40px -60px;
+  left: auto;
+  right: 5px;
+}
+
+#carousel_left_ico {
+  background-image: url('/lib/fancybox/fancybox.png');
+  background-position: -40px -30px;
+  left: 5px;
+  right: auto;
 }

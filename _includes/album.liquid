@@ -5,17 +5,17 @@
         {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
     {% endfor %}
     <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
-        {% if count > 4 %} <div class='album-nav' id='carousel_left' style='width:44px; height:20px; position:absolute; left:0px; top:50px; background-image: url("/images/utility/carousel_left.png"); background-color:#3A393B; z-index:100; opacity:0.9;'></div> {% endif %}
-    <div id='aperture' style='height:150px; width:622px; overflow:hidden; position:relative;'>
-    <div class='carousel' style='height:150px; width:{{ carousel_width }}px; position:absolute; top:0px; left:0px;'>
+        {% if count > 4 %}<div class='album-nav' id='carousel_left' ><span id="carousel_left_ico"></span></div>{% endif %}
+    <div class='aperture'>
+    <div class='carousel' style='width:{{ carousel_width }}px;'>
     	{% for image in site.albums[media['name']] %}
     	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album1">
-    		<img src="/images/archive/{{ image.src }}_thumb.jpg" height='150' width='120' style='float:left; margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
+    		<img class='thumb' src="/images/archive/{{ image.src }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
     	</a>
     	{% endfor %}
     </div>
     </div>
-        {% if count > 4 %} <div class='album-nav' id='carousel_right' style='width:50px; height:50px; position:absolute; right:0px; top:50px; background-image: url("/images/utility/carousel_right.png"); background-color:transparent; display:block; z-index:100;;'><span class="fancy-ico" id="fancybox-right-ico" style='left:auto; right:5px;'></span></div> {% endif %}
+        {% if count > 4 %}<div class='album-nav' id='carousel_right' ><span id="carousel_right_ico"></span></div> {% endif %}
     </section>
     {% endif %}
 {% endfor %}
