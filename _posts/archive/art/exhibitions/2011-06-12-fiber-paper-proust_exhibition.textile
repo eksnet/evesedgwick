@@ -13,7 +13,7 @@ exhibition-location: Harvard University
 exhibition-date: 2005
 
 related_records:
-    - fiber-paper-proust_artist-statement
+    - /art/fiber-paper-proust-artist-statement
     
 related_media:
     - {type: album, name: proust}

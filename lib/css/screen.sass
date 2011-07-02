@@ -165,7 +165,6 @@ section {
 footer {
   width:($column * 6) + ($margin * 5);
   height:65px;
-  @include bottom-border;
   border-top:1px solid #3A393B;
   margin-bottom:18px;
 }
@@ -179,6 +178,12 @@ footer {
 #main {
   width:($column * 4) + ($margin * 3);
   margin: 20px 0px 36px (($column * 2) + ($margin * 2));
+  min-height:500px;
+}
+
+#full {
+  width:($column * 6) + ($margin * 5);
+  margin: 20px 0px 36px;
   min-height:500px;
 }
 ul#nav {
@@ -462,7 +467,6 @@ img.thumb {
   width:50px;
   height:50px;
   position:absolute;
-  background-image: url("/images/utility/carousel_right.png");
   background-color:transparent;
   display:block;
   z-index:100;
@@ -486,6 +490,7 @@ img.thumb {
 
 #carousel_right_ico,
 #carousel_left_ico {
+  background-image: url('/lib/js/fancybox/fancybox.png');
   cursor: pointer;
   display: block;
   height: 30px;
@@ -497,14 +502,13 @@ img.thumb {
 }
 
 #carousel_right_ico {
-  background-image: url('/lib/fancybox/fancybox.png');
+  
   background-position: -40px -60px;
   left: auto;
   right: 5px;
 }
 
 #carousel_left_ico {
-  background-image: url('/lib/fancybox/fancybox.png');
   background-position: -40px -30px;
   left: 5px;
   right: auto;

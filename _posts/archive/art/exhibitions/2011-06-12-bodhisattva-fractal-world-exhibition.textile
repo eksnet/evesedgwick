@@ -6,8 +6,6 @@ category: art
 sub-category: "exhibitions"
 type: collection
 
-record_no: 0003
-
 role: artist
 title: Bodhisattva Fractal World
 
@@ -17,7 +15,7 @@ exhibition-location: Johns Hopkins University
 exhibition-date: 2002
 
 related_records:
-    - bodhisattva-fractal-world-artist-statement
+    - /art/bodhisattva_fractal_world-artist-statement
 
 related_media:
         - {type: album, name: bodhi}

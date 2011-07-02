@@ -22,7 +22,11 @@
     <h4><span>RELATED RECORDS</span></h4>
     <ul> 
         {% for record in page.related_records %}
-        <li><a href='{{ url['url'] }}' target='blank'>{{ url['display'] | upcase }}</a><br></li>            
+            {% for post in site.posts %}
+                {% if post.id == record %}
+                <li><a href='{{ post.url }}'>{{ post.title | upcase }}</a><br></li>            
+                {% endif %}
+            {% endfor %}
         {% endfor %}
     </ul>
 </section>

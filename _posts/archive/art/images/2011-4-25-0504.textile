@@ -4,7 +4,7 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: "Cathedral Dress (detail)"
 
 src: cathedral-dress-detail
 

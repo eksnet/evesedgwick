@@ -6,8 +6,6 @@ category: art
 sub-category: "artist's statements"
 type: document
 
-record_no: 0002
-
 role: author
 with: none
 title: "Works in Fiber, Paper, and Proust"
@@ -19,7 +17,7 @@ exhibitions:
     - {venue: Harvard University, date: 2005}
 
 related_records:
-    - fiber-paper-proust-exhibition
+    - /art/fiber-paper-proust_exhibition
     
 ---
 
