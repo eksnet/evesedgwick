@@ -159,6 +159,14 @@ module Jekyll
       input.dup.en.plural
     end
     
+    def none(input)
+      if input == 'none'
+        ''
+      else
+        input
+      end
+    end
+    
     def carousel_width(input)
       (input.to_i * 138) - 18
     end
