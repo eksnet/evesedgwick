@@ -7,7 +7,6 @@ sub-category: "exhibitions"
 type: collection
 
 role: artist
-with: none
 title: In the Bardo
 
 description: none

@@ -2,10 +2,15 @@
 layout: image
 published: true
 category: images
+type: image
 
-src: adjective-game-flat-big.jpg
+title: "Adjective Game Flat"
+
+src: adjective-game-flat
+
+caption-title: "Caption Title"
+caption: "Here is a story that follows along with the picture."
 
 albums: 
-    - exhibitions
-    - bodhi
+    - proust
 ---

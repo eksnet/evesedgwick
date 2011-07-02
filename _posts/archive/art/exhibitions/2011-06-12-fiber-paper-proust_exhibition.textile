@@ -7,7 +7,6 @@ sub-category: "exhibitions"
 type: collection
 
 role: artist
-with: none
 title: "Works in Fiber, Paper, and Proust"
 
 exhibition-location: Harvard University
@@ -17,7 +16,7 @@ related_records:
     - fiber-paper-proust_artist-statement
     
 related_media:
-    - {type: album, name: fiber-paper-proust}
+    - {type: album, name: proust}
 
 related-images:
     - adjective-game-flat-big.jpg

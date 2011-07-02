@@ -9,7 +9,6 @@ type: collection
 record_no: 0003
 
 role: artist
-with: none
 title: Bodhisattva Fractal World
 
 description: none
@@ -21,7 +20,7 @@ related_records:
     - bodhisattva-fractal-world-artist-statement
 
 related_media:
-        - {type: album, name: bodhisattva-fractal-world}
+        - {type: album, name: bodhi}
 
 related-images:
     - bodhisattva-fractal-world.jpg

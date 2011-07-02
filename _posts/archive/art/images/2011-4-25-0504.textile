@@ -2,10 +2,16 @@
 layout: image
 published: true
 category: images
+type: image
 
-src: adjective-game-flat-big.jpg
+title: Childhood 1
 
-albums: 
-    - exhibitions
+src: cathedral-dress-detail
+
+caption-title: "Caption Title"
+caption: "Here is a story that follows along with the picture."
+
+albums:
     - bodhi
+    - cedar-creek
 ---
