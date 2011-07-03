@@ -44,7 +44,11 @@ module Jekyll
     def category_link(category)
       if category.respond_to?('each')
         categories = category.sort!.map do |item|
-          '<a href="/'+item+'/">'+item.upcase+'</a>'
+          if item == 'blog'
+            '<a href="/'+item+'/page1">'+item.upcase+'</a>'
+          else
+            '<a href="/'+item+'/">'+item.upcase+'</a>'
+          end
         end
 
         connector = "and"
@@ -60,7 +64,11 @@ module Jekyll
         end
       else
         item = category
-        '<a href="/'+item+'/">'+item.upcase+'</a>'
+        if item == 'blog'
+          '<a href="/'+item+'/page1">'+item.upcase+'</a>'
+        else
+          '<a href="/'+item+'/">'+item.upcase+'</a>'
+        end
       end  
     end
 

@@ -22,7 +22,7 @@ module Jekyll
       if self.data['type']
         tag = self.data['type'].to_s.downcase
         tag = tag.en.plural
-        unless tag == 'none'
+        unless tag == 'none' || tag == 'posts'
           self.tags << tag
         end
       end

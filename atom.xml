@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Eve Kosofsky Sedgwick</title>
+  <link href="http://evekosofkskysedgwick/atom.xml" rel="self"/>
+  <link href="http://evekosofkskysedgwick.com/"/>
+  <updated>{{site.time | date_to_xmlschema }}</updated>
+  <id>http://evekosofskysedgwick.com/</id>
+  <author>
+    <name>Eve Kosofsky Sedgwick</name>
+    <email></email>
+  </author>
+  {% for post in site.posts %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="{{ post.url }}"/>
+    <updated>{{post.date | date_to_xmlschema }}</updated>
+    <id>http://bryanreedy.org{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
