@@ -1,0 +1,23 @@
+{% assign album_x = forloop.index %}
+            {% if post.related-images %}
+            {% for image in post.related-images %}
+                {% assign count = forloop.length %}
+                {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
+                {% capture thumb_count %}{{ count | thumb_count }}{% endcapture %}
+            {% endfor %}
+                <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
+                    {% if count > 4 %}<div class='album-nav' id='carousel_left' ><span id="carousel_left_ico"></span></div>{% endif %}
+                <div class='aperture'>
+                <div class='carousel' style='width:{{ carousel_width }}px;'>
+                    {% for image in post.related-images %}
+                    <div class='blog-thumb-{{ thumb_count }}' style=' float:left; width:302px; height:150px; overflow:hidden; margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
+                    <a href="/images/blog/{{ image }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
+                        <img class='blog-thumb' src="/images/blog/{{ image }}.jpg" style='width:302px; position:relative; top:-25%;'>
+                    </a>
+                    </div>
+                    {% endfor %}
+                </div>
+                </div>
+                    {% if count > 4 %}<div class='album-nav' id='carousel_right' ><span id="carousel_right_ico"></span></div> {% endif %}
+                </section>
+            {% endif %}

@@ -37,13 +37,25 @@ layout: base
             </div>
 
             {% assign album_x = forloop.index %}
-            {% for media in post.related_media %}
-                {% if media['type'] == 'album' %}
-                    {% assign album_y = forloop.index %}
-                    {% assign album_name = media['name'] %}
-                    {% include album.liquid %}
-                {% endif %}
+            {% if post.related-images %}
+            {% for image in post.related-images %}
+                {% assign count = forloop.length %}
+                {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
             {% endfor %}
+                <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
+                    {% if count > 4 %}<div class='album-nav' id='carousel_left' ><span id="carousel_left_ico"></span></div>{% endif %}
+                <div class='aperture'>
+                <div class='carousel' style='width:{{ carousel_width }}px;'>
+                    {% for image in post.related-images %}
+                    <a href="/images/blog/{{ image }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
+                        <img class='thumb' src="/images/blog/{{ image }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
+                    </a>
+                    {% endfor %}
+                </div>
+                </div>
+                    {% if count > 4 %}<div class='album-nav' id='carousel_right' ><span id="carousel_right_ico"></span></div> {% endif %}
+                </section>
+            {% endif %}
             
             {{ post.content | textilize }}
             

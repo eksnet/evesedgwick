@@ -176,8 +176,22 @@ module Jekyll
     end
     
     def carousel_width(input)
-      (input.to_i * 138) - 18
+      width = (input.to_i * 138) - 18
+      if width < 622
+        622
+      else
+        width
+      end
     end
+
+    def thumb_count(input)
+      if input.to_i < 4
+        input
+      else
+        '4'
+      end
+    end
+
   end
 
 end
