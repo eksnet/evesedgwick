@@ -1,7 +1,5 @@
-{% for media in page.related_media %}
-    {% if media['type'] == 'album' %}
-    {% for image in site.albums[media['name']] %}
-        {% assign count = forloop.length %}
+    {% for image in site.albums[album_name] %}
+    {% assign count = forloop.length %}
         {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
     {% endfor %}
     <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
@@ -9,7 +7,7 @@
     <div class='aperture'>
     <div class='carousel' style='width:{{ carousel_width }}px;'>
     	{% for image in site.albums[media['name']] %}
-    	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album1">
+    	<a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{% if album_x %}{{album_x}}_x_{% endif %}{{album_y}}">
     		<img class='thumb' src="/images/archive/{{ image.src }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
     	</a>
     	{% endfor %}
@@ -17,5 +15,3 @@
     </div>
         {% if count > 4 %}<div class='album-nav' id='carousel_right' ><span id="carousel_right_ico"></span></div> {% endif %}
     </section>
-    {% endif %}
-{% endfor %}

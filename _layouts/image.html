@@ -16,7 +16,13 @@ layout: base
     
 </section>
 
-{% include album.liquid %}
+{% for media in page.related_media %}
+    {% if media['type'] == 'album' %}
+        {% assign album_number = forloop.index %}
+        {% assign album_name = media['name'] %}
+        {% include album.liquid %}
+    {% endif %}
+{% endfor %}
 
 <section class='content image'>
     

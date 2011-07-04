@@ -35,6 +35,15 @@ layout: base
               <!--{{ post.date | date: "%A, %b %d, %Y" | upcase}}-->
               {{ post.date | date: "%B %d, %Y" | upcase}}
             </div>
+
+            {% assign album_x = forloop.index %}
+            {% for media in post.related_media %}
+                {% if media['type'] == 'album' %}
+                    {% assign album_y = forloop.index %}
+                    {% assign album_name = media['name'] %}
+                    {% include album.liquid %}
+                {% endif %}
+            {% endfor %}
             
             {{ post.content | textilize }}
             
