@@ -185,11 +185,7 @@ module Jekyll
     end
 
     def thumb_count(input)
-      if input.to_i < 4
-        input
-      else
-        '4'
-      end
+      input.to_i
     end
 
   end
