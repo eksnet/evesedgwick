@@ -4,12 +4,12 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: Reality is Flowerlike
 
 src: death-poems-reality-is-flowerlike
 
-caption-title: "Caption Title"
-caption: "Here is a story that follows along with the picture."
+caption-title: "Reality is Flowerlike"
+caption: "dimensions unknown"
 
 albums:
     - bodhi

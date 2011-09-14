@@ -4,12 +4,12 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: Loom Book
 
 src: loom-book-larger-3D
 
-caption-title: "Caption Title"
-caption: "Here is a story that follows along with the picture."
+caption-title: "Loom Book"
+caption: "board, thread, text, and acetate; 11x17” (000029-01)"
 
 albums:
     - proust

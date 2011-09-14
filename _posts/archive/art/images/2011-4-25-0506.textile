@@ -4,12 +4,12 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: "For Beauty is a Series of Hypotheses"
 
 src: cyanotype-guanyin-for-beauty
 
-caption-title: "Caption Title"
-caption: "Here is a story that follows along with the picture."
+caption-title: "For Beauty is a Series of Hypotheses"
+caption: "quilted cyanotype; 21x21” (000030-01)"
 
 albums:
     - bodhi

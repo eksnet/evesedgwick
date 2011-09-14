@@ -4,12 +4,12 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: Silk Stupa
 
 src: thangka-fused-silk-stupa
 
-caption-title: "Caption Title"
-caption: "Here is a story that follows along with the picture."
+caption-title: "Silk Stupa"
+caption: "fused silk, image (000052-01)"
 
 albums:
     - unknown

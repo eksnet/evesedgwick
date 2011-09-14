@@ -9,7 +9,7 @@ title: "Adjective Game Flat"
 src: adjective-game-flat
 
 caption-title: "Adejective Game (Detail)"
-caption: "book board, fabric, velcro, text; 8.5x11” closed, 17.5x11” open; 000025-01"
+caption: "book board, fabric, velcro, text; 8.5x11” closed, 17.5x11” open (000025-01)"
 
 albums: 
     - proust

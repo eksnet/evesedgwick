@@ -4,12 +4,12 @@ published: true
 category: images
 type: image
 
-title: Childhood 1
+title: The Weather in Proust
 
 src: proust-in-a-bottle-3D
 
-caption-title: "Caption Title"
-caption: "Here is a story that follows along with the picture."
+caption-title: "The Weather in Proust"
+caption: "board, mixed media, collaged text, accordion book structure; 6x6” closed, 6x25” open (000024-01)"
 
 albums:
     - proust
