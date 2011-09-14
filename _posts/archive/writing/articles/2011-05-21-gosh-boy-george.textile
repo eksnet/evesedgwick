@@ -7,7 +7,7 @@ sub-category: articles
 type: article
 
 role: author
-title: "Gosh, Boy George, You Must be Awfully Secure in your Masculinity"
+title: "Gosh, Boy George, You Must be Awfully Secure in Your Masculinity"
 pub-date: 1996
 
 in:

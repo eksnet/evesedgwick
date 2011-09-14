@@ -15,7 +15,7 @@ in:
       editors:      
         - Jennifer Doyle
         - Jonathan Flatley
-        - JosŽ Munoz
+        - José Munoz
       publication:  "Pop Out: Queer Warhol"
       issue:        52-3
       publisher:    Duke University Press
