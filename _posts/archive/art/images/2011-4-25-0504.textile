@@ -9,9 +9,9 @@ title: "Cathedral (detail)"
 src: cathedral-dress-detail
 
 caption-title: "Cathedral (Detail)"
-caption: "shibori on paper with fabric backing; 15x25" (000061-01)"
+caption: "shibori on paper with fabric backing; 15x25 (000061-01)"
 
 albums:
     - bodhi
-    - cedar-creek
+    - "cedar-creek"
 ---

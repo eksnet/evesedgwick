@@ -18,21 +18,12 @@ description:    none
 
 editions:
     - description:  none
-    - publisher:    Duke University Press
-    - location:     "Durham, N.C"
-    - series:       Gender and Culture Series
-    - date:         2003
-    - binding:      cloth and paper
-    - isbn:         9780822330158
-
-formats:
-    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
-    - {type: transcript, format: html}
-    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
-
-related_records:
-    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
-    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
+      publisher:    Duke University Press
+      location:     "Durham, N.C."
+      series:       Gender and Culture Series
+      date:         2003
+      binding:      cloth and paper
+      isbn:         9780822330158
 
 urls:
     - { display: indiebound, url: "http://www.indiebound.org/book/9780822330158"}

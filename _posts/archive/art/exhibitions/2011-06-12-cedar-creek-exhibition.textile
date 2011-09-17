@@ -15,7 +15,7 @@ exhibition-location: "Cedar Creek Gallery, Durham, NC"
 exhibition-date: 2000
 
 related_media:
-    - {type: album, name: cedar-creek}
+    - {type: album, name: "cedar-creek"}
 
 related-images:
     - bodhisattva-fractal-world.jpg

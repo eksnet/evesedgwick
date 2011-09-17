@@ -9,9 +9,9 @@ title: "Bodhisattva Fractal World"
 src: bodhisattva-fractal-world
 
 caption-title: "Bodhisattva Fractal World"
-caption: "quilted marbled and patterned silk; 30x12" (000032-01)"
+caption: "quilted marbled and patterned silk; 30x12 (000032-01)"
 
 albums:
     - bodhi
-    - cedar-creek
+    - "cedar-creek"
 ---
