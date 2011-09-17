@@ -1,0 +1,40 @@
+---
+layout: base
+---
+<section id='title' class='under'>   
+    <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
+    
+    <h6>&nbsp;
+        {% assign related = false %}
+        {% for tag in page.tags %}
+            {% assign related = true %}
+        {% endfor %}
+        {% if related %}
+            <span class='right'>RELATED - {{ page.tags | tag_links }}</span>
+        {% endif %}
+    </h6>
+    
+</section>
+
+{% for media in page.related_media %}
+    {% if media['type'] == 'album' %}
+        {% assign album_number = forloop.index %}
+        {% assign album_name = media['name'] %}
+        {% for image in site.albums[album_name] limit:1 %}
+            <section>
+                <img src="/images/archive/{{ image.src }}.jpg" width='622'>
+            </section>
+        {% endfor %}
+        {% include album.liquid %}
+    {% endif %}
+{% endfor %}
+
+<section class='content image'>
+    
+    {% include marginal.liquid %}
+    
+
+    
+</section>
+
+{% include extras.liquid %}
