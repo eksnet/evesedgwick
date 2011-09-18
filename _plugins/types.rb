@@ -34,17 +34,20 @@ module Jekyll
 
   class Site
 
-    # Returns [{<collection.title> => [{'name' => <attribute>, 'posts' => [{},{},{},{}]}]
+    # Returns [{"blog"=>[[{"name"=>"blog", "posts"=>[, , , , , , , , , ]}]], "archive"=>[[{"name"=>"art", "posts"=>[, , , , , , , ]}, {"name"=>"teaching", "posts"=>[, , , , , ]}]] ]
     def collection_by_attribute(collection, attribute)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       collection.keys.each do |item|
         attribute_hash = collect_by_attribute(attribute, collection[item])
+        
         type_array = make_iterable(attribute_hash, :index => 'name', :items => 'posts')
         hash[item] << type_array
       end
+     
       return hash
     end
 
+    # Returns [{<collection.title> => [{'name' => <attribute>, 'posts' => [{},{},{},{}]}]
     def collect_by_attribute(attribute, posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
@@ -61,11 +64,12 @@ module Jekyll
         end  
       end
       hash.values.map do |sort|
-        sort.sort! {|a, b| a.slug <=> b.slug}
+          sort.sort! {|a, b| a.slug <=> b.slug}
       end
       return hash
     end
 
+    # Returns {"name"=>"000025-01", "images"=>[, ]}{"name"=>"bodhi", "images"=>[, , , , , ]}{"name"=>"cedar-creek", "images"=>[, , , , ]}}
     def make_iterable(kv_hash, options)
       options = {:index => 'name', :items => 'items'}.merge(options)
       result = []
@@ -130,8 +134,13 @@ module Jekyll
       payload['site']['albums'] = self.collect_albums(self.posts)
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
+      payload['site']['category-config'] = 
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
+        # sort 'writing' by pub-date
+        payload['site']['categories_by_sub']['writing'][0].each {|cat|
+          cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
+        }
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
       # Iterable collections
