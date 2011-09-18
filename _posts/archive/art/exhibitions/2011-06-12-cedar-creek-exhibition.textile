@@ -17,11 +17,4 @@ exhibition-date: 2000
 related_media:
     - {type: album, name: "cedar-creek"}
 
-related-images:
-    - bodhisattva-fractal-world.jpg
-    - cathedral-dress-big.jpg
-    - cathedral-dress-detail-big.jpg
-    - cyanotype-3-guanyins-2-proust-quotes-big.jpg
-    - cyanotype-guanyin-for-beauty-big.jpg
-
 ---

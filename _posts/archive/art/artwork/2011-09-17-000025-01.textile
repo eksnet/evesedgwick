@@ -7,7 +7,7 @@ sub-category: "artworks"
 type: "artist's book"
 
 title: "Adjective Game"
-year: unknown
+year: ND
 medium: "book board, fabric, velcro, text"
 dims: {width: 11, height: 8.5, depth: 0}
 catalog-number: "000025-01"

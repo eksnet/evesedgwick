@@ -52,8 +52,6 @@ module Jekyll
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
         if post.data[attribute]
-          if attribute == 'albums'
-          end
           if post.data[attribute].respond_to?('each')
             post.data[attribute].each do |att|
               hash[att] << post
@@ -140,6 +138,12 @@ module Jekyll
         # sort 'writing' by pub-date
         payload['site']['categories_by_sub']['writing'][0].each {|cat|
           cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
+        }
+        # sort 'exhibitions' by exhibition-date
+        payload['site']['categories_by_sub']['art'][0].each {|sub|
+          if sub['name'] == 'exhibitions'
+            sub['posts'].sort! {|a, b| a.data['exhibition-date'] <=> b.data['exhibition-date']}
+          end
         }
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')

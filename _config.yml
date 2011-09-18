@@ -3,22 +3,28 @@ pygments:       false
 multiviews:     false
 sass:           false
 haml:           false
-
 permalink:      /:categories/:title.html
 plugins:        ./_plugins
-
-exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes"]
-
-nav:
-    - archive
-    - blog
-    - resources 
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
 description:    "Eve Kosofsky Sedgwick"
 
+nav:
+    - archive
+    - blog
+    - resources
+    
+category-settings:
+    -   category: art
+        description: "This is the description of the category art."
+    -   category: teaching
+        description: "This section includes a variety of materials drawn from Sedgwick's teaching activities."
+    -   category: courses
+        description: "Syllabi and related materials from Sedgwick's courses. Currently, only materials for some of her graduate seminars at Duke and CUNY are available."
+    -   category: "supporting materials"
+        description: "These are teaching materials not associated with any particular course."
+    
 posts_per_page: 5
 
-disqus:
-    id:         evesedgwick
+exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes"]

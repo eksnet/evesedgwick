@@ -11,4 +11,6 @@ title: In the Bardo
 
 description: none
 
+exhibition-date: 10000
+
 ---
