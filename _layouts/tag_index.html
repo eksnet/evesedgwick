@@ -23,14 +23,6 @@ layout: base
         {% for post in category.posts %}
         <section class='preview'>
             <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
-            {% assign album_x = forloop.index %}
-            {% for media in post.related_media %}
-                {% if media['type'] == 'album' %}
-                    {% assign album_y = forloop.index %}
-                    {% assign album_name = media['name'] %}
-                    {% include album.liquid %}
-                {% endif %}
-            {% endfor %}
             <p>{{ post.description | none }}</p>
             <h6>FILED UNDER - {% if post.nav %}{{ post.nav | category_link }}/{% endif %}{% if post.category %}{% if post.category == 'blog' %}{% else %}{{ post.category | category_link }}{% endif %}{% endif %}{% if post.sub-category %}/{{ post.sub-category | sub_category_link: post.category }}{% endif %}
                 {% assign related = false %}
