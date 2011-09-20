@@ -17,7 +17,7 @@ nav:
     
 category-settings:
     -   category: art
-        description: "This is the description of the category art."
+        description: "Sedgwick created artworks in a variety of mediums throughout her career."
     -   category: teaching
         description: "This section includes a variety of materials drawn from Sedgwick's teaching activities."
     -   category: courses
