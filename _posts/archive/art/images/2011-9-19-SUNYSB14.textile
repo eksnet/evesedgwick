@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "SUNYSB14"
+
+src: SUNYSB14
+
+caption-title: "Hanging figures"
+caption: "Mixed media"
+
+albums: 
+    - in the bardo
+---

@@ -7,10 +7,14 @@ sub-category: "exhibitions"
 type: collection
 
 role: artist
-title: In the Bardo
+title: "In the Bardo"
 
 description: none
 
-exhibition-date: 10000
+exhibition-location: SUNY Stonybrook
+exhibition-date: 2001
+
+related_media:
+    - {type: album, name: in the bardo}
 
 ---

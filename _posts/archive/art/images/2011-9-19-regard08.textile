@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "regard08"
+
+src: regard08
+
+caption-title: "Sedgick assembles the exhibition"
+caption: "."
+
+albums: 
+    - in the bardo
+---

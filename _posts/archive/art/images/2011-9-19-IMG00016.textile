@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "IMG00016"
+
+src: IMG00016
+
+caption-title: "Hanging figures"
+caption: "Mixed media"
+
+albums: 
+    - in the bardo
+---
