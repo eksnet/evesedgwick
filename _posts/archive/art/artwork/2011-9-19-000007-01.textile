@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Scroll Book"
+year: ND
+medium: "paper scrolls, book board, paint, mixed media"
+dims: {width: 11, height: 8.5, depth: 0}
+catalog-number: "000007-01"
+
+related_media:
+    - {type: album, name: "000007-01"}
+
+---
