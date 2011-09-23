@@ -4,9 +4,9 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "textile art, the weather in proust"
+type: "textile art"
 
-title: "Untitled ("The most exclusive love for a person...")"
+title: "The most exclusive love for a person..."
 year: ND
 medium: "text, fabric paint, quilted panels"
 dims: {width: 0, height: 0, depth: 0}

@@ -4,7 +4,7 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "textile art, bodhisattva fractal world"
+type: "textile art"
 
 title: "Ribbon Banner"
 year: ND

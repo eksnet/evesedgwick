@@ -4,7 +4,7 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "textile art, the weather in proust"
+type: "textile art"
 
 title: "Polyp"
 year: ND

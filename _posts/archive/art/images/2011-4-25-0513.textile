@@ -13,4 +13,5 @@ caption: "shibori, silk, string, text (000020-01)"
 
 albums:
     - proust
+    - "000019-01"
 ---

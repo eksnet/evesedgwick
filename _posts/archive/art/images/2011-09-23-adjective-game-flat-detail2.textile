@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Adjective Game
+
+src: adjective-game-flat-detail2
+
+caption-title: "Adjective Game"
+caption: "book board, fabric, velcro, text"
+
+albums:
+    - proust
+    - "000025-01"
+---

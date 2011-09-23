@@ -4,9 +4,9 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "proust, artist's book"
+type: "artist's book"
 
-title: "Untitled ("For Beauty is a Series of Hypotheses")"
+title: "For Beauty is a Series of Hypotheses"
 year: ND
 medium: "mixed media"
 dims: {width: 40, height: 7, depth: 0}

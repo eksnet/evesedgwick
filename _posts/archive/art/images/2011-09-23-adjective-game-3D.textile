@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Adjective Game
+
+src: adjective-game-3D
+
+caption-title: "Adjective Game"
+caption: "book board, fabric, velcro, text"
+
+albums:
+    - proust
+    - "000025-01"
+---
