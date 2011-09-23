@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "textile art, the weather in proust"
+
+title: "Polyp"
+year: ND
+medium: "shibori, silk, text"
+dims: {width: 0, height: 0, depth: 0}
+catalog-number: "000019-01"
+
+related_media:
+    - {type: album, name: "000019-01"}
+
+---

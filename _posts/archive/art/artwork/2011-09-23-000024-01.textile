@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "The Weather in Proust"
+year: ND
+medium: "book board, acetate, stamps, mixed media"
+dims: {width: 25, height: 6, depth: 0}
+catalog-number: "000024-01"
+
+related_media:
+    - {type: album, name: "000024-01"}
+
+---

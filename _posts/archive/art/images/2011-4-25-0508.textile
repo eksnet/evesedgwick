@@ -13,4 +13,5 @@ caption: "board, thread, text, and acetate; 11x17” (000029-01)"
 
 albums:
     - proust
+    - "000029-01"
 ---
