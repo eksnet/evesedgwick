@@ -4,11 +4,11 @@ published: true
 category: images
 type: image
 
-title: "Untitled ("The most exclusive love for a person...")"
+title: "Untitled (The most exclusive love for a person...)"
 
 src: exclusive-love
 
-caption-title: "Untitled ("The most exclusive love for a person...")"
+caption-title: "Untitled (The most exclusive love for a person...)"
 caption: "text, fabric paint, quilted panels"
 
 albums:
