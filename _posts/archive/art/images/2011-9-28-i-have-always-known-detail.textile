@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Untitled (I Have Always Known...)
+
+src: i-have-always-known-detail
+
+caption-title: "Untitled (I Have Always Known...)(detail)"
+caption: "text, shibori, silk"
+
+albums:
+    - "always-known"
+---

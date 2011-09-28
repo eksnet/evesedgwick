@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "For Beauty is a Series of Hypotheses"
+year: ND
+medium: "mixed media"
+dims: {width: 40, height: 7, depth: 0}
+catalog-number: "000028-01"
+
+related_media:
+    - {type: album, name: "000028-01"}
+
+---

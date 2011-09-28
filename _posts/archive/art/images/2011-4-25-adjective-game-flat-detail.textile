@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "Adjective Game"
+
+src: adjective-game-flat-detail
+
+caption-title: "Adjective Game (Detail)"
+caption: "book board, fabric, velcro, text; 8.5x11” closed, 17.5x11” open (000025-01)"
+
+albums:
+    - "000025-01"
+    - proust
+---

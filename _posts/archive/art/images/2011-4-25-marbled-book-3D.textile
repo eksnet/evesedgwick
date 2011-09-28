@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: For Beauty is a Series of Hypotheses (book)
+
+src: marbled-book-3D
+
+caption-title: "For Beauty is a Series of Hypotheses (book)"
+caption: "paper, accordion book structure, collaged text; 4.5x7” closed, 7x40” open (000028-01)"
+
+albums:
+    - proust
+    - "000028-01"
+---

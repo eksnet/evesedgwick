@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Silk Stupa
+
+src: thangka-fused-silk-stupa
+
+caption-title: "Silk Stupa"
+caption: "fused silk, image (000052-01)"
+
+albums:
+    - unknown
+---

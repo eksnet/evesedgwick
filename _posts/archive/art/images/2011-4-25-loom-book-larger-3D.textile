@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Loom Book
+
+src: loom-book-larger-3D
+
+caption-title: "Loom Book"
+caption: "board, thread, text, and acetate; 11x17” (000029-01)"
+
+albums:
+    - proust
+    - "000029-01"
+---

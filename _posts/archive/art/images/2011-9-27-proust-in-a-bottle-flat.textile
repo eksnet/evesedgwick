@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: The Weather in Proust
+
+src: proust-in-a-bottle-flat
+
+caption-title: "The Weather in Proust"
+caption: "book board, fabric, velcro, text"
+
+albums:
+    - proust
+    - "000024-01"
+---
