@@ -6,7 +6,7 @@ category: art
 sub-category: "artworks"
 type: "artist's book"
 
-title: "Proust in a Bottle"
+title: "Atmospheric Changes"
 year: ND
 medium: "book board, acetate, stamps, mixed media"
 dims: {width: 25, height: 6, depth: 0}

@@ -4,11 +4,11 @@ published: true
 category: images
 type: image
 
-title: "The Weather in Proust (detail)"
+title: "Atmospheric Changes (detail)"
 
 src: proust-in-a-bottle-detail2
 
-caption-title: "The Weather in Proust (detail)"
+caption-title: "Atmospheric Changes (detail)"
 caption: "mixed media"
 
 albums:

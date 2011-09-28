@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Hexaflexagon"
+year: ND
+medium: "folded paper, stamps"
+dims: {width: 0, height: 0, depth: 0}
+catalog-number: "."
+
+related_media:
+    - {type: album, name: "hexaflex"}
+
+---
