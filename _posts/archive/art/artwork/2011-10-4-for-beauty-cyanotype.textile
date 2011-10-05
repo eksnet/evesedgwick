@@ -1,0 +1,19 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "proust"
+
+title: "For Beauty is a Series of Hypotheses"
+year: ND
+medium: "quilted cyanotype"
+dims: {width: 21, height: 21, depth: 0}
+catalog-number: "000030-01"
+
+related_media:
+    - {type: album, name: "000030-01"}
+   
+
+---
