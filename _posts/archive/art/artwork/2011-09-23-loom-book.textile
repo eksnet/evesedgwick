@@ -14,6 +14,6 @@ catalog-number: "000029-01"
 
 related_media:
     - {type: album, name: "000029-01"}
-    - {type: album, name: "proust"}
+   
 
 ---

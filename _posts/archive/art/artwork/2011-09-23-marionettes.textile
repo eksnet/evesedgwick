@@ -6,7 +6,7 @@ category: art
 sub-category: "artworks"
 type: "proust"
 
-title: "Diagram/Dolls"
+title: "Marionettes"
 year: ND
 medium: "book board, text, paper, paper dolls"
 dims: {width: 8.5, height: 19, depth: 0}

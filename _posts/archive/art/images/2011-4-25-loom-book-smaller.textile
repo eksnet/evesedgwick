@@ -12,5 +12,5 @@ caption-title: "Small Loom Book"
 caption: " paper, text, board, acetate; 3x5” (000022-01)"
 
 albums:
-    - proust
+    - "000022-01"
 ---

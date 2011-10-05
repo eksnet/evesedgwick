@@ -13,5 +13,5 @@ caption: "book board, fabric, velcro, text; 8.5x11” closed, 17.5x11” open (0
 
 albums:
     - "000025-01"
-    - proust
+    
 ---

@@ -6,7 +6,7 @@ category: art
 sub-category: "artworks"
 type: "proust"
 
-title: "When we speak of the kindness..."
+title: "Hawthorns"
 year: ND
 medium: "book board, text, paper"
 dims: {width: 11, height: 17, depth: 0}
