@@ -6,7 +6,7 @@ type: image
 
 title: Cathedral
 
-src: cathedral-dress
+src: cathedral
 
 caption-title: "Cathedral"
 caption: "shibori on paper with fabric backing; 15x25 (000061-01)"
