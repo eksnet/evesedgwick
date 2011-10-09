@@ -12,14 +12,28 @@ layout: base
     </ul>
 </section>
         {% for tag in site.tags_by_category[page.tag] %}
+        <div class='marginal toc'>
         {% for category in tag %}
-        <h2 class='subsection'><span>{{ category.name | category_link }}</span></h2>
-        {% for post in category.posts %}
-            {% assign record_count = forloop.length %}
+            {% assign anchor = forloop.index %}
+            {% for post in category.posts %}
+                {% assign record_count = forloop.length %}
+            {% endfor %}
+            <a href='#{{anchor}}'><span class='heading'>{{category.name | upcase }}</span> {{ record_count }} Records</a><br>                    
         {% endfor %}
-        <div class='marginal record_count'> 
-            {{ record_count }} Records
         </div>
+        {% endfor %}
+        {% for tag in site.tags_by_category[page.tag] %}
+        {% for category in tag %}
+        {% assign anchor = forloop.index %}
+        <h2 class='subsection'><span><a href="#container" name="{{anchor}}">{{ category.name | upcase }}</a></span></h2>
+        <!--
+        {% for post in category.posts %}
+                    {% assign record_count = forloop.length %}
+                {% endfor %}
+                <div class='marginal record_count'> 
+                    {{ record_count }} Records
+                </div>-->
+        
         {% for post in category.posts %}
         <section class='preview'>
             <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>

@@ -51,6 +51,11 @@ module Jekyll
     def collect_by_attribute(attribute, posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
+        if attribute == 'tags'
+          post.tags.each do |tag|
+            hash[tag] << post
+          end
+        end
         if post.data[attribute]
           if post.data[attribute].respond_to?('each')
             post.data[attribute].each do |att|
@@ -147,6 +152,7 @@ module Jekyll
         }
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
+      payload['site']['sub-categories_by_tag'] = self.collection_by_attribute(payload['site']['sub-categories'], 'tags')
       # Iterable collections
       payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
       payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
