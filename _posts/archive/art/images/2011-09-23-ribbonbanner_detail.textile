@@ -13,5 +13,4 @@ caption: "silk, ribbon, text"
 
 albums: 
     - "000019-01"
-    - proust
 ---

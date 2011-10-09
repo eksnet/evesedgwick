@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Quilted Square 3
+
+src: quilt-3
+
+caption-title: "Quilted Square 3"
+caption: "quilted kimono scraps"
+
+albums:
+    - "quilted squares"
+---

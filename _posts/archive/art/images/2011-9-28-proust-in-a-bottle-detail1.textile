@@ -12,6 +12,5 @@ caption-title: "The Weather in Proust (detail)"
 caption: "mixed media"
 
 albums:
-    - proust
     - "000024-01"
 ---

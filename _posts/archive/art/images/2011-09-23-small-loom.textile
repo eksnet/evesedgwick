@@ -13,4 +13,5 @@ caption: "paper, text, book board, acetate (000022-01)"
 
 albums:
     - "000022-01"
+    - proust
 ---

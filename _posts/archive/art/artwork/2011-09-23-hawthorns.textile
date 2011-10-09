@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "proust"
+
+title: "Hawthorns"
+year: ND
+medium: "book board, text, paper"
+dims: {width: 11, height: 17, depth: 0}
+catalog-number: "000026-01"
+
+related_media:
+    - {type: album, name: "000026-01"}
+
+---

@@ -12,6 +12,6 @@ caption-title: "Untitled (The most exclusive love for a person...)"
 caption: "text, fabric paint, quilted panels"
 
 albums:
-    - proust
     - "000021-01"
+    - proust
 ---

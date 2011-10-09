@@ -12,6 +12,5 @@ caption-title: "Adjective Game"
 caption: "book board, fabric, velcro, text"
 
 albums:
-    - proust
     - "000025-01"
 ---

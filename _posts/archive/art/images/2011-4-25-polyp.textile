@@ -12,6 +12,6 @@ caption-title: "Polyp"
 caption: "shibori, silk, string, text (000020-01)"
 
 albums:
-    - proust
     - "000020-01"
+    - proust
 ---

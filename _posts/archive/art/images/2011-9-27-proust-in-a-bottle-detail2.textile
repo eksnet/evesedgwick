@@ -12,6 +12,5 @@ caption-title: "Atmospheric Changes (detail)"
 caption: "mixed media"
 
 albums:
-    - proust
     - "000024-01"
 ---
