@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Limpid Three Bodhisattvas
+
+src: limpid-3-
+
+caption-title: "Limpid Three Bodhisattvas"
+caption: "quilted cyanotype"
+
+albums:
+    - "000045-01"
+    - "bodhi"
+---
