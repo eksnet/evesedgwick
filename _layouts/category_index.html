@@ -20,9 +20,7 @@ layout: base
                 {% for post in category['posts'] %}
                     {% assign record_count = forloop.length %}
                 {% endfor %}
-                <div class='marginal record_count'> 
-                    {{ record_count }} Records
-                </div>
+                <div class='marginal record_count'>{{ record_count }} Records</div>
                 {% for setting in site.category-settings %}
                     {% if setting.category == category.name %}
                         <p class='intro'>{{ setting.description }}</p>
@@ -35,7 +33,7 @@ layout: base
 
         {% if page.sub == 'all' %}
         <section id='title'>    
-            <h2 style=''>{{ page.nav | category_link }} <span>{{ page.category | category_link}}</span></h2>
+            <h2 style=''>{{ page.nav | category_link }}&nbsp;<span> {{ page.category | category_link}}</span></h2>
             <ul class='nav' id='sub-nav'>
             {% for category in site.categories_by_sub[page.category] %}
                 {% for sub in category %}
@@ -51,7 +49,7 @@ layout: base
             {% if page.sub == sub.name %}
             <!-- Title block - Nav/Category/Sub -->
             <section id='title'>    
-                <h2 style=''>{{ page.nav | category_link }} <span>{{ page.category | category_link}}/{{ sub.name | sub_category_link: page.category }}</span></h2>
+                <h2 style=''>{{ page.nav | category_link }}&nbsp;<span> {{ page.category | category_link}}/{{ sub.name | sub_category_link: page.category }}</span></h2>
                 <ul class='nav' id='sub-nav'>
                     <li><a href="/{{page.category}}/{{page.sub}}/sort.html">SORT BY TAGS</a></li>   
                 </ul>
@@ -70,9 +68,7 @@ layout: base
                 {% for post in sub.posts %}
                     {% assign record_count = forloop.length %}
                 {% endfor %}
-                <div class='marginal record_count'> 
-                    {{ record_count }} Records
-                </div>
+                <div class='marginal record_count'>{{ record_count }} Records</div>
                 {% for setting in site.category-settings %}
                     {% if setting.category == sub.name %}
                         <p class='intro'>{{ setting.description }}</p>

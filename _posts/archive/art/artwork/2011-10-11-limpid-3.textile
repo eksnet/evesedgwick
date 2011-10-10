@@ -4,7 +4,8 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "textile art, proust"
+type: "textile art"
+tags: proust
 
 title: "Limpid Three Bodhisattvas"
 year: ND

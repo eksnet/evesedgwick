@@ -4,7 +4,8 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "proust"
+type: "collage"
+tags: "proust"
 
 title: "For Beauty is a Series of Hypotheses"
 year: ND
