@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: For Beauty is a Series of Hypotheses (Suminagashi)
+
+src: quilt-4
+
+caption-title: "For Beauty is a Series of Hypotheses (Suminagashi)"
+caption: "suminagashi, silk"
+
+albums:
+    - "000062-01"
+    - "bodhi"
+---

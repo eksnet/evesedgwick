@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Borrow Moonlight for this Journey
+
+src: borrow-moonlight
+
+caption-title: "Borrow Moonlight for this Journey"
+caption: "dyed silk scarf with text"
+
+albums:
+    - "000065-01"
+---

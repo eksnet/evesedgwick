@@ -1,0 +1,20 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "textile art"
+tags: "proust"
+
+title: "For Beauty is a Series of Hypotheses (Suminagashi)"
+year: ND
+medium: "suminagashi, silk"
+dims: {width: 30, height: 12, depth: 0}
+catalog-number: "000062-01"
+
+related_media:
+    - {type: album, name: "000062-01"}
+   
+
+---

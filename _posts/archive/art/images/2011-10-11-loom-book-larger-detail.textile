@@ -6,9 +6,9 @@ type: image
 
 title: Loom Book
 
-src: loom-book-larger-3D
+src: loom-book-larger-detail
 
-caption-title: "Loom Book"
+caption-title: "Loom Book (detail)"
 caption: "board, thread, text, and acetate; 11x17” (000029-01)"
 
 albums:
