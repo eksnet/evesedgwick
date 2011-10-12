@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Prayer Flag 2
+
+src: red-flag
+
+caption-title: "Prayer Flag 2"
+caption: "sewn paper with images and fabric"
+
+albums:
+    - "000051-01"
+    - "bodhi"
+---

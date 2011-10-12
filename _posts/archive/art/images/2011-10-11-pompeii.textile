@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Last Days of Pompeii
+
+src: pompeii
+
+caption-title: "Last Days of Pompeii"
+caption: "altered book, collage, mixed media"
+
+albums:
+    - "000006-01"
+---

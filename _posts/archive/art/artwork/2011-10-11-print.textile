@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "proust"
+
+title: "Untitled (Print)"
+year: ND
+medium: "laser print on paper, stamp"
+dims: {width: 8.5, height: 11, depth: 0}
+catalog-number: "."
+
+related_media:
+    - {type: album, name: "print"}
+
+---

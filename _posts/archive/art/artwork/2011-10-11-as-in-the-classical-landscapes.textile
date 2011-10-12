@@ -1,0 +1,18 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: "As in the Classical Landscapes"
+year: ND
+medium: "quilted cyanotype"
+dims: {width: 19, height: 36, depth: 0}
+catalog-number: "000063-01"
+
+related_media:
+    - {type: album, name: "000063-01"}
+
+---

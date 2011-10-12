@@ -9,7 +9,7 @@ title: "Small Loom Book"
 src: small-loom
 
 caption-title: "Small Loom Book"
-caption: "paper, text, book board, acetate (000022-01)"
+caption: "paper, text, book board, acetate"
 
 albums:
     - "000022-01"

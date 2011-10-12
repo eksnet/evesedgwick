@@ -1,0 +1,20 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "collage"
+tags: "proust"
+
+title: "Cathedral"
+year: ND
+medium: "shibori on paper with fabric backing"
+dims: {width: 15, height: 25, depth: 0}
+catalog-number: "000061-01"
+
+related_media:
+    - {type: album, name: "000061-01"}
+   
+
+---

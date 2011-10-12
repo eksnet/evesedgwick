@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "Cathedral"
+
+src: cathedral
+
+caption-title: "Cathedral"
+caption: "shibori on paper with fabric backing"
+
+albums:
+    - bodhi
+    - "cedar-creek"
+    - "000061-01"
+---
