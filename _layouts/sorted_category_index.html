@@ -91,6 +91,7 @@ layout: base
                 {% for tag in sub %}
                     {% assign anchor = forloop.index %}
                      <h2 class='subsection'><span><a href="#container" name="{{anchor}}">{{ tag.name | upcase }}</a></span></h2>
+
                 {% for post in tag.posts %}
                 <section class='preview'>
                     <h4><a href="{{ post.url }}">{{ post.title | upcase }}{% if page.category == 'writing' %} ({% if post.pub-date != 10000 %}{{post.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</a></h4>

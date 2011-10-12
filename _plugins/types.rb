@@ -55,16 +55,17 @@ module Jekyll
           post.tags.each do |tag|
             hash[tag] << post
           end
-        end
-        if post.data[attribute]
-          if post.data[attribute].respond_to?('each')
-            post.data[attribute].each do |att|
-              hash[att] << post
+        else
+          if post.data[attribute]
+            if post.data[attribute].respond_to?('each')
+              post.data[attribute].each do |att|
+                hash[att] << post
+              end
+            else
+              hash[post.data[attribute]] << post
             end
-          else
-            hash[post.data[attribute]] << post
-          end
-        end  
+          end 
+        end
       end
       hash.values.map do |sort|
           sort.sort! {|a, b| a.slug <=> b.slug}
