@@ -1,0 +1,18 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events talks
+
+description: none
+
+title: "Second Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - bu-lecture-poster
+   
+---
+

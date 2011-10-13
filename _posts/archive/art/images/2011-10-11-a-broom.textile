@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: A Broom
+
+src: a-broom
+
+caption-title: "A Broom"
+caption: "silk, text"
+
+albums:
+    - "000033-01"
+---

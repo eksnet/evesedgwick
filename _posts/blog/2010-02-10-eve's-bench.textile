@@ -1,0 +1,21 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: miscellany
+
+description: none
+
+title: "Eve's Bench"
+
+related-images:
+    - eves-bench-1
+    - eves-bench-2
+    - eves-bench-3
+
+---
+
+Some time ago, before Eve was so ill, I asked her if there was some kind of memorial that she might like.  She told me that she liked the idea of a bench in a pretty spot, where friends could sit and enjoy the view.  Recently I made a donation to Madison Square Park, which is at the corner of Fifth Avenue and 23rd Street and is the prettiest little park that I know of here in the city.  In return, they have now put up a plaque for Eve on a bench that I selected there.  Many years ago Eve had told me a quote from Chaucer that she would like to use as an epitaph, and it is on the plaque. -- ??Hal??

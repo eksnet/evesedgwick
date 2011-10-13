@@ -1,0 +1,16 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "Untitled (Print)"
+
+src: print
+
+caption-title: "Untitled (Print)"
+caption: "laser print on paper, stamp"
+
+albums:
+    - print
+---
