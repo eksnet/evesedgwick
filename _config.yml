@@ -5,6 +5,7 @@ sass:           false
 haml:           false
 permalink:      /:categories/:title.html
 plugins:        ./_plugins
+destination:    .site
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
@@ -17,13 +18,13 @@ nav:
     
 category-settings:
     -   category: art
-        description: "Sedgwick created artworks in a variety of mediums throughout her career."
+        description: ""
     -   category: teaching
-        description: "This section includes a variety of materials drawn from Sedgwick's teaching activities."
+        description: ""
     -   category: courses
-        description: "Syllabi and related materials from Sedgwick's courses. Currently, only materials for some of her graduate seminars at Duke and CUNY are available."
+        description: ""
     -   category: "supporting materials"
-        description: "These are teaching materials not associated with any particular course."
+        description: ""
     
 posts_per_page: 5
 
