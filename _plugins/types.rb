@@ -117,7 +117,7 @@ module Jekyll
       blogposts.sort! {|a, b| b.date <=> a.date}
       blogposts.each do |p|
         if i<pagelimit
-          hash['page'+page.to_s] << p
+          hash['Page '+page.to_s] << p
           i+=1
         else
           i=0

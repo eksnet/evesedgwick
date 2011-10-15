@@ -63,11 +63,12 @@ module Jekyll
       self.read_yaml(File.join(base, '_layouts'), 'blog_index.html')
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || ''
-      self.data['title']       = "#{title_prefix}page#{page}"
+      self.data['title']       = "#{title_prefix}Page #{page}"
       self.data['page']        = page
       self.data['previous']    = page - 1
       self.data['next']        = page + 1
       self.data['pages']       = pages
+      self.data['nav']         = "blog"
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{page}"
@@ -107,7 +108,7 @@ module Jekyll
         end
       # Throw an exception if the layout couldn't be found.
       else
-        throw "No 'category_index' layout found."
+        throw "No 'blog_index' layout found."
       end
     end
     

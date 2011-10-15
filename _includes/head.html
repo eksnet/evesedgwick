@@ -4,7 +4,7 @@
 <head> 
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Eve Kosofsky Sedgwick{% if page.nav %} | {{ page.nav | capitalize }}{% if page.category %} - {{ page.category | capitalize }}{% if page.sub-category %} - {{ page.sub-category | capitalize }}{% endif %}{% endif %} - {{ page.title }}{% endif %}</title>
+<title>Eve Kosofsky Sedgwick{% if page.nav %} - {{ page.nav | capitalize }}{% endif %}{% assign write_title = true %}{% for category in site.iterable_categories %}{% if page.title == category.name %}{% assign write_title = false %}{% endif %}{% endfor %}{% if page.title == "all" %}{% assign write_title = false %}{% endif %}{% if write_title %}{% if page.title %} - {{ page.title }}{% endif %}{% endif %}</title>
 
 <link rel="stylesheet" type="text/css" href="/lib/css/screen.css" media="screen" />
 <link rel="stylesheet" href="/lib/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
