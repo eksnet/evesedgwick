@@ -28,4 +28,4 @@ category-settings:
     
 posts_per_page: 5
 
-exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes"]
+exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive"]
