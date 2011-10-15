@@ -12,8 +12,7 @@ description: none
 title: "1001 Seances in GLQ"
 
 related-images:
-        - glq-cover
-        - eks-polaroid
+        - glq_comp
 
 ---
 
