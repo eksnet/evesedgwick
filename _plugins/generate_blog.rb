@@ -100,7 +100,11 @@ module Jekyll
         bposts = self.categories['blog']
         i=0
         page=1
-        pages=self.categories['blog'].length/self.config['posts_per_page']
+        page_calc=self.categories['blog'].length.divmod(self.config['posts_per_page'])
+        pages = page_calc[0]
+        if page_calc[1] != 0
+          pages += 1
+        end
         while i<pages
           self.write_blog_page(File.join(dir, 'blog', 'page'+page.to_s), page, pages)
           page+=1
