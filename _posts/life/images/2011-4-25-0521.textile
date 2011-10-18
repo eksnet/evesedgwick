@@ -8,8 +8,8 @@ title: Childhood 4
 
 src: childhood04
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "The Kosofsky Family, c. 1953"
+caption: "(L to R): Eve holding panda, David, Rita, and Nina."
 
 albums: 
     - childhood

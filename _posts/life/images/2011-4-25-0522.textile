@@ -8,8 +8,7 @@ title: Childhood 5
 
 src: childhood05
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "Nina, Leon, and Eve with her panda, Dayton, c. 1954"
 
 albums: 
     - childhood

@@ -1,0 +1,22 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "October 22, 2011: A Celebration of the Life of David Kosofsky"
+
+related-images:
+    - david
+
+---
+
+Eve's brother David died of a heart attack on July 5, 2011, the day before his fifty-eighth birthday. The celebration of his life is to be held in Bethesda at Maplewood Park Place, the residence of his mother Rita.
+
+"(newwindow)Margaret Soltan remembers David Kosofsky":http://www.margaretsoltan.com/?p=31436
+"(newwindow)Obituary":http://www.legacy.com/obituaries/washingtonpost/obituary.aspx?n=david-kosofsky&pid=152693050

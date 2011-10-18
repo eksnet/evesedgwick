@@ -8,7 +8,7 @@ title: "regard08"
 
 src: regard08
 
-caption-title: "Sedgick assembles the exhibition"
+caption-title: "Sedgwick assembles the exhibition"
 caption: "."
 
 albums: 

@@ -10,9 +10,9 @@ title: "Bodhisattva Fractal World"
 year: ND
 medium: "quilted marbled and patterned silk, text"
 dims: {width: 30, height: 12, depth: 0}
-catalog-number: "000030-01"
+catalog-number: "000032-01"
 
 related_media:
-    - {type: album, name: "000030-01"}
+    - {type: album, name: "000032-01"}
 
 ---

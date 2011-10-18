@@ -1,0 +1,19 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events talks
+
+description: none
+
+title: "Fall 2011 Tendencies Series at the CUNY Graduate Center"
+
+
+---
+
+This series of talks on queer poetics, curated by Tim Peterson (Trace) and titled in honor of Eve Kosofsky Sedgwick, explores the relationship between queer writing, the manifesto, poetic practice, and pedagogy.
+
+"(newwindow)Schedule":http://tendenciespoetics.com/

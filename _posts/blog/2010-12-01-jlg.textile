@@ -1,0 +1,19 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "Winter 2010 Issue of JL&G"
+
+related-images:
+    - jlg
+
+---
+
+The winter 2010 issue of the <i>Harvard Journal of Law & Gender</i> (Vol. 33:1) is a tribute to Eve Kosofsky Sedgwick, featuring essays by Janet Halley, Katherine M. Franke, Clare Huntington, Susan R. Schmeiser, Philomina Tsoukala, and Darren Rosenblum.
