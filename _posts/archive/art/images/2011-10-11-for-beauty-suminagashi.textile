@@ -6,7 +6,7 @@ type: image
 
 title: For Beauty is a Series of Hypotheses (Suminagashi)
 
-src: quilt-4
+src: for-beauty-suminagashi
 
 caption-title: "For Beauty is a Series of Hypotheses (Suminagashi)"
 caption: "suminagashi, silk"

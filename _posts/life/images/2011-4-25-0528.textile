@@ -8,8 +8,7 @@ title: Childhood 11
 
 src: childhood11
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "David, Eve, and Nina, Dayton, c. 1956"
 
 albums: 
     - childhood

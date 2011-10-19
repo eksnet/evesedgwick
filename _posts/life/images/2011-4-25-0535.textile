@@ -8,8 +8,7 @@ title: Childhood 18
 
 src: childhood18
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "Eve, Bethesda, c. 1963"
 
 albums: 
     - childhood

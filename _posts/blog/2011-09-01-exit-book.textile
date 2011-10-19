@@ -1,0 +1,16 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "Maria Jose Belbel Bullejos in Exit Book"
+
+---
+
+<i>Exit Book</i> No. 15 (2011) features an essay on <i>Shame and its Sisters</i> and <i>Touching Feeling</i> by Eve's friend María José Belbel Bullejos.

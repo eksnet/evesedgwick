@@ -8,8 +8,7 @@ title: Childhood 3
 
 src: childhood03
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "Eve, Dayton, c. 1952"
 
 albums: 
     - childhood

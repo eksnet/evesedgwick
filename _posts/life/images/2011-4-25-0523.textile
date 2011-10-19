@@ -8,8 +8,7 @@ title: Childhood 6
 
 src: childhood06
 
-caption-title: "Caption Title"
-caption: "Caption for 'childhood 1'."
+caption-title: "Nina, David, Rita, and Eve, Dayton, c. 1954"
 
 albums: 
     - childhood

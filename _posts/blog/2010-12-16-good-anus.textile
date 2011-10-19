@@ -1,0 +1,18 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: news publications
+
+description: none
+
+title: "The Good Anus"
+
+---
+
+
+
+"The Good Anus: Commentary on Guss's 'The Danger of Desire'" will appear in <i>HSGS: Studies in Gender and Sexuality.</i>

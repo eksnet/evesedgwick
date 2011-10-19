@@ -12,6 +12,6 @@ caption-title: "Bodhisattva Fractal World"
 caption: "quilted marbled and patterned silk, text"
 
 albums:
-    - "000030-01"
+    - "000032-01"
     - bodhi
 ---

@@ -1,0 +1,19 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications events
+
+description: none
+
+title: "Spring 2010 Issue of Criticism"
+
+related-images:
+    - criticism
+
+---
+
+The Spring 2010 issue of <i>Criticism</i> (vol. 52 no. 2) is titled "Honoring Eve: A Special Issue on the Work of Eve Kosofsky Sedgwick." The special issue grew out of the event "(newwindow)Honoring Eve: A Symposium Celebrating the Work of Eve Kosofsky Sedgwick":http://www.bu.edu/phpbin/calendar/event.php?id=92477&cid=73, which was held on October 31, 2009, at Boston University.
