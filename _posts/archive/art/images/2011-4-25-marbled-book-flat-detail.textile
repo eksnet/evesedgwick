@@ -9,7 +9,7 @@ title: "For Beauty is a Series of Hypotheses (book; detail)"
 src: marbled-book-flat-detail
 
 caption-title: "For Beauty is a Series of Hypotheses (book; detail)"
-caption: "paper, accordion book structure, collaged text; 4.5x7 closed, 7x40 open (000028-01)"
+caption: "paper, accordion book structure, collaged text (photo: Kevin Ryan)"
 
 albums:
     - "000028-01"

@@ -9,7 +9,7 @@ title: A Broom
 src: a-broom
 
 caption-title: "A Broom"
-caption: "silk, text"
+caption: "silk, text (photo: Kevin Ryan)"
 
 albums:
     - "000033-01"

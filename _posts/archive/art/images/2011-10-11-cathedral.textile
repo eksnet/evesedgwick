@@ -9,7 +9,7 @@ title: "Cathedral"
 src: cathedral
 
 caption-title: "Cathedral"
-caption: "shibori on paper with fabric backing"
+caption: "shibori on paper with fabric backing (photo: Kevin Ryan)"
 
 albums:
     - bodhi

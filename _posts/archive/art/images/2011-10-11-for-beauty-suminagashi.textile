@@ -9,7 +9,7 @@ title: For Beauty is a Series of Hypotheses (Suminagashi)
 src: for-beauty-suminagashi
 
 caption-title: "For Beauty is a Series of Hypotheses (Suminagashi)"
-caption: "suminagashi, silk"
+caption: "suminagashi, silk (photo: Kevin Ryan)"
 
 albums:
     - "000062-01"

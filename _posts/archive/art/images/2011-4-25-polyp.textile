@@ -9,7 +9,7 @@ title: Polyp
 src: polyp
 
 caption-title: "Polyp"
-caption: "shibori, silk, string, text (000020-01)"
+caption: "shibori, silk, string, text (photo: Kevin Ryan)"
 
 albums:
     - "000020-01"

@@ -8,8 +8,8 @@ title: "Untitled (The most exclusive love for a person...)"
 
 src: exclusive-love
 
-caption-title: "Untitled (The most exclusive love for a person...)"
-caption: "text, fabric paint, quilted panels"
+caption-title: "The most exclusive love for a person..."
+caption: "text, fabric paint, quilted panels (photo: Kevin Ryan)"
 
 albums:
     - "000021-01"

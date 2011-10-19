@@ -9,7 +9,7 @@ title: Limpid Three Bodhisattvas
 src: limpid-3-
 
 caption-title: "Limpid Three Bodhisattvas"
-caption: "quilted cyanotype"
+caption: "quilted cyanotype (photo: Kevin Ryan)"
 
 albums:
     - "000045-01"

@@ -9,7 +9,7 @@ title: Prayer Flag 1
 src: purple-flag-detail
 
 caption-title: "Prayer Flag 1 (detail)"
-caption: "sewn paper with images and fabric"
+caption: "sewn paper with images and fabric (photo: Kevin Ryan)"
 
 albums:
     - "000047-01"
