@@ -111,18 +111,18 @@ module Jekyll
     def collect_blogposts(posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       blogposts=posts['blog']
-      i=1
+      i=0
       page=1
       pagelimit=self.config['posts_per_page']
       blogposts.sort! {|a, b| b.date <=> a.date}
       blogposts.each do |p|
         if i<pagelimit
-          hash['Page '+page.to_s] << p
           i+=1
         else
-          i=1
           page+=1
+          i=1
         end
+        hash['Page '+page.to_s] << p
       end
 
       return hash
