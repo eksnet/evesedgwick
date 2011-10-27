@@ -11,7 +11,7 @@ related_media:
 
 ---
 
-p(intro). Eve Kosofsky Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.
+p(intro). Eve Kosofsky Sedgwick (1950-2009) was a poet, artist, literary critic and teacher. She is perhaps best known as one of the originators of Queer Theory. Her work and her example continue to have a significant effect in shaping the lives and thought of many people. Sedgwick had little wanderlust, but she had a strong desire to find or create places that would give her both the freedom and the support that she needed. Each of the places that she lived had a strong and complex character for her -- sometimes attractive, sometimes not -- and each helped to shape her life there. This brief biography follows her from place to place.
 
 <div class='marginal toc'><a href='#1'><span class='heading'>DAYTON</span> 1950 - 1957</a>
 <a href='#2'><span class='heading'>BETHESDA</span> 1957 - 1967</a>
