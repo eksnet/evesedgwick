@@ -8,9 +8,9 @@ type: resource
 title: About
 ---
 
-This website is intended to be a resource for those interested in the life and work of Eve Kosofsky Sedgwick. This is an ongoing project. We welcome contributions from Eve's friends, colleagues, and students who wish to donate or share photos, handouts, class syllabi, or other materials.
+p(intro). This website is intended to be a resource for those interested in the life and work of Eve Kosofsky Sedgwick. This is an ongoing project. We welcome contributions from Eve's friends, colleagues, and students who wish to donate or share photos, handouts, class syllabi, or other materials.
 
-Contact: info[a]evekosofskysedgwick.net
+Contact: <a class="email">info[a]evekosofskysedgwick.net</a>
 
-Content curation and development: Sarah McCarry and Hal Sedgwick
-Site design and construction: Bryan Reedy
+<h6 style="padding-top:28px;">CONTENT CURATION AND DEVELOPMENT: Sarah McCarry and Hal Sedgwick</h6>
+<h6>SITE DESIGN AND CONSTRUCTION: Bryan Reedy</h6>

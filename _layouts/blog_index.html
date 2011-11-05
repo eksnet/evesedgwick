@@ -5,25 +5,16 @@ layout: base
 <section id='title' style="margin-bottom:56px;">    
     <h2><a href="/blog/page1">BLOG</a></h2>
     <ul class='nav' id='sub-nav'>
-        <li><a href="/blog/page{% if page.page == 1 %}{{ page.page }}{% else %}{{ page.previous }}{% endif %}">NEWER POSTS </a></li>
-        <li><a href="/blog/page{% if page.page == page.pages %}{{ page.page }}{% else %}{{ page.next }}{% endif %}"> OLDER POSTS</a></li>
-            <!-- {% if page.page != 1 %}
-               <li><a href="">NEWER </a></li>
-               {% endif %}
-               {% for i in (1..page.pages) %}
-                   {% if i == page.page %}
-                   <li><span style='font-weight:bold;'>{{ i }}</span></li>
-                   {% else %}
-                   <li><a href="">{{ i }}</a></li>
-                   {% endif %}
-               {% endfor %}
-               {% if page.page != page.pages %}
-                   <li><a href=""> OLDER</a></li>
-                   {% else %}
-                   <li><span style='color:white'>OLDER ></span></li>
-               {% endif %}
-    -->
-       
+        {% if page.page == 1 %}
+        <li><a style="color:#939196;">NEWER POSTS </a></li>
+        {% else %}
+        <li><a href="/blog/page{{ page.previous }}">NEWER POSTS </a></li>
+        {% endif %}
+        {% if page.page == page.pages %}
+        <li><a style="color:#939196;"> OLDER POSTS</a></li>
+        {% else %}
+        <li><a href="/blog/page{{ page.next }}"> OLDER POSTS</a></li>
+        {% endif %}
     </ul>
 </section>
     {% for post in site.blog-pages[page.title] %}
@@ -81,24 +72,15 @@ layout: base
     <section id='footer' style="margin-bottom:56px;">    
         <h2>&nbsp;</h2>
         <ul class='nav' id='sub-nav'>
-            <li><a href="/blog/page{% if page.page == 1 %}{{ page.page }}{% else %}{{ page.previous }}{% endif %}">NEWER POSTS </a></li>
-            <li><a href="/blog/page{% if page.page == page.pages %}{{ page.page }}{% else %}{{ page.next }}{% endif %}"> OLDER POSTS</a></li>
-                <!-- {% if page.page != 1 %}
-                   <li><a href="">NEWER </a></li>
-                   {% endif %}
-                   {% for i in (1..page.pages) %}
-                       {% if i == page.page %}
-                       <li><span style='font-weight:bold;'>{{ i }}</span></li>
-                       {% else %}
-                       <li><a href="">{{ i }}</a></li>
-                       {% endif %}
-                   {% endfor %}
-                   {% if page.page != page.pages %}
-                       <li><a href=""> OLDER</a></li>
-                       {% else %}
-                       <li><span style='color:white'>OLDER ></span></li>
-                   {% endif %}
-        -->
-
+            {% if page.page == 1 %}
+            <li><a style="color:#939196;">NEWER POSTS </a></li>
+            {% else %}
+            <li><a href="/blog/page{{ page.previous }}">NEWER POSTS </a></li>
+            {% endif %}
+            {% if page.page == page.pages %}
+            <li><a style="color:#939196;"> OLDER POSTS</a></li>
+            {% else %}
+            <li><a href="/blog/page{{ page.next }}"> OLDER POSTS</a></li>
+            {% endif %}
         </ul>
     </section>
