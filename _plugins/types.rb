@@ -138,7 +138,6 @@ module Jekyll
       payload['site']['albums'] = self.collect_albums(self.posts)
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
-      payload['site']['category-config'] = 
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
         # sort 'writing' by pub-date
