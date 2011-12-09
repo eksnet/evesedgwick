@@ -28,4 +28,20 @@ category-settings:
     
 posts_per_page: 5
 
+index_images:
+    -   index1.jpg
+    -   index2.jpg
+    -   index3.jpg
+    -   index4.jpg
+    -   index5.jpg
+    -   index6.jpg
+    -   index7.jpg
+    -   index8.jpg
+    -   index9.jpg
+    -   index10.jpg
+    -   index11.jpg
+    
+index_image_duration: 20000
+index_image_transition: slow
+
 exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive"]

@@ -1,3 +1,7 @@
+---
+published: true
+---
+
 <!DOCTYPE html> 
 
 <html> 
@@ -36,12 +40,11 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
 .fadein img { position:absolute; left:0; top:0; }
 </style>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>
-$(function(){
-	$('.fadein img:gt(0)').hide();
-	setInterval(function(){$('.fadein :first-child').fadeOut('slow').next('img').fadeIn('slow').end().appendTo('.fadein');}, 4000);
-});
+    $(function(){
+	    $('.fadein img:gt(0)').hide();
+	    setInterval(function(){$('.fadein :first-child').fadeOut('{{ site.index_image_transition }}').next('img').fadeIn('{{ site.index_image_transition }}').end().appendTo('.fadein');}, {{ site.index_image_duration }});
+    });
 </script>
 <script type="text/javascript">
 
@@ -88,17 +91,9 @@ $(function(){
 
         <section id='main'>
             <section class="fadein">
-                <img src='/images/index/index1.jpg' width='622' height='405'>
-                <img src='/images/index/index2.jpg' width='622' height='405'>
-                <img src='/images/index/index3.jpg' width='622' height='405'>
-                <img src='/images/index/index4.jpg' width='622' height='405'>
-                <img src='/images/index/index5.jpg' width='622' height='405'>
-                <img src='/images/index/index6.jpg' width='622' height='405'>
-                <img src='/images/index/index7.jpg' width='622' height='405'>
-                <img src='/images/index/index8.jpg' width='622' height='405'>
-                <img src='/images/index/index9.jpg' width='622' height='405'>
-                <img src='/images/index/index10.jpg' width='622' height='405'>
-                <img src='/images/index/index11.jpg' width='622' height='405'>
+                {% for image in site.index_images %}
+                    <img src='/images/index/{{ image }}' width='622' height='405'>
+                {% endfor %}
             </section>
         <section>
         <p class='intro' style=''>
