@@ -1,0 +1,25 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: news publications
+
+description: none
+
+title: "Publication of <i>The Weather in Proust</i>"
+
+related-images:
+    - weatherinproust
+
+---
+
+"(newwindow)<i>The Weather in Proust</i>":http://www.dukeupress.edu/Catalog/ViewProduct.php?productid=48844 gathers pieces written by Eve Kosofsky Sedgwick in the last decade of her life. The book is edited by her longtime friend and literary executor, Jonathan Goldberg. From Duke University Press's website:
+
+"This book takes its title from the first essay, a startlingly original interpretation of Proust. By way of Neoplatonism, Buddhism, and the work of Melanie Klein, Sedgwick establishes the sense of refreshment and surprise that the author of the <i>Recherche</i> affords his readers. Proust also figures in pieces on the poetry of C. P. Cavafy, object relations, affect theory, and Sedgwick’s textile art practices. More explicitly connected to her role as a pioneering queer theorist are an exuberant attack against reactionary refusals of the work of Guy Hocquenghem and talks in which she lays out her central ideas about sexuality and her concerns about the direction of US queer theory. Sedgwick lived for more than a dozen years with a diagnosis of terminal cancer; its implications informed her later writing and thinking, as well as her spiritual and artistic practices. In the book’s final and most personal essay, she reflects on the realization of her impending death. Featuring thirty-seven color images of her art, <i>The Weather in Proust</i> offers a comprehensive view of Sedgwick’s later work, underscoring its diversity and coherence."
+
+"(newwindow)Buy the book at Indiebound":http://www.indiebound.org/book/9780822351580
+"(newwindow)Buy the book at Amazon":http://www.amazon.com/Weather-Proust-Eve-Kosofsky-Sedgwick/dp/0822351587
+
