@@ -1,0 +1,26 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "<em>The Weather in Proust</em> reviewed in <em>Publishers Weekly</em> and the <em>LA Review of Books</em>"
+
+---
+
+From the <em>LA Review of Books</em>:
+
+"But while a great deal here is familiar — indeed, many passages from the above books resurface, verbatim, throughout these pages — there is nothing rehashed about the project itself. To the contrary: For a writer whose prose (and thought) could often be astoundingly dense, circuitous, and lovingly (if sometimes frustratingly) devoted to articulating the farthest reaches of complexity, the overall effect of The Weather in Proust is one of great clarification and distillation. Indeed, for those unfamiliar with Sedgwick’s work, I would recommend starting with The Weather in Proust and moving backward from there, as the volume offers an enjoyably compressed, coherent, and retrospective portrait of Sedgwick’s principal preoccupations."
+
+"(newwindow)Read the entire review":http://lareviewofbooks.org/post/15774132512/finishing-touches
+
+From <em>Publishers Weekly</em>:
+
+"This posthumous collection of Sedgwick’s essays presents readers with a glittering kaleidoscope of 'capacious concerns.' Sedgwick, a pioneer in queer studies, shines as she contemplates Proust, textile art, and mortality in language that is challenging and exhilarating."
+
+"(newwindow)Read the entire review":http://www.publishersweekly.com/978-0-8223-5158-0
