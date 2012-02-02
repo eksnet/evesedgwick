@@ -5,7 +5,7 @@ nav: blog
 category: blog
 type: post
 
-tags: events
+tags: publications news
 
 description: none
 

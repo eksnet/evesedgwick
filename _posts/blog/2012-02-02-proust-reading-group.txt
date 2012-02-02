@@ -1,0 +1,18 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "<em>The Weather in Proust</em> Reading Group at the Graduate Center"
+
+---
+
+The Center for the Humanities at The Graduate Center, CUNY, is hosting a monthly spring reading group (February 14-May 15) focused on the first section of Eve Sedgwick's book <em>The Weather in Proust</em>. The first section, approximately three-quarters of the book, comprises Sedgwick's work on and around Proust. Sedgwick's rich and complex view of Proust emerges as she approaches his writing through discussions of topics such as Neoplatonism, Buddhism, Theory of Mind, autism, the poet C P Cavafy, Melanie Klein, and Sedgwick's own artwork, to name a few. The group will be led by H A Sedgwick and Joshua Wilner, and facilitated by a series of volunteers. Attendance at all five meetings is highly desirable, and participants will be asked to take an active part in the discussion. Enrollment is limited, so please register as soon as possible. 
+
+For more information and to register, see "(newwindow)The Graduate Center website":http://centerforthehumanities.org/seminars/weather-proust-reading-group/
