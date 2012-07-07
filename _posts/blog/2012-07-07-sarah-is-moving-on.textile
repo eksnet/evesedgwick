@@ -1,0 +1,20 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "Sarah is moving on"
+
+related-images:
+    - sarah
+
+---
+
+After three years working with Hal Sedgwick developing this website and cataloguing Eve's archive, I am sad to announce I have moved on to other projects. In January, I began managing Ugly Duckling Presse, a nonprofit poetry and art publisher in Brooklyn, and I will also have a book of my own coming out from St. Martin's Press in Spring of 2013. It has been an absolute honor to work with Eve's writing and art, and the experience and proximity to her work has colored my life in a thousand unexpected and often magical ways. I am so grateful for the opportunities that Hal (and Eve's many extraordinary, brilliant, and unfailingly kind friends) have brought into my life. The archive will continue in great hands, and I'm so excited to see what the future brings.
+--Sarah McCarry
