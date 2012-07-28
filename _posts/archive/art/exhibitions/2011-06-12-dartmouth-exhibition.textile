@@ -7,7 +7,7 @@ sub-category: "exhibitions"
 type: collection
 
 role: artist
-title: Untitled
+title: Exhibition at Dartmouth College
 
 description: none
 

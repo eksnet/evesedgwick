@@ -7,7 +7,7 @@ sub-category: "exhibitions"
 type: collection
 
 role: artist
-title: Untitled
+title: Exhibition at the City University of New York Graduate Center
 
 description: none
 
