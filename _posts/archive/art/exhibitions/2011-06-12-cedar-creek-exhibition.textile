@@ -1,0 +1,20 @@
+---
+layout: exhibition
+published: true
+nav: archive
+category: art
+sub-category: "exhibitions"
+type: collection
+
+role: artist
+title: Exhibition at Cedar Creek Gallery
+
+description: none
+
+exhibition-location: "Cedar Creek Gallery, Durham, NC"
+exhibition-date: 2000
+
+related_media:
+    - {type: album, name: "cedar-creek"}
+
+---
