@@ -1,0 +1,18 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "January 31, 2013: Third Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - 2013-SEDGWICK-WW3
+
+---
+The Boston University Gender + Sexuality Studies Group has announced that Janet Halley, Harvard Law School’s Royall Professor of Law, will give the annual Sedgwick Memorial Lecture: “When Feminism Rules: Assessing Governance Feminism Projects from the International to the Local.” (Click on the image for further information.) Halley’s most recent book is "(newwindow)<i>Split Decisions: How and Why to Take a Break from Feminism.</i>":http://press.princeton.edu/titles/8258.html Lauren Berlant wrote: “This is a wide-ranging, vastly original, knowing, and challenging book; there is nothing like it in any of the antinormative challenges of the last two decades.” We are very much looking forward to Halley's lecture.
