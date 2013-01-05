@@ -1,0 +1,22 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: miscellany
+
+description: none
+
+title: "Words and Materials"
+
+related-images:
+    - 3text-1
+    - 3text-2
+    - 3text-3
+
+---
+
+Students of Eve Sedgwick’s at the CUNY Graduate Center have formed a group for grad students and others to practice forms of book-art presented in Sedgwick's unique course, ""(newwindow)How To Do Things With Words and Other Materials":http://evekosofskysedgwick.net/teaching/how-to-do-things-with-words-and-other-materials.html".” The Text Textile Texture Studio (or 3Text Studio), as the group is called, takes its inspiration from the original classes, as well as the exhibition that was part of the 2010 "(newwindow)Spanking and Poetry":http://evekosofskysedgwick.net/blog/spanking-and-poetry-conference-cuny.html conference. Chartered by the Doctoral Students Association, it has held events for making accordion books, hexaflexagon books, and articulated dolls.
+ "Eve was incredibly generous -- setting up her office as a fully-stocked studio for students in the department to use. When that closed, many of us wanted not only to continue doing the work ourselves, but to help other people discover how satisfying and inspiring it can be,” said Annie Cranstoun, co-chair of 3Text.  You can see some of the work that has emerged from the Studio on their "(newwindow)website":http://3textstudio.wordpress.com.
