@@ -5,7 +5,7 @@ nav: blog
 category: blog
 type: post
 
-tags: miscellany
+tags: events
 
 description: none
 
