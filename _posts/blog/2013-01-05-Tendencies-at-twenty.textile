@@ -1,0 +1,21 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: miscellany
+
+description: none
+
+title: "February 14, 2013: “Tendencies at Twenty” symposium at the University of York"
+
+related-images:
+    - TendenciesPeople
+
+---
+
+The Centre for Modern Studies at the University of York has announced that it will be hosting an inter-disciplinary symposium “to celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text "(newwindow)<i>Tendencies</i>":http://evekosofskysedgwick.net/writing/tendencies.html." Visit "(newwindow)Tendencies at Twenty":http://www.york.ac.uk/modernstudies/events/spring2013/tendencies-at-twenty/ for more information.
+
+
