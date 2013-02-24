@@ -1,0 +1,22 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "Honoring Eve: Janet Halley delivers Third Annual Eve Kosofsky Sedgwick Lecture"
+
+related-images:
+    - DSC00513-crop
+    - DSC00501-crop
+    - DSC00469-crop
+ 
+    
+---
+
+Professor "(newwindow)Halley’s lecture":http://evekosofskysedgwick.net/blog/Halley-BU-Lecture.html on January 31 was introduced by J. Keith Vincent and Erin Murphy of the Boston University Gender + Sexuality Studies Group, which organized the event. Speaking to a large audience, Halley gave a fascinating account of her concept of “governance feminism” and of Sedgwick’s influence on her thinking. A lively discussion followed. A video of the complete event is available "(newwindow)here":http://www.bu.edu/buniverse/view/?v=GBU9j1Bk.
