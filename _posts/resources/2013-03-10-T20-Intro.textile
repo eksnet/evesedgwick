@@ -1,0 +1,11 @@
+---
+layout: resource
+published: true
+nav: resources
+category: Tendencies at Twenty Symposium
+type: resource
+
+title: T20 Intro
+---
+
+p(intro). This text is not yet available. 
