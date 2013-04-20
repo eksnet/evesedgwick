@@ -1,0 +1,22 @@
+---
+layout: resource
+published: true
+nav: resources
+category: Tendencies at Twenty Symposium
+type: resource
+
+title: Introduction
+
+    
+---
+
+p(intro). Introduction
+Jason Edwards
+
+<div class='marginal'>
+<img class='squareleft' src='/images/preview/T20-JE-Intro.jpg'>
+</div>
+<p><i>Tendencies at Twenty </i>was an interdisciplinary afternoon symposium to celebrate the birthday of Eve Kosofsky Sedgwick’s<i> </i>ground-breaking, paradigm-shifting, multi-generic, queer-theoretical masterpiece. Timed also to celebrate Valentine’s Day and LGBTIQ History month, the seminar saw speakers and participants coming from Leeds, Dundee, Manchester, Oxford, Norwich, Newcastle, London, Brighton and Manhattan. The day comprised three panels, ‘Queer Tutelage’, ‘Crossing of Discourses’ and ‘Across Genders and Sexualities’ with each panel dealing with a single section of the book, and each five-to-ten minute position paper dealing with a single chapter of the book, or in the case of the first and last papers, with two, closely related chapters of the book. The speakers came from a variety of disciplinary and methodological perspectives, including English and Related Literature, Film Studies, Art History, and German Studies, and I encouraged each to respond in any register or genre that they chose. Each paper, referred to by title, is given on a separate page. </p>
+<p align="right">Jason Edwards 
+    University of York
+<a class="email">Jason.Edwards[a]york.ac.uk</a></p>
