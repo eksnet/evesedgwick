@@ -104,6 +104,17 @@ img.preview {
   height:215px;
   margin-left:($column * 1) + ($margin * 1);
 }
+/* left section square image. Added by tm 2013-03-30 */
+img.squareleft {
+  width:($column * 2) + ($margin * 1);
+  height:302px;
+  margin-top:45px;
+  margin-left:0px;
+}
+/* block indent for text. Added by hs 2013-04-06 */
+.blocktext {margin-left:40px; margin-right:40px;
+}
+
 ul.nav {
   display:inline-block;
   float:right;
@@ -202,6 +213,26 @@ ul#sub-nav {
   margin-left:(($column * 2) + ($margin * 2)) * -1;
   width:($column * 2) + ($margin * 1);
   margin-top:-45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  color:$black;
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color:$black;
+  }
+  span.heading {
+    font-weight: bold;  
+  }
+}
+.marginalnote {
+  float:left;
+  clear:left;
+  margin-left:(($column * 2) + ($margin * 2)) * -1;
+  width:($column * 2) + ($margin * 1);
+  margin-top:18px;
   font-family: Arial, Helvetica, sans-serif;
   font-size:12px;
   line-height:18px;
