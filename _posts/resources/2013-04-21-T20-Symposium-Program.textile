@@ -1,0 +1,35 @@
+---
+layout: resource
+published: true
+nav: resources
+category: Tendencies at Twenty Symposium
+type: resource
+
+title: Symposium Program
+
+    
+---
+
+p(intro). 
+<div class='marginal'>
+<img class='squareleft' src='/images/preview/T20-York.jpg'>
+</div>
+<p><b><i>Tendencies at Twenty</i></b>, Thursday 14 February 2013</p>
+<p>To celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text Tendencies, the Centre for Modern Studies hosted an inter-disciplinary symposium where 12 diverse scholars each offered a short position paper on a chapter from the book, before a roundtable discussion at the end of the day. </p>
+<p><b>SYMPOSIUM PROGRAM</b></p>
+<p><b>Queer Tutelage, chaired by Jason Edwards</b><br>
+Jason Edwards (University of York), ‘Welcome and Introduction', ‘T Times & Queer and Now’<br>
+Nicole Devarenne (University of Dundee), ‘Privilege of Unknowing: Diderot’s <i>The Nun</i>’<br>
+Ben Nichols (King’s College, London), ‘Tales of the Avunculate: <i>The Importance of Being Earnest</i>’<br>
+Denis Flannery (University of Leeds), ‘Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i>’</p>
+<p><b>Crossing of Discourses, chaired by Claire Westall</b><br>
+Izzy Isgate (University of York), ‘Jane Austen and the Masturbating Girl’<br>
+Helen Finch (University of Leeds), ‘Nationalisms and Sexualities’<br>
+Bob Mills (University College, London), ‘How to Bring Your Kids Up Gay: The War on Effeminate Boys’<br>
+Alex Beaumont (University of York), ‘Epidemics of the Will'</p>
+<p><b>Across Genders, Across Sexualities, chaired by Jo Applin</b><br>
+Pam Thurschwell (University of Sussex), ‘Willa Cather and Others’<br>
+Angus Brown (Oxford University), ‘A Poem Is Being Written’<br>
+James Boaden (University of York), ‘Divinity: A Dossier, A Performance Piece, A Little Understood Emotion (written with Michael Moon)’<br>
+Sarah Monks (University of East Anglia), ‘White Glasses’ & ‘Memorial for Craig Owens’</p>
+<p><b>Round Table, chaired by Jason Edwards and Carol Mavor</b></p>
