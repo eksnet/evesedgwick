@@ -2,7 +2,7 @@
 layout: resource
 published: true
 nav: resources
-category: Tendencies at Twenty Symposium
+category: conferences
 type: resource
 
 title: How to Bring Your Kids Up Gay
