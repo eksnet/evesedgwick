@@ -25,7 +25,8 @@ category-settings:
         description: ""
     -   category: "supporting materials"
         description: ""
-    
+    -   category: conferences
+        description: "Tendencies at Twenty: An inter-disciplinary symposium"
 posts_per_page: 5
 
 index_images:
