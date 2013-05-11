@@ -15,7 +15,7 @@ p(intro).
 <img class='squareleft' src='/images/preview/T20-Tendencies-cover.jpg'>
 </div>
 <p><b><i>Tendencies at Twenty</i></b>, The University of York, Thursday 14 February 2013</p>
-<p>To celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text Tendencies, the Centre for Modern Studies hosted an inter-disciplinary symposium where 12 diverse scholars each offered a short position paper on a chapter from the book, before a roundtable discussion at the end of the day. </p>
+<p>To celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text <i>Tendencies</i>, the Centre for Modern Studies hosted an inter-disciplinary symposium where 12 diverse scholars each offered a short position paper on a chapter from the book, before a roundtable discussion at the end of the day. </p>
 <p><b>SYMPOSIUM PROGRAM</b></p>
 <p><b>Queer Tutelage, chaired by Jason Edwards</b><br>
 Jason Edwards (University of York), "(newwindow)'Welcome and Introduction'":http://evekosofskysedgwick.net/conferences/T20-JE-Intro.html, "(newwindow)'T Times & Queer and Now'":http://evekosofskysedgwick.net/conferences/T20-JE.html <br>
