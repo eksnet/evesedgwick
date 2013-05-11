@@ -5,7 +5,7 @@ nav: resources
 category: conferences
 type: resource
 
-title: T Times & Queer and Now
+title: "  "
 
     
 ---

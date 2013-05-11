@@ -5,7 +5,7 @@ nav: resources
 category: conferences
 type: resource
 
-title: How to Bring Your Kids Up Gay
+title: "  "
 
     
 ---
