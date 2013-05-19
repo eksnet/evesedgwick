@@ -14,7 +14,7 @@ p(intro). A Poem is Being Written
 Angus Brown
 
 <div class='marginal'>
-<img class='squareleft' src='/images/preview/T20-Abr.jpg'>
+<img class='squareleft' src='/images/preview/T20-ABr.jpg'>
 </div>
 
 <p>‘A Poem Is Being Written’ beckons its readers through a mist of admissions and refusals towards a more experimental, a more personal, approach to critical writing. This chapter of <i>Tendencies</i> explores poetry, sexuality, and gender through their relation to Eve Kosofsky Sedgwick’s fantasies about spanking. In a serious and sustained attempt to outline these oblique correspondences, Sedgwick makes a series of surprising, unnerving, reassuring, mystifying, and, ultimately, enabling admissions. Reading this essay for the first time, I did not expect Sedgwick to let me read her own adolescent verse. Or to discover that, until she wrote this essay, she did not know exactly what a doorjamb was. Later I was surprised that Sedgwick identified, happily surprised that she <i>could</i> identify, across genders and across sexualities, “‘as’ a gay man”.(1)<span class="marginalnote">1) Sedgwick, <i>Tendencies</i>, 209.</span> These admissions are tied to refusals: the refusal to settle on an essential, reducing identity; the refusal to <i>pretend</i> to know; the refusal to enunciate a sexuality that is anything other than complex and riddled with opacities; and the refusal to recognize generic borders.</p>
