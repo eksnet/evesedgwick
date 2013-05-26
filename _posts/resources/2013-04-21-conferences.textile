@@ -16,9 +16,10 @@ p(intro).
 </div>
 <p><b><i>Tendencies at Twenty</i></b>, The University of York, Thursday 14 February 2013</p>
 <p>To celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text <i>Tendencies</i>, the Centre for Modern Studies hosted an inter-disciplinary symposium where 12 diverse scholars each offered a short position paper on a chapter from the book, before a roundtable discussion at the end of the day. </p>
-<p><b>SYMPOSIUM PROGRAM</b></p></a>
+<p><b>SYMPOSIUM PROGRAM</b></p>
+<p><a href='http://evekosofskysedgwick.net/conferences/T20-JE-Intro.html'><b>Welcome and Introduction</b></a></p>
 <p><b>Queer Tutelage, chaired by Jason Edwards</b><br>
-Jason Edwards (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-JE-Intro.html'>'Welcome and Introduction'</a>, <a href='http://evekosofskysedgwick.net/conferences/T20-JE.html'>'T Times & Queer and Now'</a> <br>
+Jason Edwards (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-JE.html'>'T Times & Queer and Now'</a> <br>
 Nicole Devarenne (University of Dundee), <a href='http://evekosofskysedgwick.net/conferences/T20-ND.html'>'Privilege of Unknowing: Diderot’s <i>The Nun</i>'</a> <br>
 Ben Nichols (King’s College London), <a href='http://evekosofskysedgwick.net/conferences/T20-BN.html'>'Tales of the Avunculate: <i>The Importance of Being Earnest</i>'</a><br>
 Denis Flannery (University of Leeds), <a href='http://evekosofskysedgwick.net/conferences/T20-DF.html'>'Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i>'</a></p>
@@ -33,3 +34,4 @@ Angus Brown (Oxford University), <a href='http://evekosofskysedgwick.net/confere
 James Boaden (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-JB.html'>‘Divinity: A Dossier, A Performance Piece, A Little Understood Emotion (written with Michael Moon)’</a><br>
 Sarah Monks (University of East Anglia), <a href='http://evekosofskysedgwick.net/conferences/T20-SM.html'>‘White Glasses’ & ‘Memorial for Craig Owens’</a></p>
 <p><b>Round Table, chaired by Jason Edwards and Carol Mavor</b></p>
+<p><a href='http://evekosofskysedgwick.net/conferences/T20-JE-Ackn.html'><b>Acknowledgements</b></a></p>
