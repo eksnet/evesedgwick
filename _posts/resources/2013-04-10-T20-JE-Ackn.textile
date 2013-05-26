@@ -1,0 +1,25 @@
+---
+layout: resource
+published: true
+nav: resources
+category: conferences
+type: resource
+
+title: "  "
+
+    
+---
+
+p(intro). Acknowledgments
+
+<p><i>Tendencies at Twenty </i>was sponsored by the Centre for Modern Studies and the History of Art Department at the University of York. I am grateful to Helen Jacobs for her administrative support; to Carol Mavor, for helping me to chair the plenary panel, and for her characteristically piercing questions; to Hal Sedgwick for making the journey to York, and for all of his kindness; and Sarah McCarry and T Meyerhoff, for all of their hard work on Eve’s behalf, on her archive and website.</p>
+<p align="right">Jason Edwards 
+University of York
+<a class="email">Jason.Edwards[a]york.ac.uk</a></p>
+
+
+
+
+
+
+     
