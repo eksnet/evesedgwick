@@ -10,7 +10,7 @@ title: "  "
     
 ---
 
-p(intro). Memorial for Craig Owens’ and ‘White Glasses’
+p(intro). ‘Memorial for Craig Owens’ and ‘White Glasses’
 Sarah Monks
 
 <div class='marginal'>
