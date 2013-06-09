@@ -1,0 +1,21 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "<i>Tendencies at Twenty</i> papers now online"
+
+related-images:
+    - T20-blog4
+
+ 
+    
+---
+
+We are delighted that our website is now hosting the papers that were given at <i>Tendencies at Twenty</i>. The symposium, organized by Jason Edwards, was held at the University of York this past Valentine’s Day to celebrate the twentieth anniversary of the publication of Eve Kosofsky Sedgwick’s book <i>Tendencies</i>. Each paper at the symposium discussed one (or in a couple of cases two) of the book's chapters, including such well-known essays of Sedgwick’s as “How to Bring Your Kids Up Gay,” “Jane Austen and the Masturbating Girl,” and “Queer and Now.” The symposium papers, in addition to offering critical readings of the chapters, are often deeply personal, reflecting the impact of Sedgwick’s work on lives of the authors. The symposium papers are available <a href="http://evekosofskysedgwick.net/conferences/conferences.html">here</a>. 
