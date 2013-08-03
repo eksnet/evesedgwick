@@ -1,0 +1,18 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "Call for papers: “Queer and Now” special issue"
+
+ 
+    
+---
+
+<i>The Writing Instructor</i> is preparing a special issue twenty years after the publication of Sedgwick’s influential essay, “Queer and Now.” The journal “seeks to keep alive the possibilities and tensions of queer by inviting submissions that explore the state of ‘queer and now’....” They are “especially interested in formally queer, experimental, multi-genre, and multimedia submissions.” Further information is "(newwindow)here":http://www.writinginstructor.com/node/104.
