@@ -1,0 +1,45 @@
+---
+layout: resource
+published: true
+nav: resources
+category: links
+type: resource
+
+title: Other
+---
+
+h5. Other links
+
+"(newwindow)SEDGWICK SENSE AND SENSIBILITY":http://nideffer.net/proj/Tvc/interviews/20.Tvc.v9.intrvws.Sedg.html:
+An interview with Eve Kosofsky Sedgwick by Mark Kerr and Kristin O'Rourke, January 19, 1995
+
+"(newwindow)In the Garden, for Eve":http://www.youtube.com/watch?v=F5YBYitzpD8
+A short animated movie by Brian Selznick and David Serlin made in honor of Eve Kosofsky Sedgwick. Starring Marcel Proust and Jane Austin. Created in September of 2009
+<iframe width="640" height="360" src="//www.youtube.com/embed/F5YBYitzpD8?rel=0" frameborder="0" allowfullscreen></iframe>
+
+"(newwindow)Epistemology of the Theorist":http://presbyqueerian.com/2009/04/14/epistemology-of-the-theorist/
+PRESBYQUEERIAN: Just another feminist, transgender, ordination journey
+April 14, 2009 by Alex Patchin McNeill
+
+"(newwindow)The Reeducation of a Queer Theorist":http://www.salon.com/1999/09/27/sedgwick/
+Battling cancer, a nice male psychoanalyst and her own sexual demons, the diva of queer theory learned a new way of living
+By Maria Russo. SALON, September 27, 1999
+
+"(newwindow)I'm Nobody: Eve Sedgwick After Death":http://www.theawl.com/2013/05/eve-sedgwick-after-death
+<i>Eve Kosofsky Sedgwick would have been 63 today. Four years have passed since her death, but her absence is felt more, not less, with each. More than ever Sedgwick’s writing generates further writing and thinking from those who engage with it....</i>
+Jane Hu, May 2nd 2013. 
+
+"(newwindow)Critical Inquiry: Jane Austen and the Masturbating Girl":http://criticalinquiry.uchicago.edu/%20featured_author_eve_kosofsky_sedgwick
+"(newwindow)Writing a Feminist's Life - Q&A":http://blip.tv/sf-online/eve-kosofsky-sedgwick-comments-2-3091566
+"(newwindow)Upcoming: Reading Eve Kosofsky Sedgwick":http://www.academia.edu/479200/Reading_Eve_Kosofsky_Sedgwick_Gender_Sexuality_Embodiment
+"(newwindow)Summary of Epistemology of the Closet":http://chelm.freeyellow.com/queer_theory.html
+"(newwindow)T20 link":http://www.york.ac.uk/history-of-art/news-and-events/news/2013/kosofsky-sedgwick-resource/
+"(newwindow)Homosocial Art":http://www.huffingtonpost.com/g-roger-denson/yvonne-rainer-cindy-sherm_1_b_873652.html
+
+h5. Book reviews
+"(newwindow)Review of A Dialogue on Love;":http://www.salon.com/1999/09/27/sedgwick/
+"(newwindow)Review of <i>The Weather in Proust</i>":http://www.lambdaliterary.org/reviews/04/15/the-weather-in-proust-by-eve-kosofsky-sedgwick/
+
+
+
+Back to "LINKS":http://evekosofskysedgwick.net/links/
