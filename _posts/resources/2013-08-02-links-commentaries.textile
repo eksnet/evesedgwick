@@ -1,0 +1,71 @@
+---
+layout: resource
+published: true
+nav: resources
+category: links
+type: resource
+
+title: Commentaries
+---
+
+h5. Commentaries
+
+<b>Conferences</b>
+
+"(newwindow)After Eve":http://supervalentthought.com/2010/03/18/after-eve-in-honor-of-eve-kosofsky-sedgwick/
+Lauren Berlant, Tyler Curtain, Maurice Wallace, and Robyn Wiegman. Duke University 2010.
+
+"(newwindow)The Honoring Eve Symposium: Feminism and Queer Theory":http://www.bu.edu/honoringeve/about-the-symposium/
+Ed Cohen, Lee Edelman, Jonathan Flatley, Jonathan Goldberg, Bill Goldstein, Katy Hawkins, Joseph Litvak, Heather Love, Michael Moon, Tavia Nyong’o, Cindy Patton, Siobhan Somerville, Carolyn Williams. Boston University 2009.
+
+"(newwindow)When Feminism Rules: Assessing Governance Feminism Projects from the International to the Local":http://www.youtube.com/watch?v=RMx6X2ZD8dY
+Janet Halley. Boston University School of Law 2013.
+
+
+<b>By Eve Sedgwick</b>
+
+"(newwindow)Sedgwick Sense and Sensibility":http://nideffer.net/proj/Tvc/interviews/20.Tvc.v9.intrvws.Sedg.html
+Interview by Mark Kerr and Kristin O'Rourke in Thresholds: Viewing Culture, 1995. 
+
+Recorded comments "(newwindow) One":http://blip.tv/sf-online/eve-kosofsky-sedgwick-comments-1-3091554 and "(newwindow) Two":http://blip.tv/sf-online/eve-kosofsky-sedgwick-comments-2-3091566
+From Conference in honor of Carolyn G. Heilbrun, Columbia University, 2005.
+
+"(newwindow)"Jane Austen and the Masturbating Girl":http://criticalinquiry.uchicago.edu/uploads/pdf/Sedgwick,_Jane_Austen_and_the_Masturbating_Girl.pdf
+PDF of article in Critical Inquiry, 1991.
+
+
+<b>Book Reviews</b>
+
+"(newwindow)Between Men":http://ir.uiowa.edu/cgi/viewcontent.cgi?article=1120&context=wwqr 
+C. Carroll Hollis in the Walt Whitman Quarterly, 1986.
+
+"(newwindow)Touching Feeling and Regarding Sedgwick":http://www.lrb.co.uk/v25/n05/elaine-showalter/vibrating-to-the-chord-of-queer
+Elaine Showalter in London Review of Books, 2003.
+
+"(newwindow)The Weather in Proust":http://www.lambdaliterary.org/reviews/04/15/the-weather-in-proust-by-eve-kosofsky-sedgwick/
+Chase Dimock in Lambda Literary, 2012.
+
+
+<b>Other</b>
+
+Mary M. Alcaro, "(newwindow)My Dear Holmes: Examining Sedgwick’s Theory of Homosociality in The Sign of Four":http://www.academia.edu/2123334/My_Dear_Holmes_Examining_Sedgwicks_Theory_of_Homosociality_in_The_Sign_of_Four on Academia.edu
+
+Emily Apted, "(newwindow)New Conjunctions":http://www.bu.edu/honoringeve/files/2009/09/eve-kosofsky-sedgwick-artforumcom-_-in-print.pdf in Art Forum, 2009
+
+Lauren Berlant, "(newwindow)Eve Sedgwick, Once More":http://criticalinquiry.uchicago.edu/uploads/pdf/Berlant,_Sedgwick_Once_More.pdf
+Critical Inquiry 2009
+
+Gavin Brown, Kath Browne, Michael Brown, Gerda Roelvink, Michelle Carnegie, and Ben Anderson, "(newwindow)Sedgwick's Geographies: Touching Space":http://phg.sagepub.com/content/35/1/121.full.pdf+html in Progress in Human Geography, 2011.
+
+Jane Hu, "(newwindow)I'm Nobody: Eve Sedgwick After Death":http://www.theawl.com/2013/05/eve-sedgwick-after-death in The Awl, 2013.
+
+Vincent Quinn, "(newwindow)Loose reading? Sedgwick, Austen and critical practice":http://www.academia.edu/1465010/Loose_reading_Sedgwick_Austen_and_critical_practice_-_edited_version on Academia.edu.
+
+Maria Russo,"(newwindow)The reeducation of a queer theorist: Battling cancer, a nice male psychoanalyst and her own sexual demons, the diva of queer theory learned a new way of living":http://www.salon.com/1999/09/27/sedgwick/ in Salon, 1999.
+
+Philomila Tsoukala, "(newwindow)Reading A Poem Is Being Written":http://www.law.harvard.edu/students/orgs/jlg/vol331/339-348.pdf in Harvard Journal of Law and Gender, 2010.
+
+J. Keith Vincent, "(newwindow)Imitation and Desire in Sedgwick and Soseki":http://www.academia.edu/3673395/Imitation_and_Desire_in_Sedgwick_and_Soseki in Proceedings of the Association for Japanese Literary Studies, 2010.
+
+
+Back to "LINKS":http://evekosofskysedgwick.net/links/
