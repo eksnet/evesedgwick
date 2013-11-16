@@ -4,20 +4,22 @@ Zotero library folder name
 Name of index file in folder
 EKS.net URL for archived site
 
-Duke University Press
+Bay Area Reporter
+The Bay Area Reporter Online | Queer theory pioneer Eve Sedgwick dies
+RQBBEBP9
+article.html
+http://evekosofskysedgwick.net/externals/resources/links/obits/RQBBEBP9/article.html
+
+Duke University Press 
 Duke University Press Log: Eve Kosofsky Sedgwick, 1950-2009
-UAE4RWPN
+VSJF46TP
 eve-kosofsky-sedgwick-19502009.html
-/externals/resources/links/obits/UAE4RWPN/eve-kosofsky-sedgwick-19502009.html
+http://evekosofskysedgwick.net/externals/resources/links/obits/VSJF46TP/eve-kosofsky-sedgwick-19502009.html
 
-Guardian (U.K.)
-Obituary: Eve Kosofsky Sedgwick | Books | The Guardian
-HU6XPXZ8
-eve-kosofsky-sedgwick-obituary-queer-theory.html
-/externals/resources/links/obits/HU6XPXZ8/eve-kosofsky-sedgwick-obituary-queer-theory.html
 
-Inside Higher Education
-Eve Kosofsky Sedgwick, 1950-2009 | Inside Higher Ed
-UDW4SDJ9
-eve-kosofsky-sedgwick-1950-2009.html
-/externals/resources/links/obits/UDW4SDJ9/eve-kosofsky-sedgwick-1950-2009.html
+New York Times (Week in Review)
+Lit Critics Who Peer Under the Covers
+T79IUXSG
+19cohen.html
+http://evekosofskysedgwick.net/externals/resources/links/obits/T79IUXSG/19cohen.html
+

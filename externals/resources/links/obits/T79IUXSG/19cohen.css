@@ -1,0 +1,1025 @@
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/loginModal.css ::::: */
+
+.loginModalForm .labelContainer { text-align: right; width: 120px; }
+.loginModalForm .insetV { margin: 4px 0px 0px; }
+.loginModalForm label { color: rgb(0, 0, 0); font-size: 11px; line-height: 13px; }
+.loginModalForm .fieldContainer, .loginModalForm .insetContainer { padding-left: 130px; }
+.loginModalForm .passwordControl .labelDescription { position: absolute; top: 18px; right: 0px; line-height: 12px; }
+.loginModalForm .loginSubmitControl .control { margin-bottom: 0px; }
+.loginModalForm .loginSubmitControl .labelContainer { text-align: left; width: auto; }
+.loginModalForm .loginSubmitControl .checkboxControl { margin-top: 5px; width: 110px; }
+.loginModalForm .loginSubmitControl .checkboxControl .labelContainer { padding-left: 0px; }
+.loginModalForm .checkboxLabel { display: inline-block; margin-top: 3px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/modalForms.css ::::: */
+
+.modalForm label, .modalForm .error, .nytModalContent .notificationContainer { font-family: arial,helvetica,sans-serif; }
+.modalForm input, .modalForm label, .modalForm textarea, .modalForm select { font-size: 11px; line-height: 13px; color: rgb(0, 0, 0); }
+.modalForm input { vertical-align: middle; }
+.modalForm .containingBlock { position: relative; }
+.modalForm a { color: rgb(0, 66, 118); text-decoration: none; }
+.modalForm a:visited { color: rgb(102, 102, 153); }
+.modalForm a:hover { text-decoration: underline; }
+.modalForm .hidden { display: none ! important; }
+.modalForm .errorContainer, .nytModalContent .notificationContainer { position: relative; }
+.modalForm .error, .nytModalContent .notification { margin: 0px 0px 1em; font-size: 12px; line-height: 15px; }
+.modalForm .error, .nytModalContent .errorNotification { color: rgb(168, 24, 23); }
+.modalForm .applicationButtonInactive { background-color: rgb(191, 191, 191); }
+.modalForm .submitLoader { display: inline; }
+.modalForm .submitLoader img { vertical-align: middle; }
+.horizontalModalFormControl .labelContainer { width: 120px; text-align: right; }
+.horizontalModalFormControl .fieldContainer { padding-left: 130px; }
+.horizontalModalFormControl .fieldContainer .error { margin-bottom: 0px; }
+.horizontalModalFormControl .checkboxControl .fieldContainer { width: 143px; text-align: right; }
+.horizontalModalFormControl .checkboxControl .labelContainer { width: auto; text-align: left; padding-left: 149px; }
+.horizontalModalFormControl .checkboxLabel { display: inline-block; margin-top: 3px; }
+.horizontalModalFormControl .buttonControl .fieldContainer { padding-left: 100px; }
+.horizontalModalFormControl .applicationButton { margin-left: 31px; }
+.horizontalModalFormControl .submitLoader { position: absolute; left: 102px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/loginModal.css ::::: */
+
+.loginModalForm .labelContainer { text-align: right; width: 120px; }
+.loginModalForm .insetV { margin: 4px 0px 0px; }
+.loginModalForm label { color: rgb(0, 0, 0); font-size: 11px; line-height: 13px; }
+.loginModalForm .fieldContainer, .loginModalForm .insetContainer { padding-left: 130px; }
+.loginModalForm .passwordControl .labelDescription { position: absolute; top: 18px; right: 0px; line-height: 12px; }
+.loginModalForm .loginSubmitControl .control { margin-bottom: 0px; }
+.loginModalForm .loginSubmitControl .labelContainer { text-align: left; width: auto; }
+.loginModalForm .loginSubmitControl .checkboxControl { margin-top: 5px; width: 110px; }
+.loginModalForm .loginSubmitControl .checkboxControl .labelContainer { padding-left: 0px; }
+.loginModalForm .checkboxLabel { display: inline-block; margin-top: 3px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/nytModal.css ::::: */
+
+.nytModalCloseContainer, .nytModal, .nytModalPointer { position: absolute; }
+.nytModalContainer { position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483644; }
+.nytOverlay { position: fixed; bottom: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); z-index: 2147483645; opacity: 0.5; }
+.nytModal { border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); box-shadow: 0px 1px 3px rgb(170, 170, 170); text-align: left; z-index: 2147483646; }
+.nytModal.blue { border: 1px solid rgb(197, 211, 225); background-color: rgb(230, 239, 248); }
+.nytModal .inset { margin: 10px; }
+.nytModalHeader { margin-bottom: 4px; }
+.nytModalHeading, .nytModalClose { font-family: arial,helvetica,sans-serif; }
+.nytModalHeading { margin: 0px; font-size: 10px; line-height: 14px; font-weight: bold; text-transform: uppercase; color: rgb(0, 0, 0); }
+.nytModal .opposingFloatControl:after, .nytModal .wrap:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.nytModal .opposingFloatControl, .nytModal .wrap { display: block; }
+.nytModal .opposingFloatControl .element1 { float: left; }
+.nytModal .opposingFloatControl .element2 { float: right; }
+.nytModalClose { display: block; height: 13px; padding-right: 18px; font-size: 10px; line-height: 13px; text-transform: uppercase; text-decoration: none; color: rgb(0, 0, 0) ! important; background: url('close-dialog-box-icon.gif') no-repeat scroll right top transparent; }
+.nytModalClose:hover { text-decoration: underline; }
+.nytModalClose.hideText { padding-right: 0px; width: 13px; }
+.nytModal .singleRule { border-top: 1px solid rgb(204, 204, 204); margin-bottom: 12px; padding-top: 8px; clear: both; }
+.nytModal .nytModalContent { margin-bottom: 20px; }
+.nytModalPointerDown { left: 48%; background: url('pointer-down.png') no-repeat scroll left top transparent; height: 13px; width: 11px; }
+.nytModalPointerLeft { top: 48%; left: -10px; background: url('pointer-left.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.nytModalPointerRight { top: 48%; right: -10px; background: url('pointer-right.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.nytModalPointerUp { left: 48%; top: -8px; background: url('pointer-up.png') no-repeat scroll left top transparent; height: 8px; width: 12px; }
+.nytModal.blue .nytModalPointerDown { background-image: url('pointer-down-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerLeft { background-image: url('pointer-left-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerRight { background-image: url('pointer-right-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerUp { background-image: url('pointer-up-blue.png'); background-color: transparent; }
+.nytModalPointerDown {  }
+.nytModalPointerLeft {  }
+.nytModalPointerRight {  }
+.nytModal.blue .nytModalPointerDown {  }
+.nytModal.blue .nytModalPointerLeft {  }
+.nytModal.blue .nytModalPointerRight {  }
+.nytModal.growl { color: white; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8); border-radius: 10px; border: medium none; font-size: 2.5em; font-family: arial,helvetica,sans-serif; font-weight: bold; }
+.nytModal.growl .nytModalHeader { display: none; }
+.nytModal.growl .singleRule { border: medium none; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/mobileBanner.css ::::: */
+
+#mobileBanner + #shell { margin: 165px auto 0px; }
+.mobileBanner { background-color: rgb(235, 235, 235); border-bottom: 4px solid rgb(17, 17, 17); box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25); font-size: 3.2em; line-height: 1.125em; min-height: 60px; overflow: hidden; position: absolute; padding: 10px 0px 100px; top: -7px; text-align: center; width: 980px; z-index: 120000001; }
+.mobileBanner .bannerClose { background-position: 42px -160px; height: 154px; left: 0px; top: 0px; text-indent: -999em; width: 128px; }
+.mobileBanner .bannerClose, .mobileBanner .bannerMessage { background-image: url('close_arrow_34x173_sprite.png'); background-repeat: no-repeat; background-size: 54px auto; position: absolute; }
+.mobileBanner strong { color: rgb(0, 0, 0); }
+.mobileBanner a, .mobileBanner a:visited { color: rgb(17, 17, 17); }
+.mobileBanner .bannerMessage { border-left: 2px solid rgb(204, 204, 204); background-position: 94% 39px; color: rgb(17, 17, 17); font-family: arial,helvetica,sans-serif; font-size: 1.469em; line-height: 1.1063em; left: 136px; margin: 9px 0px 0px; padding: 16px 170px 20px 70px; text-shadow: 0px 2px 0px rgb(255, 255, 255); }
+@media screen and (orientation: landscape) {
+  #mobileBanner + #shell { margin: 84px auto 0px; }
+  #mobileBanner { padding: 12px 0px 20px; }
+  .mobileBanner .bannerMessage { background-position: 94% 5px; background-size: 42px auto; font-size: 1em; line-height: 1.0625em; left: 102px; padding: 12px 150px 12px 60px; }
+  .mobileBanner .bannerClose { background-position: 30px -126px; background-size: 38px auto; height: 120px; width: 104px; }
+}
+
+/* ::::: http://graphics8.nytimes.com/css/common/global.css ::::: */
+
+body { background-color: white; font: small Georgia,serif; }
+@media print {
+  body { background-image: url('dcs.gif'); }
+}
+html > body { font: 84.5% Georgia,serif; }
+h1, h2, h3, h4, h5 { color: black; }
+a { color: rgb(0, 66, 118); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:visited { color: rgb(102, 102, 153); }
+img { border: medium none; text-decoration: none; }
+form { padding: 0px; width: 0px; display: inline; }
+ul { margin: 0px; padding: 0px; list-style: none outside none; }
+ol { margin: 0px; padding: 0px; }
+li { margin: 0px; padding: 0px; }
+#nagBar { display: none; }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/general.css ::::: */
+
+body { margin: 0px; padding: 13px 0px; text-align: center; }
+ul, ol { padding-left: 0px; margin-left: 18px; }
+ul li { list-style: none outside none; }
+* html ul li { height: 1%; }
+.clearfix:after, .wrap:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clearfix, .wrap { display: inline-block; }
+* html .clearfix, * html .wrap { height: 1%; }
+.clearfix, .wrap { display: block; }
+.hidden { display: none; }
+.doubleRule { clear: both; border-width: 0px ! important; height: 4px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left center transparent; margin-top: 12px; margin-bottom: 12px; }
+.singleRule { clear: both; border-top: 1px solid rgb(204, 204, 204); height: 1px; margin-top: 12px; margin-bottom: 12px; font-size: 0px; line-height: 0; }
+#nagBar { display: none; }
+div#shell { display: block; position: relative; width: 971px; margin: 0px auto; text-align: left; border-left: 1px solid rgb(153, 153, 153); font-size: 90%; }
+div#shell ul.tabs { display: block; padding: 0px; margin: 0px; white-space: nowrap; text-transform: uppercase; z-index: 5500; vertical-align: middle; font-family: Arial,Helvetica,sans-serif; }
+div#shell ul.tabs li { margin: 0px; display: block; float: left; background-color: rgb(240, 244, 245); border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 1px 1px 0px; white-space: nowrap; padding: 4px 7px 3px; z-index: 6000; background-image: none; }
+div#shell ul.tabs li.selected { background-color: white; border-bottom: medium none; z-index: 9999; padding: 4px 7px; }
+div#shell div.tabContent { clear: both; border-top: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); padding: 7px; margin: 0px; display: none; }
+div#shell div.tabContent.tabContentActive { display: block; }
+div#shell div.tabContent ol { margin-top: 0px; margin-bottom: 5px; }
+div#shell div.tabContent ol li { padding-top: 3px; padding-bottom: 3px; }
+div#login { position: relative; padding: 0px; margin: 0px; top: 0px; text-align: left; z-index: 5000; width: 100%; min-height: 20px; white-space: nowrap; vertical-align: bottom; font-size: 10px; }
+div#login ul.tabs { float: none; left: 0px; top: 0px; min-height: 19px; }
+div#login ul.tabs li { min-height: 11px; font-size: 10px; border-color: rgb(153, 153, 153); }
+div#login ul.tabs li a { color: rgb(51, 51, 51); }
+div#login ul.tabs, div#login ul#memberTools { min-height: 17px; }
+ul#memberTools { font-size: 11px; display: block; text-align: right; margin: 0px; padding: 2px 0px 0px; white-space: nowrap; width: auto; float: right; vertical-align: middle; font-family: Arial,sans-serif; border: 0px none ! important; position: relative; z-index: 9998; }
+ul#memberTools li { font-size: 12px; margin: 0px; background-image: none; display: inline; white-space: nowrap; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 0px 1px; padding: 0px 4px; }
+ul#memberTools li:first-child { border-left-width: 0px; }
+ul#memberTools li span.username a { font-weight: bold; }
+ul#memberTools li img#memberTool_TimesSelect { vertical-align: bottom; }
+ul#memberTools li.tslogo { padding-left: 0px; border: medium none; }
+ul#memberTools li.tslogo a { color: rgb(0, 0, 0); }
+ul#memberTools li img#memberTool_TimesSelect { border-left: 0px none; padding: 2px 6px 2px 4px; }
+#timesSelectDropDown { background-color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); padding: 10px 0px 0px; position: absolute; top: 17px; left: 0px; text-align: left; visibility: hidden; width: 113px; z-index: 9999; }
+#timesSelectDropDown.dropDown { left: 855px ! important; }
+#timesSelectDropDown ul { color: rgb(102, 102, 102) ! important; font-family: Arial,Helvetica,sans-serif; font-size: 95%; font-weight: bold; list-style-type: none; margin: 0px 0px 10px; padding: 0px; text-transform: uppercase; }
+#timesSelectDropDown.dropDown ul { font-size: 80%; }
+#timesSelectDropDown ul li { background: none repeat scroll 0% 0% transparent ! important; display: block; font-size: 100%; margin: 0px; padding: 0px 0px 0px 5px; border: medium none; }
+#timesSelectDropDown a { display: block; height: 10px; margin: 0px 0px 0px -5px; padding: 2px 10px; text-transform: none; font-weight: normal ! important; }
+#timesSelectDropDown a:link, #timesSelectDropDown a:visited { color: rgb(0, 66, 118); }
+#timesSelectDropDown li.sect a { color: rgb(102, 102, 102) ! important; text-transform: uppercase; }
+div#page { position: relative; z-index: 1; clear: both; border-top: 1px solid rgb(153, 153, 153); border-right: 1px solid rgb(153, 153, 153); top: -1px; }
+div#masthead { margin: 0px; padding: 7px 0px 0px 9px; position: relative; min-height: 48px; overflow: hidden; border-bottom: 2px solid black; clear: both; }
+img#NYTLogo { margin-top: 4px; }
+div#masthead div#date { font-size: 12px; }
+div#masthead h1 { text-align: center; position: absolute; display: block; top: 19px; left: 308px; font-size: 29px; width: 223px; margin: 0px; padding: 0px; vertical-align: baseline; font-family: Arial,Helvetica,sans-serif; }
+div#masthead h1 a { color: rgb(0, 0, 0); text-decoration: none; }
+div#searchWidget { position: relative; float: right; font-size: 8pt; margin-right: 7px; width: 197px; font-family: Arial,Helvetica,sans-serif; }
+div#searchWidget #searchInputs { padding: 0px; margin: 2px 0px 0px; min-height: 21px; vertical-align: bottom; }
+div#searchWidget #searchInputs .inputGroup { float: left; margin: 0px 0px 5px; width: 140px; }
+div#searchWidget #searchInputs .inputGroup li { float: left; clear: right; margin-right: 5px; white-space: nowrap; margin-top: 2px; }
+div#searchWidget #searchInputs .inputGroup input { position: relative; display: inline; padding: 0px; margin: 0px; }
+div#searchWidget input { margin: 0px; padding: 0px; }
+div#searchWidget input#searchQuery { display: block; width: 100%; height: 19px; }
+div#searchWidget input#searchSubmit { float: right; }
+div#Middle1 { margin-right: 7px; float: right; text-transform: uppercase; width: 88px; overflow: hidden; font-size: 9px; text-align: center; font-family: Arial,Helvetica,sans-serif; }
+div#Middle1 img { display: block; margin-bottom: 1px; }
+div#nytSearchWidget { position: relative; float: right; font-size: 91.6%; margin-right: 7px; width: 197px; white-space: nowrap; }
+* html div#nytSearchWidget { margin-right: 4px; }
+div#nytSearchWidget label { font-family: Arial,Helvetica,sans-serif; display: block; margin: 0px 0px 2px; }
+div#nytSearchWidget input { vertical-align: middle; }
+div#nytSearchWidget input#searchQuery { width: 163px; margin: 0px 2px 0px 0px; height: 12px; font-size: 100%; }
+#adxLeaderboard { clear: both; text-align: center; padding: 5px 0px; border-bottom: 1px solid rgb(211, 211, 211); }
+#adxLeaderboard:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#adxLeaderboard > table { margin: auto; }
+* html #adxLeaderboard { height: 1%; padding: 5px 0px; }
+div#main { border-top: 1px solid rgb(255, 255, 255); clear: both; margin-top: 15px; padding: 0px 0px 7px; }
+div#main:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+* html #main { height: 1%; }
+#movies { display: none; }
+div.story { margin-bottom: 8px; }
+div.story:first-child { margin-top: 0px; }
+div.story h1, div.story h2, div.story h3, div.story h4, div.story h5 { font-weight: bold; line-height: inherit; margin: 0px; padding: 0px; font-size: 125%; font-family: Georgia,"Times New Roman",Times,serif; }
+.byline { color: rgb(128, 128, 128); font-family: Arial,Helvetica,sans-serif; font-size: 86%; }
+span.timestamp, div.story div.byline span.timestamp { color: rgb(168, 24, 23); }
+div.story p.summary { margin: 2px 0px 0px; font-size: 100%; font-family: Georgia,"Times New Roman",Times,serif; line-height: 1.35em; color: rgb(51, 51, 51); }
+div.story div.kicker { color: black; text-transform: uppercase; font-family: Arial,Helvetica,sans-serif; font-size: 90%; line-height: 1.3em; }
+div.story div.callout, img.callout { float: right; margin-left: 24px; margin-bottom: 12px; font-size: 92%; font-family: Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); }
+.callout .credit { font-size: 91%; }
+div#main div.bColumn div.story div.callout { margin-left: 0px; }
+div.story div.callout div.calloutTools { float: right; }
+div.story div.callout div.calloutTools a.enlargeTool { display: block; padding-left: 10px; background: url('enlarge_icon.gif') no-repeat scroll 0px 0px transparent; }
+div.story div.callout img { border: medium none; padding: 0px; }
+div.story div.callout div.credit { text-align: right; color: rgb(102, 102, 102); }
+div#main div.bColumn div.story h1, div#main div.bColumn div.story h2, div#main div.bColumn div.story h3, div#main div.bColumn div.story h4, div#main div.bColumn div.story h5 { font-size: 100%; }
+div#main #abColumns div#readersOpinionsColumnGroup.columnGroup div.story h5 { font-size: 85%; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+.pageFooter { clear: both; border-top: 2px solid rgb(0, 0, 0); border-bottom: 1px solid rgb(153, 153, 153); }
+.pageFooter .inset { margin: 13px 0px 13px 10px; }
+.pageFooterNavList { margin-left: 0px; }
+.pageFooterNavList li { float: left; margin: 0px; padding: 0px 7px; font-size: 0.904em; line-height: 1.273em; font-family: arial,helvetica,sans-serif; border-left: 1px solid rgb(204, 204, 204); background-image: none; }
+.pageFooterNavList li:first-child { padding-left: 0px; border-left: medium none; }
+.pageFooterNavList a, .pageFooterNavList a:link, .pageFooterNavList a:visited { color: rgb(102, 102, 102); }
+div#footer { text-align: center; clear: both; border-top: 2px solid black; border-bottom: 1px solid rgb(153, 153, 153); padding: 13px 0px; display: block; font-size: 90%; font-family: Arial,Helvetica,sans-serif; }
+div#footer a { color: rgb(102, 102, 102); text-decoration: underline; }
+div#footer a.rssButton, div#footer a.rssButton:visited { padding: 1px 0px 5px 19px; background: url('feed_icon_16x16.gif') no-repeat scroll left top transparent; }
+div#footer a.copyright { color: rgb(0, 0, 0); text-decoration: none; }
+div#footer div.footerRow { padding: 0px 0px 10px; }
+div#footer ul { display: inline; list-style: none outside none; margin: 0px; padding: 0px 0px 0px 4px; }
+div#footer ul li { display: inline; border-left: 1px solid rgb(204, 204, 204); padding: 0px 5px 0px 9px; background: none repeat scroll 0% 0% transparent; }
+div#footer ul li.first { padding-left: 0px; border-left: medium none; }
+.linkbox { cursor: pointer; }
+div.columnGroup a.more { display: block; font-family: Arial,Helvetica,sans-serif; font-size: 85%; }
+div.columnGroup div.columnGroupTools { float: right; font-family: Arial,Helvetica,sans-serif; font-size: 90%; }
+div.columnGroup h4 { font-weight: normal; margin: 0px 0px 7px; padding: 0px; color: black; text-transform: uppercase; font-family: Arial,Helvetica,sans-serif; font-size: 86%; display: block; }
+div.columnGroup > h5 { font-weight: normal; margin: 0px 0px 7px; padding: 0px; color: black; text-transform: uppercase; font-family: Arial,Helvetica,sans-serif; font-size: 86%; display: block; }
+div.columnGroup.advertisementColumnGroup div.textAdvertisement, div.columnGroup.advertisementColumnGroup div.ad_section { padding-left: 7px; font-family: Arial,Helvetica,sans-serif; margin-bottom: 12px; }
+div.columnGroup.advertisementColumnGroup div.textAdvertisement a.titleLink, div.columnGroup.advertisementColumnGroup div.ad_section a.title_link { display: block; font-size: 90%; }
+div.columnGroup.advertisementColumnGroup div.textAdvertisement span.adText, div.columnGroup.advertisementColumnGroup div.ad_section span.ad_text, div.columnGroup.advertisementColumnGroup div.textAdvertisement span.visibleUrl, div.columnGroup.advertisementColumnGroup div.ad_section span.visible_url { display: block; font-size: 80%; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails { list-style: none outside none; padding: 0px; margin: 0px; background: none repeat scroll 0% 0% transparent; display: inline-block; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li { margin: 6px; display: inline-block; float: left; width: 88px; overflow: visible; vertical-align: top; position: relative; font-size: 80%; font-family: Arial,Helvetica,sans-serif; background: none repeat scroll 0% 0% transparent; text-align: left; line-height: 1.2em; word-wrap: break-word; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li a { line-height: 1.2em; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li.clearfix { float: none; clear: both; height: 0px; line-height: 0; overflow: hidden; margin: 0px; padding: 0px; display: block; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li a { line-height: 1em; }
+div.columnGroup.advertisementColumnGroup ul.advertisementThumbnails li img { display: block; margin-bottom: 3px; }
+div.customSelectContainer { margin: 0px; display: block; position: relative; background: url('searchSelect.gif') no-repeat scroll left top transparent; height: 15px; width: 98px; padding: 4px 0px 0px 4px; overflow: hidden; font-family: Arial,Helvetica,sans-serif; font-size: 85%; }
+div.customSelectContainer select { opacity: 0; position: absolute; top: 0px; left: 0px; width: 102px; }
+ul.refer { font-family: Arial,Helvetica,sans-serif; margin: 0px; padding: 0px; list-style: none outside none; font-size: 92%; color: rgb(51, 51, 51); }
+ul.refer li, ul.refer li.free { background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; }
+h5 .audio, h5 .graphic, h5 .interactive, h5 .photo, h5 .slideShow, h5 .trailer, h5 .video { font-family: Arial,Helvetica,sans-serif; font-size: 95%; text-transform: uppercase; padding-left: 15px; background-repeat: no-repeat; }
+.media { margin: 0px 0px 4px ! important; float: none ! important; }
+h5 a span.iconText { font-family: Arial,Helvetica,sans-serif; font-size: 80%; }
+#articleInline #inlineMultimedia .story img, .media img { display: block; margin-bottom: 0px; margin-top: 15px; }
+#articleInline #inlineMultimedia .story h2 { margin-top: 2px; }
+#articleInline #inlineMultimedia .story .mediaType, .aColumn #inlineMultimedia .story .mediaType, .media .mediaType { display: block; width: 166px; padding: 3px 4px 4px 20px ! important; font-size: 77%; font-family: arial,sans-serif; line-height: 13px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); background-position: 3px 4px; background-repeat: no-repeat; opacity: 0.8; margin-top: -20px; cursor: pointer; }
+.mediaType.audio { background-image: url('audio_icon.gif'); }
+.mediaType.graphic { background-image: url('graphic_icon.gif'); }
+.mediaType.interactive { background-image: url('interactive_icon.gif'); }
+.mediaType.photo { background-image: url('photo_icon.gif'); }
+.mediaType.trailer { background-image: url('trailer_icon.gif'); }
+.mediaType.slideShow { background-image: url('photo_icon.gif'); }
+.mediaType.map { background-image: url('map_icon.gif'); }
+.mediaType.video { background-image: url('video_icon.gif'); }
+.mediaType.trailer { background-image: url('trailer_icon.gif'); }
+.mediaType.audio, .mediaType.graphic, .mediaType.interactive, .mediaType.photo, .mediaType.trailer, .mediaType.slideShow, .mediaType.map, .mediaType.video, .mediaType.trailer { background-position: 4px center; background-repeat: no-repeat; }
+.refer li .inlinePlayer { margin-left: -8px; }
+.inlinePlayer { background: none repeat scroll 0% 0% white; border-style: solid; border-color: rgb(226, 226, 226); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px; padding: 3px 4px 2px; margin-top: 4px; }
+.tsIcon, #articleInline #inlineMultimedia .story .tsIcon { display: none ! important; }
+.hideContent { display: none; }
+span.dateLine, div.story div.byline span.dateLine { color: rgb(128, 128, 128); }
+.dropDownModal { position: relative; }
+.dropDownModalLinkContainer { position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 100000001; }
+.dropDownModalLink { display: inline-block; background: url('toggle_down_icon_9x5.gif') no-repeat scroll right center transparent; padding-right: 14px; }
+.dropDownModalBox { position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 100000000; }
+#memberTools #profileDropDownModal { display: inline-block; }
+.profileDropDownModal .dropDownModalLinkContainer { padding: 0px 4px 0px 0px; height: 20px; right: 0px; font-size: 1em; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; border-bottom: medium none; top: -16px; text-align: center; }
+.profileDropDownModalOpened .dropDownModalLinkContainer { height: 22px; border-color: rgb(204, 204, 204); right: -1px; padding-right: 5px; }
+.profileDropDownModal .dropDownModalLink { margin: 4px 0px 0px 4px; text-decoration: none; }
+.profileDropDownModalOpened .dropDownModalLink { color: rgb(0, 0, 0); text-decoration: none; background-image: url('toggle_up_icon_9x5.gif'); }
+.profileDropDownModal .dropDownModalBox { padding: 0px; right: -1px; top: 6px; width: 170px; box-shadow: 1px 0px 2px rgb(153, 153, 153); }
+#profileDropDownModal .dropDownModalMenu .lastItem { border: 0px none; }
+.profileDropDownModal .inset { margin: 6px 6px 5px; }
+#profileDropDownModal .dropDownModalMenu li { line-height: 2.3; font-size: 1em; display: list-item; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 1px; text-align: left; overflow: hidden; }
+.profileDropDownModal ul { padding: 0px; margin: 0px; }
+.profileDropDownModal .runaroundLeft { float: left; clear: left; display: inline; margin: 2px 6px 6px 0px; }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/promos.css ::::: */
+
+.bColumn .columnGroup { padding-bottom: 4px ! important; }
+.cColumn .columnGroup { padding-top: 12px ! important; padding-bottom: 4px ! important; }
+#aColumn .specialSectionHeader, .aColumn .specialSectionHeader { font-family: Arial,Helvetica,sans-serif; font-weight: bold; font-size: 140%; margin-bottom: 8px; }
+#aColumn .specialSectionHeader .subheader, .aColumn .specialSectionHeader .subheader { display: block; font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size: 70%; margin-bottom: 1px; }
+#aColumn .specialSectionHeader img, .aColumn .specialSectionHeader img { float: left; }
+#aColumn .noSubheader img, .aColumn .noSubheader img { float: none; }
+.columnGroup h3 { margin-top: 4px ! important; }
+.branded { color: transparent; background-position: 0px 0px; background-repeat: no-repeat; display: block; padding: 20px 0px 0px; height: 0px; overflow: hidden; margin: 0px 0px 9px; clear: both; }
+.branded a { margin-top: -18px; display: block; width: 190px; height: 18px; text-indent: -3000px; }
+.columnGroup .CollDisplayName, .columnGroup h3.icon, .columnGroup h3.promo { font-family: Arial,Helvetica,sans-serif ! important; font-size: 120% ! important; font-weight: bold ! important; margin: 0px 0px 8px; }
+.cColumn h4 { margin-bottom: 6px ! important; }
+.cColumn h4 a, .CollDisplayName a, h3.icon a, h3.promo a { color: black; }
+.columnGroup h3.icon { height: 20px; padding-left: 23px ! important; background-repeat: no-repeat; }
+.columnGroup h3.promo img { float: left; margin-right: 8px; margin-bottom: 10px ! important; }
+.bColumn .subheader, .cColumn .subheader { font-family: Arial,Helvetica,sans-serif; font-size: 95%; display: block; margin-top: -5px ! important; margin-bottom: 7px; }
+.bColumn .columnGroup .branded + .subheader { margin-top: -9px ! important; }
+.cColumn h4 img { vertical-align: top; }
+.editPromo h5 a { font-weight: normal; }
+.cColumn h5 { font-size: 100% ! important; }
+.columnGroup h3 + .story { border-top: 0px none; padding-top: 0px; }
+.borderTop { border-top: 1px solid rgb(204, 204, 204); padding-top: 12px; margin-bottom: 12px ! important; }
+.cColumn .columnGroup .story:first-child .bColumn .columnGroup .story:first-child { border-top: 0px none; padding-top: 6px; }
+.bColumn .callout { margin-left: 0px ! important; }
+.bColumn .thumbnail { margin-left: 12px ! important; }
+.bColumn .columnGroup .callout.span, .bColumn .columnGroup .callout.media { margin: 0px 0px 4px ! important; float: none ! important; }
+.bColumn .callout.span { margin: 0px 0px 24px ! important; float: none ! important; clear: left; }
+.bColumn ul, .cColumn ul { margin: 0px 0px 4px; line-height: 1.3em; }
+.bColumn ol, .cColumn ol { line-height: 1.3em; }
+.specialSectionHeader img { vertical-align: middle; }
+.bColumn ol { margin-left: 23px ! important; }
+* html .bColumn ol { margin-left: 27px ! important; }
+.bColumn ul li, .cColumn ul li { background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; }
+#apr h5, .bColumn ul h5, .bColumn ol h5, .cColumn ul h5, .cColumn ol h5, .bColumn .external_feed h5 { font-weight: normal ! important; }
+.bColumn .kicker { clear: left; }
+.bColumn .byline { margin-bottom: 3px; }
+.bColumn .columnGroup .more { font-size: 92%; }
+.cColumn .more { font-family: Arial,Helvetica,sans-serif ! important; font-size: 90% ! important; }
+.bColumn .more { font-family: Arial,Helvetica,sans-serif ! important; line-height: 1.4em; margin-top: 5px ! important; }
+.story .more { margin-top: 8px ! important; }
+.more:last-child { margin-top: 8px; margin-bottom: 8px; display: block ! important; }
+.bColumn h4 a { color: black; }
+.bColumn .adCreative { text-align: right ! important; padding-top: 7px ! important; font-size: 80% ! important; }
+.bColumn .adCreative img { float: right ! important; display: block ! important; margin: 0px ! important; }
+.columnGroup .subColumnA, .columnGroup .editColumn { width: 173px; float: left; display: inline; margin-right: 13px ! important; border: medium none ! important; clear: left; }
+.columnGroup .subColumnB, .columnGroup .searchColumn { width: 134px ! important; float: left; display: inline; margin-left: 6px ! important; margin-right: 6px ! important; border: medium none ! important; clear: right; }
+#adxBigAd { clear: both; text-align: center; margin-bottom: 12px; }
+#adxBigAd h4 { text-align: left; }
+.cColumn iframe { margin-bottom: 12px; }
+.cColumn iframe { margin-bottom: 12px; }
+#classifiedsWidget .tabContent { padding-left: 0px ! important; padding-right: 0px ! important; padding-bottom: 0px ! important; }
+#classifiedsWidget .tabContent .summary { line-height: 110% ! important; margin-bottom: 6px ! important; }
+#classifiedsWidget #allClassifieds .kicker, #classifiedsWidget #allClassifieds .refer { margin-left: 7px ! important; margin-right: 7px ! important; }
+#classifiedsWidget .story { margin-bottom: 12px ! important; }
+#classifiedsWidget .callout { margin-left: 12px ! important; }
+#classifiedsWidget .editColumn .kicker, #classifiedsWidget .editColumn .refer, #classifiedsWidget .searchColumn .kicker, #classifiedsWidget .searchColumn .refer { margin-left: 0px ! important; margin-right: 0px ! important; }
+#classifiedsWidget .story .refer { font-size: inherit; }
+#classifiedsWidget .refer { font-family: Arial,Helvetica,sans-serif ! important; font-size: 85%; }
+#classifiedsWidget .tabContent:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+* html #classifiedsWidget .tabContent { height: 1%; }
+#classifiedsWidget .tabContent .subColumns { padding-left: 0px ! important; padding-right: 0px ! important; }
+#classifiedsWidget .tabContent .subColumnA, #classifiedsWidget .tabContent .editColumn { width: 173px; float: left; display: inline; margin-left: 6px ! important; margin-right: 6px ! important; border: medium none ! important; }
+#classifiedsWidget .tabContent .subColumnB, #classifiedsWidget .tabContent .searchColumn { width: 134px ! important; float: left; display: inline; margin-left: 6px ! important; margin-right: 6px ! important; border: medium none ! important; }
+* html #classifiedsWidget .tabContent .subColumnB { margin-left: 0px ! important; }
+#classifiedsWidget .tabContent .story h5 { font-size: 100% ! important; }
+#classifiedsWidget .tabContent .kicker { font-family: Arial,Helvetica,sans-serif; font-weight: normal; font-size: 90%; text-transform: uppercase; margin: 0px 0px 2px ! important; clear: left; }
+#classifiedsWidget .tabContent .subColumnA ul, #classifiedsWidget .tabContent .subColumnB ul { margin: 0px ! important; font-family: Arial,Helvetica,sans-serif; font-size: 90%; line-height: 140%; }
+#classifiedsWidget .tabContent .subColumnA li, #classifiedsWidget .tabContent .subColumnB li { background: none repeat scroll 0% 0% transparent ! important; padding-left: 2px ! important; }
+#classifiedsWidget .tabContent .subheader { font-family: Arial,Helvetica,sans-serif; font-size: 80%; display: block; margin-top: -3px ! important; margin-bottom: 7px; }
+#classifiedsWidget .tabContent .refer { margin-bottom: 10px; clear: both; }
+#classifiedsWidget .tabContent .searchForm { float: left; display: inline; width: 134px ! important; margin: 0px 0px 12px ! important; }
+#classifiedsWidget .tabContent .searchForm input#searchQuery { width: 128px; margin-bottom: 4px; }
+#classifiedsWidget .tabContent .searchForm input#searchSubmit { float: left; display: inline; clear: none ! important; }
+#classifiedsWidget .tabContent .searchForm .more { float: right; display: inline; margin-top: 5px; font-size: 0.8em ! important; }
+#classifiedsWidget .tabContent .announcement { width: 305px ! important; height: auto ! important; padding: 7px ! important; margin: 4px 7px 7px ! important; background-color: rgb(239, 239, 239) ! important; }
+#classifiedsWidget .tabContent .announcement p.summary { margin: 0px ! important; }
+#classifiedsWidget .tabContent .announcement .callout { width: 120px; height: 60px; margin-bottom: 0px ! important; overflow: hidden; border: medium none; }
+#classifiedsWidget .tabContent .advertisement { clear: both; width: 318px; padding: 7px 0px 0px ! important; margin: 0px 7px 7px ! important; border-top: 1px solid rgb(204, 204, 204); }
+#jobMarket .advertisement .kicker, #jobMarket .advertisement .summary, #jobMarket .advertisement .refer { float: right ! important; clear: none ! important; width: 172px ! important; }
+#classifiedsWidget .tabContent .advertisement .callout { float: left ! important; display: inline; width: 171px; height: 96px; border: 1px solid rgb(204, 204, 204); overflow: hidden; margin-left: 0px ! important; margin-right: 13px; }
+#classifiedsWidget .tabContent .story.advertisement h5, #classifiedsWidget .tabContent .story.announcement h5 { font-family: Arial,Helvetica,sans-serif ! important; font-size: 90% ! important; margin-bottom: 0px ! important; line-height: 120% ! important; }
+#classifiedsWidget .tabContent .story.advertisement h5, #classifiedsWidget .tabContent .story.advertisement p.summary { display: block; }
+#classifiedsWidget .tabContent .story.advertisement p.summary, #classifiedsWidget .tabContent .story.announcement p.summary { font-family: Arial,Helvetica,sans-serif ! important; font-size: 90% ! important; line-height: 120% ! important; margin-bottom: 6px ! important; color: rgb(0, 0, 0) ! important; letter-spacing: -0.01em; word-spacing: -0.15em; }
+#classifiedsWidget .tabContent .advertisement .adCreative { float: left ! important; }
+#classifiedsWidget .tabContent .searchColumn #moduleAd { clear: both; margin: 0px ! important; border: medium none; text-align: center; }
+#jobMarket .adCreative { float: left ! important; width: 120px ! important; height: 60px ! important; padding: 7px ! important; margin: 0px 6px 0px 0px; background: none repeat scroll 0% 0% rgb(239, 239, 239); overflow: hidden; }
+#classifiedsWidget .tabContent .searchColumn .adCreative { width: 120px ! important; height: 60px ! important; float: none ! important; background: none repeat scroll 0% 0% rgb(239, 239, 239); padding: 7px; text-align: center; overflow: hidden; }
+#classifiedsWidget .tabContent .searchColumn .adCreative img { text-align: center; float: none ! important; margin: 0px; padding: 0px; }
+.inlineVideo { padding-top: 8px; width: 316px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; }
+.inlineVideo iframe { margin-left: -10px; margin-right: -10px; }
+.inlineVideo.left { float: left; margin-right: 15px; }
+.inlineVideo.right { float: right; margin-left: 15px; }
+.inlineVideo h3 { float: left; display: inline; margin: 0px; font-family: Arial,Helvetica,sans-serif; }
+.inlineVideo .more { float: right; font-family: Arial,Helvetica,sans-serif; }
+#articleBody .inlineVideo { margin-top: 6px; }
+#articleBody .inlineVideo h3 { font-size: 91.6%; }
+#articleBody .inlineVideo .more { font-size: 73.3%; text-decoration: none; }
+#articleBody .inlineVideo a { text-decoration: none; }
+#articleBody .inlineVideo a:hover { text-decoration: underline; }
+#redCarpetHeadline { background-image: url('red_carpet.gif'); }
+#timesSelectHeadline { background-image: url('promo_head_ts.gif'); }
+#timesPulseHeadline { background-image: url('times_pulse_headline.gif'); }
+#playHeadline { background-image: url('play_headline.gif'); }
+#travelMagazineHeadline { background-image: url('promo_head_tstyle.gif'); }
+#dinersJournalHeadline { background-image: url('dinersjournal_180x18.gif'); }
+#thePourHeadline { background-image: url('thepour_180x18.gif'); }
+#dealBookHeadline { background-image: url('dealbook_newpromo.gif'); }
+#dealBookNewsletterHeadline { background-image: url('dealbook_newsletter_190x18.gif'); }
+#newark2006Headline { background-image: url('newark06_190x18.gif'); }
+#bbcSubheader { background-image: url('bbc_subheader.gif'); }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/navigation.css ::::: */
+
+.navigation, #navigation { display: block; position: relative; clear: both; text-align: center; overflow: visible; border-bottom: 1px solid rgb(211, 211, 211); }
+.navigation {  }
+* html #navigation.nochild { border-bottom: medium none ! important; }
+.navigation a, #navigation a { color: rgb(51, 51, 51); }
+#shell #navigation ul li { text-align: center; background-color: white; font-family: georgia,"times new roman",times,serif; font-size: 11px ! important; border-width: 0px 0px 1px 1px; border-color: rgb(211, 211, 211); vertical-align: top; padding: 7px 0px 0px; min-height: 18px; overflow: visible; background-image: none; }
+#shell #navigation ul li:first-child { border-left: medium none; }
+#shell #navigation ul li.selected { background-color: rgb(244, 244, 244); border-bottom: 1px solid rgb(244, 244, 244); }
+#shell #navigation ul #navJobs.selected, #shell #navigation ul #navRealestate.selected, #shell #navigation ul #navAutos.selected { background-color: rgb(244, 244, 244); }
+#navigation ul.tabs li ul { display: none; }
+.navigation .subNavigation ul, #navigation #subNavigation ul, #navigation ul.tabs li.selected ul { border-top: medium none; position: absolute; width: 940px; display: block; left: 0px; top: 26px; min-height: 19px; padding: 8px 15px 0px; text-align: center; background-color: rgb(244, 244, 244); list-style: none outside none; margin: 0px; white-space: nowrap; vertical-align: top; font-weight: normal; }
+.navigation .subNavigation ul, #navigation #subNavigation ul { position: static; clear: both; text-transform: uppercase; }
+.navigation .subNavigation ul li, #navigation #subNavigation ul li, #navigation ul.tabs li.selected ul li { border: medium none; font-family: arial,helvetica,sans-serif; background-color: rgb(244, 244, 244); text-align: center; display: inline; padding: 0px 4px 0px 6px; margin: 0px; float: none; font-weight: normal; }
+#navigation #subNavigation #subnavSports li { padding: 0px 4px; }
+#navigation #navWorld { min-width: 58px; }
+#navigation #navUS { min-width: 36px; }
+#navigation #navNYRegion { min-width: 89px; }
+#navigation #navBusiness { min-width: 71px; }
+#navigation #navTechnology { min-width: 96px; }
+#navigation #navScience { min-width: 65px; }
+#navigation #navHealth { min-width: 63px; }
+#navigation #navSports { min-width: 60px; }
+#navigation #navOpinion { min-width: 67px; }
+#navigation #navArts { min-width: 46px; }
+#navigation #navStyle { min-width: 52px; }
+#navigation #navTravel { min-width: 63px; }
+#navigation #navJobs { min-width: 48px; }
+#navigation #navRealestate { min-width: 85px; }
+#navigation #navAutos { min-width: 57px; }
+#shell #navigation #navJobs, #shell #navigation #navRealestate, #shell #navigation #navAutos { font-family: arial,helvetica,sans-serif; font-weight: bold; background-color: rgb(230, 239, 248); }
+#navigation #subNavigation #subnavWorld, #navigation #subNavigation #subnavUS, #navigation #subNavigation #subnavNYRegion, #navigation #subNavigation #subnavBusiness, #navigation #subNavigation #subnavTechnology, #navigation #navWorld.selected ul, #navigation #navUS.selected ul, #navigation #navNYRegion.selected ul, #navigation #navBusiness.selected ul, #navigation #navTechnology.selected ul { text-align: left; }
+#navigation #navStyle.selected #subnavStyle, #navigation #navTravel.selected #subnavTravel, #navigation #navJobs.selected #subnavJobs, #navigation #navRealestate.selected #subnavRealestate, #navigation #navAutos.selected #subnavAutos, #navigation #navStyle.selected ul, #navigation #navTravel.selected ul, #navigation #navJobs.selected ul, #navigation #navRealestate.selected ul, #navigation #navAutos.selected ul { text-align: right; }
+#navigation #subnavTravel { text-align: right ! important; }
+#navigation #subNavigation ul li.selected.children, #navigation ul.tabs li.selected ul li.selected.children { background: none repeat scroll 0% 0% white; border: 1px solid rgb(204, 204, 204); padding: 4px 10px 3px; font-weight: bold; }
+#navigation #subNavigation ul li.selected.children ul, #navigation ul.tabs li.selected ul li.selected ul { border-top: medium none; display: inline; position: static; width: auto; margin: 0px; padding: 0px; vertical-align: top; background: none repeat scroll 0% 0% transparent; font-weight: normal; }
+#navigation #subNavigation ul li.selected.children ul li, #navigation ul.tabs li.selected ul li.selected ul li { position: static; margin: 0px; background: none repeat scroll 0% 0% transparent; text-transform: none; }
+#navigation #subNavigation ul li.selected.children ul li a, #navigation ul.tabs li.selected ul li.selected.children ul li a { color: rgb(0, 66, 118); }
+#navigation #subNavigation ul li.selected.nochildren, #navigation ul.tabs li.selected ul li.selected.nochildren { font-weight: bold; }
+#navigation #subNavigation ul li.selected.children ul li.selected, #navigation ul.tabs li.selected ul li.selected.children ul li.selected { font-weight: bold ! important; background-color: white; padding: 0px 6px; }
+#navigation #subNavigation ul li.selected.nochildren, #navigation ul.tabs li.selected ul li.selected.nochildren { font-weight: bold; }
+#navigation #subNavigation #subnavArts li#subSubNav_specialoffers { background-color: rgb(230, 239, 248); border-left: 1px solid rgb(226, 226, 226); padding-top: 4px; padding-bottom: 3px; }
+#navigation #subNavigation #subnavArts li.selected.children { padding: 4px 0px 3px 10px; }
+#navigation #subNavigation #subnavSports #subNav_sportstickets a { font-weight: bold; color: rgb(0, 66, 118); font-size: 0.909em; }
+#navigation #subNavigation #subnavSports #subNav_sportstickets { border: 1px solid rgb(204, 204, 204); padding: 4px 6px 2px; position: relative; }
+#navigation.nochild {  }
+html > body div#abColumns.navNoChild { margin-top: 10px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/insideNYTimes.css ::::: */
+
+#insideNYTimes { clear: both; margin-bottom: 0px; padding-top: 4px; }
+#insideNYTimesHeader { position: relative; padding: 7px 10px 2px; border-bottom: 1px solid rgb(211, 211, 211); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#insideNYTimesHeader:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#insideNYTimesHeader h4 { font-size: 1.2em; text-transform: uppercase; margin-bottom: 6px; color: rgb(51, 51, 51); }
+#insideNYTimesScrollWrapper { width: 970px; overflow: hidden; }
+#insideNYTimes .navigation { position: absolute; top: 4px; right: 9px; }
+#insideNYTimes .navigation #leftArrow, #insideNYTimes .navigation #rightArrow { cursor: pointer; }
+#insideNYTimes #insideNYTimesBrowser { table-layout: fixed; width: auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#insideNYTimes #insideNYTimesBrowser { width: 970px; border-collapse: collapse; }
+#insideNYTimes #insideNYTimesScrollWrapper #insideNYTimesBrowser { width: auto; border-collapse: separate; }
+#insideNYTimes #insideNYTimesBrowser td { border-left: 1px solid rgb(211, 211, 211); text-align: left; vertical-align: top; width: 160px; margin: 0px; padding: 0px 0px 11px; }
+#insideNYTimesScrollWrapper #insideNYTimesBrowser td { width: 161px; }
+#insideNYTimes #insideNYTimesBrowser td.first { border-left-width: 0px; }
+#insideNYTimes #insideNYTimesBrowser .story { width: 151px; margin: 0px; padding: 0px 5px; }
+#insideNYTimesBrowser .kicker { margin-top: 13px; margin-bottom: 8px; }
+#insideNYTimesBrowser .mothImage { margin-bottom: 3px; }
+#insideNYTimesBrowser h3 { font-weight: normal; font-size: 2.2em; line-height: 1.091em; }
+#insideNYTimesBrowser .summary { margin: 0px; font-size: 1.4em; line-height: 1.214em; }
+.hidden { display: none; }
+.abColumn #insideNYTimes { margin-left: 10px; margin-right: 7px; background-color: rgb(255, 255, 255); }
+.abColumn #insideNYTimes:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.abColumn #insideNYTimes .leftPanel, .abColumn #insideNYTimes .rightPanel { width: 57px; float: left; text-align: center; padding-top: 100px; padding-bottom: 100px; height: 30px; }
+.abColumn #insideNYTimes #insideNYTimesBrowser { border-collapse: collapse; float: left; height: 230px; min-height: 230px; width: 480px; }
+.abColumn #insideNYTimes #insideNYTimesBrowser td { border-left: 1px solid rgb(211, 211, 211); border-right: 1px solid rgb(211, 211, 211); }
+.abColumn #insideNYTimesScrollWrapper { float: left; overflow: hidden; width: 484px; border-left: 1px solid rgb(211, 211, 211); border-right: 1px solid rgb(211, 211, 211); }
+.abColumn #insideNYTimesScrollWrapper #insideNYTimesBrowser { float: none; border-collapse: separate; width: auto; height: 230px; min-height: 230px; }
+.abColumn #insideNYTimesScrollWrapper #insideNYTimesBrowser td.first { border-left-width: 0px; }
+.abColumn #insideNYTimesScrollWrapper #insideNYTimesBrowser td { border-right: medium none; }
+.barTouchScroll { display: none; }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/mostpopular.css ::::: */
+
+#mostPopWidget { margin-bottom: 12px; padding-bottom: 0px ! important; border-bottom: 1px solid rgb(204, 204, 204) ! important; width: 335px; }
+#mostEmailed { display: block; overflow: hidden; }
+#mostBlogged, #mostSearched { display: none; overflow: hidden; }
+#mostPopWidget h4 { font-size: 90%; font-family: arial,helvetica,sans-serif; font-weight: bold; margin: 0px 0px 5px; padding: 0px; }
+#mostPopWidget div#tabsContainer { border-left: 1px solid rgb(204, 204, 204); position: relative; top: 1px; left: -1px; display: block; }
+#mostPopWidget ul.tabs { font-size: 10px; top: 0px; }
+#mostPopWidget ul.tabs li { position: relative; top: 0px; padding-left: 5px; padding-right: 5px; }
+#mostPopWidget ul.tabs li.selected {  }
+#mostPopWidget ul.tabs li:first-child { border-left-width: 1px; }
+#mostPopWidget ul.tabs li a { color: rgb(51, 51, 51); }
+#mostPopWidget ol { padding-left: 0px; margin-left: 26px; line-height: 1.3em; }
+#mostPopWidget a.more { font-size: 93% ! important; float: left; display: block ! important; margin-bottom: 8px; margin-top: 8px; }
+#mostPopWidget .moduleAd { border-top: medium none ! important; border-bottom: medium none; border-left: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); font-family: Arial,Helvetica,sans-serif; font-size: 95%; color: rgb(204, 204, 204); text-align: right; padding: 0px 5px 5px 0px ! important; margin-top: -25px; width: 328px; }
+#mostPopWidget .moduleAd:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#mostPopWidget .moduleAd .adCreative { border-top: 1px solid rgb(204, 204, 204); text-align: right; float: right; width: 316px; padding: 7px 0px 0px 5px; }
+#mostPopWidget .moduleAd .adCreative img { float: right; padding: 0px 0px 0px 5px; }
+
+/* ::::: http://graphics8.nytimes.com/css/article/screen/readercomments.css ::::: */
+
+#readerscomment { float: left; clear: left; width: 190px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top rgb(235, 241, 245); margin: 0px 10px 0px 0px; }
+#readerscomment h3 { font-family: Arial,Helvetica,sans-serif; font-weight: bold; font-size: 13px; margin: 5px 10px 0px; padding: 5px 15px; background: url('comment_black.gif') no-repeat scroll left center transparent; }
+#readerscomment .RCcontent, #readerscomment .content { padding: 10px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left bottom rgb(235, 241, 245); border-top: 1px solid white; }
+#readerscomment blockquote { margin: 0px; }
+#readerscomment cite { font-size: 12px; color: rgb(51, 51, 51); }
+#readerscomment .more { font-family: Arial,Helvetica,sans-serif; font-size: 11px; margin: 0px; }
+#readerscomment .more li { margin: 0px; line-height: 1.2em; }
+#readerscomment a { text-decoration: none ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/sharetools.css ::::: */
+
+#toolsList.shareMenuOpened { padding-bottom: 26px; }
+#shareMenu a, #shareMenu a:visited { color: rgb(51, 51, 51); outline: medium none; }
+#shareMenu.opened { background-color: white; border: 1px solid rgb(234, 232, 233); line-height: 1.4em; padding: 5px 10px; position: absolute; }
+#shareMenu.noAd { height: 105px ! important; }
+#shareMenu .shareButton { background: url('toolsicon_anim.gif') no-repeat scroll 0px 0px transparent; padding: 0px 0px 3px 20px; }
+#shareMenu.closed a.shareButton:hover { background: url('expand.gif') no-repeat scroll 0px 0px transparent; }
+#shareMenu.opened .shareButton { background: url('contract.gif') no-repeat scroll 0px 0px transparent; float: left; margin-bottom: 7px; margin-top: 2px; padding: 0px 0px 0px 20px; }
+#shareMenu .closeButton { background: url('close_window.gif') no-repeat scroll 4.1em 0px transparent; float: right; display: inline; margin-bottom: 7px; margin-top: 2px; padding: 0px 20px 0px 0px; }
+#shareMenu #shareList { border-top: 1px solid rgb(234, 232, 233); clear: both; display: inline-block; margin-left: 0px; padding: 8px 0px 0px; text-align: left; }
+#shareMenu #shareList.hidden { display: none; }
+#shareMenu #shareList li { background: none repeat scroll 0% 0% transparent; border-bottom: 0px none; border-right: 0px none; float: left; display: inline; margin-bottom: 0px; margin-left: 5px; padding: 5px 0px; width: 105px; }
+#shareMenu #shareList li#shareMenuAd { border-top: 1px solid rgb(234, 232, 233); margin-left: 0px; margin-top: 5px; padding-top: 7px; width: auto; }
+#shareMenu #shareList li a, #shareMenu #shareList li a:visited { background-repeat: no-repeat; padding: 2px 0px 3px 20px; display: inline; }
+#shareMenu #shareList li#shareMenuAd a { padding-left: 0px; }
+#shareMenu #shareList .shareSponsor { background: url('sharetools-sponsor.gif') no-repeat scroll 0px 0px transparent; clear: both; display: block; width: 115px; height: 13px; margin-bottom: 5px; margin-top: 0px; }
+#facebook_button, #linkedin_button, #twitter_button { cursor: pointer; background-repeat: no-repeat; padding: 0px 0px 3px 20px; background-position: -1px -1px; }
+#facebook_button { background-image: url('facebook.gif'); }
+#linkedin_button { background-image: url('linkedin.gif'); }
+#twitter_button { background-image: url('twitter.gif'); }
+#shareList .digg a { background-image: url('digg.gif'); }
+#shareList .facebook a { background-image: url('facebook.gif'); }
+#shareList .myspace a { background-image: url('myspace.gif'); }
+#shareList .permalink a { background-image: url('permalink.gif'); }
+#shareList .reddit a { background-image: url('reddit.gif'); }
+#shareList .tumblr a { background-image: url('tumblr.gif'); }
+#shareMenu #shareList #yahooBuzzBadge-form a { padding: 0px; }
+#shareMenu #yahooBuzzBadge-form span span { padding-left: 20px; width: 75px ! important; top: -3px ! important; }
+#shareMenu #yahooBuzzBadge-form span:hover { text-decoration: underline; }
+#shareMenu #shareList li.yahoobuzz { height: 14px ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/globalEdition/common.css ::::: */
+
+#masthead .globalEditionCobrand { width: 275px; margin-bottom: 3px; }
+#nytIhtMastheadLogo { display: block; }
+#globalEditionMastheadLogo { display: block; margin: 0px auto; }
+#nytIhtMastheadLogo, #globalEditionMastheadLogo { line-height: 0; }
+#withReutersMastheadLogo { margin-left: 5px; }
+#masthead .globalEditionPageHeader { margin-left: 280px; }
+#nytIhtMastheadLogo img { width: 175px; }
+#masthead .globalEditionPageHeader, #masthead div.globalEditionPageHeader h2 { width: 342px; top: 11px; }
+#branding, #withReutersMastheadLogo { display: inline; }
+#masthead div.globalEditionPageHeader h2 { margin-left: 0px; }
+#branding { float: left; width: 152px; margin-top: 4px; }
+#branding a, #branding a img { border: 0px none; margin: 0px; padding: 0px; }
+#masthead div.globalEditionPageHeader h1 { font-size: 24px ! important; line-height: 32px ! important; width: 342px ! important; top: 14px ! important; left: 288px ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/article/screen/intextlinks.css ::::: */
+
+a.intext { font-family: Arial,Helvetica,sans-serif; font-weight: bold; font-size: 85.4%; text-decoration: none ! important; padding: 0px 4px 0px 22px; }
+a.intext:hover, a.intext:active { text-decoration: underline ! important; }
+a.intext_article { background: url('icon_in_article.gif') no-repeat scroll 0px 0px transparent; }
+a.intext_video { background: url('icon_in_video.gif') no-repeat scroll 0px 0px transparent; }
+a.intext_photo { background: url('icon_in_photo.gif') no-repeat scroll 0px 0px transparent; }
+a.intext_map { background: url('icon_in_map.gif') no-repeat scroll 0px 0px transparent; }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/article.css ::::: */
+
+div#shell div#page div#main { clear: both; float: left; width: 100%; margin-bottom: 0px; padding: 0px; background: url('main_article_BG.gif') repeat-y scroll -1px top transparent; }
+div#shell div#page div#main.noBg { background: none repeat scroll 0% 0% transparent; }
+#main #aColumn { padding-left: 10px; float: left; width: 600px; }
+#main #bColumn { width: 336px; float: right; padding-right: 9px; }
+#spanHeader { text-align: center; margin: 10px 0px; }
+#aColumn h1 { font-size: 200%; font-weight: normal; margin: 0px 0px 10px; padding: 0px; }
+#aColumn h1.multiplePage { font-size: 150%; }
+#aColumn #article .kicker { text-transform: uppercase; font-family: arial,helvetica,sans-serif; font-size: 90%; color: rgb(0, 0, 0); }
+#aColumn #article .byline { font-family: arial,helvetica,sans-serif; font-weight: normal; color: rgb(128, 128, 128); font-size: 87%; }
+#aColumn #article .timestamp { font-family: arial,helvetica,sans-serif; font-weight: normal; color: rgb(128, 128, 128); font-size: 87%; }
+div#shell div#page div#main .cColumn div.columnGroup { border-top: 1px solid rgb(204, 204, 204); padding-top: 12px; }
+#articleBody { font-size: 125%; line-height: 1.5em; }
+#articleBody a { text-decoration: underline; }
+#articleBody #articleInline a:link { text-decoration: none; }
+#articleBody #articleInline a:hover { text-decoration: underline; }
+#articleBody .inlineLeft { margin-right: 15px ! important; }
+#articleBody span.bold { font-weight: bold; }
+#articleBody span.italic { font-style: italic; }
+#articleBody blockquote { font-size: 88%; color: rgb(51, 51, 51); line-height: 139%; }
+#articleBody .articleBodyList li { list-style-type: disc; margin-bottom: 12px; }
+#authorId { clear: both; font-style: italic; }
+ul.corrList span { font-family: arial,sans-serif; font-size: 73.1%; color: rgb(51, 51, 51); margin-left: 5px; }
+ul.corrList a { background: url('bullet4x4.gif') no-repeat scroll 0pt 0.6em transparent; padding: 0pt 0pt 0pt 8px; font-size: 99.8%; text-decoration: none ! important; }
+ul.corrList a:hover { text-decoration: underline ! important; }
+ul.corrList { margin-left: 0px; }
+.correctionNote { font-style: italic; }
+.correctionNote span.date { font-weight: bold; }
+#wideImage img { display: block; background: none repeat scroll 0% 0% transparent; }
+#wideImage.image { border-bottom: medium none; margin-bottom: 5px; background: none repeat scroll 0% 0% transparent; }
+#wideImage .credit { width: 100%; text-align: right; font-family: arial,helvetica,sans-serif; font-size: 70%; color: rgb(144, 144, 144); margin-bottom: 3px; }
+#wideImage p.caption { font-size: 91.6%; font-family: arial,helvetica,sans-serif; color: rgb(102, 102, 102); line-height: 1.2em; margin: 0px; padding: 0px; }
+#breakingNewsAlert { margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid rgb(234, 232, 233); }
+#breakingNewsAlert h2 { font-size: 145%; line-height: 1.2em; font-family: Times New Roman,Times,Serif; margin: 0px; padding: 0px; }
+#breakingNewsAlert .alertTime { font-family: arial,helvetica,sans-serif; font-size: 90%; color: rgb(153, 0, 0); font-weight: bold; }
+#articleBody .inlineVideo.left { float: left; clear: left; margin-top: 32px; }
+.inlineVideo.right { float: right; }
+.inlineVideo h3 { font-family: Arial,Helvetica,sans-serif; font-size: 83.3%; }
+#aColumn #article { width: 600px; clear: both; }
+#aColumn #articleExtras { width: 600px; margin-top: 1.5em; clear: both; }
+#relatedTopics { clear: both; float: left; margin-bottom: 15px; padding-bottom: 5px; }
+* html #relatedTopics { width: 100%; }
+#relatedTopics li { display: block; float: left; clear: both; width: 400px; }
+#relatedTopics li span { display: block; float: left; width: 262px; padding: 2px 0px; }
+#relatedTopics li span a { display: block; width: 250px; }
+body.wideAd #relatedTopics li span { width: 188px; }
+body.wideAd #relatedTopics li span a { width: 176px; }
+#relatedTopics li span.alert a { width: auto; }
+#relatedTopics li span.alert { padding: 2px 0px 2px 22px; width: 100px; background: url('add_content.gif') no-repeat scroll 0% 0% transparent; font-weight: bold; font-family: arial,sans-serif; font-size: 91.6%; }
+#relatedTopics form { margin: 0px; padding: 0px; }
+div.mentioned { margin-bottom: 27px; }
+#articleExtras h3 { font-family: arial,helvetica,sans-serif; font-size: 100%; padding: 0px; margin: 5px 0px; }
+#relatedArticles ul, #relatedTopics ul, #relatedBlogs ul { margin-left: 5px; }
+#relatedBlogs { margin-bottom: 1.5em; font-family: Georgia,"Times New Roman",sans-serif; }
+#relatedBlogs li { font-size: 100%; background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; }
+#relatedBlogs .timestamp { font-size: 80%; font-family: arial,helvetica,sans-serif; color: rgb(153, 0, 0); line-height: 1.3em; }
+#relatedBlogs .summary { font-size: 90%; margin-bottom: 0.5em; }
+#relatedBlogs li .summary { font-size: 100%; margin-bottom: 0.5em; line-height: 1.2em; }
+#relatedArticles { margin-bottom: 1.5em; }
+#relatedArticles li, #relatedTopics li { font-size: 100%; background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; }
+#relatedArticles .more { font-weight: bold; }
+#articleTips .summary { font-size: 100%; padding-bottom: 10px; }
+#articleExtras p { margin: 0px; }
+#pageLinks { font-family: arial,helvetica,sans-serif; text-align: right; padding-bottom: 2px; }
+#pageLinks a.next, #pageLinks a.previous { text-transform: uppercase; padding: 2px 4px 2px 5px; border: 1px solid rgb(0, 66, 118); font-size: 76%; text-decoration: none; font-weight: bold; }
+#pageLinks a.next:hover, #pageLinks a.previous:hover { border: 1px solid rgb(153, 0, 0); }
+#pageNumbers { margin: 0.5em 0.2em 0.5em 10px; font-weight: bold; font-family: arial,helvetica,sans-serif; display: inline; position: relative; }
+#pageNumbers li { font-size: 86%; font-weight: bold; display: inline; padding-right: 0.7em; margin-right: 0.7em; padding-left: 0em; margin-left: 0em; border-right: 1px solid rgb(153, 153, 153); }
+#pageNumbers li:last-child { border: medium none; padding-right: 0px; }
+#aColumn .nextArticleLink, #aColumn .nextArticleLink a { margin: 4px 0px; clear: both; font-family: arial,helvetica,sans-serif; font-size: 90%; font-weight: bold; text-decoration: none; }
+#aColumn .nextArticleLink a { float: right; }
+#aColumn .nextArticleLink a:hover { text-decoration: underline; }
+#aColumn .nextArticleLink span { color: rgb(170, 170, 170); float: left; font-size: 83.3%; font-weight: normal; line-height: 1.4em; margin: 8px 0px 0px; width: 350px; }
+#bColumn .columnGroup .nextArticleLink { font-family: arial,helvetica,sans-serif; font-size: 100%; font-weight: bold; }
+* html #aColumn .nextArticleLink { top: 1.5em; }
+#adxCircBottom { padding-bottom: 15px; margin-bottom: 10px; text-align: left; }
+#masthead #Bar3, #adxCircBottom a, #adxCircBottom font { font: bold 100% arial,helvetica,sans-serif; color: rgb(0, 66, 118); }
+#masthead #Bar3 { font-weight: normal; }
+#aColumn #adxSponLink { width: 460px; }
+#aColumn #adxSponLink iframe { margin-bottom: 10px; }
+.articleTools { border-left: 1px solid rgb(234, 232, 233); border-right: 1px solid rgb(234, 232, 233); float: right; margin: 5px 0px 5px 5px; width: 130px; }
+.toolsContainer { position: relative; margin: 0px; border-top: 1px solid rgb(234, 232, 233); border-bottom: 1px solid rgb(234, 232, 233); }
+.toolsContainer ul.toolsList { padding: 0px; margin: 9px 12px 7px 14px; clear: both; }
+.articleTools .toolsContainer ul.toolsList li { padding: 5px 0px 2px; margin-bottom: 1px; font-family: arial,helvetica,sans-serif; font-size: 80%; line-height: 1.4em; text-transform: uppercase; list-style-image: none; border-bottom: 1px solid rgb(234, 232, 233); }
+.articleTools .toolsContainer ul.toolsList li.last { border-bottom: medium none; }
+.articleTools .toolsContainer ul.toolsList li a { color: rgb(51, 51, 51); font-size: 10px; line-height: 13px; display: block; }
+.expandedToolsRight { float: right; width: 140px; margin: 0px 0px 10px; }
+.extrasLeft {  }
+body.wideAd .extrasLeft, body.wideAd #adxCircBottom, body.wideAd #adxCircBottom table { width: 318px; }
+.articleToolsCollapsed { width: 118px; }
+#emailThis input { background-image: url('tools_email.gif'); background-repeat: no-repeat; padding: 0px 0px 1px 16px; margin: 0px; background-color: rgb(255, 255, 255); border-style: none; text-decoration: underline; color: rgb(0, 0, 102); cursor: pointer; font-size: 100%; }
+#adxToolSponsor { padding: 5px; }
+#adxToolSponsor .label { margin-left: 4px; margin-bottom: 4px; }
+* html #emailThis input { padding: 0px 0px 1px 8px; margin-bottom: 0px; }
+.articleTools ul.toolsList .email form { margin: 0px; }
+.articleTools ul.toolsList .email a, #emailThisButton a { background-image: url('tools_email.gif'); background-repeat: no-repeat; padding: 0px 0px 3px 20px; }
+.articleTools ul.toolsList .comments a { background-image: url('comment_black.gif'); background-repeat: no-repeat; padding: 2px 0px 3px 20px; }
+.articleTools ul.toolsList .print a { background-image: url('tools_print.gif'); background-repeat: no-repeat; padding: 0px 0px 3px 20px; }
+.articleTools ul.toolsList .singlePage a { background-image: url('tools_single.gif'); background-repeat: no-repeat; padding: 0px 0px 3px 20px; }
+.articleTools ul.toolsList .reprints a { background-image: url('tools_reprints.gif'); background-repeat: no-repeat; padding: 0px 0px 3px 20px; }
+.articleTools ul.toolsList .timespeople_btn_recommend a { background-image: url('recommend.gif'); background-repeat: no-repeat; padding: 0px 0px 3px 20px; }
+.articleTools .toolsContainer ul.toolsList .savepage { display: none; }
+#shareMenu.closed { height: 16px ! important; width: 104px ! important; }
+#toolsList li.opened { margin-top: -2px; right: -1px; z-index: 100000; }
+.articleTools #shareList li { font-size: 100%; }
+.show { display: block; }
+.hide, .hidden { display: none ! important; }
+#articleInline h2 { font-weight: normal; }
+#articleInline { display: block; margin: 4px 15px 10px 0px; float: left; }
+#inlineBox { width: 190px; }
+#articleInline a { text-decoration: none; }
+#articleInline h3.promo, #articleInline h4 { font-family: arial,helvetica,sans-serif; font-size: 95%; line-height: 1.4em; font-weight: bold ! important; margin: 0px; }
+#articleInline h2 { font-size: 100%; }
+#articleInline .story h2 { font-size: 100%; line-height: 0.8em; }
+#articleInline h5 img, #articleInline h2 img { vertical-align: middle; margin-bottom: 0px; }
+#articleInline .story h5 { font-size: 90%; line-height: 1.4em; }
+#articleInline h4 a, #articleInline h3 a { color: black; }
+#articleInline .subheader { font-family: arial,helvetica,sans-serif; font-size: 90%; display: block; margin-top: -5px; margin-bottom: 7px; line-height: 1em; }
+#articleInline .branded + .subheader { margin-top: 0px; }
+#articleInline .subheader { line-height: 120%; margin-top: 3px; }
+#articleInline .story p.summary { font-size: 90%; line-height: 1.4em; }
+#articleInline .story { margin-top: 8px; padding: 0px; }
+#articleInline .story img { margin-bottom: 8px; }
+#articleInline .kicker { text-transform: uppercase; font-family: arial,helvetica,sans-serif; font-size: 80%; color: rgb(0, 0, 0); }
+#articleInline .doubleRule { margin-top: 0px; }
+#inlineReadersOpinion, #inlineMultimedia, #sidebarArticles, #sectionPromo, .sectionPromo { background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; padding-top: 15px; padding-bottom: 10px; margin-bottom: 0px; }
+.image { padding-bottom: 1px; }
+.image img { margin: 0px; padding: 0px 0px 1px; }
+#articleInline .callout.span, #articleInline .callout.media { margin-left: 0px; }
+#articleInline .image .credit { text-align: right; font-family: arial,helvetica,sans-serif; font-size: 9px; line-height: 11px; color: rgb(144, 144, 144); margin-bottom: 3px; padding: 0px; }
+#articleInline .image .caption { font-size: 73.5%; font-family: arial,helvetica,sans-serif; color: rgb(102, 102, 102); margin: 0px; padding: 0px; line-height: 1.2em; }
+#articleInline .image .caption strong { color: rgb(0, 0, 0); }
+#articleInline .image { margin-bottom: 10px; }
+#wideImage { margin-top: 12px; }
+#wideImage .credit { text-align: right; font-size: 9px; }
+.image .enlargeThis { display: block; text-align: right; margin-bottom: 2px; }
+.image .enlargeThis a { font-family: arial,helvetica,sans-serif; font-size: 76%; padding-left: 15px; background-image: url('enlarge_icon_001.gif'); background-repeat: no-repeat; background-position: left center; text-decoration: none; }
+#inlineMultimedia .story { margin-bottom: 10px; padding-bottom: 10px; border-top: 1px solid rgb(204, 204, 204); }
+#inlineMultimedia .story.first { border-top: 0px none; }
+#inlineMultimedia .kicker { text-transform: uppercase; font-family: arial,helvetica,sans-serif; font-size: 90%; color: rgb(0, 0, 0); margin: 0px; padding: 0px; }
+#inlineMultimedia h2, #inlineMultimedia h2 a { font-size: 80%; line-height: 1.4em; margin: 0px; padding: 0px; }
+#inlineMultimedia h3 { font-size: 70%; margin: 0px; padding: 0px; }
+#inlineMultimedia .summary { line-height: 1.4em; margin: 0px; padding: 0px; }
+#inlineMultimedia .story img { margin-top: 12px; }
+#inlineMultimedia .headlineWrapper { padding-top: 8px; }
+#articleInline img.thumbnail { float: left; margin: 0px 8px 8px 0px; }
+#articleInline .kickerImage img { border: 0px none; }
+#articleInline img.header { margin: 0px 0px 4px 1px; padding: 0px; display: block; }
+#inlineReadersOpinion h2, #inlineReadersOpinion p, #sidebarArticles h2, #sidebarArticles p { margin: 5px 1px; font-size: 100%; font-weight: normal; }
+#inlineReadersOpinion h4, #sidebarArticles h4 { margin: 5px 1px; font-size: 95%; font-weight: normal; }
+#inlineReadersOpinion h2 a, #inlineReadersOpinion .story h2 a { margin: 0px; padding: 0px; font-size: 80%; font-weight: normal; }
+#sidebarArticles li { font-size: 100%; background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; margin-top: 1em; }
+#sidebarArticles h2, #sidebarArticles.story h2 { margin: 6px 0px; padding: 0px; font-size: 80%; line-height: 1.4em; font-weight: normal; }
+#sidebarArticles a { font-size: 80%; line-height: 1.4em; margin-top: 6px; display: block; }
+#sidebarArticles h2 a, #sidebarArticles.story h2 a { padding: 0px; font-size: 100%; font-weight: normal; margin: 0px; display: inline; }
+#sectionPromo .subheader { font-weight: bold; margin-top: 1em; }
+#inlineCobrand { font-family: arial,Helevetica,sans-serif; font-size: 69%; line-height: 1.4em; margin-bottom: 12px; }
+#inlineCobrand img.header { display: block; }
+#inlineCobrand .box { margin-top: 4px; border: 1px solid rgb(204, 204, 204); padding: 11px; }
+#inlineCobrand h4, #inlineCobrand ul { margin: 0px 0px 1em; font-size: 100%; }
+#inlineCobrand li { font-size: 100%; background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 10px; background-position: 0px 0.45em; }
+#articleInline ul { margin: 0px 0px 4px; line-height: 1.3em; }
+#articleInline ul li { background-image: url('bullet4x4.gif'); background-repeat: no-repeat; padding: 0px 0px 0px 8px; background-position: 0px 0.45em; }
+#articleInline ul, #articleInline ol { font-size: 90%; line-height: 1.3em; }
+#articleInline .more { font-family: arial,helvetica,sans-serif; font-size: 80%; margin-top: 0px; }
+#articleInline p.nitf { margin: 0px; }
+.jumpLink { display: none; }
+body.printerversion #articleInline { float: right; }
+body.printerversion .byline { font-weight: bold; }
+#bColumn div.columnGroup { border-top: 1px solid rgb(204, 204, 204); padding-top: 12px; padding-bottom: 12px; }
+#bColumn div.columnGroup:first-child { border-top: medium none; padding-top: 0px; }
+#bColumn #adxBigAd { text-align: center; padding-top: 12px; }
+#adxBigAd.columnGroup { text-align: center; padding-top: 0px; }
+#adxBigAd table { margin: auto; }
+#adxBigAd h4 { margin: 0px; padding: 0px 0px 3px; font-family: arial,helvetica,San Serif; font-size: 78%; color: rgb(153, 153, 153); }
+#adxMiddle { margin-bottom: 15px; }
+#advertiserLinks { border: 1px solid rgb(222, 222, 222); font-family: arial,helvetica,sans-serif; overflow: hidden; }
+#advertiserLinks h4 { font-size: 93%; font-weight: normal; text-transform: uppercase; margin: 0px; background-color: rgb(239, 239, 239); padding: 2px 6px; color: rgb(153, 153, 153); border-bottom: 1px solid rgb(222, 222, 222); }
+#advertiserLinks table { margin: 10px 0px; width: 100%; }
+#advertiserLinks td { padding: 0px 10px; font-family: arial,helvetica,sans-serif; }
+#advertiserLinks td.gutter { padding: 0px; background-color: rgb(239, 239, 239); width: 1px; }
+#advertiserLinks a { text-decoration: none; }
+#advertiserLinks li { padding-bottom: 0.7em; }
+#advertiserLinks h5 { font-size: 100%; margin: 0px; padding: 0px; text-decoration: underline; font-weight: bold; }
+#advertiserLinks p { margin: 0px; padding: 0px; }
+#advertiserLinks .description { font-size: 86%; }
+#advertiserLinks .adUrl { font-size: 79%; }
+* html #advertiserLinks .adUrl { overflow: hidden; word-wrap: break-word; width: 150px; }
+#advertiserLinkImg { text-align: center; margin: 0px; padding: 0px; }
+#adTextLinkImg img { border: medium none; }
+#adxSponLink { width: 100%; }
+#adxSponLink iframe { margin-bottom: 10px; }
+div#shell div#page div#main div#insideNYTimes div#insideNYTimesHeader h4 { font-size: 98.6% ! important; margin-top: 0px ! important; padding: 0px ! important; }
+div#shell div#page div#main div#insideNYTimes { height: auto ! important; }
+div#shell div#page div#main div#insideNYTimes.doubleRule { background-position: left top; padding-top: 4px; }
+div#shell div#page div#main div#insideNYTimes .navigation { border: medium none; clear: none; }
+#insideNYTimes #insideNYTimesBrowser td, #insideNYTimes #insideNYTimesBrowser th {  }
+#insideNYTimes #insideNYTimesBrowser .story { margin-bottom: 0px ! important; }
+#insideNYTimes #insideNYTimesBrowser .story .kicker { font-size: 82.25% ! important; line-height: 140%; font-family: arial,helvetica,sans-serif; text-transform: uppercase; }
+#insideNYTimes #insideNYTimesBrowser .story .kicker a { color: rgb(0, 0, 0); font-weight: normal; }
+#insideNYTimes #insideNYTimesBrowser .story h3 { font-size: 180.8%; line-height: 109.1%; }
+#insideNYTimes #insideNYTimesBrowser .story .summary { font-size: 115.1% ! important; line-height: 121.5%; }
+#insideNYTimes #insideNYTimesBrowser .story .headline { font-weight: normal; font-size: 98.6% ! important; margin-top: 0px ! important; margin-bottom: 0px ! important; }
+#sponsoredLinks { font-family: arial,helvetica,sans-serif; clear: both; }
+#sponsoredLinks #header { padding: 1px; background: none repeat scroll 0% 0% rgb(244, 244, 244); font-family: arial,helvetica,sans-serif; }
+#header h4 { color: rgb(153, 153, 153); font-weight: normal; margin: 0px 0px 0px 2px; padding: 0px 0px 0px 2px; float: left; text-decoration: none; text-transform: uppercase; font-size: 90%; }
+#header .whatIs a { font-size: 90%; float: right; text-transform: lowercase; }
+#adContent { padding: 10px; }
+#adContent .ad, #adContent .ad a:link, #adContent .ad a:visited { padding-bottom: 10px; font-size: 90%; font-family: arial,helvetica,sans-serif; color: rgb(0, 66, 118); }
+.tableless { font-family: arial,helvetica,sans-serif; font-size: 86%; position: relative; }
+.tableless img { margin: 10px 5px 10px 0px; }
+.tableless img.inline { margin: 0px; position: relative; bottom: -3px; }
+.tableless p { margin: 0px; }
+#bColumn .columnGroup.advertisementColumnGroup h4 { background: none repeat scroll 0% 0% rgb(244, 244, 244); font-weight: normal; color: rgb(102, 102, 102); padding: 6px 8px; display: block; font-size: x-small; font-family: arial,sans-serif; margin-bottom: 2px; text-transform: uppercase; }
+#page div#masthead h1 { top: 19px; left: 215px; width: 440px; }
+#nytStoreBox { background: none repeat scroll 0% 0% rgb(246, 246, 245); font-family: arial,helvetica,sans-serif; margin-bottom: 10px; }
+#nytStoreBox #nytStoreHeader { background: none repeat scroll 0% 0% rgb(123, 142, 170); padding-top: 4px; padding-bottom: 4px; text-align: center; }
+#nytStoreBox #storeItem { background: none repeat scroll 0% 0% rgb(246, 246, 245); padding: 15px 0px 15px 15px; }
+#nytStoreBox #storeItem img { background: none repeat scroll 0% 0% rgb(246, 246, 245); float: left; width: 90px; height: 90px; padding-right: 10px; }
+#nytStoreBox #storeItem .text { background: none repeat scroll 0% 0% rgb(246, 246, 245); font-size: 90%; padding-top: 20px; padding-right: 10px; }
+#nytStoreBox #storeItem .link { font-weight: bold; }
+#nytStoreBox #storeItem .clear { clear: both; background: none repeat scroll 0% 0% rgb(255, 255, 255); visibility: hidden; }
+.cColumn { width: 336px; }
+.cColumn-TextAdsBox { clear: both; overflow: auto; padding: 10px 9px 10px 10px; font-family: arial,sans-serif; font-size: 90%; }
+* html .cColumn-TextAdsBox { height: 1%; }
+.cColumn-TextAdsLeft { text-align: left; width: 180px; float: left; }
+.cColumn-TextAdsLeft .cColumn-TextAdsHeader { font-weight: bold; }
+.cColumn-TextAdsLeft .cColumn-TextAd { margin: 0px 0px 1em; padding: 0px; }
+.cColumn-TextAdsLeft .cColumn-TextAd br { margin: 0px; padding: 0px; overflow: hidden; line-height: 0; }
+.cColumn-TextAdsBox font { font-size: 100%; }
+.cColumn-TextAdsRight { float: right; }
+#aColumn .sphereLink { float: left; margin-top: 4px; }
+#aColumn .sphereLink a { background: url('sphereicon.gif') no-repeat scroll left top transparent; padding: 0px 0px 0px 20px; font-size: 90%; text-decoration: none; }
+#aColumn .sphereLink a:hover { text-decoration: underline; }
+#aColumn .nextArticleLink.sphereIt { float: right; clear: none; margin-top: 0px; width: 300px; }
+.video { background-image: url('video_icon.gif'); }
+.icon { background-position: left center; background-repeat: no-repeat; padding-left: 16px; }
+body.wideAd div#shell div#page div#main { background-position: -133px top; }
+body.wideAd #mostPopWidget { width: 467px; }
+body.wideAd #main #aColumn, body.wideAd #aColumn #article, body.wideAd #aColumn #articleExtras, body.wideAd #main #bColumn { width: 468px; }
+.expiredAd { position: absolute; background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); width: 400px; height: 62px; z-index: 900010; font-family: georgia,'times new roman',serif; color: rgb(68, 68, 68); padding: 14px; font-size: 91.6%; line-height: 1.4; text-align: left; }
+.expiredAd p { margin: 0px 0px 1em; }
+.expiredAd .close { display: block; width: 53px; height: 25px; background: url('close.gif') no-repeat scroll 0% 0% transparent; text-indent: -10000px; overflow: hidden; }
+ul.articleAdTools { list-style: none outside none; margin: 5px 5px 0px 0px; padding: 0px; }
+#bColumn ul.articleAdTools { width: 331px; }
+ul.articleAdTools li { background: none repeat scroll 0% 0% transparent; margin: 0px; padding: 0px; float: right; }
+ul.articleAdTools li a { font-size: 10px; font-family: arial,helvetica,sans-serif; text-transform: uppercase; padding-left: 15px; }
+ul.articleAdTools li.perma { border-left: 1px solid rgb(226, 226, 226); padding-left: 5px; margin-left: 5px; }
+ul.articleAdTools li.email a { background: url('emailthis.gif') no-repeat scroll 0px 50% transparent; }
+ul.articleAdTools li.perma a { background: url('permalink_001.gif') no-repeat scroll 0px 50% transparent; }
+#PushDown { border-bottom: 1px solid rgb(211, 211, 211); clear: both; padding: 0px 0px 5px; }
+#shell { position: relative; }
+#main { position: relative; }
+#XXL { margin-bottom: 10px; }
+#FixedPanel { position: fixed; }
+body.wideAd div#shell div#page div#main { background-position: -133px top; }
+body.wideAd #mostPopWidget { width: 467px; }
+body.wideAd #main #aColumn, body.wideAd #aColumn #article, body.wideAd #aColumn #articleExtras, body.wideAd #main #bColumn, body.wideAd #wideImage { width: 468px; }
+body.wideAd #bColumn ul.articleAdTools { width: 463px; }
+
+/* ::::: null ::::: */
+
+#memberTools { height: 18px; }
+#memberTools li#duallink { border: medium none; margin: 0px 8px 0px 0px; float: left; width: 113px; padding: 0px; }
+#nyt-button-sub { background: url('btn_subscribenow2.gif') no-repeat scroll 0px 0px transparent; cursor: pointer; display: block; height: 16px; position: relative; width: 113px; }
+#nyt-button-sub:hover { background: url('btn_subscribenow2.gif') no-repeat scroll 0px -16px transparent; }
+#dual_hoverCraft { width: 446px; height: 329px; display: none; z-index: 2900; border: 1px solid rgb(204, 204, 204); position: absolute; left: -235px; top: 22px; box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.2); white-space: normal; }
+#dual_hoverCraft:before { content: url('arrowup.png'); position: absolute; top: -9px; left: 280px; width: 25px; height: 9px; display: block; overflow: hidden; }
+#dual_hoverCraft h6, #dual_hoverCraft p { visibility: hidden; }
+#dual_hoverCraft .dh-half { width: 223px; height: 329px; float: left; clear: none; }
+#dual_hoverCraft #dh-digi { background: url('bg_dualhover_digi.png') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+#dual_hoverCraft #dh-digi:hover { background: url('bg_dualhover_digi.png') no-repeat scroll 0px -329px rgb(242, 246, 249); cursor: pointer; }
+#dual_hoverCraft #dh-hd { background: url('bg_dualhover_hd.png') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+#dual_hoverCraft #dh-hd:hover { background: url('bg_dualhover_hd.png') no-repeat scroll 0px -329px rgb(242, 246, 249); cursor: pointer; }
+#dual_hoverCraft .dh-cta { width: 223px; height: 329px; position: absolute; }
+#dual_hoverCraft .dh-cta a { display: block; height: 100%; outline: medium none; text-decoration: none; }
+#dual_hoverCraft #dh-digi .dh-cta { left: 0px; top: 0px; }
+#dual_hoverCraft #dh-hd .dh-cta { left: 224px; top: 0px; }
+
+/* ::::: null ::::: */
+
+.theboxer { display: none; }

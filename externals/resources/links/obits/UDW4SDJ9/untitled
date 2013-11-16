@@ -1,17 +1,0 @@
-
-var ftGUID_659492="21114059A4D138";
-var ftConfID_659492="0";
-var ftParams_659492="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_referrer=http%3A%2F%2Fwww.insidehighered.com%2Fquicktakes%2F2009%2F04%2F14%2Feve-kosofsky-sedgwick-1950-2009&cachebuster=133505.9464217706";
-var ftKeyword_659492="";
-var ftCustom_659492="";
-var ftSection_659492="";
-var ftSegment_659492="";
-var ftSegmentList_659492=[];
-var ftRuleMatch_659492="0";
-var ftTimestamp_659492="1381621407";
-var ftImp659492 = {};
-ftImp659492.privacy = "x";
-ftImp659492.guidAge = "-1";
-
-document.write('<scr'+'ipt src="http://cdn.flashtalking.com/xre/65/659492/569553/js/j-659492-569553.js" id="ftscript_m659492" name="ftscript_m659492"></scr'+'ipt>');
-                    

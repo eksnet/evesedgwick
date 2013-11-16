@@ -1,1 +1,0 @@
-Tynt.sc({"d":true,"as":"Inside Higher Ed"})

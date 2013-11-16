@@ -1,0 +1,1472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=all">
+<meta name="wpd_url" content="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=all">
+<meta name="wpd_date" content="2013-10-09T20:42Z">
+<div class="kxhead" data-id="HrUwtkcl" style="display: none;"><span class="kxtag kxinvisible" data-id="10508" data-alias="DataLogix provider tag"><script>
+
+(function(){
+  if (window.KRUX) {
+    var pubid = KRUXSetup.pubid;
+  } else if (window.Krux) {
+    var pubid = Krux.require('data').get('pubid');
+  } else { 
+    return;
+  }
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var u = prefix + "//apiservices.krxd.net/um?r=http%3A%2F%2Fkrxd.nexac.com%2Fdlx.gif&_kdpid=2dd640a6-6ebd-4d4f-af30-af8baa441a0d&pid=" + pubid + "&pubid=" + pubid;
+  var i = new Image();
+  i.src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17413" data-alias="Krux iCrossing Campaign Attribute"><script>
+
+Krux('scrape',
+ {
+  page_attr_campaignID:
+ {
+    url_param:
+'campaignId'
+  }
+});
+</script></span><span class="kxtag kxinvisible" data-id="13081" data-alias="Krux loadSegments"><script>
+
+// Override for special behavior, see notes
+(function() {
+  var store = Krux('require:store'),
+      old_set = store.set;
+  store.set = function(key, value, ttl) {
+    old_set(key, value, ttl);
+    if (key == 'segs') {
+      store.cookie.set('krux_segs', value.replace(/,/g, '|'), ttl);
+    }
+  };
+})();
+</script>
+<script type="text/javascript">Krux('require:segments')</script></span><span class="kxtag kxinvisible" data-id="13157" data-alias="Krux Scrape Page Attributes"><script>
+
+(function() { 
+  function getMetaValue(name) {
+    if (! document.querySelector) {
+      return;
+    }
+    var metaTag = document.querySelector("meta[name='" + name + "']");
+    return metaTag && metaTag.content || "";
+  }
+
+  Krux('set', 'section', getMetaValue('CG'));
+  Krux('set', 'subsection', getMetaValue('SCG'));
+  Krux('set', 'page_attr_page_type', getMetaValue('PT'));
+  Krux('scrape', {
+    page_attr_cg: {
+      meta_name: "CG"
+    },
+    page_attr_scg: {
+      meta_name: "SCG"
+    },
+    page_attr_prot: {
+      meta_name: "WT.z_prot"
+    },
+    page_attr_ref: {
+    url_param: "ref"
+    },
+    page_attr_pst: {
+      meta_name: "PST"
+    },
+    page_attr_des: {
+      meta_name: "des"
+    },
+    page_attr_per: {
+      meta_name: "per"
+    },
+    page_attr_org: {
+      meta_name: "org"
+    },
+    page_attr_geo: {
+      meta_name: "geo"
+    },
+    page_attr_author: {
+      meta_name: "author"
+    }, 
+    page_attr_reco: {
+      meta_name: "RECO"
+    },  
+    page_attr_rer: {
+      meta_name: "RER"
+    },  
+    page_attr_res: {
+      meta_name: "RES"
+    },  
+    page_attr_resz: {
+      meta_name: "RESZ"
+    },  
+    page_attr_rentals: {
+      meta_name: "PSSST"
+    },  
+    page_attr_ticker: {
+      meta_name: "ticker"
+    },
+    page_attr_registered: {
+      javascript: 'regstatus'
+    },
+    page_attr_referrer: {
+      javascript: 'document.referrer'
+    },
+    page_attr_url_path_1: {
+      url_path: "1"
+    }
+  });
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17510" data-alias="Krux iCrossing Keywords Attribute"><script>
+
+Krux('scrape',
+ {
+  page_attr_KEYWORDS:
+ {
+    url_param:
+'__KEYWORDS__'
+  }
+});
+</script></span><span class="kxtag kxinvisible" data-id="23488" data-alias="Krux Data Transfer Code "><script>
+
+// Using Globals PriceMin to produce page attribute pricemin
+Krux('scrape', { "page_attr_pricemin": {js_global: "PriceMin"}});
+// Using Globals PriceMax to produce page attribute pricemax
+Krux('scrape', { "page_attr_pricemax": {js_global: "PriceMax"}});
+</script></span><span class="kxtag kxinvisible" data-id="18687" data-alias="Krux Pull RMID"><script>
+
+// Using Cookie RMID to produce page attribute cookie_rmid
+Krux('scrape', { "user_attr_cookie_rmid": {cookie: "RMID"}});
+</script></span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="controltag" async="" type="text/javascript"></script><script src="cs.js" async=""></script><script src="common.js" type="text/javascript"></script><script src="mtr.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script async="" src="meter.js"></script><script src="env.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="prototype.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="effects.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="template.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="googleads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="urilist.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="boot.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="build.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<script src="articleShare.js" type="text/javascript"></script><script src="linkedintool.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="articleShareController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="articleShareLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="cookieValidator.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<script src="Tacoda_AMS_DDC_Header.js" type="text/javascript"></script>
+<script src="fileit.js"></script>
+<script type="text/javascript" language="JavaScript" src="DropDown.js"></script>
+<script type="text/javascript" language="JavaScript" src="modifyNavigationDisplay.js"></script>
+<script type="text/javascript" language="JavaScript" src="altClickToSearch.js"></script>
+<script type="text/javascript" language="JavaScript" src="tooltip.js"></script>
+
+
+
+
+<!--[if IE 7]>
+		<style type="text/css">
+			@import url(http://graphics8.nytimes.com/css/common/screen/ie7.css); 
+			
+		</style>
+		<![endif]-->
+
+
+<title>Lit Critics Who Peer Under the Covers - NYTimes.com</title>
+<meta name="description" content="Now that gay couples can be married in Iowa and Connecticut, it may be hard to understand the uproar that Eve Kosofsky Sedgwick’s work first caused.">
+
+<meta name="keywords" content="Sedgwick  Eve Kosofsky,Homosexuality,Books and Literature">
+
+<meta name="misspelling" content="">
+
+
+
+<meta name="ROBOTS" content="NOARCHIVE">
+
+<meta name="DISPLAYDATE" content="April 19, 2009">
+
+<meta name="hdl" content="Lit Critics Who Peer Under the Covers">
+
+<meta name="hdl_p" content="Lit Critics Who Peer Under the Covers">
+ 
+<meta name="byl" content="By PATRICIA COHEN">
+
+<meta name="lp" content="Now that gay couples can be married in Iowa and Connecticut, it may be hard to understand the uproar that Eve Kosofsky Sedgwick’s work first caused.">
+
+<meta name="cre" content="The New York Times">
+
+<meta name="edt" content="NewYork">
+
+<meta name="pdate" content="20090419">
+
+<meta name="ttl" content="">
+ 
+<meta name="virtloc" content="">
+
+<meta name="des" content="Homosexuality;Books and Literature">
+
+<meta name="per" content="Sedgwick, Eve Kosofsky">
+
+<meta name="org" content="">
+
+<meta name="geo" content="">
+
+<meta name="ticker" content="">
+
+<meta name="dat" content="April 19, 2009">
+
+<meta name="tom" content="News">
+
+<meta name="cat" content="">
+
+<meta name="col" content="">
+
+<meta name="dsk" content="Week in Review">
+
+<meta name="articleid" content="1194839624172">
+
+<meta name="CG" content="weekinreview">
+
+<meta name="SCG" content="">
+
+<meta name="PT" content="Article">
+
+<meta name="PST" content="">
+
+<meta name="hdr_img" content="/images/article/header/sect_weekinreview.gif">
+
+<meta name="thumbnail" content="images/2009/04/19/weekinreview/19COHEN.751.jpg">
+
+<meta name="thumbnail_height" content="75">
+
+<meta name="thumbnail_width" content="75">
+
+
+
+
+
+
+
+<meta name="xlarge" content="images/2009/04/19/weekinreview/19coheb.xlarge1.jpg">
+
+<meta name="xlarge_height" content="360">
+
+<meta name="xlarge_width" content="600">
+
+<meta name="ARTICLE_TEMPLATE_VERSION" content="600">
+
+<meta name="sec" content="WK">
+
+<meta name="pg" content="5">
+
+<link rel="canonical" href="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?pagewanted=all">
+<meta property="og:url" content="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?pagewanted=all">
+
+<script type="text/JavaScript">
+
+	var google_hints = "Homosexuality,Books+and+Literature";
+	var google_ad_channel = "ar_weekinreview";
+</script>
+
+<link rel="alternate" media="handheld" href="http://mobile.nytimes.com/2009/04/19/weekinreview/19cohen.xml">
+<link rel="alternate" type="application/rss+xml" title="NYTimes.com Week in Review RSS" href="http://www.nytimes.com/services/xml/rss/nyt/WeekinReview.xml">
+<script async="" src="meter-echo.js"></script><script src="osd.js" type="text/javascript"></script><script src="EventTracker.js" type="text/javascript"></script><script src="untitled" type="text/javascript"></script><script async="" src="tagx.js" type="text/javascript"></script><meta content="0" name="WT.z_imv" id="WT.z_imv"><meta content="1" name="WT.z_ica" id="WT.z_ica"><meta content="nyt4" name="WT.sourceapp" id="WT.sourceapp"><meta content="" name="WT.z_stcap" id="WT.z_stcap"><script src="controller.js" type="text/javascript"></script><script src="gw.js" type="text/javascript"></script><meta content="anon" name="WT.z_stat" id="WT.z_stat"><meta content="Week in Review" name="WT.cg_n" id="WT.cg_n"><meta content="Week in Review" name="WT.z_rcgn" id="WT.z_rcgn"><meta content="Article" name="WT.z_gpt" id="WT.z_gpt"><meta content="The New York Times" name="WT.cre" id="WT.cre"><meta content="0MXjTg1ZZh0YvDXrmvxADeHJAhueD6m2qkdeFz9JchiAIa2oeaXI7u7sV.Ynx4rkFI" name="WT.z_nyts" id="WT.z_nyts"><meta content="null" name="WT.z_nytd" id="WT.z_nytd"><meta content="007f010067d95259cc91000e" name="WT.z_rmid" id="WT.z_rmid"><meta content="0" name="WT.rv" id="WT.rv"><meta content="News" name="WT.z_gpst" id="WT.z_gpst"><meta content="Lit Critics Who Peer Under the Covers" name="WT.z_hdl" id="WT.z_hdl"><meta content="nyta-1194839624172" name="WT.z_aid" id="WT.z_aid"><meta content="20090419" name="WT.z_pud" id="WT.z_pud"><meta content="Archive" name="WT.z_put" id="WT.z_put"><meta content="Archive" name="WT.z.gsg" id="WT.z.gsg"><meta content="1987-Present" name="WT.z_gat" id="WT.z_gat"><meta content="free" name="WT.z_pua" id="WT.z_pua"><meta content="PATRICIA COHEN" name="WT.z_clmst" id="WT.z_clmst"><meta content="all" name="WT.z_puv" id="WT.z_puv"><meta content="5 Years" name="WT.z_pudr" id="WT.z_pudr"><meta content="2009" name="WT.z_pyr" id="WT.z_pyr"><script src="wtinit.js" type="text/javascript" language="javascriptcontent"></script><script src="wtbase.js" type="text/javascript" language="javascriptcontent"></script><script src="33094434431d3a9c9ab051df25171df1"></script><script src="chartbeat.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="19cohen.css" media="all">
+</head>
+<body><script src="705594362.js" type="text/javascript"></script><script src="ako" type="text/javascript"></script>
+
+
+<a name="top"></a>
+<!--Hat -->
+<nyt_header>
+
+</nyt_header>
+<a href="#articleBodyLink" class="jumpLink">Skip to article</a>
+<!--New call for topnav stuff. -->
+<div id="shell" class="">
+
+<div id="login">
+<ul id="memberTools">
+
+<!-- ADXINFO classification="Share_of_Voice_Tile_-_Left" campaign="nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U" priority="1002" isInlineSafe="Y" width="184" height="90" -->
+<script src="jquery-1.7.1.min.js"></script>
+<li id="duallink"> 
+	<a id="nyt-button-sub" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Bar1&amp;sn2=f5f364fc/ff0e06fd&amp;sn1=d8c46e63/47ab1288&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp3004%2Ehtml%3Fadxc%3D225543%26adxa%3D349449%26page%3Dwww.nytimes.com/yr/mo/day/weekinreview/19cohen.html%26pos%3DBar1%26campaignId%3D3L44Q" target="_top"></a>
+
+	<div id="dual_hoverCraft">
+		<div id="dh-digi" class="dh-half">
+			<h6>Try a Digital Subscription Today for Just 99¢ for Your First 4 Weeks</h6>
+			<p>Get unlimited access to NYTimes.com and NYTimes apps.</p>
+			<div class="dh-cta"><a class="nyt-button-actions" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Bar1&amp;sn2=f5f364fc/ff0e06fd&amp;sn1=d8c46e63/47ab1288&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp5558%2Ehtml%3Fadxc%3D225543%26adxa%3D349449%26page%3Dwww.nytimes.com/yr/mo/day/weekinreview/19cohen.html%26pos%3DBar1%26campaignId%3D3L44R" target="_top">&nbsp;</a></div>
+		</div>
+		<div id="dh-hd" class="dh-half">
+				<h6>Get 50% Off 12 Weeks of Home Delivery and Free All Digital Access</h6>
+				<p>All print options include free unlimited access to NYTimes.com and NYTimes apps.</p>
+				<div class="dh-cta"><a class="nyt-button-actions" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Bar1&amp;sn2=f5f364fc/ff0e06fd&amp;sn1=1c1c0337/51cc6e05&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=https%3A%2F%2Fwww%2Enytimesathome%2Ecom%2Fhd%2F205%3FMediaCode%3DWB7AA%26CMP%3D3L44U">&nbsp;</a></div>
+		</div>
+	</div>
+	<!--ADX javascript -->
+	<script type="text/javascript">
+
+	      var $j = jQuery.noConflict(); 
+	      $j(document).ready(function() {
+	        $j('#duallink').hover(function() {
+	            $j('#dual_hoverCraft').fadeIn('fast'); 
+	            $j('#toolbar,#masthead,#main').hover(function() {
+	               $j('#dual_hoverCraft').fadeOut(); 
+	          	})
+	       	})
+	      })
+
+	</script>
+<!--end of ADX js -->
+<!-- end ADX-->
+</li><!--end of Digital LI -->
+
+<script src="AB_vid_cdropb.js"></script>
+<script>document.cookie='bar1test=control;domain=nytimes.com;path=/'</script>
+
+			<li><a href="http://www.nytimes.com/auth/login?URI=http://">Log In</a></li> 
+			<li><a href="http://www.nytimes.com/gst/regi.html">Register Now</a></li>
+			
+
+
+</ul>
+<ul class="tabs">
+<li><a href="http://www.nytimes.com/">Home Page</a></li>
+<!--<li><a href="http://my.nytimes.com">My Times</a></li> -->
+<li><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li><a href="http://www.nytimes.com/video">Video</a></li>
+<li><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+<li><a href="http://topics.nytimes.com/top/reference/timestopics/">Times Topics</a></li>
+</ul>
+</div>
+
+<div id="page">
+
+<div id="masthead">
+
+<div id="Middle1">
+<!-- ADXINFO classification="Button_Ad_88x31_" campaign="ING_DirectSiteSearch13-1850637-nyt1" priority="8000" isInlineSafe="N" width="88" height="31" --><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Middle1C&amp;sn2=94cc7307/6fbd81c4&amp;sn1=a0841e58/f829d125&amp;camp=ING_DirectSiteSearch13-1850637-nyt1&amp;ad=DirectSiteSearch12.ROS.FEB.dart88x31&amp;goto=http://ad.doubleclick.net/jump/N3282.nytimes.comSD6440/B7326326.2;sz=88x31;pc=nyt202539A325775;ord=2013.11.09.20.42.04?" target="_top">
+<img src="B7326326.2;sz=88x31;pc=nyt202539A325775;ord=2013.11.09.20.42.04" alt="Click Here" border="0" height="31" width="88"></a>
+</div>
+
+<form id="searchForm" name="searchForm" method="get" action="http://query.nytimes.com/search/sitesearch" enctype="application/x-www-form-urlencoded">
+<div id="nytSearchWidget">
+<label for="searchQuery">Search All NYTimes.com</label>
+<input name="query" id="searchQuery" type="text">
+<input id="searchSubmit" title="Search" alt="Go" src="go.gif" type="image">
+<input id="searchAll" name="type" value="nyt" type="hidden">
+</div>
+</form>
+<div id="branding">
+<a href="http://www.nytimes.com/"><img src="nytlogo152x23.gif" alt="New York Times" id="NYTLogo"></a>
+</div><!--#branding-->
+<div id="Bar3">
+
+</div>
+<div id="date">
+</div>
+
+<h1>
+
+<a href="http://www.nytimes.com/pages/weekinreview/index.html">Week in Review</a>
+</h1>
+
+</div>
+
+
+<div id="navigation" class="nochild">
+<ul class="tabs">
+<li id="navWorld"><a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</li>
+<li id="navUS"><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li id="navNYRegion"><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li id="navBusiness"><a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li id="navTechnology"><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li id="navScience"><a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li id="navHealth"><a href="http://health.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li id="navSports"><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li id="navOpinion"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li id="navArts"><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</li>
+<li id="navStyle"><a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li id="navTravel"><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li id="navJobs"><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li id="navRealestate"><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li id="navAutos"><a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+</ul>
+</div><!--#navigation -->
+<script type="text/javascript">modifyNavigationDisplay();</script>
+
+<!--space holder for tool bar -->
+<div id="adxLeaderboard"><!-- ADXINFO classification="Leaderboard_-_Standard" campaign="Blackberry-RIMNov2013-1904062-nyt2" priority="4000" isInlineSafe="N" width="728" height="90" --><script type="text/javascript" src="B7934104.31;sz=728x90;pc=nyt229327A354425;ord=2013.11.09.20.42.04">
+</script><!-- Copyright 2008 DoubleClick, a division of Google Inc. All rights reserved. -->
+<!-- Code auto-generated on Fri Nov 01 17:38:20 EDT 2013 -->
+<script src="flashwrite_1_2.js"></script>
+<a target="_top" href="http://ad.doubleclick.net/click%3Bh%3Dv8/3e95/7/109/%2a/e%3B277260210%3B1-0%3B0%3B104651786%3B3454-728/90%3B56323574/56212812/1%3B%3B%7Eokv%3D%3Bpc%3Dnyt229327A354425%3B%3B%7Esscs%3D%3fhttp://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=TopAd&amp;camp=Blackberry-RIMNov2013-1904062-nyt2&amp;ad=Blackberry-728x90-SecTgtNY&amp;sn2=a9ad9e07/faed5b41&amp;snr=doubleclick&amp;snx=1384027585&amp;sn1=e07b04ff/ef14a664&amp;goto=http://www.blackberry.com/blackberry10?CPID=STBANNAUSFY14Q3000000230400000960007003BAN004"><img src="3-BB10_FL_728x90_FINWORD_102113.jpg" alt="Advertisement" galleryimg="no" border="0" height="90" width="728"></a>
+<noscript><a target="_blank" href="http://ad.doubleclick.net/click%3Bh%3Dv8/3e95/7/109/%2a/e%3B277260210%3B1-0%3B0%3B104651786%3B3454-728/90%3B56323574/56212812/1%3B%3B%7Eokv%3D%3Bpc%3Dnyt229327A354425%3B%3B%7Esscs%3D%3fhttp://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/weekinreview&pos=TopAd&camp=Blackberry-RIMNov2013-1904062-nyt2&ad=Blackberry-728x90-SecTgtNY&sn2=a9ad9e07/faed5b41&snr=doubleclick&snx=1384027585&sn1=e07b04ff/ef14a664&goto=http://www.blackberry.com/blackberry10?CPID=STBANNAUSFY14Q3000000230400000960007003BAN004"><img src="http://s0.2mdn.net/2215498/3-BB10_FL_728x90_FINWORD_102113.jpg" width="728" height="90" border="0" alt="Advertisement" galleryimg="no"></a></noscript>
+
+<noscript>
+
+<A HREF="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/weekinreview&pos=TopAd&sn2=a9ad9e07/faed5b41&sn1=cf10a632/cb300629&camp=Blackberry-RIMNov2013-1904062-nyt2&ad=Blackberry-728x90-SecTgtNY&goto=http://ad.doubleclick.net/jump/N5739.NYTimes.com/B7934104.31;sz=728x90;pc=nyt229327A354425;ord=2013.11.09.20.42.04?" TARGET="_blank">
+<IMG SRC="http://ad.doubleclick.net/ad/N5739.NYTimes.com/B7934104.31;sz=728x90;pc=nyt229327A354425;ord=2013.11.09.20.42.04?"
+ BORDER=0 WIDTH=728 HEIGHT=90
+ ALT="Click Here"></A>
+</noscript>
+<!--MOAT Standard Analytics Code starts here--> 
+ <script src="moatad.js" type="text/javascript"></script><noscript class="MOAT-nyt952824751?moatClientLevel1=Technology Products&amp;moatClientLevel2=Blackberryamp;moatClientLevel3=Blackberry-RIMNov2013-1904062-nyt2&amp;&amp;moatClientLevel4=Blackberry-728x90-SecTgtNY&amp;moatClientSlicer1=www.nytimes.com/yr/mo/day/weekinreview/19cohen.html&amp;zMoatAT=Standard"></noscript> 
+ <!--MOAT Standard Analytics Code ends here--></div>
+<a name="articleBodyLink"></a>
+<div id="main">
+
+
+
+<div id="aColumn">
+<div id="article">
+<!--google_ad_section_start -->
+
+<h1>
+<nyt_headline version="1.0" type=" ">
+
+Lit Critics Who Peer Under the Covers
+</nyt_headline>
+</h1>
+ 
+<div class="image" id="wideImage">
+<img src="19coheb.xlarge1.jpg" alt="" border="0" height="360" width="600">
+<div class="credit">Carrie Boretz</div>
+<p class="caption">
+<strong>OH, HENRY</strong> Eve Kosofsky Sedgwick, who died last week at 58, co-founded the influential scholarly field known as queer theory.
+</p>
+</div>
+ 
+
+
+<script language="JavaScript" type="text/JavaScript">function getSharePasskey() { return 'ex=1397966400&en=9476d51bc1883423&ei=5124';}</script>
+<script language="JavaScript" type="text/JavaScript">
+
+function getShareURL() {
+	return encodeURIComponent('http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html');
+}
+function getShareHeadline() {
+	return encodeURIComponent('Lit Critics Who Peer Under the Covers');
+}
+function getShareDescription() { 
+
+	return encodeURIComponent('Now that gay couples can be married in Iowa and Connecticut, it may be hard to understand the uproar that Eve Kosofsky Sedgwick&#8217;s work first caused.');
+}
+function getShareKeywords() {
+	return encodeURIComponent('Homosexuality,Books and Literature,Eve Kosofsky Sedgwick');
+}
+function getShareSection() {
+	return encodeURIComponent('weekinreview');
+}
+function getShareSectionDisplay() {
+
+	return encodeURIComponent('Week in Review');
+}
+function getShareSubSection() {
+	return encodeURIComponent('');
+}
+function getShareByline() {
+	return encodeURIComponent('By PATRICIA COHEN');
+}
+function getSharePubdate() {
+	return encodeURIComponent('April 19, 2009');
+}
+</script>
+<div id="toolsRight">
+<nyt_reprints_form>
+
+<script language="javascript">
+
+			<!-- 
+			function submitCCCForm(){
+				PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+				this.document.cccform.submit();
+			}
+			// -->
+			</script>
+<form name="cccform" action="https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon"><input name="Title" value="Lit Critics Who Peer Under the Covers" type="hidden"><input name="Author" value="By PATRICIA COHEN" type="hidden"><input name="ContentID" value="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html" type="hidden"><input name="FormatType" value="default" type="hidden"><input name="PublicationDate" value="APR 19 2009" type="hidden"><input name="PublisherName" value="The New York Times" type="hidden"><input name="Publication" value="nytimes.com" type="hidden"><input name="wordCount" value="1016" type="hidden"></form>
+</nyt_reprints_form>
+<div class="articleTools">
+<div class="toolsContainer">
+<ul class="toolsList" id="toolsList">        <li id="twitter_item">            <a id="twitter_button">                <span>Twitter</span>            </a>        </li>            <li id="linkedin_item">            <a id="linkedin_button">Linkedin</a>        </li>    
+<li class="email">
+
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="javascript:void(0);">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=print">Print</a>
+</li>
+
+<a href="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=all"></a>
+
+<li class="reprints"><a href="#" onclick="javascript:submitCCCForm();">Reprints</a></li>
+<li style="width: 168px;" class="closed" id="shareMenu"><a class="shareButton" href="#">Share</a><a style="opacity: 0;" class="hidden" href="#">Close</a><ul style="opacity: 0;" class="hidden" id="shareList"><li class="digg"><a href="#">Digg</a></li><li class="reddit"><a href="#">Reddit</a></li><li class="tumblr"><a href="#">Tumblr</a></li><li class="permalink"><a href="#">Permalink</a></li><li id="shareMenuAd"><script src="adx_remote.html"></script></li></ul></li></ul>
+<script language="JavaScript" type="text/javascript">writePost();</script>
+<div id="adxToolSponsor"><!-- ADXINFO classification="Button_Ad_96_x_60_" campaign="NYT5-FOX_SEARCHLIGHT_ATJD13-1849323G-nyt5" priority="9100" isInlineSafe="N" width="96" height="60" --><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Frame4A&amp;sn2=d7debfd7/794ceb81&amp;sn1=3b2738d5/6bee4c6&amp;camp=NYT5-FOX_SEARCHLIGHT_ATJD13-1849323G-nyt5&amp;ad=12YAS_NYT5_96x60.gif&amp;goto=http%3A%2F%2Fwww%2Efoxsearchlight%2Ecom%2F12yearsaslave%2F" target="_top">
+<img src="12YAS_NYT5_96x60.gif" border="0" height="60" width="96">
+</a></div>
+</div>
+</div>
+</div>
+
+<nyt_byline version="1.0" type=" ">
+<div class="byline">By <a href="http://topics.nytimes.com/top/reference/timestopics/people/c/patricia_cohen/index.html?inline=nyt-per" title="More Articles by Patricia Cohen">PATRICIA COHEN</a></div>
+</nyt_byline>
+<div class="timestamp">Published: April 18, 2009 </div>
+<div id="articleBody">
+
+
+
+<!--NYT_INLINE_IMAGE_POSITION1 -->
+
+
+
+
+<nyt_text>
+
+
+    <p>NOW that colleges have created gender-neutral housing and bathrooms, and gay couples can be married in Iowa and Connecticut, it may be hard to understand the uproar that Eve Kosofsky Sedgwick’s work caused when it first appeared in the mid-1980s. </p> 
+<div id="articleInline" class="inlineLeft">
+<div id="inlineBox"><a href="#secondParagraph" class="jumpLink">Skip to next paragraph</a>
+  
+  
+<div id="sidebarArticles">
+<h4>Related</h4>
+<h2>
+
+
+
+
+<a href="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?ref=weekinreview">Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58</a> 
+
+(April 15, 2009)
+</h2>
+</div>
+   
+<div class="image">
+<div class="enlargeThis"><a href="http://www.nytimes.com/imagepages/2009/04/19/weekinreview/19cohenCA02ready.html">Enlarge This Image</a></div>
+<a href="http://www.nytimes.com/imagepages/2009/04/19/weekinreview/19cohenCA02ready.html">
+<img src="19cohen.1902.jpg" alt="" border="0" height="102" width="190">
+</a>
+<div class="credit">The New York Public Library</div>
+<p class="caption">
+
+She unearthed sexual subtexts in the novels of Charles Dickens, left, Jane Austen and Henry James. 
+</p>
+</div>
+   
+</div>
+</div><a name="secondParagraph"></a>
+ <p>Ms. Sedgwick, who died of breast cancer last week at age 58, found subterranean homoerotic impulses in the work of <a href="http://topics.nytimes.com/top/reference/timestopics/people/j/henry_james/index.html?inline=nyt-per" title="More articles about Henry James.">Henry James</a>, <a href="http://topics.nytimes.com/top/reference/timestopics/people/n/friedrich_nietzsche/index.html?inline=nyt-per" title="More articles about Friedrich Nietzsche.">Friedrich Nietzsche</a> and <a href="http://topics.nytimes.com/top/reference/timestopics/people/d/charles_dickens/index.html?inline=nyt-per" title="More articles about Charles Dickens.">Charles Dickens</a>. In the decorous novels of <a href="http://topics.nytimes.com/top/reference/timestopics/people/a/jane_austen/index.html?inline=nyt-per" title="More articles about Jane Austen.">Jane Austen</a>, she unearthed hidden references to masturbation.</p><p>These analyses and others helped form the basis of an entirely new scholarly field, queer studies, a kitchen-sink sort of enterprise that proposed a groundbreaking way of looking at art and culture.</p><p> Drawing on literature, psychology, law, politics, sociology and the work of Michel Foucault, Ms. Sedgwick argued that assigned categories like “homosexual” and “heterosexual,” not to mention “male” and “female,” don’t begin to capture reality. Sexual desire and sexual identity exist on a continuum, spilling over the neat labels we create to contain them.</p><p> What’s more, she asserted, the failure to openly acknowledge these flawed definitions impairs “an understanding of virtually any aspect of Western culture.”</p><p> “The word ‘queer’ itself means across,” Ms. Sedgwick wrote, referencing its connection to the German “quer.” And she reached across set categories and conventions — sexual, political, scholarly — to explore the often strange spaces in between. </p><p>An English professor at the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/city_university_of_new_york/index.html?inline=nyt-org" title="More articles about the City University of New York.">City University of New York</a>, Ms. Sedgwick started out by using the lens of queer theory to analyze fiction. In Melville’s “Billy Budd,” for example, she argued that Billy’s accuser, the evil John Claggart, is a homosexual “presented as different in his essential nature than the normal men around him.”</p><p>“At the same time,” she writes, “<span class="italic">every</span> impulse of <span class="italic">every</span> person in this book that could at all be called desire could be called homosexual desire.”</p><p>  At first her work was met with shocked disbelief. “No one would hire me,” she recalled in a 1998 interview with The New York Times. Now queer theory is as at home on many college campuses as men’s lacrosse and late-night lattes. </p><p>While the impact on college and universities is obvious, to most people outside that world, queer theory remains either a punch line or a puzzle — an exotic flower that blooms only in academic climates.</p><p>Yet as Ms. Sedgwick herself would have been delighted to point out, seemingly unconnected things are related to each other in strange and unexpected ways. Queer theory and its cousins have had more influence outside the academy than anyone might have imagined. </p><p>For starters, the ideas that she and others developed helped to usher in the era of multiculturalism, which challenged traditional scholarship as well as the primacy of Western thought and peoples. The resulting battles over ideology and values that composed the  culture wars made their way into the national conversation.</p><p>Queer theory challenged people to question definitions and frames of reference they previously would never have thought twice about. Conservatives could thank Ms. Sedgwick for helping them  win support; the paper on Jane Austen and masturbation that she delivered at the 1989 Modern Language Association meeting became the rallying point for attacks against political correctness and left-wing militancy in the university. As John J. Miller wrote in National Review Online last week, “It perfectly embodied the weirdness of what passed for intellectual life in our colleges and universities, and helped the public understand an emerging problem that remains with us now.”</p><p>Ms. Sedgwick was an equal opportunity radical, though, and upset some gay people who rejected her notion that all societal rules and conventions regarding sex were repressive. Although she called her own motivations “gay affirmative,” she insisted that queer theory was neither political, nor pro- or anti-homosexuality. Rather it was a mode of analysis, a doorway to understanding modern thought and culture. </p><p>Still, her work inspired AIDS activists who fought efforts to restrict gay sex in bathhouses and elsewhere. And the theory was frequently lumped in with identity politics, despite its bedrock claim that rigid identities like gayness don’t exist.</p><p>“She made clear that there were different ways of approaching questions of gay and lesbian sexuality,” explained Judith Butler, a professor of rhetoric and comparative literature at the University of California at Berkeley, and a co-founder of queer theory. “Some of us affirm the specificity of our lives, and others make the claim that one can actually find homosexuality everywhere.”</p><p> The link between Ms. Sedgwick’s ideas and current political issues is still strong, Ms. Butler said. “In a way, these very live and important debates drive academic work in sexuality studies, and these ongoing tensions affirm Sedgwick’s early analysis, and show that it remains incredibly relevant to contemporary debate.”</p><p>Consider the issue of gay marriage. Some contend that gays are like everyone else (what Ms. Sedgwick called the “universalizing view”) and should be treated that way; others portray them as an oppressed minority (the “minoritizing view”) who deserve protection. At the same time, those who  would outlaw gay marriage  can argue either that homosexuals are a deviant subgroup (minoritizing) or that the ubiquity of homosexual tendencies (universalizing) endangers the traditional institutions that underlie civilized society. </p><p>The persistence of the deadlock between the universalizing and minoritizing views, she wrote, is “the single most powerful feature of the important 20th-century understandings of sexuality, whether hetero or homo, and a determining feature too of all the social relations routed, in this sexualized century, through understandings of sexuality.”  Ms. Butler said, “her brilliance was to show how both of these claims are often made at the same time, and that this is actually a productive tension.”</p><p>In a way, queer theory itself has been the subject of this tension. Scholars and students in all sorts of disciplines have incorporated its ideas, using the theory as just another analytical tool in their kit. At the same time, it remains a symbol of wacky, out-of-touch academics. </p><p>As far as its own fate was concerned, queer theory was uncannily prescient.</p><p><nyt_update_bottom>
+</nyt_update_bottom>
+
+</p><div class="nextArticleLink clearfix">
+<a onclick="s_code_linktrack('Article-MoreArticlesBottom');" href="http://www.nytimes.com/pages/weekinreview/index.html">More Articles in 
+				Week in Review »</a>
+<span>A version of this article appeared in print on April 19, 2009, on page WK5 of the New York edition.</span>										
+</div>		
+</nyt_text></div>
+</div>
+<!--google_ad_section_end -->
+<!--story end -->
+<div id="articleExtras">
+
+<div id="adxCircBottom"><!-- ADXINFO classification="Text_Link" campaign="nyt2013_footer_hp_ros_digi_US_nonsub_3JL63" priority="1000" isInlineSafe="N" width="0" height="0" --><table border="0" width="100%">
+<tbody><tr>
+<td width="300"><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Bottom1&amp;sn2=e94eb251/7d4836fa&amp;sn1=e60461a2/c20ec099&amp;camp=nyt2013_footer_hp_ros_digi_US_nonsub_3JL63&amp;ad=footer_digi_hp_ros_3JL63_ANON&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp5558%2Ehtml%3Fadxc%3D226623%26adxa%3D332971%26page%3Dwww.nytimes.com/yr/mo/day/weekinreview/19cohen.html%26pos%3DBottom1%26campaignId%3D3JL63"><img src="12-0999-Footer_Icon.jpg" style="float: left; margin-right: 5px;" alt="Get Home Delivery" align="middle" border="0" height="27" width="40">Try unlimited access to NYTimes.com for just 99¢.&nbsp; SEE OPTIONS »</a>
+
+</td>
+</tr>
+</tbody></table></div>
+
+
+<!--Google ads placeholder -->
+<div id="adxSponLink"><table id="adxSponLink_googleAds" class="nytd_google_ads nytd_google_single_ad" border="0" cellpadding="0" cellspacing="0"><tbody><tr class="header"><td class="left">Ads by Google</td><td class="right"><a target="popupad" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;">what's this?</a></td>
+</tr><tr class="listing" bidtype="CPC" targetingtype=""><td colspan="2" valign="middle"><a class="first" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CldOBHZ5-UsScEJTX0AGSmYCoDP-tpN4Dx7miwUrgo-12EAEgnPP4AVDhyNHx-_____8BYMnGqYvApNgPoAHBjpDmA8gBAagDAaoEigFP0KD7fEXh1_ohcxYVIXE5tNHgqn4HbbxoP3hYfID01PHqXmTEKMpHqCrEDRF7CtClk1ZeQ-90U7Xg5Rt81njIy43deqkZuA05c1rdv6K4UBud5pM6eakR_KvxTgOCmjm1wRNBKOv4l0pPcOZWTg51TDQB_wDRP28QoimEuL-3wgHL5zgmSR40132AB6fx7xk&amp;num=1&amp;sig=AOD64_2HAEHacEE_zxPxtpfKzXIyoNjbGQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.skincaresearch.com/skin-tightening-secrets/">2013 Best Skin Tighteners</a><br>An Unbiased Review List of The Top<br>Performing Skin Tighteners In 2013<br><a class="last" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CldOBHZ5-UsScEJTX0AGSmYCoDP-tpN4Dx7miwUrgo-12EAEgnPP4AVDhyNHx-_____8BYMnGqYvApNgPoAHBjpDmA8gBAagDAaoEigFP0KD7fEXh1_ohcxYVIXE5tNHgqn4HbbxoP3hYfID01PHqXmTEKMpHqCrEDRF7CtClk1ZeQ-90U7Xg5Rt81njIy43deqkZuA05c1rdv6K4UBud5pM6eakR_KvxTgOCmjm1wRNBKOv4l0pPcOZWTg51TDQB_wDRP28QoimEuL-3wgHL5zgmSR40132AB6fx7xk&amp;num=1&amp;sig=AOD64_2HAEHacEE_zxPxtpfKzXIyoNjbGQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.skincaresearch.com/skin-tightening-secrets/">www.SkinCareSearch.com/FaceLifting</a></td></tr></tbody></table></div>
+
+
+<!--related blogs promo -->
+<!--related blogs promo end -->
+
+<div id="relatedTopics">
+<h3>Related Searches</h3>
+<form action="http://www.nytimes.com/mem/tnt.html" method="GET" enctype="application/x-www-form-urlencoded">
+<ul>
+<input name="retA" value="http://www.nytimes.com2009/04/19/weekinreview/19cohen.html" type="hidden">
+<input name="retT" value="" type="hidden">
+<input name="module" value="call" type="hidden">
+<input name="alert_context" value="1" type="hidden">	    
+<input name="topic1" value="Sedgwick, Eve Kosofsky" type="hidden">
+<input name="topic_field1" value="nyt_per" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=per&amp;v1=SEDGWICK%2C+EVE+KOSOFSKY&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=SEDGWICK%2C+EVE+KOSOFSKY&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Sedgwick, Eve Kosofsky</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=SEDGWICK%2C+EVE+KOSOFSKY&amp;topic_field1=per&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic2" value="Homosexuality" type="hidden">
+<input name="topic_field2" value="des" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=HOMOSEXUALITY&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=HOMOSEXUALITY&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Homosexuality</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=HOMOSEXUALITY&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic3" value="Books and Literature" type="hidden">
+<input name="topic_field3" value="mdes" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=BOOKS+AND+LITERATURE&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=BOOKS+AND+LITERATURE&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Books and Literature</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=BOOKS+AND+LITERATURE&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+</ul>
+</form>
+</div>
+
+</div>
+<div class="clear"></div>
+</div>
+<div id="bColumn">
+<div class="columnGroup">
+<div class="nextArticleLink"><a onclick="s_code_linktrack('Article-MoreArticlesTop');" href="http://www.nytimes.com/pages/weekinreview/index.html">More Articles in 
+				Week in Review »</a></div>
+</div>
+
+
+
+<div id="adxBigAd" class="columnGroup"><!-- ADXINFO classification="Big_Ad_-_Standard" campaign="WeiserMazars_LLPMN13-1850336-nyt1" priority="1500" isInlineSafe="N" width="300" height="250" --><div style="border: 0px solid rgb(0, 0, 0); width: 300px; height: 250px; margin: 0px auto;" align="center">
+<script type="text/javascript">
+
+ var movieWidth = 300;
+ var movieHeight = 250;
+ var altSrc = "http://graphics8.nytimes.com/adx/images/ADS/35/51/ad.355117/017832-300x250-fireflies-static_v1.jpg";
+ var swfFile = "http://graphics8.nytimes.com/adx/images/ADS/35/51/ad.355117/017832-300x250-fireflies-flash_v1.swf";
+ var altClickThru = "http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/weekinreview&pos=MiddleRight&sn2=40c05fe2/87cc76ff&sn1=79d61fc2/27b885f7&camp=WeiserMazars_LLPMN13-1850336-nyt1&ad=WeiserMazars_Fireflies_300x250_NYPreEmpt_11082013&goto=http%3A%2F%2Fweisermazars%2Ecom%2Fnyt2%2F%3Futm%5Fsource%3DNYT%26utm%5Fmedium%3DFlash%2BBanner%2B300x250%2B1113%26utm%5Fcontent%3DFirefly%26utm%5Fcampaign%3DNYTimes%2Bflash%2Bbanner%2B1113";
+ var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="embed3.js">
+</script><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=MiddleRight&amp;sn2=40c05fe2/87cc76ff&amp;sn1=79d61fc2/27b885f7&amp;camp=WeiserMazars_LLPMN13-1850336-nyt1&amp;ad=WeiserMazars_Fireflies_300x250_NYPreEmpt_11082013&amp;goto=http%3A%2F%2Fweisermazars%2Ecom%2Fnyt2%2F%3Futm%5Fsource%3DNYT%26utm%5Fmedium%3DFlash%2BBanner%2B300x250%2B1113%26utm%5Fcontent%3DFirefly%26utm%5Fcampaign%3DNYTimes%2Bflash%2Bbanner%2B1113" target="_top"><img src="017832-300x250-fireflies-static_v1.jpg" alt="" border="0" height="250" width="300"></a>
+
+</div></div>
+
+
+
+<div class="columnGroup" id="mostPopWidget">
+
+      <!-- MOST POPULAR MODULE STARTS -->
+      <h4>MOST POPULAR</h4>
+         <div id="tabsContainer">
+         <ul class="tabs">
+            <li class="selected"><a href="#">E-Mailed</a></li>
+            <li><a href="#">Blogged</a></li>
+            <li><a href="#">Searched</a></li>
+            <li><a href="#">Viewed</a></li>
+            
+         </ul>
+         </div>
+            
+<div class="tabContent tabContentActive" id="mostEmailed">
+<ol>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/us/A1-hospitals/A1-hospitals-thumbStandard-v2.jpghttp://graphics8.nytimes.com/images/2013/11/09/us/JP-HOSPITAL-1/JP-HOSPITAL-1-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/health/cuts-in-hospital-subsidies-threaten-safety-net-care.html?src=me" title="Click to go to this article">Cuts in Hospital Subsidies Threaten Safety-Net Care</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/world/europe/right/right-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/world/europe/09right-graphic/09right-graphic-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/world/europe/right-wings-surge-in-europe-has-the-establishment-rattled.html?src=me" title="Click to go to this article">Right Wingâ€™s Surge in Europe Has the Establishment Rattled</a></li>
+<li img="http://graphics8.nytimes.com/images/2010/09/16/opinion/Collins_New/Collins_New-thumbStandard-v2.jpg" kicker="Op-Ed Columnist"><a href="http://www.nytimes.com/2013/11/09/opinion/collins-missing-the-bad-old-days.html?src=me" title="Click to go to this article">GAIL COLLINS: Missing the Bad Old Days</a></li>
+<li img="http://graphics8.nytimes.com/images/2010/09/16/opinion/Blow_New/Blow_New-thumbStandard.jpg" kicker="Op-Ed Columnist"><a href="http://www.nytimes.com/2013/11/07/opinion/blow-the-passion-of-parenting.html?src=me" title="Click to go to this article">CHARLES M. BLOW: The Passion of Parenting</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/10/business/10-TECHNO/10-TECHNO-thumbStandard.jpg" kicker="Technophoria"><a href="http://www.nytimes.com/2013/11/10/business/they-loved-your-gpa-then-they-saw-your-tweets.html?src=me" title="Click to go to this article">Technophoria: They Loved Your G.P.A. Then They Saw Your Tweets.</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/arts/09ANIMALS/09ANIMALS-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/arts/09ANIMALSjp/09ANIMALSjp-thumbStandard.jpg" kicker="Criticâ€™s Notebook"><a href="http://www.nytimes.com/2013/11/09/arts/television/meet-the-sloths-debuts-on-animal-planet.html?src=me" title="Click to go to this article">Criticâ€™s Notebook: Chilling Out: Life in a Slow, Cute Lane</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/08/nyregion/bias-1/bias-1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/08/nyregion/bias-2/bias-2-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/08/nyregion/bias-3/bias-3-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/08/nyregion/bias-4/bias-4-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/08/nyregion/swastikas-slurs-and-torment-in-towns-schools.html?src=me" title="Click to go to this article">Swastikas, Slurs and Torment in Townâ€™s Schools</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/world/europe/pope/pope-thumbStandard-v2.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/world/europe/with-survey-vatican-seeks-laity-comment-on-family-issues.html?src=me" title="Click to go to this article">With Survey, Vatican Seeks Laity Comment on Family Issues</a></li>
+<li kicker=""><a href="http://www.nytimes.com/2013/11/09/arts/that-syllable-everyone-recognizes.html?src=me" title="Click to go to this article">The Syllable Everyone Recognizes</a></li>
+<li img="http://graphics8.nytimes.com/images/2010/09/16/opinion/Krugman_New/Krugman_New-thumbStandard-v2.jpg" kicker="Op-Ed Columnist"><a href="http://www.nytimes.com/2013/11/08/opinion/krugman-the-mutilated-economy.html?src=me" title="Click to go to this article">PAUL KRUGMAN: The Mutilated Economy</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostemailed.html">Go to Complete List Â»</a>
+</div><!-- #most emailed top10 -->
+
+            <div class="tabContent" id="mostBlogged">
+<ol>
+<li><a href="http://www.nytimes.com/2013/11/07/us/cia-is-said-to-pay-att-for-call-data.html?src=mb" title="Click to go to this article">C.I.A. Is Said to Pay AT&amp;T for Call Data</a></li>
+<li><a href="http://www.nytimes.com/2013/11/09/business/media/cbs-correspondent-apologizes-for-report-on-benghazi-attack.html?src=mb" title="Click to go to this article">CBS to Correct Erroneous Report on Benghazi</a></li>
+<li><a href="http://www.nytimes.com/2013/11/08/opinion/krugman-the-mutilated-economy.html?src=mb" title="Click to go to this article">The Mutilated Economy</a></li>
+<li><a href="http://www.nytimes.com/2013/11/08/business/media/accounts-differ-to-fbi-and-cbs-on-benghazi.html?src=mb" title="Click to go to this article">Accounts Differ to F.B.I. and CBS on Benghazi</a></li>
+<li><a href="http://www.nytimes.com/2013/11/08/business/10-minimum-wage-proposal-has-obamas-backing.html?src=mb" title="Click to go to this article">$10 Minimum Wage Proposal Has Growing Support From White House</a></li>
+<li><a href="http://www.nytimes.com/2013/11/08/us/politics/rules-to-require-equal-coverage-for-mental-ills.html?src=mb" title="Click to go to this article">Rules to Require Equal Coverage for Mental Ills</a></li>
+<li><a href="http://www.nytimes.com/2013/11/07/us/politics/gop-weighs-limiting-clout-of-right-wing.html?src=mb" title="Click to go to this article">G.O.P. Weighs Limiting Clout of Right Wing</a></li>
+<li><a href="http://www.nytimes.com/2013/11/07/us/politics/loss-on-school-tax-stings-colorado-democrats.html?src=mb" title="Click to go to this article">Defeat of School Tax Stings Colorado Democrats</a></li>
+<li><a href="http://www.nytimes.com/2013/11/09/world/middleeast/iran-nuclear-talks.html?src=mb" title="Click to go to this article">Roadblocks Remain as Officials Work Toward Iranian Nuclear Pact</a></li>
+<li><a href="http://www.nytimes.com/2013/11/08/world/middleeast/iran.html?src=mb" title="Click to go to this article">West and Iran Seen as Nearing a Nuclear Deal</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostblogged.html">Go to Complete List »</a>
+</div><!-- #most blogged top10 -->
+
+            <div class="tabContent" id="mostSearched">
+<ol>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/china/?src=ms">china</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/education/?src=ms">education</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/modern%20love/?src=ms">modern love</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/new%20york/?src=ms">new york</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/social%20q%27s/?src=ms">social q's</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/de%20blasio/?src=ms">de blasio</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/krugman/?src=ms">krugman</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/health/?src=ms">health</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/obama/?src=ms">obama</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/art/?src=ms">art</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostsearched.html">Go to Complete List »</a>
+</div><!-- #most searched top10 -->
+
+            <div class="tabContent" id="mostViewed">
+<ol>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/business/CBS/CBS-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/business/CBSjp2/CBSjp2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/business/media/cbs-correspondent-apologizes-for-report-on-benghazi-attack.html?src=mv" title="Click to go to this article">CBS to Correct Erroneous Report on Benghazi</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/us/09crisis_span/09crisis_span-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/us/politics/a-white-house-in-crisis-mode-but-some-allies-prod-for-more.html?src=mv" title="Click to go to this article">A White House in Crisis Mode, but Some Allies Prod for More Action</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/world/europe/right/right-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/world/europe/09right-graphic/09right-graphic-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/world/europe/right-wings-surge-in-europe-has-the-establishment-rattled.html?src=mv" title="Click to go to this article">Right Wingâ€™s Surge in Europe Has the Establishment Rattled</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/sports/CITY-JP-INCOGNITO/CITY-JP-INCOGNITO-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/sports/Y-JP-INCOGNITO-2/Y-JP-INCOGNITO-2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/sports/football/prized-for-his-aggression-richie-incognito-struggled-to-stay-in-bounds.html?src=mv" title="Click to go to this article">Prized for His Aggression, Incognito Struggled to Stay in Bounds</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/world/asia/PHILIPPINES/PHILIPPINES-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/world/asia/sub-philippines1/sub-philippines1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/09/world/asia/philippines2/philippines2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/world/asia/powerful-typhoon-causes-mass-disruption-in-philippines.html?src=mv" title="Click to go to this article">A Powerful Typhoon Speeds Across the Philippines</a></li>
+<li img="http://graphics8.nytimes.com/images/2010/09/16/opinion/Blow_New/Blow_New-thumbStandard.jpg" kicker="Op-Ed Columnist"><a href="http://www.nytimes.com/2013/11/07/opinion/blow-the-passion-of-parenting.html?src=mv" title="Click to go to this article">CHARLES M. BLOW: The Passion of Parenting</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/10/world/10philippines_337/10philippines_337-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/10/world/asia/philippines-typhoon.html?src=mv" title="Click to go to this article">Red Cross Fears 1,000 Deaths in Philippine Typhoon </a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/09/us/A1-hospitals/A1-hospitals-thumbStandard-v2.jpghttp://graphics8.nytimes.com/images/2013/11/09/us/JP-HOSPITAL-1/JP-HOSPITAL-1-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/09/health/cuts-in-hospital-subsidies-threaten-safety-net-care.html?src=mv" title="Click to go to this article">Cuts in Hospital Subsidies Threaten Safety-Net Care</a></li>
+<li img="http://graphics8.nytimes.com/images/2010/09/16/opinion/Collins_New/Collins_New-thumbStandard-v2.jpg" kicker="Op-Ed Columnist"><a href="http://www.nytimes.com/2013/11/09/opinion/collins-missing-the-bad-old-days.html?src=mv" title="Click to go to this article">GAIL COLLINS: Missing the Bad Old Days</a></li>
+<li kicker="Motherlode"><a href="http://parenting.blogs.nytimes.com/2013/11/08/child-proofing-harry-potter/?src=mv" title="Click to go to this article">Motherlode: Child-Proofing 'Harry Potter'</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/most-popular-viewed">Go to Complete List Â»</a>
+</div><!-- #most viewed top10 -->
+
+            
+         <script type="text/javascript">new Accordian("mostPopWidget");</script>
+      <!-- MOST POPULAR MODULE ENDS -->
+   
+
+</div>
+<div id="adxMiddle" class="columnGroup"><!-- ADXINFO classification="Marketing_Module" campaign="nyt2013_300x250_module_propensity_module_mother" priority="1000" isInlineSafe="Y" width="336" height="280" --><!--BEGIN COPYING CODE FOR ADX -->     
+          
+
+<!-- Start General 11_5 -->
+<div style="border: 1px solid rgb(153, 153, 153); font-family: Arial,sans-serif; text-align: left; width: 334px; background: none repeat ; 0% rgb(255, 255, 255); display: block;" class="theboxer clearfix wrap marketing-module-legacy" id="usworld">
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/business/100000002512003/buildings-for-billionaires.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-PH%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="1383863190249_us.jpg" alt="" border="0" height="154" width="334"></a>
+
+  <div style="padding: 7px 9px 0px; background: none repeat ; 0% rgb(255, 255, 255);">
+
+    <h2 style="font-size: 22px; line-height: 24px; margin: 0px; padding: 0px 0px 4px;"><a style="color: rgb(0, 66, 118);" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/business/100000002512003/buildings-for-billionaires.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-HDR%26WT.mc_ev=click%26WT.mc_c=229006">Watch Now: The view from the $100 million penthouse</a></h2>
+
+    <p style="margin: 0px 0px 3px; padding: 0px; font-size: 11px;">
+
+      <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-URL%26WT.mc_ev=click%26WT.mc_c=229006" target="_top" style="font-size: 11px; margin: 3px 0px; padding: 0px; font-family: Arial,sans-serif; color: rgb(0, 0, 0); text-transform: uppercase;">
+
+
+      Also in Video »
+
+      </a>
+
+    </p>
+
+    <ul style="font-size: 12px; margin: 0px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204);" class="refer">
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/world/americas/100000002536260/mayor-of-toronto-admits-to-drug-use.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-L1%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">"I have smoked crack cocaine," Toronto's mayor admits on camera</a></li>
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/nyregion/100000002537943/mayor-elect-bill-de-blasio.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-L2%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);"> Bill de Blasio's path to mayoral success</a></li>
+
+    </ul>
+
+  </div>
+
+
+
+
+
+  <div style="padding: 5px 9px; float: left; width: 316px; background: none repeat ; 0% rgb(255, 255, 255);" class="footer">
+
+    <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-LOGO%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
+
+
+
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/video%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331-ROS-1113-VRT%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
+
+
+
+  </div>
+
+
+
+  <br clear="all">
+
+</div>
+<!--end of general -->
+
+<!-- Biztech 11_5 -->
+<div style="border: 1px solid rgb(153, 153, 153); font-family: Arial,sans-serif; text-align: left; width: 334px; background: none repeat ; 0% rgb(255, 255, 255);" class="theboxer clearfix wrap marketing-module-legacy" id="biztech">
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/technology/100000002538568/twitter-a-risky-investment.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-PH%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="1383862194384_us.jpg" alt="" border="0" height="154" width="334"></a>
+
+  <div style="padding: 7px 9px 0px; background: none repeat ; 0% rgb(255, 255, 255);">
+
+    <h2 style="font-size: 22px; line-height: 24px; margin: 0px; padding: 0px 0px 4px;"><a style="color: rgb(0, 66, 118);" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/technology/100000002538568/twitter-a-risky-investment.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-HDR%26WT.mc_ev=click%26WT.mc_c=229006">Watch Now: 3 reasons Twitter may be a risky investment</a></h2>
+
+    <p style="margin: 0px 0px 3px; padding: 0px; font-size: 11px;">
+
+      <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-URL%26WT.mc_ev=click%26WT.mc_c=229006" target="_top" style="font-size: 11px; margin: 3px 0px; padding: 0px; font-family: Arial,sans-serif; color: rgb(0, 0, 0); text-transform: uppercase;">
+
+
+      Also in Video »
+
+      </a>
+
+    </p>
+
+    <ul style="font-size: 12px; margin: 0px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204);" class="refer">
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/world/americas/100000002531876/venezuelas-inflated-vision-of-beauty.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-L1%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">In Venezuela, women are confronted with a culture of plastic surgery</a></li>
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/technology/100000002442339/twitters-ipo-by-the-numbers.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-L2%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">Twitter's I.P.O., by the numbers</a></li>
+
+    </ul>
+
+  </div>
+
+ 
+
+ 
+
+  <div style="padding: 5px 9px; float: left; width: 316px; background: none repeat ; 0% rgb(255, 255, 255);" class="footer">
+
+    <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-LOGO%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
+
+   
+
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331D-ROS-1113-VRT%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
+
+   
+
+  </div>
+
+ 
+
+  <br clear="all">
+
+</div>
+<!-- end of boxer Biztech -->
+
+<!--Fashion_11_5 --> 
+<div style="border: 1px solid rgb(153, 153, 153); font-family: Arial,sans-serif; text-align: left; width: 334px; background: none repeat ; 0% rgb(255, 255, 255);" class="theboxer clearfix wrap marketing-module-legacy" id="fashion">
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/fashion/100000002473288/intersection-comfort-chic-in-amsterdam.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-PH%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="1383862982732_us.jpg" alt="" border="0" height="154" width="334"></a>
+
+  <div style="padding: 7px 9px 0px; background: none repeat ; 0% rgb(255, 255, 255);">
+
+    <h2 style="font-size: 22px; line-height: 24px; margin: 0px; padding: 0px 0px 4px;"><a style="color: rgb(0, 66, 118);" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/fashion/100000002473288/intersection-comfort-chic-in-amsterdam.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-HDR%26WT.mc_ev=click%26WT.mc_c=229006">Watch Now: Intersection | Style on Dutch wheels</a></h2>
+
+    <p style="margin: 0px 0px 3px; padding: 0px; font-size: 11px;">
+
+      <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-URL%26WT.mc_ev=click%26WT.mc_c=229006" target="_top" style="font-size: 11px; margin: 3px 0px; padding: 0px; font-family: Arial,sans-serif; color: rgb(0, 0, 0); text-transform: uppercase;">
+
+
+      Also in Video »
+
+      </a>
+
+    </p>
+
+    <ul style="font-size: 12px; margin: 0px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204);" class="refer">
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/fashion/100000002534860/intersection-fall-style-in-back-bay-boston.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-L1%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">Discover fall style in Boston</a></li>
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/fashion/100000002507144/bill-cunningham-bigger-bolder-at-paris-fashion-week.html%3FplaylistId=1194811622321%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-L2%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">Paris Fashion Week could easily be called the greatest show on earth</a></li>
+
+    </ul>
+
+  </div>
+
+ 
+
+ 
+
+  <div style="padding: 5px 9px; float: left; width: 316px; background: none repeat ; 0% rgb(255, 255, 255);" class="footer">
+
+    <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-LOGO%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
+
+   
+
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331B-ROS-1113-VRT%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
+
+   
+
+  </div>
+
+ 
+
+  <br clear="all">
+
+</div>
+<!--end of fashion --> 
+
+<!--DINING_11_5 --> 
+<div style="border: 1px solid rgb(153, 153, 153); font-family: Arial,sans-serif; text-align: left; width: 334px; background: none repeat ; 0% rgb(255, 255, 255);" class="theboxer clearfix wrap marketing-module-legacy" id="dining">
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/dining/100000002404040/buttercream-frosting.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-PH%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="1383862687710_us.jpg" alt="" border="0" height="154" width="334"></a>
+
+  <div style="padding: 7px 9px 0px; background: none repeat ; 0% rgb(255, 255, 255);">
+
+    <h2 style="font-size: 18px; line-height: 20px; margin: 0px; padding: 0px 0px 4px;"><a style="color: rgb(0, 66, 118);" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/dining/100000002404040/buttercream-frosting.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-HDR%26WT.mc_ev=click%26WT.mc_c=229006">Watch Now: Melissa Clark makes a delicious and fluffy cake topping</a></h2>
+
+    <p style="margin: 0px 0px 3px; padding: 0px; font-size: 11px;">
+
+      <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-URL%26WT.mc_ev=click%26WT.mc_c=229006" target="_top" style="font-size: 11px; margin: 3px 0px; padding: 0px; font-family: Arial,sans-serif; color: rgb(0, 0, 0); text-transform: uppercase;">
+
+
+      Also in Video »
+
+      </a>
+
+    </p>
+
+    <ul style="font-size: 12px; margin: 0px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204);" class="refer">
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/dining/100000001945249/how-to-cook-a-steak.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-L1%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">How to cook a steak</a></li>
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/dining/100000002053230/molten-cake-the-big-mac-of-desserts.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-L2%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">Molten cake, "The Big Mac of Desserts"</a></li>
+
+    </ul>
+
+  </div>
+
+ 
+
+ 
+
+  <div style="padding: 5px 9px; float: left; width: 316px; background: none repeat ; 0% rgb(255, 255, 255);" class="footer">
+
+    <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-LOGO%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
+
+   
+
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331C-ROS-1113-VRT%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
+
+   
+
+  </div>
+
+ 
+
+  <br clear="all">
+
+</div>
+<!--end of Dining --> 
+
+<!-- Arts_11_5 -->
+<div style="border: 1px solid rgb(153, 153, 153); font-family: Arial,sans-serif; text-align: left; width: 334px; background: none repeat ; 0% rgb(255, 255, 255);" class="theboxer clearfix wrap marketing-module-legacy" id="arts">
+
+  <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/movies/100000002525725/anatomy-of-a-scene-about-time.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-PH%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="1383861931350_us.jpg" alt="" border="0" height="154" width="334"></a>
+
+  <div style="padding: 7px 9px 0px; background: none repeat ; 0% rgb(255, 255, 255);">
+
+    <h2 style="font-size: 22px; line-height: 24px; margin: 0px; padding: 0px 0px 4px;"><a style="color: rgb(0, 66, 118);" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/movies/100000002525725/anatomy-of-a-scene-about-time.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-HDR%26WT.mc_ev=click%26WT.mc_c=229006">Richard Curtis narrates a scene from "About Time"</a></h2>
+
+    <p style="margin: 0px 0px 3px; padding: 0px; font-size: 11px;">
+
+      <a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-URL%26WT.mc_ev=click%26WT.mc_c=229006" target="_top" style="font-size: 11px; margin: 3px 0px; padding: 0px; font-family: Arial,sans-serif; color: rgb(0, 0, 0); text-transform: uppercase;">
+
+
+      Also in Video »
+
+      </a>
+
+    </p>
+
+    <ul style="font-size: 12px; margin: 0px; padding-bottom: 10px; border-bottom: 1px solid rgb(204, 204, 204);" class="refer">
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/books/100000002464926/the-read-around-nicholas-sparks.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-L1%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">Nicholas Sparks talks about what makes a great novel</a></li>
+
+      <li style="font-size: 12px;"><a target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=faead881/49d13585&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://www.nytimes.com/video/multimedia/100000002534680/neal-boenzi-photographer.html%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-L2%26WT.mc_ev=click%26WT.mc_c=229006" style="color: rgb(0, 66, 118);">The art of the street photograph as told by Neal Boenzi</a></li>
+
+    </ul>
+
+  </div>
+
+ 
+
+ 
+
+  <div style="padding: 5px 9px; float: left; width: 316px; background: none repeat ; 0% rgb(255, 255, 255);" class="footer">
+
+    <a style="float: left;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-LOGO%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="nytimes.gif" alt="nytimes.com" border="0" height="18" width="116"></a>
+
+   
+
+    <a style="float: right;" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Box1&amp;sn2=e6c852dc/73eb5388&amp;sn1=a920a7bb/67974d31&amp;camp=nyt2013_300x250_module_propensity_module_mother&amp;ad=propensity_mother_11_8&amp;goto=http://nytimes.com/video/%3FWT.mc_id=VI-D-I-NYT-MOD-MOD-M331E-ROS-1113-VRT%26WT.mc_ev=click%26WT.mc_c=229006" target="_top"><img src="verticals_video.gif" alt="Video" border="0" height="18" width="120"></a>
+
+   
+
+  </div>
+
+ 
+
+  <br clear="all">
+
+</div>
+<!-- end of Arts -->
+
+<script src="jquery.js" type="text/javascript"></script>
+<script src="jquery.cookie.js" type="text/javascript"></script>  
+<script>
+
+   $j=jQuery.noConflict();    
+   var rmid = $j.cookie('RMID'); 
+
+   hitCamp("general_twin")
+
+   function hitCamp(keywords) {
+	 var url = 'http://www.nytimes.com/adx/bin/adxrun.html?v=3&jsonp=?&keywords='+keywords+'&page=www.nytimes.com/ads/test/tyrus/sectionfront.html&type=fastscript&positions=Box1&query=qstring'; 
+	$j.get(url,function(data) {
+		var results = 'foo'; //placeholder
+		alert("All systems go");
+	}); 
+	
+   }
+
+   if(rmid == undefined || rmid == '') {
+      var topsection = 'usworld'; 
+     $j('#'+topsection).show();	 
+     hitCamp('general_821'); 
+   } else {
+      
+      getRecs();  
+   }
+    function getRecs() {
+      var cig_rec_url = 'http://cigawsloadbalancer-17715275.us-east-1.elb.amazonaws.com/r1/jp/user_top_sections.rep?jsoncallback=mycallback'
+
+       var sendobj = {RMID:rmid}; 
+      $j.ajax({
+        url: cig_rec_url,
+        dataType: 'jsonp',
+        data: sendobj,
+        success: mycallback
+      });      
+    }
+
+
+    function mycallback(data) {
+          var sections = data.payload.sections[0]; 
+          var i = 0; 
+          var topsection = 'us'; //default .. see if changes.. 
+          $j.each(sections, function( key, val ) {
+             if(i==0) {
+               topsection = key; 
+             }
+             i++; 
+          });
+
+		
+         
+          if(topsection=='world' || topsection=='us') { 
+    	    topsection = 'usworld';
+            hitCamp('general_821'); 
+          } else if (topsection=='business' || topsection=='technology') {
+			topsection = 'biztech'; 
+			hitCamp('biztech_821'); 
+          } else if (topsection=='fashion') {
+ 			topsection = 'fashion';
+            hitCamp('fashion_821');
+ 		  } else if (topsection=='arts') {
+ 			topsection = 'arts';
+            hitCamp('arts_821');
+          } else if (topsection=='dining') {
+            topsection = 'dining';
+            hitCamp('dining_821'); 
+
+          } else {
+			topsection = 'usworld'; 
+			hitCamp('general_821'); 
+          }
+           
+	     $j('#'+topsection).show(); 
+           
+    }
+
+    </script></div>
+<div id="adxSponLink" class="columnGroup"><!-- ADXINFO classification="Email_Text_Ad_Version" campaign="GoogleAdSense__SPONLINKA-SF_Articles_ROS" priority="1002" isInlineSafe="N" width="0" height="0" --><script language="JavaScript" type="text/javascript">
+
+    // Sponlink_A_Short
+
+     if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
+     NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLinkA'
+     });
+
+</script><script src="show_ads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="ads"></script></div>
+
+<div id="adxMiddle5" class="columnGroup"><!-- ADXINFO classification="Featured_Product_Image" campaign="nyt2013_300x79_android_ros_3JLYF_ANON" priority="1000" isInlineSafe="N" width="120" height="90" --><div align="center">
+<a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/weekinreview&amp;pos=Middle5&amp;sn2=b7dec08c/494cc501&amp;sn1=1148ce02/34d772c6&amp;camp=nyt2013_300x79_android_ros_3JLYF_ANON&amp;ad=300x79_android_ros_3JLYF_ANON&amp;goto=https%3A%2F%2Fplay%2Egoogle%2Ecom%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom%2Enytimes%2Eandroid%26hl%3Den%26adxc%3D214678%26adxa%3D335889%26page%3Dwww.nytimes.com/yr/mo/day/weekinreview/19cohen.html%26pos%3DMiddle5%26campaignId%3D3JLYF" target="_top">
+<img src="12-2152_Android_News_App_Tablet_300x79.jpg" border="0" height="79" width="300">
+</a>
+</div></div>
+
+
+
+<br>
+<!--Google ads placeholder -->
+<div id="adxSponLinkA" class="columnGroup"><table id="adxSponLinkA_googleAds" class="nytd_google_ads nytd_google_single_ad" border="0" cellpadding="0" cellspacing="0"><tbody><tr class="header"><td class="left">Ads by Google</td><td class="right"><a target="popupad" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;">what's this?</a></td>
+</tr><tr class="listing" bidtype="CPC" targetingtype="site"><td colspan="2" valign="middle"><a class="first" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CZW1CHZ5-UtfhGITU0AGmjIDoDNKk-54E2qibyhTM4LqUBRABIJzz-AFQ-ayw8gZgycapi8Ck2A-gAZzxvf8DyAEBqAMBqgSKAU_QgWL4Zc8_yKxk9vXQhXneBvgKXOh8ZTEWEdPatdr3JwevXM8nABZsO3qr9frOaHDMiEHwwcwBDKhLUUmAYGImzsNNOFK3_7JV7bv2AiFMjl7m4qXU2NVRW3D8R9GfYU6-BPwgO68Bg9FDwC4BwLsYvFT4vEnEp3bbV3LSugRQdmoUvI4tEek2YoAHzI5C&amp;num=1&amp;sig=AOD64_3QSgilIHmTb2hyKOmotGqfJzveAQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.iuniverse.com/LP02F01C037.aspx%3FCat%3DPPC%26LS%3DSearchEngine%26SRC%3DGoogle%26KW%3DiUniverseContentAds-DCO%26GKW%3DDCOTextAds%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DiUniverseContentAds%26utm_content%3Dwriting_google">Are You Writing a Book?</a><br>Get a free guide to professional<br>editing &amp; publishing options.<br><a class="last" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CZW1CHZ5-UtfhGITU0AGmjIDoDNKk-54E2qibyhTM4LqUBRABIJzz-AFQ-ayw8gZgycapi8Ck2A-gAZzxvf8DyAEBqAMBqgSKAU_QgWL4Zc8_yKxk9vXQhXneBvgKXOh8ZTEWEdPatdr3JwevXM8nABZsO3qr9frOaHDMiEHwwcwBDKhLUUmAYGImzsNNOFK3_7JV7bv2AiFMjl7m4qXU2NVRW3D8R9GfYU6-BPwgO68Bg9FDwC4BwLsYvFT4vEnEp3bbV3LSugRQdmoUvI4tEek2YoAHzI5C&amp;num=1&amp;sig=AOD64_3QSgilIHmTb2hyKOmotGqfJzveAQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.iuniverse.com/LP02F01C037.aspx%3FCat%3DPPC%26LS%3DSearchEngine%26SRC%3DGoogle%26KW%3DiUniverseContentAds-DCO%26GKW%3DDCOTextAds%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DiUniverseContentAds%26utm_content%3Dwriting_google">www.iUniverse.com</a></td></tr></tbody></table></div>
+<!-- ADXINFO classification="Email_Text_Ad_Version" campaign="GoogleAdSense_ARTICLE_GOOGLE_SPONLINK_A" priority="1002" isInlineSafe="N" width="0" height="0" --><script language="JavaScript" type="text/javascript">
+
+    // Sponlink_A_Short
+
+     if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
+     NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLinkA'
+     });
+
+</script><script src="show_ads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="ads_001.dat"></script>
+
+</div><!--end #bColumn -->
+
+<!--MOTHS -->
+
+  <!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule nocontent">
+            <script type="text/javascript" src="moth.js"></script><script src="effect_scroll.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="3.6.min.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="mothController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="mothLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+        <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="moth_reverse_off.gif"></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="moth_forward.gif"></span></div>
+                <h4>
+
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/nyregion/newburgh-ny-seeks-renewal-without-gentrification.html"><img src="10MOTH_NEWBURGH-moth.jpg" alt="Newburgh Seeks Renewal Without Gentrification" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/nyregion/newburgh-ny-seeks-renewal-without-gentrification.html">Newburgh Seeks Renewal Without Gentrification</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/opinion/sunday/against-disclosure.html"><img src="09MOTH_GRAY-moth.jpg" alt="Gray Matter: Against Disclosure" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/opinion/sunday/against-disclosure.html">Gray Matter: Against Disclosure</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/fashion/index.html">Fashion &amp; Style »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/fashion/On-TV-or-in-Fashion-Adam-Driver-from-hbo-Girls-is-an-Unlikely-Face-.html"><img src="10MOTH_DRIVER-moth.png" alt="An Unlikely Face on TV or in Fashion" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/fashion/On-TV-or-in-Fashion-Adam-Driver-from-hbo-Girls-is-an-Unlikely-Face-.html">An Unlikely Face on TV or in Fashion</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/09/nyregion/after-more-than-200-years-city-hall-construction-is-nothing-new.html"><img src="09MOTH_CITYHALL-moth.jpg" alt="Construction Will Go On at City Hall" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/09/nyregion/after-more-than-200-years-city-hall-construction-is-nothing-new.html">Construction Will Go On at City Hall</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://www.nytimes.com/2013/11/08/opinion/mutiga-why-zimbabwe-sanctions-boomerang.html">Mutiga: Why Zimbabwe Sanctions Boomerang</a></h3>
+                <p class="summary">American and European efforts to undermine Mugabe help rally Africans to his side.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/books/review/index.html">Sunday Book Review »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/books/review/double-down-by-mark-halperin-and-john-heilemann.html"><img src="09MOTH_KINSLEY-moth.jpg" alt="A War of Umbrage in ‘Double Down’" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/books/review/double-down-by-mark-halperin-and-john-heilemann.html">A War of Umbrage in ‘Double Down’</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/09/opinion/why-do-brits-accept-surveillance.html"><span class="img" src="http://i1.nyt.com/images/2013/11/09/opinion/09MOTH_OPED/09MOTH_OPED-moth.jpg" alt="Op-Ed: Why Do Brits Accept Surveillance?" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/09/opinion/why-do-brits-accept-surveillance.html">Op-Ed: Why Do Brits Accept Surveillance?</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/television/index.html/">Television »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/09/arts/television/meet-the-sloths-debuts-on-animal-planet.html"><span class="img" src="http://i1.nyt.com/images/2013/11/09/arts/09MOTH_ANIMALS/09MOTH_ANIMALS-moth.jpg" alt="Chilling Out: Life in a Slow, Cute Lane" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/09/arts/television/meet-the-sloths-debuts-on-animal-planet.html">Chilling Out: Life in a Slow, Cute Lane</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/sports/index.html">Sports »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/09/sports/ncaafootball/with-alabama-and-lsu-a-more-earthbound-game.html"><span class="img" src="http://i1.nyt.com/images/2013/11/09/sports/09MOTH_RUNNINGBACK/09MOTH_RUNNINGBACK-moth.jpg" alt="A More Earthbound Game for Alabama and L.S.U." width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/09/sports/ncaafootball/with-alabama-and-lsu-a-more-earthbound-game.html">A More Earthbound Game for Alabama and L.S.U.</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://opinionator.blogs.nytimes.com/2013/11/08/the-space-to-imagine-music/">Measure for Measure: To Imagine Music</a></h3>
+                <p class="summary">When notebooks full of lyrics make a songwriter feel trapped, visual art can provide a calmer context, writes Sam Phillips.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/booming/index.html">Booming »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/booming/when-nest-emptied-discontent-entered.html"><span class="img" src="http://i1.nyt.com/images/2013/11/10/booming/09moth-booming-unhitched/10unhitched-booming-empty-moth.jpg" alt="When Nest Emptied, Discontent Entered" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/booming/when-nest-emptied-discontent-entered.html">When Nest Emptied, Discontent Entered</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/10/realestate/upper-east-side-to-live-in-an-artwork.html"><span class="img" src="http://i1.nyt.com/images/2013/11/10/realestate/10MOTH_EXCLUSIVE/10MOTH_EXCLUSIVE-moth.jpg" alt="Upper East Side: To Live in an Artwork" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/10/realestate/upper-east-side-to-live-in-an-artwork.html">Upper East Side: To Live in an Artwork</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+
+</div>
+<!--Footer -->
+
+<nyt_footer>	 
+<nyt_copyright>
+
+<div id="footer">
+<div class="footerRow">
+<a href="http://www.nytimes.com/">Home</a>
+<ul>
+<li><a href="http://www.nytimes.com/pages/world/index.html">World</a></li>
+<li><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a></li>
+<li><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a></li>
+<li><a href="http://www.nytimes.com/pages/business/index.html">Business</a></li>
+<li><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a></li>
+<li><a href="http://www.nytimes.com/pages/science/index.html">Science</a></li>
+<li><a href="http://www.nytimes.com/pages/health/index.html">Health</a></li>
+<li><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a></li>
+<li><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></li>
+<li><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a></li>
+<li><a href="http://www.nytimes.com/pages/style/index.html">Style</a></li>
+<li><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a></li>
+<li><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a></li>
+<li><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a></li>
+<li><a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a></li>
+<li><a href="#top">Back to Top</a></li>
+</ul>
+</div>
+<a href="http://www.nytimes.com/ref/membercenter/help/copyright.html">Copyright 2009</a> 
+<a href="http://www.nytco.com/">The New York Times Company</a>
+<ul>
+<li><a href="http://www.nytimes.com/privacy">Privacy Policy</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=&amp;date_select=full&amp;type=nyt">Search</a></li>
+<li><a href="http://www.nytimes.com/corrections.html">Corrections</a></li>
+<li><a href="http://www.nytimes.com/rss" class="rssButton">RSS</a></li>
+<li><a href="http://firstlook.nytimes.com/">First Look</a></li>
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://www.nytco.com/careers/">Work for Us</a></li>
+<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>
+</div>
+
+</nyt_copyright>
+</nyt_footer>  
+
+</div>
+</div>
+
+			
+		<!-- Start UPT call -->
+		<img src="untitled_001.dat" border="0" height="1" width="3">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="0";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+   
+
+
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("t_section","Weekinreview")</script>
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("site","nytimes.com")</script>
+		<script language="JavaScript">Tacoda_AMS_DDC("http://te.nytimes.com/tte/blank.gif","1.0")</script>	
+		
+<img class="hidden" src="10ecb2eaQ2F888c4lPsQ7Dlf8sclQ3BzLQ7EkfDlabkQ60CQ3D4Q7DC40gcQ3Dg00Q7DQ60Q2F(" height="1" width="3">
+
+
+
+
+
+
+<script language="javascript" src="57.js"></script>
+
+
+<script>
+
+NYTD.jQuery(window).on('load', function () {
+
+    function getMetaValue(name) {
+        var els = document.getElementsByName(name);
+        if (els && els[0]) { return els[0].content; }
+        return "";
+    }
+
+    var kurl = document.location.pathname;
+    var kgeoref = getMetaValue("geo");
+    var ksection = getMetaValue("CG");
+    var ksubsection = getMetaValue("SCG");
+    var kauthor = getMetaValue("author");
+    var kfacebstring = "AUTHOR=" + kauthor + "&GEO_REF=" + kgeoref + "&SECTION=" + ksection + "&SUBSECTION=" + ksubsection + "&URL=www.nytimes.com" + kurl;
+
+    NYTD.jQuery(".shareToolsItemFacebook").on('click', function () {
+        var scriptTag = document.createElement("script");
+        scriptTag.src = 'http://beacon.krxd.net/event.gif?event_id=HudKM7Cc&event_type=clk&pub_id=79816aa8-435a-471a-be83-4b3e0946daf2&' + kfacebstring; 
+        var firstScript = document.getElementsByTagName("script")[0];
+        firstScript.parentNode.insertBefore(scriptTag, firstScript);
+    });    
+});
+</script>
+
+<!-- ADXINFO classification="blank-but-count-imps" campaign="KRUX_DIGITAL_CONTROL_SCRIPT_LIVE_DEFAULT" priority="1002" isInlineSafe="N" width="1" height="1" --><!-- BEGIN Krux Controltag -->
+<script class="kxct" data-id="HrUwtkcl" data-version="async:1.7" type="text/javascript">
+
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;var m,src=(m=location.href.match(/\bkxsrc=([^&]+)\b/))&&decodeURIComponent(m[1]);
+    k.src=src||(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag?confid=HrUwtkcl';
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  })();
+</script>
+<!-- END Krux Controltag -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ics:argument name="asset_id" value="1194839624172">
+
+
+
+</ics:argument><div id="nytLoginModalContainer" class="nytLoginModalContainer nytModalContainer" style="display: none; z-index: 2147483645;"><div class="nytOverlay" style="background: none repeat ; 0% transparent;"></div><div class="nytModal nytLoginModal  " style="width: 360px;"><div class="inset"><div class="nytModalHeader"><div class="opposingFloatControl"><div class="element1"><h5 class="nytModalHeading">Log in to NYTimes.com</h5></div><div class="element2 "><a href="#" class="nytModalClose">Close</a></div></div></div><div class="nytModalContent singleRule"><div class="inset"><div class="horizontalFormControl"><form action="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=all" id="loginModalForm" class="loginModalForm"><div class="control"><div class="labelContainer"><div class="insetV"><label for="user">E-Mail/Member ID:</label></div></div><div class="fieldContainer"><input class="text" value="" id="user" name="userid" tabindex="1" type="text"></div></div><div class="control passwordControl"><div class="labelContainer containingBlock"><div class="insetV"><label for="password">Password:</label><span class="labelDescription"><a href="http://www.nytimes.com/forgot" tabindex="4">Forgot your password?</a></span></div></div><div class="fieldContainer"><input class="text" value="" id="password" name="password" tabindex="2" type="password"></div></div><div class="control"><div class="fieldContainer metaFootnote" id="loginModalRegiSwap">Don't have an NYTimes.com account? <a href="javascript:;">Register now for free.</a></div></div><div class="control horizontalControl loginSubmitControl lastControl"><div class="insetContainer wrap"><div class="control buttonControl"><span id="loginSubmitLoader" class="submitLoader hidden"><img src="loading-grey-lines-circle-18.gif"></span><button type="button" id="loginModalSubmitButton" class="loginButton applicationButton" tabindex="3">Log In</button></div><div class="control checkboxControl"><div class="fieldContainer"><input id="remember" name="remember" class="checkbox" checked="checked" type="checkbox"></div><div class="labelContainer"><label class="checkboxLabel" for="remember">Remember me</label></div></div></div></div></form></div></div></div></div><div class="nytModalPointer nytModalPointerDown" style=""></div></div></div><div id="nytRegiModalContainer" class="nytRegiModalContainer nytModalContainer" style="display: none; z-index: 2147483645;"><div class="nytOverlay" style="background: none repeat ; 0% transparent;"></div><div class="nytModal nytRegiModal  " style="width: 360px;"><div class="inset"><div class="nytModalHeader"><div class="opposingFloatControl"><div class="element1"><h5 class="nytModalHeading">Register at NYTimes.com</h5></div><div class="element2 "><a href="#" class="nytModalClose">Close</a></div></div></div><div class="nytModalContent singleRule"><div class="inset"><div class="horizontalFormControl horizontalModalFormControl"><form action="http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html?_r=0&amp;pagewanted=all" validate="" id="regiModalForm" class="regiModalForm modalForm" method="post"><div class="control email"><div class="labelContainer"><div class="insetV"><label for="regi-email">E-Mail:</label></div></div><div class="fieldContainer"><input value="" id="regi-email" name="regi-email" type="email"></div></div><div class="control"><div class="labelContainer"><div class="insetV"><label for="regi-password">Password:</label></div></div><div class="fieldContainer"><input value="" id="regi-password" name="regi-password" type="password"></div></div><div class="control"><div class="labelContainer"><div class="insetV"><label for="regi-password2">Retype Password:</label></div></div><div class="fieldContainer"><input value="" id="regi-password2" name="regi-password2" type="password"></div></div><div class="control notify checkboxControl"><div class="fieldContainer"><input id="specialOffers" class="checkbox" name="subscribe[]" value="MM" checked="" type="checkbox"></div><div class="labelContainer"><label class="checkboxLabel" for="specialOffers">Receive occasional updates and special offers for The New York Timesâ€™s products and services.</label></div></div><div class="control"><div class="fieldContainer metaFootnote" id="regiModalLoginSwap">Already have an NYTimes.com account? <a href="javascript:;">Log In.</a></div></div><div class="control buttonControl"><div class="fieldContainer containingBlock"><span id="submitRegiLoader" class="submitLoader hidden"><img src="loading-grey-lines-circle-18.gif"></span><button type="button" id="regiModalSubmitButton" class="applicationButton">Create My Account</button></div></div></form></div></div></div></div><div class="nytModalPointer nytModalPointerDown" style=""></div></div></div><script src="untitled_002.dat"></script><div id="BF_WIDGET_1">&nbsp;<script src="UserWidget" type="text/javascript"></script></div><iframe style="position: absolute; top: -32000px;" src="19cohen_1.html" width="1"></iframe></body>
+</html>
