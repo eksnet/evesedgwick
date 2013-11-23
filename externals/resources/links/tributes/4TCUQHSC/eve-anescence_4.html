@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://roxies-world.blogspot.com/2009/04/eve-anescence.html">
+<meta name="wpd_url" content="http://roxies-world.blogspot.com/2009/04/eve-anescence.html">
+<meta name="wpd_date" content="2013-10-23T22:18Z">
+
+
+<title>Widget</title>
+
+<!--[if lte IE 6]>
+	<style type="text/css" media="screen">
+    .pad { }
+	</style>
+<![endif]-->
+
+<script type="text/javascript">
+ 
+var bf_widget = {};
+bf_widget.servers = ["newbuzz-collection-1925855828.us-east-1.elb.amazonaws.com"];
+
+var bfct = function (ct) {
+	ct = ct.replace(/^http:\/\/([^\/]+)/, "http://" + bf_widget.servers[ Math.floor(Math.random() * bf_widget.servers.length) ] );
+	(new Image()).src = ct;
+};
+
+function init() {
+	var options = params();	
+	if(options['BF_CapColor']) {
+		document.getElementById('h').style.backgroundColor = options['BF_CapColor'];
+		document.getElementById('f').style.backgroundColor = options['BF_CapColor'];
+		if(options['BF_CapTextColor']) {
+			document.getElementById('h').style.color = options['BF_CapTextColor'];
+			document.getElementById('f').style.color = options['BF_CapTextColor'];
+		}
+		if(options['BF_BkgdColor']) {
+			document.getElementById('BF_Widget').style.backgroundColor = options['BF_BkgdColor'];		
+		}
+		if(options['BF_TextColor']) {
+			h4s = document.getElementsByTagName('h3');	
+			for( var i = 0; i < h4s.length ; i++  ) {
+				h4s[i].getElementsByTagName('a')[0].style.color = options['BF_TextColor']; 
+			}
+		}
+		document.getElementById('BF_Widget').style.display = 'block';
+	}
+}
+
+function params() {
+	var query = window.location.search.substring(1);
+	query = query.replace(/&amp;/g, '&');
+	var vars = query.split("&");
+	query_params = new Object()
+	for (var i=0;i<vars.length;i++) {
+		var pair = vars[i].split("=");
+		// console.info(pair[0]);
+		query_params[pair[0]] = unescape(pair[1]).replace(/\+/g, " ");
+	}
+	return query_params; 
+}
+
+
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="eve-anescence_4.css" media="all">
+</head>
+<body>
+
+<div id="BF_Widget" style="display: block; background-color: rgb(238, 238, 247);">
+  <a style="background-color: rgb(51, 102, 170); color: rgb(238, 238, 238);" id="h" href="http://buzzfeed.com/" target="_top">BuzzFeed</a>
+  <table class="bod" cellspacing="0">
+    <tbody><tr>
+      <td class="bod">
+        <table class="pad" cellspacing="0" height="132">
+      <tbody><tr>
+        
+    
+    <td align="center" valign="middle">
+
+      
+   	        <div class="u">
+        <a href="http://www.buzzfeed.com/sararubin/strange-facts-about-what-youre-wearing?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=sararubin&amp;buzz=strange-facts-about-what-youre-wearing&amp;c=7BJZ4M7&amp;u=72TINQ7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F')"><img src="strange-facts-about-what-youre-wearing-1-15415-1385234474-36.jpg" id="strange-facts-about-what-youre-wearing"></a>
+        <!-- <a class="c" href="http://www.buzzfeed.com/sararubin/strange-facts-about-what-youre-wearing?w=1" target="_top"   onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&user=sararubin&buzz=strange-facts-about-what-youre-wearing&c=7BJZ4M7&u=72TINQ7&url=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F&rd=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F')">185 Clicks</a> -->
+        <h3 style="margin-top: 7px;"><a style="color: rgb(34, 85, 170);" class="t" href="http://www.buzzfeed.com/sararubin/strange-facts-about-what-youre-wearing?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=sararubin&amp;buzz=strange-facts-about-what-youre-wearing&amp;c=7BJZ4M7&amp;u=72TINQ7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fsararubin%2Fstrange-facts-about-what-youre-wearing%2F')">Strange Facts About What You're Wearing</a></h3>
+      </div>      
+    </td>
+        
+    
+        
+    
+    <td align="center" valign="middle">
+
+      
+   	        <div class="u">
+        <a href="http://www.buzzfeed.com/micaela/busty-girl-problems?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=micaela&amp;buzz=busty-girl-problems&amp;c=7BJWIB7&amp;u=7232PH7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F')"><img src="17-problems-that-only-busty-girls-have-1-22858-1385162317-6.jpg" id="busty-girl-problems"></a>
+        <!-- <a class="c" href="http://www.buzzfeed.com/micaela/busty-girl-problems?w=1" target="_top"   onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&user=micaela&buzz=busty-girl-problems&c=7BJWIB7&u=7232PH7&url=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F&rd=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F')">9,220 Clicks</a> -->
+        <h3 style="margin-top: 7px;"><a style="color: rgb(34, 85, 170);" class="t" href="http://www.buzzfeed.com/micaela/busty-girl-problems?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=micaela&amp;buzz=busty-girl-problems&amp;c=7BJWIB7&amp;u=7232PH7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fmicaela%2Fbusty-girl-problems%2F')">17 Problems That Only Busty Girls Have</a></h3>
+      </div>      
+    </td>
+        
+    
+        
+    
+    <td align="center" valign="middle">
+
+      
+   	        <div class="u">
+        <a href="http://www.buzzfeed.com/awesomer/the-most-touching-photos-ever-taken?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=awesomer&amp;buzz=the-most-touching-photos-ever-taken&amp;c=7BI2U97&amp;u=72ESJ7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F')"><img src="the-35-most-touching-photos-ever-taken-1-25992-1385144830-12.jpg" id="the-most-touching-photos-ever-taken"></a>
+        <!-- <a class="c" href="http://www.buzzfeed.com/awesomer/the-most-touching-photos-ever-taken?w=1" target="_top"   onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&user=awesomer&buzz=the-most-touching-photos-ever-taken&c=7BI2U97&u=72ESJ7&url=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F&rd=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F')">13,535 Clicks</a> -->
+        <h3 style="margin-top: 7px;"><a style="color: rgb(34, 85, 170);" class="t" href="http://www.buzzfeed.com/awesomer/the-most-touching-photos-ever-taken?w=1" target="_top" onmousedown="bfct('http://75.101.183.223/small.gif?type=100,14&amp;user=awesomer&amp;buzz=the-most-touching-photos-ever-taken&amp;c=7BI2U97&amp;u=72ESJ7&amp;url=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F&amp;rd=http%3A%2F%2Fbuzzfeed.com%2Fawesomer%2Fthe-most-touching-photos-ever-taken%2F')">The 35 Most Touching Photos Ever Taken</a></h3>
+      </div>      
+    </td>
+        
+          </tr>
+    </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+    
+  <a style="background-color: rgb(51, 102, 170); color: rgb(238, 238, 238);" id="f" href="http://buzzfeed.com/network/join" target="_top">Add BuzzFeed to Your Site</a>
+</div>
+<script type="text/javascript">init();</script>
+<script type="text/javascript">/*<![CDATA[*/ if (!bf_widget) { var bf_widget = {}; bf_widget.servers = ["newbuzz-collection-1925855828.us-east-1.elb.amazonaws.com"]; } function bfimps() { var widget = document.getElementById('BF_Widget'); var imgs = widget.getElementsByTagName('img'); bf_widget.d = { type: [], buzzid: [], user: [], buzz: [], userid: [] }; bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BJZ4M7"); bf_widget.d.userid.push("72TINQ7"); bf_widget.d.buzz.push("strange-facts-about-what-youre-wearing"); bf_widget.d.user.push("sararubin"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BJWIB7"); bf_widget.d.userid.push("7232PH7"); bf_widget.d.buzz.push("busty-girl-problems"); bf_widget.d.user.push("micaela"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BI2U97"); bf_widget.d.userid.push("72ESJ7"); bf_widget.d.buzz.push("the-most-touching-photos-ever-taken"); bf_widget.d.user.push("awesomer"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BGXSV7"); bf_widget.d.userid.push("742S877"); bf_widget.d.buzz.push("15-signs-you-are-emotionally-unavailable"); bf_widget.d.user.push("tabirakhter"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BJTXK7"); bf_widget.d.userid.push("732JN27"); bf_widget.d.buzz.push("lorde-parody-about-white-girls-is-pretty-insane"); bf_widget.d.user.push("mackenziekruvant"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BK7V87"); bf_widget.d.userid.push("71CWHF7"); bf_widget.d.buzz.push("britney-spears-is-selling-merchandise-with-bch-written-all-o"); bf_widget.d.user.push("hunterschwarz"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BJUAL7"); bf_widget.d.userid.push("73BVWS7"); bf_widget.d.buzz.push("things-you-probably-didnt-know-about-dirty-dancing"); bf_widget.d.user.push("jenlewis"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BK6UA7"); bf_widget.d.userid.push("732JN27"); bf_widget.d.buzz.push("rapper-proposes-to-girlfriend-during-rap-battle-and-its-ador"); bf_widget.d.user.push("mackenziekruvant"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BJVZU7"); bf_widget.d.userid.push("7YM0L7"); bf_widget.d.buzz.push("things-celebrities-did-this-week-11-22"); bf_widget.d.user.push("whitneyjefferson"); bf_widget.d.type.push(13); bf_widget.d.buzzid.push("7BK7BL7"); bf_widget.d.userid.push("71K6AQ7"); bf_widget.d.buzz.push("aaron-paul-bryan-cranston-read-breaking-bad-finale"); bf_widget.d.user.push("hnigatu"); cloud_url = "http://" + (bf_widget.servers[ Math.floor(Math.random() * bf_widget.servers.length) ]) + "/small.gif?"; cloud_url += "type=" + bf_widget.d.type.slice(0, imgs.length).join(","); cloud_url += "&c=" + bf_widget.d.buzzid.slice(0, imgs.length).join(","); cloud_url += "&buzz=" + bf_widget.d.buzz.slice(0, imgs.length).join(","); cloud_url += "&u=" + bf_widget.d.userid.slice(0, imgs.length).join(","); cloud_url += "&user=" + bf_widget.d.user.slice(0, imgs.length).join(","); cloud_url += "&url=" + escape(window.location.href); cloud_url += "&z=" + Math.floor((Math.random() * 10000)); (new Image()).src = cloud_url; if ( typeof window['BF_DFP_IMP'] != 'undefined' ) { (new Image()).src = BF_DFP_IMP; } if( typeof(parent.BF_NO_QS) == 'undefined' ) { (new Image()).src = "http://pixel.quantserve.com/pixel/p-3aud4J6uA4Z6Y.gif?labels=Widget&busty=" + Math.floor((Math.random() * 10000)); } } var bfct = function (ct) { try { /* look for second argument pass, it's the html element. */ if (arguments.length > 1) { var el = arguments[1]; if ( typeof window['BF_DFP_REDIRECT'] != 'undefined' ) { el.href = BF_DFP_REDIRECT + escape(el.href); } } if ( typeof window['BF_DFP_CLICK'] != 'undefined' ) { (new Image()).src = BF_DFP_CLICK; } ct = ct.replace(/^http:\/\/([^\/]+)/, "http://" + bf_widget.servers[ Math.floor(Math.random() * bf_widget.servers.length) ] ); ct += "&z=" + Math.floor((Math.random() * 10000)); var buzz_url = ct.match(/url=([^&]+)/); if ( buzz_url ) { if (!buzz_url[1].match(/buzzfeed.com/)) { var match_uid = ct.match(/&u=([A-Z0-9]+)/); var match_user = ct.match(/&user=([a-z0-9]+)/); if (match_user && match_user.length && match_uid && match_uid.length && buzz_url && buzz_url.length) { var uid = match_uid[1]; var user = match_user[1]; var cjn_ct = ct; cjn_ct = cjn_ct.replace(/&c=[^&]+/,'&c=' + uid ); cjn_ct = cjn_ct.replace(/&buzz=[^&]+/,'&buzz=' + user); cjn_ct = cjn_ct.replace(/type=[^&]+/,'type=23'); cjn_ct = cjn_ct.replace(/&url=[^&]+/,'' ); cjn_ct = cjn_ct.replace(/&rd=[^&]+/,'' ); (new Image()).src = cjn_ct; } } ct = ct.replace( /url=([^&])+/, "url=" + escape(document.location.href) ); } else { ct += "&url=" + escape(document.location.href); } (new Image()).src = ct; } catch(e) {console.error(e);} }; bfimps(); /*]]>*/ </script>
+
+
+
+
+</body>
+</html>

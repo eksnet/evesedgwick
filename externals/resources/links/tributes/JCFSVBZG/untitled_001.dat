@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Blogs @ Columbia Law School</title>
+
+<link rel="alternate" type="application/rss+xml" title="Blogs @ Columbia Law School RSS2 Feed" href="http://blogs.law.columbia.edu/feed/" />
+<link rel="pingback" href="http://blogs.law.columbia.edu/xmlrpc.php" />
+
+
+<link rel="stylesheet" href="http://blogs.law.columbia.edu/wp-content/themes/cls_landing/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://blogs.law.columbia.edu/wp-content/themes/cls_landing/style.css" type="text/css" media="screen" />
+
+ 
+<link rel="stylesheet" href="http://blogs.law.columbia.edu/wp-content/themes/cls_landing/css/style1.css" type="text/css" media="screen" />
+<meta name="robots" content="index, follow" />
+
+            <script type="text/javascript">//<![CDATA[
+            // Google Analytics for WordPress by Yoast v4.3.3 | http://yoast.com/wordpress/google-analytics/
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-21624822-1']);
+				            _gaq.push(['_trackPageview']);
+            (function () {
+                var ga = document.createElement('script');
+                ga.type = 'text/javascript';
+                ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(ga, s);
+            })();
+            //]]></script>
+			<script type='text/javascript' src='http://blogs.law.columbia.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://blogs.law.columbia.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://blogs.law.columbia.edu/wp-content/themes/cls_landing/js/custom.js?ver=3.7.1'></script>
+<script type='text/javascript' src='http://blogs.law.columbia.edu/wp-content/themes/cls_landing/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.7.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blogs.law.columbia.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blogs.law.columbia.edu/wp-includes/wlwmanifest.xml" /> 
+
+
+<meta name="twicet1" content="" />
+<meta name="twicet2" content="7000" />
+<meta name="twicet3" content="http://blogs.law.columbia.edu/wp-content/themes/cls_landing" />
+<meta name="twicet4" content="" />
+<meta name="twicet5" content="7000" />
+<!--[if IE 6]>
+<script type='text/javascript' src='http://blogs.law.columbia.edu/wp-content/themes/cls_landing/js/dd_belated_png.js'></script>
+<script>DD_belatedPNG.fix('.ie6fix');</script>
+<![endif]-->
+
+</head>
+
+
+<body id="frontpage">
+<div class="wrap_all">
+    <div id="top">
+	  <div id="head"> 
+      		<a class="logo" href="http://www.law.columbia.edu">Logo</a>
+           <!-- <h1 class='logo'><a href="http://blogs.law.columbia.edu/">Blogs @ Columbia Law School</a></h1> -->
+               <div class="top-search"><span>SEARCH</span><form method="get" id="searchform" action="http://blogs.law.columbia.edu/">
+<input type="text" size="14" id="s" name="s" style="color: rgb(153, 153, 153)"></form></div>
+
+            
+             
+                          
+    	<!-- end head-->
+        	
+            <div class="navwrap">	
+                <ul id="nav">
+            <li class="current_page_item" ><a href="http://blogs.law.columbia.edu">Home</a></li>
+                <li class="page_item page-item-94"><a href="http://blogs.law.columbia.edu/all-themes/">All Themes</a></li>
+<li class="page_item page-item-156 page_item_has_children"><a href="http://blogs.law.columbia.edu/documentation/">Documentation</a>
+<ul class='children'>
+	<li class="page_item page-item-69"><a href="http://blogs.law.columbia.edu/documentation/what-is-a-blog/">What is a blog?</a></li>
+	<li class="page_item page-item-74"><a href="http://blogs.law.columbia.edu/documentation/getting-started/">Getting Started</a></li>
+	<li class="page_item page-item-160"><a href="http://blogs.law.columbia.edu/documentation/blogging-basics/">Blogging Basics</a></li>
+	<li class="page_item page-item-162"><a href="http://blogs.law.columbia.edu/documentation/faqs/">FAQs</a></li>
+	<li class="page_item page-item-164"><a href="http://blogs.law.columbia.edu/documentation/getting-help/">Getting Help</a></li>
+	<li class="page_item page-item-3"><a href="http://blogs.law.columbia.edu/documentation/appropriate-use-policy/">Appropriate Use Policy</a></li>
+</ul>
+</li>
+<li class="page_item page-item-182"><a href="http://blogs.law.columbia.edu/request-a-blog/">Request A Blog</a></li>
+                </ul> 
+              </div><!--end navwrap-->
+
+                <!-- <a class="main_title" href="http://blogs.law.columbia.edu">Blogs @ Columbia Law School</a> -->
+                </div>
+
+        
+        <div id="main">
+            <div id="featured"> 
+            
+            <div class="featured_item current">
+<div class="featured_text">
+<div class="entry">
+<span class="meta">inspired by the CLS Admissions Brochure</span>
+<h2><a href="http://blogs.law.columbia.edu/blog/2010/02/05/class-actions/" title="Class Actions" >Class Actions</a></h2>
+<p>Great for administrative departments: 2 sidebars for plenty of widgets, typography and imagery matching CLS official materials and a simple color scheme.</p>
+</div>
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/class-actions/" class="read-more">Read more</a><a href="#" class="show-next">Next »</a>
+</div><!-- end featured_text-->
+<div class="featured_image"><!--an image only slide -->
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/class-actions/"><img src="http://blogs.law.columbia.edu/files/2010/02/classaction-front.png" alt="" /></a>
+</div><!-- end featured_item-->
+</div><!-- end featured_image-->
+<div class="featured_item ">
+<div class="featured_text">
+<div class="entry">
+<span class="meta">heavy on the Columbia blues</span>
+<h2><a href="http://blogs.law.columbia.edu/blog/2010/02/05/news-you-can-use-2/" title="News You Can Use" >News You Can Use</a></h2>
+<p>A bit different from the rest, but plenty of Columbia blue to fit right in. Great for student organizations and administrative departments.</p>
+</div>
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/news-you-can-use-2/" class="read-more">Read more</a><a href="#" class="show-next">Next »</a>
+</div><!-- end featured_text-->
+<div class="featured_image"><!--an image only slide -->
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/news-you-can-use-2/"><img src="http://blogs.law.columbia.edu/files/2010/02/theblues-front.png" alt="" /></a>
+</div><!-- end featured_item-->
+</div><!-- end featured_image-->
+<div class="featured_item ">
+<div class="featured_text">
+<div class="entry">
+<span class="meta">in the style of the CLS Online Magazine</span>
+<h2><a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-magazine-2/" title="CLS Magazine" >CLS Magazine</a></h2>
+<p>The clean look and feel of the CLS Magazine with plenty of built-in functionality out the box. Featured Post and Category Cloud widgets are built-in to the sidebar making it great for Centers, Programs and academic groups with lots of content to showcase.</p>
+</div>
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-magazine-2/" class="read-more">Read more</a><a href="#" class="show-next">Next »</a>
+</div><!-- end featured_text-->
+<div class="featured_image"><!--an image only slide -->
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-magazine-2/"><img src="http://blogs.law.columbia.edu/files/2010/02/magazine-front.png" alt="" /></a>
+</div><!-- end featured_item-->
+</div><!-- end featured_image-->
+<div class="featured_item ">
+<div class="featured_text">
+<div class="entry">
+<span class="meta">a clean, functional design for online journals</span>
+<h2><a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-journal-2/" title="CLS Journal" >CLS Journal</a></h2>
+<p>Inspired by the look and feel of the CLS Magazine. Boasts a built-in configuration tool within the Dashboard of your blog to customize the theme on your own. Social networking ready with a &#8220;Share&#8221; button on all your posts and a prominent &#8220;Featured&#8221; section on the home page make this a great choice for journal groups and all kinds of publications.</p>
+</div>
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-journal-2/" class="read-more">Read more</a><a href="#" class="show-next">Next »</a>
+</div><!-- end featured_text-->
+<div class="featured_image"><!--an image only slide -->
+<a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-journal-2/"><img src="http://blogs.law.columbia.edu/files/2010/04/journal-front2.png" alt="" /></a>
+</div><!-- end featured_item-->
+</div><!-- end featured_image-->
+<div id="featured_bottom">
+<div class="ticker">
+<span class='active_ticker'
+ ><a href="http://blogs.law.columbia.edu/blog/2010/02/05/class-actions/"><strong>Latest News:</strong> Class Actions</a></span>
+<span  ><a href="http://blogs.law.columbia.edu/blog/2010/02/05/news-you-can-use-2/"><strong>Latest News:</strong> News You Can Use</a></span>
+<span  ><a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-magazine-2/"><strong>Latest News:</strong> CLS Magazine</a></span>
+<span  ><a href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-journal-2/"><strong>Latest News:</strong> CLS Journal</a></span>
+</div><!--end ticker-->
+<div class="preview_images">
+<a class='current_prev' href="http://blogs.law.columbia.edu/blog/2010/02/05/class-actions/"><img src="http://blogs.law.columbia.edu/files/2010/02/classaction-fpmini.png" alt="" height="30px" width="44px" /></a>
+<a  href="http://blogs.law.columbia.edu/blog/2010/02/05/news-you-can-use-2/"><img src="http://blogs.law.columbia.edu/files/2010/02/theblues-fpmini.png" alt="" height="30px" width="44px" /></a>
+<a  href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-magazine-2/"><img src="http://blogs.law.columbia.edu/files/2010/02/magazine-fpmini.png" alt="" height="30px" width="44px" /></a>
+<a  href="http://blogs.law.columbia.edu/blog/2010/02/05/cls-journal-2/"><img src="http://blogs.law.columbia.edu/files/2010/02/journal-fpmini1.png" alt="" height="30px" width="44px" /></a>
+</div><!-- end preview_images-->
+</div><!-- end featured_bottom-->
+</div><!-- end featured-->
+ 
+
+        
+      	 <div id="content">
+<div id="text-3" class="small_box box1 widget widget_text"><span class="meta"></span><h3 class="widgettitle">Welcome to CLS Blogs</h3>			<div class="textwidget"><p>We are excited to bring you:<br />
+<strong>Blogs@Columbia Law School</strong>!</p>
+<p>Our blogging platform allows you to quickly and easily write  and maintain your own blog, post comments on the other Law School blogs and more! Starting today, the Law School's blogging service is available to faculty, student organizations and administrative departments that serve students. To request your blog, click <a href="http://blogs.law.columbia.edu/request-a-blog/">here</a> to get started.</p>
+</div>
+		</div><div id="text-4" class="small_box box2 widget widget_text"><span class="meta"></span><h3 class="widgettitle">Ready to start blogging?</h3>			<div class="textwidget"><ul>
+<li><a href="http://blogs.law.columbia.edu/what-is-a-blog/">What is a blog?</a></li>
+<li><a href="http://blogs.law.columbia.edu/getting-started/">Getting Started</a></li>
+<li><a href="http://blogs.law.columbia.edu/documentation/blogging-basics/">Blogging Basics</a></li>
+<li><a href="http://blogs.law.columbia.edu/documentation/faqs/">FAQs</a></li>
+<li><a href="http://blogs.law.columbia.edu/documentation/getting-help/">Getting Help</a></li>
+</ul></div>
+		</div><div id="list-all-blogs" class="small_box box3 widget widget_list_all_blogs"><span class="meta"></span><h3 class="widgettitle">Recently Updated Blogs</h3><ul>
+<li><a href='http://blogs.law.columbia.edu/slst'>Society for Law, Science and Technology (SLST)</a></li><li><a href='http://blogs.law.columbia.edu/iem13f'>S. International Economic Migration</a></li><li><a href='http://blogs.law.columbia.edu/climatechange'>Climate Law Blog</a></li><li><a href='http://blogs.law.columbia.edu/scl'>Society for Chinese Law @ Columbia Law School</a></li><li><a href='http://blogs.law.columbia.edu/clerkships'>Clerkships @ CLS</a></li><li><a href='http://blogs.law.columbia.edu/htp'>Harlem Tutorial Project</a></li><li><a href='http://blogs.law.columbia.edu/koleinu'>KOLEINU: CLS for Israel</a></li><li><a href='http://blogs.law.columbia.edu/newsyoucanuse'>News You Can Use</a></li><li><a href='http://blogs.law.columbia.edu/cjan'></a></li><li><a href='http://blogs.law.columbia.edu/genderandsexualitylawblog'>Gender &amp; Sexuality Law Blog</a></li><li><a href='http://blogs.law.columbia.edu/facstaffnews'>Fac-Staff News Blog</a></li><li><a href='http://blogs.law.columbia.edu/lalsa'>CLS LaLSA</a></li><li><a href='http://blogs.law.columbia.edu/outlaws'>Columbia Outlaws</a></li><li><a href='http://blogs.law.columbia.edu/squash'>Columbia Law Squash Club</a></li><li><a href='http://blogs.law.columbia.edu/alsa'>African Law Students Association</a></li></ul>
+</div></div><!-- end content-->          
+          
+          
+          
+          	
+            
+            
+            
+
+            
+            
+          
+          
+<div id="ft-info">
+<ul>
+	<li><a href="http://www.law.columbia.edu/academics/registrar/acadcal">Academic Calendar</a></li> |
+    <li><a href="http://www.law.columbia.edu/employers">Resources For Employers</a></li> |
+    <li><a href="http://wwws-db.law.columbia.edu/lawnet/directory/employees/pub/index.act">Directory</a></li> |
+    <li><a href="http://www.law.columbia.edu/misc/map">Campus Map</a></li> |
+    <li><a href="http://www.columbia.edu/">Columbia University</a></li> |
+    <li><a href="http://www.columbia.edu/cu/jobs/">Jobs at Columbia</a></li> |
+    <li><a href="http://www.law.columbia.edu/misc/contact">Contact Us</a></li>
+</ul>
+<p>
+    &copy; Copyright 2010, Columbia Law School.
+    For questions or comments, please contact the <a href="mailto:webadmin@law.columbia.edu" style="color: white;">webmaster</a>.
+</p>
+
+</div>
+</div><!--end main-->
+        
+        <div id="footer">
+         <span class="copyright"><strong>Copyright &copy;</strong> <a href="http://www.wicked-wordpress-themes.com/wordpress-themes/business-themes/">Business Wordpress Themes</a></span>
+        <span class="scroll-top"><a href="#top">top</a></span>
+        </div><!--end footer-->
+        
+    </div><!--end top-->
+</div><!--end wrapp_all-->
+</body>
+</html>

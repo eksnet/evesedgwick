@@ -1,0 +1,117 @@
+Fields: 
+Link name from EKS.net
+Item name in  Zotero (Zotero gets from remote site)
+Index file name in Zotero folder
+Folder name in Zotero library 
+URL for archived site as it will appear in EKS.net
+
+abbreviated as:
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes//  [modify as necessary]
+
+
+Link:   Cathy Davidson, HASTAC
+Item:   Eve Kosofsky Sedgwick, My Friend, 1950-2009
+Index:  2081.html
+Folder: PECX5AV6
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/PECX5AV6/2081.html
+
+Link:   Katherine Franke, Columbia Law School Gender and Sexuality Blog
+Item:   Gender & Sexuality Law Blog » Blog Archive » Eve Kosofsky Sedgwick: A Tribute From Marrakech
+Index:  eve-kosofsky-sedgwick-a-tribute-from-marrakech.html
+Folder: JCFSVBZG
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/JCFSVBZG/eve-kosofsky-sedgwick-a-tribute-from-marrakech.html
+
+Link:   Richard Kim, The Nation
+Item:   Eve Kosofsky Sedgwick, 1950-2009 - richard-kim-obituary.pdf
+Index:  richard-kim-obituary.pdf
+Folder: AJHX3P4H
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/AJHX3P4H/richard-kim-obituary.pdf
+
+Link:   Kevin Kopelson, n+1
+Item:   Sentimental Journey: An Elegy for Eve Kosofsky Sedgwick, 1950-2009
+Index:  sentimental-journey.html
+Folder: K56UCSV7
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/K56UCSV7/sentimental-journey.html
+
+Link:   Roxie Smith Lindemann, Roxie’s World
+Item:   Roxie's World: Eve-anescence
+Index:  eve-anescence.html
+Folder: 4TCUQHSC
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/4TCUQHSC/eve-anescence.html
+
+Link:   Joseph Litvak, Libération
+Item:   24 heures Philo: Le culot d’Eve Sedgwick, théoricienne queer
+Index:  le-culot-deve-kosofsky-sedgwick.html
+Folder: KW6ZRJQM
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/KW6ZRJQM/le-culot-deve-kosofsky-sedgwick.html
+
+Link:   Alex Patchin McNeill, Presbequeerian
+Item:   epistemology of the theorist
+Index:  epistemology-of-the-theorist.html
+Folder: U7J5JNJG
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/U7J5JNJG/epistemology-of-the-theorist.html
+
+Link:   Gary Needham and Liz Morrish, Cultural Studies @ Nottingham Trent
+Item:   Cultural Studies @ Nottingham Trent: Remembering Eve Kosofsky Sedgwick (1950-2009)
+Index:  remembering-eve-kosofsky-sedgwick-1950.html
+Folder: WIKPPN7T
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/WIKPPN7T/remembering-eve-kosofsky-sedgwick-1950.html
+
+Link:   Andrew Parker, Amherst Magazine
+Item:   The Path-Breaker | Amherst College
+Index:  sedgwick.html
+Folder: BBAAX2QZ
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/BBAAX2QZ/sedgwick.html
+
+Link:   Ann Pellegrini, The Chronicle of Higher Education
+Item:   Eve Kosofsky Sedgwick
+Index:  15045.html
+Folder: 8ABXTNDU
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/8ABXTNDU/15045.html
+
+Link:   Silvia Posocco, The Guardian
+Item:   Cool, queer white glasses
+Index:  sexual-identity.html
+Folder: 6VGDKTH2
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/6VGDKTH2/sexual-identity.html
+
+Link:   Claire Potter, The Chronicle Blog Network
+Item:   All About Eve: Eve Sedgwick, May 2, 1950 – April 12, 2009 - Tenured Radical
+Index:  all-about-eve-eve-sedgwick-may-2-1950.html
+Folder: JJIS9PCW
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/JJIS9PCW/all-about-eve-eve-sedgwick-may-2-1950.html
+
+Link:   Darren Rosenblum, Feminist Law Professors
+Item:   Death of Eve Kosofsky Sedgwick | Feminist Law Professors
+Index:  feministlawprofessors.com.html
+Folder:	6KHXAAV4
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes/6KHXAAV4/feministlawprofessors.com.html
+
+Link:   
+Item:   
+Index:  
+Folder:
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes//
+
+Link:   
+Item:   
+Index:  
+Folder:
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes//
+
+Link:   
+Item:   
+Index:  
+Folder:
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes//
+
+Link:   
+Item:   
+Index:  
+Folder:
+URL:    http://evekosofskysedgwick.net/externals/resources/links/links-tributes//
+

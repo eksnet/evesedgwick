@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=ChzUswyuRUoSVLMHhwQHZ04GoBImmsOgD8f-K6GjAjbcBEAEghbvoDygDUOPy2u74_____wFgycapi8Ck2A-gAfuI6vgDyAEBqAMBqgSUAU_QR9sGXnWx31GyTiWyp-qtV-6JOtrput8hQUKWNmaeoFh2LEiX1OXCfNmIPaM2qhC58WyB7CUNCjueBYjEKbIf9BFRfqfLw5ZTS3964pxOH9A98vQwuXjaevhjgh_wCI4xbm14RLcoGs2_feoit5BZKQVO1t-qd7gVbLevb0y254w90O8g7pfnsFCZDvkHpOiLwP2AB-32lQc&amp;num=1&amp;sig=AOD64_2hlPxMxCcSo-QFoKWYj2RDEfkwFQ&amp;client=ca-guardian_js&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D9155%26a%3DBTG-Scientifc_Text_Text%26Network%3DContent%26kw%3D%26ad%3D28084526321%26SiteTarget%3Dwww.theguardian.com"; 
+google_ad.visible_url = "www.lumosity.com"; 
+google_ad.line1 = "Brain Training Games"; 
+google_ad.line2 = "Improve memory and attention with"; 
+google_ad.line3 = "scientific brain games."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CvnDGwyuRUoSVLMHhwQHZ04GoBMjXuvAD-KjfmSrAjbcBEAIghbvoDygDUICah8sEYMnGqYvApNgPoAHug-nnA8gBAagDAaoElAFP0Ef1CF52sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teES3KBrNv33qIt7ubDQFTtbfqne4FWy3r29MtueMPdDvIO6X57BQmQ75B6SJw4zjgAf6-5YY&amp;num=2&amp;sig=AOD64_0_QHwlDgT64RAb9DyQiVv045m6HA&amp;client=ca-guardian_js&amp;adurl=http://www2.scholarships4moms.net/%3Fm%3DCA0008%26p%3DPA1067%26l%3Dwww.theguardian.com%26e%3D11238517872%26mkwid%3DckSFdCzVT%26v%3D%26k%3D"; 
+google_ad.visible_url = "www.Scholarships4Moms.net"; 
+google_ad.line1 = "Mom: $10,000 Scholarship"; 
+google_ad.line2 = "No GPA, No Essay, No Stress!"; 
+google_ad.line3 = "Apply Now. Takes Only 1 Minute."; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CWAizwyuRUoSVLMHhwQHZ04GoBPr_7OwDusP1s1XAjbcBEAMghbvoDygDUK360v8BYMnGqYvApNgPoAGuv_H7A8gBAagDAaoEkQFP0AffHF53sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teETPKxqFv967oGXnq1wFTjIzQeGKCGyBUmwIS-ToyNPP1e2XkrNQ-QhTKBUYgAe6wI4E&amp;num=3&amp;sig=AOD64_30foAA2ziLIs18lXAKUyKPIIlWuQ&amp;client=ca-guardian_js&amp;adurl=http://www.stylebistro.com/lookbook/Kate%2BMiddleton%3Futm_source%3Dgoog%26utm_medium%3Dcpc%26utm_campaign%3DKate-Middleton-Display"; 
+google_ad.visible_url = "Kate-Middleton.StyleBistro.com"; 
+google_ad.line1 = "Kate Middleton Photos"; 
+google_ad.line2 = "Stunning Pictures of Princess Kate"; 
+google_ad.line3 = "Middleton and the Royal Family."; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity%26gl%3DUS%26hl%3Den%26client%3Dca-guardian_js%26hideleadgen%3D1%26ai0%3DChzUswyuRUoSVLMHhwQHZ04GoBImmsOgD8f-K6GjAjbcBEAEghbvoDygDUOPy2u74_____wFgycapi8Ck2A-gAfuI6vgDyAEBqAMBqgSUAU_QR9sGXnWx31GyTiWyp-qtV-6JOtrput8hQUKWNmaeoFh2LEiX1OXCfNmIPaM2qhC58WyB7CUNCjueBYjEKbIf9BFRfqfLw5ZTS3964pxOH9A98vQwuXjaevhjgh_wCI4xbm14RLcoGs2_feoit5BZKQVO1t-qd7gVbLevb0y254w90O8g7pfnsFCZDvkHpOiLwP2AB-32lQc%26ai1%3DCvnDGwyuRUoSVLMHhwQHZ04GoBMjXuvAD-KjfmSrAjbcBEAIghbvoDygDUICah8sEYMnGqYvApNgPoAHug-nnA8gBAagDAaoElAFP0Ef1CF52sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teES3KBrNv33qIt7ubDQFTtbfqne4FWy3r29MtueMPdDvIO6X57BQmQ75B6SJw4zjgAf6-5YY%26ai2%3DCWAizwyuRUoSVLMHhwQHZ04GoBPr_7OwDusP1s1XAjbcBEAMghbvoDygDUK360v8BYMnGqYvApNgPoAGuv_H7A8gBAagDAaoEkQFP0AffHF53sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teETPKxqFv967oGXnq1wFTjIzQeGKCGyBUmwIS-ToyNPP1e2XkrNQ-QhTKBUYgAe6wI4E\x26usg\x3dAFQjCNF_XcnX5vsCjAkxMfJQtVwBtSOQFg";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

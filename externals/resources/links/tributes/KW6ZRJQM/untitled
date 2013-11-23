@@ -1,0 +1,36 @@
+ 
+
+var innerCode='';
+function navigatorFlashVersion(){navigatorFlashVersion.gfp=function(){var v=[0,0,0];if(navigator.plugins&&navigator.mimeTypes.length){var x=navigator.plugins["Shockwave Flash"];if(x&&x.description)return x.description.replace(/([a-zA-Z]|\s)+/,"").replace(/(\s+r|\s+b[0-9]+)/,".").split('.');}else{var axo;try{axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");}catch(e){try{var axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");v=[6,0,21];axo.AllowScriptAccess="always";}catch(e){if(v[0]==6)return v;}try{axo=new ActiveXObject("ShockwaveFlash.ShockwaveFlash");}catch(e){}
+}if(axo!=null)return axo.GetVariable('$version').split(' ')[1].split(',');}return v;}; navigatorFlashVersion.v=navigatorFlashVersion.gfp();var myMajorFlashVersion = (navigatorFlashVersion.v.length > 0) ? navigatorFlashVersion.v[0] : 0;var myMinorFlashVersion = (navigatorFlashVersion.v.length > 1) ? navigatorFlashVersion.v[1] : 0;     if(myMajorFlashVersion == 10 && myMinorFlashVersion == 2){ myMajorFlashVersion = 11; }else if(myMajorFlashVersion == 10 && myMinorFlashVersion >= 3){ myMajorFlashVersion = 12; }else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 0){ myMajorFlashVersion = 13; }else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 1){ myMajorFlashVersion = 14; }else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 2){ myMajorFlashVersion = 15; }else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 3){ myMajorFlashVersion = 16; } else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 4){ myMajorFlashVersion = 17; } else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 5){ myMajorFlashVersion = 18; } else if(myMajorFlashVersion == 11 && myMinorFlashVersion == 6){ myMajorFlashVersion = 19; } else if(myMajorFlashVersion == 11 && myMinorFlashVersion >= 7){ myMajorFlashVersion = 20; } return myMajorFlashVersion;}
+var p2821320_FlashMode8=(8<=navigatorFlashVersion());
+
+if (p2821320_FlashMode8) {
+ innerCode = innerCode + '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ';
+ innerCode = innerCode + '  codebase="' + document.location.protocol + '//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" ';
+ innerCode = innerCode + ' id="pub_Flash9299376" width="1000" height="200"> ';
+ innerCode = innerCode + ' <param name="allowScriptAccess" value="always" />';
+ innerCode = innerCode + ' <param name="movie" value="http://ced.sascdn.com/diff/14/2821320/liberation_1000x200_27novembre.swf"> ';
+ innerCode = innerCode + ' <param name="flashvars" value="target=_blank&clicktag=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '&clickTag=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '&clickTAG=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '"> ';
+ innerCode = innerCode + ' <param name="quality" value="high"> ';
+ innerCode = innerCode + ' <param name="wmode" value="Opaque"> ';
+ innerCode = innerCode + ' <embed name="pub_Flash9299376" id="pub_Flash9299376" src="http://ced.sascdn.com/diff/14/2821320/liberation_1000x200_27novembre.swf" flashvars="target=_blank&clicktag=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '&clickTag=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '&clickTAG=' + escape('http://ww14.smartadserver.com/diff/14/2821320/go5.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299376%3Bclickvars=') + '" ';
+ innerCode = innerCode + ' swLiveConnect="true" width="1000" height="200" ';
+ innerCode = innerCode + ' quality="high" wmode="Opaque" ';
+ innerCode = innerCode + ' allowScriptAccess="always" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"> ';
+ innerCode = innerCode + '</embed> ';
+ innerCode = innerCode + '</object> ';
+}
+else
+{
+ innerCode = innerCode + '<a  href="http://ww14.smartadserver.com/diff/14/2821320/go4.asp?2821320%3B83074%3B0%3B7613277912%3BV%3Bsystemtarget=%24qc%3d1309588102%3b%24ql%3dmedium%3b%24qpc%3d10020%3b%24qpp%3d212%3b%24qt%3d152_1829_29211t%3b%24b%3d12250%3b%24o%3d12100%3B9299375%3Bclickvars="  target="_blank"><img src="http://ced.sascdn.com/diff/14/2821320/liberation_1000x200_27novembre.jpg" alt="" width=1000 height=200 border="0"></a>';
+
+
+}
+
+
+
+innerCode = innerCode + '\r\n';
+
+
+if(typeof(sas_ajax)!='undefined'&&sas_ajax){sas_appendToContainer(225,innerCode);}else{document.write(innerCode);}

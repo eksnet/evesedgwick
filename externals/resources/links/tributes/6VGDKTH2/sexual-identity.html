@@ -1,0 +1,3647 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/NewsArticle" class=" js-on">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">
+<meta name="wpd_url" content="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">
+<meta name="wpd_date" content="2013-10-23T22:27Z">
+<div class="kxhead" data-id="Hv5Ai1h5" style="display: none;"><span class="kxtag kxinvisible" data-id="13938" data-alias="Krux loadSegments"><script src="3" type="text/javascript"></script><script src="beacon.js" async=""></script><script src="controltag" async="" type="text/javascript"></script><script src="beacon.js" async=""></script><script type="text/javascript">Krux('ns:centro', 'require:segments')</script></span><span class="kxtag kxinvisible" data-id="19253" data-alias="AdAdvisor S2S provider tag"><script>
+
+(function() {
+  // adadvisor redirects to http://logger... so it's not https safe
+  if (location.protocol == "http:") {
+     var u = "https://adadvisor.net/adscores/g.js?sid=9212244187&_kdpid=2111c0af-fc3a-446f-ab07-63aa74fbde8e";
+     (new Image()).src = u;
+   }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="26681" data-alias="Technographic Data provider tag"><script>
+
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="16189" data-alias="Krux Geographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="17792" data-alias="Bizo provider tag"><script>
+
+// Overridden by ns:centro version
+</script></span><span class="kxtag kxinvisible" data-id="23754" data-alias="Acxiom S2S provider tag"><script>
+
+(function(){
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var r_url = prefix + '//p.acxiom-online.com/pixel/sci'
+  var kurl = prefix + '//apiservices.krxd.net/um?partner=acxiom&r=' + r_url;
+  var i = new Image();
+  i.src = kurl;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23757" data-alias="Targus/AdAdvisor provider tag"><script>
+
+(function() {
+  // adadvisor redirects to http://logger... so it's not https safe
+  if (location.protocol == "http:") {
+     var u = "http://adadvisor.net/adscores/g.js?sid=9212244187&_kdpid=911765d2-536f-4475-8fd5-92b73478fb8f";
+     (new Image()).src = u;
+   }
+})();
+</script>
+</span><span class="kxtag kxinvisible" data-id="13668" data-alias="Krux Scrape Page Attributes"><script>
+ 
+(function() {
+  var Krux = window.Krux('ns:centro');
+
+  if (window.sectionid) {
+    // CNHI properties uses this
+    Krux('set', 'page_attr_js_sectionid', cleanUp(window.sectionid));
+  }
+  // Chartbeat data
+  if (typeof window._sf_async_config == "object" && window._sf_async_config.sections) {
+      
+      Krux('set', 'page_attr_chartbeat_section', cleanUp(window._sf_async_config.sections.split(',')[0]));
+  }
+
+  if (typeof window.s == "object" && typeof window.s.prop29 == "string") {
+    // Omniture, prop 29
+    var section = window.s.prop29;
+    // Some times they are delimited by pipe, tilde, or colon
+    sections = section.split(/[\|:~]/);
+    if (sections.length > 1) {
+      // Take the first one
+      section = sections[0];
+    }
+    Krux('set', 'page_attr_omniture_prop29', cleanUp(section));
+  }
+
+  if (typeof window.s == "object" && window.s.channel) {
+    // Omniture Channel
+    Krux('set', 'page_attr_omniture_channel', cleanUp(window.s.channel));
+  }
+
+  // Use the url if it is /section/ and nothing else
+  if (location.pathname.match(/^\/[^\/\.]+\/{0,1}$/)) {
+    Krux('set', 'page_attr_urlroot', cleanUp(location.pathname.replace(/\//g, '')));
+  }
+
+  // Util function that pulls a value from a url. works for normal urls or dart urls
+  function urlVal(url, val) {
+    var m = new RegExp(val + '=([^;&]+)').exec(url);
+    return m && unescape(m[1]) || "";
+  }
+
+  // Pull Zones from the dart hierarchy. Note that we are often delivered through an iframe,
+  // in which case the url will be the ad call (usually DFP)
+  function pullZonesFromDart(url) {
+    var m = (/^https*:\/\/ad.doubleclick.net\/ad[a-z]?\/([^\/]+)\/([^;\/]+)/).exec(url);
+    if (! m) { 
+      return;
+    }
+    Krux('set', 'page_attr_dfp_zone1', cleanUp(m[1]));
+    Krux('set', 'page_attr_dfp_zone2', cleanUp(m[2]));
+  }
+  if (self != top) {
+    // In an iframe, try to pull the dart variables from the iframe url
+    pullZonesFromDart(location.href);
+  }
+
+  (function () {
+    if (!document.querySelectorAll) {
+       // Old browser
+       return;
+    }
+    var urlStarts = [], doubleclick = document.querySelectorAll("script[src^='http://ad.doubleclick.net']");
+    for (var i = 0, l = doubleclick.length; i < l; i++ ){  
+      var url = doubleclick[i].getAttribute('src'), m = (/([^;]+)/).exec(url);
+      if (i > 0 && urlStarts[0] != m[1]) {
+        // This site has more than one type of double click tag, no can do
+        return;
+      }
+      urlStarts[0] = m[1];
+    }
+    // Looks good.
+    pullZonesFromDart(url);
+  })();
+
+  // FB Open Graph
+  (function () {
+    if (!document.querySelectorAll) {
+       // Old browser
+       return;
+    }
+    var og_title = document.querySelector("meta[property='og:title']");
+    if (og_title) {
+       Krux('set', 'page_attr_og_title', og_title.getAttribute('content'));
+    }
+  })();
+
+  // clean up
+  function cleanUp(input) {
+    input = input || "";
+    // lower, trim
+    input = input.toLowerCase().replace(/^[, ]+/, '').replace(/[ ,]+$/, '');
+    // Sanity
+    if (! input.match(/[a-z.]{2}/) || input.length > 25) {
+      input = "";
+    }
+    return input;
+  }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17791" data-alias="Bizo ns:centro"><script>
+
+(function(){
+  var pubid = Krux('ns:centro', 'get', 'pubid');
+  
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var kurl = prefix + '//beacon.krxd.net/data.gif?_kdpid=890a6228-04af-4630-85b6-0b49dee6157f&pid=' + pubid;
+  var u = prefix + '//api.bizographics.com/v1/profile.redirect?api_key=595bae8dbc0c4c42b4544e688b10c002' + 
+        '&callback_url=' + escape(kurl);
+  new Image().src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17082" data-alias="DataLogix provider tag"><script>
+
+// Using namespaced version.
+</script></span><span class="kxtag kxinvisible" data-id="17083" data-alias="eXelate Media provider tag"><script>
+
+// Using namespaced version.
+</script></span><span class="kxtag kxinvisible" data-id="17085" data-alias="Datalogix Centro Namespace"><script>
+
+(function(){
+  if (window.KRUX) {
+    var pubid = KRUXSetup.pubid;
+  } else if (window.Krux) {
+    var pubid = Krux('ns:centro', 'get', 'pubid');
+  } else { 
+    return;
+  }
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var u = prefix + "//apiservices.krxd.net/um?r=http%3A%2F%2Fkrxd.nexac.com%2Fdlx.gif&_kdpid=2dd640a6-6ebd-4d4f-af30-af8baa441a0d&pid=" + pubid + "&pubid=" + pubid;
+  var i = new Image();
+  i.src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17086" data-alias="eXelate Media for centro">Krux('ns:centro', 'dataprovider.exelate');</span></div><script src="beacon.js" async=""></script><script src="controltag" async="" type="text/javascript"></script><script src="beacon.js" async=""></script><script async="" src="get" type="text/javascript"></script><script async="" src="get_001.dat" type="text/javascript"></script><script src="client.js" async="" type="text/javascript" id="LR1"></script><script src="outbrain.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="quant.js"></script><script async="" src="cb=gapi.loaded_1"></script><script async="" src="cb=gapi.loaded_0"></script><script src="cse.js" async="" type="text/javascript"></script>
+		    		    <title> Silvia Posocco: Eve Kosofsky Sedgwick unpacked assumptions about the stability and coherence of sexual identity | Comment is free | theguardian.com </title>
+
+
+	<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+<link rel="canonical" href="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">
+
+            <meta name="description" content="Silvia Posocco: The brilliant Eve Kosofsky Sedgwick, who died this week, unpacked assumptions about the stability and coherence of sexual identity">
+    
+            <meta name="DC.date.issued" content="2009-04-15">
+    
+
+
+
+
+<meta name="llt" content="ASCrAd/A">
+
+
+	<meta property="og:title" content="Cool, queer white glasses">
+	
+	
+	
+				<meta property="article:published_time" content="2009-04-15T18:00:01+01:00">
+		
+				<meta property="article:modified_time" content="2009-04-15T19:20:07+01:00">
+		
+								<meta property="article:author" content="http://www.theguardian.com/profile/silvia-posocco">
+					
+								<meta property="article:tag" content="Gender">
+						<meta property="article:tag" content="Gay rights">
+						<meta property="article:tag" content="Books">
+						<meta property="article:tag" content="Culture">
+					
+	<meta property="article:section" content="Comment is free">
+	
+		<meta property="og:url" content="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">
+	
+	
+	
+	
+		
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://static-secure.guim.co.uk/icons/social/og/gu-logo-fallback.png">
+<meta property="og:site_name" content="the Guardian">
+<meta property="og:description" content="Silvia Posocco: The brilliant Eve Kosofsky Sedgwick, who died this week, unpacked assumptions about the stability and coherence of sexual identity">
+<meta property="fb:app_id" content="180444840287">
+
+
+
+<meta name="keywords" content="Gender,Gay rights,Books,Culture,Comment is free">
+<meta name="news_keywords" content="Gender,Gay rights,Books,Culture,Comment is free">
+
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<meta name="application-name" content="The Guardian">
+<meta name="msapplication-TileColor" content="#004983">
+<meta name="msapplication-TileImage" content="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/images/favicons/windows_tile_144_b.png">
+
+
+
+
+
+
+    <link rel="shorturl" href="http://gu.com/p/26qc4">
+
+<meta name="content-id" content="/commentisfree/2009/apr/15/sexual-identity">
+
+<link rel="publisher" href="https://plus.google.com/113000071431138202574">
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@guardian">
+
+
+<meta name="twitter:app:name:iphone" content="The Guardian">
+<meta name="twitter:app:id:iphone" content="409128287">
+
+<meta name="twitter:app:name:googleplay" content="The Guardian">
+<meta name="twitter:app:id:googleplay" content="com.guardian">
+<meta name="twitter:app:url:googleplay" content="guardian://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">
+
+
+<meta name="p:domain_verify" content="4f4576e6bac27d86fd926c4579b97f23">
+<meta name="pocket-site-verification" content="be6d97bc1f6961ce6348e7ced4f1f4">
+	    
+	<link href="http://feeds.theguardian.com/theguardian/world/rss" rel="alternate" type="application/rss+xml" title="World news RSS feed">
+		                <link href="http://www.theguardian.com/world/gender/rss" rel="alternate" type="application/rss+xml" title="Gender RSS feed">
+        	                <link href="http://www.theguardian.com/world/gay-rights/rss" rel="alternate" type="application/rss+xml" title="Gay rights RSS feed">
+        		<link href="http://feeds.theguardian.com/theguardian/books/rss" rel="alternate" type="application/rss+xml" title="Books RSS feed">
+			<link href="http://feeds.theguardian.com/theguardian/culture/rss" rel="alternate" type="application/rss+xml" title="Culture RSS feed">
+		
+
+<link href="http://feeds.theguardian.com/theguardian/commentisfree/rss" rel="alternate" type="application/rss+xml" title="Comment is free RSS feed">
+
+							
+			
+		
+		
+		
+			
+
+
+			
+
+		<!--[if ie 7]>
+		    <link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie7.css" media="screen" class="ie" />
+		<![endif]-->
+		
+		<!--[if ie 8]>
+			<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie8.css" media="screen" class="ie" />
+		<![endif]-->
+		
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie-scratch.css" media="screen" class="ie" />
+    		<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/zones/comment/styles/zone-navigation-ie.css" media="screen" class="contrast" />
+		<![endif]-->
+		
+		<!--[if lte IE 9]>
+			<script src="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/external-scripts/html5enable.js"></script>
+		<![endif]-->
+		
+	
+
+		
+<script type="text/javascript">
+
+//<![CDATA[
+	if (!commonStaticRoot) {	
+		var commonStaticRoot = "http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/";
+	}
+	if (!sectionStaticRoot) {	
+		var sectionStaticRoot = "http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/commentisfree/";
+	}
+	if (!staticHost) {	
+		var staticHost="http://www.guardian.co.uk/";
+	}
+	if (!sitePrefixUrl) {
+		var sitePrefixUrl = "http://www.theguardian.com";
+	}
+    if(!discussionApiUrl) {
+        var discussionApiUrl = "http://discussion.guardianapis.com";
+    }
+
+//]]>
+</script><script>
+
+	
+	var guardian = {
+		r2: {
+		comScoreVideoEnabled: true,
+		oasEnabled: true,
+		liveEnvironment: true
+		},
+		page: {
+			contentId: '/commentisfree/2009/apr/15/sexual-identity',
+			type: 'article',
+			contentTypes : 'article',
+			livePage:  false ,
+			section: 'commentisfree',
+			zone: 'comment',
+			edition: 'US',
+			productionOffice: 'UK',
+			showAdverts: false,
+			showRelated:  true ,
+			showCommercialRelated: true
+		}
+	};
+
+</script><script>
+
+
+            guardian.r2['oas'] = {
+                rns : '1234567890',
+                sitepage : "www.theguardian.com/commentisfree/2009/apr/15/sexual-identity/oas.html",
+                query : 'k=gender&k=culture&k=gay-rights&k=books&cf=global+%28temp+commercial%29&pid=&ct=article&pt=article&pt=blog&',
+                host : 'http://oas.theguardian.com'
+            };
+
+			OAS_url = 'http://oas.theguardian.com/RealMedia/ads/';
+			OAS_sitepage = "www.theguardian.com/commentisfree/2009/apr/15/sexual-identity/oas.html";
+			OAS_listpos = 'Top,Middle2,Right1';
+
+			OAS_query = 'k=gender&k=culture&k=gay-rights&k=books&cf=global+%28temp+commercial%29&pid=&ct=article&pt=article&pt=blog&';
+			OAS_target = '_blank';
+
+			OAS_rn = '001234567890';
+			OAS_rns = '1234567890';
+			OAS_rn = new String (Math.random());
+			OAS_rns = OAS_rn.substring (2, 11);
+
+
+
+            // Add segments from rev_sci cookie to OAS_query.
+            OAS_query += (function() {
+                var hasStorage = (function() {
+                    try {
+                        localStorage.setItem("xxx_localstorage_test", "xxx_localstorage_test");
+                        localStorage.removeItem("xxx_localstorage_test");
+                        return true;
+                    } catch(e) {
+                        return false;
+                    }
+                }());
+
+                var revSciString = "";
+                if (hasStorage && true) {
+                    if (localStorage.getItem('rsi_segs_csv')) {
+                        revSciString = localStorage.getItem('rsi_segs_csv');
+                    }
+                } else {
+                    var cookieMatch = document.cookie.match(/rsi_segs_csv=([^;]*)/);
+                    if(cookieMatch && cookieMatch.length > 1) {
+                        revSciString = unescape(cookieMatch[1]);
+                    }
+                }
+
+                var oasSegs = "a=" + (revSciString.split(',').slice(0,100).join('&a=')) + "&";
+
+                if(hasStorage) {
+                    localStorage.setItem('aparams', oasSegs);
+                }
+
+                return oasSegs;
+            })();
+		</script><script type="text/javascript">
+
+        var gdnCrmSegs = "&";
+        OAS_query = OAS_query + gdnCrmSegs
+        var guardian = guardian || {};
+        guardian.r2 = guardian.r2 || {};
+        guardian.r2.revsci = guardian.r2.revsci || {};
+        guardian.r2.revsci.adData = [  ];
+        try {
+          localStorage.setItem('gdncrmparams', gdnCrmSegs);
+        } catch(er) {
+          // Ignore
+        }
+        </script><script type="text/javascript">
+
+    // Chartbeat timing variable
+    var _sf_startpt=(new Date()).getTime();
+</script><script src="jquery.min.js"></script><script>window.jQuery || document.write('<script src="http://pasteup.guim.co.uk/js/lib/jquery/1.8.1/jquery.min.js">\x3C/script>')</script><script src="jquery.cookie.min.js"></script><script src="jquery.writecapture.min.js"></script><script>
+
+	var jQ = jQuery.noConflict();
+	jQ.ajaxSetup({ cache: true });
+</script><script src="gu-core.js"></script><script>
+
+	var thirdPartyReferralCookieService = new guardian.r2.ThirdPartyReferralCookieService();
+	thirdPartyReferralCookieService.setThirdPartyReferralCookie();
+
+	var communitiesSite = false;
+
+				
+	guardian.r2.resourceRoot = "http://resource.guim.co.uk/";
+    var pageUrl = "http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity";
+
+	var RESOURCE_ROOT = 'http://resource.guim.co.uk/';
+
+</script><script src="require.min.js" data-main="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/scripts/main.js" data-modules="gu/author-twitter-handles, http://id.guim.co.uk/static/cs/js/guardian.identity.clientside-toolkit.js" data-callback="" id="require-js"></script><script type="text/javascript">
+
+	//<![CDATA[
+	function insertStyleSheet(href) {
+		var styleObject = document.createElement('link');
+		styleObject.setAttribute('href', commonStaticRoot + href);
+		styleObject.setAttribute('type', 'text/css');
+		styleObject.setAttribute('media', 'screen');
+		styleObject.setAttribute('rel', 'stylesheet');
+		var head = document.getElementsByTagName('head')[0];
+		head.appendChild(styleObject);
+	}
+	insertStyleSheet('styles/js-on.css');
+	insertPluckStylesheet = true;
+	//]]>
+</script><script type="text/javascript" src="signinTopNav.js"></script><script type="text/javascript" src="main_v2.js"></script><script type="text/javascript">
+
+ensurePackage('guardian.r2.omniture');
+guardian.r2.omniture.isAvailable = function(){
+			return true;
+	}
+</script><script src="main.js" data-requiremodule="main" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="guardian.identity.clientside-toolkit.js" data-requiremodule="http://id.guim.co.uk/static/cs/js/guardian.identity.clientside-toolkit.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="nonSecureAnonymousFramework"></script><script src="author-twitter-handles.js" data-requiremodule="gu/author-twitter-handles" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script type="text/javascript" src="jsapi"></script><script src="widgets.js" data-requiremodule="//platform.twitter.com/widgets.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="osd.js" type="text/javascript"></script><script src="default+en.I.js" type="text/javascript"></script><script src="search.I.js" type="text/javascript"></script><script src="ophan.min.js" data-requiremodule="http://s.ophan.co.uk/js/ophan.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="campaign.min.js" data-requiremodule="http://s.ophan.co.uk/js/campaign.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="list.js" type="text/javascript"></script><script src="list_001.js" type="text/javascript"></script><script src="list_002.js" type="text/javascript"></script><script src="foresee-surveydef.js" type="text/javascript"></script><script src="mustache.js" data-requiremodule="http://pasteup.guim.co.uk/js/lib/mustache/0.7.0/mustache.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="moment.min.js" data-requiremodule="http://cdnjs.cloudflare.com/ajax/libs/moment.js/1.7.2/moment.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="underscore.js" data-requiremodule="http://pasteup.guim.co.uk/js/lib/underscore/1.3.3/underscore.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="related-information-mvc-1.3.js" data-requiremodule="http://related-info-hrd.appspot.com/static/related-information-mvc-1.3.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="facebook-authorizer-1.0.min.js" data-requiremodule="http://facebook-web-clients.appspot.com/static/facebook-authorizer-1.0.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="all.js" data-requiremodule="//connect.facebook.net/en_US/all.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="page_parser.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="sexual-identity.css" media="all">
+</head>
+<body data-twttr-rendered="true" class="	article   has-badge "><iframe id="LOCSTORAGE" src="sexual-identity_1.html" style="width: 1px; height: 1px; position: absolute; top: -7px; left: -7px; border: 0px none;" scrolling="no"></iframe><iframe src="sexual-identity_2.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrameSecure" tabindex="0" allowtransparency="true" id="twttrHubFrameSecure" frameborder="0" scrolling="no"></iframe><iframe src="sexual-identity_3.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrame" tabindex="0" allowtransparency="true" id="twttrHubFrame" frameborder="0" scrolling="no"></iframe>
+
+	<div id="wrapper">
+					    
+
+	
+	<div id="header">
+	
+		    			<div id="sub-header">
+							    	    	     
+	
+
+	    
+
+
+		
+	<div class="top-navigation twelve-col top-navigation-js">
+	<div class="user-functions">
+		<div id="video-settings">
+    <div class="cookied">
+        <p class="on"><a class="autoplay-off" href="#skiplinks">Turn autoplay off</a></p>
+        <p style="display: none;" class="off"><a class="autoplay-on" href="#skiplinks">Turn autoplay on</a></p>
+    </div>
+    <div style="display: none;" class="not-cookied">
+        <p>Please activate cookies in order to turn autoplay off</p>
+    </div>
+</div>
+
+<div id="skiplinks">
+	<ul>
+		<li><a href="#box" accesskey="s">Jump to content [s]</a></li>
+					<li><a href="#start-of-comments" accesskey="c">Jump to comments [c]</a></li>
+				<li><a href="#global-nav" accesskey="0">Jump to site navigation [0]</a></li>
+		<li><a href="#searchbeta" accesskey="4">Jump to search [4]</a></li>
+		<li><a href="http://www.theguardian.com/help/terms-of-service" accesskey="8">Terms and conditions [8]</a></li>
+	</ul>
+</div>		
+               
+    
+    
+    
+    
+        
+    
+    
+    
+	
+	
+
+
+<div id="edition-selector">
+
+    <div id="drop-down-edition" class="change-to-us" tabindex="20">
+        <h2>Edition:</h2>
+                                    <span class="UK"><a href="http://www.theguardian.com/edition-permission/uk">UK</a></span>
+                                                <span class="US current-edition">US</span>
+                                                <span class="AU"><a href="http://www.theguardian.com/edition-permission/au">AU</a></span>
+                        </div>
+
+</div>
+
+
+<div class="user-details">
+    <div class="drop-down id-profile-links initially-off">
+        <h2 class="id-populate-with-display-name"></h2>
+        <ul>
+            <li><a href="https://id.theguardian.com/profile/?returnUrl=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">Your activity</a></li>
+            <li><a href="https://id.theguardian.com/email/list?returnUrl=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">Email subscriptions</a></li>
+            <li><a href="https://id.theguardian.com/dashboard?returnUrl=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">Account details</a></li>
+            <li><a href="https://id.theguardian.com/linked-services?returnUrl=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">Linked services</a></li>
+        </ul>
+    </div>
+
+    <noscript>
+
+        <span><a href="https://id.theguardian.com/dashboard?returnUrl=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity">Profile</a></span>
+    </noscript>
+
+    <span style="display: inline;" class="id-sign-in-top-nav initially-off"><a href="https://id.theguardian.com/signin?returnUrl=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity">Sign in</a></span>
+    <span><a href="http://www.theguardian.com/preference/platform/mobile?page=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity%3Fview%3Dmobile" class="switch-to-mobile" data-link-name="Switch to mobile" rel="nofollow">Mobile</a></span>
+
+</div>
+					<div id="drop-down-1" class="drop-down" tabindex="21">
+						<h2>
+
+		
+	        About us
+    </h2>
+								<ul>
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us" class="link-text">About us</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us/contact" class="link-text">Contact us</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/guardian-us-press-office" class="link-text">Press office</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/terms-of-service" class="link-text">Terms of service</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/privacy-policy" class="link-text">Privacy policy</a>
+    </li>
+					
+									</ul>
+					</div>
+		</div>
+	
+	<div class="other-functions">
+									<div id="drop-down-3" class="drop-down mirror" tabindex="23">
+						<h2>
+
+		
+	        Subscribe
+    </h2>
+								<ul>
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/mobile/iphone/guardian" class="link-text">Guardian iPhone</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/mobile/ipad/guardian-ipad-edition" class="link-text">iPad edition</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.amazon.com/The-Guardian-and-the-Observer/dp/B004MME3M8/ref=sr_1_2?ie=UTF8&amp;m=A3TVV12T0I6NSM&amp;s=digital-text&amp;qid=1310129212&amp;sr=1-2" class="link-text">Kindle</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/weekly/subscribe" class="link-text">Guardian Weekly</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://guardian.newspaperdirect.com/epaper/viewer.aspx" class="link-text">Digital edition</a>
+    </li>
+					
+									</ul>
+					</div>
+		</div>
+		
+</div>
+
+
+			
+						
+    
+        
+        <div id="Top" class=" hide-on-popup" data-cb-ad-id="Top">
+            
+            	
+            
+
+
+<!--  Rubicon Project Tag -->
+<!--  Site: guardian.co.uk (US)   Zone: News   Size: Leaderboard  -->
+
+<!--  Rubicon / Guardian - Rubicon / Uncategorized / 728 x 90 / Below the fold --> 
+<!-- Site: guardian.co.uk (US)  Partner: Centro   Size: 728x90 -->
+
+<ins style="display: inline-table; border: medium none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; background-color: transparent;"><ins id="aswift_0_anchor" style="display: block; border: medium none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; background-color: transparent;"><iframe src="sexual-identity_4.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left: 0px; position: absolute; top: 0px;" frameborder="0" height="90" scrolling="no" width="728"></iframe></ins></ins><div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="sexual-identity_5.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div><!-- BEGIN Krux Control Tag for Guardian -->
+
+<!-- END Krux Controltag -->
+<div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="sexual-identity_6.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div>
+<img src="5950596f70564a5a7a47384141466256" style="display: none;" alt="">
+        </div>
+
+    		</div>
+	
+		
+					    	    	    
+
+	<div id="guardian-logo" class="trackable-component" data-component="Article:guardian logo">
+			    			    		<a href="http://www.theguardian.com/us"><img src="comment.gif" alt="The Guardian home" height="22" width="115"></a>
+        					</div>
+
+				
+	
+			
+						    
+    
+        <script>
+
+        (function() {
+            var cx = '015267030705423474967:wogwzhj1luu';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div dir="ltr" class="gsc-control-wrapper-cse"><form action="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity" accept-charset="utf-8" class="gsc-search-box gsc-search-box-tools"><table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-input"><div id="gsc-iw-id1" class="gsc-input-box"><table class="gstl_50 " id="gs_id50" style="width: 100%; padding: 0px;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsib_a" id="gs_tti50"><input spellcheck="false" dir="ltr" id="gsc-i-id1" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; outline: medium none; background: url('google_custom_search_watermark.gif') no-repeat scroll left center rgb(255, 255, 255);" title="search" name="search" class="gsc-input" size="10" autocomplete="off" type="text"></td><td class="gsib_b"><div dir="ltr" id="gs_st50" class="gsst_b"><a style="display: none;" href="javascript:void(0)" class="gsst_a"><span id="gs_cb50" class="gscb_a">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><input title="search" class="gsc-search-button gsc-search-button-v2" src="search_box_icon.png" type="image"></td><td class="gsc-clear-button"><div title="clear results" class="gsc-clear-button">&nbsp;</div></td></tr></tbody></table><table class="gsc-branding" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img class="gsc-branding-img" src="small-logo.png"></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div tabindex="0" class="gsc-results-close-btn"></div><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div><div class="gsc-tabsAreaInvisible"></div><div class="gsc-above-wrapper-area-invisible"><table class="gsc-above-wrapper-area-container" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table class="gsc-resultsHeader" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div title="show one result" class="gsc-result-selector gsc-one-result">&nbsp;</div><div title="show more results" class="gsc-result-selector gsc-more-results">&nbsp;</div><div title="show all results" class="gsc-result-selector gsc-all-results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div tabindex="0" class="gsc-modal-background-image"></div></div></div></div>
+    
+    				
+				
+		<div id="zones-nav">
+							    	    
+
+	<div id="global-nav" class="trackable-component" data-component="Article:global nav">
+		<ul>
+								    
+																								<li class="first news">
+						<a href="http://www.guardiannews.com/" data-link-name="1:News">News</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/world/usa" data-link-name="2:US">US</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/world" data-link-name="3:World">World</a>
+					</li>
+												    
+																			<li class="sport">
+						<a href="http://www.theguardian.com/uk/sport" data-link-name="4:Sports">Sports</a>
+					</li>
+												    
+																			<li class="comment">
+						<a href="http://www.theguardian.com/us/commentisfree" data-link-name="5:Comment">Comment</a>
+					</li>
+												    
+																			<li class="culture">
+						<a href="http://www.theguardian.com/culture" data-link-name="6:Culture">Culture</a>
+					</li>
+												    
+																			<li class="business">
+						<a href="http://www.theguardian.com/us/business" data-link-name="7:Business">Business</a>
+					</li>
+												    
+																			<li class="money">
+						<a href="http://www.theguardian.com/us/money" data-link-name="8:Money">Money</a>
+					</li>
+												    
+																			<li class="environment">
+						<a href="http://www.theguardian.com/environment" data-link-name="9:Environment">Environment</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/science" data-link-name="10:Science">Science</a>
+					</li>
+												    
+																			<li class="travel">
+						<a href="http://www.theguardian.com/travel" data-link-name="11:Travel">Travel</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/technology" data-link-name="12:Tech">Tech</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/media" data-link-name="13:Media">Media</a>
+					</li>
+												    
+																			<li class="life-and-style">
+						<a href="http://www.theguardian.com/lifeandstyle" data-link-name="14:Life &amp; style">Life &amp; style</a>
+					</li>
+												    
+																								<li class="last news">
+						<a href="http://www.theguardian.com/data" data-link-name="15:Data">Data</a>
+					</li>
+									</ul>
+	</div>
+
+
+										    
+    
+            
+                        
+
+
+<div class="trackable-component crumb-wrapper" data-component="Article:crumb nav" xmlns:v="http://rdf.data-vocabulary.org/#">
+
+            <ul class="crumb-nav">
+                            <li id="crumb1">
+                    <span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" href="http://www.theguardian.com/commentisfree" data-link-name="Comment is free">Comment is free</a>
+                    </span>
+                </li>
+                    </ul>
+    
+    
+</div>
+
+					</div>
+				
+				    	    
+
+
+
+
+
+		
+										
+
+        
+
+	</div>
+
+
+
+		<div id="box">
+			    
+
+
+
+        
+	    	    
+
+
+
+<div id="article-header">
+
+                
+	
+
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+                	    	
+	
+
+
+
+	    	    	    	    
+
+					    
+	
+
+ 	
+    
+ 	<div id="main-article-info">
+
+		
+		
+			<h1 itemprop="name headline  ">Cool, queer white glasses</h1>
+		
+					<div itemprop="description" id="stand-first" class="stand-first-alone" data-component="Article:standfirst_cta">Eve Kosofsky Sedgwick, who died this week, unpacked assumptions about the stability and coherence of sexual identity</div>
+		
+		
+  	</div>
+
+  	  	    			<ul id="content-actions" class="share-links trackable-component" data-component="Article:top share tools">
+				                
+    
+	
+		
+												
+
+
+    
+    
+    	
+    	
+    	
+
+        <li class="full-line facebook">
+        <span class="facebook-share">
+            <a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity&amp;display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity" data-link-name="Facebook Share">
+                <span class="facebook-share-icon"></span>
+                <span class="facebook-share-label">Share</span>
+            </a><span class="facebook-share-count"><i></i><u></u>1</span>
+        </span>
+    </li>
+
+    <li class="full-line">
+	    	    	    	    	    	    <iframe style="width: 107px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-horizontal" src="sexual-identity_7.html" allowtransparency="true" id="twitter-widget-0" frameborder="0" scrolling="no"></iframe>
+    </li>
+
+                <li class="full-line google-plus" data-link-name="Google plus">
+
+    	
+    <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="sexual-identity_8.html" name="I0_1385245635537" id="I0_1385245635537" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+
+    </li>
+
+    
+    <li class="full-line linked-in" data-link-name="LinkedIn">
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385245635654_0"><a id="li_ui_li_gen_1385245635654_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385245635654_0-logo">in</span><span id="li_ui_li_gen_1385245635654_0-title"><span id="li_ui_li_gen_1385245635654_0-mark"></span><span id="li_ui_li_gen_1385245635654_0-title-text">Share</span></span></a></span></span><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385245635661_1-container" class="IN-right"><span id="li_ui_li_gen_1385245635661_1" class="IN-right"><span id="li_ui_li_gen_1385245635661_1-inner" class="IN-right"><span id="li_ui_li_gen_1385245635661_1-content" class="IN-right">0</span></span></span></span></span></span><script type="IN/Share+init" data-counter="right" data-showzero="true"></script>
+    </li>
+
+    <li class="full-line email" data-link-name="email this story">
+        <a class="rollover send-email" href="#" title="Send to a friend"><img src="icon-email.png" alt="" class="trail-icon">Email</a>
+    </li>
+    
+    
+    
+
+			</ul>
+		
+			</div>
+
+
+<div id="content">
+
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+                
+                	    
+
+    
+                
+
+
+
+
+
+<ul class="article-attributes trackable-component b4" data-component="Article:byline">
+	        <li>
+        	<a href="http://www.theguardian.com/profile/silvia-posocco" rel="author" itemscope="" itemtype="http://schema.org/Person">
+        		<img class="contributor-pic-small" src="sylvia.jpg" alt="sylvia" title="Contributor picture" height="60" width="60">
+        	</a>
+        </li>
+            	<li id="contrib-shift"><ul>
+        		<li class="byline">
+							        	<div class="contributor-full">
+        
+		<span itemscope="" itemprop="author" itemtype="http://schema.org/Person"><span itemprop="name"><a class="contributor" rel="author" itemprop="url" href="http://www.theguardian.com/profile/silvia-posocco">Silvia Posocco</a></span></span>	</div>
+					</li>
+		<li class="article-attributes-social-buttons"></li>
+	
+
+	
+          <li class="publication">
+			<a itemprop="publisher" href="http://www.theguardian.com/">theguardian.com</a>,
+				            <time itemprop="datePublished" datetime="2009-04-15T13:00EDT" pubdate="">Wednesday 15 April 2009 13.00 EDT</time>	        
+        </li>
+				                	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-discussion-comment-counts"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://resource.guim.co.uk/global/static/file/discussion/5/fill-comment-counts-swimlaned.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+        
+    						<li class="comment-count">
+			<a style="display: inline;" href="#start-of-comments" class="content-comment-count" data-link-name="comment-count" short-url="-p-26qc4"><span class="comment-count-text">Jump to comments</span> (<span class="comment-count-val">40</span>)</a>
+		</li>
+		
+
+	
+			</ul></li>
+	</ul>
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+    
+        
+
+        <div id="article-wrapper" class="trackable-component " data-component="Article:in body link">
+
+        	
+        	
+
+    
+    <div id="article-body-blocks">
+	    <p>I feel queer and really deeply saddened on hearing the news of <a href="http://www.newyorker.com/online/blogs/books/2009/04/eve-kosofsky-sedgwick.html" title="">Eve Kosofsky Sedgwick's death</a>. The prospect of no longer having the chance to even hope for the next chapter in our ongoing email exchange is devastating. As I am prompted to write the briefest of memorials, I would like to offer a rephrasing of the opening line of Sedgwick's essay White Glasses, to pay homage to the critical space that she opened up for thinking "across genders, across sexualities":</p><p></p><p></p><blockquote>The first time I met [Michael Lynch] Eve Sedgwick, I thought his white-framed glasses were the coolest thing I had ever seen.</blockquote><p></p><p></p><p>The first time I met Eve Kosofsky Sedgwick was in London, in early November 2007, at a workshop on theories of performativity. And there they were, those white glasses, just as queer as I had imagined them, the marker of Sedgwick's identification with the gay academic, activist and friend <a href="http://www.cemetery.org/N-america/Canada/Ontario/lynch_m.html" title="">Michael Lynch</a>, with whom – she had declared in the essay – she shared a passion for lesbian literary icons, a commitment to Aids activism and a vision for queer studies.</p><p></p><p>The white glasses indicated to me Sedgwick's steadfast personal commitment to, and intellectual investment in, thinking queerly across a range of disciplinary and other boundaries, and against the strictures of received classifications. As Sedgwick has taught us, "queer is a continuing moment, movement, motive – recurrent, eddying, troublant. The word 'queer' itself means across". To think (or read) queerly, then, is to think/read across genders, across sexualities, across genres, across "perversions". As Sedgwick explains in <a href="http://books.google.co.uk/books?id=RgKgFR-ArT0C&amp;dq=Tendencies+Eve+Kosofsky+Sedgwick&amp;printsec=frontcover&amp;source=bl&amp;ots=kMnuXAP_rv&amp;sig=4-skxjatyO4NkoBqADjcnSsAOfg&amp;hl=en&amp;ei=RgrmSZbfBpPU-QbStcCOCQ&amp;sa=X&amp;oi=book_result&amp;ct=result&amp;resnum=1#PPP1,M1" title="">Tendencies</a> (1998), "queer" is therefore "multiply transitive", as antiseparatist as it is antiassimilationist, "keenly, it is relational, and strange".</p><p></p><p>In <a href="http://books.google.co.uk/books?id=u5jgaOhhmpgC&amp;dq=Epistemology+of+the+Closet+Eve+Kosofsky+Sedgwick" title="">Epistemology of the Closet</a>, for example, Sedgwick proposes that modern understandings of western homosexuality may be founded on assumptions about inversion and gender transitivity – making queer people appear to be peculiarly located between genders – and gender separatism – as in notions of "same-sex" desire – that naturalised and stabilised a binary gender model. These contradictory injunctions about sexuality, understood in the broader context of national and imperial relations, did not affect exclusively sexual minorities, but rather they impacted upon the wide range of subjects and knowledges within the western modern sexual formation.</p><p></p><p></p><p>Sedgwick's wide range of erudite and playful readings of literary and popular texts unpacked assumptions about the stability and coherence of sexual identity. The white-rimmed glasses were part of this critical project of envisioning social relations, affective attachments and knowledge practices that criss-cross genders and sexualities. Among the consequences of this careful disassembling of the conceptual apparatuses and discursive formations through which sexuality was framed was the realisation of queer theory's critical thrust, in the emergence of a range of different alignments that we live, love and think by.</p><p></p><p></p><p></p><p>This briefest of interventions, then, is to remember the cross-identificatory queer critical passion of Eve Kosofsky Sedgwick's brilliant, scholarly, irreverent and undisciplined writings and her queer white glasses, to imagine and invoke the possibility of an aptly discontinuous conversation across yet another threshold, that is, across what she called "the ontological crack between the living and the dead".</p><p></p><p></p><p></p><p>I offer my sincere condolences to Eve's husband, Hal Sedgwick, and her family and friends.</p>
+    </div>
+
+    
+
+		
+		
+            	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:below-article-embed email subscriptions:microapp email-subscriptions:Daily email subscription">
+                                                    
+<div class="email-subscription-promo js-email-upsell b4">
+    <div class="email-subscription-promo__image">
+        <img class="js-email-upsell-image" src="daily-email-uk.png" alt="Daily Email" height="84" width="140">
+    </div>
+    <span class="email-subscription-promo__close js-email-upsell-close">
+        <img src="close.png" alt="close">
+    </span>
+    <div class="email-subscription-promo__description">
+        <h4 class="email-subscription-promo__title js-email-upsell-title">Sign up for the Guardian Today</h4>
+        <p class="email-subscription-promo__copy js-email-upsell-copy">Our editors' picks for the day's top news and commentary delivered to your inbox each morning.</p>
+        <a class="email-subscription-promo__link js-email-upsell-link" href="https://id.guardian.co.uk/email/subscribe?emailListId=37" data-email-id="37">Sign up for the daily email</a>
+    </div>
+</div>
+
+                                                    </span>
+                                            				
+			        
+
+
+        </div>
+    
+    
+                
+</div>
+
+				
+<div id="related">
+     		
+						
+		    	
+	
+	
+
+
+	    
+
+	<ul id="article-toolbox-side" class="b4 trackable-component left" data-component="Article:RHS icon tools">
+	
+
+							<li class="printable" data-link-name="icon-print"><a href="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity/print" rel="nofollow" id="printlink" class="printable rollover" title="Link to a printer-friendly version"><img src="icon-print.png" alt="Print this" class="trail-icon"><span>Print this</span></a></li>
+	
+			<li data-link-name="icon-share"><a class="rollover send-share" href="http://www.theguardian.com/share/1200262" title="Opens a share this page in a new window"><img src="icon-share.png" alt="" class="trail-icon"><span>Share</span></a></li>
+	
+			<li data-link-name="icon-contact"><a href="http://www.theguardian.com/contactus/1200262" class="rollover contact-link" title="Displays contact data for guardian.co.uk"><img src="icon-email-us.png" alt="" class="trail-icon"><span>Contact us</span></a></li>
+	
+	
+	
+    
+    </ul>
+
+	    	
+
+
+	    
+	
+
+	
+
+
+	    
+
+
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+
+				<div class="history b3 trackable-component" data-component="Article:article-history">
+			<a class="rollover history-link" href="#history-link-box" data-link-name="Article history">Article history</a>
+			    
+
+		</div>
+				    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper two-col" data-component="Article:promo-related-article US Gay Rights by State:microapp guardiannews-interactives-static:Gay rights by state inline links">
+                                                    <script src="underscore-min.js" type="text/javascript" charset="utf-8"></script>
+<span id="gia-StatePopup"></span>
+<div id="gia-stateSidePromo"></div>
+<script id="gia-StatePopupTemplate" type="template/underscore">
+
+  <span class="gia-stateContent">
+    <img src='//gia.guim.co.uk/2012/05/gay-rights/images/<%= abbr %>.png'>
+    <span class="state">Gay rights in
+<%= (abbr == "DC") ? "the " : "" %><%= state %></span>
+    <span class="caption">Click for interactive</span>
+  </span>
+  <span class="gia-stateTag"></span>
+</script>
+
+<script id="gia-StatePromoTemplate" type="template/underscore">
+
+  <a href="<%= url %>">
+    <img src='//gia.guim.co.uk/2012/05/gay-rights/images/<%= abbr %>.png'>
+
+    <h3>Gay rights in
+<%= (abbr == "DC") ? "the " : "" %><%= state %></h3>
+    <span class="caption">Click for interactive</span>
+  </a>
+</script>
+
+
+<script>
+
+/*
+ * jQuery replaceText - v1.1 - 11/21/2009
+ * http://benalman.com/projects/jquery-replacetext-plugin/
+ *
+ * Copyright (c) 2009 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+(function($){$.fn.replaceText=function(b,a,c){return this.each(function(){var f=this.firstChild,g,e,d=[];if(f){do{if(f.nodeType===3){g=f.nodeValue;e=g.replace(b,a);if(e!==g){if(!c&&/</.test(e)){$(f).before(e);d.push(f)}else{f.nodeValue=e}}}}while(f=f.nextSibling)}d.length&&$(d).remove()})}})(jQuery);
+
+(function($) {
+  'use strict';
+  // console.log("jquery version", $.fn.jquery);
+
+  var states = {
+    'Alabama': 'AL',
+    'Alaska': 'AK',
+    'Arizona': 'AZ',
+    'Arkansas': 'AR',
+    'California': 'CA',
+    'Colorado': 'CO',
+    'Connecticut': 'CT',
+    'Delaware': 'DE',
+    'District of Columbia': 'DC',
+    'Florida': 'FL',
+    'Georgia': 'GA',
+    'Hawaii': 'HI',
+    'Idaho': 'ID',
+    'Illinois': 'IL',
+    'Indiana': 'IN',
+    'Iowa': 'IA',
+    'Kansas': 'KS',
+    'Kentucky': 'KY',
+    'Louisiana': 'LA',
+    'Maine': 'ME',
+    'Maryland': 'MD',
+    'Massachusetts': 'MA',
+    'Michigan': 'MI',
+    'Minnesota': 'MN',
+    'Mississippi': 'MS',
+    'Missouri': 'MO',
+    'Montana': 'MT',
+    'Nebraska': 'NE',
+    'Nevada': 'NV',
+    'New Hampshire': 'NH',
+    'New Jersey': 'NJ',
+    'New Mexico': 'NM',
+    'New York': 'NY',
+    'North Carolina': 'NC',
+    'North Dakota': 'ND',
+    'Ohio': 'OH',
+    'Oklahoma': 'OK',
+    'Oregon': 'OR',
+    'Pennsylvania': 'PA',
+    'Rhode Island': 'RI',
+    'South Carolina': 'SC',
+    'South Dakota': 'SD',
+    'Tennessee': 'TN',
+    'Texas': 'TX',
+    'Utah': 'UT',
+    'Vermont': 'VT',
+    'Virginia': 'VA',
+    'Washington': 'WA',
+    'West Virginia': 'WV',
+    'Wisconsin': 'WI',
+    'Wyoming': 'WY'
+  };
+
+  var clickHref = 'http://www.guardian.co.uk/world/interactive/2012/may/08/gay-rights-united-states';
+
+  function highlightStates() {
+    var replaceWith = '<a data-state="$&" class="gia-State">$&</a>';
+    _.each(states, function(abbr, state) {
+      $('#article-body-blocks > p').replaceText(new RegExp("\\b" + state + "\\b"), replaceWith);
+    });
+
+    // Remove links if they break over a link as the centering goes off.
+    var $singleHeight = $('<span>&nbsp;</span>');
+    $('#article-body-blocks').append($singleHeight);
+    var singleHeight = $singleHeight.height();
+    $('.gia-State').each(function(i, d) {
+      var $d = $(d);
+      if ($d.height() > singleHeight) {
+        $d.contents().unwrap();
+      }
+    });
+  }
+
+  function clickHighlightedState() {
+    var template = _.template($('#gia-StatePopupTemplate').html());
+
+    $('#article-body-blocks').delegate('.gia-State', {
+      mouseenter: function() {
+        var $popUp = $('#gia-StatePopup');
+        var state = $(this).text();
+        $popUp.html(template({state: state, abbr: states[state]}));
+        var left = -(($popUp.width() - $(this).width()) / 2);
+        $popUp.css({display: 'block', left: left});
+        $(this).prepend($popUp);
+      },
+      mouseleave: function() {
+        var $popUp = $('#gia-StatePopup');
+        $popUp.html('');
+        $popUp.hide();
+      },
+      click: function(e) {
+        e.preventDefault();
+        var state = $(this).attr('data-state');
+        window.location.href = clickHref + '#state/' + state.toLowerCase().replace(/ /g, '-');
+      }
+    });
+  }
+
+  var stateSidePromoTemplate = _.template($('#gia-StatePromoTemplate').html());
+
+  function stateSidePromo() {
+    var randomStates = _.shuffle(_.keys(states)), index = 0;
+    var fadeSpeed = 250;
+    var $promo = $('#gia-stateSidePromo');
+
+    var randomState = randomStates[0];
+    $promo.html(stateSidePromoTemplate({ state: randomState, abbr: states[randomState], url: clickHref + '#state/' + randomState.toLowerCase().replace(/ /g, '-') }));
+    $promo.fadeIn(fadeSpeed);
+
+    setInterval(function() {
+      index++;
+      if (index == randomStates.length) { index = 0 }
+      randomState = randomStates[index];
+      $promo.fadeOut(fadeSpeed, function() {
+        $promo.html(stateSidePromoTemplate({ state: randomState, abbr: states[randomState], url: clickHref + '#state/' + randomState.toLowerCase().replace(/ /g, '-') }));
+        $promo.fadeIn(fadeSpeed);
+      });
+    }, 7000);
+  }
+
+  $(function() {
+    var tags = _.pluck($('[rel="tag"]'), 'text');
+    if (_.include(tags, 'United States')) {
+      highlightStates();
+      clickHighlightedState();
+      stateSidePromo();
+    }
+  });
+
+})(jQuery);
+</script>
+                                                    </span>
+                                            				
+			        
+
+
+	    			                
+    
+	
+		
+											
+	
+	    
+
+
+
+    
+	<div class="related-keywords trackable-component" data-component="Article:related-keywords">
+	
+	
+					
+					<h4 class="b4 t6"><a href="http://www.theguardian.com/world">World news</a></h4>
+		
+	    						<ul>
+						<li>
+																		<a href="http://www.theguardian.com/world/gender" rel="tag">Gender</a> ·															</li>
+								<li>
+																		<a href="http://www.theguardian.com/world/gay-rights" rel="tag">Gay rights</a> 															</li>
+				</ul>
+										
+					<h4 class="b3 t6"><a href="http://www.theguardian.com/books">Books</a></h4>
+		
+	    										
+					<h4 class="b3 t6"><a href="http://www.theguardian.com/culture">Culture</a></h4>
+		
+	    			
+	
+	
+</div>
+
+
+		
+									                
+    
+	
+		
+											
+	
+	    
+
+
+
+    
+	<div class="related-keywords trackable-component" data-component="Article:related-keywords">
+	
+			<h4 class="b4 t6">More from <a href="http://www.theguardian.com/commentisfree">Comment is free</a> on</h4>
+	
+					
+					<h4 class="b4 t6">World news</h4>
+		
+	    						<ul>
+						<li>
+																		<a href="http://www.theguardian.com/commentisfree/commentisfree+world/gender" rel="tag">Gender</a> ·															</li>
+								<li>
+																		<a href="http://www.theguardian.com/commentisfree/commentisfree+world/gay-rights" rel="tag">Gay rights</a> 															</li>
+				</ul>
+										
+					<h4 class="b3 t6">Books</h4>
+		
+	    										
+					<h4 class="b3 t6">Culture</h4>
+		
+	    			
+	
+	
+</div>
+
+
+					
+		    	    
+
+				
+		    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper two-col" data-component="Article:content-related related-information-vertical:microapp related-info-2:Related information vertical (2)">
+                                                    
+    <div class="ma-placeholder-related-information-2-vertical"><div class="two-col edge component"><p class="b4 t6">Related</p><ul class="l1d"><li><p class="t6 related-content-publication-date">19 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/media/2013/nov/19/russell-t-davies-gay-life-channel-4?INTCMP=ILCNETTXT3487" class="related-content-headline">Russell T Davies to explore 21st-century gay life in two Channel 4 dramas</a></p></li><li><p class="t6 related-content-publication-date">18 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/books/2013/nov/18/doris-lessing-dies-quotes-own-words?INTCMP=ILCNETTXT3487" class="related-content-headline">Doris Lessing: key quotes</a></p></li><li><p class="t6 related-content-publication-date">15 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/books/2013/nov/15/mary-renault-charioteer-simon-russell-beale?INTCMP=ILCNETTXT3487" class="related-content-headline">Mary Renault's The Charioteer is an antidote to shame</a></p></li><li><p class="t6 related-content-publication-date">12 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/lifeandstyle/womens-blog/2013/nov/12/hunger-games-bow-arrow-toy-girls-catching-fire-christmas?INTCMP=ILCNETTXT3487" class="related-content-headline">Gritty in pink: Hunger Games inspires bow and arrow toy for girls</a></p></li></ul></div></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://related-info-hrd.appspot.com/static/related-information-1.3.min.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                                    </span>
+                                            				
+			        
+
+
+					    
+
+
+
+
+		
+		
+		    							
+																													
+	
+    </div>
+
+
+			
+					
+	
+
+
+
+    <ul class="share-links col-8 b3 trackable-component" data-component="Article:bottom share tools">
+
+    	
+    	
+    	
+    	
+
+        <li class="full-line facebook">
+        <span class="facebook-share">
+            <a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity&amp;display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity" data-link-name="Facebook Share">
+                <span class="facebook-share-icon"></span>
+                <span class="facebook-share-label">Share</span>
+            </a>
+        </span>
+    </li>
+
+    <li class="full-line twitter" data-link-name="twitter">
+
+	    	    	    	    	    	    <iframe style="width: 55px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-none" src="sexual-identity_9.html" allowtransparency="true" id="twitter-widget-1" frameborder="0" scrolling="no"></iframe>
+    </li>
+
+            <li class="full-line google-plus" data-link-name="Google plus">
+
+    <div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 50px; height: 24px;"><iframe title="+1" data-gapiattached="true" src="sexual-identity_10.html" name="I1_1385245636756" id="I1_1385245636756" vspace="0" tabindex="0" style="position: static; top: 0px; width: 50px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+
+    </li>
+
+    <li class="full-line linked-in" data-link-name="LinkedIn">
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385245635664_2"><a id="li_ui_li_gen_1385245635664_2-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385245635664_2-logo">in</span><span id="li_ui_li_gen_1385245635664_2-title"><span id="li_ui_li_gen_1385245635664_2-mark"></span><span id="li_ui_li_gen_1385245635664_2-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init"></script>
+    </li>
+
+    
+
+    <li class="full-line email" data-link-name="email this story">
+        <a class="rollover send-email" href="#" title="Send to a friend"><img src="icon-email.png" alt="" class="trail-icon">Email</a>
+    </li>
+
+    </ul>
+
+
+			    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper eight-col" data-component="Article:promo-bottom-article Outbrain:microapp outbrains-component:Outbrains combined component">
+                                                    
+
+<div style="display: block;" class="outbrain-container"><div style="display: none;" id="ob_holder"><iframe src="sexual-identity_11.html" style="display: none; width: 1px; height: 1px;" id="ob_iframe"></iframe></div><div id="outbrain_widget_0" data-dynload="" data-ob-mark="true" class="OUTBRAIN first internal trackable-component" data-src="http://www.guardian.co.uk/commentisfree/2009/apr/15/sexual-identity" data-widget-id="AR_1" data-ob-template="guardian" data-component="comp: Outbrains: guardian links"><div class="ob_box_cont AR_1 component">
+	<span class="ob_empty"><wbr></span>
+
+
+	<span class="ob_org_header hd b1"><a href="#" class="explainer-link">What's this?</a><h2><div>More from the Guardian</div></h2></span>		<ul>
+			<li class="odb_li ob-recIdx-0  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_self" onclick="" href="http://www.guardian.co.uk/artanddesign/2013/nov/17/marrakech-magnum-photography" onmousedown="this.href='http://traffic.outbrain.com/network/redir?key=476e16eb75be2836fe7bc3d9447dc6e9&amp;rdid=421078034&amp;type=SYLD_d/NA_ny&amp;in-site=false&amp;idx=0&amp;req_id=c767a0f26a8a1e8fcdec653962ee2848&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=3036488';" rel="" class="rec-link">Marrakech: The city that distrusts photographers</a>
+    		<span class="ob_source"><span class="rec-src-date">17 Nov 2013</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-1  ob-even">
+    	
+<div class="ob-text-content">
+          <a target="_self" onclick="" href="http://www.guardian.co.uk/film/2013/nov/18/blofled-spectre-james-bond-kevin-mcclory" onmousedown="this.href='http://traffic.outbrain.com/network/redir?key=646156fad9c02c7630cb72cba9073916&amp;rdid=421078034&amp;type=WSY_d/NA_ny&amp;in-site=false&amp;idx=1&amp;req_id=c767a0f26a8a1e8fcdec653962ee2848&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=3036488';" rel="" class="rec-link">Blofeld could be back in James Bond's crosshairs following legal deal</a>
+    		<span class="ob_source"><span class="rec-src-date">18 Nov 2013</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-2  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_self" onclick="" href="http://www.guardian.co.uk/commentisfree/2013/nov/22/abolition-slave-trade-slavery-three-women" onmousedown="this.href='http://traffic.outbrain.com/network/redir?key=718eab94083ab1bd948b91257e43cb53&amp;rdid=421078034&amp;type=MC_t/NA_ny&amp;in-site=true&amp;idx=2&amp;req_id=c767a0f26a8a1e8fcdec653962ee2848&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=3036488';" rel="" class="rec-link">180 years after abolition, why is it the slave trade is booming?</a>
+    		<span class="ob_source"><span class="rec-src-date">22 Nov 2013</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-3  ob-even">
+    	
+<div class="ob-text-content">
+          <a target="_self" onclick="" href="http://www.guardian.co.uk/commentisfree/2013/nov/22/bis-budget-higher-education-sector-cuts" onmousedown="this.href='http://traffic.outbrain.com/network/redir?key=0625dc378945f6798495a005150877cb&amp;rdid=421078034&amp;type=MRD_/NA_ny&amp;in-site=true&amp;idx=3&amp;req_id=c767a0f26a8a1e8fcdec653962ee2848&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=0&amp;prs=false&amp;scp=false&amp;origSrc=3036488';" rel="" class="rec-link">BIS blew its budget, and now the entire higher education sector will have to pay</a>
+    		<span class="ob_source"><span class="rec-src-date">22 Nov 2013</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-4  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_self" onclick="" href="http://www.guardian.co.uk/commentisfree/2013/nov/22/us-politics-filibuster-republicans-democrats" onmousedown="this.href='http://traffic.outbrain.com/network/redir?key=47104976acca3944a3e944e6f88b4929&amp;rdid=421078034&amp;type=MRD_/NA_ny&amp;in-site=true&amp;idx=4&amp;req_id=c767a0f26a8a1e8fcdec653962ee2848&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=0&amp;prs=false&amp;scp=false&amp;origSrc=3036488';" rel="" class="rec-link">US politics: when nuclear deterrence fails</a>
+    		<span class="ob_source"><span class="rec-src-date">22 Nov 2013</span></span>         </div>
+	
+</li>	    </ul>
+			<div class="ob_what">
+	
+	<a href="http://www.outbrain.com/what-is/default/en" onmousedown="">
+
+		[?]
+	</a>
+</div>
+	</div></div><div id="outbrain_widget_1" data-dynload="" data-ob-mark="true" class="OUTBRAIN sponsored trackable-component" data-src="http://www.guardian.co.uk/commentisfree/2009/apr/15/sexual-identity" data-widget-id="AR_2" data-ob-template="guardian" data-component="comp: Outbrains: sponsored links"><div class="ob_box_cont AR_2 component">
+	<span class="ob_empty"><wbr></span>
+
+
+	<span class="ob_org_header hd b1"><a href="#" class="explainer-link">What's this?</a><h2><div>More from around the web</div></h2></span>		<ul>
+			<li class="odb_li ob-recIdx-0  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_top" onclick="" href="http://www.businessinsider.com/investment-tips-for-the-99-2012-3" onmousedown="this.href='http://paid.outbrain.com/network/redir?key=33887e16b7463388277f574eda7aad60&amp;rdid=421078034&amp;type=RPM_/NA_ny&amp;in-site=false&amp;idx=0&amp;pc_id=19354824&amp;req_id=4f19029afcfb99a2a6bac582db126b7b&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=101&amp;adsCats=1205,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=22641&amp;origSrc=3036488';" rel="nofollow" class="rec-link">Why you no longer want a human financial advisor</a>
+    		<span class="ob_source"> <span class="rec-src-link">(Business Insider)</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-1  ob-even">
+    	
+<div class="ob-text-content">
+          <a target="_top" onclick="" href="http://www.founderblog.com/2012/10/24/10-apps-and-tools-for-maximizing-personal-efficiency/" onmousedown="this.href='http://paid.outbrain.com/network/redir?key=65b20cbb206031cba1d1a55efffdbda1&amp;rdid=421078034&amp;type=RPM_/NA_ny&amp;in-site=false&amp;idx=1&amp;pc_id=19582101&amp;req_id=4f19029afcfb99a2a6bac582db126b7b&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=101&amp;adsCats=2006,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=24355&amp;origSrc=3036488';" rel="nofollow" class="rec-link">95% of professionals don't know about this email trick</a>
+    		<span class="ob_source"> <span class="rec-src-link">(Frank Addante)</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-2  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_top" onclick="" href="http://www.usnews.com/opinion/articles/2013/11/04/scientific-evidence-doesnt-show-gmos-are-harmful" onmousedown="this.href='http://paid.outbrain.com/network/redir?key=b7f68358d817302836ab9d14a61ca0a3&amp;rdid=421078034&amp;type=RPM_/NA_ny&amp;in-site=false&amp;idx=2&amp;pc_id=19893691&amp;req_id=4f19029afcfb99a2a6bac582db126b7b&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=101&amp;adsCats=1703,1708,1707&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=28288&amp;origSrc=3036488';" rel="nofollow" class="rec-link">How Safe are GMOs? The Answer May Just Surprise You.</a>
+    		<span class="ob_source"> <span class="rec-src-link">(USNews)</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-3  ob-even">
+    	
+<div class="ob-text-content">
+          <a target="_top" onclick="" href="http://www.lonny.com/Olivia+Newton-John%27s+Waterfront+Estate" onmousedown="this.href='http://paid.outbrain.com/network/redir?key=9b1db96215686fab9972608b331c6349&amp;rdid=421078034&amp;type=RPM_/NA_ny&amp;in-site=false&amp;idx=3&amp;pc_id=17189954&amp;req_id=4f19029afcfb99a2a6bac582db126b7b&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=101&amp;adsCats=1608,1403,1602&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=20266&amp;origSrc=3036488';" rel="nofollow" class="rec-link">Stunning Pictures of 'Grease' Star Olivia Newton John's Florida Estate</a>
+    		<span class="ob_source"> <span class="rec-src-link">(Lonny)</span></span>         </div>
+	
+</li>			<li class="odb_li ob-recIdx-4  ob-odd">
+    	
+<div class="ob-text-content">
+          <a target="_top" onclick="" href="http://skift.com/2013/11/01/how-to-outsmart-the-airlines-and-beat-the-shrinking-airplane-seat/" onmousedown="this.href='http://paid.outbrain.com/network/redir?key=e4d717abf03f178e12015fdd6fb81acb&amp;rdid=421078034&amp;type=RPM_/NA_ny&amp;in-site=false&amp;idx=4&amp;pc_id=20171197&amp;req_id=4f19029afcfb99a2a6bac582db126b7b&amp;agent=blog_JS_rec&amp;recMode=1&amp;reqType=1&amp;wid=101&amp;adsCats=2100,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=29090&amp;origSrc=3036488';" rel="nofollow" class="rec-link">Smart Tricks for Getting a Better Airplane Seat</a>
+    		<span class="ob_source"> <span class="rec-src-link">(Skift.com)</span></span>         </div>
+	
+</li>	    </ul>
+			<div class="ob_what">
+	
+	<a href="http://www.outbrain.com/what-is/default/en" onmousedown="">
+
+		[?]
+	</a>
+</div>
+	</div></div></div>
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:promo-bottom-article 3rd ad slot (sc):Below fold ad slot">
+                                                                
+    
+	
+		
+											
+
+	
+    
+        
+        <div id="Middle2" class=" hide-on-popup" data-cb-ad-id="Middle2">
+            
+            	
+            
+
+
+<!--  Rubicon Project Tag -->
+<!--  Site: guardian.co.uk (US)   Zone: News BTF MPU   Size: Medium Rectangle  -->
+
+<!--  Rubicon / Guardian - Rubicon / Uncategorized / 300 x 250 / Below the fold --> 
+<!-- Site: guardian.co.uk (US)  Partner: Centro   Size: 300x250 -->
+
+<ins style="display: inline-table; border: medium none; height: 250px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 300px; background-color: transparent;"><ins id="aswift_1_anchor" style="display: block; border: medium none; height: 250px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 300px; background-color: transparent;"><iframe src="sexual-identity_12.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left: 0px; position: absolute; top: 0px;" frameborder="0" height="250" scrolling="no" width="300"></iframe></ins></ins><div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="sexual-identity_13.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div><!-- BEGIN Krux Control Tag for Guardian -->
+
+<!-- END Krux Controltag -->
+<div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="sexual-identity_14.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div>
+<img src="5950596f70564a5a7a47384141466256_001.dat" style="display: none;" alt="">
+        </div>
+
+    
+
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:promo-bottom-article Bottom article advertiserlinks:Advertiser links for article page">
+                                                                
+    
+	
+		
+											
+
+	<div id="advertiser-container">
+							
+			<script type="text/javascript">
+
+
+google_ad_client = 'ca-guardian_js';
+google_ad_channel = 'commentisfree';
+</script>
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+<script>
+
+
+google_max_num_ads = '3';
+
+</script>
+			    				<div id="google-ads-container" class="eight-col edge component advertiser-links" style="display: block;"><div class="hd"><h2><a class="ad_attribution" href="https://www.google.com/url?ct=abg&amp;q=https://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity%26gl%3DUS%26hl%3Den%26client%3Dca-guardian_js%26hideleadgen%3D1%26ai0%3DChzUswyuRUoSVLMHhwQHZ04GoBImmsOgD8f-K6GjAjbcBEAEghbvoDygDUOPy2u74_____wFgycapi8Ck2A-gAfuI6vgDyAEBqAMBqgSUAU_QR9sGXnWx31GyTiWyp-qtV-6JOtrput8hQUKWNmaeoFh2LEiX1OXCfNmIPaM2qhC58WyB7CUNCjueBYjEKbIf9BFRfqfLw5ZTS3964pxOH9A98vQwuXjaevhjgh_wCI4xbm14RLcoGs2_feoit5BZKQVO1t-qd7gVbLevb0y254w90O8g7pfnsFCZDvkHpOiLwP2AB-32lQc%26ai1%3DCvnDGwyuRUoSVLMHhwQHZ04GoBMjXuvAD-KjfmSrAjbcBEAIghbvoDygDUICah8sEYMnGqYvApNgPoAHug-nnA8gBAagDAaoElAFP0Ef1CF52sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teES3KBrNv33qIt7ubDQFTtbfqne4FWy3r29MtueMPdDvIO6X57BQmQ75B6SJw4zjgAf6-5YY%26ai2%3DCWAizwyuRUoSVLMHhwQHZ04GoBPr_7OwDusP1s1XAjbcBEAMghbvoDygDUK360v8BYMnGqYvApNgPoAGuv_H7A8gBAagDAaoEkQFP0AffHF53sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teETPKxqFv967oGXnq1wFTjIzQeGKCGyBUmwIS-ToyNPP1e2XkrNQ-QhTKBUYgAe6wI4E&amp;usg=AFQjCNF_XcnX5vsCjAkxMfJQtVwBtSOQFg">Ads by Google</a></h2></div><div class="bd"><ul class="l1d"><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=ChzUswyuRUoSVLMHhwQHZ04GoBImmsOgD8f-K6GjAjbcBEAEghbvoDygDUOPy2u74_____wFgycapi8Ck2A-gAfuI6vgDyAEBqAMBqgSUAU_QR9sGXnWx31GyTiWyp-qtV-6JOtrput8hQUKWNmaeoFh2LEiX1OXCfNmIPaM2qhC58WyB7CUNCjueBYjEKbIf9BFRfqfLw5ZTS3964pxOH9A98vQwuXjaevhjgh_wCI4xbm14RLcoGs2_feoit5BZKQVO1t-qd7gVbLevb0y254w90O8g7pfnsFCZDvkHpOiLwP2AB-32lQc&amp;num=1&amp;sig=AOD64_2hlPxMxCcSo-QFoKWYj2RDEfkwFQ&amp;client=ca-guardian_js&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D9155%26a%3DBTG-Scientifc_Text_Text%26Network%3DContent%26kw%3D%26ad%3D28084526321%26SiteTarget%3Dwww.theguardian.com">Brain Training Games</a></p><p>Improve memory and attention with scientific brain games.</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=ChzUswyuRUoSVLMHhwQHZ04GoBImmsOgD8f-K6GjAjbcBEAEghbvoDygDUOPy2u74_____wFgycapi8Ck2A-gAfuI6vgDyAEBqAMBqgSUAU_QR9sGXnWx31GyTiWyp-qtV-6JOtrput8hQUKWNmaeoFh2LEiX1OXCfNmIPaM2qhC58WyB7CUNCjueBYjEKbIf9BFRfqfLw5ZTS3964pxOH9A98vQwuXjaevhjgh_wCI4xbm14RLcoGs2_feoit5BZKQVO1t-qd7gVbLevb0y254w90O8g7pfnsFCZDvkHpOiLwP2AB-32lQc&amp;num=1&amp;sig=AOD64_2hlPxMxCcSo-QFoKWYj2RDEfkwFQ&amp;client=ca-guardian_js&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D9155%26a%3DBTG-Scientifc_Text_Text%26Network%3DContent%26kw%3D%26ad%3D28084526321%26SiteTarget%3Dwww.theguardian.com">www.lumosity.com</a></p></li><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CvnDGwyuRUoSVLMHhwQHZ04GoBMjXuvAD-KjfmSrAjbcBEAIghbvoDygDUICah8sEYMnGqYvApNgPoAHug-nnA8gBAagDAaoElAFP0Ef1CF52sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teES3KBrNv33qIt7ubDQFTtbfqne4FWy3r29MtueMPdDvIO6X57BQmQ75B6SJw4zjgAf6-5YY&amp;num=2&amp;sig=AOD64_0_QHwlDgT64RAb9DyQiVv045m6HA&amp;client=ca-guardian_js&amp;adurl=http://www2.scholarships4moms.net/%3Fm%3DCA0008%26p%3DPA1067%26l%3Dwww.theguardian.com%26e%3D11238517872%26mkwid%3DckSFdCzVT%26v%3D%26k%3D">Mom: $10,000 Scholarship</a></p><p>No GPA, No Essay, No Stress! Apply Now. Takes Only 1 Minute.</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CvnDGwyuRUoSVLMHhwQHZ04GoBMjXuvAD-KjfmSrAjbcBEAIghbvoDygDUICah8sEYMnGqYvApNgPoAHug-nnA8gBAagDAaoElAFP0Ef1CF52sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teES3KBrNv33qIt7ubDQFTtbfqne4FWy3r29MtueMPdDvIO6X57BQmQ75B6SJw4zjgAf6-5YY&amp;num=2&amp;sig=AOD64_0_QHwlDgT64RAb9DyQiVv045m6HA&amp;client=ca-guardian_js&amp;adurl=http://www2.scholarships4moms.net/%3Fm%3DCA0008%26p%3DPA1067%26l%3Dwww.theguardian.com%26e%3D11238517872%26mkwid%3DckSFdCzVT%26v%3D%26k%3D">www.Scholarships4Moms.net</a></p></li><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CWAizwyuRUoSVLMHhwQHZ04GoBPr_7OwDusP1s1XAjbcBEAMghbvoDygDUK360v8BYMnGqYvApNgPoAGuv_H7A8gBAagDAaoEkQFP0AffHF53sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teETPKxqFv967oGXnq1wFTjIzQeGKCGyBUmwIS-ToyNPP1e2XkrNQ-QhTKBUYgAe6wI4E&amp;num=3&amp;sig=AOD64_30foAA2ziLIs18lXAKUyKPIIlWuQ&amp;client=ca-guardian_js&amp;adurl=http://www.stylebistro.com/lookbook/Kate%2BMiddleton%3Futm_source%3Dgoog%26utm_medium%3Dcpc%26utm_campaign%3DKate-Middleton-Display">Kate Middleton Photos</a></p><p>Stunning Pictures of Princess Kate Middleton and the Royal Family.</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CWAizwyuRUoSVLMHhwQHZ04GoBPr_7OwDusP1s1XAjbcBEAMghbvoDygDUK360v8BYMnGqYvApNgPoAGuv_H7A8gBAagDAaoEkQFP0AffHF53sd9Rsk4lsqfqrVfuiTra6brfIUFCljZmnqBYdixIl9TlwnzZiD2jNqoQufFsgewlDQo7ngWIxCmyH_QRUX6ny8OWU0t_euKcTh_QPfL0MLl42nr4Y4If8AiOMW5teETPKxqFv967oGXnq1wFTjIzQeGKCGyBUmwIS-ToyNPP1e2XkrNQ-QhTKBUYgAe6wI4E&amp;num=3&amp;sig=AOD64_30foAA2ziLIs18lXAKUyKPIIlWuQ&amp;client=ca-guardian_js&amp;adurl=http://www.stylebistro.com/lookbook/Kate%2BMiddleton%3Futm_source%3Dgoog%26utm_medium%3Dcpc%26utm_campaign%3DKate-Middleton-Display">Kate-Middleton.StyleBistro.com</a></p></li></ul></div></div>
+		<script type="text/javascript">
+
+		//<![CDATA[
+			if (true) {
+					  writeScript("http://pagead2.googlesyndication.com/pagead/show_ads.js", false, function(){});
+			}
+		// ]]>
+		</script><script gapi_processed="true" type="text/javascript" src="show_ads.js"></script><script src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="ads"></script>
+	
+			</div>
+
+                                                    </span>
+                                            				
+			        
+
+			            	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper eight-col" data-component="Article:content-comments D2 everywhere:microapp d2-appengine:getDiscussionForKey">
+                                                    <a name="start-of-comments"></a>
+<div id="d2-root" class="hd" data-discussion-id="p/26qc4" data-commentpage="1"><iframe src="sexual-identity_15.html" name="d2-iframe" id="d2-iframe-p-26qc4" verticalscrolling="no" horizontalscrolling="no" role="application" style="border: 0px none;" border="0" allowtransparency="true" frameborder="0" height="254" scrolling="no" width="100%"></iframe></div>
+<noscript>
+
+	<h2 style="font-size: 20px; margin-bottom: 10px; font-weight: bold">Comments</h2>
+  <div style="padding: 10px; background: #ededed; font-size: 14px; margin-bottom: 10px;">
+  	<p style="margin-bottom: 10px;"><a href="http://discussion.theguardian.com/discussion/p/26qc4">Click here to join the discussion</a>.</p>
+    <p>We can't load the discussion on <a href="http://theguardian.com">theguardian.com</a> because you don't have <a href="http://www.enable-javascript.com">JavaScript enabled</a>.</p>
+ 	</div>
+</noscript>
+<script>
+
+  if (!!window.postMessage) {
+    jQuery.getScript('http://discussion.theguardian.com/embed.js')
+  } else {
+    jQuery('#d2-root').removeClass('hd').html(
+      '<h2 style="font-size: 20px; margin-bottom: 10px; font-weight: bold">' +
+      'Comments</h2><div style="padding: 10px; background: #ededed; font-size' +
+      ': 14px; margin-bottom: 10px;"><p style="margin-bottom: 10px;"><a ' +
+      'href="http://discussion.theguardian.com/discussion/p/26qc4">' +
+      'Click here to join the discussion</a>.</p><p>We can\'t load the ' +
+      'discussion on <a href="http://theguardian.com">theguardian.com</a> ' +
+      'because your web browser does not support all the features that we ' +
+      'need. If you cannot upgrade your browser to a newer version, you can ' +
+      'access the discussion <a href="' +
+      'http://discussion.theguardian.com/discussion/p/26qc4">' +
+      'here</a>.</div>'
+    );
+  }
+</script>
+                                                    </span>
+                                            				
+			        
+
+
+		</div>
+
+		<div id="promo" class="var-a">
+				<div id="promo" class="four-col edge">
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo right hand ad slot on all sites:Flexible right hand slot advert">
+                                                                
+    
+	
+		
+											
+    
+        
+        <div id="Right1" class=" hide-on-popup" data-cb-ad-id="Right1">
+            
+            	
+            <iframe src="sexual-identity_16.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" frameborder="0" height="600" scrolling="no" width="300">
+
+
+<div style="display: none" id="__document_write_ajax_div-77"></div><SCRIPT language='JavaScript1.1' >window['__document_write_ajax_callbacks__']['77']();</script>
+
+<NOSCRIPT>
+
+<A HREF="http://oas.theguardian.com/5c/www.theguardian.com/commentisfree/2009/apr/15/sexual-identity/oas.html/L38/2090703973/Right1/Guardian/HSBC_US_ROS_NY_300x600__11_01_2013/HSBC_300x600_NY_Jul_DA.html/5950596f70564a5a7a47384141466256?http://ad-emea.doubleclick.net/jump/N3867.133705.GUARDIAN.CO.UK/B7734081.13;abr=!ie4;abr=!ie5;sz=300x600;pc=OAS_9366134;ord=2090703973?">
+
+<IMG SRC="http://ad-emea.doubleclick.net/ad/N3867.133705.GUARDIAN.CO.UK/B7734081.13;abr=!ie4;abr=!ie5;sz=300x600;pc=OAS_9366134;ord=2090703973?" BORDER=0 WIDTH=300 HEIGHT=600 ALT="Advertisement"></A>
+
+</NOSCRIPT>
+
+</iframe>
+<img src="5950596f70564a5a7a47384141466256_002.dat" style="display: none;" alt="">
+        </div>
+
+    
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Most viewed:microapp zeitgeist:Most Viewed Old Promo">
+                                                    
+
+<script type="text/javascript">
+
+jQ(function($){$('.about-zeit').each(function(){var distance=-10;var time=250;var hideDelay=500;var hideDelayTimer=null;var beingShown=false;var shown=false;var trigger=$('.what-is',this);var info=$('.zeit-popup',this).css('opacity',0);$([trigger.get(0),info.get(0)]).mouseover(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);if(beingShown||shown){return;}else{beingShown=true;info.css({top:-97,right:0,display:'block'}).animate({top:'-='+distance+'px',opacity:1},time,'swing',function(){beingShown=false;shown=true;});}return false;}).mouseout(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);hideDelayTimer=setTimeout(function(){hideDelayTimer=null;info.animate({top:'-='+distance+'px',opacity:0},time,'swing',function(){shown=false;info.css('display','none');});},hideDelay);return false;});});});
+</script>
+
+  <!------ widget old rhs: commentisfree : 2013-11-23 22:12:54.852796 ------>
+  <div class="m-zeitgeist promo-component four-col attention-data">
+
+    <div class="hd">
+    	<h3>On Comment is free</h3>
+    </div>
+	
+  	<div class="bd">
+  		<div id="att-toggle">
+  			<ul class="tabs">
+          <li>
+            <a class="active" href="#att-most-viewed">Most viewed</a>
+          </li>
+          
+          
+          <li>
+            <a class="inactive" href="#att-latest">Latest</a>
+          </li>
+          
+        </ul>
+			 
+        <div id="att-panes">
+          <div class="att-tabs att-toggle-pane" id="att-most-viewed">
+            <p class="b2 zg-date">Last 24 hours</p>
+            <ol>
+              
+              <li class="l1 thumb">
+                
+                  
+                    <img class="tinythumb" src="Eric-Schmidt-executive-ch-003.jpg">
+                  
+                
+                <span class="rank">1.&nbsp;</span>
+                
+								<a href="http://www.theguardian.com/commentisfree/2013/nov/22/google-end-china-web-censorship-10-days">Google could end China's web censorship in 10 days – why doesn't it? | Charlie Smith</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">2. </span>
+                
+								<a href="http://www.theguardian.com/commentisfree/2013/nov/23/monty-python-reunion-o2-london">Is Monty Python's reunion a bit of a joke?</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">3. </span>
+                
+								<a href="http://www.theguardian.com/commentisfree/2013/nov/22/hutching-up-london-housing-crisis-rabbits-couples">'Hutching up' – how London's housing crisis has young people at it like rabbits | Harriet Walker</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">4. </span>
+                
+								<a href="http://www.theguardian.com/commentisfree/2013/nov/23/teenagers-lives-prematurely-middle-aged">Let teenagers have their kicks. They are only doing what comes naturally | David Bainbridge</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">5. </span>
+                
+								<a href="http://www.theguardian.com/commentisfree/2013/nov/23/censorship-in-uk-universities">Universities should be the last place to ban free speech | Nick Cohen</a>
+              </li>
+              
+              <li class="more-most-viewed l1 footer">
+					
+					<a href="http://www.theguardian.com/most-viewed/commentisfree">More most viewed</a>
+					
+              </li>
+            </ol>
+          </div>
+        
+          
+        
+          
+          <div class="att-tabs att-toggle-pane initially-off" id="att-latest">
+            <p class="b2 zg-date">Last 24 hours</p>
+            <ol>
+              
+              <li class="l1 thumb">
+                
+                  
+                    <img class="tinythumb" src="Co-operative-Bank-branch--004.jpg">
+                  
+                
+                <span class="rank">1.&nbsp;</span>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/23/coop-bank-tragedy-never-need-mutuals-more">The real tragedy of the Co-op Bank affair is that we have never been in greater need of mutuals</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">2. </span>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/23/celtic-fc-refuse-pay-living-wage-disgrace">Shame on the greed of my beloved Celtic FC | Kevin McKenna</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">3. </span>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/23/censorship-in-uk-universities">Universities should be the last place to ban free speech | Nick Cohen</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">4. </span>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/23/food-waste-recycling-pigs-farming">Let pigs eat swill and stop wasting precious resources | Thomasina Miers</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">5. </span>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/23/monty-python-reunion-o2-london">Is Monty Python's reunion a bit of a joke?</a>
+              </li>
+              
+              <li class="more-latest l1 footer">
+				
+				<a href="http://www.theguardian.com/commentisfree/all">All today's stories</a>
+				
+              </li>
+            </ol>
+          </div>
+          
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<script type="text/javascript">
+
+  function cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce() {
+    try {
+      jQ('.m-zeitgeist #att-toggle ul.tabs li a').each(function(i, el) { if (jQ(el).html().trim().length === 0) { jQ(el).remove() }});
+    } catch(er) {
+      // Ignore
+    }
+  }
+  cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce();
+  //  And because we have no idea when the script runs that adds the extra <a> tag
+  setTimeout("cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce()", 1000);
+  setTimeout("cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce()", 2500);
+</script>
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo latest on comment is free:Comment is free: latest">
+                                                                
+    
+	
+		
+												
+
+<div class="latest-cif-posts-promo promo-component">
+	<div class="hd">
+		<h3 id="cp-scott-promo"><a href="http://www.theguardian.com/commentisfree">comment is free…</a></h3>
+	</div>
+	<div class="bd">
+		<h4>Latest posts</h4>
+		    	    
+		
+	
+	<div class="latest-content">
+
+
+	<ul id="cif-auto-trail-block">
+				<li>
+			
+						
+				        
+	        	        	<div class="byline">
+	        						<a class="container" href="http://www.theguardian.com/commentisfree/2013/nov/23/coop-bank-tragedy-never-need-mutuals-more"><img src="Maurice_Glasman.psd.jpg" alt="Maurice Glasman" height="60" width="60"></a>
+					        	        
+	        <div class="trail-text">
+									<span class="date">        	40min ago
+    </span>
+					<h3>
+						<a href="http://www.theguardian.com/commentisfree/2013/nov/23/coop-bank-tragedy-never-need-mutuals-more">The real tragedy of the Co-op Bank affair is that we have never been in greater need of mutuals</a>
+					</h3>
+								<strong>Maurice Glasman: </strong>The scandal at the bank comes at a time when the free market and the state have failed to preserve ethical practice in the financial sector
+				 
+																																									    																									<a href="http://www.theguardian.com/commentisfree/2013/nov/23/coop-bank-tragedy-never-need-mutuals-more#start-of-comments" class="trail-comment-count comments-open" short-url="-p-3kjd7" style=""><span class="comment-count-val">11 comments</span></a>
+																        </div>
+	        	        	</div>
+	        	    </li>
+				<li>
+			
+						
+				        
+	        	        	<div class="byline">
+	        						<a class="container" href="http://www.theguardian.com/commentisfree/2013/nov/23/celtic-fc-refuse-pay-living-wage-disgrace"><img src="Kevin-McKenna140x140.jpg" alt="Kevin McKenna" height="60" width="60"></a>
+					        	        
+	        <div class="trail-text">
+									<span class="date">        	2hr 27min ago
+    </span>
+					<h3>
+						<a href="http://www.theguardian.com/commentisfree/2013/nov/23/celtic-fc-refuse-pay-living-wage-disgrace">Shame on the greed of my beloved Celtic FC</a>
+					</h3>
+								<strong>Kevin McKenna: </strong>Celtic FC are so rich, yet they cannot bring themselves to pay the living wage
+				 
+																																									    																									<a href="http://www.theguardian.com/commentisfree/2013/nov/23/celtic-fc-refuse-pay-living-wage-disgrace#start-of-comments" class="trail-comment-count comments-open" short-url="-p-3kj2d" style=""><span class="comment-count-val">59 comments</span></a>
+																        </div>
+	        	        	</div>
+	        	    </li>
+		</ul>
+
+	
+	</div>
+
+
+		    
+
+
+	
+				    
+
+
+
+
+			
+		
+
+		
+			<div class="latest-comment">
+	
+						
+			<div class="">
+			
+				<div class="theguardian trail-header">
+													<h3>Comment from the paper</h3>
+												</div>
+			</div>
+			
+	<ul class="tri trail trailblock ">
+					
+							<li class="normal live first odd">
+					<div class="linktext">
+						<p>
+
+															Naomi McAuliffe:
+														<a href="http://www.theguardian.com/commentisfree/2013/nov/23/dont-abandon-neckties-tie-rack-demise">Don't abandon neckties: they're sexy – and handy for breastfeeding</a>
+						</p>
+					</div>
+									</li>
+								
+							<li class="normal live  ">
+					<div class="linktext">
+						<p>
+
+															Martin Rowson:
+														<a href="http://www.theguardian.com/commentisfree/cartoon/2013/nov/23/martin-rowson-politics-strained-metaphors">Martin Rowson on politics and strained metaphors – cartoon</a>
+						</p>
+					</div>
+									</li>
+								
+							<li class="normal live  odd">
+					<div class="linktext">
+						<p>
+
+															Jonathan Freedland:
+														<a href="http://www.theguardian.com/commentisfree/2013/nov/22/paul-flowers-2015-election-coop-mid-staffs-tory">The Paul Flowers affair confirms it: 2015 will be a dirty election</a>
+						</p>
+					</div>
+									</li>
+					
+									
+	</ul>
+	
+	
+			</div>
+	
+
+	</div>
+</div>
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Today's video:List of trails from named trailblock">
+                                                                
+    
+	
+		
+											
+		
+	<div class="promo-component list-of-trails">
+		<div class="hd">
+						<h3>
+
+		
+	        Today's best video
+    </h3>
+			</div>
+		<div class="bd">
+			<ul class="l1d">
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/world/video/2013/nov/23/jfk-secret-service-agent-assassination-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Kennedy-riding-in-Dallas--003.jpg" alt="Kennedy riding in Dallas motorcade" class="video-mask" height="168" width="280">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="168" width="280"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/world/video/2013/nov/23/jfk-secret-service-agent-assassination-video" title="Video will start automatically on this page" class="link-text">JFK: former secret service agent relives assassination</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Former secret service agent Clint Hill gives his account of the day John F Kennedy died as the US marks 50 years since Kennedy's assassination
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/tv-and-radio/video/2013/nov/22/doctor-who-theme-bbc-radiophonic-workshop-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Doctor-Who-50th-anniversa-008.jpg" alt="Doctor Who 50th anniversary title sequences" class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/tv-and-radio/video/2013/nov/22/doctor-who-theme-bbc-radiophonic-workshop-video" title="Video will start automatically on this page" class="link-text">Doctor Who theme re-recorded</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			New recording marks the series' 50th anniversary
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/football/video/2013/nov/22/bayern-munich-recreate-borussia-dortmund-stunt-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Bayern-Munichs-Franck-Rib-008.jpg" alt="Bayern Munich's Franck Ribbery " class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/football/video/2013/nov/22/bayern-munich-recreate-borussia-dortmund-stunt-video" title="Video will start automatically on this page" class="link-text">Bayern Munich recreate Borussia Dortmund stunt</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Players recreate trick on board team bus
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/film/video/2013/nov/22/muppets-most-wanted-ricky-gervais-trailer-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Ricky-Gervais-Miss-Piggy--004.jpg" alt="Ricky Gervais, Miss Piggy and Kermit the Frog" class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/film/video/2013/nov/22/muppets-most-wanted-ricky-gervais-trailer-video" title="Video will start automatically on this page" class="link-text">Muppets Most Wanted</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			The Muppets return with a new adventure. Watch the trailer
+		</div>
+	
+					 
+																																									    														</li>
+							</ul>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                    				
+			        
+
+
+		<div id="promo" class="four-col edge">
+		    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                    				
+			        
+
+	</div>
+</div>
+		</div>
+
+						<div id="promo" class="var-b">
+					    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo-article-2012 Galleries:List of trails from named trailblock">
+                                                                
+    
+	
+		
+											
+		
+	<div class="promo-component list-of-trails">
+		<div class="hd">
+						<h3>
+
+		
+	        Today in pictures
+    </h3>
+			</div>
+		<div class="bd">
+			<ul class="l1d">
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/sport/gallery/2012/dec/17/bbc-sports-personality-year-pictures" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="sports-peronality-2012-003.jpg" alt="sports peronality 2012" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/sport/gallery/2012/dec/17/bbc-sports-personality-year-pictures" class="link-text">BBC Sports Personality of the Year – in pictures</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Bradley Wiggins capped his remarkable sporting year by taking home the big prize at the ceremony in London
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/artanddesign/gallery/2012/dec/16/my-best-winter-shot" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Martin-Parrs-M-Video-Chri-003.jpg" alt="Martin Parr's M Video Christmas party photograph" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/artanddesign/gallery/2012/dec/16/my-best-winter-shot" class="link-text">Dinner, dusk and dancing Russians: my best winter shot</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			A glass of wine with a rough sleeper, Santa in trunks, a thousand partying Muscovites … in a My Best Shot special, top photographers pick the image that sums up winter for them
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/world/gallery/2012/dec/13/monkey-adopts-kitten-in-pictures" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Kimon-a-long-tailed-monke-001.jpg" alt="Kimon, a long-tailed monkey grooms a kitten, whom, she treats as her baby, Bintan Island, Indonesia" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/world/gallery/2012/dec/13/monkey-adopts-kitten-in-pictures" class="link-text">Monkey adopts kitten – in pictures</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Kimon, an eight-year-old pet female long-tailed monkey, treats a kitten as her baby in Bintan Island, Indonesia
+		</div>
+	
+					 
+																																									    														</li>
+							</ul>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+				</div>
+		
+				    	
+
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper eight-col" data-component="Article:content-related-horizontal related-information-horizontal:microapp related-info-2:Related information horizontal (2)">
+                                                    
+    <div class="ma-placeholder-related-information-2-horizontal"><div class="eight-col component"><div class="hd"><h3><strong>Related information</strong></h3></div><div class="bd relatedContent"><div class="two-col"><div class="related-keywords"><h4 class="t6"><a href="http://www.theguardian.com/books/books?INTCMP=ILCNETTXT3487">Books</a></h4><ul></ul><h4 class="t6"><a href="http://www.theguardian.com/culture/culture?INTCMP=ILCNETTXT3487">Culture</a></h4><ul></ul></div></div><div class="two-col"><a href="http://www.theguardian.com/media/2013/nov/19/russell-t-davies-gay-life-channel-4?INTCMP=ILCNETTXT3487" class="related-content-image"><img src="Russell-T-Davies-006.jpg" alt="Russell T Davies to explore 21st-century gay life in two Channel 4 dramas" height="84" width="140"></a><p class="t6"><span class="related-content-media-information"></span><a href="http://www.theguardian.com/media/2013/nov/19/russell-t-davies-gay-life-channel-4?INTCMP=ILCNETTXT3487" class="related-content-headline">Russell T Davies to explore 21st-century gay life in two Channel 4 dramas</a></p><p class="t6 related-content-publication-date">19 Nov 2013</p><p class="related-content-trail-text"></p><p>Cucumber and Banana mark Doctor Who writer's first work for Channel since Queer as Folk in 2000</p><p></p></div><div class="two-col"><ul class="l1d"><li><p class="t6 related-content-publication-date">18 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/books/2013/nov/18/doris-lessing-dies-quotes-own-words?INTCMP=ILCNETTXT3487" class="related-content-headline">Doris Lessing: key quotes</a></p></li><li><p class="t6 related-content-publication-date">15 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/books/2013/nov/15/mary-renault-charioteer-simon-russell-beale?INTCMP=ILCNETTXT3487" class="related-content-headline">Mary Renault's The Charioteer is an antidote to shame</a></p></li><li><p class="t6 related-content-publication-date">12 Nov 2013</p><p class="t7"><a href="http://www.theguardian.com/lifeandstyle/womens-blog/2013/nov/12/hunger-games-bow-arrow-toy-girls-catching-fire-christmas?INTCMP=ILCNETTXT3487" class="related-content-headline">Gritty in pink: Hunger Games inspires bow and arrow toy for girls</a></p></li></ul></div><div class="two-col edge"><a href="http://www.theguardian.com/childrens-books-site/interactive/2013/nov/12/doctor-who-live-streamed-discussion?INTCMP=ILCNETTXT3487" class="related-content-image"><img src="Neil-Gaiman-005.jpg" alt="Watch Neil Gaiman and Charlie Higson discuss Doctor Who - live streamed event" height="84" width="140"></a><p class="t6"><span class="related-content-media-information"></span><a href="http://www.theguardian.com/childrens-books-site/interactive/2013/nov/12/doctor-who-live-streamed-discussion?INTCMP=ILCNETTXT3487" class="related-content-headline">Watch Neil Gaiman and Charlie Higson discuss Doctor Who - live streamed event</a></p><p class="t6 related-content-publication-date">12 Nov 2013</p><p class="related-content-trail-text"></p><p>Today at 2pm Charlie Higson will host a live streamed event about Doctor Who with special guests Neil Gaiman, Malorie Blackman, Eoin Colfer and Marcus Sedgwick</p><p></p></div></div></div></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://related-info-hrd.appspot.com/static/related-information-1.3.min.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                                    </span>
+                                            				
+			        
+
+
+
+		
+
+
+			    	    	    	    
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                    				
+			        
+
+
+	    
+    
+                
+
+<div id="footer-container">
+    <div id="footer" class="comment footer b4">
+    	    	<ul id="footer-links">
+    		    			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://syndication.guardian.co.uk/" class="link-text">License/buy our content</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/privacy-policy" class="link-text">Privacy policy</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/terms-of-service" class="link-text">Terms of service</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/advertising/guardian-america-advertising-info" class="link-text">US advertising</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/index/subjects/a" class="link-text">A - Z index</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us" class="link-text">About us</a>
+    </li>
+					
+     			    		    	</ul>
+    
+        <ul id="copyright-links">
+        	    			<li>© 2013 Guardian News and Media Limited or its affiliated companies. All rights reserved.</li>
+    			    		        </ul>
+    </div>
+</div>
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script>
+
+    require(['http://s.ophan.co.uk/js/ophan.min.js', 'http://s.ophan.co.uk/js/campaign.min.js'], function(ophan, campaign) {
+        if (document.readyState === 'complete') {
+            ophan.startLog();
+        } else {
+            if (window.addEventListener) {
+                window.addEventListener('load', ophan.startLog, false);
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', ophan.startLog);
+            }
+        }
+    });
+</script>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script>
+
+jQ(function() {
+    jQ('#article-wrapper .factbox-container .factbox').each(function() {
+        var node = jQ(this),
+            className = node.attr('class');
+        node.attr('data-component', 'comp: r2: ' + className).addClass('trackable-component');
+    });
+});
+</script>
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                                    
+    
+	
+		
+											
+	    	    	
+	
+
+
+  	
+  	
+
+
+    <ul style="top: 468px; left: -103.5px;" class="component trackable-component undocked-share share-links" data-component="Article:floating share tools">
+
+    	<li class="full-line facebook" data-link-name="facebook">
+	    <span class="facebook-share">
+		<span class="facebook-share-count"><i></i><u></u><span>1</span></span><a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity&amp;%20display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity" data-link-name="Facebook Share">
+		    <span class="facebook-share-icon"></span>
+		    <span class="facebook-share-label">Share</span>
+		</a>
+	    </span>
+	</li>
+		
+
+    	<li class="full-line tweet">
+												<iframe style="width: 55px; height: 62px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-vertical" src="sexual-identity_20.html" allowtransparency="true" id="twitter-widget-2" frameborder="0" scrolling="no"></iframe>
+	</li>
+		
+
+    	<li class="full-line google-plus" data-link-name="Google plus">
+    		
+    	<div id="___plusone_2" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 50px; height: 60px;"><iframe title="+1" data-gapiattached="true" src="sexual-identity_21.html" name="I2_1385245636760" id="I2_1385245636760" vspace="0" tabindex="0" style="position: static; top: 0px; width: 50px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 60px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+	</li>
+
+
+        <li id="undocked-share-linked-in" class="full-line linked-in" data-link-name="LinkedIn">
+        	
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385245636748_4-container" class="IN-top IN-empty"><span id="li_ui_li_gen_1385245636748_4" class="IN-top"><span id="li_ui_li_gen_1385245636748_4-inner" class="IN-top"><span id="li_ui_li_gen_1385245636748_4-content" class="IN-top">0</span></span></span></span></span><br><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385245636746_3"><a id="li_ui_li_gen_1385245636746_3-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385245636746_3-logo">in</span><span id="li_ui_li_gen_1385245636746_3-title"><span id="li_ui_li_gen_1385245636746_3-mark"></span><span id="li_ui_li_gen_1385245636746_3-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-counter="top" data-showzero="true"></script>
+    </li>
+
+    
+    </ul>
+
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script type="text/javascript" src="foresee-trigger.js"></script>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-signin-top-nav"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.signin-top-nav.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-signin-overlay"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.overlay.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-facebook-banner"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.facebookbanner.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-cookie-notification"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.site-notification.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-identity-location"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.location.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-alert-signup"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://guardian-notifications.appspot.com/static/js/user-notifications.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script async="" defer="">
+
+jQ(function() {
+	if(jQ.support.cors && !(typeof(window.getSelection) === 'undefined')) {
+		jQ(window).on("copy", function() { jQ.post("http://gu-text-catcher.appspot.com/capture", {selection: window.getSelection().toString(), path: window.location.pathname}); });
+	}
+});
+</script>
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-identity-cookie-refresh"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.refresh.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+
+
+	</div><iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" src="sexual-identity_22.html" id="oauth2relay640691387" name="oauth2relay640691387"></iframe>
+	    
+	
+
+
+<script src="10822091.js"></script>
+
+    	
+
+
+
+
+            <script id="omnitureGeneratorScript" type="text/javascript">
+
+    //<![CDATA[
+    if(true) {
+        var s_account="guardiangu-blogs,guardiangu-network,guardiangu-commentisfree";
+
+        
+        writeScript('http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/scripts/omniture-H.25.5.js', false, function(){});
+    }
+    //]]>
+    </script><script type="text/javascript" src="omniture-H.25.5.js"></script>
+
+            <script type="text/javascript">
+
+        window.optimizely = window.optimizely || [];
+        window.optimizely.push("sc_activate");
+        if (window.optimizely.activeExperiments && window.optimizely.activeExperiments.length > 0) {
+            s.events = s.events ? s.events + ",event58" : "event58";
+        }
+    </script>
+    
+    <script id="omnitureScript" type="text/javascript">
+
+
+    //<![CDATA[
+    if(true) {
+        	
+
+        if (false) {
+            s.pageName = document.title;
+        } else {
+            s.pageName = "Comment is free:Article:sexual-identity:1200262";
+        }
+
+        s.channel = "Comment is free";
+        s.server  = "102539239";
+
+        var userId = "(none)";
+        if(userId != "(none)") {
+            s.prop2   = "GUID:" + userId;
+        }
+
+                    s.prop3 = "GU.co.uk";
+                    s.prop4 = "Gender (News),Gay rights (News),Books,Culture";
+                    s.prop5 = "Not commercially useful";
+                    s.prop6 = "Silvia Posocco";
+                    s.prop7 = "2009/04/15 06:00";
+                    s.prop8 = "1200262";
+                    s.prop9 = "Blog";
+                    s.prop10 = "Comment";
+                    s.prop13 = "";
+                    s.prop19 = "GUS";
+                    s.prop25 = "Comment is free";
+                    s.prop47 = "US";
+                    s.prop64 = "UK";
+                    s.prop65 = "Cool, queer white glasses";
+                    s.prop66 = "Comment is free";
+                    s.prop67 = "nextgen-compatible";
+                    s.prop72 = "Comment is free";
+                    s.prop73 = "Comment is free";
+                    s.prop74 = "Comment is free";
+                    s.prop75 = "Comment is free";
+        
+                    guardian.r2.OmnitureTracking.setAdditionalPageProperties({
+                isContentPage: true,
+                contentType:   "Article",
+                published:     "2009/04/15 06:00"
+            });
+        
+                // Track that comments are enabled
+        s.events = s.events ? s.events + ",event46" : "event46";
+        
+        // Apply any additional props set by the page before s_code has loaded
+        guardian.r2.OmnitureTracking.applyProperties();
+
+                s.eVar23="";
+
+
+        // Masterclass tracking
+                // /Masterclass tracking
+
+        try {
+            if (guardian.r2.OmnitureTrackingOverride) {
+                new guardian.r2.OmnitureTrackingOverride(s);
+            }
+        }
+        catch(err) {
+        }
+
+        var s_code=s.t();if(s_code)document.write(s_code);
+
+
+            }
+    //]]>
+    </script>
+    <noscript id="omnitureNoScript">
+
+        <div><img alt="" src='http://hits.theguardian.com/b/ss/guardiangu-blogs,guardiangu-network,guardiangu-commentisfree/1/H.25.5/28946?ns=guardian&pageName=Comment+is+free%3AArticle%3Asexual-identity%3A1200262&ch=Comment+is+free&c3=GU.co.uk&c4=Gender+%28News%29%2CGay+rights+%28News%29%2CBooks%2CCulture&c5=Not+commercially+useful&c6=Silvia+Posocco&c7=2009%2F04%2F15+06%3A00&c8=1200262&c9=Blog&c10=Comment&c13=&c19=GUS&c25=Comment+is+free&c47=US&c64=UK&c65=Cool%2C+queer+white+glasses&c66=Comment+is+free&c67=nextgen-compatible&c72=Comment+is+free&c73=Comment+is+free&c74=Comment+is+free&c75=Comment+is+free&h2=GU%2FComment+is+free%2FComment+is+free%2Fblog%2FComment+is+free&c2=GUID:(none)' width="1" height="1" /></div>
+    </noscript>
+
+	    		    		    
+			<script>
+
+		var _qevents = _qevents || [];
+		(function() {
+			var elem = document.createElement('script');
+
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+		})();
+		_qevents.push( { qacct:'p-73ktnlRTKQPTw', labels: 'commentisfree'} );
+		</script>
+		<noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-73ktnlRTKQPTw.gif?labels=commentisfree" height="1" width="1" alt="Quantcast"/></div></noscript>
+	
+			<script>
+
+			var qcResults = function (result) {
+                var justTheParameters = '';
+				for (var i = 0, len = result.segments.length; i < len; i++) {
+					OAS_query += 'qc=' + result.segments[i].id + '&';
+                    justTheParameters += 'qc=' + result.segments[i].id + '&';
+				}
+                try {
+                    localStorage.setItem('qcparams', justTheParameters);
+                } catch(er) {
+                    // Ignore
+                }
+			}
+		</script>
+		<script src="segments.json"></script>
+	
+;
+
+<script id="componentTrackingScript" type="text/javascript">
+
+if (true && true) {
+    guardian.r2.OmnitureTracking.enableComponentTracking();
+}
+</script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+	if (true) {
+        // guardian.co.uk Connect Adprobe Tag, MPU [9814], Leaderboard [9815]
+        var wlOrd = new Date().getTime();
+        document.write('<scr' + 'ipt type="text/javascript" src="http://req.connect.wunderloop.net/AP/1566/5823/9815/js?cus=9815,9814&ord=' + wlOrd + '"></sc' + 'ript>');
+	}
+// ]]>
+</script><script type="text/javascript" src="js"></script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+	if (true) {
+        OAS_query += 'wl9815=' + wl9815camp + '&wl9814=' + wl9814camp + '&';
+	}
+// ]]>
+</script>
+	    
+
+            <script>
+
+                        				function OAS_NORMAL(pos) {
+					document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+					document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+				}
+
+				OAS_version = 11;
+				if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)) OAS_version = 10;
+
+                if (true) {
+                    if (OAS_version >= 11) document.write('<scr' + 'ipt src="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/script>');
+                }
+
+				function OAS_AD(pos) {
+                    if (true) {
+                        if (typeof(OAS_RICH) !== 'undefined' && OAS_version >= 11) {
+                            OAS_RICH(pos);
+                        } else {
+                            OAS_NORMAL(pos);
+                        }
+                    }
+				}
+					</script><script src="1380731614@Top,Middle2,Right1"></script>
+		<!------ OAS SETUP end ------>
+	
+		<div style="display: none;" id="ad-temp-Top">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Top', '<script>OAS_AD("Top")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Top').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-Middle2">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Middle2', '<script>OAS_AD("Middle2")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Middle2').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-Right1">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Right1', '<script>OAS_AD("Right1")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Right1').hide();
+          </script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+    (function() {
+        // Load OutBrain code
+        var ob = document.createElement('script');
+        ob.type = 'text/javascript';
+        ob.async = true;
+        ob.src = 'http://widgets.outbrain.com/outbrain.js';
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ob, s);
+    })();
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+
+
+<script type="text/javascript">
+
+    if (true) {
+        jQ(document).ready( function(){
+                var script = "<scr" + "ipt type='text/javascript' src='//secure-uk.imrworldwide.com/v60.js'><" + "/script>";
+                script += "\n<sc" + "ript type='text/javascript'" + ">";
+                script += "\nvar pvar = { cid: 'uk-305078h', content: '0', server: 'secure-uk' };";
+                script += "\nvar feat = { landing_page: 0 };";
+                script += "\nvar trac = nol_t(pvar, feat);";
+                script += "\ntrac.record().post();";
+                script += "\n<" + "/script>";
+                jQ("#n-analytics-placeholder").writeCapture().replaceWith(script);
+            }
+        );
+    }
+</script>
+<noscript>
+
+ <div>
+    <img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=uk-305078h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+ </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<script type="text/javascript">
+
+
+    if (true) {
+        var _sf_async_config = {};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 30676;
+        _sf_async_config.domain = document.domain;
+        _sf_async_config.sections = 'Comment is free,Comment (Tone),Article (Content type),Gender (News),Gay rights (News),Books,Culture,Article';
+        _sf_async_config.authors = 'Silvia Posocco';
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.sections = 'Comment is free';
+
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src',
+                        (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+                                'js/chartbeat_pub.js');
+                document.body.appendChild(e);
+            }
+
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() {
+                oldonload();
+                loadChartbeat();
+            };
+        })();
+    }
+</script>
+
+    	
+
+
+
+<noscript>
+
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/997352581/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+<script>
+
+    (function(jQ) {
+        var google_conversion_id = 997352581;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+
+        jQ.ajax({
+            url: "https://www.googleadservices.com/pagead/conversion.js",
+            cache: true,
+            dataType: "script"
+        });
+    })(jQuery);
+</script>
+
+
+	
+
+
+
+
+
+
+
+<div id="dialogue"><div class="toolbox-popup trackable-component" id="send-email-box" data-component="Article:send email box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Send to a friend</h3>
+			<span class="js-show"><a class="close-toolbox" href="#send-email"><img src="close-popup_001.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		<div>
+
+			<form action="http://www.theguardian.com/commentisfree/2009/apr/15/sexual-identity" method="post" name="emailthis" id="emailthis">
+                <fieldset>
+                    <div><label for="from">Sender's name</label></div>
+                    <input id="from" name="from" maxlength="50" type="text">
+                </fieldset>
+				<fieldset>
+					<div><label for="to">Recipient's email address</label></div>
+					<input id="to" name="to" maxlength="50" value="" type="text">
+									</fieldset>
+				<div class="inputrow">
+					<input class="share-this-tracking" data-link-name="Email" value="Send" type="submit">
+				</div>
+				<p class="ip_logged">Your IP address will be logged</p>
+			</form>
+		</div>
+	</div>
+</div><div class="toolbox-popup trackable-component" id="send-share-box" data-component="Article:share box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Share</h3>
+			<span class="js-show"><a class="close-toolbox" href="#send-share-box"><img src="close-popup_001.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+
+					<div class="shortlink">
+
+				Short link for this page:
+				<a rel="shortlink nofollow" href="http://gu.com/p/26qc4">http://gu.com/p/26qc4</a>
+			</div>
+							<ul class="share-this-tracking">
+						<li>
+				<a data-link-name="Stumbleupon" name="lid={share}{stumbleupon}" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses">
+					<span class="spr-16 stumbleupon"></span>StumbleUpon
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Reddit" name="lid={share}{reddit}" href="http://reddit.com/submit?url=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses">
+					<span class="spr-16 reddit"></span>reddit
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Tumblr" name="lid={share}{Tumblr}" href="http://www.tumblr.com/share?v=3&amp;u=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;t=Cool%2C+queer+white+glasses" title="Share on Tumblr">
+					<span class="spr-16 tumblr"></span>Tumblr
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Digg" name="lid={share}{Digg}" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses">
+					<span class="spr-16 digg"></span>Digg
+				</a>
+			</li>
+			<li>
+				<a data-link-name="LinkedIn" name="lid={share}{LinkedIn}" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses&amp;source=The%20Guardian">
+					<span class="spr-16 linkedin"></span>LinkedIn
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Google Bookmarks" name="lid={share}{Google Bookmarks}" href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses">
+					<span class="spr-16 google-bookmarks"></span>Google Bookmarks
+				</a>
+			</li>
+			<li>
+				<a data-link-name="del.icio.us" name="lid={share}{del.icio.us}" href="http://del.icio.us/post?url=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity&amp;title=Cool%2C+queer+white+glasses">
+					<span class="spr-16 delicious"></span>del.icio.us
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Livejournal" name="lid={share}{livejournal}" href="http://www.livejournal.com/update.bml?subject=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity">
+					<span class="spr-16 livejournal"></span>livejournal
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Facebook" name="lid={share}{Facebook}" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.theguardian.com%2Fcommentisfree%2F2009%2Fapr%2F15%2Fsexual-identity">
+					<span class="spr-16 facebook"></span>Facebook
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Twitter" name="lid={share}{Twitter}" href="http://twitter.com/home?status=http%3A%2F%2Fgu.com%2Fp%2F26qc4%2Ftw">
+					<span class="spr-16 twitter"></span>Twitter
+				</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div><div class="toolbox-popup" id="contact-link-box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Contact us</h3>
+			<span class="js-show"><a class="close-toolbox" href="#contact"><img src="close-popup_001.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		
+		<div class="col first">
+						<ul>
+								<li>
+
+					                        Report errors or inaccuracies: <a href="mailto:userhelp@theguardian.com">userhelp@theguardian.com</a>
+                    				</li>
+				<li>
+
+											Letters for publication should be sent to: <a href="mailto:letters@theguardian.com">letters@theguardian.com</a>
+									</li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul>
+				<li>
+
+					If you need help using the site: <a href="mailto:userhelp@theguardian.com">userhelp@theguardian.com</a>
+				</li>
+				<li>
+
+					Call the main Guardian and Observer switchboard: <br><span>+44 (0)20 3353 2000</span>
+				</li>
+				<li>
+					<ul>
+						<li>
+							<a href="http://adinfo-guardian.co.uk/">Advertising guide</a>
+						</li>
+						<li>
+							<a href="http://www.theguardian.com/syndication/">License/buy our content</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div><div class="toolbox-popup" id="history-link-box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>About this article</h3>
+			<span class="js-show"><a class="close-toolbox" href="#history-link-box"><img src="close-popup_001.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		        	        			
+					   	   	   
+									
+						
+																	
+ 			<div class="section">
+				<p><strong>Silvia Posocco: Eve Kosofsky Sedgwick unpacked assumptions about the stability and coherence of sexual identity</strong></p>
+		   		    									This article was published on
+							<a href="http://www.theguardian.com/">the Guardian website</a>
+							at <time datetime="2009-04-14T19:00EDT" pubdate="">13.00 EDT on Wednesday 15 April 2009</time>. 
+					   	It was last modified at <time datetime="2009-04-15T14:20EDT">14.20 EDT on Wednesday 15 April 2009</time>.
+						  							</div>
+			</div>
+</div></div><table class="gstl_50 gssb_c" style="width: 183px; display: none; top: 34px; left: 1064px; position: absolute;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gssb_f"></td><td style="width: 100%;" class="gssb_e"></td></tr></tbody></table><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="sexual-identity_26.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="sexual-identity_27.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><script gapi_processed="true" src="chartbeat_pub.js" type="text/javascript" language="javascript"></script><img style="display: none;" src="t.gif"><iframe src="sexual-identity_28.html" style="display: none; width: 0px; height: 0px;" name="google_osd_static_frame" id="google_osd_static_frame_3328343279616"></iframe></body>
+</html>

@@ -1,0 +1,21 @@
+
+/* ::::: null ::::: */
+
+* { margin: 0px; padding: 0px; }
+h3 { font-size: 100%; font-weight: normal; }
+img { border: 0px none; }
+a { text-decoration: none; display: block; }
+#BF_Widget { width: 468px; height: 160px; background: none repeat scroll 0% 0% rgb(226, 226, 226); }
+#h, #f { background: none repeat scroll 0% 0% rgb(238, 51, 34); color: rgb(238, 238, 238); font: 12px 'Lucida Sans',Verdana,Sans-Serif; width: 468px; text-align: center; }
+#h { height: 16px; }
+#f { height: 11px; font-size: 9px; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; }
+td { text-align: center; vertical-align: middle; overflow: hidden; }
+.bod { height: 133px; }
+.pad { height: 132px; }
+.pad td {  }
+.u { width: 125px; height: 120px; margin: 0px auto; }
+img { width: 125px; height: 83px; }
+.c { position: relative; top: -22px; width: 122px; padding: 1px 3px 1px 0px; font: italic 10px/1 'Trebuchet MS',Trebuchet,Verdana,Sans-Serif; letter-spacing: 0.1em; text-align: right; text-transform: uppercase; color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(238, 51, 34); }
+.t { width: 125px; overflow: hidden; position: relative; top: -10px; height: 32px; color: rgb(0, 119, 238); font: 13px/1.3 Georgia,Serif; text-align: center; }
+span { display: none; z-index: 9; width: 200px; background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); padding: 5px 8px; border: 1px solid rgb(170, 170, 170); }
