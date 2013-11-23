@@ -1,0 +1,53 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CF-5v6wuRUq2MK7HewQGpu4DIB52pwIcCse-w3hHAjbcBEAEghbvoDygDUL-RoasEYMnGqYvApNgPoAHz9YD0A8gBAagDAaoEpAFP0EWhubGdBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6T6YE_Q-wWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwN0Ocm4AH9Yn_Cw&amp;num=1&amp;sig=AOD64_3__LVhs33YSKSaw_GLCgK2nLGjmQ&amp;client=ca-guardian_js&amp;adurl=http://www.vjrussolaw.com"; 
+google_ad.visible_url = "www.vjrussolaw.com"; 
+google_ad.line1 = "Vincent J. Russo \x26amp; Assoc"; 
+google_ad.line2 = "Long Islands Signature Elder Law"; 
+google_ad.line3 = "Firm with 4 Locations on the Island"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CcycN6wuRUq2MK7HewQGpu4DIB6rK4YsGwuOhiErAjbcBEAIghbvoDygDUIO7tKIBYMnGqYvApNgPoAHO54_kA8gBAagDAaoEpwFP0FWGtbGeBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vIUkL6oaTJeGd9a_zS2Q2Z2uud05R9GqdqNyu33sxRUBMqbN7gVN2sGYWcpknV4AHmpjwGw&amp;num=2&amp;sig=AOD64_0w1yQlTRXBnIS3Hei1-rIHBAKqlg&amp;client=ca-guardian_js&amp;adurl=http://www.sovereign-investor.com/landing/ppc/tsi/svs_LA16_Escape_From_America.php%3Fcode%3DX190LA16"; 
+google_ad.visible_url = "www.Sovereign-Investor.com"; 
+google_ad.line1 = "How To Expatriate?"; 
+google_ad.line2 = "Learn How to Expatriate, Former"; 
+google_ad.line3 = "Congressman Reveals 6 Locations..."; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CiQFu6wuRUq2MK7HewQGpu4DIB6WLlLwD5abskUjAjbcBEAMghbvoDygDUJLe4aYHYMnGqYvApNgPoAGF6b__A8gBAagDAaoEowFP0HWpsbGfBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6TqbdDXuwWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwZRQTgAfjlkA&amp;num=3&amp;sig=AOD64_3Mb8F0FpmDwvjUVeEO7X_Heb_q9A&amp;client=ca-guardian_js&amp;adurl=http://www.TotalLegal.com/livingwill.asp%3Fsrc%3Dg12livingwillsz"; 
+google_ad.visible_url = "www.TotalLegal.com"; 
+google_ad.line1 = "Free Living Wills Online"; 
+google_ad.line2 = "Forms for Every State."; 
+google_ad.line3 = "Simple - Prepare Online \x26amp; Print."; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory%26gl%3DUS%26hl%3Den%26client%3Dca-guardian_js%26hideleadgen%3D1%26ai0%3DCF-5v6wuRUq2MK7HewQGpu4DIB52pwIcCse-w3hHAjbcBEAEghbvoDygDUL-RoasEYMnGqYvApNgPoAHz9YD0A8gBAagDAaoEpAFP0EWhubGdBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6T6YE_Q-wWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwN0Ocm4AH9Yn_Cw%26ai1%3DCcycN6wuRUq2MK7HewQGpu4DIB6rK4YsGwuOhiErAjbcBEAIghbvoDygDUIO7tKIBYMnGqYvApNgPoAHO54_kA8gBAagDAaoEpwFP0FWGtbGeBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vIUkL6oaTJeGd9a_zS2Q2Z2uud05R9GqdqNyu33sxRUBMqbN7gVN2sGYWcpknV4AHmpjwGw%26ai2%3DCiQFu6wuRUq2MK7HewQGpu4DIB6WLlLwD5abskUjAjbcBEAMghbvoDygDUJLe4aYHYMnGqYvApNgPoAGF6b__A8gBAagDAaoEowFP0HWpsbGfBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6TqbdDXuwWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwZRQTgAfjlkA\x26usg\x3dAFQjCNERp-Q2ac4AnFkeuymYlpev5XjVYg";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

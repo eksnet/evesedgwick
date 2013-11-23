@@ -1,0 +1,50 @@
+
+/* ::::: null ::::: */
+
+a { color: rgb(51, 51, 51); }
+body, table, div, ul, li { margin: 0px; padding: 0px; }
+body { background-color: transparent; font-family: verdana,arial,sans-serif; }
+
+/* ::::: null ::::: */
+
+#adunit { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); height: 248px; width: 298px; }
+#ads { height: 248px; left: 1px; position: absolute; top: 1px; width: 298px; }
+#ads ul { list-style: none outside none; }
+#ads ul li { clear: both; float: left; line-height: 0; overflow: hidden; position: relative; }
+#ads table { border-collapse: collapse; border-spacing: 0px; }
+.separator { border-bottom: 1px solid rgb(216, 216, 216); }
+.rhtitle { color: rgb(51, 51, 51); text-decoration: none; word-wrap: break-word; }
+.rhtitle:hover { text-decoration: underline; }
+.rhbody { color: rgb(102, 102, 102); word-wrap: break-word; }
+.rhurlctr { cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rhurl { text-decoration: none; }
+.rhurl span { color: rgb(0, 102, 204); }
+#ads ul li { width: 298px; }
+#taw0 { height: 62px; }
+#taw1 { height: 61px; }
+#taw2 { height: 61px; }
+#taw3 { height: 61px; }
+.rh { display: inline-block; font-size: 0px; line-height: 0; overflow: hidden; padding: 1px; width: 296px; }
+.rh > table { height: 100%; }
+.rh-body { display: inline-block; font-size: 10px; line-height: 14px; max-width: 296px; overflow: hidden; padding: 0px; }
+.rh-bodyc { padding: 0px; vertical-align: top; }
+.rh-title { display: inline-block; font-size: 12px; line-height: 14px; max-width: 296px; overflow: hidden; padding: 0px; }
+.rh-titlec { padding: 0px; }
+.rh-url { display: inline-block; font-size: 10px; line-height: 14px; max-width: 296px; overflow: hidden; padding: 1px 0px; white-space: nowrap; }
+.rh-urlc { padding: 0px; }
+.rh0 { display: inline-block; font-size: 0px; line-height: 0; overflow: hidden; padding: 0px; width: 296px; }
+.rh0 > table { width: 100%; }
+.rh02 { display: inline-block; font-size: 0px; line-height: 0; overflow: hidden; padding: 0px; width: 296px; }
+.rh02 > table { height: 100%; }
+.rh02c { padding: 0px; width: 296px; }
+.rh0c { padding: 0px; width: 296px; }
+
+/* ::::: null ::::: */
+
+div, ul, li { margin: 0px; padding: 0px; }
+#abgc { height: 15px; position: absolute; right: 0px; text-rendering: geometricprecision; top: 0px; width: 15px; z-index: 9010; }
+#abgb { height: 100%; }
+#abgc img { display: block; }
+#abgc svg { display: block; }
+#abgs { display: none; height: 100%; }
+#abgl { text-decoration: none; }

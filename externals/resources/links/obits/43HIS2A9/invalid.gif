@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="lt-ie10 lt-ie9 lt-ie8 no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9 no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10 no-js" xmlns="http://www.w3.org/1999/xhtml" lang="en"><![endif]-->
+<!--[if !IE]><!--> <html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js"> <!--<![endif]-->
+
+
+
+
+
+
+
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <script>var _sf_startpt = (new Date()).getTime();</script>
+
+    
+    <script>
+        function getCookie(cookiename) {
+          var cookiestring = RegExp('' + cookiename + '[^;]+').exec(document.cookie);
+          return unescape(!!cookiestring ? cookiestring.toString().replace(/^[^=]+/, '').replace('=', '') : '');
+        }
+    </script>
+    
+    <link href="http://plus.google.com/100439561628058502277/" rel="publisher"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    
+         <title>Page Not Found | Toronto Star</title>
+    
+
+
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="baseDomain" content="http://www.thestar.com/"/>
+    
+
+    
+    
+    <meta name="__sync_contentCategory" content="thestar" />
+    <meta name="__star_contentCategory" content="Free" />
+
+    
+    <script>
+        var currentState = "DISABLED";
+    </script>
+    
+
+    
+    <script>
+        document.domain = "thestar.com";
+        function resizeMystarModal(w, h) {
+            document.getElementById('modalframe').style.width = w + "px";
+            document.getElementById('modalframe').style.height = h + "px";
+            document.getElementById('modal').style.width = w + "px";
+            document.getElementById('modal').style.height = h + "px";
+        }
+    </script>
+    
+
+    
+
+
+
+
+    
+    <script>
+    
+        var mystarlocation = 'http://my.thestar.com';
+        var mystarsecurelocation = 'https://my.thestar.com';
+        
+            var localprefix = "";
+        
+    
+    </script>
+
+
+    
+
+    <script src="/etc/designs/thestar/mainlib/js/libs/redirection-mobile.js"></script>
+
+    <script>
+    
+    var queryString = window.location.search;
+    
+    if (queryString.indexOf("app=noRedirect") == -1){
+        if (window.location.pathname === "/" ||  window.location.pathname === "/index.html") {
+            SA.redirection_mobile ({
+                mobile_url : "m.thestar.com"
+            });
+        } else {
+            SA.redirection_mobile ({
+                mobile_url : 'phoenix.polarmobile.com/editorial/v1.1.0/link/redirection?source=' + encodeURIComponent(window.location.href) + '&dest=http%3A%2F%2Fm.thestar.com&app=thestar'
+            });
+        }   
+    }
+    </script>
+
+
+    
+    <script>
+        document.documentElement.className = (document.documentElement.className).replace('no-js', 'js');
+    </script>
+
+    
+    <!--[if lt IE 9]>
+    <script>
+        var e = ('abbr,article,aside,audio,canvas,datalist,details,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video').split(',');
+        for (var i = 0; i < e.length; i++) document.createElement(e[i]);
+    </script>
+    <![endif]-->
+
+    <link rel="canonical" href=""/>
+    <meta name="viewport" content="width=1260"/>
+
+    
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="/etc/designs/thestar/images/apple-touch.png"/>
+
+    
+    
+
+    <meta name="application-name" content="TheStar.com"/>
+    <meta name="msapplication-starturl" content=""/>
+    <meta name="msapplication-navbutton-color" content="#0066a4"/>
+    <meta name="msapplication-window" content="width=1024;height=768"/>
+    <meta name="msapplication-tooltip" content="TheStar.com"/>
+    
+    <meta name="msapplication-task"
+          content="name=News; action-uri=http://www.thestar.com/news; icon-uri=/etc/designs/thestar/images/favicon.ico"/>
+    
+
+    <meta property="article:publisher" content="https://www.facebook.com/torontostar"/>
+    <meta property="og:title" content="Page Not Found | Toronto Star"/>
+    <meta property="og:type"
+          content="website"/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content="thestar.com"/>
+    <meta property="og:description" content=""/>
+
+    
+
+    <meta property="og:image" content="http://www.thestar.com/etc/designs/thestar/images/apple-touch.png" />
+
+    
+
+    
+    <script src="http://read.thestar.com/redirect.js"></script>
+
+    
+
+    <link rel="stylesheet" href="/etc/designs/thestar/mainlib.css"/>
+
+    <!--[if gte IE 9]>
+    <link rel="stylesheet" href="/etc/designs/thestar/mainlib/css/ie/pinable.css"/>
+    <![endif]-->
+
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/etc/designs/thestar/mainlib/css/ie/hacks-ie7.css"/>
+    <![endif]-->
+
+    <!--[if IE 8]>
+    <link rel="stylesheet" href="/etc/designs/thestar/mainlib/css/ie/hacks-ie8.css"/>
+    <![endif]-->
+
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="/etc/designs/thestar/mainlib/css/ie/hacks-ie9.css"/>
+    <![endif]-->
+
+    
+    
+    <script>
+        var kvaam = getCookie('aam_adt');
+        var kvuid = getCookie('aam_uuid');
+        var curDateTime = new Date();
+        var offset = -(curDateTime.getTimezoneOffset());
+        if (offset > 0)
+            offset = "+" + offset;
+        if (window.adgroupid == undefined)
+            window.adgroupid = Math.round(Math.random() * 1000);
+    </script>
+
+    
+    
+
+    
+    
+    <script class="kxct" data-id="ILWkRCxy" data-timing="async" data-version="1.9" type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+        (function(){
+            var k=document.createElement('script');k.type='text/javascript';k.async=true;
+            var m,src=(m=location.href.match(/\bkxsrc=([^&]+)/))&&decodeURIComponent(m[1]);
+            k.src = /^https?:\/\/([^\/]+\.)?krxd\.net(:\d{1,5})?\//i.test(src) ? src : src === "disable" ? "" : (location.protocol==="https:"?"https:":"http:")+"//cdn.krxd.net/controltag?confid=ILWkRCxy";
+            var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+        }());
+    </script>
+
+    
+    <script src="//platform.linkedin.com/in.js"></script>
+
+    
+    <!-- TODO: additional header content go here -->
+</head>
+
+
+<body>
+
+<div class="wrapper">
+
+  
+  
+
+
+
+
+
+
+<header id="global-header" class="float-clear">
+
+  <div class="masthead float-clear">
+    <div class="date-time">
+      <div id="globalDate">Saturday, November 23, 2013</div>
+      <div id="globalTime">4:26 PM EST</div>
+      <ul class="social-links float-clear">
+        <li class="facebook"><a href="http://www.facebook.com/torontostar" target="_blank">Facebook</a></li>
+        <li class="twitter"><a href="http://www.thestar.com/about/twitter.html">Twitter</a></li>
+        <li class="rss"><a href="http://www.thestar.com/about/rssfeeds.html">RSS</a></li>
+      </ul>
+    </div>
+
+    <div class="logo homepage">
+
+      
+          <h1><a href="http://www.thestar.com/">thestar.com</a></h1>
+      
+
+      
+
+    </div>
+
+    <div class="mystar">
+
+      
+
+      <form class="search float-clear" action="http://www.thestar.com/search.html">
+        <div class="float-clear">
+          <input class="search-input-text" name="q" type="text" placeholder="Search The Star" />
+          <input class="search-input-submit" type="submit" />
+        </div>
+        <div class="archives float-clear"><a href="http://pqasb.pqarchiver.com/thestar/search.html">Search the archives</a></div>
+      </form>
+
+    </div>
+  </div>
+
+</header>
+
+
+
+
+  <div id="global-content" class="float-clear">
+    <div class="section-body float-clear">
+      
+
+
+
+
+	<div class="error-404">
+
+		<h2>Sorry, the page you were looking for is not available.</h2>
+		<p>The page may have moved or expired from our site. If you were trying to access a bookmarked page, please consult the sitemap and update your links. If you are having trouble finding what you are looking for please email us at <a href="mailto:webmaster@thestar.ca">webmaster@thestar.ca</a>.</p>
+					
+		
+			<div class="row float-clear">
+				
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/news.html">News</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/news/gta.html">GTA</a></li>
+								
+									<li><a href="http://www.thestar.com/news/queenspark.html">Queen's Park</a></li>
+								
+									<li><a href="http://www.thestar.com/news/canada.html">Canada</a></li>
+								
+									<li><a href="http://www.thestar.com/news/world.html">World</a></li>
+								
+									<li><a href="http://www.thestar.com/news/investigations.html">Investigations</a></li>
+								
+									<li><a href="http://www.thestar.com/news/crime.html">Crime</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/yourtoronto.html">Your Toronto</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/yourtoronto/education.html">Schools</a></li>
+								
+									<li><a href="http://www.thestar.com/yourtoronto/the_fixer.html">The Fixer</a></li>
+								
+									<li><a href="http://www.thestar.com/yourtoronto/reviews.html">Reviews</a></li>
+								
+									<li><a href="http://www.thestar.com/yourtoronto/traffic.html">Traffic</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/opinion.html">Opinion</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/opinion/editorials.html">Editorials</a></li>
+								
+									<li><a href="http://www.thestar.com/opinion/commentary.html">Commentary</a></li>
+								
+									<li><a href="http://www.thestar.com/opinion/letters_to_the_editors.html">Readers' Letters</a></li>
+								
+									<li><a href="http://www.thestar.com/opinion/public_editor.html">Public Editor</a></li>
+								
+									<li><a href="http://www.thestar.com/opinion/corrections.html">Corrections</a></li>
+								
+									<li><a href="http://www.thestar.com/opinion/editorial_cartoon.html">Editorial Cartoon</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/sports.html">Sports</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/sports/sochi2014.html">Sochi 2014</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/hockey.html">Hockey</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/baseball.html">Baseball</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/basketball.html">Basketball</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/football.html">Football</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/soccer.html">Soccer</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/amateur.html">Amateur</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/tennis.html">Tennis</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/golf.html">Golf</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/skating.html">Figure Skating</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/curling.html">Curling</a></li>
+								
+									<li><a href="http://www.thestar.com/sports/lacrosse.html">Lacrosse</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/business.html">Business</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/business/economy.html">Economy</a></li>
+								
+									<li><a href="http://www.thestar.com/business/personal_finance.html">Personal Finance</a></li>
+								
+									<li><a href="http://www.thestar.com/business/tech_news.html">Tech News</a></li>
+								
+									<li><a href="http://www.thestar.com/business/real_estate.html">Real Estate</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/entertainment.html">Entertainment</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/entertainment/television.html">Television</a></li>
+								
+									<li><a href="http://www.thestar.com/entertainment/movies.html">Movies</a></li>
+								
+									<li><a href="http://www.thestar.com/entertainment/stage.html">Stage</a></li>
+								
+									<li><a href="http://www.thestar.com/entertainment/music.html">Music</a></li>
+								
+									<li><a href="http://www.thestar.com/entertainment/books.html">Books</a></li>
+								
+									<li><a href="http://www.thestar.com/entertainment/visualarts.html">Visual Arts</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+			</div>
+		
+			<div class="row float-clear">
+				
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/life.html">Life</a></h3>
+						
+						
+							<ul>
+								
+									<li><a href="http://www.thestar.com/life/technology.html">Technology</a></li>
+								
+									<li><a href="http://www.thestar.com/life/food_wine.html">Food & Wine</a></li>
+								
+									<li><a href="http://www.thestar.com/life/travel.html">Travel</a></li>
+								
+									<li><a href="http://www.thestar.com/life/fashion_style.html">Fashion & Style</a></li>
+								
+									<li><a href="http://www.thestar.com/life/homes.html">Homes</a></li>
+								
+									<li><a href="http://www.thestar.com/life/health_wellness.html">Health & Wellness</a></li>
+								
+									<li><a href="http://www.thestar.com/life/parent.html">Parent</a></li>
+								
+							</ul>
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/photos.html">Photos</a></h3>
+						
+						
+
+						
+
+					</div>
+					
+					<div class="column">
+						
+						<h3><a href="http://www.thestar.com/diversions.html">Diversions</a></h3>
+						
+						
+
+						
+
+					</div>
+					
+			</div>
+		
+
+</div>
+    </div>
+  </div>
+
+  
+  
+
+
+
+
+
+
+
+
+<footer>
+
+  
+  
+  
+
+
+  
+  
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+<div class="global-footer">
+	<nav class="float-clear">
+
+  <div>
+    <strong class="heading">thestar.com</strong>
+    <ul>
+    
+    <li><a href="http://www.thestar.com/news.html">News</a></li>
+    
+    <li><a href="http://www.thestar.com/yourtoronto.html">Your Toronto</a></li>
+    
+    <li><a href="http://www.thestar.com/opinion.html">Opinion</a></li>
+    
+    <li><a href="http://www.thestar.com/sports.html">Sports</a></li>
+    
+    <li><a href="http://www.thestar.com/business.html">Business</a></li>
+    
+    <li><a href="http://www.thestar.com/entertainment.html">Entertainment</a></li>
+    
+    <li><a href="http://www.thestar.com/life.html">Life</a></li>
+    
+    <li><a href="http://www.thestar.com/diversions.html">Diversions</a></li>
+    
+    <li><a href="http://star.torontostarclassifieds.com/classifieds">Classifieds</a></li>
+    
+    <li><a href="http://www.thestar.com/about/sitemap.html">Site Map</a></li>
+    
+    </ul>
+  </div>
+
+  <hr />
+
+  <div>
+    <strong class="heading">&nbsp;</strong>
+    <ul>
+    
+    <li><a href="http://wheels.ca">Wheels.ca</a></li>
+    
+    <li><a href="http://www.insurancehotline.com">Insurance Hotline</a></li>
+    
+    <li><a href="http://www.newinhomes.com">New in Homes</a></li>
+    
+    <li><a href="http://starstore.ca">Star Store</a></li>
+    
+    <li><a href="http://thestar.blogs.com/">Blogs</a></li>
+    
+    <li><a href="http://www.thestar.com/contests.html">Contests</a></li>
+    
+    <li><a href="http://www3.thestar.com/static/Third_Party/lotto/on_lottery.html">Lottery Results</a></li>
+    
+    <li><a href="http://www.legacy.com/obituaries/thestar">Obituaries</a></li>
+    
+    <li><a href="http://www.thestar.com/opinion/corrections.html">Corrections</a></li>
+    
+    <li><a href="http://www.thestar.com/opinion/public_editor.html">Public Editor</a></li>
+    
+    <li><a href="http://www.thestar.com/about/privacy.html#btarget">Behavioural Targeting</a></li>
+    
+    <li><a href="http://www.thestar.com/todaysnews.html">Today's News</a></li>
+    
+    </ul>
+  </div>
+
+  <hr />
+
+  <div>
+    <strong class="heading">Toronto Star Newspapers Ltd.</strong>
+    <ul>
+    
+    <li><a href="http://www.thestar.com/about/aboutus.html">About</a></li>
+    
+    <li><a href="http://www.thestar.com/about/atkinson.html">Atkinson Principles</a></li>
+    
+    <li><a href="http://www.thestar.com/about/statementofprinciples.html">Statement of Principles</a></li>
+    
+    <li><a href="http://www.thestar.com/about/subscribe.html">Get Home Delivery</a></li>
+    
+    <li><a href="https://www.syncaccess.net/po/tstar/account/availablesubscriptions?planFilter=15;16&op=subscribe">Get Digital Access</a></li>
+    
+    <li><a href="http://www.thestar.com/about/mysubscription.html">My Subscription</a></li>
+    
+    <li><a href="http://www.thestar.com/about/contactus.html">Contact Us</a></li>
+    
+    <li><a href="http://www.thestar.com/about/contactwebmaster.html">Contact Webmaster</a></li>
+    
+    <li><a href="http://www.thestar.com/about/faq.html">FAQ</a></li>
+    
+    <li><a href="http://www.thestar.com/about/newsreleases.html">News Releases</a></li>
+    
+    <li><a href="http://www.thestar.com/about/starinternships.html">Star Internships</a></li>
+    
+    <li><a href="http://ebo.workopolis.com/careers/TORONTO-STAR">Careers @ the Star</a></li>
+    
+    </ul>
+  </div>
+
+  <hr />
+
+  <div>
+    <strong class="heading">Advertise with us</strong>
+    <ul>
+    
+    <li><a href="http://www.thestar.com/about/termsandconditions.html">Advertising Terms</a></li>
+    
+    <li><a href="http://mediakit.thestar.ca">Mediakit</a></li>
+    
+    <li><a href="http://mediakit.thestar.ca/index42368.htm">Online Advertising</a></li>
+    
+    <li><a href="http://mediakit.thestar.ca/index47285.htm">Print Advertising</a></li>
+    
+    <li><a href="http://mediakit.thestar.ca/details25624.htm">Special Sections</a></li>
+    
+    <li><a href="http://www.thestar.com/sponsored_sections.html">Sponsored Sections</a></li>
+    
+    </ul>
+  </div>
+
+  <hr />
+
+  <div>
+    <strong class="heading">Initiatives</strong>
+    <ul>
+    
+    <li><a href="http://www.thestar.com/initiatives/santa_claus_fund.html">Santa Claus Fund</a></li>
+    
+    <li><a href="http://www.thestar.com/initiatives/fresh_air_fund.html">Fresh Air Fund</a></li>
+    
+    <li><a href="http://www.thestar.com/initiatives/speakersbureau.html">Speakers Bureau</a></li>
+    
+    <li><a href="http://www.classroomconnection.ca">Classroom Connection</a></li>
+    
+    <li><a href="http://pagesofthepast.ca">Pages of the Past</a></li>
+    
+    </ul>
+  </div>
+
+  <hr />
+
+  <div class="last">
+    <strong class="heading">Connect with Us</strong>
+    <ul>
+    
+    <li><a href="http://www.thestar.com/about/rssfeeds.html">RSS feeds</a></li>
+    
+    <li><a href="http://www.thestar.com/about/twitter.html">Twitter Updates</a></li>
+    
+    <li><a href="http://www.thestar.com/about/newsalerts.html">News Alerts</a></li>
+    
+    <li><a href="http://www3.thestar.com/static/newsletter/email_registration.html">Newsletters</a></li>
+    
+    <li><a href="http://www.thestar.com/getmobile.html">Mobile Devices</a></li>
+    
+    </ul>
+  </div>
+
+	</nav>
+</div>
+
+ 
+  
+  <div class="copyright">
+    <p>&copy; Copyright Toronto Star Newspapers Ltd. 1996-2013</p>
+    <ul class="legal">
+      <li><a href="http://www.thestar.com/about/terms.html">Terms and Conditions</a></li>
+      <li class="last"><a href="http://www.thestar.com/about/privacy.html">Privacy Policy</a></li>
+    </ul>
+    </div>
+  </div>
+
+</footer>
+
+
+
+<div id="mystar">
+  <div id="sidebar" data-mystarurl="http://www.thestar.com/mystar"></div>
+  <div id="modal">
+    <span class="close">Close</span>
+    <span class="triangle"></span>
+  </div>
+</div>
+
+
+
+
+
+
+  
+  
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/etc/designs/thestar/mainlib.js"></script>
+
+<script>
+    document.cookie="s_tagEnv=; path=/";
+</script>
+<!-- <script src="/etc/designs/sitecatalyst/s_code.js"></script> -->
+<script src="/etc/designs/sitecatalyst/atm_code.js"></script>
+<script>
+  s.pageName = '';
+  s.prop4 = '';
+  s.prop7 = '';
+  s.prop8 = '';
+  s.prop9 = '';
+  s.prop10 = '';
+  s.prop11 = '';
+  s.prop12 = '';
+  s.prop15 = '';
+  s.prop17 = '';
+  s.prop18 = '';
+  s.prop43 = '404 Not Found';
+  s.pageType = 'errorPage';
+</script>
+
+<script>
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code = s.t(); if (s_code) document.write(s_code)
+if (navigator.appVersion.indexOf('MSIE') >= 0) document.write(unescape('%3C') + '\!-' + '-')
+</script>
+<noscript><a href="http://www.omniture.com" title="Web Analytics"><img src="http://n.thestar.com/b/ss/thestartsprod/1/H.20.3--NS/0" height="1" width="1" border="0" alt="Web Analytics Image"/></a></noscript>
+<!--/DO NOT REMOVE/-->
+
+
+</body>
+</html>
+

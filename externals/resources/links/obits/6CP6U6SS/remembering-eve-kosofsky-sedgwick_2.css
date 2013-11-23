@@ -1,0 +1,16 @@
+
+/* ::::: http://ct1.addthis.com/static/r07/tweet027.css ::::: */
+
+html, body { background: none repeat scroll 0% 0% transparent; margin: 0px; padding: 0px; overflow: hidden; }
+.addthis_tweet { width: 110px; height: 20px; font-family: arial,helvetica,sans-serif; font-weight: bold; overflow: hidden; }
+.addthis_tweet a { display: block; background: url('tweet02.png') no-repeat scroll 0% 0% transparent; height: 20px; line-height: 20px; text-decoration: none; text-align: left; outline: medium none; font-size: 11px; color: rgb(42, 112, 144); float: left; }
+.addthis_tweet a:hover { color: rgb(51, 51, 51); text-decoration: underline; }
+.addthis_tweet .at_tb { background-position: 0px 0px; width: 56px; text-indent: -9999px; }
+.addthis_tweet .at_tb:hover { background-position: 0px -21px; }
+.addthis_tweet .at_tbc { background: url('tweet02.png') no-repeat scroll 0px -103px transparent; padding: 0px 0px 0px 7px; margin: 0px 0px 0px 3px; }
+.addthis_tweet .at_tbc span { display: block; background: url('tweet02.png') no-repeat scroll right -103px transparent; margin: 0px -1px 0px 0px; padding: 0px 4px 0px 0px; text-align: center; min-width: 10px; cursor: pointer; font-weight: normal; color: rgb(51, 51, 51); }
+.addthis_tweet .at_tbc:hover span { background-position: right -103px; color: rgb(51, 51, 51); text-decoration: underline; }
+.addthis_tweet.addthis_tweet_vertical { width: 56px; height: 62px; }
+.addthis_tweet.addthis_tweet_vertical .at_tbc { background: url('tweet02.png') no-repeat scroll 0px -63px transparent; width: 56px; height: 36px; margin: 0px 0px 2px; padding: 0px 0px 4px; line-height: 36px; font-size: 16px; text-align: center; }
+.addthis_tweet.addthis_tweet_vertical .at_tbc span { background: none repeat scroll 0% 0% transparent; padding: 0px; margin: 0px; }
+.addthis_tweet.addthis_tweet_vertical .at_tbc:hover span { background: none repeat scroll 0% 0% transparent; color: rgb(51, 51, 51); }

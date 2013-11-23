@@ -1,0 +1,29 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CRRABSBeRUpnmLqvV0AGuxYCoB9bTppUElo_xvn3AjbcBEAEg-qeJBlCr6s3RBWDJxqmLwKTYD6ABquuj4gPIAQGoAwGqBKoBT9D7xEbJw-fHr78JEUYUQ7FhJBJoMtl4t-aYEYRlLMfB0V12hXUiMxSvcBYzSY8w985txKWdAThOtelnv98x3HmCMGHdjGAwp22AyvTYAansea5zl4jI9k7AGUNFzYwSC_iLJmQIjU0MuL8k5NLMVZvEKXzASCjXSLpb1xuGTzLrbarSk9NoNIqQ9-OhzTpmLWQCft-3a17LNJjl0HEZZ1TijXZjXYT4xHyAB76U3B0&amp;num=1&amp;sig=AOD64_3UhyQN5ZihTQI13MfaHgV4XIrYWw&amp;client=ca-nytimes_blogs&amp;adurl=http://www.TheCreditSolutionProgram.com/3g/%3Futm_source%3Dgoogle%26utm_medium%3Dppc%26utm_campaign%3Dtopic_text_desktop%26creative%3D33608711838%26device%3Dc%26devicemodel%3D%26placement%3Dartsbeat.blogs.nytimes.com%26keyword%3D%26matchtype%3D%26network%3Dd%26utm_content%3Dtext_man_cheats%26utm_term%3D1_People_and_Society"; 
+google_ad.visible_url = "www.thecreditsolutionprogram.com"; 
+google_ad.line1 = "Man Cheats Credit Score"; 
+google_ad.line2 = "1 simple trick \x26amp; my credit score"; 
+google_ad.line3 = "jumped 217 pts. Banks hate this!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://artsbeat.blogs.nytimes.com/2009/04/15/remembering-eve-kosofsky-sedgwick/%26gl%3DUS%26hl%3Den%26client%3Dca-nytimes_blogs%26hideleadgen%3D1%26ai0%3DCRRABSBeRUpnmLqvV0AGuxYCoB9bTppUElo_xvn3AjbcBEAEg-qeJBlCr6s3RBWDJxqmLwKTYD6ABquuj4gPIAQGoAwGqBKoBT9D7xEbJw-fHr78JEUYUQ7FhJBJoMtl4t-aYEYRlLMfB0V12hXUiMxSvcBYzSY8w985txKWdAThOtelnv98x3HmCMGHdjGAwp22AyvTYAansea5zl4jI9k7AGUNFzYwSC_iLJmQIjU0MuL8k5NLMVZvEKXzASCjXSLpb1xuGTzLrbarSk9NoNIqQ9-OhzTpmLWQCft-3a17LNJjl0HEZZ1TijXZjXYT4xHyAB76U3B0\x26usg\x3dAFQjCNFyO-e0tdzOOXw4WyEwmqnZJAbYAA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

@@ -1,0 +1,724 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Update in Progress : The New Yorker</title>
+<meta name="ROBOTS" content="NOARCHIVE" /> <link rel="stylesheet" type="text/css" media="screen" href="/css/lib-min.css" /> <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <meta http-equiv="Content-Language" content="en-us" /> <meta name="distribution" content="Global" /> <meta name="MSSmartTagsPreventParsing" content="true" /> <meta http-equiv="imagetoolbar" content="false" /> <meta name="Copyright" content="Copyright (c) Cond&#233;Net 2010" /> <meta name="description" content="Online version of the weekly magazine, with current articles, cartoons, blogs, audio, video, slide shows, an archive of articles and abstracts back to 1925" /> <meta name="keywords" content="The New Yorker, magazine, subscription" /> <meta name="Author" content='The New Yorker' />
+<link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="The New Yorker" href="http://www.newyorker.com/services/rss/feeds/everything.xml" /> <link rel="stylesheet" type="text/css" media="screen" href="/css/lib-min.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/features.css" />
+    <script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAAonqrKszikW5QtFiH4-iCyRT0-5yCnJDs6iqFkVKBoRnE1chVBBRKDMtdGJ58G93312zca-4xbiLVGQ"></script>
+    <script type="text/javascript" src="/js/newyorker_global.js"></script>
+    <script type="text/javascript">
+    // <!--
+        // If reg confirmation is enabled, let the javascript know
+        CN.reg.confirmedReg = {
+            confirmedRegistrationEnabled: false,
+            emailUpdateConfirmationEnabled: false,
+            profileUpdateConfirmationEnabled: false,
+            allowFirstSessionAccess: false
+        };
+    // -->
+    </script>
+    <script>
+
+    var _ghearst_vars = (function() {
+    var metaKeyWords = (function(){
+    var metaKeywordContent='';
+    metaCollection = document.getElementsByTagName('meta');
+    for (i=0;i<metaCollection.length;i++) {
+        nameAttribute = metaCollection[i].name.search(/keywords/);
+        if (nameAttribute!= -1) {
+            metaKeywordContent = metaCollection[i].content;
+            metaKeywordContent = metaKeywordContent.replace(/,/g,'%2C'); // to replace ,
+            metaKeywordContent = metaKeywordContent.replace(/ /g,''); // to replace space
+        }
+    }
+    return metaKeywordContent;
+    })();
+    return {
+    'ams_ads_script_src': 'http://subscribe.newyorker.com/ams/page-ads.js?ad_category_prefix=&browser_path=&cat_prefixes=&keywords='+metaKeyWords+'&position_list=AMS_NYR_GLOBAL_HEADER%2CAMS_NYR_GLOBAL_EMBEDDEDFORM%2CAMS_NYR_GLOBAL_RIGHTRAIL_A%2CAMS_NYR_GLOBAL_RIGHTRAIL_B%2CAMS_NYR_GLOBAL_NAVBAR%2CAMS_NYR_CONTENTPAGE_TEXTOFFER%2CAMS_NYR_CONTACTUS_SUBSCRIBELINK%2CAMS_NYR_CONTACTUS_GIFTLINK%2CAMS_NYR_CONTACTUS_SUBSCRIBEQUESTIONS%2CAMS_NYR_MAGSUBHOME_MASTHEAD%2CAMS_NYR_MAGSUBHOME_SUBSCRIBELINK%2CAMS_NYR_MAGSUBHOME_GIFTLINK%2CAMS_NYR_MAGSUBHOME_SUBSCRIBELINK_NONUS%2CAMS_NYR_MAGSUBHOME_GIFTLINK_NONUS%2CAMS_NYR_MAGSUBHOME_CUSTOMERCARE%2CAMS_NYR_REGFORM_REGCOPY%2CAMS_NYR_REGFORM_RIGHTRAIL_A%2CAMS_NYR_REGFORM_RIGHTRAIL_B%2CAMS_NYR_REGFORM_RIGHTRAIL_C%2CAMS_NYR_GLOBAL_HEADERCALLOUT&site_prefix=condenast&subdomain=www&url_name='
+    };
+    })();
+
+    </script>
+    <script type="text/javascript" src="/js/cn-fe-ecom/promotheus/promotheus.js"></script>
+
+    <script type="text/javascript">
+        CN.site.init({
+            env             : 'PROD',
+            code            : 'NYR',
+            title           : 'The New Yorker',
+            name            : 'newyorker',
+            tld             : 'newyorker.com',
+            eventServer     : 'http://event.newyorker.com/',
+            eventTrackingUrl: 'http://result.newyorker.com',
+            eventTrackingEnv: 'PROD',
+            mobilecompatible: true
+        });
+        CN.config.set({
+            adTopic         : false,
+            topicOverride   : ''
+        });
+
+    </script>
+    <script type="text/javascript" src="/js/ecomfw.min.js"></script>
+    <script type="text/javascript">
+    jQuery.noConflict();
+    </script>
+    <script type="text/javascript" src="http://event.newyorker.com/js/eventTracker.js"></script>
+    <script type="text/javascript" src="/dwr/interface/feedparser.js"></script>
+    <script type="text/javascript" src="/dwr/engine.js"></script>
+    <script type="text/javascript" src="/dwr/util.js"></script>
+    <script type="text/javascript" src="/js/newyorker_top.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/error_search.css" />
+
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" media="Screen" href="/css/IE6.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="Screen" href="/css/IE7.css" />
+    <![endif]-->
+    <!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" media="Screen" href="/css/IE8.css" />
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" media="Print" href="/css/print.css" />
+    <script type="text/javascript" src="http://fonts.newyorker.com/bol0csl.js"></script>
+    <script type="text/javascript">
+    // Initialize CN.foundry with Typekit loader.
+    CN.foundry.init(Typekit || {});
+    </script>
+
+</head>
+<body class="s_qatest">
+
+<!-- Floating Ad Template -->
+<div id="floatingAd" style="display:none;">
+    <div id="floatingAd_header">
+        <a href="#">Close</a>
+    </div>
+</div>
+
+
+<!-- Rollover Ad Template for instance rolloverAd--> <div id="rolloverAd" class="rolloverAd" style="display:none;">
+    <div id="rolloverAd_header" class="rolloverAd_header">
+        <a href="#">Close</a>
+    </div>
+    <div id="rolloverAd_content" class="rolloverAd_content">
+
+        <div id="global_navBar_rollover">
+            <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank"><img border="0" src="/images/ecom/failsafe/NYR_300x250.gif" alt="Subscribe to The New Yorker" /></a>
+
+            <form name="layerForm" style="visibility:hidden;">
+                <span id="layerForm_submit" class="submitButton">&nbsp;</span>
+            </form>
+        </div>
+    </div>
+    <div id="rolloverAd_footer" class="rolloverAd_footer"></div> </div>
+    <div id="wrapper">
+
+            <div id="topBannerAd">
+        <div id="header728x90_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+
+        CN.dart.call('header', {sz:'728x90', kws:["top"]});
+    //-->
+    </script>
+
+            </div>
+
+<div id="header">
+    <div id="logo">
+        <a href="/" title="Go to The New Yorker homepage"><img src="/images/elements/print/newyorker_printlogo.gif" alt="The New Yorker" /></a>
+    </div>
+
+    <h5 class="alt"><a href="#content" title="Skip to content">Skip to content</a></h5>
+
+
+    <div id="header-subs" class="" >
+
+
+        <div id="AMS_NYR_GLOBAL_HEADERCALLOUT" class="headerCallout">
+            <a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank"><img src="/images/ecom/failsafe/NYR_header_callout.png" alt="Subscribe to New Yorker" /></a>
+        <script type="text/javascript">
+              if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_HEADERCALLOUT != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+                    var div = document.getElementById("AMS_NYR_GLOBAL_HEADERCALLOUT");
+                    div.innerHTML = "";
+                    document.write(pageAds.AMS_NYR_GLOBAL_HEADERCALLOUT);
+                }
+                else { // If NO response from HEARST
+                    //var failSafeArea = "${failsafeDiv}"; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+                }
+        </script>
+        </div>
+
+        <div id="AMS_NYR_GLOBAL_HEADER">
+            <h3 id="hdrsubs"><a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" rel="nofollow" title="Subscribe to The New Yorker">Subscribe to The New Yorker</a></h3>
+            <img src="/images/ecom/failsafe/NYR_global_header.gif" width="110" height="90" border="0" usemap="#global-header-map" />
+
+            <map name="global-header-map" id="global-header-map">
+                <area shape="rect" coords="0,1,109,15" alt="Subscribe to The New Yorker" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafe" />
+                <area shape="rect" coords="0,16,109,30" alt="Renew your Subscription to The New Yorker magazine" rel="nofollow" target="_blank" href="https://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR" />
+                <area shape="rect" coords="0,31,109,45" alt="Give a Subscription to The New Yorker as a Gift" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafeGift" />
+                <area shape="rect" coords="0,46,109,71" alt="Subscribe to The New Yorker outside the USA" rel="nofollow" target="_blank" href="https://w1.buysub.com/loc/NYR/ATGFailsafeInt" />
+                <area shape="rect" coords="0,72,109,86" alt="The New Yorker Digital Edition" target="_blank" rel="nofollow" href="http://newyorker.com/go/digitaledition" />
+           </map>
+
+        <script type="text/javascript">
+              if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_HEADER != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+                    var div = document.getElementById("AMS_NYR_GLOBAL_HEADER");
+                    div.innerHTML = "";
+                    document.write(pageAds.AMS_NYR_GLOBAL_HEADER);
+                }
+                else { // If NO response from HEARST
+                    //var failSafeArea = "${failsafeDiv}"; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+                }
+        </script>
+        </div>
+
+    </div>
+</div>
+        <div id="global-nav">
+            <ul id="global-nav-menu">
+                <li id="nav-subscribe">
+        <div id="AMS_NYR_GLOBAL_NAVBAR" title="Subscribe to The New Yorker magazine"><a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" id="header-subs-a" target="_blank" rel="nofollow" title="Subscribe to The New Yorker"><span>Subscribe</span></a>
+                <script type="text/javascript">
+                    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_NAVBAR != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+                          var div = document.getElementById("AMS_NYR_GLOBAL_NAVBAR");
+                          div.innerHTML = "";
+                          document.write(pageAds.AMS_NYR_GLOBAL_NAVBAR);
+                      }
+                      else { // If NO response from HEARST
+                          //var failSafeArea = "${failsafeDiv}"; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+                      }
+                </script>
+        </div>
+
+                </li>
+                <li id="nav-home"><a title="home" href="/" title="">home</a></li>
+                                <li id="nav-magazine"><a title="New Yorker magazine articles" href="/magazine" title="">New Yorker magazine articles</a></li>
+                                <li id="nav-blogs"><a title="Blogs" href="/online/blogs" title="">Blogs</a></li>
+                                <li id="nav-video"><a title="Audio & Video" href="/online" title="">Audio & Video</a></li>
+                                <li id="nav-listings"><a title="Reviews of New York events: Goings on About Town " href="/arts/events" title="">Reviews of New York events: Goings on About Town </a></li>
+
+                                <li id="nav-cartoons"><a title="New Yorker Cartoons" href="/humor" title="">New Yorker Cartoons</a></li>
+                                <li id="nav-topics"><a title="New Yorker Topics" href="/topics" title="">New Yorker Topics</a></li>
+                                <li id="nav-archive"><a title="Complete New Yorker Archives and Digital Edition" href="/archive" title="">Complete New Yorker Archives and Digital Edition</a></li>
+                                <li id="nav-Arts"><a title="Arts" href="/arts" title="">Arts</a></li>
+            </ul>
+            <hr />
+
+        </div>
+        <div id="page" class="p">
+            <div id="content" class="pc">
+    <ul id='bc' title='Navigation Trail'>
+        <li class='first'>
+            <a href="/">The New Yorker</a>
+        </li>
+    </ul>
+        <div id="main">
+            <div class="errors">
+        <div id="errors">
+<h2>UPDATE IN PROGRESS</h2>
+<p>
+We are currently performing maintenance tasks to improve the site, and thank you for your patience. We apologize for any inconvenience.
+</p>
+<p>
+Please try again shortly.
+</p>
+
+        </div>
+
+            </div>
+
+        </div>
+
+</div>
+
+
+
+            <!-- start yrail -->
+
+
+                    <div id="yrail" class="py">
+
+
+                        <div class="yrcomponent yrail-search">
+
+        <form name="search_form_rail" id="search_form_rail" action="/search" class="paginatorForm" method="get">
+            <div class="row">
+                <input type="hidden" name="qt" value="dismax" />
+                <input type="hidden" name="sort" value="score desc" />
+                <input type="text" name="query" id="results-search-rail" value="Search newyorker.com" />
+
+                <button name="submit" class="submit" id="submit_rail" title="Search" type="submit">Go</button>
+            </div>
+        </form>
+
+                        </div>
+
+                        <script type="text/javascript">
+    //<!--
+    function isLoggedIn() {
+        var cookie_name="amg_user";
+        var nameEQ = cookie_name + "=";
+        var ca = document.cookie.split(';');
+        for (var i=0; i<ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return true;
+        }
+        return false;
+    }
+
+    function getCookie(cname){
+        var C = document.cookie.split(';'), c;
+        while(c = C.pop()) {
+            c = c.replace(/^\s*/, '');
+            if (c.indexOf(cname+'=') == 0){
+                return c.substring(cname.length + 1, c.length);
+            }
+        }
+        return false;
+    }
+
+    function username(charLimit){
+        var aur = getCookie('amg_user_record');
+        var username = aur ? aur.replace(/.*username=([^|]+).*/,"$1") : false;
+
+        // check length.
+        var nameLen = username.length;
+        if (nameLen > charLimit) {
+          return username.substring(0, length+22) + "&#8230;";
+        }
+
+        return username;
+    }
+
+    function contestname(){
+        var pathObj = window.location.pathname.toString().split("/");
+        for (var i = 0; i < pathObj.length; i++){
+          if ( pathObj[i] == 'photocontests'){
+              var contestname = pathObj[i+1];
+          }
+        }
+        return contestname;
+    }
+    //-->
+</script>
+
+<div id="loginbx">
+    <div id="login">
+
+        <script type="text/javascript">
+            //<!--
+            var splitreg = "";
+            if (window.location.pathname.match(/\/photocontests/) != null){
+                splitreg="/photocontests/"+contestname();
+            }
+            if (isLoggedIn()) {
+                document.write('<span id="ui">'+ username(23) + ' <span id="opts"><a href="/user'+ splitreg +'/logout" class="first">Logout<\/a> &#124; <a href="/magazine'+ splitreg +'/registration?intcid=registration_help">Help<\/a> &#124; <a href="/user'+ splitreg +'/update">Profile<\/a><\/span><\/span>');
+            } else {
+                if(window.location.pathname.match(/\/magazine\/registration/) == null){
+                    document.write('<span id="ui" class="welcome">Welcome <span id="opts"><a href="/user'+ splitreg +'/login" class="first">Log in<\/a> &#124; <a href="/magazine'+ splitreg +'/registration?intcid=registration_help">Help<\/a> &#124; <a href="/user'+ splitreg +'/registration">Register<\/a><\/span><\/span>');
+                } else {
+                    document.write('<span id="ui" class="welcome">Welcome <span id="opts"><a href="/user'+ splitreg +'/login" class="first">Log in<\/a> &#124; <a href="/user'+ splitreg +'/registration">Register<\/a><\/span><\/span>');
+                }
+            }
+            //-->
+        </script>
+    </div>
+</div>
+
+
+                            <!-- FEATURES POSTION 1 -->
+                            <div id="position1_yrail"><div id="ps1_fs1_yrail" class="features tabs"><div class="feature-tabs"><h2 class="tab" id="ps1_fs1_features-tab-3">This Issue</h2>
+            <div class="tab-content">
+
+        </div><h2 class="tab" id="ps1_fs1_features-tab-4">Cartoons</h2>
+
+            <div class="tab-content">
+
+        </div>
+        </div></div><div id="ps1_fs2_yrail" class="features set13"><div class="feature manual first">
+
+
+        <h3 class="header">
+
+                <a href="http://www.google.com">In the Magazine</a>
+
+        </h3>
+        <div class="blurb">
+
+                <div class="text"><a href="#">Table of Contents</a> | <a href="#">Digital Edition</a></div>
+
+        </div></div></div></div>
+
+                        <div class="yrail_ads">
+                            <div class="yrail_ad_wrap">
+
+
+        <div id="yrailTop300x250_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+
+        CN.dart.call('yrailTop', {sz:'300x250', kws:["top"]});
+    //-->
+    </script>
+
+                            </div>
+                        </div>
+
+
+                        <div class="yrcomponent">
+
+                            <div class="yrpromo">
+
+        <div id="AMS_NYR_GLOBAL_RIGHTRAIL_A"><a href="https://w1.buysub.com/loc/NYR/ATGFailsafe" target="_blank" rel="nofollow" title="Subscribe to The New Yorker"><img src="/images/ecom/failsafe/right_rail_A.gif" alt="Subscribe to The New Yorker" border="0" /></a>
+                <script type="text/javascript">
+                            if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_A != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+                                  var div = document.getElementById("AMS_NYR_GLOBAL_RIGHTRAIL_A");
+                                  div.innerHTML = "";
+                                  document.write(pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_A);
+                              }
+                              else { // If NO response from HEARST
+                                  //var failSafeArea = "${failsafeDiv}"; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+                              }
+                </script>
+
+        </div>
+
+                            </div>
+                        </div>
+
+                            <!-- FEATURES POSTION 2 -->
+                            <div id="position2_yrail"><div id="ps2_fs1_yrail" class="features tabs"><div class="feature-tabs">
+
+            <h2 class="tab" id="ps2_fs1_features-tab-1">Newsletters</h2>
+
+            <div class="tab-content">
+
+        </div><h2 class="tab" id="ps2_fs1_features-tab-2">Podcasts</h2>
+            <div class="tab-content">
+
+        </div><h2 class="tab" id="ps2_fs1_features-tab-3">RSS Feeds</h2>
+            <div class="tab-content">
+
+        </div>
+        </div></div><div id="ps2_fs2_yrail" class="features set17">
+
+        <h2 class="features-header header">
+
+                                <a href="http://www.google.com">Products & Promotions From The New Yorker</a>
+
+        </h2><div class="feature manual first">
+
+        <h3 class="header">
+
+                <a href="#">National Pastimes</a>
+
+        </h3>
+        <div class="blurb">
+
+
+                <div class="text">"The Only Game in Town: Sportswriting from The New Yorker." In stores now.</div>
+
+        </div></div><div class="feature manual even">
+
+        <h3 class="header">
+
+                <a href="#">National Pastimes</a>
+
+        </h3>
+        <div class="blurb">
+             <div class="text">"The Only Game in Town: Sportswriting from The New Yorker." In stores now.</div>
+
+        </div></div><div class="feature manual">
+        <h3 class="header">
+                <a href="#">National Pastimes</a>
+
+        </h3>
+        <div class="blurb">
+
+                <div class="text">"The Only Game in Town: Sportswriting from The New Yorker." In stores now.</div>
+
+        </div></div><div class="feature manual even">
+
+        <h3 class="header">
+
+                <a href="#">National Pastimes</a>
+
+        </h3>
+        <div class="blurb">
+
+                <div class="text">"The Only Game in Town: Sportswriting from The New Yorker." In stores now.</div>
+
+        </div></div><div class="feature manual last">
+
+
+        <h3 class="header">
+
+                <a href="#">National Pastimes</a>
+
+        </h3>
+        <div class="blurb">
+                <div class="text">"The Only Game in Town: Sportswriting from The New Yorker." In stores now.</div>
+        </div></div></div></div>
+
+                        <div class="yrail_ads">
+                            <div class="yrail_ad_wrap">
+
+        <div id="yrailMid300x250_frame" class="displayAd"></div>
+    <script type="text/javascript">
+    //<!--
+
+        CN.dart.call('yrailMid', {sz:'300x250', kws:["mid"]});
+    //-->
+    </script>
+
+                            </div>
+                        </div>
+
+                        <div class="yrcomponent">
+                            <div class="yrpromo">
+
+        <div id="AMS_NYR_GLOBAL_RIGHTRAIL_B">
+            <script type="text/javascript">
+                    if((typeof pageAds != 'undefined') && (typeof pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_B != 'undefined') && (CN.url.params('nojoy') !=1) ) {
+                          var div = document.getElementById("AMS_NYR_GLOBAL_RIGHTRAIL_B");
+                          div.innerHTML = "";
+                          document.write(pageAds.AMS_NYR_GLOBAL_RIGHTRAIL_B);
+                      }
+                      else { // If NO response from HEARST
+                          //var failSafeArea = "${failsafeDiv}"; var displayFailsafeDiv = document.getElementById(failSafeArea); displayFailsafeDiv.style.display = "block";
+                      }
+            </script>
+        </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+        <!-- end yrail -->
+
+
+        </div>
+
+<div id="footer">
+    <ul id="ft_1">
+    <li><a href="/magazine/aboutus/">About Us</a></li>
+    <li><a href="/contact/contactus">Contact Us</a></li>
+
+    <li><a href="/services/newsletters/demographics">Newsletters</a></li>
+    <li><a href="/go/blogs">Blogs</a></li>
+    <li><a href="/archive">Archive</a></li>
+    <li><a href="/services/presscenter">Press Center</a></li>
+    <li class="rss"><a href="/services/rss/summary" title="RSS Feeds">RSS Feeds</a></li> </ul>
+    <div id="global-footer">
+        <div class="global-footer-nav">
+
+            <ul>
+
+                        <li class="first" id="global-footer-nav-subservices"><a href="http://w1.buysub.com/servlet/CSGateway?cds_mag_code=NYR">Subscription Services</a></li>
+
+                <li id="global-footer-nav-careers"><a href="http://www.condenastcareers.com">Careers</a></li>
+                <li id="global-footer-nav-store"><a href="http://www.thenewyorkerstore.com">New Yorker Store</a></li>
+                <li id="global-footer-nav-reprints"><a href="mailto:permissions@condenast.com">Reprints/Permissions</a></li>
+                <li class="last" id="global-footer-nav-mediakit"><a href="http://www.condenastmediakit.com/nyr/">The New Yorker Media Kit</a></li>
+
+
+            </ul>
+        </div>
+        <div class="global-footer-columns-container">
+            <div class="global-footer-logo">
+                <h3>Cond&eacute; Nast Digital</h3>
+            </div>
+            <div class="global-footer-more-about-links">
+
+                <p>More news, politics, culture, business, and technology:</p> <ul>
+    <li><a href="http://www.architecturaldigest.com">Architectural Digest</a></li>
+    <li><a href="http://www.golfdigest.com">Golf Digest</a></li>
+    <li><a href="http://www.gq.com">GQ</a></li>
+    <li><a href="http://www.vanityfair.com">Vanity Fair</a></li>
+    <li><a href="http://www.wired.com">Wired</a></li>
+
+ </ul>
+            </div>
+            <div class="global-footer-subscriptions">
+                <form action="" name="sub_dropmenus" id="sub_dropmenus">
+                    <h3>Subscribe to a magazine:</h3>
+                    <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="sub_list" id="sub_list" size="1">
+                        <option selected="selected" value="">Subscribe to a magazine</option>
+                        <option value=""/>
+
+                        <option value="http://www.magazinestoresubscriptions.com?source=univdropdown">View All Titles</option>
+
+                        <option value="">- - - - - - - - - - - - - -</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Allure?source=SITEFOOTER">Allure</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_ArchitecturalDigest?source=SITEFOOTER">Architectural Digest</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_BonAppetite?source=SITEFOOTER">Bon App&eacute;tit</option>
+
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Brides?source=SITEFOOTER">Brides</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_CondeNastTraveler?source=SITEFOOTER">Cond&eacute; Nast Traveler</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Details?source=SITEFOOTER">Details</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Glamour?source=SITEFOOTER">Glamour</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfDigest?source=SITEFOOTER">Golf Digest</option>
+
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GolfWorld?source=SITEFOOTER">Golf World</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_GQ?source=SITEFOOTER">GQ</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Lucky?source=SITEFOOTER">Lucky</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Self?source=SITEFOOTER">Self</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_TeenVogue?source=SITEFOOTER">Teen Vogue</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_NewYorker?source=SITEFOOTER">The New Yorker</option>
+
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_VanityFair?source=SITEFOOTER">Vanity Fair</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Vogue?source=SITEFOOTER">Vogue</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_W?source=SITEFOOTER">W</option>
+                        <option value="https://www.magazinestoresubscriptions.com/webapp/wcs/stores/servlet/Subscriptions_Wired?source=SITEFOOTER">Wired</option>
+                    </select>
+                </form>
+            </div>
+
+            <div class="global-footer-sister-sites">
+                <form action="" name="mag_dropmenus" id="mag_dropmenus">
+                    <h3>Visit our sister sites:</h3>
+                    <select onchange="(this.options[this.selectedIndex].value) ? window.open(this.options[this.selectedIndex].value) : null" name="mag_list" id="mag_list">
+                        <option selected="selected" value="">Visit our sister sites</option>
+                        <option value="">- - - - - - - - - - - - - -</option>
+                        <option value="http://www.allure.com">Allure</option>
+
+                        <option value="http://www.architecturaldigest.com">Architectural Digest</option>
+                        <option value="http://www.arstechnica.com">Ars Technica</option>
+                        <option value="http://www.bonappetit.com">Bon App&eacute;tit</option>
+                        <option value="http://www.brides.com">Brides.com</option>
+                        <option value="http://www.concierge.com/cntraveler">Cond&eacute; Nast Traveler</option>
+
+                        <option value="http://www.concierge.com">Concierge</option>
+                        <option value="http://www.details.com">Details</option>
+                        <option value="http://www.epicurious.com">Epicurious</option>
+                        <option value="http://www.glamour.com">Glamour</option>
+                        <option value="http://www.golfdigest.com">Golf Digest</option>
+                        <option value="http://www.golfworld.com">Golf World</option>
+
+                        <option value="http://www.gq.com">GQ</option>
+                        <option value="http://www.hotelchatter.com">Hotel Chatter</option>
+                        <option value="http://www.jaunted.com">Jaunted</option>
+                        <option value="http://www.luckymag.com">Lucky</option>
+                        <option value="http://www.nutritiondata.com">NutritionData</option>
+                        <option value="http://www.reddit.com">Reddit</option>
+
+                        <option value="http://www.self.com">Self</option>
+                        <option value="http://www.style.com">Style</option>
+                        <option value="http://www.teenvogue.com">Teen Vogue</option>
+                        <option value="http://www.newyorker.com">The New Yorker</option>
+                        <option value="http://www.vanityfair.com">Vanity Fair</option>
+                        <option value="http://www.vegaschatter.com">Vegas Chatter</option>
+
+                        <option value="http://www.vogue.com">Vogue</option>
+                        <option value="http://www.wmagazine.com">W</option>
+                        <option value="http://www.wired.com">Wired</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <div class="global-footer-copyright">
+            <p>
+                Registration on or use of this site constitutes acceptance of our <a href="/services/useragreement" onclick="window.open(this.href);return false;">User Agreement</a> <span class="revision-date"> (Revised January 7, 2009)</span> and <a href="/services/privacypolicy" onclick="window.open(this.href);return false;">Privacy Policy</a> <span class="revision-date">(Revised January 7, 2009)</span>.  The New Yorker &copy; 2010
+ Cond&eacute; Nast Digital. All rights reserved.   The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Cond&eacute; Nast Digital.
+            </p>
+
+
+
+            <img src="http://view.atdmt.com/action/MSFT_CondeNet_AE_ExtData/v3/atc1.newyorker/atc2.qatest/" width="1" height="1" border="0" alt="msext" />
+
+
+        </div>
+    </div>
+</div>
+
+
+    </div>
+
+
+
+<script type="text/javascript" src="/appjs/stats/omniture.js"></script>
+
+
+
+
+
+
+
+<div id="statsHolder">
+    <script type="text/javascript">
+
+        CN.stats.omniture.setStatus(500);
+
+        CN.stats.omniture.doPageTracking(); // does init and also tracks
+
+    </script>
+    <script language="JavaScript" type="text/javascript"><!--
+    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+    //--></script><noscript><a href="http://www.omniture.com" title="Web Analytics"><img
+    src="http://condenast.112.2o7.net/b/ss/condenet-dev/1/H.15.1--NS/0"
+    height="1" width="1" border="0" alt="" /></a></noscript><!--/DO NOT REMOVE/--> </div> <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-8293713-14");
+        pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+
+
+
+
+        <script type="text/javascript">
+            (function(){
+            var ns= window.CN || window.CNP;
+            ns.page = ns.page || {};
+            ns.page.config = ns.page.config || {};
+            ns.page.config.defaultTab = 0;
+            }())
+            </script>
+
+            <script type="text/javascript">
+            (function(){
+            var ns= window.CN || window.CNP;
+            ns.page = ns.page || {};
+            ns.page.config = ns.page.config || {};
+            ns.page.config.defaultTab = 0;
+            }())
+            </script>
+        <script type="text/javascript">
+            CN.page = CN.page || {};
+            CN.page.feature = ['tabs','mostviewed','mostemailed','manual','set13','newsletters','set17'];
+        </script>
+            <script type="text/javascript" src="/js/newyorker_bottom.js"></script>
+
+    <!-- link back script for articles pages -->
+
+        <!-- link back script for articles pages -->
+        <script type="text/javascript">
+            var tyntVariables = {"ap":"Read more"};
+        </script>
+
+        <script type="text/javascript" src="http://tcr.tynt.com/javascripts/Tracer.js?user=cT9yCKGeer3PWlab7jrHtB&amp;s=62"></script>
+        <script type="text/javascript">
+            jQuery(function() {
+                if(s.pdvalue < 3){
+                    CN.stats.insight.doTracking(); //fires insight tag
+                }
+            });
+        </script>
+
+</body>
+</html>

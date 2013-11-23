@@ -1,0 +1,86 @@
+$(function() {
+
+	var cats = [
+	        ['economy',8],
+	['personal_finance',83],
+	['tech_news',1447],
+	['real_estate',71],
+	['television',65],
+	['movies',26],
+	['stage',63],
+	['music',62],
+	['stargazing',64],
+	['books',1446],
+	['technology',1447],
+	['food_wine',1448],
+	['travel',1449],
+	['fashion_style',1450],
+	['homes',25],
+	['health_wellness',24],
+	['parent',6],
+	['home',7],
+	['business',8],
+	['sports',9],
+	['entertainment',10],
+	['travel',11],
+	['news',7],
+	['search',7],
+	['yourtoronto',7]
+	]
+
+	var keyword = "";
+    	var url = document.location.href.toLowerCase();
+
+    	if (url.indexOf('starclassifieds.com/marketplace') > -1)
+        	keyword = 'starclassifieds';
+	else if (url.indexOf('obituaries/thestar') > -1)
+        	keyword = 'obituaries';
+	else
+	{
+		var pname = window.location.pathname.toLowerCase();
+
+		if (pname.substring(0, 1) == "/")
+			pname = pname.substring(1, pname.length);
+
+		if (pname.substring(pname.length - 1, pname.length) == "/")
+			pname = pname.substring(0, pname.length - 1);
+
+		var urlparts = pname.split("/");
+
+		if (pname == "")
+			keyword = "home";
+		else if (urlparts.length == 2 || urlparts.length == 1)
+			keyword = urlparts[urlparts.length-1];
+		else if (urlparts.length > 2)
+			keyword = urlparts[0];
+		else
+			keyword = "home";
+
+		if (keyword.length >= 5 && keyword.substring(keyword.length-5, keyword.length) == ".html")
+			keyword = keyword.substring(0, keyword.length-5);
+	}
+
+	if (keyword != "")
+	{
+		new Image().src = document.location.protocol + "//o2.eyereturn.com/?site=4166&page=" + encodeURIComponent(keyword.replace(/[^a-zA-Z\d\s]/g, '').replace(/\s/g, '_'));
+
+		var theUrl = document.location.protocol + "//dmap.eyereturn.com/eyereacto2call?site=4166&category=" + encodeURIComponent(keyword.replace(/'/g, '').replace(/,/g, ' ')).replace(/%E2%84%A2/g, '').replace(/%E2%80%99/,'')+"&jsoncallback=?";
+
+		$.getJSON(theUrl, function (data) {
+			if (data.tagid != "-1")
+			{
+				new Image().src = document.location.protocol + '//eyereact.eyereturn.com/tag.aspx?ID=' + data.tagid + '&p=1';
+			}
+		});
+
+		for (var i = 0; i < cats.length; i++)
+		{
+			if (keyword == cats[i][0])
+			{
+				jQuery.getScript(document.location.protocol + '//eyereact.eyereturn.com/tag.aspx?ID=' + cats[i][1]);
+				break;
+			}
+        	}	
+	}
+});
+

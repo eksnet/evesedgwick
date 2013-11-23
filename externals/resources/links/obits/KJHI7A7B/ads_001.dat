@@ -1,0 +1,29 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "site"; 
+google_ad.url = "http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CzEM-NhaRUqEM49fQAY-3gOAI0qT7ngTaqJvKFMzgupQFEAEgnPP4AVD5rLDyBmDJxqmLwKTYD6ABnPG9_wPIAQGoAwGqBIEBT9CbEVbDg-yiS_--xKBIF78bGgo7BM6pSPA8yjoKVWOoQdUvXQY20QcuoywbiOM2BBksfbJ5jgudSpaw99uCu2ycHw7Lk7VebclFZ4HCzcrvqHXxRqpRdP1IhQ3L8h6ICmhMHdvjO1upeHMoIW4XZc5bmXWOJDDWIs75ylnDP6xWgAfMjkI&amp;num=1&amp;sig=AOD64_2fVmvM7nTfHVmNtiVB_d3RwLWJVQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.iuniverse.com/LP02F01C037.aspx%3FCat%3DPPC%26LS%3DSearchEngine%26SRC%3DGoogle%26KW%3DiUniverseContentAds-DCO%26GKW%3DDCOTextAds%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DiUniverseContentAds%26utm_content%3Dwriting_google"; 
+google_ad.visible_url = "www.iUniverse.com"; 
+google_ad.line1 = "Are You Writing a Book?"; 
+google_ad.line2 = "Get a free guide to professional"; 
+google_ad.line3 = "editing \x26amp; publishing options."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.nytimes.com/2009/04/15/arts/15sedgwick.html%26gl%3DUS%26hl%3Den%26client%3Dca-nytimes_article_var%26hideleadgen%3D1%26ai0%3DCzEM-NhaRUqEM49fQAY-3gOAI0qT7ngTaqJvKFMzgupQFEAEgnPP4AVD5rLDyBmDJxqmLwKTYD6ABnPG9_wPIAQGoAwGqBIEBT9CbEVbDg-yiS_--xKBIF78bGgo7BM6pSPA8yjoKVWOoQdUvXQY20QcuoywbiOM2BBksfbJ5jgudSpaw99uCu2ycHw7Lk7VebclFZ4HCzcrvqHXxRqpRdP1IhQ3L8h6ICmhMHdvjO1upeHMoIW4XZc5bmXWOJDDWIs75ylnDP6xWgAfMjkI\x26usg\x3dAFQjCNE51wmt32uhCO4p0D3BxhZoEP66uA";
+var google_attribution_text = "AdChoices";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

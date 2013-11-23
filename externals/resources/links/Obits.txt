@@ -1,25 +1,96 @@
-Title from EKS.net and Zotero item
-Page name on remote site, as given by Zotero
-Zotero library folder name
-Name of index file in folder
-EKS.net URL for archived site
+Fields: 
+Link name from EKS.net
+Item name in  Zotero (Zotero gets from remote site)
+Index file name in Zotero folder
+Folder name in Zotero library 
+URL for archived site as it will appear in EKS.net
 
-Bay Area Reporter
-The Bay Area Reporter Online | Queer theory pioneer Eve Sedgwick dies
-RQBBEBP9
-article.html
-http://evekosofskysedgwick.net/externals/resources/links/obits/RQBBEBP9/article.html
-
-Duke University Press 
-Duke University Press Log: Eve Kosofsky Sedgwick, 1950-2009
-VSJF46TP
-eve-kosofsky-sedgwick-19502009.html
-http://evekosofskysedgwick.net/externals/resources/links/obits/VSJF46TP/eve-kosofsky-sedgwick-19502009.html
+abbreviated as:
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits//  [modify as necessary]
 
 
-New York Times (Week in Review)
-Lit Critics Who Peer Under the Covers
-T79IUXSG
-19cohen.html
-http://evekosofskysedgwick.net/externals/resources/links/obits/T79IUXSG/19cohen.html
+
+
+Link:   Bay Area Reporter
+Item:   The Bay Area Reporter Online | Queer theory pioneer Eve Sedgwick dies
+Folder: RQBBEBP9
+Index:  article.html
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/RQBBEBP9/article.html
+
+Link:   Duke University Press 
+Item:   Duke University Press Log: Eve Kosofsky Sedgwick, 1950-2009
+Folder: VSJF46TP
+Index:  eve-kosofsky-sedgwick-19502009.html
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/VSJF46TP/eve-kosofsky-sedgwick-19502009.html
+
+
+Link:   New York Times (Week in Review)
+Item:   Lit Critics Who Peer Under the Covers
+Folder: T79IUXSG
+Index:  19cohen.html
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/T79IUXSG/19cohen.html
+
+Link:   Guardian (U.K.)
+Item:   Eve Kosofsky Sedgwick 
+Folder: 8IG9RIBQ
+Index:  eve-kosofsky-sedgwick-obituary-queer-theory.html
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/8IG9RIBQ/eve-kosofsky-sedgwick-obituary-queer-theory.html
+
+Link:   Inside Higher Education
+Item:   Eve Kosofsky Sedgwick, 1950-2009 | Inside Higher Ed
+Index:  eve-kosofsky-sedgwick-1950-2009.html
+Folder: B323D7PV
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/B323D7PV/eve-kosofsky-sedgwick-1950-2009.html
+
+Link:   LGBT Collections, New York Public Library
+Item:   Remembering Eve Kosofsky Sedgwick | The New York Public Library
+Index:  remembering-eve-kosofsky-sedgwick.html
+Folder: 6CP6U6SS
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/6CP6U6SS/remembering-eve-kosofsky-sedgwick.html
+
+Link:   New York Times (Arts Section)
+Item:   Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58
+Index:  15sedgwick.html
+Folder: KJHI7A7B
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/KJHI7A7B/15sedgwick.html
+
+Link:   New York Times (Papercuts Blog) [may be changed to "Arts Beat"]
+Item:   Remembering Eve Kosofsky Sedgwick
+Index:  remembering-eve-kosofsky-sedgwick.html
+Folder: T9WF6MWR
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/T9WF6MWR/remembering-eve-kosofsky-sedgwick.html
+
+Link:   New Yorker
+Item:   Eve Kosofsky Sedgwick
+Index:  Halford - 2009 - Eve Kosofsky Sedgwick.html
+Folder: EWBNR4JC
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/EWBNR4JC/Halford - 2009 - Eve Kosofsky Sedgwick.html
+
+Link:   Tetu
+Item:   Mort de l’intellectuelle Eve Kosofsky Sedgwick
+Index:  mort-de-lintellectuelle-eve-kosofsky-sedgwick.html
+Folder: ZJ5XBCG7
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/ZJ5XBCG7/mort-de-lintellectuelle-eve-kosofsky-sedgwick.html
+
+Link:   Toronto Star
+Item:   Eve Kosofsky Sedgwick is survived by her husband Hal, whom she married in 1969. But she was not "straight." To her, nobody was. The concepts of heterosexuality and homosexuality were mere constructs.
+Index:  the_woman_who_wrote_how_to_bring_your_kids_up_gay.html
+Folder: 43HIS2A9
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/43HIS2A9/the_woman_who_wrote_how_to_bring_your_kids_up_gay.html
+
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits//
+
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits//
 

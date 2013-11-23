@@ -1,0 +1,17 @@
+function OAS_RICH(position) {
+if (position == 'Middle1') {
+document.write ('<A HREF="http://pub.tetu.com/5c/www.tetu.com/homepage/337636570/Middle1/default/empty.gif/59506276306c4b5247543841435a4b41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Right') {
+document.write ('\n');
+document.write ('<script type="text/javascript" src="//eulerian.menlook.com/aad/menlook-fr/TETU/TETU - 300x250/CACHEBUSTER"></script>\n');
+}
+if (position == 'Top') {
+document.write ('\n');
+document.write ('		<a href="http://pub.tetu.com/5c/www.tetu.com/homepage/L21/1689538062/Top/Tetu/PullMan_Dec_13/PullMan_Dec_13_megaban.html/59506276306c4b5247543841435a4b41" target="_blank"><img src="http://imageceu1.247realmedia.com/RealMedia/ads/Creatives/Tetu/PullMan_Dec_13/PULL_banner_tetu_728x90.jpg/1384249396" style="border:0px black solid;" width="728" height="90" alt="" /></a>\n');
+document.write ('\n');
+}
+if (position == 'x01') {
+document.write ('<A HREF="http://pub.tetu.com/5c/www.tetu.com/homepage/1061942432/x01/default/empty.gif/59506276306c4b5247543841435a4b41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}

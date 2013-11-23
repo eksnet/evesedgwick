@@ -1,0 +1,44 @@
+
+/* ::::: https://myaccount.nytimes.com/css/common/global.css ::::: */
+
+body { background-color: white; font: small Georgia,serif; }
+@media print {
+  body { background-image: url('dcs.gif'); }
+}
+html > body { font: 84.5% Georgia,serif; }
+h1, h2, h3, h4, h5 { color: black; }
+a { color: rgb(0, 66, 118); text-decoration: none; }
+a:hover { text-decoration: underline; }
+a:visited { color: rgb(102, 102, 153); }
+img { border: medium none; text-decoration: none; }
+form { padding: 0px; width: 0px; display: inline; }
+ul { margin: 0px; padding: 0px; list-style: none outside none; }
+ol { margin: 0px; padding: 0px; }
+li { margin: 0px; padding: 0px; }
+#nagBar { display: none; }
+
+/* ::::: https://myaccount.nytimes.com/css/standalone/regilite/screen/regiLite.css ::::: */
+
+body { background-color: transparent; }
+.regiliteDecorator { width: 351px; background-color: rgb(255, 255, 255); }
+.regiliteDecorator .box { border: 1px dashed rgb(204, 204, 204); }
+.regiliteDecorator .sectionHeader { background: url('graphic_saveupto.png') no-repeat scroll left top transparent; min-height: 32px; height: auto ! important; font-size: 1.4em; font-weight: bold; line-height: 1.2857em; margin: 0px 0px 9px; }
+.inset { margin: 10px 10px 7px; }
+.regiliteDecorator #regiLite .infoEntry { width: 268px; }
+.header { margin: 0px 0px 7px; padding: 0px; font-family: arial,helvetica,sans-serif; font-size: 115%; font-weight: bold; }
+#regiLite:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+#regiLite {  }
+#regiLite { margin: 0px; padding: 0px; }
+#regiLite .icon { float: left; width: 50px; margin: 0px; padding: 0px; }
+#regiLite .icon img { margin: 0px; padding: 0px; }
+#regiLite .infoEntry { text-align: left; float: left; width: 285px; margin: 0px; padding: 0px; }
+#regiLite .infoEntry p { font-family: arial,helvetica,sans-serif; font-size: 80%; margin: 0px; padding: 0px; }
+#regiLite .infoEntry .privacy { margin: 0px; padding: 5px 0px 0px; }
+#regiLite .infoEntry .signUp { font-family: arial,helvetica,sans-serif; font-size: 80%; display: block; }
+#regiLite .sample { font-family: arial,helvetica,sans-serif; font-size: 80%; }
+.infoEntry form label { font-family: arial,helvetica,sans-serif; font-size: 86%; color: rgb(51, 51, 51); font-weight: bold; display: block; margin-bottom: 5px; }
+.infoEntry form .yellow { font-family: arial,helvetica,sans-serif; font-size: 86%; font-weight: bold; color: rgb(51, 51, 51); display: inline; margin: 5px 0px; padding: 1px; background: none repeat scroll 0% 0% rgb(255, 248, 217); }
+.infoEntry form input.regiTextInput { width: 180px; font-family: arial,helvetica,sans-serif; font-size: 86%; display: inline; margin-bottom: 2px; padding: 0px; }
+.infoEntry .emailAddress { font-family: arial,helvetica,sans-serif; font-size: 86%; font-weight: bold; display: inline; margin: 5px 0px; color: rgb(51, 51, 51); }
+.infoEntry form input.regiSubmit { display: inline; margin: 0px; padding: 0px; }
+#regiLite .forgot { font-family: arial,helvetica,sans-serif; font-size: 80%; display: block; margin-top: 5px; }

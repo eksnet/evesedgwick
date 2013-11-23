@@ -1,0 +1,3839 @@
+<!DOCTYPE html>
+<html lang="en" itemscope="" itemtype="http://schema.org/NewsArticle" class=" js-on">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+<meta name="wpd_url" content="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+<meta name="wpd_date" content="2013-10-23T20:12Z">
+<div class="kxhead" data-id="Hv5Ai1h5" style="display: none;"><span class="kxtag kxinvisible" data-id="13938" data-alias="Krux loadSegments"><script src="3" type="text/javascript"></script><script src="beacon.js" async=""></script><script type="text/javascript">Krux('ns:centro', 'require:segments')</script></span><span class="kxtag kxinvisible" data-id="19253" data-alias="AdAdvisor S2S provider tag"><script>
+
+(function() {
+  // adadvisor redirects to http://logger... so it's not https safe
+  if (location.protocol == "http:") {
+     var u = "https://adadvisor.net/adscores/g.js?sid=9212244187&_kdpid=2111c0af-fc3a-446f-ab07-63aa74fbde8e";
+     (new Image()).src = u;
+   }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="26681" data-alias="Technographic Data provider tag"><script>
+
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="16189" data-alias="Krux Geographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="17792" data-alias="Bizo provider tag"><script>
+
+// Overridden by ns:centro version
+</script></span><span class="kxtag kxinvisible" data-id="23754" data-alias="Acxiom S2S provider tag"><script>
+
+(function(){
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var r_url = prefix + '//p.acxiom-online.com/pixel/sci'
+  var kurl = prefix + '//apiservices.krxd.net/um?partner=acxiom&r=' + r_url;
+  var i = new Image();
+  i.src = kurl;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23757" data-alias="Targus/AdAdvisor provider tag"><script>
+
+(function() {
+  // adadvisor redirects to http://logger... so it's not https safe
+  if (location.protocol == "http:") {
+     var u = "http://adadvisor.net/adscores/g.js?sid=9212244187&_kdpid=911765d2-536f-4475-8fd5-92b73478fb8f";
+     (new Image()).src = u;
+   }
+})();
+</script>
+</span><span class="kxtag kxinvisible" data-id="13668" data-alias="Krux Scrape Page Attributes"><script>
+ 
+(function() {
+  var Krux = window.Krux('ns:centro');
+
+  if (window.sectionid) {
+    // CNHI properties uses this
+    Krux('set', 'page_attr_js_sectionid', cleanUp(window.sectionid));
+  }
+  // Chartbeat data
+  if (typeof window._sf_async_config == "object" && window._sf_async_config.sections) {
+      
+      Krux('set', 'page_attr_chartbeat_section', cleanUp(window._sf_async_config.sections.split(',')[0]));
+  }
+
+  if (typeof window.s == "object" && typeof window.s.prop29 == "string") {
+    // Omniture, prop 29
+    var section = window.s.prop29;
+    // Some times they are delimited by pipe, tilde, or colon
+    sections = section.split(/[\|:~]/);
+    if (sections.length > 1) {
+      // Take the first one
+      section = sections[0];
+    }
+    Krux('set', 'page_attr_omniture_prop29', cleanUp(section));
+  }
+
+  if (typeof window.s == "object" && window.s.channel) {
+    // Omniture Channel
+    Krux('set', 'page_attr_omniture_channel', cleanUp(window.s.channel));
+  }
+
+  // Use the url if it is /section/ and nothing else
+  if (location.pathname.match(/^\/[^\/\.]+\/{0,1}$/)) {
+    Krux('set', 'page_attr_urlroot', cleanUp(location.pathname.replace(/\//g, '')));
+  }
+
+  // Util function that pulls a value from a url. works for normal urls or dart urls
+  function urlVal(url, val) {
+    var m = new RegExp(val + '=([^;&]+)').exec(url);
+    return m && unescape(m[1]) || "";
+  }
+
+  // Pull Zones from the dart hierarchy. Note that we are often delivered through an iframe,
+  // in which case the url will be the ad call (usually DFP)
+  function pullZonesFromDart(url) {
+    var m = (/^https*:\/\/ad.doubleclick.net\/ad[a-z]?\/([^\/]+)\/([^;\/]+)/).exec(url);
+    if (! m) { 
+      return;
+    }
+    Krux('set', 'page_attr_dfp_zone1', cleanUp(m[1]));
+    Krux('set', 'page_attr_dfp_zone2', cleanUp(m[2]));
+  }
+  if (self != top) {
+    // In an iframe, try to pull the dart variables from the iframe url
+    pullZonesFromDart(location.href);
+  }
+
+  (function () {
+    if (!document.querySelectorAll) {
+       // Old browser
+       return;
+    }
+    var urlStarts = [], doubleclick = document.querySelectorAll("script[src^='http://ad.doubleclick.net']");
+    for (var i = 0, l = doubleclick.length; i < l; i++ ){  
+      var url = doubleclick[i].getAttribute('src'), m = (/([^;]+)/).exec(url);
+      if (i > 0 && urlStarts[0] != m[1]) {
+        // This site has more than one type of double click tag, no can do
+        return;
+      }
+      urlStarts[0] = m[1];
+    }
+    // Looks good.
+    pullZonesFromDart(url);
+  })();
+
+  // FB Open Graph
+  (function () {
+    if (!document.querySelectorAll) {
+       // Old browser
+       return;
+    }
+    var og_title = document.querySelector("meta[property='og:title']");
+    if (og_title) {
+       Krux('set', 'page_attr_og_title', og_title.getAttribute('content'));
+    }
+  })();
+
+  // clean up
+  function cleanUp(input) {
+    input = input || "";
+    // lower, trim
+    input = input.toLowerCase().replace(/^[, ]+/, '').replace(/[ ,]+$/, '');
+    // Sanity
+    if (! input.match(/[a-z.]{2}/) || input.length > 25) {
+      input = "";
+    }
+    return input;
+  }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17791" data-alias="Bizo ns:centro"><script>
+
+(function(){
+  var pubid = Krux('ns:centro', 'get', 'pubid');
+  
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var kurl = prefix + '//beacon.krxd.net/data.gif?_kdpid=890a6228-04af-4630-85b6-0b49dee6157f&pid=' + pubid;
+  var u = prefix + '//api.bizographics.com/v1/profile.redirect?api_key=595bae8dbc0c4c42b4544e688b10c002' + 
+        '&callback_url=' + escape(kurl);
+  new Image().src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17082" data-alias="DataLogix provider tag"><script>
+
+// Using namespaced version.
+</script></span><span class="kxtag kxinvisible" data-id="17083" data-alias="eXelate Media provider tag"><script>
+
+// Using namespaced version.
+</script></span><span class="kxtag kxinvisible" data-id="17085" data-alias="Datalogix Centro Namespace"><script>
+
+(function(){
+  if (window.KRUX) {
+    var pubid = KRUXSetup.pubid;
+  } else if (window.Krux) {
+    var pubid = Krux('ns:centro', 'get', 'pubid');
+  } else { 
+    return;
+  }
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var u = prefix + "//apiservices.krxd.net/um?r=http%3A%2F%2Fkrxd.nexac.com%2Fdlx.gif&_kdpid=2dd640a6-6ebd-4d4f-af30-af8baa441a0d&pid=" + pubid + "&pubid=" + pubid;
+  var i = new Image();
+  i.src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17086" data-alias="eXelate Media for centro">Krux('ns:centro', 'dataprovider.exelate');</span></div><script src="beacon.js" async=""></script><script src="controltag" async="" type="text/javascript"></script><script src="beacon.js" async=""></script><script async="" src="get" type="text/javascript"></script><script async="" src="get_001.dat" type="text/javascript"></script><script src="client.js" async="" type="text/javascript" id="LR1"></script><script src="outbrain.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="quant.js"></script><script async="" src="cb=gapi.loaded_1"></script><script async="" src="cb=gapi.loaded_0"></script><script src="cse.js" async="" type="text/javascript"></script>
+		    		    <title> Obituary: Eve Kosofsky Sedgwick | Books | The Guardian </title>
+
+
+	<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+<link rel="canonical" href="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+
+            <meta name="description" content="Obituary: Writer and critic considered a founder of queer theory">
+    
+            <meta name="DC.date.issued" content="2009-05-12">
+    
+
+
+
+
+<meta name="llt" content="ASEyAgoY">
+
+
+	<meta property="og:title" content="Eve Kosofsky Sedgwick">
+	
+	
+	
+				<meta property="article:published_time" content="2009-05-12T00:29:02+01:00">
+		
+				<meta property="article:modified_time" content="2009-05-11T20:31:40+01:00">
+		
+								<meta property="article:author" content="http://www.theguardian.com/profile/sarahphillips">
+					
+								<meta property="article:tag" content="Science and nature">
+						<meta property="article:tag" content="Books">
+						<meta property="article:tag" content="Culture">
+						<meta property="article:tag" content="Literary criticism">
+					
+	<meta property="article:section" content="Books">
+	
+		<meta property="og:url" content="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+	
+	
+	
+	
+		
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://static-secure.guim.co.uk/icons/social/og/gu-logo-fallback.png">
+<meta property="og:site_name" content="the Guardian">
+<meta property="og:description" content="Obituary: Writer and critic considered a founder of queer theory">
+<meta property="fb:app_id" content="180444840287">
+
+
+
+<meta name="keywords" content="Science and nature,Books,Culture,Literary criticism,Books">
+<meta name="news_keywords" content="Science and nature,Books,Culture,Literary criticism,Books">
+
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<meta name="application-name" content="The Guardian">
+<meta name="msapplication-TileColor" content="#004983">
+<meta name="msapplication-TileImage" content="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/images/favicons/windows_tile_144_b.png">
+
+
+
+
+
+
+    <link rel="shorturl" href="http://gu.com/p/27t9z">
+
+<meta name="content-id" content="/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+
+<link rel="publisher" href="https://plus.google.com/113000071431138202574">
+
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:site" content="@guardian">
+
+
+<meta name="twitter:app:name:iphone" content="The Guardian">
+<meta name="twitter:app:id:iphone" content="409128287">
+
+<meta name="twitter:app:name:googleplay" content="The Guardian">
+<meta name="twitter:app:id:googleplay" content="com.guardian">
+<meta name="twitter:app:url:googleplay" content="guardian://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">
+
+
+<meta name="p:domain_verify" content="4f4576e6bac27d86fd926c4579b97f23">
+<meta name="pocket-site-verification" content="be6d97bc1f6961ce6348e7ced4f1f4">
+	    
+	<link href="http://feeds.theguardian.com/theguardian/books/rss" rel="alternate" type="application/rss+xml" title="Books RSS feed">
+		                <link href="http://www.theguardian.com/books/scienceandnature/rss" rel="alternate" type="application/rss+xml" title="Science and nature RSS feed">
+        	                <link href="http://www.theguardian.com/books/literary-criticism/rss" rel="alternate" type="application/rss+xml" title="Literary criticism RSS feed">
+        		<link href="http://feeds.theguardian.com/theguardian/culture/rss" rel="alternate" type="application/rss+xml" title="Culture RSS feed">
+		
+
+
+							
+			
+		
+		
+		
+			
+
+
+			
+
+		<!--[if ie 7]>
+		    <link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie7.css" media="screen" class="ie" />
+		<![endif]-->
+		
+		<!--[if ie 8]>
+			<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie8.css" media="screen" class="ie" />
+		<![endif]-->
+		
+		<!--[if lte IE 6]>
+			<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/styles/ie-scratch.css" media="screen" class="ie" />
+    		<link rel="stylesheet" type="text/css" href="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/zones/culture/styles/zone-navigation-ie.css" media="screen" class="contrast" />
+		<![endif]-->
+		
+		<!--[if lte IE 9]>
+			<script src="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/external-scripts/html5enable.js"></script>
+		<![endif]-->
+		
+	
+
+		
+<script type="text/javascript">
+
+//<![CDATA[
+	if (!commonStaticRoot) {	
+		var commonStaticRoot = "http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/";
+	}
+	if (!sectionStaticRoot) {	
+		var sectionStaticRoot = "http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/books/";
+	}
+	if (!staticHost) {	
+		var staticHost="http://www.guardian.co.uk/";
+	}
+	if (!sitePrefixUrl) {
+		var sitePrefixUrl = "http://www.theguardian.com";
+	}
+    if(!discussionApiUrl) {
+        var discussionApiUrl = "http://discussion.guardianapis.com";
+    }
+
+//]]>
+</script><script>
+
+	
+	var guardian = {
+		r2: {
+		comScoreVideoEnabled: true,
+		oasEnabled: true,
+		liveEnvironment: true
+		},
+		page: {
+			contentId: '/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory',
+			type: 'article',
+			contentTypes : 'article',
+			livePage:  false ,
+			section: 'books',
+			zone: 'culture',
+			edition: 'US',
+			productionOffice: 'UK',
+			showAdverts: false,
+			showRelated:  true ,
+			showCommercialRelated: true
+		}
+	};
+
+</script><script>
+
+
+            guardian.r2['oas'] = {
+                rns : '1234567890',
+                sitepage : "www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/oas.html",
+                query : 'k=literary-criticism&k=culture&k=books&k=scienceandnature&cf=global+%28temp+commercial%29&pid=obituary&ct=article&pt=article&',
+                host : 'http://oas.theguardian.com'
+            };
+
+			OAS_url = 'http://oas.theguardian.com/RealMedia/ads/';
+			OAS_sitepage = "www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/oas.html";
+			OAS_listpos = 'Top,Middle2,Right1,x31,Position4';
+
+			OAS_query = 'k=literary-criticism&k=culture&k=books&k=scienceandnature&cf=global+%28temp+commercial%29&pid=obituary&ct=article&pt=article&';
+			OAS_target = '_blank';
+
+			OAS_rn = '001234567890';
+			OAS_rns = '1234567890';
+			OAS_rn = new String (Math.random());
+			OAS_rns = OAS_rn.substring (2, 11);
+
+
+
+            // Add segments from rev_sci cookie to OAS_query.
+            OAS_query += (function() {
+                var hasStorage = (function() {
+                    try {
+                        localStorage.setItem("xxx_localstorage_test", "xxx_localstorage_test");
+                        localStorage.removeItem("xxx_localstorage_test");
+                        return true;
+                    } catch(e) {
+                        return false;
+                    }
+                }());
+
+                var revSciString = "";
+                if (hasStorage && true) {
+                    if (localStorage.getItem('rsi_segs_csv')) {
+                        revSciString = localStorage.getItem('rsi_segs_csv');
+                    }
+                } else {
+                    var cookieMatch = document.cookie.match(/rsi_segs_csv=([^;]*)/);
+                    if(cookieMatch && cookieMatch.length > 1) {
+                        revSciString = unescape(cookieMatch[1]);
+                    }
+                }
+
+                var oasSegs = "a=" + (revSciString.split(',').slice(0,100).join('&a=')) + "&";
+
+                if(hasStorage) {
+                    localStorage.setItem('aparams', oasSegs);
+                }
+
+                return oasSegs;
+            })();
+		</script><script type="text/javascript">
+
+        var gdnCrmSegs = "&";
+        OAS_query = OAS_query + gdnCrmSegs
+        var guardian = guardian || {};
+        guardian.r2 = guardian.r2 || {};
+        guardian.r2.revsci = guardian.r2.revsci || {};
+        guardian.r2.revsci.adData = [  ];
+        try {
+          localStorage.setItem('gdncrmparams', gdnCrmSegs);
+        } catch(er) {
+          // Ignore
+        }
+        </script><script type="text/javascript">
+
+    // Chartbeat timing variable
+    var _sf_startpt=(new Date()).getTime();
+</script><script src="jquery.min.js"></script><script>window.jQuery || document.write('<script src="http://pasteup.guim.co.uk/js/lib/jquery/1.8.1/jquery.min.js">\x3C/script>')</script><script src="jquery.cookie.min.js"></script><script src="jquery.writecapture.min.js"></script><script>
+
+	var jQ = jQuery.noConflict();
+	jQ.ajaxSetup({ cache: true });
+</script><script src="gu-core.js"></script><script>
+
+	var thirdPartyReferralCookieService = new guardian.r2.ThirdPartyReferralCookieService();
+	thirdPartyReferralCookieService.setThirdPartyReferralCookie();
+
+	var communitiesSite = false;
+
+				
+	guardian.r2.resourceRoot = "http://resource.guim.co.uk/";
+    var pageUrl = "http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory";
+
+	var RESOURCE_ROOT = 'http://resource.guim.co.uk/';
+
+</script><script src="require.min.js" data-main="http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/scripts/main.js" data-modules="gu/author-twitter-handles, http://id.guim.co.uk/static/cs/js/guardian.identity.clientside-toolkit.js" data-callback="" id="require-js"></script><script type="text/javascript">
+
+	//<![CDATA[
+	function insertStyleSheet(href) {
+		var styleObject = document.createElement('link');
+		styleObject.setAttribute('href', commonStaticRoot + href);
+		styleObject.setAttribute('type', 'text/css');
+		styleObject.setAttribute('media', 'screen');
+		styleObject.setAttribute('rel', 'stylesheet');
+		var head = document.getElementsByTagName('head')[0];
+		head.appendChild(styleObject);
+	}
+	insertStyleSheet('styles/js-on.css');
+	insertPluckStylesheet = true;
+	//]]>
+</script><script type="text/javascript" src="signinTopNav.js"></script><script type="text/javascript" src="main_v2.js"></script><script type="text/javascript">
+
+ensurePackage('guardian.r2.omniture');
+guardian.r2.omniture.isAvailable = function(){
+			return true;
+	}
+</script><script src="main.js" data-requiremodule="main" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="guardian.identity.clientside-toolkit.js" data-requiremodule="http://id.guim.co.uk/static/cs/js/guardian.identity.clientside-toolkit.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="nonSecureAnonymousFramework"></script><script src="author-twitter-handles.js" data-requiremodule="gu/author-twitter-handles" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script type="text/javascript" src="jsapi"></script><script src="widgets.js" data-requiremodule="//platform.twitter.com/widgets.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="osd.js" type="text/javascript"></script><script src="default+en.I.js" type="text/javascript"></script><script src="search.I.js" type="text/javascript"></script><script src="ophan.min.js" data-requiremodule="http://s.ophan.co.uk/js/ophan.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="campaign.min.js" data-requiremodule="http://s.ophan.co.uk/js/campaign.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="list.js" type="text/javascript"></script><script src="foresee-surveydef.js" type="text/javascript"></script><script src="facebook-authorizer-1.0.min.js" data-requiremodule="http://facebook-web-clients.appspot.com/static/facebook-authorizer-1.0.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="mustache.js" data-requiremodule="http://pasteup.guim.co.uk/js/lib/mustache/0.7.0/mustache.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="moment.min.js" data-requiremodule="http://cdnjs.cloudflare.com/ajax/libs/moment.js/1.7.2/moment.min.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="underscore.js" data-requiremodule="http://pasteup.guim.co.uk/js/lib/underscore/1.3.3/underscore.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="related-information-mvc-1.3.js" data-requiremodule="http://related-info-hrd.appspot.com/static/related-information-mvc-1.3.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="all.js" data-requiremodule="//connect.facebook.net/en_US/all.js" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="page_parser.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="eve-kosofsky-sedgwick-obituary-queer-theory.css" media="all">
+</head>
+<body data-twttr-rendered="true" class="	article   has-badge "><iframe id="LOCSTORAGE" src="eve-kosofsky-sedgwick-obituary-queer-theory_1.html" style="width: 1px; height: 1px; position: absolute; top: -7px; left: -7px; border: 0px none;" scrolling="no"></iframe><script src="367624519.js" type="text/javascript"></script><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_2.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrameSecure" tabindex="0" allowtransparency="true" id="twttrHubFrameSecure" frameborder="0" scrolling="no"></iframe><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_3.html" style="position: absolute; top: -9999em; width: 10px; height: 10px;" name="twttrHubFrame" tabindex="0" allowtransparency="true" id="twttrHubFrame" frameborder="0" scrolling="no"></iframe>
+
+	<div id="wrapper">
+					    
+
+	
+	<div id="header">
+	
+		    			<div id="sub-header">
+							    	    	     
+	
+
+	    
+
+
+		
+	<div class="top-navigation twelve-col top-navigation-js">
+	<div class="user-functions">
+		<div id="video-settings">
+    <div class="cookied">
+        <p class="on"><a class="autoplay-off" href="#skiplinks">Turn autoplay off</a></p>
+        <p style="display: none;" class="off"><a class="autoplay-on" href="#skiplinks">Turn autoplay on</a></p>
+    </div>
+    <div style="display: none;" class="not-cookied">
+        <p>Please activate cookies in order to turn autoplay off</p>
+    </div>
+</div>
+
+<div id="skiplinks">
+	<ul>
+		<li><a href="#box" accesskey="s">Jump to content [s]</a></li>
+				<li><a href="#global-nav" accesskey="0">Jump to site navigation [0]</a></li>
+		<li><a href="#searchbeta" accesskey="4">Jump to search [4]</a></li>
+		<li><a href="http://www.theguardian.com/help/terms-of-service" accesskey="8">Terms and conditions [8]</a></li>
+	</ul>
+</div>		
+               
+    
+    
+    
+    
+        
+    
+    
+    
+	
+	
+
+
+<div id="edition-selector">
+
+    <div id="drop-down-edition" class="change-to-us" tabindex="20">
+        <h2>Edition:</h2>
+                                    <span class="UK"><a href="http://www.theguardian.com/edition-permission/uk">UK</a></span>
+                                                <span class="US current-edition">US</span>
+                                                <span class="AU"><a href="http://www.theguardian.com/edition-permission/au">AU</a></span>
+                        </div>
+
+</div>
+
+
+<div class="user-details">
+    <div class="drop-down id-profile-links initially-off">
+        <h2 class="id-populate-with-display-name"></h2>
+        <ul>
+            <li><a href="https://id.theguardian.com/profile/?returnUrl=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">Your activity</a></li>
+            <li><a href="https://id.theguardian.com/email/list?returnUrl=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">Email subscriptions</a></li>
+            <li><a href="https://id.theguardian.com/dashboard?returnUrl=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">Account details</a></li>
+            <li><a href="https://id.theguardian.com/linked-services?returnUrl=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">Linked services</a></li>
+        </ul>
+    </div>
+
+    <noscript>
+
+        <span><a href="https://id.theguardian.com/dashboard?returnUrl=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory">Profile</a></span>
+    </noscript>
+
+    <span style="display: inline;" class="id-sign-in-top-nav initially-off"><a href="https://id.theguardian.com/signin?returnUrl=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory">Sign in</a></span>
+    <span><a href="http://www.theguardian.com/preference/platform/mobile?page=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory%3Fview%3Dmobile" class="switch-to-mobile" data-link-name="Switch to mobile" rel="nofollow">Mobile</a></span>
+
+</div>
+					<div id="drop-down-1" class="drop-down" tabindex="21">
+						<h2>
+
+		
+	        About us
+    </h2>
+								<ul>
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us" class="link-text">About us</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us/contact" class="link-text">Contact us</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/guardian-us-press-office" class="link-text">Press office</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/terms-of-service" class="link-text">Terms of service</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/privacy-policy" class="link-text">Privacy policy</a>
+    </li>
+					
+									</ul>
+					</div>
+		</div>
+	
+	<div class="other-functions">
+									<div id="drop-down-3" class="drop-down mirror" tabindex="23">
+						<h2>
+
+		
+	        Subscribe
+    </h2>
+								<ul>
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/mobile/iphone/guardian" class="link-text">Guardian iPhone</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/mobile/ipad/guardian-ipad-edition" class="link-text">iPad edition</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.amazon.com/The-Guardian-and-the-Observer/dp/B004MME3M8/ref=sr_1_2?ie=UTF8&amp;m=A3TVV12T0I6NSM&amp;s=digital-text&amp;qid=1310129212&amp;sr=1-2" class="link-text">Kindle</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/weekly/subscribe" class="link-text">Guardian Weekly</a>
+    </li>
+					
+											    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://guardian.newspaperdirect.com/epaper/viewer.aspx" class="link-text">Digital edition</a>
+    </li>
+					
+									</ul>
+					</div>
+		</div>
+		
+</div>
+
+
+			
+						
+    
+        
+        <div id="Top" class=" hide-on-popup" data-cb-ad-id="Top">
+            
+            	
+            
+
+
+<!--  Site: guardian.co.uk (US)   Zone: Culture   Size: Leaderboard  -->
+
+<!--  Rubicon / Guardian - Rubicon / Uncategorized / 728 x 90 / Below the fold --> 
+<!-- Site: guardian.co.uk (US)  Partner: Centro   Size: 728x90 -->
+
+<ins style="display: inline-table; border: medium none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; background-color: transparent;"><ins id="aswift_0_anchor" style="display: block; border: medium none; height: 90px; margin: 0px; padding: 0px; position: relative; visibility: visible; width: 728px; background-color: transparent;"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_4.html" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left: 0px; position: absolute; top: 0px;" frameborder="0" height="90" scrolling="no" width="728"></iframe></ins></ins><div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_5.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div><!-- BEGIN Krux Control Tag for Guardian -->
+
+<!-- END Krux Controltag -->
+<div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_6.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div>
+
+<img src="5950596f70564a5a7a47384141466256" style="display: none;" alt="">
+        </div>
+
+    		</div>
+	
+		
+					    	    	    
+
+	<div id="guardian-logo" class="trackable-component" data-component="Article:guardian logo">
+			    			    		<a href="http://www.theguardian.com/us"><img src="culture.gif" alt="The Guardian home" height="22" width="115"></a>
+        					</div>
+
+				
+	
+			
+						    
+    
+        <script>
+
+        (function() {
+            var cx = '015267030705423474967:wogwzhj1luu';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                    '//www.google.com/cse/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+        })();
+    </script>
+    <div id="___gcse_0"><div class="gsc-control-cse gsc-control-cse-en"><div dir="ltr" class="gsc-control-wrapper-cse"><form action="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" accept-charset="utf-8" class="gsc-search-box gsc-search-box-tools"><table class="gsc-search-box" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-input"><div id="gsc-iw-id1" class="gsc-input-box"><table class="gstl_50 " id="gs_id50" style="width: 100%; padding: 0px;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsib_a" id="gs_tti50"><input spellcheck="false" dir="ltr" id="gsc-i-id1" style="width: 100%; padding: 0px; border: medium none; margin: 0px; height: auto; outline: medium none; background: url('google_custom_search_watermark.gif') no-repeat scroll left center rgb(255, 255, 255);" title="search" name="search" class="gsc-input" size="10" autocomplete="off" type="text"></td><td class="gsib_b"><div dir="ltr" id="gs_st50" class="gsst_b"><a style="display: none;" href="javascript:void(0)" class="gsst_a"><span id="gs_cb50" class="gscb_a">×</span></a></div></td></tr></tbody></table></div></td><td class="gsc-search-button"><input title="search" class="gsc-search-button gsc-search-button-v2" src="search_box_icon.png" type="image"></td><td class="gsc-clear-button"><div title="clear results" class="gsc-clear-button">&nbsp;</div></td></tr></tbody></table><table class="gsc-branding" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-branding-user-defined"></td><td class="gsc-branding-text"><div class="gsc-branding-text">powered by</div></td><td class="gsc-branding-img"><img class="gsc-branding-img" src="small-logo.png"></td></tr></tbody></table></form><div class="gsc-results-wrapper-overlay"><div tabindex="0" class="gsc-results-close-btn"></div><div class="gsc-tabsAreaInvisible"><div class="gsc-tabHeader gsc-inline-block gsc-tabhActive">Custom Search</div><span class="gs-spacer"> </span></div><div class="gsc-tabsAreaInvisible"></div><div class="gsc-above-wrapper-area-invisible"><table class="gsc-above-wrapper-area-container" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-result-info-container"><div class="gsc-result-info-invisible"></div></td><td class="gsc-orderby-container"><div class="gsc-orderby-invisible"><div class="gsc-orderby-label gsc-inline-block">Sort by:</div><div class="gsc-option-menu-container gsc-inline-block"><div class="gsc-selected-option-container gsc-inline-block"><div class="gsc-selected-option">Relevance</div><div class="gsc-option-selector"></div></div><div class="gsc-option-menu-invisible"><div class="gsc-option-menu-item gsc-option-menu-item-highlighted"><div class="gsc-option">Relevance</div></div><div class="gsc-option-menu-item"><div class="gsc-option">Date</div></div></div></div></div></td></tr></tbody></table></div><div class="gsc-adBlockInvisible"></div><div class="gsc-wrapper"><div class="gsc-adBlockInvisible"></div><div class="gsc-resultsbox-invisible"><div class="gsc-resultsRoot gsc-tabData gsc-tabdActive"><table class="gsc-resultsHeader" cellpadding="0" cellspacing="0"><tbody><tr><td class="gsc-twiddleRegionCell"><div class="gsc-twiddle"><div class="gsc-title">Web</div></div><div class="gsc-stats"></div><div class="gsc-results-selector gsc-all-results-active"><div title="show one result" class="gsc-result-selector gsc-one-result">&nbsp;</div><div title="show more results" class="gsc-result-selector gsc-more-results">&nbsp;</div><div title="show all results" class="gsc-result-selector gsc-all-results">&nbsp;</div></div></td><td class="gsc-configLabelCell"></td></tr></tbody></table><div><div class="gsc-expansionArea"></div></div></div></div></div></div><div tabindex="0" class="gsc-modal-background-image"></div></div></div></div>
+    
+    				
+				
+		<div id="zones-nav">
+							    	    
+
+	<div id="global-nav" class="trackable-component" data-component="Article:global nav">
+		<ul>
+								    
+																								<li class="first news">
+						<a href="http://www.guardiannews.com/" data-link-name="1:News">News</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/world/usa" data-link-name="2:US">US</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/world" data-link-name="3:World">World</a>
+					</li>
+												    
+																			<li class="sport">
+						<a href="http://www.theguardian.com/uk/sport" data-link-name="4:Sports">Sports</a>
+					</li>
+												    
+																			<li class="comment">
+						<a href="http://www.theguardian.com/us/commentisfree" data-link-name="5:Comment">Comment</a>
+					</li>
+												    
+																			<li class="culture">
+						<a href="http://www.theguardian.com/culture" data-link-name="6:Culture">Culture</a>
+					</li>
+												    
+																			<li class="business">
+						<a href="http://www.theguardian.com/us/business" data-link-name="7:Business">Business</a>
+					</li>
+												    
+																			<li class="money">
+						<a href="http://www.theguardian.com/us/money" data-link-name="8:Money">Money</a>
+					</li>
+												    
+																			<li class="environment">
+						<a href="http://www.theguardian.com/environment" data-link-name="9:Environment">Environment</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/science" data-link-name="10:Science">Science</a>
+					</li>
+												    
+																			<li class="travel">
+						<a href="http://www.theguardian.com/travel" data-link-name="11:Travel">Travel</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/technology" data-link-name="12:Tech">Tech</a>
+					</li>
+												    
+																			<li class="news">
+						<a href="http://www.theguardian.com/media" data-link-name="13:Media">Media</a>
+					</li>
+												    
+																			<li class="life-and-style">
+						<a href="http://www.theguardian.com/lifeandstyle" data-link-name="14:Life &amp; style">Life &amp; style</a>
+					</li>
+												    
+																								<li class="last news">
+						<a href="http://www.theguardian.com/data" data-link-name="15:Data">Data</a>
+					</li>
+									</ul>
+	</div>
+
+
+										    
+    
+            
+                        
+
+
+<div class="trackable-component crumb-wrapper" data-component="Article:crumb nav" xmlns:v="http://rdf.data-vocabulary.org/#">
+
+            <ul class="crumb-nav">
+                            <li id="crumb1">
+                    <span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" href="http://www.theguardian.com/culture" data-link-name="Culture">Culture</a>
+                    </span>
+                </li>
+                            <li id="crumb2">
+                    <span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" href="http://www.theguardian.com/books" data-link-name="Books">Books</a>
+                    </span>
+                </li>
+                            <li id="crumb3">
+                    <span typeof="v:Breadcrumb">
+                        <a rel="v:url" property="v:title" href="http://www.theguardian.com/books/scienceandnature" data-link-name="Science and nature">Science and nature</a>
+                    </span>
+                </li>
+                    </ul>
+    
+    
+</div>
+
+					</div>
+				
+				    	    
+
+
+
+
+
+		
+										
+
+        
+
+	</div>
+
+
+
+		<div id="box">
+			    
+
+
+
+        
+	    	    
+
+
+
+<div id="article-header">
+
+                
+	
+
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+                	    	
+	
+
+
+
+	    	    	    	    
+
+					    
+	
+
+ 	
+    
+ 	<div id="main-article-info">
+
+					<h2 class="strap">Obituary</h2>
+		
+		
+			<h1 itemprop="name headline  ">Eve Kosofsky Sedgwick</h1>
+		
+					<div itemprop="description" id="stand-first" class="stand-first-alone" data-component="Article:standfirst_cta">Writer and critic considered a founder of queer theory</div>
+		
+		
+  	</div>
+
+  	  	    			<ul id="content-actions" class="share-links strapped trackable-component" data-component="Article:top share tools">
+				                
+    
+	
+		
+												
+
+
+    
+    
+    	
+    	
+    	
+
+        <li class="full-line facebook">
+        <span class="facebook-share">
+            <a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory&amp;display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" data-link-name="Facebook Share">
+                <span class="facebook-share-icon"></span>
+                <span class="facebook-share-label">Share</span>
+            </a><span class="facebook-share-count"><i></i><u></u>0</span>
+        </span>
+    </li>
+
+    <li class="full-line">
+	    	    	    	    	    	    <iframe style="width: 107px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-horizontal" src="eve-kosofsky-sedgwick-obituary-queer-theory_7.html" allowtransparency="true" id="twitter-widget-0" frameborder="0" scrolling="no"></iframe>
+    </li>
+
+                <li class="full-line google-plus" data-link-name="Google plus">
+
+    	
+    <div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe title="+1" data-gapiattached="true" src="eve-kosofsky-sedgwick-obituary-queer-theory_8.html" name="I0_1385237483491" id="I0_1385237483491" vspace="0" tabindex="0" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+
+    </li>
+
+    
+    <li class="full-line linked-in" data-link-name="LinkedIn">
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385237483613_0"><a id="li_ui_li_gen_1385237483613_0-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385237483613_0-logo">in</span><span id="li_ui_li_gen_1385237483613_0-title"><span id="li_ui_li_gen_1385237483613_0-mark"></span><span id="li_ui_li_gen_1385237483613_0-title-text">Share</span></span></a></span></span><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385237483620_1-container" class="IN-right"><span id="li_ui_li_gen_1385237483620_1" class="IN-right"><span id="li_ui_li_gen_1385237483620_1-inner" class="IN-right"><span id="li_ui_li_gen_1385237483620_1-content" class="IN-right">0</span></span></span></span></span></span><script type="IN/Share+init" data-counter="right" data-showzero="true"></script>
+    </li>
+
+    <li class="full-line email" data-link-name="email this story">
+        <a class="rollover send-email" href="#" title="Send to a friend"><img src="icon-email.png" alt="" class="trail-icon">Email</a>
+    </li>
+    
+    
+    
+
+			</ul>
+		
+			</div>
+
+
+<div id="content">
+
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+                
+                	    
+
+    
+                
+
+
+
+
+
+<ul class="article-attributes trackable-component b4" data-component="Article:byline">
+	        		<li class="byline">
+							        	<div class="contributor-full">
+        
+		<span itemscope="" itemprop="author" itemtype="http://schema.org/Person"><span itemprop="name"><a class="contributor" rel="author" itemprop="url" href="http://www.theguardian.com/profile/sarahphillips">Sarah Phillips</a></span></span>	</div>
+					</li>
+		<li class="article-attributes-social-buttons"></li>
+	
+
+	
+          <li class="publication">
+			<a itemprop="publisher" href="http://www.guardian.co.uk/theguardian">The Guardian</a>,
+			       			<time itemprop="datePublished" datetime="2009-05-11" pubdate="">Monday 11 May 2009</time>			
+        </li>
+			
+
+	
+	</ul>
+    
+        	    
+
+
+
+
+
+		
+										
+
+        
+
+
+    
+        
+
+        <div id="article-wrapper" class="trackable-component " data-component="Article:in body link">
+
+        	
+        	
+
+    
+    <div id="article-body-blocks">
+	    <p>The US academic and writer Eve Kosofsky Sedgwick, who has died aged 58 of breast cancer, was one of the sharpest and most committed exponents of queer theory, the exploration of sexual perspectives other than that of conventional straightness in literature and the humanities. Though herself heterosexual, she was fascinated by the complex nature of relationships and desire, declaring herself proud of "having a life where work and love are impossible to tell apart".</p><p>Queer theory rejects labels such as gay and straight, referring instead to a sense of identity that subverts presumed norms and social codes. Sedgwick and her colleagues recognised social perceptions of sexuality as worthy of contemplation, drawing inspiration from the French philosopher Michel Foucault, and with roots in both the gay and lesbian studies of the 1980s and traditional literary academia. To Sedgwick, "queer" was "the open mesh of possibilities, gaps, overlaps, dissonances and resonances, lapses and excesses of meaning when the constituent elements of anyone's gender, of anyone's sexuality aren't made (or can't be made) to signify monolithically".</p><p>Her first book, Between Men: English Literature and Male Homosocial Desire (1985), explored male bonds in 19th-century novels, considering authors such as Dickens and the "erotic triangles" of homosexual, homosocial and homophobic relations depicted. She later produced a lesbian reading of Jane Austen, which was received with horror by rightwing commentators, who were appalled at the notion that homosexuality could be taught on a mainstream curriculum alongside Plato and Shakespeare. This inspired a typically witty retort from her pen: "Read any Sonnets lately? You dip into the Phaedrus often? To invoke the utopian bedroom scene of Chuck Berry's immortal aubade: Roll over, Beethoven, and tell Tchaikovsky the news."</p><p>Eve Kosofsky was born in Dayton, Ohio. Her family moved to Bethesda, Maryland, during her childhood, where her father took a position at Nasa as a lunar cartographer and her mother worked as a high-school teacher. She read English at Cornell University, New York state, before going on to Yale, Connecticut and completing her doctorate in 1975. She taught at Boston University (1981-83) and Amherst College, Massachusetts (1984-88), before spending a decade in the pioneering department of sexuality studies at Duke University, North Carolina, taken on by the literary theorist Stanley Fish,  to bring a more progressive agenda.</p><p>In 1969 she married Hal Sedgwick, while she was at Cornell. Their first marital home was a commune. They then lived apart for many years and met up at weekends, as they pursued individual careers - he also worked as an academic, in optometry - but were eventually reunited later in life in New York, where she taught at the City University from 1998.  </p><p>Sedgwick's ideas are perhaps best outlined in Epistemology of the Closet (1990), acknowledged by many, including her fellow pioneer in queer theory Judith Butler, as a founding text of the field. In Epistemology, Sedgwick uses Oscar Wilde, Henry James and Marcel Proust, to identify what is between gender and the increasing significance placed on normative sexual identities. As she states: "An understanding of virtually any aspect of modern western culture must be, not merely incomplete, but damaged in its central substance to the degree that it does not incorporate a critical analysis of modern homo/heterosexual definition."</p><p>And before the theory ended, her activism began. Colleagues from her era at Duke recall her passion for combating social injustices, which always began on a local level. Alongside the theorising of her seminal collection of essays, Tendencies (1993), she would present cold, hard facts, revealing the US government's suppression of gay teenage suicide rates or the censorship of HIV education. There was no need for shock tactics, as the reality was harsh enough: "I've heard of many people who claim they'd as soon their children were dead as gay. What it took me a long time to believe is that these people are saying no more than the truth," she wrote. Deaths were frequent as HIV gripped hold of the queer world around her. </p><p>After undergoing chemotherapy following her diagnosis of cancer in 1991, Sedgwick addressed her own fears about mortality, and feelings of gender identity post-mastectomy, producing A Dialogue of Love (1999), based on conversations in therapy. She shared advice drawn from her experiences of the illness in a column, Off My Chest, for a women's cancer magazine. Her other passions included writing poetry - she published an anthology, Fat Art, Thin Art (1995). She also produced visual art, and was a practising Buddhist.  </p><p>She is survived by her husband Hal, mother Rita and siblings Nina and David.</p><p>• Eve Kosofsky Sedgwick, writer and literary theorist, born 2 May 1950; died 12 April 2009</p>
+    </div>
+
+    
+
+		
+		
+            	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:below-article-embed email subscriptions:microapp email-subscriptions:Daily email subscription">
+                                                    
+<div style="display: block;" class="email-subscription-promo js-email-upsell b4">
+    <div class="email-subscription-promo__image">
+        <img class="js-email-upsell-image" src="book-club.png" alt="Guardian book club" height="84" width="140">
+    </div>
+    <span class="email-subscription-promo__close js-email-upsell-close">
+        <img src="close.png" alt="close">
+    </span>
+    <div class="email-subscription-promo__description">
+        <h4 class="email-subscription-promo__title js-email-upsell-title">Get the Guardian book club email</h4>
+        <p class="email-subscription-promo__copy js-email-upsell-copy">Hosted by John Mullan, be the first to find out about forthcoming events and featured authors.</p>
+        <a class="email-subscription-promo__link js-email-upsell-link" href="https://id.theguardian.com/email/subscribe?emailListId=131" data-email-id="131">Sign up for the Guardian book club email</a>
+    </div>
+</div>
+
+                                                    </span>
+                                            				
+			        
+
+
+        </div>
+    
+    
+    
+</div>
+
+				
+<div id="related">
+     		
+						
+		    	
+	
+	
+
+
+	    
+
+	<ul id="article-toolbox-side" class="b4 trackable-component left" data-component="Article:RHS icon tools">
+	
+
+							<li class="printable" data-link-name="icon-print"><a href="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/print" rel="nofollow" id="printlink" class="printable rollover" title="Link to a printer-friendly version"><img src="icon-print.png" alt="Print this" class="trail-icon"><span>Print this</span></a></li>
+	
+			<li data-link-name="icon-share"><a class="rollover send-share" href="http://www.theguardian.com/share/1214052" title="Opens a share this page in a new window"><img src="icon-share.png" alt="" class="trail-icon"><span>Share</span></a></li>
+	
+			<li data-link-name="icon-contact"><a href="http://www.theguardian.com/contactus/1214052" class="rollover contact-link" title="Displays contact data for guardian.co.uk"><img src="icon-email-us.png" alt="" class="trail-icon"><span>Contact us</span></a></li>
+	
+	
+	
+    
+    </ul>
+
+	    	
+
+
+	    
+	
+
+	
+
+
+	    
+
+
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+
+				<div class="history b3 trackable-component" data-component="Article:article-history">
+			<a class="rollover history-link" href="#history-link-box" data-link-name="Article history">Article history</a>
+			    
+
+		</div>
+				    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+	    			                
+    
+	
+		
+											
+	
+	    
+
+
+
+    
+	<div class="related-keywords trackable-component" data-component="Article:related-keywords">
+	
+	
+					
+					<h4 class="b4 t6"><a href="http://www.theguardian.com/books">Books</a></h4>
+		
+	    						<ul>
+						<li>
+																		<a href="http://www.theguardian.com/books/scienceandnature" rel="tag">Science and nature</a> ·															</li>
+								<li>
+																		<a href="http://www.theguardian.com/books/literary-criticism" rel="tag">Literary criticism</a> 															</li>
+				</ul>
+										
+					<h4 class="b3 t6"><a href="http://www.theguardian.com/culture">Culture</a></h4>
+		
+	    			
+	
+			
+
+																						<p class="t6 b4"><a href="http://www.theguardian.com/tone/obituaries">More 			obituaries
+	</a></p>
+														
+				
+	
+</div>
+
+
+		
+							
+		    	    
+
+				
+		    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper two-col" data-component="Article:content-related related-information-vertical:microapp related-info-2:Related information vertical (2)">
+                                                    
+    <div class="ma-placeholder-related-information-2-vertical"><div class="two-col edge component"><p class="b4 t6">Related</p><ul class="l1d"><li><p class="t6 related-content-publication-date">24 Apr 2008</p><p class="t7"><a href="http://www.theguardian.com/books/2008/apr/24/news.culture?INTCMP=ILCNETTXT3487" class="related-content-headline">Lifetime achievement 'double' for Cynthia Ozick</a></p></li><li><p class="t6 related-content-publication-date">30 Aug 2007</p><p class="t7"><a href="http://www.theguardian.com/news/2007/aug/30/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-headline">Julia Briggs</a></p></li><li><p class="t6 related-content-publication-date">23 Oct 2005</p><p class="t7"><a href="http://www.theguardian.com/news/2005/oct/24/guardianobituaries.booksobituaries1?INTCMP=ILCNETTXT3487" class="related-content-headline">Stanley Burnshaw</a></p></li><li><p class="t6 related-content-publication-date">31 Aug 2004</p><p class="t7"><a href="http://www.theguardian.com/news/2004/sep/01/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-headline">Donald Justice</a></p></li></ul></div></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://related-info-hrd.appspot.com/static/related-information-1.3.min.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                                    </span>
+                                            				
+			        
+
+
+					    
+
+
+
+
+		
+		
+		    							
+																																
+	
+    </div>
+
+
+			
+					
+	
+
+
+
+    <ul class="share-links col-8 b3 trackable-component" data-component="Article:bottom share tools">
+
+    	
+    	
+    	
+    	
+
+        <li class="full-line facebook">
+        <span class="facebook-share">
+            <a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory&amp;display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" data-link-name="Facebook Share">
+                <span class="facebook-share-icon"></span>
+                <span class="facebook-share-label">Share</span>
+            </a>
+        </span>
+    </li>
+
+    <li class="full-line twitter" data-link-name="twitter">
+
+	    	    	    	    	    	    <iframe style="width: 55px; height: 20px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-none" src="eve-kosofsky-sedgwick-obituary-queer-theory_9.html" allowtransparency="true" id="twitter-widget-1" frameborder="0" scrolling="no"></iframe>
+    </li>
+
+            <li class="full-line google-plus" data-link-name="Google plus">
+
+    <div id="___plusone_1" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 50px; height: 24px;"><iframe title="+1" data-gapiattached="true" src="eve-kosofsky-sedgwick-obituary-queer-theory_10.html" name="I1_1385237483494" id="I1_1385237483494" vspace="0" tabindex="0" style="position: static; top: 0px; width: 50px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+
+    </li>
+
+    <li class="full-line linked-in" data-link-name="LinkedIn">
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385237483623_2"><a id="li_ui_li_gen_1385237483623_2-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385237483623_2-logo">in</span><span id="li_ui_li_gen_1385237483623_2-title"><span id="li_ui_li_gen_1385237483623_2-mark"></span><span id="li_ui_li_gen_1385237483623_2-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init"></script>
+    </li>
+
+    
+
+    <li class="full-line email" data-link-name="email this story">
+        <a class="rollover send-email" href="#" title="Send to a friend"><img src="icon-email.png" alt="" class="trail-icon">Email</a>
+    </li>
+
+    </ul>
+
+
+			    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper eight-col" data-component="Article:promo-bottom-article Outbrain:microapp outbrains-component:Outbrains combined component">
+                                                    
+
+<div style="display: block;" class="outbrain-container"><div style="display: none;" id="ob_holder"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_11.html" style="display: none; width: 1px; height: 1px;" id="ob_iframe"></iframe></div><div id="outbrain_widget_0" data-dynload="" data-ob-mark="true" class="OUTBRAIN first internal trackable-component" data-src="http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" data-widget-id="AR_1" data-ob-template="guardian" data-component="comp: Outbrains: guardian links"><div class="ob_strip_container AR_1">
+	<span class="ob_empty"><wbr></span>
+
+
+	<span class="ob_org_header hd b1"><a href="#" class="explainer-link">What's this?</a><h2><div>More from the Guardian</div></h2></span>	    <div class="ob_container">
+	<div class="ob_container_recs">
+                        <a class="item-link-container ob-odd" href="http://www.theguardian.com/media/2013/nov/21/ad-break-jean-claude-van-damme-volvo-baileys" data-redirect="http://traffic.outbrain.com/network/redir?key=97865760cdaef7a6a4bc32c4e94d055e&amp;rdid=408677345&amp;type=SYLD_d/NA_ny&amp;in-site=false&amp;idx=0&amp;req_id=017b04b08a1441a8529a9ae1a2b088ed&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_self" rel="">
+    <div class="item-container ob-recIdx-0   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'" class="strip-img" alt="Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'" src="jJrp1-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">21 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-even" href="http://www.guardian.co.uk/artanddesign/2013/nov/20/ryan-oneal-warhol-portrait-farrah-fawcett" data-redirect="http://traffic.outbrain.com/network/redir?key=12d8d47a2709512499d65ac0634106e3&amp;rdid=408677345&amp;type=SYLD_d/NA_ny&amp;in-site=false&amp;idx=1&amp;req_id=017b04b08a1441a8529a9ae1a2b088ed&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_self" rel="">
+    <div class="item-container ob-recIdx-1   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett" class="strip-img" alt="Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett" src="jEhK2-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">20 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-odd" href="http://www.theguardian.com/film/2013/nov/19/brittany-murphy-toxicology-tests-poison" data-redirect="http://traffic.outbrain.com/network/redir?key=38c23e27c64f41aae4ce002a2a159423&amp;rdid=408677345&amp;type=SYLD_d/NA_ny&amp;in-site=false&amp;idx=2&amp;req_id=017b04b08a1441a8529a9ae1a2b088ed&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=false&amp;scp=false&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_self" rel="">
+    <div class="item-container ob-recIdx-2   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Brittany Murphy toxicology tests suggest heavy metal poisoning" class="strip-img" alt="Brittany Murphy toxicology tests suggest heavy metal poisoning" src="j9ek9-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Brittany Murphy toxicology tests suggest heavy metal poisoning</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">19 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-even" href="http://www.guardian.co.uk/books/2013/nov/22/other-heroes-cs-lewis-aldous-huxley" data-redirect="http://traffic.outbrain.com/network/redir?key=8ec07be06bbe144dcb7afd0092bed1b1&amp;rdid=408677345&amp;type=MRD_/NA_ny&amp;in-site=true&amp;idx=3&amp;req_id=017b04b08a1441a8529a9ae1a2b088ed&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=100&amp;imgType=2&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_self" rel="">
+    <div class="item-container ob-recIdx-3    ob-last ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray" class="strip-img" alt="My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray" src="jIwsR-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">22 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</a>            </div>
+<div class="ob_container_shadow_outer">
+    <div class="ob_container_shadow">
+                                    <div class="item-container-shadow ob-recIdx-0   ob-odd">
+    <div class="item-container ob-recIdx-0   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'" class="strip-img" alt="Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'" src="jJrp1-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Ad break: Jean-Claude Van Damme's epic split for Volvo, Baileys 'Nutcracker'</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">21 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-1  ob-even">
+    <div class="item-container ob-recIdx-1   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett" class="strip-img" alt="Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett" src="jEhK2-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Ryan O'Neal fights to keep Warhol portrait of Farrah Fawcett</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">20 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-2   ob-odd">
+    <div class="item-container ob-recIdx-2   ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Brittany Murphy toxicology tests suggest heavy metal poisoning" class="strip-img" alt="Brittany Murphy toxicology tests suggest heavy metal poisoning" src="j9ek9-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Brittany Murphy toxicology tests suggest heavy metal poisoning</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">19 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-3  ob-even">
+    <div class="item-container ob-recIdx-3    ob-last ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray" class="strip-img" alt="My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray" src="jIwsR-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">My hero: CS Lewis by Laura Miller and Aldous Huxley by Nicholas Murray</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-date">22 Nov 2013</span></span>    </div>
+    </div>
+        </div>
+</div>                        </div>
+</div>	</div>
+			<div class="ob_what">
+	
+	<a href="http://www.outbrain.com/what-is/default/en" onmousedown="">
+
+		[?]
+	</a>
+</div>
+	</div></div><div id="outbrain_widget_1" data-dynload="" data-ob-mark="true" class="OUTBRAIN sponsored trackable-component" data-src="http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" data-widget-id="AR_2" data-ob-template="guardian" data-component="comp: Outbrains: sponsored links"><div class="ob_strip_container AR_2">
+	<span class="ob_empty"><wbr></span>
+
+
+	<span class="ob_org_header hd b1"><a href="#" class="explainer-link">What's this?</a><h2><div>More from around the web</div></h2></span>	    <div class="ob_container">
+	<div class="ob_container_recs">
+                        <a class="item-link-container ob-odd" href="http://madamenoire.com/302769/celebrities-most-people-dont-know-are-black/" data-redirect="http://paid.outbrain.com/network/redir?key=d5acd7ab0ba1de4cfeee1f028224a83e&amp;rdid=408677345&amp;type=RPM_/K0_stg&amp;in-site=false&amp;idx=0&amp;pc_id=18372741&amp;req_id=c3b48278a7715aa309c3217dbab3f3a2&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=101&amp;imgType=2&amp;adsCats=1403,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=2668&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_top" rel="nofollow">
+    <div class="item-container ob-recIdx-0  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="15 Celebrities Most People Don’t Know Are Black" class="strip-img" alt="15 Celebrities Most People Don’t Know Are Black" src="fkFaz-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">15 Celebrities Most People Don’t Know Are Black</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>MadameNoire)</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-even" href="http://www.hollyscoop.com/galleries/worst-celebrity-beach-bodies/2045001" data-redirect="http://paid.outbrain.com/network/redir?key=3dc3256e1d11fd40136fffe2a78e1baa&amp;rdid=408677345&amp;type=RPM_/K0_stg&amp;in-site=false&amp;idx=1&amp;pc_id=18363147&amp;req_id=c3b48278a7715aa309c3217dbab3f3a2&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=101&amp;imgType=2&amp;adsCats=1403,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=9258&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_top" rel="nofollow">
+    <div class="item-container ob-recIdx-1  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="The 20 Most Cringe-Worthy Celebrity Beach Bodies" class="strip-img" alt="The 20 Most Cringe-Worthy Celebrity Beach Bodies" src="djqZu-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">The 20 Most Cringe-Worthy Celebrity Beach Bodies</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>Hollyscoop)</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-odd" href="http://www.refinery29.com/2013/10/55272/harry-potter-characters-then-now" data-redirect="http://paid.outbrain.com/network/redir?key=acf760899fd6699028e18851c37d9ef4&amp;rdid=408677345&amp;type=RPM_/K0_stg&amp;in-site=false&amp;idx=2&amp;pc_id=19575550&amp;req_id=c3b48278a7715aa309c3217dbab3f3a2&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=101&amp;imgType=2&amp;adsCats=1402,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=20932&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_top" rel="nofollow">
+    <div class="item-container ob-recIdx-2  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids" class="strip-img" alt="Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids" src="h0c5l-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>Refinery29)</span></span>    </div>
+    </div>
+        </div>
+</a>                    <a class="item-link-container ob-even" href="http://www.history.com/shows/american-pickers/videos" data-redirect="http://paid.outbrain.com/network/redir?key=12495f8fe2e7a1a1646ec4bd2b180e33&amp;rdid=408677345&amp;type=FCAD_/K0_stg&amp;in-site=false&amp;idx=3&amp;pc_id=20256171&amp;req_id=c3b48278a7715aa309c3217dbab3f3a2&amp;agent=blog_JS_rec&amp;recMode=11&amp;reqType=1&amp;wid=101&amp;imgType=4&amp;adsCats=1402,-1,-1&amp;refPub=1142&amp;prs=true&amp;scp=false&amp;fcapElementId=29795&amp;origSrc=1855245" onclick="" onmousedown="outbrain.recClicked(event,this);" target="_top" rel="nofollow">
+    <div class="item-container ob-recIdx-3 ob-sourceImage  item-container-obpd  ob-last ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="WATCH NOW: The Pickers Uncover a Costly Surprise" class="strip-img" alt="WATCH NOW: The Pickers Uncover a Costly Surprise" src="Gm02w-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    	<div class="ob_video">
+    	    <img title="Play Video" class="strip-video-img" alt="Play Video" src="video_icon.png" onerror="this.style.display='none'">
+        </div>
+</div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">WATCH NOW: The Pickers Uncover a Costly Surprise</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>History.com)</span></span>    </div>
+    </div>
+        </div>
+</a>            </div>
+<div class="ob_container_shadow_outer">
+    <div class="ob_container_shadow">
+                                    <div class="item-container-shadow ob-recIdx-0   ob-odd">
+    <div class="item-container ob-recIdx-0  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="15 Celebrities Most People Don’t Know Are Black" class="strip-img" alt="15 Celebrities Most People Don’t Know Are Black" src="fkFaz-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">15 Celebrities Most People Don’t Know Are Black</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>MadameNoire)</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-1  ob-even">
+    <div class="item-container ob-recIdx-1  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="The 20 Most Cringe-Worthy Celebrity Beach Bodies" class="strip-img" alt="The 20 Most Cringe-Worthy Celebrity Beach Bodies" src="djqZu-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">The 20 Most Cringe-Worthy Celebrity Beach Bodies</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>Hollyscoop)</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-2   ob-odd">
+    <div class="item-container ob-recIdx-2  item-container-obpd ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids" class="strip-img" alt="Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids" src="h0c5l-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    </div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">Harry Potter Revisited: We Bet You Won't Recognize A Few Of These Kids</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>Refinery29)</span></span>    </div>
+    </div>
+        </div>
+</div>                            <div class="item-container-shadow ob-recIdx-3 ob-sourceImage  ob-even">
+    <div class="item-container ob-recIdx-3 ob-sourceImage  item-container-obpd  ob-last ">
+        <div class="ob-rec-link-img ob-tcolor">
+    <img style="" onload="this.style.visibility=''" title="WATCH NOW: The Pickers Uncover a Costly Surprise" class="strip-img" alt="WATCH NOW: The Pickers Uncover a Costly Surprise" src="Gm02w-d2y-150x100.jpg" onerror="outbrain.imageError(this)" height="100" width="150">
+    	<div class="ob_video">
+    	    <img title="Play Video" class="strip-video-img" alt="Play Video" src="video_icon.png" onerror="this.style.display='none'">
+        </div>
+</div>
+	<div class="ob-text-content">
+            <div class="strip-rec-link-title ob-tcolor">WATCH NOW: The Pickers Uncover a Costly Surprise</div>
+        <div class="strip-rec-link-source ob-lcolor">
+        <span class="ob_source"><span class="rec-src-link"> (<span class="rec-src-at"></span>History.com)</span></span>    </div>
+    </div>
+        </div>
+</div>                        </div>
+</div>	</div>
+			<div class="ob_what">
+	
+	<a href="http://www.outbrain.com/what-is/default/en" onmousedown="">
+
+		[?]
+	</a>
+</div>
+	</div></div></div>
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:promo-bottom-article 3rd ad slot (sc):Below fold ad slot">
+                                                                
+    
+	
+		
+											
+
+	
+    
+        
+        <div id="Middle2" class=" hide-on-popup" data-cb-ad-id="Middle2">
+            
+            	
+            
+
+
+
+<!--  Site: guardian.co.uk (US)   Zone: Culture BTF MPU   Size: Medium Rectangle  -->
+
+<div id="D12_508ABCA0_4A76DA" style="display: inline-block;"><!-- Copyright 2008 DoubleClick, a division of Google Inc. All rights reserved. -->
+<!-- Code auto-generated on Fri Nov 22 15:43:50 EST 2013 -->
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="DCF277852061" height="250" width="300"><param name="movie" value="http://s0.2mdn.net/3757002/300x250blacktag.swf"><param name="flashvars" value="moviePath=http://s0.2mdn.net/3757002/&amp;moviepath=http://s0.2mdn.net/3757002/&amp;clickTAG=http%3A//ad.doubleclick.net/click%253Bh%253Dv8/3ea3/f/7a/%252a/f%253B277852061%253B0-0%253B0%253B105118066%253B4307-300/250%253B56523661/56412868/1%253B%253B%257Esscs%253D%253fhttp%3A//mpc.mxptint.net/9S1S276C8A4ES142FS6095S12CSFASC0DSBDB_508ABCA3_B8C37CSD12_508ABCA0_4A76DA%253fhttp%3A//r.mxptint.net%253fhttp%253a%252f%252fwww.pcrichard.com/2013/November/blacktag/cat750074.pcrc%253FpageNum%253D0%2526catId%253Dcat750074%2526trail%253D%2526pageSize%253D60+%2526%253Fcm_mmc%253DDisplay-_-Maxpoint-_-Blacktag-_-300x250%253F%2526utm_source%253DMaxpoint%2526utm_medium%253Ddisplay%2526utm_content%253D300x250%2526utm_campaign%253DBlacktag"><param name="quality" value="high"><param name="wmode" value="opaque"><param name="base" value="http://s0.2mdn.net/3757002"><param name="AllowScriptAccess" value="never"><embed src="300x250blacktag.swf" flashvars="moviePath=http://s0.2mdn.net/3757002/&amp;moviepath=http://s0.2mdn.net/3757002/&amp;clickTAG=http%3A//ad.doubleclick.net/click%253Bh%253Dv8/3ea3/f/7a/%252a/f%253B277852061%253B0-0%253B0%253B105118066%253B4307-300/250%253B56523661/56412868/1%253B%253B%257Esscs%253D%253fhttp%3A//mpc.mxptint.net/9S1S276C8A4ES142FS6095S12CSFASC0DSBDB_508ABCA3_B8C37CSD12_508ABCA0_4A76DA%253fhttp%3A//r.mxptint.net%253fhttp%253a%252f%252fwww.pcrichard.com/2013/November/blacktag/cat750074.pcrc%253FpageNum%253D0%2526catId%253Dcat750074%2526trail%253D%2526pageSize%253D60+%2526%253Fcm_mmc%253DDisplay-_-Maxpoint-_-Blacktag-_-300x250%253F%2526utm_source%253DMaxpoint%2526utm_medium%253Ddisplay%2526utm_content%253D300x250%2526utm_campaign%253DBlacktag" type="application/x-shockwave-flash" quality="high" swliveconnect="true" wmode="opaque" name="DCF277852061" base="http://s0.2mdn.net/3757002" allowscriptaccess="never" height="250" width="300"></object>
+<noscript><a target="_blank" href="http://ad.doubleclick.net/click%3Bh%3Dv8/3ea3/f/7a/%2a/f%3B277852061%3B0-0%3B0%3B105118066%3B4307-300/250%3B56523661/56412868/1%3B%3B%7Esscs%3D%3fhttp://mpc.mxptint.net/9S1S276C8A4ES142FS6095S12CSFASC0DSBDB_508ABCA3_B8C37CSD12_508ABCA0_4A76DA%3fhttp://r.mxptint.net%3fhttp%3a%2f%2fwww.pcrichard.com/2013/November/blacktag/cat750074.pcrc%3FpageNum%3D0%26catId%3Dcat750074%26trail%3D%26pageSize%3D60+%26%3Fcm_mmc%3DDisplay-_-Maxpoint-_-Blacktag-_-300x250%3F%26utm_source%3DMaxpoint%26utm_medium%3Ddisplay%26utm_content%3D300x250%26utm_campaign%3DBlacktag"><img src="http://s0.2mdn.net/3757002/300x250blacktag.jpg" width="300" height="250" border="0" alt="Advertisement" galleryimg="no"></a></noscript>
+</div><div style="height: 0px; width: 0px; overflow: hidden;"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_12.html" marginwidth="0" marginheight="0" style="height: 0px; width: 0px;" frameborder="0" height="0" scrolling="NO" width="0"></iframe></div>
+
+<img src="5950596f70564a5a7a47384141466256_001.dat" style="display: none;" alt="">
+        </div>
+
+    
+
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper six-col" data-component="Article:promo-bottom-article Bottom article advertiserlinks:Advertiser links for article page">
+                                                                
+    
+	
+		
+											
+
+	<div id="advertiser-container">
+							
+			<script type="text/javascript">
+
+
+google_ad_client = 'ca-guardian_js';
+google_ad_channel = 'books';
+</script>
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+<script>
+
+
+google_max_num_ads = '3';
+
+</script>
+			    				<div id="google-ads-container" class="eight-col edge component advertiser-links" style="display: block;"><div class="hd"><h2><a class="ad_attribution" href="https://www.google.com/url?ct=abg&amp;q=https://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttp://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory%26gl%3DUS%26hl%3Den%26client%3Dca-guardian_js%26hideleadgen%3D1%26ai0%3DCF-5v6wuRUq2MK7HewQGpu4DIB52pwIcCse-w3hHAjbcBEAEghbvoDygDUL-RoasEYMnGqYvApNgPoAHz9YD0A8gBAagDAaoEpAFP0EWhubGdBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6T6YE_Q-wWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwN0Ocm4AH9Yn_Cw%26ai1%3DCcycN6wuRUq2MK7HewQGpu4DIB6rK4YsGwuOhiErAjbcBEAIghbvoDygDUIO7tKIBYMnGqYvApNgPoAHO54_kA8gBAagDAaoEpwFP0FWGtbGeBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vIUkL6oaTJeGd9a_zS2Q2Z2uud05R9GqdqNyu33sxRUBMqbN7gVN2sGYWcpknV4AHmpjwGw%26ai2%3DCiQFu6wuRUq2MK7HewQGpu4DIB6WLlLwD5abskUjAjbcBEAMghbvoDygDUJLe4aYHYMnGqYvApNgPoAGF6b__A8gBAagDAaoEowFP0HWpsbGfBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6TqbdDXuwWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwZRQTgAfjlkA&amp;usg=AFQjCNERp-Q2ac4AnFkeuymYlpev5XjVYg">Ads by Google</a></h2></div><div class="bd"><ul class="l1d"><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CF-5v6wuRUq2MK7HewQGpu4DIB52pwIcCse-w3hHAjbcBEAEghbvoDygDUL-RoasEYMnGqYvApNgPoAHz9YD0A8gBAagDAaoEpAFP0EWhubGdBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6T6YE_Q-wWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwN0Ocm4AH9Yn_Cw&amp;num=1&amp;sig=AOD64_3__LVhs33YSKSaw_GLCgK2nLGjmQ&amp;client=ca-guardian_js&amp;adurl=http://www.vjrussolaw.com">Vincent J. Russo &amp; Assoc</a></p><p>Long Islands Signature Elder Law Firm with 4 Locations on the Island</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CF-5v6wuRUq2MK7HewQGpu4DIB52pwIcCse-w3hHAjbcBEAEghbvoDygDUL-RoasEYMnGqYvApNgPoAHz9YD0A8gBAagDAaoEpAFP0EWhubGdBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6T6YE_Q-wWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwN0Ocm4AH9Yn_Cw&amp;num=1&amp;sig=AOD64_3__LVhs33YSKSaw_GLCgK2nLGjmQ&amp;client=ca-guardian_js&amp;adurl=http://www.vjrussolaw.com">www.vjrussolaw.com</a></p></li><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CcycN6wuRUq2MK7HewQGpu4DIB6rK4YsGwuOhiErAjbcBEAIghbvoDygDUIO7tKIBYMnGqYvApNgPoAHO54_kA8gBAagDAaoEpwFP0FWGtbGeBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vIUkL6oaTJeGd9a_zS2Q2Z2uud05R9GqdqNyu33sxRUBMqbN7gVN2sGYWcpknV4AHmpjwGw&amp;num=2&amp;sig=AOD64_0w1yQlTRXBnIS3Hei1-rIHBAKqlg&amp;client=ca-guardian_js&amp;adurl=http://www.sovereign-investor.com/landing/ppc/tsi/svs_LA16_Escape_From_America.php%3Fcode%3DX190LA16">How To Expatriate?</a></p><p>Learn How to Expatriate, Former Congressman Reveals 6 Locations...</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CcycN6wuRUq2MK7HewQGpu4DIB6rK4YsGwuOhiErAjbcBEAIghbvoDygDUIO7tKIBYMnGqYvApNgPoAHO54_kA8gBAagDAaoEpwFP0FWGtbGeBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vIUkL6oaTJeGd9a_zS2Q2Z2uud05R9GqdqNyu33sxRUBMqbN7gVN2sGYWcpknV4AHmpjwGw&amp;num=2&amp;sig=AOD64_0w1yQlTRXBnIS3Hei1-rIHBAKqlg&amp;client=ca-guardian_js&amp;adurl=http://www.sovereign-investor.com/landing/ppc/tsi/svs_LA16_Escape_From_America.php%3Fcode%3DX190LA16">www.Sovereign-Investor.com</a></p></li><li><p class="t6"><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CiQFu6wuRUq2MK7HewQGpu4DIB6WLlLwD5abskUjAjbcBEAMghbvoDygDUJLe4aYHYMnGqYvApNgPoAGF6b__A8gBAagDAaoEowFP0HWpsbGfBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6TqbdDXuwWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwZRQTgAfjlkA&amp;num=3&amp;sig=AOD64_3Mb8F0FpmDwvjUVeEO7X_Heb_q9A&amp;client=ca-guardian_js&amp;adurl=http://www.TotalLegal.com/livingwill.asp%3Fsrc%3Dg12livingwillsz">Free Living Wills Online</a></p><p>Forms for Every State. Simple - Prepare Online &amp; Print.</p><p><a target="_TOP" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CiQFu6wuRUq2MK7HewQGpu4DIB6WLlLwD5abskUjAjbcBEAMghbvoDygDUJLe4aYHYMnGqYvApNgPoAGF6b__A8gBAagDAaoEowFP0HWpsbGfBRKhwxBniBVYK1507SEwgLRvocUjraZO-9uKPZ5Zn28qkTPlypjrms-qqKDG6IzQuKgW-MCEPYiDndqE-NTRYmqU9Tb2lZdjS9k7zyhyij353-AcFvcd3eGy75q85jhSXxQIWsvKl_d9u6lyCdeXvr5vITEI6s6TqbdDXuwWAGQ2AGuuV1NRwpee7CGtq44ydLVPqMZ4gTNwZRQTgAfjlkA&amp;num=3&amp;sig=AOD64_3Mb8F0FpmDwvjUVeEO7X_Heb_q9A&amp;client=ca-guardian_js&amp;adurl=http://www.TotalLegal.com/livingwill.asp%3Fsrc%3Dg12livingwillsz">www.TotalLegal.com</a></p></li></ul></div></div>
+		<script type="text/javascript">
+
+		//<![CDATA[
+			if (true) {
+					  writeScript("http://pagead2.googlesyndication.com/pagead/show_ads.js", false, function(){});
+			}
+		// ]]>
+		</script><script type="text/javascript" src="show_ads.js"></script><script gapi_processed="true" src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script gapi_processed="true" language="JavaScript1.1" src="ads"></script>
+	
+			</div>
+
+                                                    </span>
+                                            				
+			        
+
+			    
+		</div>
+
+		<div id="promo" class="var-a">
+				<div id="promo" class="four-col edge">
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo right hand ad slot on all sites:Flexible right hand slot advert">
+                                                                
+    
+	
+		
+											
+    
+        
+        <div id="Right1" class=" hide-on-popup" data-cb-ad-id="Right1">
+            
+            	
+            <iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_13.html" marginwidth="0" marginheight="0" hspace="0" vspace="0" bordercolor="#000000" frameborder="0" height="250" scrolling="no" width="300">
+
+<div style="display: none" id="__document_write_ajax_div-69"></div><SCRIPT language='JavaScript1.1' >window['__document_write_ajax_callbacks__']['69']();</script>
+<NOSCRIPT>
+<A HREF="http://oas.theguardian.com/5c/www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/oas.html/L30/1487589545/Right1/Guardian/GooglePlus_ROS_300x250_OCT-DEC13_USA/GoogleOct_US_300x250_DA.html/5950596f70564a5a7a47384141466256?http://ad-emea.doubleclick.net/jump/N5295.133705.GUARDIAN.CO.UK/B7890223.2;abr=!ie4;abr=!ie5;sz=300x250;ord=1487589545?">
+<IMG SRC="http://fw.adsafeprotected.com/rfw/ad-emea.doubleclick.net/20989/1496331/ad/N5295.133705.GUARDIAN.CO.UK/B7890223.2;abr=!ie4;abr=!ie5;sz=300x250;ord=1487589545?" BORDER=0 WIDTH=300 HEIGHT=250 ALT="Advertisement"></A>
+</NOSCRIPT>
+</iframe>
+<img src="5950596f70564a5a7a47384141466256_002.dat" style="display: none;" alt="">
+        </div>
+
+    
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo On Tumblr:microapp gu-tumblr-grid:Tumblr Grid Narrow Setting">
+                                                    
+	
+		
+		
+	
+	
+
+		<div class="component">
+			
+			<div class="hd tgrid">
+				<h2>On Tumblr: English to English</h2>
+				
+			</div>
+			
+
+			<div id="tileholdernarrow">
+				<div class="tile" id="tile_1"><a href="http://english2english.tumblr.com/post/67759000013" id="1385137230"><img src="tumblr_mwoaq6wbfB1sqqf54o1_250.jpg" class="tileBackground" style="width: 248px; height: 149px; top: 0px; left: -49px;" alt=""><div class="fakefakecover"><h2>
+
+													– Erin McCann Over at the mother ship, we’ve collected ...
+												</h2><p>
+
+													Photos
+												</p><h3>
+
+													Tumblr
+												</h3></div><div class="cover"><h2>
+
+												– Erin McCann Over at the mother ship, we’ve collected ...
+											</h2><p>
+
+												Photos
+											</p><h3>
+
+												Tumblr
+											</h3></div></a></div><div class="tile" id="tile_2"><a href="http://english2english.tumblr.com/post/67570236137" id="1384965982"><img src="tumblr_mwklp1iWor1sqqf54o1_250.jpg" class="tileBackground" style="width: 248px; height: 149px; top: 0px; left: -49px;" alt=""><div class="fakefakecover"><h2>
+
+													-Amanda Holpuch: The living members of Monty Python confirmed on ...
+												</h2><p>
+
+													Photos
+												</p><h3>
+
+													Tumblr
+												</h3></div><div class="cover"><h2>
+
+												-Amanda Holpuch: The living members of Monty Python confirmed on ...
+											</h2><p>
+
+												Photos
+											</p><h3>
+
+												Tumblr
+											</h3></div></a></div><div class="tile" id="tile_3"><a href="http://english2english.tumblr.com/post/67490392216" id="1384893109"><img src="tumblr_mwj2d12oJf1sqqf54o1_250.jpg" class="tileBackground" style="width: 149px; height: 244px; top: -47px; left: 0px;" alt=""><div class="fakefakecover"><h2>
+
+													On the 150th anniversary of Abraham Lincoln’s delivery of the ...
+												</h2><p>
+
+													Photos
+												</p><h3>
+
+													Tumblr
+												</h3></div><div class="cover"><h2>
+
+												On the 150th anniversary of Abraham Lincoln’s delivery of the ...
+											</h2><p>
+
+												Photos
+											</p><h3>
+
+												Tumblr
+											</h3></div></a></div><div class="tile" id="tile_4"><a href="http://english2english.tumblr.com/post/67471703491" id="1384877491"><div class="fakecover"><h2>
+
+													Office Selfies
+												</h2><p>
+
+													Post
+												</p><h3>
+
+													Tumblr
+												</h3></div><div class="cover"><h2>
+
+												Office Selfies
+											</h2><p>
+
+												Post
+											</p><h3>
+
+												Tumblr
+											</h3></div></a></div>
+			</div>
+		</div>
+	
+	<script>
+
+	  var jQ = jQuery.noConflict();
+
+		
+
+	  var tumblrGridnarrow = {
+	    
+	    init: function() {
+
+	    	jQ('.tileBackground').error(function() {
+	    		jQ(this).siblings('.fakefakecover').removeClass('fakefakecover').addClass('fakecover');
+	    		jQ(this).remove();
+	    	});
+
+	    	jQ('div#tileholdernarrow div.tile').mouseenter(function(){
+	    		var thisCover = jQ(this).children().children('.cover');
+	    		thisCover.stop(true).fadeTo(100, 1);
+	    	})
+
+	    	jQ('div#tileholdernarrow div.tile').mouseleave(function(){
+	    		var thisCover = jQ(this).children().children('.cover');
+	    		if (!thisCover.hasClass('coverSolid')) {
+	    			thisCover.stop(true).fadeTo(333, 0);
+	    		}
+	    	})
+
+	    	jQ('.tileBackground').each(function(i, v) {
+	    		jQ(v).attr('src', jQ(v).attr('alt'));
+	    		jQ(v).attr('alt', '');
+	    	});
+
+	    	
+
+	    }
+	  }
+
+		
+    tumblrGridnarrow.init();
+	 	
+	 </script>
+
+	
+
+
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Gigantic Pixie Bar:microapp gigantic-pixie-bar:Gigantic Pixie Bar component">
+                                                    <div>
+ 
+
+<div class="component">
+	<div class="gigantic-pixie-bar with-section">
+		<div class="hd">
+			<h2>On the Guardian today</h2>
+        </div>
+        <ol>
+            <li>
+                <a href="http://www.theguardian.com/lifeandstyle/interactive/2013/nov/20/rethink-thanksgiving-swap-recipes">
+                    <div class="image-clip"><span class="section-name lifeandstyle">Life and style</span><img alt="Thanksgiving recipe swap" src="Thanksgiving-recipe-swap--004.jpg" height="180" width="300"></div>
+                    <h3 class="lifeandstyle">Thanksgiving recipe swap</h3>
+                </a>
+            </li><li>
+                <a href="http://www.theguardian.com/film/2013/nov/23/daniel-radcliffe-interview-no-plan-distance-harry-potter">
+                    <div class="image-clip"><span class="section-name film">Film</span><img alt="Daniel Radcliffe: 'There's no master plan to distance myself from Harry Potter'" src="Daniel-Radcliffe-008.jpg" height="180" width="300"></div>
+                    <h3 class="film">Daniel Radcliffe: 'There's no master plan to distance myself from Harry Potter'</h3>
+                </a>
+            </li><li>
+                <a href="http://www.theguardian.com/technology/2013/nov/22/doctor-who-50th-anniversary-the-story-behind-the-google-doodle">
+                    <div class="image-clip"><span class="section-name technology">Technology</span><img alt="Doctor Who Google doodle: the story behind the Whodle" src="ee21fc44-204d-490e-a1d6-dda5dc970ef5-300x180.jpeg" height="180" width="300"></div>
+                    <h3 class="technology">Doctor Who Google doodle: the story behind the Whodle</h3>
+                </a>
+            </li><li>
+                <a href="http://www.theguardian.com/world/2013/nov/22/central-african-republic-verge-of-genocide">
+                    <div class="image-clip"><span class="section-name world">World news</span><img alt="Unspeakable horrors in a country on the verge of genocide" src="Bossangoa-Central-African-005.jpg" height="180" width="300"></div>
+                    <h3 class="world">Unspeakable horrors in a country on the verge of genocide</h3>
+                </a>
+            </li><li>
+                <a href="http://www.theguardian.com/football/2013/nov/23/west-ham-v-chelsea-live-premier-league">
+                    <div class="image-clip"><span class="section-name football">Football</span><img alt="West Ham United v Chelsea – as it happened" src="da7324f7-dfe3-4cd7-ac1a-9d42f04d64de-300x180.jpeg" height="180" width="300"></div>
+                    <h3 class="football">West Ham United v Chelsea – as it happened</h3>
+                </a>
+            </li><li>
+                <a href="http://www.theguardian.com/commentisfree/2013/nov/22/google-end-china-web-censorship-10-days">
+                    <div class="image-clip"><span class="section-name commentisfree">Comment is free</span><img alt="Google could end China's web censorship in 10 days – why doesn't it?" src="Eric-Schmidt-executive-ch-006.jpg" height="180" width="300"></div>
+                    <h3 class="commentisfree">Google could end China's web censorship in 10 days – why doesn't it?</h3>
+                </a>
+            </li>
+        </ol>
+    </div>
+</div></div>  
+  
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Today's video:List of trails from named trailblock">
+                                                                
+    
+	
+		
+											
+		
+	<div class="promo-component list-of-trails">
+		<div class="hd">
+						<h3>
+
+		
+	        Today's best video
+    </h3>
+			</div>
+		<div class="bd">
+			<ul class="l1d">
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/world/video/2013/nov/23/jfk-secret-service-agent-assassination-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Kennedy-riding-in-Dallas--003.jpg" alt="Kennedy riding in Dallas motorcade" class="video-mask" height="168" width="280">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="168" width="280"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/world/video/2013/nov/23/jfk-secret-service-agent-assassination-video" title="Video will start automatically on this page" class="link-text">JFK: former secret service agent relives assassination</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Former secret service agent Clint Hill gives his account of the day John F Kennedy died as the US marks 50 years since Kennedy's assassination
+		</div>
+	
+					 
+																																									                	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-discussion-comment-counts"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://resource.guim.co.uk/global/static/file/discussion/5/fill-comment-counts-swimlaned.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+        
+    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/tv-and-radio/video/2013/nov/22/doctor-who-theme-bbc-radiophonic-workshop-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Doctor-Who-50th-anniversa-008.jpg" alt="Doctor Who 50th anniversary title sequences" class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/tv-and-radio/video/2013/nov/22/doctor-who-theme-bbc-radiophonic-workshop-video" title="Video will start automatically on this page" class="link-text">Doctor Who theme re-recorded</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			New recording marks the series' 50th anniversary
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/football/video/2013/nov/22/bayern-munich-recreate-borussia-dortmund-stunt-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Bayern-Munichs-Franck-Rib-008.jpg" alt="Bayern Munich's Franck Ribbery " class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/football/video/2013/nov/22/bayern-munich-recreate-borussia-dortmund-stunt-video" title="Video will start automatically on this page" class="link-text">Bayern Munich recreate Borussia Dortmund stunt</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Players recreate trick on board team bus
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/film/video/2013/nov/22/muppets-most-wanted-ricky-gervais-trailer-video" title="Video will start automatically on this page" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Ricky-Gervais-Miss-Piggy--004.jpg" alt="Ricky Gervais, Miss Piggy and Kermit the Frog" class="video-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="video_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/film/video/2013/nov/22/muppets-most-wanted-ricky-gervais-trailer-video" title="Video will start automatically on this page" class="link-text">Muppets Most Wanted</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			The Muppets return with a new adventure. Watch the trailer
+		</div>
+	
+					 
+																																									    														</li>
+							</ul>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Most viewed by section - Zeitgeist:microapp zeitgeist:Most Viewed Old Promo">
+                                                    
+
+<script type="text/javascript">
+
+jQ(function($){$('.about-zeit').each(function(){var distance=-10;var time=250;var hideDelay=500;var hideDelayTimer=null;var beingShown=false;var shown=false;var trigger=$('.what-is',this);var info=$('.zeit-popup',this).css('opacity',0);$([trigger.get(0),info.get(0)]).mouseover(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);if(beingShown||shown){return;}else{beingShown=true;info.css({top:-97,right:0,display:'block'}).animate({top:'-='+distance+'px',opacity:1},time,'swing',function(){beingShown=false;shown=true;});}return false;}).mouseout(function(){if(hideDelayTimer)clearTimeout(hideDelayTimer);hideDelayTimer=setTimeout(function(){hideDelayTimer=null;info.animate({top:'-='+distance+'px',opacity:0},time,'swing',function(){shown=false;info.css('display','none');});},hideDelay);return false;});});});
+</script>
+
+  <!------ widget old rhs: books : 2013-11-23 19:59:29.231897 ------>
+  <div class="m-zeitgeist promo-component four-col attention-data">
+
+    <div class="hd">
+    	<h3>On Books</h3>
+    </div>
+	
+  	<div class="bd">
+  		<div id="att-toggle">
+  			<ul class="tabs">
+          <li>
+            <a class="active" href="#att-most-viewed">Most viewed</a>
+          </li>
+          
+          
+          <li>
+            <a class="inactive" href="#att-latest">Latest</a>
+          </li>
+          
+        </ul>
+			 
+        <div id="att-panes">
+          <div class="att-tabs att-toggle-pane" id="att-most-viewed">
+            <p class="b2 zg-date">Last 24 hours</p>
+            <ol>
+              
+              <li class="l1 thumb">
+                
+                  
+                    <img class="tinythumb" src="Illustration-by-Rachel-Ga-003.jpg">
+                  
+                
+                <span class="rank">1.&nbsp;</span>
+                
+								<a href="http://www.theguardian.com/books/2013/nov/23/mantel-franzen-catton-writers-critics-best-books-2013">Writers and critics on the best books of 2013</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">2. </span>
+                
+								<a href="http://www.theguardian.com/books/2013/nov/23/albert-camus-outsider-catherine-camus">Camus will always be the outsider – and I'm proud of that, says writer's daughter</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">3. </span>
+                
+								<a href="http://www.theguardian.com/books/2013/nov/22/alex-ferguson-autobiography-david-beckham-reviews">Alex Ferguson: My Autobiography – review; David Beckham – review</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">4. </span>
+                
+								<a href="http://www.theguardian.com/books/2013/nov/22/alan-moore-comic-books-interview">Alan Moore: 'Why shouldn't you have a&nbsp;bit of fun while dealing with the deepest issues of the mind?'</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">5. </span>
+                
+								<a href="http://www.theguardian.com/books/2013/nov/23/hero-doris-lessing-margaret-drabble">My hero: Doris Lessing by Margaret&nbsp;Drabble</a>
+              </li>
+              
+              <li class="more-most-viewed l1 footer">
+					
+					<a href="http://www.theguardian.com/most-viewed/books">More most viewed</a>
+					
+              </li>
+            </ol>
+          </div>
+        
+          
+        
+          
+          <div class="att-tabs att-toggle-pane initially-off" id="att-latest">
+            <p class="b2 zg-date">Last 24 hours</p>
+            <ol>
+              
+              <li class="l1 thumb">
+                
+                  
+                    <img class="tinythumb" src="Albert-Camus-with-his-twi-003.jpg">
+                  
+                
+                <span class="rank">1.&nbsp;</span>
+                <a href="http://www.theguardian.com/books/2013/nov/23/albert-camus-outsider-catherine-camus">Camus will always be the outsider – and I'm proud of that, says writer's daughter</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">2. </span>
+                <a href="http://www.theguardian.com/books/2013/nov/23/review-you-dont-know-me-sophia-bennett">You Don't Know Me by Sophia Bennett - review</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">3. </span>
+                <a href="http://www.theguardian.com/books/2013/nov/23/black-sheep-susan-hill-review">Black Sheep by Susan Hill – review</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">4. </span>
+                <a href="http://www.theguardian.com/books/2013/nov/23/nothing-holds-back-night-vigan-review">Nothing Holds Back the Night by Delphine de Vigan – review</a>
+              </li>
+              
+              <li class="l1">
+                
+                <span class="rank">5. </span>
+                <a href="http://www.theguardian.com/books/2013/nov/23/sixpenny-song-jennifer-johnston-review">A Sixpenny Song by Jennifer Johnston – review</a>
+              </li>
+              
+              <li class="more-latest l1 footer">
+				
+				<a href="http://www.theguardian.com/books/all">All today's stories</a>
+				
+              </li>
+            </ol>
+          </div>
+          
+  
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<script type="text/javascript">
+
+  function cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce() {
+    try {
+      jQ('.m-zeitgeist #att-toggle ul.tabs li a').each(function(i, el) { if (jQ(el).html().trim().length === 0) { jQ(el).remove() }});
+    } catch(er) {
+      // Ignore
+    }
+  }
+  cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce();
+  //  And because we have no idea when the script runs that adds the extra <a> tag
+  setTimeout("cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce()", 1000);
+  setTimeout("cleanUpExtraWeirdLinkCreatedBySomeOtherScriptThatOnlyExistsOnOnePageThatICantFineAwesomesauce()", 2500);
+</script>
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo Books reviews:Latest reviews">
+                                                                
+    
+	
+		
+											
+
+		
+	<div class="latest-reviews promo-component">
+		<div class="hd">
+			<h3>Latest reviews</h3>	
+		</div>
+		<div class="bd">
+												<ul class="two-col">
+						<li>
+															<a href="http://www.theguardian.com/books/2013/nov/21/five-billion-years-solitude-lee-billings-review" class="link-image">
+										
+        
+            <img src="ESO-TELESCOPE-CAPTURES-TW-003.jpg" alt="ESO TELESCOPE CAPTURES TWO BRILLIANT GAS CLOUDS IN MAGALLANIC CLOUD" height="78" width="130">
+    								</a>
+																						<p>
+																		
+		
+	        <a href="http://www.theguardian.com/books/2013/nov/21/five-billion-years-solitude-lee-billings-review" class="link-text">Five Billion Years of Solitude: The Search for Life Among the Stars – review</a>
+    								</p>
+																													<p></p><p>Astronomy is enjoying a golden age, but why does the search for intelligent life outside our galaxy matter – and will we ever move off-planet? By <strong>Caspar Henderson </strong></p><p></p>
+													</li>
+					</ul>
+							  															<ul class="l1d two-col edge">
+										<li>
+													<p>								
+		
+	        <a href="http://www.theguardian.com/books/2013/nov/22/best-american-science-nature-writing-2013-review" class="link-text">The Best American Science and Nature Writing 2013 – review</a>
+    </p>
+																	</li>
+							  														<li>
+													<p>								
+		
+	        <a href="http://www.theguardian.com/books/2013/nov/23/sixpenny-song-jennifer-johnston-review" class="link-text">A Sixpenny Song by Jennifer Johnston – review</a>
+    </p>
+																	</li>
+							  														<li>
+													<p>								
+		
+	        <a href="http://www.theguardian.com/books/2013/nov/22/tinder-sally-gardner-review" class="link-text">Tinder by Sally Gardner – review</a>
+    </p>
+																	</li>
+							  														<li>
+													<p>								
+		
+	        <a href="http://www.theguardian.com/books/2013/nov/21/asterix-picts-ferri-conrad-review" class="link-text">Asterix and the Picts by Jean-Yves Ferri and Didier Conrad – review</a>
+    </p>
+																	</li>
+							  			</ul>
+		</div>
+		<div class="ft">
+			<a href="http://www.theguardian.com/books/books+tone/reviews" id="more-reviews-link">More books reviews</a>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo sponsored features:Sponsored features">
+                                                                
+    
+	
+		
+													
+	
+	
+	
+		
+					
+			
+	<div class="promo-component json-features x31 four-col" style="display: none;">
+		<div class="hd">
+			<h3>Sponsored feature</h3>
+		</div>
+		<div class="bd inline-pic">
+			<a class="link-image" rel="nofollow"><img alt="" height="121" width="130"></a>
+								        
+    
+        
+        <div id="x31" class=" hide-on-popup" data-cb-ad-id="x31">
+            
+            	
+            <a href="http://oas.theguardian.com/5c/www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/oas.html/510855935/x31/default/empty.gif/5950596f70564a5a7a47384141466256?x" target="_top"><img src="empty.gif" alt="" border="0" height="1" width="1"></a>
+        </div>
+
+        
+            
+            <script>
+
+
+                function showSponsoredFeaturex31(){
+                    if (window.sponJSON) {
+                        if(typeof(sponJSON) === 'object') {
+                          adx31 = sponJSON;
+                          var node = jQ('.json-features.x31');
+                          convertJSONtoAd(
+                              node.find('img:first-child'),
+                              node.find('a.t6'),
+                              node.find('p:last-child'),
+                              adx31,
+                              node.find('.hd').children().eq(0),
+                              'x31'
+                          );
+                        }
+                    }
+                }
+
+                                jQ(document).ready(function(){
+                    jQ('.x31-script-placeholder').writeCapture().replaceWith('<script>showSponsoredFeaturex31()<' + '/script>')
+                })
+
+			</script>
+			<a class="t6" rel="nofollow"></a>
+			<p></p>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:additional-promo Additional Promo:Additional promo">
+                                                                
+    
+	
+		
+												    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                                    
+    
+	
+		
+											
+    
+        
+        <div id="Position4" class=" hide-on-popup" data-cb-ad-id="Position4">
+            
+            	
+            <a href="http://oas.theguardian.com/5c/www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory/oas.html/1121870089/Position4/default/empty.gif/5950596f70564a5a7a47384141466256?x" target="_top"><img src="empty.gif" alt="" border="0" height="1" width="1"></a>
+        </div>
+
+    
+                                            				
+			        
+
+
+                                                    </span>
+                                            				
+			        
+
+
+		<div id="promo" class="four-col edge">
+		    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                    				
+			        
+
+	</div>
+</div>
+		</div>
+
+						<div id="promo" class="var-b">
+					    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+										
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper four-col" data-component="Article:promo-article-2012 Galleries:List of trails from named trailblock">
+                                                                
+    
+	
+		
+											
+		
+	<div class="promo-component list-of-trails">
+		<div class="hd">
+						<h3>
+
+		
+	        Today in pictures
+    </h3>
+			</div>
+		<div class="bd">
+			<ul class="l1d">
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/sport/gallery/2012/dec/17/bbc-sports-personality-year-pictures" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="sports-peronality-2012-003.jpg" alt="sports peronality 2012" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/sport/gallery/2012/dec/17/bbc-sports-personality-year-pictures" class="link-text">BBC Sports Personality of the Year – in pictures</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Bradley Wiggins capped his remarkable sporting year by taking home the big prize at the ceremony in London
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/artanddesign/gallery/2012/dec/16/my-best-winter-shot" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Martin-Parrs-M-Video-Chri-003.jpg" alt="Martin Parr's M Video Christmas party photograph" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/artanddesign/gallery/2012/dec/16/my-best-winter-shot" class="link-text">Dinner, dusk and dancing Russians: my best winter shot</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			A glass of wine with a rough sleeper, Santa in trunks, a thousand partying Muscovites … in a My Best Shot special, top photographers pick the image that sums up winter for them
+		</div>
+	
+					 
+																																									    														</li>
+																						<li class="inline-pic">
+										    					    
+																																										
+			
+			
+		
+	
+					    
+																																											
+		
+		
+		
+			
+	
+		
+						<a style="display: block; position: relative;" href="http://www.theguardian.com/world/gallery/2012/dec/13/monkey-adopts-kitten-in-pictures" data-link-name="anchor image" class="link-image ">
+										 
+    
+    
+    
+	<img src="Kimon-a-long-tailed-monke-001.jpg" alt="Kimon, a long-tailed monkey grooms a kitten, whom, she treats as her baby, Bintan Island, Indonesia" class="gallery-mask" height="84" width="140">
+													<img style="width: 140px; height: 84px;" src="gallery_140.png" alt="" class="mask" height="84" width="140"></a>
+			
+
+		
+	
+					    
+
+																																										
+			
+	 	
+	
+	
+				
+		<h4 class="t6">
+		
+	        <a href="http://www.theguardian.com/world/gallery/2012/dec/13/monkey-adopts-kitten-in-pictures" class="link-text">Monkey adopts kitten – in pictures</a>
+    </h4>
+					
+					    
+																																										
+			
+			
+		
+			
+			<div class="trail-text">
+
+											                        
+                                    			Kimon, an eight-year-old pet female long-tailed monkey, treats a kitten as her baby in Bintan Island, Indonesia
+		</div>
+	
+					 
+																																									    														</li>
+							</ul>
+		</div>
+	</div>
+
+                                                    </span>
+                                            				
+			        
+
+				</div>
+		
+				    	
+
+	    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+	
+	
+		
+			
+                                                        
+                                                                                                                <span class="trackable-component component-wrapper eight-col" data-component="Article:content-related-horizontal related-information-horizontal:microapp related-info-2:Related information horizontal (2)">
+                                                    
+    <div class="ma-placeholder-related-information-2-horizontal"><div class="eight-col component"><div class="hd"><h3><strong>Related information</strong></h3></div><div class="bd relatedContent"><div class="two-col"><div class="related-keywords"><h4 class="t6"><a href="http://www.theguardian.com/books/books?INTCMP=ILCNETTXT3487">Books</a></h4><ul><li><a href="http://www.theguardian.com/books/literary-criticism?INTCMP=ILCNETTXT3487" rel="tag">Literary criticism</a></li> · <li><a href="http://www.theguardian.com/books/scienceandnature?INTCMP=ILCNETTXT3487" rel="tag">Science and nature</a></li> · </ul><h4 class="t6"><a href="http://www.theguardian.com/culture/culture?INTCMP=ILCNETTXT3487">Culture</a></h4><ul></ul></div></div><div class="two-col"><a href="http://www.theguardian.com/books/2008/apr/24/news.culture?INTCMP=ILCNETTXT3487" class="related-content-image"></a><p class="t6"><a href="http://www.theguardian.com/books/2008/apr/24/news.culture?INTCMP=ILCNETTXT3487" class="related-content-image"><span class="related-content-media-information"></span></a><a href="http://www.theguardian.com/books/2008/apr/24/news.culture?INTCMP=ILCNETTXT3487" class="related-content-headline">Lifetime achievement 'double' for Cynthia Ozick</a></p><p class="t6 related-content-publication-date">24 Apr 2008</p><p class="related-content-trail-text"></p><p>Acclaimed writer and critic takes Malamud and Nabokov prizes</p><p></p></div><div class="two-col"><ul class="l1d"><li><p class="t6 related-content-publication-date">30 Aug 2007</p><p class="t7"><a href="http://www.theguardian.com/news/2007/aug/30/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-headline">Julia Briggs</a></p></li><li><p class="t6 related-content-publication-date">23 Oct 2005</p><p class="t7"><a href="http://www.theguardian.com/news/2005/oct/24/guardianobituaries.booksobituaries1?INTCMP=ILCNETTXT3487" class="related-content-headline">Stanley Burnshaw</a></p></li><li><p class="t6 related-content-publication-date">31 Aug 2004</p><p class="t7"><a href="http://www.theguardian.com/news/2004/sep/01/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-headline">Donald Justice</a></p></li></ul></div><div class="two-col edge"><a href="http://www.theguardian.com/news/2004/aug/19/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-image"></a><p class="t6"><a href="http://www.theguardian.com/news/2004/aug/19/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-image"><span class="related-content-media-information"></span></a><a href="http://www.theguardian.com/news/2004/aug/19/guardianobituaries.booksobituaries?INTCMP=ILCNETTXT3487" class="related-content-headline">John Weightman</a></p><p class="t6 related-content-publication-date">19 Aug 2004</p><p class="related-content-trail-text"><b>Obituary: </b>Critic and French scholar who was driven by his love of language and clarity of thought.</p></div></div></div></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://related-info-hrd.appspot.com/static/related-information-1.3.min.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                                    </span>
+                                            				
+			        
+
+
+
+		
+
+
+			    	    	    	    
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                    				
+			        
+
+
+	    
+    
+                        
+
+<div class="trackable-component crumb-wrapper global" data-component="Article:crumb nav" xmlns:v="http://rdf.data-vocabulary.org/#">
+
+    
+    
+                    <ul class="crumb-nav">
+                <li id="crumb1">			<span>
+
+		
+	        Hot topics
+    </span>
+	</li>
+            </ul>
+        
+        <ul class="local-nav">
+                                                <li class="first">
+                                                                        <a href="http://www.theguardian.com/books/books+tone/news" data-link-name="Book news">Book news</a>
+                    </li>
+                                                                <li>
+                                                                        <a href="http://www.theguardian.com/books/books+tone/reviews" data-link-name="Book reviews">Book reviews</a>
+                    </li>
+                                                                <li>
+                                                                        <a href="http://www.theguardian.com/childrens-books-site" data-link-name="Children's books">Children's books</a>
+                    </li>
+                                                                <li>
+                                                                        <a href="http://www.theguardian.com/books/series/books" data-link-name="The Guardian Books Podcast">The Guardian Books Podcast</a>
+                    </li>
+                                                                <li class=" last">
+                                                                        <a href="http://www.theguardian.com/books/edinburgh-book-festival" data-link-name="Edinburgh International Book Festival">Edinburgh International Book Festival</a>
+                    </li>
+                                    </ul>
+    
+</div>
+
+<div id="footer-container">
+    <div id="footer" class="culture footer b4">
+    	    	<ul id="footer-links">
+    		    			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://syndication.guardian.co.uk/" class="link-text">License/buy our content</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/privacy-policy" class="link-text">Privacy policy</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/help/terms-of-service" class="link-text">Terms of service</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/advertising/guardian-america-advertising-info" class="link-text">US advertising</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/index/subjects/a" class="link-text">A - Z index</a>
+    </li>
+					
+  |     			    				    
+
+																																										
+			
+	
+	
+	
+				
+		<li>
+		
+	        <a href="http://www.theguardian.com/info/about-guardian-us" class="link-text">About us</a>
+    </li>
+					
+     			    		    	</ul>
+    
+        <ul id="copyright-links">
+        	    			<li>© 2013 Guardian News and Media Limited or its affiliated companies. All rights reserved.</li>
+    			    		        </ul>
+    </div>
+</div>
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script>
+
+    require(['http://s.ophan.co.uk/js/ophan.min.js', 'http://s.ophan.co.uk/js/campaign.min.js'], function(ophan, campaign) {
+        if (document.readyState === 'complete') {
+            ophan.startLog();
+        } else {
+            if (window.addEventListener) {
+                window.addEventListener('load', ophan.startLog, false);
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', ophan.startLog);
+            }
+        }
+    });
+</script>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script>
+
+jQ(function() {
+    jQ('#article-wrapper .factbox-container .factbox').each(function() {
+        var node = jQ(this),
+            className = node.attr('class');
+        node.attr('data-component', 'comp: r2: ' + className).addClass('trackable-component');
+    });
+});
+</script>
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                                    
+    
+	
+		
+											
+	    	    	
+	
+
+
+  	
+  	
+
+
+    <ul style="top: -1000px; left: -1000px;" class="component trackable-component undocked-share share-links" data-component="Article:floating share tools">
+
+    	<li class="full-line facebook" data-link-name="facebook">
+	    <span class="facebook-share">
+		<span class="facebook-share-count"><i></i><u></u><span>0</span></span><a class="facebook-share-btn" href="http://www.facebook.com/dialog/feed?app_id=180444840287&amp;link=http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory&amp;%20display=popup&amp;redirect_uri=http://static-serve.appspot.com/static/facebook-share/callback.html&amp;show_error=false&amp;ref=desktop" data-href="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" data-link-name="Facebook Share">
+		    <span class="facebook-share-icon"></span>
+		    <span class="facebook-share-label">Share</span>
+		</a>
+	    </span>
+	</li>
+		
+
+    	<li class="full-line tweet">
+												<iframe style="width: 55px; height: 62px;" data-twttr-rendered="true" title="Twitter Tweet Button" class="twitter-share-button twitter-tweet-button twitter-count-vertical" src="eve-kosofsky-sedgwick-obituary-queer-theory_14.html" allowtransparency="true" id="twitter-widget-2" frameborder="0" scrolling="no"></iframe>
+	</li>
+		
+
+    	<li class="full-line google-plus" data-link-name="Google plus">
+    		
+    	<div id="___plusone_2" style="text-indent: 0px; margin: 0px; padding: 0px; background: none repeat ; 0% transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 50px; height: 60px;"><iframe title="+1" data-gapiattached="true" src="eve-kosofsky-sedgwick-obituary-queer-theory_15.html" name="I2_1385237484891" id="I2_1385237484891" vspace="0" tabindex="0" style="position: static; top: 0px; width: 50px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 60px;" marginwidth="0" marginheight="0" hspace="0" frameborder="0" scrolling="no" width="100%"></iframe></div>
+	</li>
+
+
+        <li id="undocked-share-linked-in" class="full-line linked-in" data-link-name="LinkedIn">
+        	
+        <span class="IN-widget" style="line-height: 1; vertical-align: baseline; display: inline-block; text-align: center;"><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385237484860_4-container" class="IN-top IN-empty"><span id="li_ui_li_gen_1385237484860_4" class="IN-top"><span id="li_ui_li_gen_1385237484860_4-inner" class="IN-top"><span id="li_ui_li_gen_1385237484860_4-content" class="IN-top">0</span></span></span></span></span><br><span style="padding: 0px ! important; margin: 0px ! important; text-indent: 0px ! important; display: inline-block ! important; vertical-align: baseline ! important; font-size: 1px ! important;"><span id="li_ui_li_gen_1385237484858_3"><a id="li_ui_li_gen_1385237484858_3-link" href="javascript:void(0);"><span id="li_ui_li_gen_1385237484858_3-logo">in</span><span id="li_ui_li_gen_1385237484858_3-title"><span id="li_ui_li_gen_1385237484858_3-mark"></span><span id="li_ui_li_gen_1385237484858_3-title-text">Share</span></span></a></span></span></span><script type="IN/Share+init" data-counter="top" data-showzero="true"></script>
+    </li>
+
+    
+    </ul>
+
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script type="text/javascript" src="foresee-trigger.js"></script>
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-signin-top-nav"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.signin-top-nav.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-signin-overlay"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.overlay.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-facebook-banner"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.facebookbanner.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-cookie-notification"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.site-notification.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-identity-location"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.location.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-alert-signup"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://guardian-notifications.appspot.com/static/js/user-notifications.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        <script async="" defer="">
+
+jQ(function() {
+	if(jQ.support.cors && !(typeof(window.getSelection) === 'undefined')) {
+		jQ(window).on("copy", function() { jQ.post("http://gu-text-catcher.appspot.com/capture", {selection: window.getSelection().toString(), path: window.location.pathname}); });
+	}
+});
+</script>
+
+                                            				
+			        
+
+			            						
+					
+					
+                                                                                                                                                                                                                            
+
+                                                                        
+    <div class="initially-off ma-placeholder-identity-cookie-refresh"></div>
+    <script>
+
+        jQ(document).ready(function(){
+          jQ.ajax({ url : 'http://id.guim.co.uk/static/14/cs/js/guardian.r2.identity.refresh.js', dataType : 'script', type : 'get', crossDomain : true, cache: true });
+        });
+    </script>
+  
+                                            				
+			        
+
+    	    
+
+
+
+
+
+		
+										
+
+        
+
+
+
+
+	</div><iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" src="eve-kosofsky-sedgwick-obituary-queer-theory_20.html" id="oauth2relay683826144" name="oauth2relay683826144"></iframe>
+	    
+	
+
+
+<script src="10822091.js"></script>
+
+    	
+
+
+
+
+            <script id="omnitureGeneratorScript" type="text/javascript">
+
+    //<![CDATA[
+    if(true) {
+        var s_account="guardiangu-network";
+
+        
+        writeScript('http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/scripts/omniture-H.25.5.js', false, function(){});
+    }
+    //]]>
+    </script><script type="text/javascript" src="omniture-H.25.5.js"></script>
+
+            <script type="text/javascript">
+
+        window.optimizely = window.optimizely || [];
+        window.optimizely.push("sc_activate");
+        if (window.optimizely.activeExperiments && window.optimizely.activeExperiments.length > 0) {
+            s.events = s.events ? s.events + ",event58" : "event58";
+        }
+    </script>
+    
+    <script id="omnitureScript" type="text/javascript">
+
+
+    //<![CDATA[
+    if(true) {
+        	
+
+        if (false) {
+            s.pageName = document.title;
+        } else {
+            s.pageName = "Culture:Books:Science and nature:Article:eve-kosofsky-sedgwick-obituary-queer-theory:1214052";
+        }
+
+        s.channel = "Books";
+        s.server  = "102539233";
+
+        var userId = "(none)";
+        if(userId != "(none)") {
+            s.prop2   = "GUID:" + userId;
+        }
+
+                    s.prop3 = "Guardian";
+                    s.prop4 = "Science and nature (Books genre),Books,Culture,Literary criticism (Books genre)";
+                    s.prop5 = "Not commercially useful";
+                    s.prop6 = "Sarah Phillips";
+                    s.prop7 = "2009/05/12 12:29";
+                    s.prop8 = "1214052";
+                    s.prop9 = "Article";
+                    s.prop10 = "Obituary";
+                    s.prop13 = "";
+                    s.prop19 = "GUS";
+                    s.prop47 = "US";
+                    s.prop64 = "UK";
+                    s.prop65 = "Eve Kosofsky Sedgwick";
+                    s.prop66 = "Culture";
+                    s.prop67 = "nextgen-compatible";
+                    s.prop72 = "Culture:Books:Science and nature";
+                    s.prop73 = "Culture:Books:Science and nature";
+                    s.prop74 = "Culture:Books";
+                    s.prop75 = "Culture";
+        
+                    guardian.r2.OmnitureTracking.setAdditionalPageProperties({
+                isContentPage: true,
+                contentType:   "Article",
+                published:     "2009/05/12 12:29"
+            });
+        
+        
+        // Apply any additional props set by the page before s_code has loaded
+        guardian.r2.OmnitureTracking.applyProperties();
+
+                s.eVar23="";
+
+
+        // Masterclass tracking
+                // /Masterclass tracking
+
+        try {
+            if (guardian.r2.OmnitureTrackingOverride) {
+                new guardian.r2.OmnitureTrackingOverride(s);
+            }
+        }
+        catch(err) {
+        }
+
+        var s_code=s.t();if(s_code)document.write(s_code);
+
+
+            }
+    //]]>
+    </script>
+    <noscript id="omnitureNoScript">
+
+        <div><img alt="" src='http://hits.theguardian.com/b/ss/guardiangu-network/1/H.25.5/17981?ns=guardian&pageName=Culture%3ABooks%3AScience+and+nature%3AArticle%3Aeve-kosofsky-sedgwick-obituary-queer-theory%3A1214052&ch=Books&c3=Guardian&c4=Science+and+nature+%28Books+genre%29%2CBooks%2CCulture%2CLiterary+criticism+%28Books+genre%29&c5=Not+commercially+useful&c6=Sarah+Phillips&c7=2009%2F05%2F12+12%3A29&c8=1214052&c9=Article&c10=Obituary&c13=&c19=GUS&c47=US&c64=UK&c65=Eve+Kosofsky+Sedgwick&c66=Culture&c67=nextgen-compatible&c72=Culture%3ABooks%3AScience+and+nature&c73=Culture%3ABooks%3AScience+and+nature&c74=Culture%3ABooks&c75=Culture&h2=GU%2FCulture%2FBooks%2FScience+and+nature&c2=GUID:(none)' width="1" height="1" /></div>
+    </noscript>
+
+	    		    		    
+			<script>
+
+		var _qevents = _qevents || [];
+		(function() {
+			var elem = document.createElement('script');
+
+			elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+			elem.async = true;
+			elem.type = "text/javascript";
+			var scpt = document.getElementsByTagName('script')[0];
+			scpt.parentNode.insertBefore(elem, scpt);
+		})();
+		_qevents.push( { qacct:'p-73ktnlRTKQPTw', labels: 'books'} );
+		</script>
+		<noscript><div style="display: none;"><img src="//pixel.quantserve.com/pixel/p-73ktnlRTKQPTw.gif?labels=books" height="1" width="1" alt="Quantcast"/></div></noscript>
+	
+			<script>
+
+			var qcResults = function (result) {
+                var justTheParameters = '';
+				for (var i = 0, len = result.segments.length; i < len; i++) {
+					OAS_query += 'qc=' + result.segments[i].id + '&';
+                    justTheParameters += 'qc=' + result.segments[i].id + '&';
+				}
+                try {
+                    localStorage.setItem('qcparams', justTheParameters);
+                } catch(er) {
+                    // Ignore
+                }
+			}
+		</script>
+		<script src="segments.json"></script>
+	
+;
+
+<script id="componentTrackingScript" type="text/javascript">
+
+if (true && true) {
+    guardian.r2.OmnitureTracking.enableComponentTracking();
+}
+</script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+	if (true) {
+        // guardian.co.uk Connect Adprobe Tag, MPU [9814], Leaderboard [9815]
+        var wlOrd = new Date().getTime();
+        document.write('<scr' + 'ipt type="text/javascript" src="http://req.connect.wunderloop.net/AP/1566/5823/9815/js?cus=9815,9814&ord=' + wlOrd + '"></sc' + 'ript>');
+	}
+// ]]>
+</script><script type="text/javascript" src="js"></script>
+
+<script type="text/javascript">
+
+//<![CDATA[
+	if (true) {
+        OAS_query += 'wl9815=' + wl9815camp + '&wl9814=' + wl9814camp + '&';
+	}
+// ]]>
+</script>
+	    	<script>
+
+	if(true) {
+		ensurePackage("guardian.r2.revsci");
+
+        guardian.r2.revsci.revSciLocalStorage = true;
+
+		guardian.r2.revsci.siteName = 'Books';
+					guardian.r2.revsci.commercialFolder = 'Global+%28temp+commercial%29'
+		
+		addEvent(null, 'load', function () {
+			writeScript('http://js.revsci.net/gateway/gw.js?csid=E05516', true, function() {
+				writeScript('http://static.guim.co.uk/static/7c3dab8b0098ca9f73f088023b30b1efcddaaf12/common/scripts/revsci.js', true, function() {
+					rs_initTracking();
+				});	
+			})
+		});
+	}
+	</script>
+
+
+            <script>
+
+                        				function OAS_NORMAL(pos) {
+					document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+					document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + pos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+				}
+
+				OAS_version = 11;
+				if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1)) OAS_version = 10;
+
+                if (true) {
+                    if (OAS_version >= 11) document.write('<scr' + 'ipt src="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/script>');
+                }
+
+				function OAS_AD(pos) {
+                    if (true) {
+                        if (typeof(OAS_RICH) !== 'undefined' && OAS_version >= 11) {
+                            OAS_RICH(pos);
+                        } else {
+                            OAS_NORMAL(pos);
+                        }
+                    }
+				}
+					</script><script src="1721633097@Top,Middle2,Right1,x31,Position4"></script>
+		<!------ OAS SETUP end ------>
+	
+		<div style="display: none;" id="ad-temp-Top">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Top', '<script>OAS_AD("Top")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Top').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-Middle2">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Middle2', '<script>OAS_AD("Middle2")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Middle2').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-Right1">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Right1', '<script>OAS_AD("Right1")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Right1').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-x31">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-x31', '<script>OAS_AD("x31")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-x31').hide();
+          </script>
+
+		<div style="display: none;" id="ad-temp-Position4">
+		                    <script>
+
+                //<![CDATA[
+                    insertAsyncAd('#ad-placeholder-Position4', '<script>OAS_AD("Position4")<' + '/script>');
+                //]]>
+            </script>
+        	</div>
+        <script>
+
+              jQ('#ad-temp-Position4').hide();
+          </script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+    (function() {
+        // Load OutBrain code
+        var ob = document.createElement('script');
+        ob.type = 'text/javascript';
+        ob.async = true;
+        ob.src = 'http://widgets.outbrain.com/outbrain.js';
+
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ob, s);
+    })();
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- START Nielsen Online SiteCensus V6.0 -->
+<!-- COPYRIGHT 2010 Nielsen Online -->
+
+
+<script type="text/javascript">
+
+    if (true) {
+        jQ(document).ready( function(){
+                var script = "<scr" + "ipt type='text/javascript' src='//secure-uk.imrworldwide.com/v60.js'><" + "/script>";
+                script += "\n<sc" + "ript type='text/javascript'" + ">";
+                script += "\nvar pvar = { cid: 'uk-305078h', content: '0', server: 'secure-uk' };";
+                script += "\nvar feat = { landing_page: 0 };";
+                script += "\nvar trac = nol_t(pvar, feat);";
+                script += "\ntrac.record().post();";
+                script += "\n<" + "/script>";
+                jQ("#n-analytics-placeholder").writeCapture().replaceWith(script);
+            }
+        );
+    }
+</script>
+<noscript>
+
+ <div>
+    <img src="//secure-uk.imrworldwide.com/cgi-bin/m?ci=uk-305078h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" />
+ </div>
+</noscript>
+<!-- END Nielsen Online SiteCensus V6.0 -->
+
+<script type="text/javascript">
+
+
+    if (true) {
+        var _sf_async_config = {};
+        /** CONFIGURATION START **/
+        _sf_async_config.uid = 30676;
+        _sf_async_config.domain = document.domain;
+        _sf_async_config.sections = 'Books,Obituary (Tone),Article (Content type),Science and nature (Books genre),Books,Culture,Literary criticism (Books genre),Article';
+        _sf_async_config.authors = 'Sarah Phillips';
+        _sf_async_config.useCanonical = true;
+        _sf_async_config.sections = 'Books';
+
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+                e.setAttribute('src',
+                        (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+                                'js/chartbeat_pub.js');
+                document.body.appendChild(e);
+            }
+
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() {
+                oldonload();
+                loadChartbeat();
+            };
+        })();
+    }
+</script>
+
+    	
+
+
+
+<noscript>
+
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/997352581/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+
+<script>
+
+    (function(jQ) {
+        var google_conversion_id = 997352581;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+
+        jQ.ajax({
+            url: "https://www.googleadservices.com/pagead/conversion.js",
+            cache: true,
+            dataType: "script"
+        });
+    })(jQuery);
+</script>
+
+
+	
+
+
+
+
+
+
+
+<div id="dialogue"><div class="toolbox-popup trackable-component" id="send-email-box" data-component="Article:send email box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Send to a friend</h3>
+			<span class="js-show"><a class="close-toolbox" href="#send-email"><img src="close-popup.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		<div>
+
+			<form action="http://www.theguardian.com/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory" method="post" name="emailthis" id="emailthis">
+                <fieldset>
+                    <div><label for="from">Sender's name</label></div>
+                    <input id="from" name="from" maxlength="50" type="text">
+                </fieldset>
+				<fieldset>
+					<div><label for="to">Recipient's email address</label></div>
+					<input id="to" name="to" maxlength="50" value="" type="text">
+									</fieldset>
+				<div class="inputrow">
+					<input class="share-this-tracking" data-link-name="Email" value="Send" type="submit">
+				</div>
+				<p class="ip_logged">Your IP address will be logged</p>
+			</form>
+		</div>
+	</div>
+</div><div class="toolbox-popup trackable-component" id="send-share-box" data-component="Article:share box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Share</h3>
+			<span class="js-show"><a class="close-toolbox" href="#send-share-box"><img src="close-popup.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+
+					<div class="shortlink">
+
+				Short link for this page:
+				<a rel="shortlink nofollow" href="http://gu.com/p/27t9z">http://gu.com/p/27t9z</a>
+			</div>
+							<ul class="share-this-tracking">
+						<li>
+				<a data-link-name="Stumbleupon" name="lid={share}{stumbleupon}" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick">
+					<span class="spr-16 stumbleupon"></span>StumbleUpon
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Reddit" name="lid={share}{reddit}" href="http://reddit.com/submit?url=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick">
+					<span class="spr-16 reddit"></span>reddit
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Tumblr" name="lid={share}{Tumblr}" href="http://www.tumblr.com/share?v=3&amp;u=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;t=Eve+Kosofsky+Sedgwick" title="Share on Tumblr">
+					<span class="spr-16 tumblr"></span>Tumblr
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Digg" name="lid={share}{Digg}" href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick">
+					<span class="spr-16 digg"></span>Digg
+				</a>
+			</li>
+			<li>
+				<a data-link-name="LinkedIn" name="lid={share}{LinkedIn}" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick&amp;source=The%20Guardian">
+					<span class="spr-16 linkedin"></span>LinkedIn
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Google Bookmarks" name="lid={share}{Google Bookmarks}" href="http://www.google.com/bookmarks/mark?op=edit&amp;bkmk=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick">
+					<span class="spr-16 google-bookmarks"></span>Google Bookmarks
+				</a>
+			</li>
+			<li>
+				<a data-link-name="del.icio.us" name="lid={share}{del.icio.us}" href="http://del.icio.us/post?url=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory&amp;title=Eve+Kosofsky+Sedgwick">
+					<span class="spr-16 delicious"></span>del.icio.us
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Livejournal" name="lid={share}{livejournal}" href="http://www.livejournal.com/update.bml?subject=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory">
+					<span class="spr-16 livejournal"></span>livejournal
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Facebook" name="lid={share}{Facebook}" href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww.theguardian.com%2Fbooks%2F2009%2Fmay%2F12%2Feve-kosofsky-sedgwick-obituary-queer-theory">
+					<span class="spr-16 facebook"></span>Facebook
+				</a>
+			</li>
+			<li>
+				<a data-link-name="Twitter" name="lid={share}{Twitter}" href="http://twitter.com/home?status=http%3A%2F%2Fgu.com%2Fp%2F27t9z%2Ftw">
+					<span class="spr-16 twitter"></span>Twitter
+				</a>
+			</li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div><div class="toolbox-popup" id="contact-link-box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>Contact us</h3>
+			<span class="js-show"><a class="close-toolbox" href="#contact"><img src="close-popup.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		
+		<div class="col first">
+						<ul>
+															<li>
+
+														
+		
+	        Contact the Books team<br><a href="mailto:books@theguardian.com">books@theguardian.com</a>
+    													</li>
+													<li>
+
+					                        Report errors or inaccuracies: <a href="mailto:reader@theguardian.com">reader@theguardian.com</a>
+                    				</li>
+				<li>
+
+											Letters for publication should be sent to: <a href="mailto:letters@theguardian.com">letters@theguardian.com</a>
+									</li>
+			</ul>
+		</div>
+		<div class="col">
+			<ul>
+				<li>
+
+					If you need help using the site: <a href="mailto:userhelp@theguardian.com">userhelp@theguardian.com</a>
+				</li>
+				<li>
+
+					Call the main Guardian and Observer switchboard: <br><span>+44 (0)20 3353 2000</span>
+				</li>
+				<li>
+					<ul>
+						<li>
+							<a href="http://adinfo-guardian.co.uk/">Advertising guide</a>
+						</li>
+						<li>
+							<a href="http://www.theguardian.com/syndication/">License/buy our content</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div><div class="toolbox-popup" id="history-link-box">
+	<div class="send-inner">
+		<div class="share-top">
+			<h3>About this article</h3>
+			<span class="js-show"><a class="close-toolbox" href="#history-link-box"><img src="close-popup.png" alt="Close this popup" title="Close this popup"></a></span>
+		</div>
+		        	        			
+						  			  		   		   	   	   
+									
+						
+																	
+ 			<div class="section">
+				<p><strong>Obituary: Eve Kosofsky Sedgwick</strong></p>
+		   		    			    									   	This article appeared  on p35 of the <a href="http://www.theguardian.com/theguardian/2009/may/12/mainsection">Main section</a> section of 					   	<a href="http://www.theguardian.com/theguardian">the Guardian</a>
+					   	on <time datetime="2009-05-11" pubdate=""><a href="http://www.theguardian.com/theguardian/2009/may/12">Monday 11 May 2009</a></time>.
+					   	It was published on
+							<a href="http://www.theguardian.com/">the Guardian website</a>
+							at <time datetime="2009-05-11T19:00EDT" pubdate="">19.01 EDT on Monday 11 May 2009</time>.
+					   	It was last modified at <time datetime="2009-05-11T19:29EDT">19.29 EDT on Monday 11 May 2009</time>.
+						 It was first published at <time datetime="2009-05-11T19:29">19.29 EDT on Monday 11 May 2009</time>. 				   								</div>
+			</div>
+</div></div><table class="gstl_50 gssb_c" style="width: 183px; display: none; top: 34px; left: 950px; position: absolute;" cellpadding="0" cellspacing="0"><tbody><tr><td class="gssb_f"></td><td style="width: 100%;" class="gssb_e"></td></tr></tbody></table><div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_21.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_http" allowtransparency="true" name="fb_xdm_frame_http" frameborder="0" scrolling="no"></iframe><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_23.html" style="border: medium none;" tab-index="-1" title="Facebook Cross Domain Communication Frame" aria-hidden="true" id="fb_xdm_frame_https" allowtransparency="true" name="fb_xdm_frame_https" frameborder="0" scrolling="no"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><script gapi_processed="true" src="chartbeat_pub.js" type="text/javascript" language="javascript"></script><img style="display: none;" src="t.gif"><iframe src="eve-kosofsky-sedgwick-obituary-queer-theory_24.html" style="display: none; width: 0px; height: 0px;" name="google_osd_static_frame" id="google_osd_static_frame_3564381011500"></iframe></body>
+</html>

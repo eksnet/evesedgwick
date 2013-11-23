@@ -1,0 +1,70 @@
+
+/* ::::: http://static.tetu.gayvox.fr/css_local/widget.css ::::: */
+
+body.widget { margin: 0px; }
+#frm_search_widget { height: 234px; width: 284px; border: 3px solid rgb(98, 33, 129); padding: 5px; font-family: "Trebuchet MS",Trebuchet,Verdana,Helvetica,Arial,sans-serif; border-radius: 10px; }
+#frm_search_widget input { border: 1px solid rgb(204, 204, 204); }
+#frm_search_widget select { border: 1px solid rgb(105, 105, 105); width: 137px; }
+#frm_search_widget #bloc-je-cherche, #frm_search_widget #bloc-qui-cherche { float: left; margin-top: 10px; }
+#frm_search_widget #bloc-qui-cherche { margin-left: 10px; }
+#frm_search_widget #bloc-residant { margin-top: 65px; }
+#frm_search_widget #bloc-ages, #frm_search_widget #bloc-submit { margin-top: 15px; }
+#frm_search_widget #bloc-submit { text-align: center; margin-top: 22px; }
+#frm_search_widget #bloc-submit input { background: url('sprites2.png') no-repeat scroll -393px -38px transparent; border: 0px none; text-indent: 10000px; height: 24px; width: 142px; cursor: pointer; }
+#frm_search_widget #bloc-residant #prop3f { margin-left: 5px; }
+#frm_search_widget .field-name { color: rgb(105, 105, 105); font-weight: bold; }
+#frm_search_widget #bloc-je-cherche .field-name, #frm_search_widget #bloc-qui-cherche .field-name, #frm_search_widget #bloc-residant .field-name { display: block; }
+#frm_search_widget #bloc-titre, #frm_search_widget #bloc-residant { clear: both; }
+#frm_search_widget #bloc-ages input { width: 50px; }
+#frm_search_widget #bloc-titre { color: rgb(98, 33, 129); font-size: 24px; font-weight: bold; }
+#wg_content_lc { padding: 4px; width: 612px; height: 71px; font-family: Georgia,"Times New Roman","Bitstream Vera Serif",serif; font-size: 22px; font-style: italic; }
+#wg_content_lc .membre img { height: 70px; width: 50px; }
+#wg_content_lc #wg_title { margin-top: 10px; float: left; margin-left: 15px; }
+#wg_content_lc #wg_btn { margin-left: 27px; margin-top: 42px; float: left; }
+#wg_content_lc #wg_btn a { overflow: hidden; display: block; background: none no-repeat scroll 0% 0% transparent; width: 125px; height: 27px; }
+#wg_content_lc .membre { float: left; height: 70px; width: 50px; margin-right: 4px; }
+.GVXTT.lch #wg_content_lc { background-image: url('back_profils.jpg'); }
+.GVXTT.lcf #wg_content_lc { background-image: url('back_profils_filles.jpg'); }
+.GVXTT.rh #frm_search_widget { background: url('back_recherche_h.jpg') repeat scroll 0% 0% transparent; }
+.GVXTT.rf #frm_search_widget { background: url('back_recherche_f.jpg') repeat scroll 0% 0% transparent; }
+.GVXTT #frm_search_widget { border: 0px none; border-radius: 0px; height: 237px; width: 305px; text-align: center; }
+.GVXTT #bloc-titre, .GVXTT #frm_search_widget #bloc-residant .field-name { display: none; }
+.GVXTT #frm_search_widget #bloc-residant { margin-top: 133px; }
+.GVXTT #frm_search_widget #bloc-submit input { background: url('b_lancerlarecherche.gif') repeat scroll 0% 0% transparent; height: 27px; width: 169px; }
+.GVXTT #frm_search_widget .field-name { color: rgb(0, 0, 0); font-size: 12px; }
+.GVXTT #frm_search_widget input { border-color: rgb(151, 154, 159); }
+.GVXTT #frm_search_widget select { border-color: rgb(151, 154, 159); width: 141px; }
+.GVXTT #frm_search_widget #bloc-ages input { width: 61px; }
+.GVXTT #frm_search_widget .field-name { font-weight: normal; }
+.GVXTT #frm_search_widget #bloc-submit { margin-top: 17px; }
+.GVXTT #wg_content_lc #wg_btn a { background-image: url('b_lesrejoindre.gif'); text-indent: 10000px; }
+.GVXDM #wg_content_lc { padding: 3px 4px 5px 9px; }
+.GVXDM #wg_content_lc #wg_btn { margin-left: 33px; margin-top: 48px; }
+.GVXDM #wg_content_lc #wg_btn a { background-color: rgb(71, 71, 71); color: rgb(255, 255, 255); font-family: "Trebuchet MS",Trebuchet,Verdana,Helvetica,Arial,sans-serif; font-size: 12px; font-style: normal; text-decoration: none; text-transform: uppercase; height: 14px; width: 89px; padding: 3px 5px; }
+.GVXDM #wg_content_lc .membre img { border: 1px solid rgb(255, 255, 255); }
+.GVXDM #wg_content_lc #vig_8 { display: none; }
+.GVXDM #wg_content_lc .membre { margin-right: 11px; }
+.GVXDM #frm_search_widget { border: medium none; border-radius: 0px; }
+.GVXDM #frm_search_widget #bloc-residant .field-name, .GVXDM #frm_search_widget #bloc-titre { display: none; }
+.GVXDM #frm_search_widget { height: 223px; text-align: center; }
+.GVXDM #frm_search_widget *, .GVXDM #frm_search_widget { font-size: 12px; }
+.GVXDM #frm_search_widget #bloc-residant { margin-top: 134px; }
+.GVXDM #frm_search_widget #bloc-submit input { background: none repeat scroll 0% 0% transparent; text-indent: 0px; color: rgb(255, 255, 255); text-transform: uppercase; width: auto; font-weight: bold; }
+.GVXDM #frm_search_widget #bloc-submit { margin-top: 11px; }
+.GVXDM #frm_search_widget .field-name { color: rgb(0, 0, 0); font-weight: normal; }
+.GVXDM.lch #wg_content_lc { background-image: url('DM_back_profils_h.jpg'); }
+.GVXDM.lcf #wg_content_lc { background-image: url('DM_back_profils_f.jpg'); }
+.GVXDM.lcm #wg_content_lc { background-image: url('DM_back_profils_m.jpg'); }
+.GVXDM.lcm #wg_content_lc #wg_btn { margin-left: 27px; margin-top: 52px; }
+.GVXDM.rh #frm_search_widget { background: url('DM_back_recherche_h.jpg') repeat scroll 0% 0% transparent; }
+.GVXDM.rh #frm_search_widget #bloc-submit input { color: rgb(71, 71, 71); }
+.GVXDM.rf #frm_search_widget { background: url('DM_back_recherche_f.jpg') repeat scroll 0% 0% transparent; }
+.GVXDM.rm #frm_search_widget { background: url('DM_back_recherche_m.jpg') repeat scroll 0% 0% transparent; width: 254px; padding: 5px 20px; }
+.GVXDM.rm #frm_search_widget .field-name { color: rgb(255, 255, 255); text-transform: uppercase; font-weight: bold; }
+.GVXDM.rm #frm_search_widget #bloc-je-cherche, .GVXDM.rm #frm_search_widget #bloc-qui-cherche { margin-top: 85px; }
+.GVXDM.rm #frm_search_widget { text-align: left; }
+.GVXDM.rm #frm_search_widget #bloc-residant .field-name { display: block; }
+.GVXDM.rm #frm_search_widget #bloc-residant { margin-top: 126px; }
+.GVXDM.rm #frm_search_widget #bloc-ages, .GVXDM.rm #frm_search_widget #bloc-submit { margin-top: 10px; }
+.GVXDM.rm #frm_search_widget select { width: 120px; }
+.GVXDM.rm #frm_search_widget #bloc-submit input { color: rgb(71, 71, 71); }

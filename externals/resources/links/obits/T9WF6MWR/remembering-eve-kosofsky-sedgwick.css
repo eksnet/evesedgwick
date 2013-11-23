@@ -1,0 +1,1912 @@
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/loginModal.css ::::: */
+
+.loginModalForm .labelContainer { text-align: right; width: 120px; }
+.loginModalForm .insetV { margin: 4px 0px 0px; }
+.loginModalForm label { color: rgb(0, 0, 0); font-size: 11px; line-height: 13px; }
+.loginModalForm .fieldContainer, .loginModalForm .insetContainer { padding-left: 130px; }
+.loginModalForm .passwordControl .labelDescription { position: absolute; top: 18px; right: 0px; line-height: 12px; }
+.loginModalForm .loginSubmitControl .control { margin-bottom: 0px; }
+.loginModalForm .loginSubmitControl .labelContainer { text-align: left; width: auto; }
+.loginModalForm .loginSubmitControl .checkboxControl { margin-top: 5px; width: 110px; }
+.loginModalForm .loginSubmitControl .checkboxControl .labelContainer { padding-left: 0px; }
+.loginModalForm .checkboxLabel { display: inline-block; margin-top: 3px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/modalForms.css ::::: */
+
+.modalForm label, .modalForm .error, .nytModalContent .notificationContainer { font-family: arial,helvetica,sans-serif; }
+.modalForm input, .modalForm label, .modalForm textarea, .modalForm select { font-size: 11px; line-height: 13px; color: rgb(0, 0, 0); }
+.modalForm input { vertical-align: middle; }
+.modalForm .containingBlock { position: relative; }
+.modalForm a { color: rgb(0, 66, 118); text-decoration: none; }
+.modalForm a:visited { color: rgb(102, 102, 153); }
+.modalForm a:hover { text-decoration: underline; }
+.modalForm .hidden { display: none ! important; }
+.modalForm .errorContainer, .nytModalContent .notificationContainer { position: relative; }
+.modalForm .error, .nytModalContent .notification { margin: 0px 0px 1em; font-size: 12px; line-height: 15px; }
+.modalForm .error, .nytModalContent .errorNotification { color: rgb(168, 24, 23); }
+.modalForm .applicationButtonInactive { background-color: rgb(191, 191, 191); }
+.modalForm .submitLoader { display: inline; }
+.modalForm .submitLoader img { vertical-align: middle; }
+.horizontalModalFormControl .labelContainer { width: 120px; text-align: right; }
+.horizontalModalFormControl .fieldContainer { padding-left: 130px; }
+.horizontalModalFormControl .fieldContainer .error { margin-bottom: 0px; }
+.horizontalModalFormControl .checkboxControl .fieldContainer { width: 143px; text-align: right; }
+.horizontalModalFormControl .checkboxControl .labelContainer { width: auto; text-align: left; padding-left: 149px; }
+.horizontalModalFormControl .checkboxLabel { display: inline-block; margin-top: 3px; }
+.horizontalModalFormControl .buttonControl .fieldContainer { padding-left: 100px; }
+.horizontalModalFormControl .applicationButton { margin-left: 31px; }
+.horizontalModalFormControl .submitLoader { position: absolute; left: 102px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/loginModal.css ::::: */
+
+.loginModalForm .labelContainer { text-align: right; width: 120px; }
+.loginModalForm .insetV { margin: 4px 0px 0px; }
+.loginModalForm label { color: rgb(0, 0, 0); font-size: 11px; line-height: 13px; }
+.loginModalForm .fieldContainer, .loginModalForm .insetContainer { padding-left: 130px; }
+.loginModalForm .passwordControl .labelDescription { position: absolute; top: 18px; right: 0px; line-height: 12px; }
+.loginModalForm .loginSubmitControl .control { margin-bottom: 0px; }
+.loginModalForm .loginSubmitControl .labelContainer { text-align: left; width: auto; }
+.loginModalForm .loginSubmitControl .checkboxControl { margin-top: 5px; width: 110px; }
+.loginModalForm .loginSubmitControl .checkboxControl .labelContainer { padding-left: 0px; }
+.loginModalForm .checkboxLabel { display: inline-block; margin-top: 3px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/nytModal.css ::::: */
+
+.nytModalCloseContainer, .nytModal, .nytModalPointer { position: absolute; }
+.nytModalContainer { position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2147483644; }
+.nytOverlay { position: fixed; bottom: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); z-index: 2147483645; opacity: 0.5; }
+.nytModal { border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); box-shadow: 0px 1px 3px rgb(170, 170, 170); text-align: left; z-index: 2147483646; }
+.nytModal.blue { border: 1px solid rgb(197, 211, 225); background-color: rgb(230, 239, 248); }
+.nytModal .inset { margin: 10px; }
+.nytModalHeader { margin-bottom: 4px; }
+.nytModalHeading, .nytModalClose { font-family: arial,helvetica,sans-serif; }
+.nytModalHeading { margin: 0px; font-size: 10px; line-height: 14px; font-weight: bold; text-transform: uppercase; color: rgb(0, 0, 0); }
+.nytModal .opposingFloatControl:after, .nytModal .wrap:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.nytModal .opposingFloatControl, .nytModal .wrap { display: block; }
+.nytModal .opposingFloatControl .element1 { float: left; }
+.nytModal .opposingFloatControl .element2 { float: right; }
+.nytModalClose { display: block; height: 13px; padding-right: 18px; font-size: 10px; line-height: 13px; text-transform: uppercase; text-decoration: none; color: rgb(0, 0, 0) ! important; background: url('close-dialog-box-icon.gif') no-repeat scroll right top transparent; }
+.nytModalClose:hover { text-decoration: underline; }
+.nytModalClose.hideText { padding-right: 0px; width: 13px; }
+.nytModal .singleRule { border-top: 1px solid rgb(204, 204, 204); margin-bottom: 12px; padding-top: 8px; clear: both; }
+.nytModal .nytModalContent { margin-bottom: 20px; }
+.nytModalPointerDown { left: 48%; background: url('pointer-down.png') no-repeat scroll left top transparent; height: 13px; width: 11px; }
+.nytModalPointerLeft { top: 48%; left: -10px; background: url('pointer-left.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.nytModalPointerRight { top: 48%; right: -10px; background: url('pointer-right.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.nytModalPointerUp { left: 48%; top: -8px; background: url('pointer-up.png') no-repeat scroll left top transparent; height: 8px; width: 12px; }
+.nytModal.blue .nytModalPointerDown { background-image: url('pointer-down-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerLeft { background-image: url('pointer-left-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerRight { background-image: url('pointer-right-blue.png'); background-color: transparent; }
+.nytModal.blue .nytModalPointerUp { background-image: url('pointer-up-blue.png'); background-color: transparent; }
+.nytModalPointerDown {  }
+.nytModalPointerLeft {  }
+.nytModalPointerRight {  }
+.nytModal.blue .nytModalPointerDown {  }
+.nytModal.blue .nytModalPointerLeft {  }
+.nytModal.blue .nytModalPointerRight {  }
+.nytModal.growl { color: white; background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.8); border-radius: 10px; border: medium none; font-size: 2.5em; font-family: arial,helvetica,sans-serif; font-weight: bold; }
+.nytModal.growl .nytModalHeader { display: none; }
+.nytModal.growl .singleRule { border: medium none; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/mobileBanner.css ::::: */
+
+#mobileBanner + #shell { margin: 165px auto 0px; }
+.mobileBanner { background-color: rgb(235, 235, 235); border-bottom: 4px solid rgb(17, 17, 17); box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25); font-size: 3.2em; line-height: 1.125em; min-height: 60px; overflow: hidden; position: absolute; padding: 10px 0px 100px; top: -7px; text-align: center; width: 980px; z-index: 120000001; }
+.mobileBanner .bannerClose { background-position: 42px -160px; height: 154px; left: 0px; top: 0px; text-indent: -999em; width: 128px; }
+.mobileBanner .bannerClose, .mobileBanner .bannerMessage { background-image: url('close_arrow_34x173_sprite.png'); background-repeat: no-repeat; background-size: 54px auto; position: absolute; }
+.mobileBanner strong { color: rgb(0, 0, 0); }
+.mobileBanner a, .mobileBanner a:visited { color: rgb(17, 17, 17); }
+.mobileBanner .bannerMessage { border-left: 2px solid rgb(204, 204, 204); background-position: 94% 39px; color: rgb(17, 17, 17); font-family: arial,helvetica,sans-serif; font-size: 1.469em; line-height: 1.1063em; left: 136px; margin: 9px 0px 0px; padding: 16px 170px 20px 70px; text-shadow: 0px 2px 0px rgb(255, 255, 255); }
+@media screen and (orientation: landscape) {
+  #mobileBanner + #shell { margin: 84px auto 0px; }
+  #mobileBanner { padding: 12px 0px 20px; }
+  .mobileBanner .bannerMessage { background-position: 94% 5px; background-size: 42px auto; font-size: 1em; line-height: 1.0625em; left: 102px; padding: 12px 150px 12px 60px; }
+  .mobileBanner .bannerClose { background-position: 30px -126px; background-size: 38px auto; height: 120px; width: 104px; }
+}
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/global.css ::::: */
+
+body { margin: 0px; padding: 13px 0px; font-family: georgia,"times new roman",times,serif; font-size: 62.5%; line-height: 1.5em; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); }
+h1, h2, h3, h4, h5, h6 { margin: 0px; color: rgb(0, 0, 0); }
+p, ul, ol, dl, dd { margin: 0px 0px 1em; }
+h1 { font-size: 2.4em; line-height: 1.083em; }
+h2 { font-size: 2em; line-height: 1.1em; }
+h3 { font-size: 1.5em; line-height: 1.133em; }
+h4 { font-size: 1.4em; line-height: 1.1429em; }
+h5, h6 { font-size: 1.2em; line-height: 1.25em; }
+h6 { font-weight: normal; }
+p, li, dt, dd { font-size: 1.2em; line-height: 1.25em; }
+ul li *, li li { font-size: 1em; }
+blockquote { margin: 0px 24px; }
+ul { list-style: none outside none; padding-left: 0px; }
+ol { padding-left: 0px; margin-left: 18px; }
+ul li { background: url('bullet4x4.gif') no-repeat scroll left 0.45em transparent; padding: 0px 0px 0px 8px; }
+ul.multiline li { margin-bottom: 1em; }
+ul.meta li { font-size: 1.1em; }
+dt { float: left; }
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+a { color: rgb(0, 66, 118); text-decoration: none; }
+a:visited { color: rgb(102, 102, 153); }
+a:hover { text-decoration: underline; }
+a img { border: medium none; }
+.image a { display: block; }
+a.linkedGraphic:hover { text-decoration: none; }
+form, label, fieldset { margin: 0px; padding: 0px; }
+fieldset { border: medium none; }
+label { display: block; }
+.inlineLabel { display: inline; }
+.blockLabel { display: block; }
+input, label, textarea, select { font-size: 1.1em; color: rgb(0, 0, 0); }
+input { vertical-align: middle; }
+.inlineSearchControl .text { margin-right: 2px; }
+.story, .storyFollowsLede { margin-bottom: 8px; }
+.story { clear: both; }
+.ledePhoto { margin-bottom: 4px; }
+.columnGroup:last-child, .story:last-child, .story > :last-child, .ledePhoto > :last-child, ul:last-child, ul li:last-child, ol:last-child, ol li:last-child, dl:last-child, dl dd:last-child, p:last-child { margin-bottom: 0px; }
+.kicker, .kickerBd, .moduleHeader, .moduleHeaderBd, .moduleHeaderLg, .sectionHeader, .subHeader, .byline, .timestamp, .caption, .smallCaption, .credit, .refer, .inTextRefer, .commentText, .commentCountText, .media, .more, .meta, .metaFootnote, .disclaimer, .date, .dateline, label, input, textarea, select { font-family: arial,helvetica,sans-serif; }
+.kicker, .kickerBd, .moduleHeader, .moduleHeaderBd { font-size: 1em; font-weight: normal; line-height: 1.4em; text-transform: uppercase; color: black; }
+.moduleHeader, .moduleHeaderBd { margin-top: 2px; margin-bottom: 5px; }
+.moduleHeaderBd, .kickerBd { font-weight: bold; }
+.moduleHeaderLg { margin-bottom: 8px; font-size: 1.1em; font-weight: normal; line-height: 1.2727em; text-transform: uppercase; color: black; }
+.sectionHeader { font-size: 1.4em; line-height: 1.2857em; margin-bottom: 8px; font-weight: bold; }
+.sectionHeaderHome { font-size: 1.1em; line-height: 1.2727em; text-transform: uppercase; margin-bottom: 8px; }
+.subHeader { font-size: 1.1em; line-height: 1.2727em; font-weight: normal; margin-top: -8px; margin-bottom: 6px; }
+.kicker a, .moduleHeader a, .moduleHeaderBd a, .moduleHeaderLg a, .sectionHeader a, .sectionHeaderHome a { color: rgb(0, 0, 0); }
+.byline, .dateline { font-size: 1em; line-height: 1.2em; color: rgb(128, 128, 128); }
+.byline { margin-top: 2px; margin-bottom: 2px; }
+.caption, .smallCaption { color: rgb(102, 102, 102); margin-bottom: 0px; }
+.caption { font-size: 1.1em; line-height: 1.2727em; }
+.smallCaption { font-size: 0.9em; line-height: 1.223em; }
+.credit { font-size: 0.9em; line-height: 1.223em; text-align: right; color: rgb(144, 144, 144); margin-bottom: 3px; }
+.timestamp { font-size: 10px; font-weight: normal ! important; white-space: nowrap; }
+.timestamp, .alert, .important, .error { color: rgb(168, 24, 23); }
+.summary { font-size: 1.2em; line-height: 1.25em; margin-bottom: 5px; }
+.refer { margin-top: 2px; }
+ul.refer { margin-bottom: 6px; }
+.refer li { margin-bottom: 2px; }
+.refer li, p.refer, div.refer { font-size: 1.1em; line-height: 1.182em; }
+p.refer, div.refer { margin-bottom: 0px; }
+.inTextRefer { font-weight: bold; font-size: 0.8em; text-decoration: none ! important; }
+.caption .inTextRefer { display: inline-block; margin-left: 5px; padding-bottom: 0px; font-size: 1em; line-height: 1.545em; }
+a.inTextRefer:hover, a.inTextRefer:active { text-decoration: underline ! important; }
+.commentText { font-size: 11px; }
+.commentCountText { font-size: 10px; }
+.pipe { color: rgb(153, 153, 153); }
+.media { font-size: 0.8em; text-transform: uppercase; }
+.flush li { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+.flushTop { margin-top: 0px ! important; }
+.flushBottom { margin-bottom: 0px ! important; }
+.wideThumb { margin-bottom: 4px; }
+.wideThumb img { display: block; }
+.disclaimer { color: rgb(0, 0, 0); font-size: 1.1em; margin-bottom: 0px; }
+.media img { display: block; margin: 15px auto 0px; }
+.mediaOverlay { display: block; margin-top: -20px; padding: 3px 4px 4px 20px; font-family: arial,sans-serif; font-size: 1.1em; line-height: 1.182em; color: rgb(0, 0, 0); background: none no-repeat scroll 4px 4px rgb(255, 255, 255); opacity: 0.8; cursor: pointer; }
+.icon { padding-left: 16px; background-position: left center; background-repeat: no-repeat; }
+.audio { background-image: url('audio_icon.gif'); }
+.graphic { background-image: url('graphic_icon.gif'); }
+.interactive { background-image: url('interactive_icon.gif'); }
+.photo { background-image: url('photo_icon.gif'); }
+.trailer { background-image: url('trailer_icon.gif'); }
+.slideshow { background-image: url('photo_icon.gif'); }
+.map { background-image: url('map_icon.gif'); }
+.video { background-image: url('video_icon.gif'); }
+.document { background-image: url('document_icon.gif'); }
+.op-art { background-image: url('op_art_icon.gif'); }
+.rssSm { padding-left: 12px; background-image: url('rss_icon_8x8.gif'); }
+.rssMd { background-image: url('rss_icon_10x10.gif'); }
+.rssLg { background-image: url('rss_icon_12x12.gif'); }
+.rssXl { padding-left: 20px; background-image: url('rss_icon_16x16.gif'); }
+.lock { background-image: url('lock_icon.gif'); }
+.commentIcon { padding-left: 13px; background-image: url('comment_icon.gif'); }
+.growlSaveIcon { padding: 17px 0px 17px 70px; background-image: url('saveicon_large_growl.png'); display: block; }
+.inTextReferArticle { background: url('article_icon.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 16px; }
+.inTextReferAudio { background: url('audio_icon.gif') no-repeat scroll left center transparent; padding: 3px 4px 4px 16px; }
+.inTextReferGraphic { background: url('graphic_icon.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 13px; }
+.inTextReferInteractive { background: url('interactive_icon.gif') no-repeat scroll left center transparent; padding: 4px 4px 4px 13px; }
+.inTextReferMap { background: url('map_icon.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 14px; }
+.inTextReferSlideshow { background: url('photo_icon.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 15px; }
+.inTextReferVideo { background: url('video_icon.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 16px; }
+.inTextReferEmail { background: url('email_icon.png') no-repeat scroll left center transparent; padding: 3px 4px 4px 16px; }
+.inTextReferComment { background: url('comment_icon.gif') no-repeat scroll left center transparent; padding: 3px 4px 4px 13px; }
+.inTextReferDocument { background: url('document_icon_001.gif') no-repeat scroll left center transparent; padding: 5px 4px 4px 13px; }
+.inTextImage { vertical-align: middle; }
+.noWrap { white-space: nowrap; }
+.hidden { display: none ! important; }
+.hideText, .hideTxt { text-indent: -9999px; display: block; }
+body > img { display: none; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/shell.css ::::: */
+
+#shell { width: 972px; margin: 0px auto; text-align: left; }
+#page { border: 1px solid rgb(153, 153, 153); padding: 0px; width: 970px; }
+#mainTabs li { border-color: rgb(153, 153, 153); }
+#memberTools { float: right; width: auto; margin: 0px; padding: 2px 0px 0px; white-space: nowrap; text-align: right; font-family: arial,helvetica,sans-serif; position: relative; z-index: 100000000; }
+#memberTools li { font-size: 1.2em; margin: 0px; background-image: none; display: inline; white-space: nowrap; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 0px 1px; padding: 0px 4px; }
+#memberTools li.first, #memberTools li:first-child { border-left-width: 0px; }
+#memberTools li span.username a { font-weight: bold; }
+#dropDown { position: absolute; top: 17px; left: 0px; width: 113px; padding: 10px 0px 0px; border: 1px solid rgb(153, 153, 153); text-align: left; visibility: hidden; z-index: 9999; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.containingBlock #dropDown { top: 14px; }
+#dropDown ul { margin: 0px 0px 10px; padding: 0px; list-style-type: none; }
+#dropDown ul li { margin: 0px; padding: 0px; display: block; font-family: arial,helvetica,sans-serif; font-weight: bold; font-size: 10px; background: none repeat scroll 0% 0% transparent; color: rgb(102, 102, 102); border: medium none; }
+#dropDown a { display: block; height: 10px; margin: 0px; padding: 2px 10px; text-transform: none; font-weight: normal; }
+#dropDown a:link, #dropDown a:visited { color: rgb(0, 66, 118); }
+#dropDown li.sect a { color: rgb(102, 102, 102); text-transform: uppercase; }
+div#main { border-top: 1px solid rgb(255, 255, 255); clear: both; margin-top: 15px; padding: 0px 0px 7px; }
+div#main:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+* html #main { height: 1%; }
+.pageFooter { clear: both; border-top: 2px solid rgb(0, 0, 0); }
+.pageFooter .inset { margin: 13px 0px 13px 10px; }
+.pageFooterNavList li { float: left; margin: 0px; padding: 0px 7px; font-size: 1.1em; line-height: 1.273em; font-family: arial,helvetica,sans-serif; border-left: 1px solid rgb(204, 204, 204); background-image: none; }
+.pageFooterNavList li:first-child { padding-left: 0px; border-left: medium none; }
+.pageFooterNavList a, .pageFooterNavList a:link, .pageFooterNavList a:visited { color: rgb(102, 102, 102); }
+#footer { text-align: center; clear: both; border-top: 2px solid black; padding: 13px 0px; }
+#footer a { color: rgb(102, 102, 102); text-decoration: underline; }
+#footer ul { list-style: none outside none; margin: 0px; }
+#footer ul.first { margin-bottom: 10px; }
+#footer ul li { display: inline; padding: 0px 5px 0px 9px; font-family: arial,helvetica,sans-serif; font-size: 1.1em; border-left: 1px solid rgb(204, 204, 204); background: none repeat scroll 0% 0% transparent; }
+#footer ul li.first { border-left: medium none; padding-left: 7px; }
+#footer a.rssButton, #footer a.rssButton:visited { padding: 1px 0px 5px 20px; background: url('feed_icon_16x16.gif') no-repeat scroll left top transparent; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/masthead.css ::::: */
+
+#masthead { margin: 0px; padding: 7px 7px 0px; min-height: 48px; border-bottom: 2px solid rgb(0, 0, 0); clear: both; }
+#branding { float: left; display: inline; width: 152px; margin-top: 4px; }
+#branding a, #branding a img { border: 0px none; margin: 0px; padding: 0px; }
+#branding a img { display: block; }
+#masthead #date { float: left; clear: left; display: inline; }
+#masthead #date p { font-size: 1.2em; margin: 0px; padding: 0px; }
+#masthead h2 { width: 465px; position: relative; top: 12px; margin: 0px 0px 5px 160px; text-align: center; font-family: arial,helvetica,sans-serif; font-size: 2.9em; line-height: 1.1032em; }
+#masthead h2 a { color: rgb(0, 0, 0); text-decoration: none; }
+#masthead .pageHeaderWithLabel { top: 3px; }
+.pageHeaderWithLabel span, .globalEditionPageHeader span { font-size: 0.483em; line-height: 1em; font-family: arial,helvetica,sans-serif; font-weight: bold; color: rgb(0, 0, 0); display: block; }
+#masthead .pageHeaderWithLabel span a, #masthead .globalEditionPageHeader span a { color: rgb(0, 66, 118); }
+#searchWidget { float: right; margin: 0px 7px 0px 0px; padding: 0px; }
+.inlineSearchControl .text { width: 193px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/layout.css?v=02102013 ::::: */
+
+#main { border-top: 1px solid rgb(255, 255, 255); clear: both; margin-top: 15px; padding: 0px 0px 7px; }
+.wideA { background: url('vertical_rule.gif') repeat-y scroll 412px center transparent; }
+.wideB { background: url('vertical_rule.gif') repeat-y scroll 207px center transparent; }
+.spanAB { background: url('vertical_rule.gif') repeat-y scroll 617px center transparent; }
+.splitAB { background: url('vertical_rule.gif') repeat-y scroll 310px center transparent; }
+.spanBC {  }
+.subColumns { background: url('vertical_rule.gif') repeat-y scroll 50% center transparent; }
+.column, .aColumn, .bColumn, .cColumn, .abColumn, .bcColumn, .abColumn, .abcColumn, .subColumnA, .subColumnB { float: left; display: inline; overflow: visible; }
+.column, .aColumn, .abColumn, .subColumnA { margin-right: 1px; }
+.lastColumn { margin-right: 0px ! important; }
+.wideA div.last, .wideB div.last, .spanAB div.last, .spanBC div.last, .subColumn-2 div.last, .subColumn-3 div.last { margin-right: 0px; }
+.bColumn { margin-right: 0px; }
+.cColumn { width: 352px; }
+.wideA .aColumn, .spanBC .aColumn { width: 412px; }
+.wideA .bColumn { width: 204px; }
+.wideA .aColumn .subColumnA, .wideA .aColumn .subColumnB { width: 197px; }
+.wideB .aColumn { width: 207px; }
+.wideB .bColumn { width: 409px; }
+.abColumn { width: 617px; }
+.splitAB .aColumn { width: 310px; }
+.splitAB .bColumn { width: 306px; }
+.bcColumn, .spanBC { width: 557px; }
+.bcColumn { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.wideA .aColumn .subColumn-2 div.first, .wideA .aColumn .subColumn-2 .firstColumn, .abColumn .subColumn-3 div.first, .abColumn .subColumn-3 div.firstColumn { width: 207px; }
+.wideA .aColumn .subColumn-2 div.last, .wideA .aColumn .subColumn-2 .lastColumn, .wideB .bColumn .subColumn-2 .column, .abColumn .subColumn-3 .column { width: 204px; }
+.wideA .cColumn .subColumn-3 .column { width: 117px; }
+.wideA .cColumn .subColumn-3 div.last, .wideA .cColumn .subColumn-3 .lastColumn { width: 116px; }
+.spanAB .subColumn-2 .column { width: 308px; }
+.cColumn .subColumn-2 .column { width: 175px; }
+.cColumn .subColumn-2 div.last, .cColumn .subColumn-2 .lastColumn { width: 176px; }
+.inset { margin: 10px 8px; }
+.insetV { margin-top: 10px; margin-bottom: 10px; }
+.insetH { margin-left: 10px; margin-right: 10px; }
+.insetHFullWidth { margin-left: 10px; margin-right: 9px; }
+div.fullWidth { margin-left: 0px ! important; margin-right: 0px ! important; }
+.columnGroup .columnGroup { margin-left: 0px ! important; margin-right: 0px ! important; }
+.abColumn div.insetH, .abColumn div.columnGroup, .abColumn div.fullWidth .columnGroup { margin-right: 7px; margin-left: 10px; }
+.aColumn div.insetH, .aColumn div.columnGroup, .aColumn div.fullWidth .columnGroup, .abColumn .aColumn .columnGroup, .abColumn .aColumn div.fullWidth .columnGroup { margin-right: 7px; margin-left: 10px; }
+.splitAB .aColumn .columnGroup { margin-right: 10px; margin-left: 10px; }
+.bcColumn .aColumn .insetH, .bcColumn .aColumn .columnGroup, .bcColumn .aColumn div.fullWidth .columnGroup { margin-right: 7px; margin-left: 0px; }
+.bColumn div.insetH, .bColumn div.columnGroup, .bColumn div.fullWidth .columnGroup, .abColumn .bColumn .columnGroup, .abColumn .bColumn div.fullWidth .columnGroup { margin-right: 7px; margin-left: 7px; }
+.splitAB .bColumn .columnGroup { margin-right: 7px; margin-left: 10px; }
+.bcColumn .bColumn .insetH, .bcColumn .bColumn .columnGroup, .bcColumn .bColumn div.fullWidth .columnGroup { margin-left: 7px; }
+.cColumn div.insetH, .cColumn div.columnGroup, .cColumn div.fullWidth .columnGroup { margin-right: 9px; margin-left: 7px; }
+.wideA .aColumn .subColumnA .insetH, .wideA .aColumn .subColumnA .columnGroup { margin-right: 7px; }
+.wideA .aColumn .subColumnB .insetH, .wideA .aColumn .subColumnB .columnGroup { margin-left: 7px; }
+.bcColumn div.insetH, .bcColumn div.columnGroup, .bcColumn div.fullWidth .columnGroup { margin-right: 9px; margin-left: 7px; }
+.columnGroup { width: auto ! important; }
+div.opening { padding-top: 10px; }
+div.closing { padding-bottom: 10px; }
+.columnGroup, .singleRule, .doubleRule, .module { margin-bottom: 12px; }
+.columnGroup, .fullWidth, .singleRule, .singleRuleDivider, .doubleRule, .doubleRuleDivider, .module, .inset, .insetH, .insetV, .box, hr { clear: both; }
+.singleRule { border-top: 1px solid rgb(204, 204, 204); background-image: none ! important; padding-top: 8px; }
+.doubleRule { padding-top: 12px; }
+hr, .singleRuleDivider { height: 1px; padding: 0px; background: none repeat scroll 0% 0% rgb(204, 204, 204); border: medium none; line-height: 0; overflow: hidden; }
+.doubleRule, .doubleRuleDivider { border-width: 0px ! important; background: url('doubleRule.gif') repeat-x scroll left top transparent; }
+.doubleRuleDivider { height: 4px; line-height: 0; overflow: hidden; }
+hr, .singleRuleDivider, .doubleRuleDivider { margin-top: 12px; margin-bottom: 8px; }
+.box { border: 1px solid rgb(204, 204, 204); margin-bottom: 10px; }
+div.blue { background-color: rgb(240, 244, 245); }
+div.yellow { background-color: rgb(248, 248, 212); }
+.box .subColumnA { margin-right: -1px ! important; }
+.wideA:after, .wideB:after, .spanAB:after, .spanBC:after, .splitAB:after, .subColumns:after, .subColumn-2:after, .subColumn-3:after, .story:after, .clearfix:after, .wrap:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.clearfix, .wrap { display: block; }
+.containingBlock { position: relative; }
+.noBackground { background: none repeat scroll 0% 0% transparent ! important; }
+.centeredElement { margin-left: auto; margin-right: auto; }
+.centeredText { text-align: center; }
+.w75, .thumb { width: 75px; }
+.w190, .wideThumb, .inlineImage { width: 190px; }
+.w337, .homepageImage { width: 337px; }
+.w395, .sectionfrontSpanImage { width: 395px; }
+.w450 { width: 450px; }
+.w600, .articleSpanImage, .slideshowHorizontal { width: 600px; }
+.singleRule .wideThumb, .doubleRule .wideThumb { margin-top: 4px; }
+.thumb { margin-bottom: 4px; }
+.thumbnail { margin: 0px 0px 6px 6px; }
+.thumbnail, .runaroundRight { float: right; clear: right; display: inline; }
+.runaroundRight { margin: 2px 0px 6px 6px; }
+.runaroundLeft { float: left; clear: left; display: inline; margin: 2px 6px 6px 0px; }
+.horizontalMenu li { display: inline; padding: 0px 8px; background-image: none; }
+.horizontalMenu li:first-child { padding-left: 0px; }
+.horizontalMenu.piped li { border-left: 1px solid rgb(153, 153, 153); }
+.horizontalMenu.piped li:first-child { border-left: medium none; }
+.opposingFloatControl .element1 { float: left; }
+.opposingFloatControl .element2 { float: right; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules.css ::::: */
+
+.tabsContainer { position: relative; bottom: -1px; }
+.mainTabsContainer { float: left; }
+.tabs { display: block; margin: 0px; padding: 0px; white-space: nowrap; text-transform: uppercase; font-family: arial,helvetica,sans-serif; overflow: hidden; }
+#mainTabs { float: left; }
+.tabs li { float: left; display: block; margin: 0px; padding: 4px 7px 3px; background-color: rgb(240, 244, 245); background-image: none; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 1px 1px 0px; font-size: 1em; white-space: nowrap; }
+.tabs li.first, .tabs li.firstItem { border-left: 1px solid rgb(204, 204, 204); }
+.tabs li.selected { background: none repeat scroll 0% 0% rgb(255, 255, 255); border-bottom: medium none; padding: 4px 7px; }
+.tabs li a, .tabs li a:link, .tabs li a:visited, .tabs li a:hover, .tabs li a:active { color: rgb(51, 51, 51); }
+#mainTabs li a, #mainTabs li a:link, #mainTabs li a:visited, #mainTabs li a:hover, #mainTabs li a:active { color: rgb(0, 66, 118); }
+.tabContent { clear: both; border: 1px solid rgb(204, 204, 204); padding: 7px; display: none; }
+.tabContent.active { display: block; }
+.tabContent ol { margin-top: 0px; margin-bottom: 5px; }
+.tabContent ol li { padding-top: 3px; padding-bottom: 3px; }
+.tabbedBlogModule h4 { font-size: 1.1em; margin: 10px 0px 8px; padding: 0px; text-transform: uppercase; }
+.tabbedBlogModule .tabContent ul { padding: 2px 0px 0px 7px; }
+.tabbedBlogModule .tabContent ul li { line-height: 1em; }
+.tabbedBlogModule .tabContent ul li a { line-height: 1.15em; }
+.tabbedBlogModule .kicker { color: rgb(51, 51, 51); font-size: 0.917em; line-height: 1em; }
+.tabbedBlogModule p.date { font-size: 0.833em; color: rgb(128, 130, 133); margin: 2px 0px 5px; }
+.audioStory .subscribeLink { display: block; margin-top: 5px; }
+.audioStory h3 { margin-bottom: 2px; }
+.articleInline .audioStory h3 { font-size: 1.4em; line-height: 1.1429em; }
+.audioStory .podcastSummary { min-height: 85px; }
+.audioStory .inlinePlayer { margin-bottom: 10px; }
+.refer li .inlinePlayer { margin-left: -8px; margin-bottom: 0px; }
+.inlinePlayer { background-color: rgb(255, 255, 255); border-style: solid; border-color: rgb(226, 226, 226); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px ! important; padding: 3px 4px 2px; margin-top: 4px; }
+.calendarLinks .inset { margin: 8px; }
+.calendarLinks .sectionHeader, .calendarLinks .subColumnA .kicker { margin-left: 5px; }
+.wideA .aColumn .calendarLinks .subColumns .subColumnB .insetH { margin-left: 20px; }
+.bColumn .calendarLinks .subColumns { background: none repeat scroll 0% 0% transparent; }
+table.TwoWeekCalendar { width: 165px; padding: 0px; background: url('CalendarBlueWeekbg_156x19.gif') repeat-x scroll 5px 3px transparent; font-family: arial,helvetica,sans-serif; }
+table.TwoWeekCalendar th { padding: 0px 0px 2px 5px; font-size: 1.1em; color: rgb(102, 102, 102); }
+table.TwoWeekCalendar td { font-size: 1.1em; color: rgb(186, 186, 186); text-align: center; }
+table.TwoWeekCalendar td a { display: block; width: 16px; border: 1px solid white; color: rgb(153, 153, 153); }
+table.TwoWeekCalendar td a:hover { border: 1px solid rgb(0, 66, 118); }
+table.TwoWeekCalendar a.currentWeek { color: rgb(0, 66, 118); font-weight: bold; border: 1px solid rgb(204, 204, 204); }
+table.TwoWeekCalendar a.currentDay { color: rgb(0, 66, 118); font-weight: bold; border: 1px solid rgb(0, 66, 118); }
+.calendarLinks .inlineSearchControl .text { width: 128px; }
+.editionToggle { display: none; float: left; margin: 5px 0px 0px 9px; font-family: arial,helvetica,sans-serif; font-size: 1.1em; }
+@media not all {
+  .editionToggle { margin-top: 4px; }
+}
+.editionToggle a, .editionToggle a:link, .editionToggle a:visited, .editionToggle a:hover, .editionToggle a:active { color: rgb(0, 66, 118); }
+.dropDownModal { position: relative; }
+.dropDownModalLinkContainer { position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 100000001; }
+.dropDownModalLink { display: inline-block; background: url('toggle_down_icon_9x5.gif') no-repeat scroll right center transparent; padding-right: 14px; }
+.dropDownModalBox { position: absolute; background: none repeat scroll 0% 0% rgb(255, 255, 255); z-index: 100000000; }
+.editionDropDownModal { font-family: arial,helvetica,sans-serif; float: left; }
+.editionDropDownModal .dropDownModalLinkContainer { height: 20px; left: 2px; font-size: 1.2em; padding-right: 8px; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; border-bottom: medium none; }
+.editionDropDownModalOpened .dropDownModalLinkContainer { height: 19px; border-color: rgb(204, 204, 204); }
+.editionDropDownModal .dropDownModalLink { margin: 4px 0px 0px 7px; text-decoration: none; }
+.editionDropDownModalOpened .dropDownModalLink { color: rgb(0, 0, 0); text-decoration: none; background-image: url('toggle_up_icon_9x5.gif'); }
+.editionDropDownModal .dropDownModalBox { left: 2px; top: 19px; width: 135px; box-shadow: 1px 0px 2px rgb(153, 153, 153); }
+.editionDropDownModal .inset { margin: 6px 6px 5px; }
+.editionDropDownModal .dropDownModalMenu li { line-height: 2; }
+#memberTools #profileDropDownModal { display: inline-block; }
+.profileDropDownModal .dropDownModalLinkContainer { height: 20px; right: 0px; font-size: 1em; padding-right: 4px; border-color: rgb(255, 255, 255) rgb(255, 255, 255) -moz-use-text-color; border-bottom: medium none; top: -16px; text-align: center; }
+.profileDropDownModalOpened .dropDownModalLinkContainer { height: 22px; border-color: rgb(204, 204, 204); right: -1px; padding-right: 5px; }
+.profileDropDownModal .dropDownModalLink { margin: 4px 0px 0px 4px; text-decoration: none; }
+.profileDropDownModalOpened .dropDownModalLink { color: rgb(0, 0, 0); text-decoration: none; background-image: url('toggle_up_icon_9x5.gif'); }
+.profileDropDownModal .dropDownModalBox { right: -1px; top: 6px; width: 170px; box-shadow: 1px 0px 2px rgb(153, 153, 153); }
+#profileDropDownModal .dropDownModalMenu .lastItem { border: 0px none; }
+.profileDropDownModal .inset { margin: 6px 6px 5px; }
+#profileDropDownModal .dropDownModalMenu li { line-height: 2.3; font-size: 1em; display: list-item; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 0px 0px 1px; text-align: left; overflow: hidden; }
+.editionListContainer ul li { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background-image: none; border-color: rgb(204, 204, 204); border-image: none; border-style: solid; border-width: 0px 0px 0px 1px; display: inline; font-size: 1.2em; margin: 0px; padding: 0px 4px; white-space: nowrap; }
+.editionListContainer li.first, .editionListContainer li:first-child { border-left-width: 0px; }
+.editionListContainer { font-family: arial,helvetica,sans-serif; float: left; padding-left: 170px; }
+.selectedIndex a { font-weight: bold; color: rgb(51, 51, 51) ! important; cursor: default; text-decoration: none; pointer-events: none; }
+.listMenu { padding: 3px 0px 0px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/rss.css ::::: */
+
+ul.rssCcolumn li { font-size: 1.1em; font-weight: bold; font-family: Arial,sans-serif; background: url('feed_icon_12x12.gif') no-repeat scroll 0px 0px transparent; padding: 0px 0px 2px 16px; line-height: 1.2em; }
+ul.rssCcolumn .rssSubsection li { font-size: 0.909em; font-weight: normal; float: left; width: 55px; background: url('feed_icon_8x8.gif') no-repeat scroll 0px 2px transparent; padding: 0px 0px 0px 12px; margin-top: 3px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/sharetools.css ::::: */
+
+#toolsList.shareMenuOpened { padding-bottom: 26px; }
+#shareMenu a, #shareMenu a:visited { color: rgb(51, 51, 51); outline: medium none; }
+#shareMenu.opened { background-color: white; border: 1px solid rgb(234, 232, 233); line-height: 1.4em; padding: 5px 10px; position: absolute; }
+#shareMenu.noAd { height: 105px ! important; }
+#shareMenu .shareButton { background: url('toolsicon_anim.gif') no-repeat scroll 0px 0px transparent; padding: 0px 0px 3px 20px; }
+#shareMenu.closed a.shareButton:hover { background: url('expand.gif') no-repeat scroll 0px 0px transparent; }
+#shareMenu.opened .shareButton { background: url('contract.gif') no-repeat scroll 0px 0px transparent; float: left; margin-bottom: 7px; margin-top: 2px; padding: 0px 0px 0px 20px; }
+#shareMenu .closeButton { background: url('close_window.gif') no-repeat scroll 4.1em 0px transparent; float: right; display: inline; margin-bottom: 7px; margin-top: 2px; padding: 0px 20px 0px 0px; }
+#shareMenu #shareList { border-top: 1px solid rgb(234, 232, 233); clear: both; display: inline-block; margin-left: 0px; padding: 8px 0px 0px; text-align: left; }
+#shareMenu #shareList.hidden { display: none; }
+#shareMenu #shareList li { background: none repeat scroll 0% 0% transparent; border-bottom: 0px none; border-right: 0px none; float: left; display: inline; margin-bottom: 0px; margin-left: 5px; padding: 5px 0px; width: 105px; }
+#shareMenu #shareList li#shareMenuAd { border-top: 1px solid rgb(234, 232, 233); margin-left: 0px; margin-top: 5px; padding-top: 7px; width: auto; }
+#shareMenu #shareList li a, #shareMenu #shareList li a:visited { background-repeat: no-repeat; padding: 2px 0px 3px 20px; display: inline; }
+#shareMenu #shareList li#shareMenuAd a { padding-left: 0px; }
+#shareMenu #shareList .shareSponsor { background: url('sharetools-sponsor.gif') no-repeat scroll 0px 0px transparent; clear: both; display: block; width: 115px; height: 13px; margin-bottom: 5px; margin-top: 0px; }
+#facebook_button, #linkedin_button, #twitter_button { cursor: pointer; background-repeat: no-repeat; padding: 0px 0px 3px 20px; background-position: -1px -1px; }
+#facebook_button { background-image: url('facebook_001.gif'); }
+#linkedin_button { background-image: url('linkedin_001.gif'); }
+#twitter_button { background-image: url('twitter_001.gif'); }
+#shareList .digg a { background-image: url('digg_001.gif'); }
+#shareList .facebook a { background-image: url('facebook_001.gif'); }
+#shareList .myspace a { background-image: url('myspace.gif'); }
+#shareList .permalink a { background-image: url('permalink_001.gif'); }
+#shareList .reddit a { background-image: url('reddit_001.gif'); }
+#shareList .tumblr a { background-image: url('tumblr_001.gif'); }
+#shareMenu #shareList #yahooBuzzBadge-form a { padding: 0px; }
+#shareMenu #yahooBuzzBadge-form span span { padding-left: 20px; width: 75px ! important; top: -3px ! important; }
+#shareMenu #yahooBuzzBadge-form span:hover { text-decoration: underline; }
+#shareMenu #shareList li.yahoobuzz { height: 14px ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/util/tooltip.css ::::: */
+
+#toolTip, .toolTip { background: none repeat scroll 0% 0% rgb(255, 255, 239); width: 352px; padding: 10px; border: 1px solid rgb(213, 213, 213); font-family: arial,helvetica,sans-serif; position: absolute; font-size: 1.1em; color: rgb(51, 51, 51); display: none; z-index: 100000003; text-align: left; }
+#toolTip #content, .toolTip .content { padding: 0px 5px 0px 0px; width: 340px; line-height: 15px; }
+#toolTip #button { float: right; width: 13px; background: url('close_window.gif') no-repeat scroll left top transparent; overflow: hidden; margin: 0px; height: 0px ! important; padding: 13px 0px 0px; }
+#toolTip #button a { padding: 15px; }
+#toolTip.autoWidth, #toolTip.autoWidth #content { width: auto; }
+#toolTip.autoWidth #content { padding-right: 0px; }
+
+/* ::::: http://graphics8.nytimes.com/css/common/screen/navigation.css ::::: */
+
+.navigation, #navigation { display: block; position: relative; clear: both; text-align: center; overflow: visible; border-bottom: 1px solid rgb(211, 211, 211); }
+.navigation {  }
+* html #navigation.nochild { border-bottom: medium none ! important; }
+.navigation a, #navigation a { color: rgb(51, 51, 51); }
+#shell #navigation ul li { text-align: center; background-color: white; font-family: georgia,"times new roman",times,serif; font-size: 11px ! important; border-width: 0px 0px 1px 1px; border-color: rgb(211, 211, 211); vertical-align: top; padding: 7px 0px 0px; min-height: 18px; overflow: visible; background-image: none; }
+#shell #navigation ul li:first-child { border-left: medium none; }
+#shell #navigation ul li.selected { background-color: rgb(244, 244, 244); border-bottom: 1px solid rgb(244, 244, 244); }
+#shell #navigation ul #navJobs.selected, #shell #navigation ul #navRealestate.selected, #shell #navigation ul #navAutos.selected { background-color: rgb(244, 244, 244); }
+#navigation ul.tabs li ul { display: none; }
+.navigation .subNavigation ul, #navigation #subNavigation ul, #navigation ul.tabs li.selected ul { border-top: medium none; position: absolute; width: 940px; display: block; left: 0px; top: 26px; min-height: 19px; padding: 8px 15px 0px; text-align: center; background-color: rgb(244, 244, 244); list-style: none outside none; margin: 0px; white-space: nowrap; vertical-align: top; font-weight: normal; }
+.navigation .subNavigation ul, #navigation #subNavigation ul { position: static; clear: both; text-transform: uppercase; }
+.navigation .subNavigation ul li, #navigation #subNavigation ul li, #navigation ul.tabs li.selected ul li { border: medium none; font-family: arial,helvetica,sans-serif; background-color: rgb(244, 244, 244); text-align: center; display: inline; padding: 0px 4px 0px 6px; margin: 0px; float: none; font-weight: normal; }
+#navigation #subNavigation #subnavSports li { padding: 0px 4px; }
+#navigation #navWorld { min-width: 58px; }
+#navigation #navUS { min-width: 36px; }
+#navigation #navNYRegion { min-width: 89px; }
+#navigation #navBusiness { min-width: 71px; }
+#navigation #navTechnology { min-width: 96px; }
+#navigation #navScience { min-width: 65px; }
+#navigation #navHealth { min-width: 63px; }
+#navigation #navSports { min-width: 60px; }
+#navigation #navOpinion { min-width: 67px; }
+#navigation #navArts { min-width: 46px; }
+#navigation #navStyle { min-width: 52px; }
+#navigation #navTravel { min-width: 63px; }
+#navigation #navJobs { min-width: 48px; }
+#navigation #navRealestate { min-width: 85px; }
+#navigation #navAutos { min-width: 57px; }
+#shell #navigation #navJobs, #shell #navigation #navRealestate, #shell #navigation #navAutos { font-family: arial,helvetica,sans-serif; font-weight: bold; background-color: rgb(230, 239, 248); }
+#navigation #subNavigation #subnavWorld, #navigation #subNavigation #subnavUS, #navigation #subNavigation #subnavNYRegion, #navigation #subNavigation #subnavBusiness, #navigation #subNavigation #subnavTechnology, #navigation #navWorld.selected ul, #navigation #navUS.selected ul, #navigation #navNYRegion.selected ul, #navigation #navBusiness.selected ul, #navigation #navTechnology.selected ul { text-align: left; }
+#navigation #navStyle.selected #subnavStyle, #navigation #navTravel.selected #subnavTravel, #navigation #navJobs.selected #subnavJobs, #navigation #navRealestate.selected #subnavRealestate, #navigation #navAutos.selected #subnavAutos, #navigation #navStyle.selected ul, #navigation #navTravel.selected ul, #navigation #navJobs.selected ul, #navigation #navRealestate.selected ul, #navigation #navAutos.selected ul { text-align: right; }
+#navigation #subnavTravel { text-align: right ! important; }
+#navigation #subNavigation ul li.selected.children, #navigation ul.tabs li.selected ul li.selected.children { background: none repeat scroll 0% 0% white; border: 1px solid rgb(204, 204, 204); padding: 4px 10px 3px; font-weight: bold; }
+#navigation #subNavigation ul li.selected.children ul, #navigation ul.tabs li.selected ul li.selected ul { border-top: medium none; display: inline; position: static; width: auto; margin: 0px; padding: 0px; vertical-align: top; background: none repeat scroll 0% 0% transparent; font-weight: normal; }
+#navigation #subNavigation ul li.selected.children ul li, #navigation ul.tabs li.selected ul li.selected ul li { position: static; margin: 0px; background: none repeat scroll 0% 0% transparent; text-transform: none; }
+#navigation #subNavigation ul li.selected.children ul li a, #navigation ul.tabs li.selected ul li.selected.children ul li a { color: rgb(0, 66, 118); }
+#navigation #subNavigation ul li.selected.nochildren, #navigation ul.tabs li.selected ul li.selected.nochildren { font-weight: bold; }
+#navigation #subNavigation ul li.selected.children ul li.selected, #navigation ul.tabs li.selected ul li.selected.children ul li.selected { font-weight: bold ! important; background-color: white; padding: 0px 6px; }
+#navigation #subNavigation ul li.selected.nochildren, #navigation ul.tabs li.selected ul li.selected.nochildren { font-weight: bold; }
+#navigation #subNavigation #subnavArts li#subSubNav_specialoffers { background-color: rgb(230, 239, 248); border-left: 1px solid rgb(226, 226, 226); padding-top: 4px; padding-bottom: 3px; }
+#navigation #subNavigation #subnavArts li.selected.children { padding: 4px 0px 3px 10px; }
+#navigation #subNavigation #subnavSports #subNav_sportstickets a { font-weight: bold; color: rgb(0, 66, 118); font-size: 0.909em; }
+#navigation #subNavigation #subnavSports #subNav_sportstickets { border: 1px solid rgb(204, 204, 204); padding: 4px 6px 2px; position: relative; }
+#navigation.nochild {  }
+html > body div#abColumns.navNoChild { margin-top: 10px; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/themes/universal/entry.css?v=10-25-2012 ::::: */
+
+h4, sup, sub, .entry-content h6, .footnote, .entry .updated-marker, .entry-meta .entry-tags, .toggleContent .showContent, .mini .entry-content a.elsewhere, .postMetaHeader .commentCountLink { font-family: arial,helvetica,sans-serif; }
+.hfeed .entry { border-top: 1px solid rgb(204, 204, 204); padding: 15px 10px 0px; }
+.blogCategories .hfeed .entry, #content .hentry:first-child { border-top: medium none; }
+.blogPage .entry-title, .blogPost .entry-title { font-weight: normal; margin: 6px 0px 4px; }
+.entry-content h1, .entry-content h2 { display: none; }
+h3 { margin: 0.4em 0px 0.3em; color: rgb(51, 51, 51); font-size: 1.7em; }
+.entry-content h3 { margin-bottom: 1em; text-align: center; color: rgb(119, 119, 119); font-weight: normal; }
+h4 { margin: 0px 0px 5px; }
+#content h4 { clear: both; }
+.entry-content h4 { margin-bottom: 0.5em; font-size: 1.6em; }
+.module h4 { margin: 12px 5px 3px; }
+.module h4 a, .module h4 a:visited { color: rgb(0, 0, 0); }
+.entry-content h6 { font-size: 1em; text-transform: uppercase; }
+.entry-content .metaFootnote { font-size: 1.1em; line-height: 1.273em; color: rgb(170, 170, 170); text-transform: none; }
+.entry-content p, .entry-summary p { font-size: 1.4em; line-height: 1.5em; }
+.entry-content ul { margin-left: 1em; }
+.entry-content ol { margin-left: 2.6em; }
+.entry-content li { background-position: 0px 0.6em; font-size: 1.4em; line-height: 1.5em; margin-bottom: 0.2em; }
+.entry-content .refer li { background-position: left center; }
+.entry-content blockquote li { font-size: 1em; }
+.entry-content ol li *, .entry-content ul li *, .entry-content li li, .entry-content li * { font-size: 1em; }
+ul.inputGroup li { padding: 0px; background: none repeat scroll 0% 0% transparent; font-size: 1.1em; }
+.lastList { padding-bottom: 0px ! important; border: medium none ! important; }
+.blog blockquote { margin: 0px 4em 1em; font-size: 1.4em; line-height: 1.5em; }
+.blog blockquote p { font-size: 1em; }
+cite { padding: 0px 2.6em; display: block; text-align: right; }
+blockquote cite { padding: 0px 0.5em; }
+pre, code { margin: 1.5em 0px; background: none repeat scroll 0% 0% rgb(230, 239, 248); color: rgb(51, 51, 51); overflow-x: auto; white-space: pre-wrap; word-wrap: break-word; }
+pre, code, tt { line-height: 1.5em; font-size: 1em; font-family: 'lucida console',monospace; }
+pre { padding: 1.5em; font-size: 1.2em; }
+address { font-style: normal; }
+.loud { color: rgb(168, 24, 23); }
+small { line-height: 1.4em; }
+.footnote { font-size: 0.7857em; line-height: 1.2727em; }
+sup, sub { color: rgb(0, 0, 0); font-size: 9px; }
+.entry .updated { color: red; }
+.entry-content a { text-decoration: underline; }
+.mini .elsewhere { font-size: 0.7143em; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+.mini .elsewhere:hover { text-decoration: underline; }
+.post-comment { background: url('comments.gif') no-repeat scroll 0px 3px transparent; padding-left: 15px; }
+.hfeed .mini { margin-bottom: 1em; padding-bottom: 15px; }
+.mini .timestamp { display: block; }
+.mini .entry-title { font-weight: bold; font-size: 1.4em; line-height: 1.5em; float: left; display: inline; color: rgb(51, 51, 51); }
+.mini .comments-link a { padding-left: 14px; }
+.entry-meta { margin: 10px 0px 17px; clear: both; }
+.blogPost .entry-meta { margin-bottom: 0px; }
+.entry-meta .entry-tags { font-size: 1.1em; padding: 10px; }
+.blogPost .entry-meta .entry-tags { border-top: 1px solid rgb(204, 204, 204); }
+.blogSearch .entry-meta .entry-tags { padding-top: 0px; }
+.postMetaHeader time { font-family: arial,helvetica,sans-serif; font-size: 1.1em; color: rgb(128, 128, 128); }
+.postMetaHeader time + span, .postMetaHeader span + time { border-left: 1px solid rgb(204, 204, 204); }
+.postMetaHeader .kicker { padding: 0px 7px 0px 0px; font-weight: bold; font-size: 1.1em; }
+.postMetaHeader time { padding: 0px 6px 0px 0px; }
+.postMetaHeader .kicker + time { padding: 0px 8px; }
+.postMetaHeader .relativeTime { color: rgb(168, 24, 23); text-transform: lowercase; }
+.postMetaHeaderCommentCount { padding: 0px 0px 0px 8px; font-size: 1.1em; }
+.entry-content .module p { font-size: 1.2em; }
+.entry-content .module ul { margin-left: 0px; }
+.entry-content .module li { font-size: 1.1em; }
+.entry-content .module .entry { margin: 0px; padding: 5px 0px; width: auto; border: medium none; }
+.entry-content .module h4 { margin: 0px; padding: 5px 0px; }
+.entry-content .entry a { text-decoration: none; }
+.entry-content .entry a:hover { text-decoration: underline; }
+.entry-content .entry .byline { font-size: 11px ! important; }
+.entry-content .module blockquote { margin: 0px 0.5em; padding: 5px 0px; font-size: 1.6em; color: rgb(112, 112, 112); text-indent: 0px; }
+.entry-content .module blockquote span { text-indent: -7px; float: left; display: block; }
+.entry-content .module .entry blockquote { padding: 0px; }
+.entry-content .module blockquote p { margin-bottom: 0px; font-size: 1em; }
+.entry-content .module cite { padding: 0px; }
+.module .entry, .module .story { padding: 0.5em 0.5em 0.8em; }
+.module p, .module div.story p.summary { margin: 0px 0px 0.3em; line-height: 1.4em; }
+.module hr { margin-top: 0.5em; margin-bottom: 0.5em; }
+.module .entry hr { margin-top: 1.5em; margin-bottom: 1.5em; }
+.entry-content .module .entry hr { width: auto; }
+.module ul li { margin-bottom: 3px; line-height: 1.2em; }
+.module ol { margin-left: 1.6em; }
+.module .entry ol { margin-top: 0.8em; margin-left: 3.6em; }
+.module .refer li { margin-bottom: 2px; }
+.module cite { font-size: 1.1em; }
+.module blockquote { margin: 0px 2em 0.5em; font-size: 1.4em; line-height: 1.4em; text-indent: -10px; clear: left; }
+.module blockquote a { color: rgb(51, 51, 51); }
+.timestamp { border: medium none; }
+.entry span.date { font-size: 1.1em; color: rgb(128, 128, 128); }
+.entry span.date em { font-style: normal; text-transform: uppercase; }
+#cCol .entry li .date { font-size: 0.9167em; }
+.entry .byline { font-size: 1.1em; }
+.entry .byline a { text-transform: uppercase; }
+.entry-location { font-size: 0.7em; }
+div.q, div.a { margin-top: 6px; text-align: center; font-size: 2.6em; line-height: 0.9em; border-bottom: 1px solid rgb(102, 102, 102); }
+div.a { text-indent: 2px; }
+div.q, div.a, .question, .answer { width: 24px; }
+div.q, .question { height: 31px; }
+div.a, .answer { height: 32px; }
+.question, .answer { margin: 6px 12px 0px 0px; float: left; clear: left; }
+.w35 img.q, .w35 img.a { margin-top: 6px; }
+.pdf, .map, .photo, .audio, li.video, .graphic, .comments, .document, .multimedia, .interactive { padding-left: 16px; text-align: left; background-position: left center; background-repeat: no-repeat; }
+.pdf { background-image: url('pdf_icon.gif'); }
+.comments { background-position: 0.1em 0.2em; background-image: url('comments.gif'); }
+.multimedia { background-position: 0.1em 0.2em; background-image: url('interactive_icon_001.gif'); }
+.facebook { background-image: url('facebook-dark.gif'); }
+.twitter { background-image: url('twitter_001.gif'); }
+.youtube { background-image: url('youtube.gif'); }
+li.rssSm { font-size: 1em; }
+li.rssXl { padding-top: 6px; }
+a.rssSm { font-size: 0.834em; }
+a.rssMd { padding-top: 1px; }
+a.rssMd, a.rssLg, a.rssXl { font-size: 0.917em; }
+a.rssXl { padding: 2px 1px 0px 20px; }
+@media not all {
+  li.rssMd { background-position: 0px 1px; }
+  li.rssLg { background-position: 0px 0px; }
+  a.rssXl { padding-bottom: 2px; }
+}
+.auth-img .author_image { margin-top: 2px; float: left; }
+.auth-img .timestamp { padding-left: 10px; }
+.auth-img .entry-title, .auth-img address.byline { padding-left: 60px; }
+.toggleContent .showContent { background: url('arrow_supressed.gif') no-repeat scroll 293px 11px rgb(244, 244, 244); border-bottom: 1px solid rgb(226, 226, 226); display: block; font-size: 0.857em; padding: 2px 0px 1px; text-align: center; text-decoration: none; }
+.toggleContent .showContent:hover { background-color: rgb(230, 239, 248); border-color: rgb(163, 176, 196); }
+.toggleContent .showContent:visited, .toggleContent .showContent:hover, .toggleContent .showContent:active { color: rgb(0, 66, 118); }
+.toggleContent .expanded { background-image: url('arrow_expanded.gif'); background-position: 260px 11px; }
+.toggleContent .hiddenContent { margin-bottom: 1em; }
+.error ul { margin-bottom: 16px; }
+.error li { margin-bottom: 0.6em; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/themes/universal/layout.css?v=07-15-2012 ::::: */
+
+.blog { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); margin: 20px 13px 20px 15px; }
+.odd, .even, #aCol, #cCol, .subColA, .subColB { float: left; display: inline; }
+#aCol { border-right: 1px solid rgb(204, 204, 204); position: relative; width: 562px; }
+#cCol { border-left: 1px solid rgb(204, 204, 204); margin: 0px 0px 0px -1px; padding: 0px 0px 30px 5px; width: 367px; }
+.module .col2 { background: url('subcolumn.gif') repeat-y scroll 50% 0px transparent; }
+.col2 .subColA, .col2 .subColB { width: 175px; }
+.col2 .subColA .entry, .col2 .subColB .entry { padding: 5px 5px 8px; }
+.col2 .subColB { margin-left: 15px; }
+.col2 img { display: block; }
+.entry a.more { font-size: 1.2em; }
+.noBackground .subColA, .noBackground .subColB { width: 170px; }
+.noBackground .subColA { margin-left: 5px; }
+.noBackground .subColB { margin-left: 16px; }
+.noBackground .subColA .entry, .noBackground .subColB .entry { padding: 7px 0px 5px; }
+.module { clear: both; padding-top: 5px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll 0% 0% transparent; }
+#header { margin: -20px 0px 4px; text-align: center; }
+.blogHome #header { margin-bottom: 26px; }
+#header.basic { margin: 0px; }
+#header.old-dog { margin: 4px 0px 0px 3px; }
+.headless { height: 37px; }
+.headless h1 { margin-top: 0px ! important; font-size: 2em; left: -4000px; position: relative; }
+.headless h2 { height: 1px; }
+.hfeed { margin-top: -7px; padding: 0px 30px; }
+.blogHome .hfeed { margin-top: -1.5em; }
+.entry-content { margin-top: 15px; }
+.category-header { margin: 15px 40px; }
+.category-header .entry { margin: 0px; padding: 0px; border: medium none; width: auto; }
+.category-header .entry li { font-size: 1.1em; }
+.category-header h4 { margin-top: 0.3em; font-weight: normal; font-size: 1.6em; }
+.category-description { margin-bottom: 2em; }
+.category-description p { font-size: 1.3em; line-height: 1.4em; }
+.resultsLabel { border-top: 1px solid rgb(226, 226, 226); margin: 0px 0px 6px; padding: 5px 10px 0px; position: relative; z-index: 50; }
+.blogCategories .latestEntry { border: medium none; }
+.blogCategories .inlineModule { display: none; }
+@media not all {
+  .resultsLabel { margin-top: 4px; }
+}
+.resultsLabel p.meta { font-family: georgia,"times new roman",times,serif; }
+.resultsLabel p.more { font-size: 1.1em; }
+.resultsLabel p { margin-bottom: 0px; }
+.resultsLabel .element1, .resultsLabel .element2 { width: 220px; }
+.resultsLabel .element2 { text-align: right; }
+.resultsLabel .element2 p { margin-top: 20px; }
+.resultsLabel h2 { margin-top: 2px; color: rgb(51, 51, 51); font-weight: normal; font-size: 1.7em; }
+.blogTags .resultsLabel h2, .blogTags .resultsLabel .element1 p { font-size: 1.3em; }
+.blogCategories .resultsLabel { left: -36px; width: 544px; padding: 14px 10px 14px 15px; border: medium none; margin: 18px 0px 0px; background: none repeat scroll 0% 0% rgb(100, 103, 109); }
+.blogCategories .resultsLabel .thumb { float: right; width: 50px; height: 50px; }
+.blogCategories .resultsLabel h2 { margin-top: 0px; font-size: 1.1em; line-height: 1.6363em; letter-spacing: 0.04em; font-weight: bold; color: rgb(255, 255, 255); }
+.blogCategories .resultsLabel p { margin-top: 1px; font-size: 1.2em; line-height: 1.5em; color: rgb(255, 255, 255); }
+.blogSearch .resultsLabel { padding: 6px 10px 1px; }
+.blogSearch .resultsLabel, .blogSearch .resultsLabel p.meta { font-family: arial,helvetica,sans-serif; }
+.blogSearch .resultsLabel p.meta { font-weight: bold; }
+.blogSearch .resultsLabel h2 { font-size: 1.4em; }
+.blogSearch .resultsLabel .element2 p { margin-top: 18px; }
+.blogSearch #aCol .topNav { margin-top: 0px; }
+#news .hfeed, #topics .hfeed, #sports .hfeed, #questions .hfeed, #nyregion .hfeed, #affordableeurope .hfeed { margin-top: 22px; }
+#news .resultsLabel, #topics .resultsLabel, #sports .resultsLabel, #questions .resultsLabel, #nyregion .resultsLabel, #cityroom .resultsLabel, #affordableeurope .resultsLabel { border-top: medium none; }
+.resultsLabel .resultsDescription p { font-size: 1.2em; line-height: 1.4166em; }
+.nav { font-size: 1.1em; }
+.nav ul { background: url('blognav.gif') repeat-y scroll 50% 0px transparent; margin: 0px; }
+.nav ul li { background: none repeat scroll 0% 0% transparent; font-size: 1em; line-height: 1.3em; margin: 0px; padding: 0px; width: 49%; }
+.nav .element2 { text-align: right; }
+.nav li .next, .nav li .previous, .nav li .byline, .nav li .timestamp { color: rgb(153, 153, 153); margin-bottom: 2px; padding: 0px 25px; display: block; font-weight: normal; font-family: arial,helvetica,sans-serif; }
+.nav li a { display: block; font-family: georgia,"times new roman",times,serif; font-size: 12px; font-weight: bold; }
+.nav .element1 a, .nav .clearfix li.alignleft a { padding: 0px 14px 0px 25px; background: url('arrow-left.gif') no-repeat scroll left 0px transparent; }
+.nav .element2 a, .nav .clearfix li.alignright a { padding: 0px 25px 0px 14px; background: url('arrow-right.gif') no-repeat scroll right 0px transparent; }
+#aCol .nav { border-top: 1px solid rgb(204, 204, 204); margin: 30px 0px 0px; padding: 14px 0px 15px; }
+#aCol .bottomNav { margin: 0px 0px 15px; padding: 19px 0px 15px; border-top: medium none; border-bottom: 1px solid rgb(204, 204, 204); background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; }
+.blogPost #aCol .nav { margin-top: 0px; }
+#cCol .nav { padding-top: 8px; background: none repeat scroll 0% 0% transparent; border: medium none; }
+.w35 { width: 35px; }
+.w50 { width: 50px; }
+.w75, .thumbnail { margin-top: 5px; margin-right: 8px; float: left; width: 75px; }
+#cCol img.w75 { margin-top: 4px; margin-bottom: 5px; }
+#cCol img.w100 { margin-top: 4px; margin-bottom: 10px; }
+.w121 { width: 121px; }
+.w151, .standard151 { margin-top: 5px; width: 151px; }
+.w165 { width: 165px; }
+#cCol img.w165 { margin: 4px 0px 5px; }
+.w190, .standard190, .right190, .left190 { width: 190px; margin-top: 5px; }
+.w350 { margin-left: 65px; width: 350px; }
+.w367 { width: 367px; }
+.w400 { margin-left: 40px; width: 400px; }
+.w480 { width: 480px; }
+.w500 { margin-left: -10px; width: 500px; }
+.w531 { margin-left: -23px; width: 531px; }
+.w533, .full-width { margin-left: -25px; width: 533px; }
+.w35, .w50, .w75, .w121, .w151, .w165, .w190, .w350, .w367, .w400, .w480, .w500, .w533, .standard190, .standard151, .right190, .left190, .full-width { overflow: hidden; }
+.w151, .w190, .w350, .w400, .w480, .w500, .w533, .standard190, .standard151, .right190, .left190, .full-width { margin-bottom: 1em; }
+.caption { display: block; margin: 3px 2px; }
+.caption img { margin: 0px; }
+.credit { display: block; margin: 2px 0px; font-size: 1em; }
+.right, .rightphoto, .right190 { float: right; clear: right; margin-left: 12px; margin-right: 0px; }
+.left, .leftphoto, .left190 { float: left; clear: left; margin-right: 12px; margin-left: 0px; }
+img.callout { float: right; margin: 0px 0px 12px 24px; }
+.video embed, .video object, .videobox embed, .videobox object, .embedVideo object, .embedVideo embed { margin: 0px auto; display: block; }
+.videobox { margin: 21px 0px; width: 480px; }
+.nytvideo { width: 336px; }
+.inlineVideo h3 { font-size: 1.4em; }
+.video, .embedVideo { margin-bottom: 25px; text-align: center; }
+#aCol .inlinePlayer { width: 190px; margin-right: 12px; float: left; border-top: 1px solid rgb(226, 226, 226) ! important; }
+.inlinePlayer { font-size: 1.2em; }
+.inlinePlayer img { margin: 4px 7px 5px 5px; float: left; }
+table.data, .entry-content table { margin-top: 6px; margin-bottom: 12px; border-collapse: collapse; border-top: 2px solid rgb(85, 85, 85); }
+.entry-content table { border-bottom: 1px solid rgb(213, 215, 214); }
+.entry-content div.blog-table table { width: 480px ! important; }
+#cCol table.data { margin: 3px 0px 0px; }
+table.data th, table.data td, .entry-content table th, .entry-content table td { padding: 5px 3px; border-top: 1px solid rgb(213, 215, 214); font-size: 1.1em; font-family: arial,helvetica,sans-serif; vertical-align: top; text-align: left; }
+table.data th.header, .blog-table th.header { background: none repeat scroll 0% 0% rgb(204, 204, 204); }
+table.data h4 { margin-top: -4px; padding: 0px; }
+table.data th.noborder, table.data td.noborder { border-top: medium none; }
+table.data th.total, table.data td.total { vertical-align: top; border-top: 1px solid rgb(153, 153, 153); font-weight: bold; }
+table.data .integer, .blog-table .integer { text-align: right; }
+table.data .highlight, .blog-table .highlight { background: none repeat scroll 0% 0% rgb(252, 252, 149); }
+table.data table tr td p { margin: 0px; padding: 6px 0px 12px; vertical-align: top; font-size: 91.6%; font-family: arial,helvetica,sans-serif; }
+.blog-table.left-190 table { margin-right: 12px; width: 190px; float: left; }
+.blog-table.right-190 table { margin-left: 12px; width: 190px; float: right; }
+.blog .twitterModule { margin-left: 5px; margin-right: 5px; padding-top: 5px; }
+#aCol .twitterModule { margin-left: 0px; margin-right: 0px; }
+#aCol .twitterModule .scrollBox, #aCol .twitterModule .scrollBox2 { height: 340px; }
+#aCol .tweet a { text-decoration: none; }
+#aCol .tweet a:hover { text-decoration: underline; }
+#aCol .twitterModule .bugHeader h5 { margin-right: 5px; }
+#aCol .twitterModule .branding { margin: 0px 5px; }
+#aCol .twitterModule .noavatar .tweet { width: 116%; }
+.blog input { padding: 4px 3px; }
+.blog input, .blog select, .blog textarea { border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(239, 239, 239) rgb(239, 239, 239) rgb(204, 204, 204); }
+.inlineSearchControl .text { margin-right: 5px; }
+#cCol #blog-search { background: url('search_box_shadow.png') no-repeat scroll left top rgb(244, 244, 244); border-bottom: 1px solid rgb(204, 204, 204); margin: -1px -6px 1px -5px; padding: 15px 0px; }
+#blog-search h4, #blog-search #s, #blog-search form, #blog-search div { display: inline; }
+#side_searchAd { float: right ! important; margin: 12px 1px 0px 0px ! important; }
+#blog-search h4 { margin: 5px 0px 5px 13px; padding-top: 4px; vertical-align: middle; font-size: 1.2em; }
+#blog-search form { width: 240px; }
+#blog-search input { vertical-align: middle; }
+#blog-search #s { margin: 4px 0px 0px 12px; width: 175px; }
+#blogSearchSubmit { background: url('search_button40x19.gif') no-repeat scroll left top transparent; border: medium none; cursor: pointer; height: 19px; margin: 2px 0px 0px 5px; padding: 0px; text-indent: -9999px; vertical-align: middle; width: 40px; }
+.show { display: block; }
+.centeredText { text-align: center; }
+.centeredElement { margin: 0px auto; }
+hr { display: none; }
+.entry hr, .module hr, .module .entry hr { margin-top: 3em; margin-bottom: 3em; display: block; text-align: center; width: 60%; border-right: medium none; border-width: 1px medium medium; border-style: solid none none; border-color: rgb(204, 204, 204) -moz-use-text-color -moz-use-text-color; -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; height: 1px; }
+.module hr, .module .entry hr { margin-top: 1.5em; margin-bottom: 1.5em; }
+hr, .singleRuleDivider, .doubleRuleDivider { clear: both; }
+.singleRuleDivider { margin: 12px 0px 8px; height: 1px; padding: 0px; background: none repeat scroll 0% 0% rgb(204, 204, 204); border: medium none; line-height: 0; overflow: hidden; }
+.doubleRule, .doubleRuleDivider { border-width: 0px ! important; background: url('doubleRule.gif') repeat-x scroll left top transparent; }
+.doubleRule { margin: 0px; height: auto; }
+.module .doubleRule { padding-top: 5px; }
+.doubleRuleDivider { margin: 12px 0px; height: 4px; line-height: 0; overflow: hidden; }
+.col2:after, .entry:after, ul.tabs:after, .entry-tools:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.odd, .even { width: 47%; }
+.entry-content .even { margin-left: 10px; }
+.module .even { margin-left: 6px; }
+.inlineModule { width: 190px; padding: 10px 0px 0px; border-top: 2px solid rgb(204, 204, 204); margin: 5px 0px 10px 12px; }
+.inlineModule, .inlineModule .thumb { clear: right; float: right; margin-left: 12px; }
+.inlineModule .entry { padding: 0px; border: medium none; }
+.inlineModule .thumb { width: 50px; height: 50px; overflow: hidden; }
+.inlineModule h6 { font-family: georgia,"times new roman",times,serif; font-weight: bold; font-size: 1.1em; }
+.inlineModule h6 a { letter-spacing: 0.04em; color: rgb(0, 66, 118); }
+.inlineModule p { margin: 0px; font-size: 1.2em; line-height: 1.4166em; color: rgb(102, 102, 102); }
+#page { background: none repeat scroll 0% 0% rgb(244, 244, 244); clear: both; position: relative; }
+#footer, #masthead { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#navigation, .subNavigation.tabContent { border-bottom: medium none; }
+#navigation #subNavigation { margin-top: 1px; }
+.box { border: medium none; margin: 0px 0px 7px; }
+.subNavigation .box { border: 1px solid rgb(204, 204, 204); }
+.wideAd #aCol { width: 462px; }
+.wideAd #cCol { width: 468px; }
+.wideAd #header { margin-top: -16px; }
+.wideAd #header a img { width: 100%; height: auto; }
+.wideAd .w400, .wideAd .w480, .wideAd .w500, .wideAd .w533, .wideAd .full-width, .wideAd .w400 img, .wideAd .w480 img, .wideAd .w500 img, .wideAd .w533 img, .wideAd .full-width img, .wideAd .entry-content iframe { width: 100% ! important; height: auto ! important; }
+.wideAd .w350, .wideAd .w400, .wideAd .w480, .wideAd .w500, .wideAd .w533, .wideAd .full-width { margin: 0px auto 1em; }
+.wideAd .entry-tools li { padding-right: 20px; }
+.wideAd .verticalTabSet .wrap, .wideAd .module .col2 { width: 367px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/forms.css ::::: */
+
+.control { margin-bottom: 10px; }
+.lastControl { margin-bottom: 0px ! important; }
+.horizontalControl .control { margin-right: 10px; }
+.horizontalControl .lastControl { margin-right: 0px ! important; margin-bottom: 10px ! important; }
+.horizontalControl .control, .horizontalControl .legendContainer, .horizontalControl .labelContainer, .horizontalFormControl .legendContainer, .horizontalFormControl .labelContainer { float: left; display: inline; }
+.control:after, .horizontalControl:after, .horizontalFormControl:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+.control, .horizontalControl, .horizontalFormControl { display: block; }
+.control, .horizontalControl, .horizontalFormControl {  }
+.checkboxControl .labelContainer, .radioControl .labelContainer, .switchControl .labelContainer { float: none; display: block; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer, .switchControl .fieldContainer { float: left; display: inline; }
+.checkboxControl .fieldContainer, .radioControl .fieldContainer { width: 19px; padding-left: 0px ! important; }
+.checkboxControl .labelContainer, .radioControl .labelContainer { padding-left: 19px; }
+.checkboxControl .checkbox, .radioControl .radio { margin: 2px 0px 0px; padding: 0px; }
+.errorControl { position: relative; }
+.control label { display: inline; }
+.labelBd { font-weight: bold; }
+.control .checkboxLabelSm { display: inline-block; }
+.labelContainer .insetV { margin: 4px 0px 0px; }
+.radio, .checkbox {  }
+.legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription { font-weight: normal; color: rgb(128, 128, 128); }
+.legendDescription, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .checkboxLabelSm { font-size: 10px; }
+.legendDescriptionLg { font-size: 11px; }
+.formHint, .legendDescription, .legendDescriptionLg, .labelDescription, .inputDescription, .selectDescription, .textareaDescription, .button, .applicationButton, .applicationButtonLt, .textButton, .appButton, .appButtonSmall { font-family: arial,helvetica,sans-serif; }
+.formHint { font-size: 1em; }
+.inputHint { color: rgb(128, 128, 128); }
+.nytdvalidateError { color: rgb(168, 24, 23); }
+.button, .applicationButton, .applicationButtonLt, .textButton { vertical-align: middle; text-align: center; overflow: visible; cursor: pointer; }
+.button, .applicationButton, .applicationButtonLt { border-radius: 2px; }
+.button { padding: 1px 2px; font-size: 10px; line-height: 12px; background-color: rgb(255, 255, 255); border: 1px solid rgb(193, 193, 193); color: rgb(51, 51, 51); }
+.applicationButton, .applicationButtonLt, .textButton { margin: 0px; padding: 5px 10px; font-size: 11px; line-height: 13px; }
+.applicationButton, .textButton { border: medium none; }
+.textButton { font-weight: normal; background-color: transparent; color: rgb(0, 66, 118); }
+.applicationButton { background-color: rgb(0, 66, 118); color: rgb(255, 255, 255); font-weight: bold; }
+.applicationButtonLt { background-color: rgb(255, 255, 255); border: 1px solid rgb(0, 66, 118); color: rgb(0, 66, 118); padding-top: 4px; padding-bottom: 4px; }
+a.applicationButton { color: rgb(255, 255, 255); }
+a.applicationButtonLt { color: rgb(0, 66, 118); }
+a.applicationButton:hover, a.applicationButtonLt:hover { text-decoration: none; }
+@media not all {
+  .button { padding: 3px 4px 2px; }
+  .applicationButton, .textButton { padding: 6px 12px; }
+  .applicationButtonLt { padding-top: 5px; padding-bottom: 5px; }
+}
+.appButton, .appButtonSmall { vertical-align: middle; font-size: 11px; line-height: normal ! important; font-weight: bold; margin: 0px; padding: 0px 12px 0px 0px; height: 28px; color: white; text-decoration: none; text-align: center; border: 0px none; background: url('rightcap.png') no-repeat scroll right center transparent; cursor: pointer; width: auto; }
+.appButtonSmall { padding: 0px 8px 0px 0px; height: 19px; background: url('rightcapsmall.png') no-repeat scroll right center transparent; }
+.appButton::-moz-focus-inner, .appButtonSmall::-moz-focus-inner { padding: 0px; border: 0px none; }
+.appButton:focus, .appButtonSmall:focus { outline: 1px dotted; }
+.appButton span, .appButtonSmall span { display: block; white-space: nowrap; padding: 0px 0px 0px 12px; height: 28px; line-height: 28px; background: url('leftcap.png') no-repeat scroll left center transparent; text-transform: none; }
+.appButtonSmall span { padding: 0px 0px 0px 8px; font-size: 11px; height: 19px; line-height: 19px; background: url('leftcapsmall.png') no-repeat scroll left center transparent; }
+.altSmall { color: rgb(0, 66, 118); font-weight: normal; background: url('rightcapsmall_line.png') no-repeat scroll right center transparent; }
+.altSmall span { background: url('leftcapsmall_line.png') no-repeat scroll left center transparent; }
+.appButtonSmallDone { color: rgb(128, 128, 128); font-weight: normal; background: url('rightcapsmall_done.png') no-repeat scroll right center transparent; }
+.appButtonSmallDone span { background: url('leftcapsmall_done.png') no-repeat scroll left center transparent; }
+.appButtonDisabled { opacity: 0.5; cursor: default; }
+.appButton, .appButtonSmall {  }
+.appButton span, .appButtonSmall span {  }
+a.appButton, a.appButtonSmall { color: white ! important; display: block; }
+a.altSmall { color: rgb(0, 66, 118) ! important; }
+
+/* ::::: http://graphics8.nytimes.com/css/standalone/community/common/reportabuse/overlaywindow.css ::::: */
+
+#overlayReportAbuse { width: 252px; padding: 0px 9px 9px; font-family: Arial,sans-serif; font-size: 11px; text-align: left; border: 1px solid rgb(234, 232, 233); position: absolute; top: 0px; left: 0px; z-index: 100002; background-color: rgb(255, 255, 255); }
+#overlayReportAbuse #overlayHeader { border-bottom: 1px solid rgb(234, 232, 233); padding: 4px 0px; }
+#overlayReportAbuse h1 { width: 236px; display: inline-block; margin: 0px; font-size: 11px; float: left; font-family: Arial,sans-serif; }
+#overlayReportAbuse h1 a { font-size: 10px; }
+#overlayReportAbuse input { margin-left: 0px; }
+#overlayReportAbuse label { height: 18px; padding-top: 4px; display: inline-block; vertical-align: middle; color: rgb(0, 0, 0); }
+#overlayReportAbuse #closeButton { cursor: pointer; padding-top: 4px; vertical-align: top; }
+#overlayReportAbuse #overlayLeft, #overlayReportAbuse #overlayRight { display: inline; width: 126px; float: left; margin: 8px 0px 0px; }
+#overlayReportAbuse #overlayFooter { clear: both; text-align: right; }
+#overlayReportAbuse #reportAbuseSubmit { vertical-align: middle; cursor: pointer; }
+#overlayReportAbuse #reportAbuseCancel { margin-right: 3px; text-decoration: none; color: rgb(102, 102, 153); display: inline-block; cursor: pointer; }
+.clearfix { clear: both; }
+#overlayReportAbuse .errorMsg { margin-top: 4px; color: rgb(0, 0, 0); }
+div.reportAbuse { height: 22px; text-align: right; float: right; font-size: 11px; font-family: Arial,sans-serif; padding-top: 10px; }
+div.reportAbuse span.flagged { background: url('checkmark_white.gif') no-repeat scroll left center transparent; font-weight: bold; padding-left: 5px; display: block; color: rgb(0, 66, 118); width: 60px; float: right; }
+
+/* ::::: http://graphics8.nytimes.com/css/standalone/community/common/comments.css ::::: */
+
+div#readerComments .header h3.share { background: none repeat scroll 0% 0% transparent; float: left; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0); padding: 0px; margin: 14px 0px 0px; font-size: 1.15em; }
+div#submitComments, div#readerComments { border-top: medium none; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; }
+div#readerComments .header { margin: 0px; padding: 0px; }
+div#submitComments { margin-top: 10px; }
+#commentsWell #readerRating { margin-bottom: 12px; }
+#commentsWell .post, #commentsWell .reply { border-top: 1px solid rgb(204, 204, 204); padding: 7px 0px 8px; margin: 0px; }
+.post .reviewText, .post .commentText { word-wrap: break-word; }
+#commentsWell .guideKicker { padding: 8px 0px 10px; border-top: 1px solid rgb(204, 204, 204); margin: 0px; }
+#shell #readerComments #tabs { position: relative; top: 1px; margin-top: 15px; }
+#readerComments .tabs li { font-size: 0.822em; padding: 4px 7px 3px; }
+#readerComments .tabs li.first { border-left: 1px solid rgb(204, 204, 204); margin-left: 3px; }
+div#shell #readerComments ul.tabs li.selected a, div#shell #readerComments ul.tabs li a { color: rgb(51, 51, 51); }
+.sortSequence { float: left; width: 160px; font-family: arial,helvetica,sans-serif; color: rgb(143, 143, 156); margin: 7px 0px 9px; padding-bottom: 5px; }
+.sortSequence a { color: rgb(56, 95, 129); }
+#readerComments .sortSequence ul li { border-left: 1px solid rgb(178, 178, 178); border-bottom: 0px none; padding: 0px 4px 0px 8px; font-weight: bold; background-image: none; display: inline; color: rgb(51, 51, 51); }
+#readerComments .sortSequence ul li a { color: rgb(0, 66, 118); font-weight: normal; }
+#readerComments .sortSequence ul li.first { border-left: 0px solid rgb(204, 204, 204); margin-left: -5px; }
+#readerComments .header .postComment { float: right; font-family: arial,helvetica,sans-serif; padding: 0px 0px 0px 7px; margin-top: 16px; }
+#readerComments .header .postComment a { font-weight: bold; font-size: 0.904em; color: rgb(0, 66, 118); }
+.pagination { font-family: arial,helvetica,sans-serif; margin: 4px 0px 0px; padding: 0px; float: right; font-size: 0.987em; }
+.pagination input { width: 23px; text-align: center; font-family: arial,helvetica,sans-serif; padding: 2px 0px; float: left; border-width: 1px; border-color: rgb(204, 204, 204) rgb(239, 239, 239) rgb(239, 239, 239) rgb(204, 204, 204); border-style: solid; height: 14px; font-weight: bold; font-size: 1em; color: rgb(51, 51, 51); }
+.pagination span { float: left; margin: 0px; padding: 0px; }
+.pagination span.paginationvalue { margin: 3px 0px 0px 8px; font-weight: bold; color: rgb(51, 51, 51); }
+.pager { clear: right; color: rgb(0, 0, 0); text-align: right; }
+.pager span a { color: rgb(0, 66, 118); text-transform: uppercase; border: 1px solid rgb(177, 177, 177); display: block; height: 14px; font-weight: bold; line-height: 1.35em; }
+.pager span.previous a { background: url('pagination_previous.gif') no-repeat scroll 5px center transparent; padding: 3px 5px 3px 15px; margin: 0px 20px 0px 0px; width: 54px; }
+.pager span.next a { background: url('pagination_next.gif') no-repeat scroll 87% center transparent; padding: 2px 15px 2px 5px; margin: 0px 0px 0px 20px; width: 28px; }
+#readerComments div.feedback { font-family: arial,helvetica,sans-serif; margin: 0px 2px; padding: 8px 0px 3px; color: rgb(102, 102, 102); font-size: 0.9em; float: left; }
+#readerComments, #submitComments { clear: both; }
+#readerComments .feedback span { font-size: 0.916em; }
+#readerComments .feedback span.left { background: url('recommend_left.gif') no-repeat scroll center top transparent; height: 22px; padding: 2px 0px; width: 4px; }
+#readerComments .feedback span.middle { border-bottom: 1px solid rgb(152, 152, 152); border-top: 1px solid rgb(152, 152, 152); padding: 1px 3px; height: 18px; }
+#readerComments .feedback span.right { background: url('recommend_right.gif') no-repeat scroll center top transparent; height: 22px; padding: 2px 0px; width: 4px; }
+#readerComments .feedback .link span { float: left; margin: 0px; }
+#readerComments a { text-decoration: none; }
+#readerComments a:hover { text-decoration: underline; }
+#readerComments .feedback .caption { float: left; padding: 0px 8px; margin: 2px 0px 0px; }
+#readerComments .feedback a.recommended { background: url('checkmark_white.gif') no-repeat scroll left center transparent; border-right: 1px solid rgb(132, 133, 134); font-weight: bold; margin: 0px 8px 0px 0px; padding: 0px 7px 0px 15px; font-size: 1em; }
+#readerComments .editorSelection .feedback a.recommended { background: url('checkmark_blue.gif') no-repeat scroll left center transparent; }
+#readerComments .feedback span.recommended { font-size: 0.916em; }
+#readerComments .post div.feedback span.feedback { clear: both; display: block; overflow: hidden; }
+span.feedback .link { float: left; padding-right: 5px; }
+#readerComments .editorSelection { background: none repeat scroll 0px 0px rgb(240, 244, 245); padding: 10px 0px 7px; height: 1%; overflow: hidden; }
+#readerComments .post.editorSelection .editorInfo { font-family: arial,helvetica,sans-serif; float: left; font-size: 0.904em; }
+#readerComments .post.editorSelection .head { border-bottom: 1px solid rgb(255, 255, 255); padding: 0px 10px 20px 0px; }
+#readerComments .post.editorSelection .rating { float: right; width: 85px; }
+#readerComments .post.editorSelection .count { float: left; width: 2em; margin: 0px; font-family: arial,helvetica,sans-serif; }
+#readerComments .editorSelection .userInfoContainer { margin-left: 130px; width: 370px; }
+#readerComments .post.editorSelection .userInfo { position: relative; width: 95px; float: left; margin-left: -129px; left: 23px; }
+#readerComments .post.editorSelection .userComment { margin-top: 4px; float: none; min-height: 69px; }
+#readerComments .post.editorSelection span.feedback { display: inline; }
+.userComment .title { color: rgb(0, 66, 118); font-size: 1em; font-weight: bold; line-height: 1.5em; }
+#readerComments .editorSelection .time {  }
+#readerComments .editorSelection .userComment .title { margin-top: 5px; }
+#readerComments .editorSelection .rating label { float: left; font-family: arial,helvetica,sans-serif; }
+#readerComments .count, #readerComments .userInfo { float: left; margin-top: 3px; width: 110px; }
+#readerComments .count { width: 2em; padding-right: 12px; text-align: right; font-family: arial,helvetica,sans-serif; }
+#readerComments .postHeader .count a { text-decoration: underline; color: rgb(0, 66, 118); }
+#readerComments .userInfo { width: 97px; margin-left: 1px; }
+#readerComments .userComment { float: left; width: 350px; line-height: 1.5em; margin: 0px 0px 0px 10px; }
+#readerComments .userComment .reviewText { line-height: 1.5em; }
+#readerComments .userComment .commentRemovedMessage { margin-bottom: 7px; }
+#readerComments .userInfo .displayName, #readerComments .userInfo .location, #readerComments .userInfo .date, #readerComments .userInfo .time, #readerComments .userInfo .userTitle { padding: 0px; margin: 0px 0px 2px; min-height: 13px; color: rgb(51, 51, 51); }
+#readerComments .displayName { word-wrap: break-word; }
+#readerComments .userInfo .time { margin: 0px 0px 7px; }
+#readerComments .userInfo .date { float: none; }
+#commentsWell .rssFeed { padding-bottom: 25px; }
+#commentsWell a.rss { background: url('rss.gif') no-repeat scroll left top transparent; float: right; height: 0px ! important; margin: 0px ! important; overflow: hidden; padding: 15px 0px 0px; width: 44px; display: block; }
+#submitComments { font-family: arial,helvetica,sans-serif; }
+#submitComments h2 a#suggestCorrectionsLink { font-family: arial,helvetica,sans-serif; float: right; font-size: 0.78em; text-transform: none; }
+#submitComments form fieldset { border: medium none; width: 510px; padding: 0px; margin: 0px; }
+#submitComments form fieldset label { display: block; font-size: 0.9em; }
+#submitComments h2 { margin: 0px; padding: 14px 0px 1px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; border-top: medium none; font-weight: bold; font-size: 1.18em; }
+#submitComments #displayName, #submitComments #location { float: left; padding: 0px; margin: 2px 0px 0px; }
+#submitComments #location { padding: 0px 0px 4px 10px; }
+#submitComments #title { clear: left; }
+#submitComments .submit { padding: 7px 0px 0px; cursor: pointer; }
+#submitComments #title input { width: 388px; padding: 2px 0px; }
+#submitComments #comment { padding: 2px 0px 0px; }
+#submitComments #comment label { padding-bottom: 2px; }
+#submitComments form fieldset label span.requiredFormField { color: rgb(102, 102, 102); }
+#submitComments #comment textarea { height: 87px; width: 498px; padding: 0px; }
+#submitComments #comment #numChar { float: right; padding-right: 10px; font-size: 1.1em; }
+#submitComments p { margin: 6px 0px 5px; padding: 0px; font-size: 0.9em; min-height: 14px; }
+#submitComments p.info { color: rgb(143, 143, 143); margin: 4px 0px 0px; padding: 5px 0px 0px; line-height: 1.3em; font-size: 0.9em; }
+#submitComments .body { font-size: 1em; padding: 0px 0px 0px 20px; }
+#submitComments .body ul { margin: 12px 0px 0px; }
+#submitComments .body ul li { display: inline; font-weight: bold; padding: 0px 10px 0px 0px; background: none repeat scroll 0% 0% transparent; }
+#submitComments .body ul li.register { border-left: 1px solid rgb(204, 204, 204); padding: 0px 0px 0px 10px; }
+#submitComments .body ul li a, #submitComments .body ul li a img { vertical-align: middle; }
+#submitReview form fieldset { border: medium none; width: 502px; padding: 0px; margin: 0px; }
+#submitComments .clearfix { clear: left; }
+#submitComments #displayName input, #submitComments #location input { width: 233px; padding: 3px 5px; font-size: 12px; margin: 3px 0px 0px; }
+#submitComments #emailNotifyCheck input { float: left; margin: 0px 5px 0px 0px; }
+#submitComments #emailNotifyCheck label { width: 98%; padding-top: 2px; font-size: 11px; font-weight: bold; display: inline; }
+#submitComments #emailNotifyCheck label a { font-weight: normal; }
+#submitComments #emailNotifyCheck { padding: 14px 0px; clear: both; }
+.secondaryText { color: rgb(102, 102, 102); }
+.errorWell { margin: 25px 0px 50px 35px; padding: 15px 0px 0px; height: 200px; }
+p.info { color: rgb(143, 143, 143); font-size: 0.9em; line-height: 1.3em; margin: 4px 0px 0px; padding: 5px 0px 0px; font-family: arial,helvetica,sans-serif; }
+div.reportAbuse { height: 22px; text-align: right; float: right; font-size: 11px; font-family: arial,helvetica,sans-serif; padding-top: 10px; }
+div.reportAbuse span.flagged { background: url('checkmark_white.gif') no-repeat scroll left center transparent; font-weight: bold; display: block; width: 60px; float: right; }
+div.editorSelection div.reportAbuse span.flagged { background: url('checkmark_blue.gif') no-repeat scroll left center transparent; font-weight: bold; display: block; width: 60px; float: right; }
+#bozo { margin: 10px 0px 0px; padding-top: 10px; background: url('aColumnHorizontalBorder.gif') repeat-x scroll left top transparent; line-height: 120%; }
+#bozo h3 { padding: 15px 0px 7px; font-family: arial,helvetica,sans-serif; font-size: 11px; color: rgb(0, 0, 0); margin: 0px; font-weight: bold; line-height: 12.4px; }
+#bozo #postCommentLink { padding: 10px 0px; text-align: right; }
+#bozo #postCommentLink a { font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight: bold; color: rgb(0, 66, 118); }
+div#bozo div.header { padding: 11px 7px 13px; border-style: solid; border-color: rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px; font-size: 11px; font-family: arial,helvetica,sans-serif; color: rgb(51, 51, 51); background-color: rgb(254, 252, 228); margin: 0px; line-height: 16px; }
+.bozoComment { width: 100%; border-top: 1px solid rgb(204, 204, 204); padding-top: 18px; }
+#firstBozoComment { border-top: medium none; padding-top: 0px; }
+.bozoComment .firstColumn { margin-right: 5%; }
+.bozoComment .firstColumn, .bozoComment .secondColumn { width: 45%; float: left; }
+.bozoComment .secondColumn .ratingStars { float: right; width: 96px; font-family: arial,helvetica,sans-serif; font-size: 11px; }
+div.bozoComment h4 { font-family: arial,helvetica,sans-serif; font-size: 11px; font-weight: normal; color: rgb(0, 0, 0); margin: 0px; padding-bottom: 2px; text-transform: none; line-height: 12px; }
+.bozoComment p { font-family: georgia,"times new roman",times,serif; font-size: 13px; margin: 0px; padding-bottom: 9px; line-height: 21px; color: rgb(51, 51, 51); }
+.spinnerMsg { font-family: arial,helvetica,sans-serif; font-size: 11px; line-height: 14px; margin-top: 8px; text-align: center; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/community/comments.css ::::: */
+
+div#readerComments { margin: 0px 0px 5px; }
+div#readerComments #tabs { bottom: -1px; position: relative; }
+div#readerComments .postHeader { width: 115px; display: inline; float: left; overflow: hidden; }
+#readerComments .count { margin-top: 0px; }
+#readerComments .displayName, #readerComments .date, #readerComments .time, #readerComments .location { margin: 0px 0px 0px 34px; }
+#commentsWell { padding-bottom: 15px; }
+#commentsWell .guideKicker { padding: 8px 0px; }
+#commentsWell .guideKicker .sortSequence { margin: 7px 0px 0px; }
+div#readerComments .postHeader { font-family: arial,helvetica,sans-serif; font-size: 1.1em; margin: 3px 0px 0px; }
+div#readerComments .userReview { display: inline; float: left; font-size: 1.3em; line-height: 1.3; margin: 4px 0px 0px 15px; width: 350px; }
+div#readerComments .header h3.share { font-size: 1.5em; }
+div#readerComments .header h3.nocomments { margin-bottom: 10px; }
+#readerComments .header .postComment { font-size: 1.23em; }
+div#shell #readerComments ul.tabs li { border-bottom: 1px solid rgb(204, 204, 204); font-size: 1em; }
+div#shell #readerComments ul.tabs li.selected { border-bottom: 1px solid rgb(255, 255, 255); }
+div#shell #readerComments ul.tabs li.selected a { position: static; }
+div#submitComments { margin: 0px; font-size: 1.2em; }
+#submitComments #displayName input, #submitComments #location input { padding: 3px 5px; font-size: 12px; margin: 3px 0px 0px; }
+#submitComments #comment #numChar { font-size: 0.9em; }
+#submitComments #comment textarea { padding: 5px; width: 488px; }
+#readerComments .feedback a { font-size: 1.1em; line-height: 1.7em; }
+#readerComments .post.editorSelection .editorInfo { font-size: 1.1em; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/dialogbox.css ::::: */
+
+.dialogBoxContainer, .dialogBox, .dialogBoxPointer, .dialogBoxPointerLeft, .dialogBoxPointerRight, .dialogBoxPointerUp, .dialogBoxCloseContainer { position: absolute; }
+.dialogBox { border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); box-shadow: 0px 1px 3px rgb(170, 170, 170); text-align: left; }
+.dialogBox.blue { border: 1px solid rgb(197, 211, 225); background-color: rgb(230, 239, 248); }
+.dialogBox .inset { margin: 10px; }
+.dialogBox .module { border: medium none; margin-bottom: 20px; background: none repeat scroll 0% 0% transparent; }
+.dialogBox .header { margin-bottom: 4px; }
+.dialogBox .header .moduleHeaderBd, .dialogBox .header .moduleHeader { margin: 0px; }
+.dialogBox .header .element2 { width: 52px; }
+.dialogBoxPointer { left: 48%; background: url('pointer_down.png') no-repeat scroll left top transparent; height: 13px; width: 11px; }
+.dialogBoxPointerLeft { top: 48%; left: -10px; background: url('pointer_left.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.dialogBoxPointerRight { top: 48%; right: -10px; background: url('pointer_right.png') no-repeat scroll left top transparent; height: 15px; width: 10px; }
+.dialogBoxPointerUp { left: 48%; top: -8px; background: url('pointer_up.png') no-repeat scroll left top transparent; height: 8px; width: 12px; }
+.dialogBox.blue .dialogBoxPointer { background-image: url('pointer_down_blue.png'); background-color: transparent; }
+.dialogBox.blue .dialogBoxPointerLeft { background-image: url('pointer_left_blue.png'); background-color: transparent; }
+.dialogBox.blue .dialogBoxPointerRight { background-image: url('pointer_right_blue.png'); background-color: transparent; }
+.dialogBox.blue .dialogBoxPointerUp { background-image: url('pointer_up_blue.png'); background-color: transparent; }
+.dialogBoxCloseContainer { top: 5px; right: 5px; }
+.dialogBoxClose { font-family: arial,helvetica,sans-serif; font-size: 1em; line-height: 1.3em; text-transform: uppercase; color: rgb(0, 0, 0) ! important; background: url('close_dialog_box_icon.gif') no-repeat scroll right top transparent; display: block; height: 13px; padding-right: 18px; }
+.dialogBoxClose.hideText { padding-right: 0px; width: 13px; }
+.dialogBoxPointer {  }
+.dialogBoxPointerLeft {  }
+.dialogBoxPointerRight {  }
+.dialogBox.blue .dialogBoxPointer {  }
+.dialogBox.blue .dialogBoxPointerLeft {  }
+.dialogBox.blue .dialogBoxPointerRight {  }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/community/comments/2.0/commentsModule.css ::::: */
+
+.commentsModule, .commentReadMore { font-family: arial,helvetica,sans-serif; }
+.commentBody p { font-family: georgia,"times new roman",times,serif; }
+.commentsModule .containingBlock { position: relative; }
+.commentsLoader img { margin: 18px auto; display: block; }
+.commentsHeader { margin-bottom: 12px; }
+.commentsHeader .element1 { width: 66%; }
+.commentsIntro { margin-bottom: 0px; }
+.commentsZero .inset { margin-bottom: 20px; }
+.commentsZero p { margin-bottom: 0px; color: rgb(128, 128, 128); text-align: center; }
+.commentsModule { padding-top: 5px; }
+.commentsModuleHeader { margin-bottom: 1px; background-color: rgb(244, 244, 244); }
+.commentsModuleHeader .tabsContainer { margin-top: -7px; margin-left: 10px; height: 30px; }
+.commentsModuleHeader .tabs { overflow: visible; }
+.commentsModuleHeader .tabs li { border: medium none; background: none repeat scroll 0% 0% transparent; padding: 15px 0px 10px; line-height: 1.2em; }
+.commentsModuleHeader .tabs li a { padding: 3px 10px; border-right: 1px solid rgb(204, 204, 204); }
+.commentsModuleHeader .tabs .selected { font-weight: bold; padding: 13px 10px; background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); box-shadow: -3px 0px 1px -2px rgba(0, 0, 0, 0.2), 3px 0px 1px -2px rgba(0, 0, 0, 0.3); position: relative; }
+.commentsModuleHeader .tabsContainer .precedesSelected a, .commentsModuleHeader .tabsContainer .selected a, .commentsModuleHeader .tabsContainer .lastItem a { border-right: 0px none; }
+.tabsContainer .commentsRefer { margin-top: 15px; font-size: 1em; line-height: 1.2em; }
+.commentsRefer a, .commentsRefer a:link, .commentsRefer a:visited, .commentsRefer a:hover, .commentsRefer a:active { color: rgb(51, 51, 51); }
+.commentsModuleHeader .tabs li a, .commentSort a, .commentWrite a, .commentReply a, .commenterIdentity a, .commentFlag a, .commentActionsList a, .commentsModule .boxClose { outline: 0px none; }
+.commentsModuleHeader .commentActions {  }
+.commentSort { height: 21px; padding: 10px 10px 0px 0px; border-right: 1px solid rgb(204, 204, 204); }
+.commentSort .controlLabel { font-weight: bold; margin-right: 4px; }
+.commentSort .controlLabel, .commentSort a { font-size: 1.1em; line-height: 1; color: rgb(51, 51, 51); }
+.commentSort .toggleControl { padding-right: 10px; background: url('toggle_down_icon_7x6_black.png') no-repeat scroll right 3px transparent; }
+.commentSort .toggleControl:hover { background: url('toggle_up_icon_7x6_black.png') no-repeat scroll right 3px transparent; }
+.commentSort .toggleControl, .commentSort .toggleControl:hover {  }
+.commentWrite { width: 99px; height: 21px; padding: 10px 0px 0px 6px; border-left: 1px solid rgb(255, 255, 255); }
+.commentWrite a { display: block; font-weight: bold; }
+.commentWrite p, .commentWrite a { font-size: 1.1em; line-height: 1; }
+.commentWrite p { color: rgb(144, 144, 144); }
+.commentsModule .tabContent { border-width: 1px 0px 0px; padding: 11px 0px 15px; }
+.commentsList { margin-left: 0px; }
+.commentsList .comment { border-top: 1px solid rgb(226, 226, 226); margin-bottom: 10px; padding-top: 10px; list-style-type: none; font-size: 1em; padding-bottom: 0px; position: relative; }
+.commentsList > .comment:first-child, .commentConfirmation .commentsListNested > .comment:first-child { border-top: medium none; }
+.commentsList .lastComment { margin-bottom: 0px; }
+.commentThumb { width: 9%; margin-left: 6px; }
+.commentThumb img { height: 50px; width: 50px; }
+.replyThumb { text-align: center; }
+.commentContainer, .commentFieldContainer, .commentSubmitControl { width: 88.5%; }
+.commentHeader { margin-bottom: 3px; }
+.commentsModule ul li { padding: 0px 0px 0px 9px; background-image: url('bullet_2x2.png'); background-position: left 0.6em; }
+.commenterMetaList { margin: 0px; max-width: 82%; }
+ul.commenterMetaList li { font-size: 1.2em; line-height: 1.25em; color: rgb(128, 128, 128); float: left; display: inline; margin-right: 8px; }
+.commenterMetaList .commenter { font-weight: bold; background-image: none; padding-left: 0px; }
+.commenterMetaList .commenter, .commenterMetaList .commenterNYT, .commenterMetaList .commenter a:link, .commenterMetaList .commenter a:visited { color: rgb(0, 0, 0); }
+.commenterMetaList .commenterNYT { background: url('t_icon_12x12.png') no-repeat scroll 1px 1px transparent; padding-left: 16px; }
+.commenterTrusted { font-weight: bold; color: rgb(57, 180, 135); }
+.commenterTrustedIcon { background: url('trusted_icon_12x12.png') no-repeat scroll 0px 0px transparent; display: inline-block; height: 12px; width: 12px; text-indent: -9999px; margin-top: 1px; cursor: pointer; }
+.commenterTrusted .commenterTrustedIcon { cursor: default; margin: 0px 5px 0px 0px; }
+.commentBannerContainer { position: relative; width: 50px; }
+.commentBanner { width: 50px; padding-top: 9px; position: absolute; top: -9px; right: 6px; }
+.bannerNYTPick, .bannerNYTReply { margin: -9px 0px 5px; display: block; text-indent: -9999px; height: 42px; width: 34px; background-repeat: no-repeat; }
+.bannerNYTPick { background-image: url('banner_nyt_pick.png'); }
+.bannerNYTReply { background-image: url('banner_nyt_reply.png'); }
+.commentFlagContainer { clear: both; }
+.commentFlag { margin: 0px; color: rgb(144, 144, 144); text-transform: uppercase; font-size: 1em; line-height: 1.5em; background: url('flag_icon.png') no-repeat scroll left 3px transparent; padding-left: 11px; cursor: pointer; }
+.commentBody { margin-bottom: 5px; }
+.commentBody p { width: 85%; font-size: 1.3em; line-height: 1.308em; color: rgb(0, 0, 0); word-wrap: break-word; }
+.commentReadMore { font-size: 0.769em; line-height: 1.7em; text-transform: uppercase; margin-left: 2px; padding-right: 10px; background: url('toggle_down_icon_7x6.png') no-repeat scroll right 3px transparent; white-space: nowrap; }
+.commentFooter { margin-bottom: 9px; }
+.commentActionsList { margin-bottom: 0px; height: 16px; }
+ul.commentActionsList li { float: left; margin-right: 5px; padding-left: 8px; font-size: 1em; line-height: 1.5em; text-transform: uppercase; color: rgb(144, 144, 144); background-position: left 0.7em; }
+ul.commentActionsList li:first-child { background-image: none; padding-left: 0px; }
+ul.commentActionsList .commentInReplyTo, ul.commentActionsList .commentTime, ul.commentActionsList .commentRecommendedByUser .commentRecommendLinkText { text-transform: none; }
+ul.commentActionsList .commentInReplyTo, ul.commentActionsList .commentTime { font-size: 1.1em; line-height: 1.363em; }
+.commentActionsList li a { color: rgb(144, 144, 144); }
+.commentReply, .commentRecommend {  }
+.commentRecommendedIcon, .commentShareFacebook a, .commentShareTwitter a { height: 16px; width: 16px; }
+.commentsContainer .shareTools { display: none; }
+.commentsContainer .shareTools .shareToolsItem { padding: 0px 1px; background: none repeat scroll 0% 0% transparent; }
+.commentRecommend a:hover { text-decoration: none; }
+.commentRecommend span { display: inline-block; }
+.commentRecommend a span { cursor: pointer; }
+.commentRecommendedByUser .commentRecommendLinkText, .commentRecommendedCount, .commentRecommendedIcon { font-size: 1.1em; line-height: 1.363em; }
+.commentRecommendedIcon { background: url('thumb_up_icon.png') no-repeat scroll 0px 2px transparent; display: inline-block; margin: -5px 2px 0px; }
+.commentRecommendedByUser .commentRecommendedIcon { background: url('thumb_up_icon_full.png') no-repeat scroll 0px 2px transparent; }
+.commentShareTools ul { margin-top: -1px; }
+.commentShareTools ul li { float: left; padding-left: 0px; background-image: none; }
+.commentShareFacebook a, .commentShareTwitter a { display: block; text-indent: -9999px; }
+.commentShareFacebook a { background: url('facebook_icon_16x16.gif') no-repeat scroll 0px 0px transparent; }
+.commentShareTwitter a { background: url('twitter_icon_16x16.gif') no-repeat scroll 0px 0px transparent; }
+.commentActions .insetPadded { padding: 7px; }
+.commentActions.box { margin-bottom: 0px; padding: 1px 0px; border-width: 1px 0px 0px; }
+.commentActions.box .insetPadded { padding: 0px 0px 0px 7px; }
+.commentActions.box .toggleControlBlock { padding: 7px 7px 7px 0px; }
+.commentReadAllReplies { margin-bottom: 0px; font-size: 1em; line-height: 1; text-transform: uppercase; }
+.commentsModule .toggleControlBlock { display: block; line-height: 1; }
+.commentsModule .toggleControlBlock:hover { text-decoration: none; }
+.commentsModule .toggleControlBlock span { border-bottom: 1px solid transparent; display: inline-block; cursor: pointer; }
+.commentsModule .toggleControlBlock:hover span { border-bottom: 1px solid rgb(0, 66, 118); }
+.commentsModule .toggleDownIcon { display: inline-block; background: url('toggle_down_icon_7x6.png') no-repeat scroll 0px 0px transparent; width: 7px; height: 7px; }
+.commentsModule .toggleControlBlock .toggleDownIcon { margin-left: 2px; border-bottom: medium none ! important; }
+.commentsModule .inlineReferBd { font-weight: bold; }
+.commentsList, .commentsListNested { margin: 0px ! important; }
+.commentsListPeek { height: 400px; overflow: hidden; position: relative; }
+.commentsListNested .comment { margin-bottom: 0px; }
+.commentsListNested .commentThumb { width: 6%; }
+.commentsListNested .commentThumb img { height: 32px; width: 32px; }
+.commentsListNested .commentContainer, .commentsListNested .commentFieldContainer { width: 91%; }
+.commentsModule .moduleBackgroundColor { background-color: rgb(234, 242, 249); }
+.commentsModule .moduleBackgroundColorAlt { background-color: rgb(230, 239, 248); }
+.commentsModule .statusBackgroundColor { background-color: rgb(255, 253, 239); }
+.commentsFooter { position: relative; padding-top: 12px; }
+.commentsFooterPeek { box-shadow: 0px -1px 0px rgba(204, 204, 204, 0.4), 0px -2px 0px rgba(204, 204, 204, 0.3), 0px -3px 0px rgba(204, 204, 204, 0.2), 0px -4px 0px rgba(204, 204, 204, 0.1); background-color: rgb(255, 255, 255); transition: margin-top 0.3s ease 0s, padding-bottom 0.3s ease 0s; }
+.commentsDisplay:hover .commentsFooterPeek { margin-top: -25px; padding-bottom: 25px; }
+.commentsReadMore { width: 50%; margin: 0px auto; border-radius: 2px; }
+.commentsReadMore p { margin-bottom: 0px; font-size: 1.1em; line-height: 1.363em; text-align: center; text-transform: uppercase; font-weight: bold; }
+.commentsReadMore a { padding: 9px 0px 7px; }
+.commentsReadMore .toggleControlBlock .toggleDownIcon { height: 8px; margin-left: 3px; vertical-align: middle; }
+.commentFlag, .commentShareTools { display: none; }
+.commentActive { background-color: rgb(250, 250, 250); }
+.commentActive .commentActionsList a, .commentActive .commenter a { color: rgb(0, 66, 118); }
+.commentActive a:hover .commentRecommendLinkText { text-decoration: underline; }
+.commentActive .commentRecommendedByUser .commentRecommendLinkText, .commentActive .commentRecommendedByUser .commentRecommendedCount { color: rgb(51, 51, 51); }
+.commentActive a .commentRecommendedIcon { background: url('thumb_up_icon_active.gif') no-repeat scroll 0px 2px transparent; }
+.commentActive .commentRecommendedByUser .commentRecommendedIcon { background: url('thumb_up_icon_full_active.gif') no-repeat scroll 0px 2px transparent; }
+.commentActive .commentRecommendedByUser a:hover .commentRecommendedIcon { background: url('x_icon_16x16.png') no-repeat scroll 0px 0px transparent; }
+.commentActive .commentRecommendedIcon {  }
+.commentActive .commentFlag, .commentActive .commentShareTools { display: block; }
+.commentActive .commentsListNested .commentActionsList a, .commentActive .commentsListNested .commentTime { color: rgb(144, 144, 144); }
+.commentActive .commentsListNested .commenter a, .commentActive .commentsListNested .commentRecommendedLink { color: rgb(51, 51, 51); }
+.commentActive .commentsListNested .commentRecommend span { color: rgb(144, 144, 144); }
+.commentActive .commentsListNested .commentRecommendedIcon { background: url('thumb_up_icon.png') no-repeat scroll 0px 2px transparent; }
+.commentActive .commentsListNested .commentRecommendedByUser .commentRecommendedIcon { background: url('thumb_up_icon_full.png') no-repeat scroll 0px 2px transparent; }
+.commentActive .commentsListNested .commentFlag, .commentActive .commentsListNested .commentShareTools { display: none; }
+.commentReplyActive { background: none repeat scroll 0% 0% rgb(250, 250, 250); }
+.commentsModule .box { border-color: rgb(226, 226, 226); position: relative; }
+.commentsModule .boxCloseContainer { position: absolute; top: 10px; right: 7px; }
+.commentsModule .boxClose { cursor: pointer; display: inline-block; background: url('close_dialog_box_icon.gif') no-repeat scroll right top transparent; height: 13px; }
+.commentsModule .boxClose.hideText { width: 13px; }
+.commentConfirmation.box p { font-size: 1.1em; }
+.commentConfirmation > .header { margin-bottom: 1px; padding: 1px 0px; border-style: solid; border-color: rgb(226, 226, 226); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; border-width: 1px 0px; }
+.commentConfirmation .subheader { margin-bottom: 1px; padding-bottom: 1px; border-bottom: 1px solid rgb(226, 226, 226); }
+.commentConfirmation .header .insetPadded, .commentConfirmation .subheader .insetPadded, .commentConfirmation .comment .opposingFloatControl { background-color: rgb(255, 253, 239); }
+.commentConfirmation .insetPadded { padding: 10px; }
+.commentConfirmation .comment { margin-bottom: 1px; padding-top: 1px; }
+.commentConfirmation .commentsList > .comment:first-child { padding-top: 0px; }
+.commentConfirmation .comment .opposingFloatControl { padding: 10px 0px; }
+.commentConfirmation .dialogBox .opposingFloatControl { padding: 0px; background-color: transparent; }
+.commentConfirmation p { margin-bottom: 0px; }
+.commentConfirmation .dialogBox p { margin-bottom: 1em; }
+.commentForm { margin-bottom: 0px; padding-top: 10px; }
+.commentsListNested .commentForm { border-top: medium none; padding-top: 0px; }
+.commentForm .commentHeader { margin-bottom: 7px; }
+.commentFormHeader .element2 { margin-top: 5px; }
+.commentCorrection { font-size: 1.1em; line-height: 1; font-weight: bold; }
+.commentForm .control > .control { margin-bottom: 0px; }
+.commentForm label { font-size: 1.2em; line-height: 1.25em; }
+.commentForm .text { margin: 0px; font-size: 1.2em; }
+.commentHeaderControl .text { width: 153px; }
+.commentHeaderControl > .control > .labelContainer { float: none; display: block; margin-bottom: 7px; }
+.commenterLocationInput.text { margin-right: 10px; }
+.commentForm .formHint { font-size: 1.1em; }
+.commenterIdentity .formHint { font-size: 0.916em; }
+.commenterLocationControl .formHint { line-height: 20px; }
+.commentCharCount { position: absolute; right: -58px; top: -22px; margin-bottom: 7px; width: 90px; font-weight: bold; color: rgb(144, 144, 144); }
+.commentCharCount, .commentForm .textarea { font-size: 1.2em; line-height: 1.25em; }
+.commentCharCount.error { color: rgb(168, 24, 23); }
+.commentCharCount.error span { font-weight: normal; margin-left: 2px; }
+.commentTextareaControl .fieldContainer { width: 90%; }
+.commentForm .textarea { width: 96.5%; padding: 3px; min-height: 130px; resize: none; }
+.commentForm .placeholder { color: rgb(144, 144, 144); }
+.commentTextareaControl .errorContainer .inset { margin: 10px 0px 0px; }
+.commentTextareaControl .error { margin-bottom: 0px; }
+.commentSubmitControl .checkboxControl { width: 72%; }
+.commentSubmitControl .checkbox { margin-top: 0px; }
+.commentForm .checkboxLabelSm { color: rgb(51, 51, 51); line-height: 1; margin-top: 2px; margin-bottom: 8px; }
+.commentForm .checkboxLabelSm, .commentForm .formDescription, .commentTextareaControl .error { font-size: 1.1em; line-height: 1.182em; }
+.commentForm .formDescription { color: rgb(144, 144, 144); }
+.commentForm .commentSubmitControl .checkboxControl { margin-right: 0px; }
+.commentForm .commentSubmitControl .buttonControl { float: right; margin-right: 0px; }
+.commentsModule .applicationButtonInactive { background-color: rgb(191, 191, 191); }
+.commentsModule .submitLoader { display: inline; margin-right: 8px; }
+.commentsModule .submitLoader img { vertical-align: middle; }
+.commentLoginModule > .inset { margin-bottom: 42px; }
+.commentLoginModule p { text-align: center; }
+.commentsClosedModule .inset { margin-top: 23px; }
+.commentsClosedModule p { font-size: 1.1em; line-height: 1.273em; text-align: center; color: rgb(144, 144, 144); }
+.commentsModule .dialogBox { width: 265px; z-index: 10; }
+.commentsModule .dialogBox .header { margin-bottom: 7px; }
+.commentsModule .dialogBox .header .element2 { margin-top: -3px; margin-right: -3px; width: 13px; }
+.commentsModule .dialogBox .dialogBoxClose { padding-right: 0px; }
+.commentsModule .dialogBox .moduleHeaderBd { font-size: 11px; line-height: 15px; text-transform: none; }
+.commentsModule .dialogBox p, .commentsModule .dialogBox label { font-size: 11px; line-height: 13px; }
+.commentsModule .dialogBox .text { height: 16px; }
+.commentsModule .dialogBox .checkboxLabel { font-size: 10px; }
+.commentsModule .dialogBox p { color: rgb(51, 51, 51); }
+.commentsModule .dialogBox .error { color: rgb(168, 24, 23); }
+.commentsModule .dialogBox .checkboxList li { font-size: 11px; line-height: 13px; background-image: none; margin-bottom: 5px; padding: 0px; }
+.commentsModule .dialogBox .checkboxLabel { display: inline-block; margin-top: 3px; }
+.commentsModule .dialogBox .subColumn-2 .column { width: 122px ! important; }
+.commentsModule .dialogBox .subColumn-2 .insetH { margin-left: 0px; }
+.commentsModule .dialogBox .subColumn-2 .lastColumn .insetH { margin-right: 0px; }
+.commentsModule .dialogBoxLogin { top: -174px; left: -157px; width: 360px ! important; }
+.commenterLoggedOut .dialogBoxLogin { left: -161px; }
+.commentsModule .dialogBoxLogin .errorContainer { margin-bottom: 10px; text-align: center; }
+.commentsModule .dialogBoxLogin .fieldContainer, .commentsModule .dialogBoxLogin .insetContainer { padding-left: 130px; }
+.commentsModule .dialogBoxLogin .labelContainer { text-align: right; width: 120px; }
+.commentsModule .dialogBoxLogin .loginSubmitControl .labelContainer { text-align: left; width: auto; }
+.commentsModule .dialogBoxLogin .passwordControl .labelDescription { position: absolute; top: 18px; right: 0px; line-height: 12px; }
+.commentsModule .dialogBoxLogin .loginSubmitControl .control { margin-bottom: 0px; }
+.commentsModule .dialogBoxLogin .loginSubmitControl .checkboxControl { margin-top: 5px; }
+.commentsModule .dialogBoxTrusted { top: -136px; left: -128px; }
+.commentsListPeek .dialogBoxTrusted { top: 21px; }
+.commentsModule .dialogBoxFlag { right: -114px; top: -170px; }
+.wideAd .commentsModuleHeader .tabs li a { padding: 3px 8px; }
+.wideAd .commentsModuleHeader .tabs .lastItem a { padding-right: 0px; }
+.wideAd .commentsModuleHeader .tabs .firstItem.lastItem a { padding-right: 8px; }
+.wideAd .commentsModuleHeader .commentActions {  }
+.wideAd .commentSort { width: 46px; padding-right: 6px; }
+.wideAd .commentContainer, .wideAd .commentFieldContainer, .wideAd .commentSubmitControl { width: 85.5%; }
+.wideAd .commentsListNested .commentContainer, .wideAd .commentsListNested .commentFieldContainer, .wideAd .commentsListNested .commentSubmitControl { width: 88%; }
+.wideAd .commentBody p { width: 80%; min-height: 34px; }
+.wideAd .commentHeaderControl .text { width: 115px; }
+@media not all {
+  .commentsModuleHeader .tabs .selected { padding-bottom: 12px; }
+  .commenterTrustedIcon { margin-top: 0px; }
+  .commentSort, .commentWrite { padding-top: 8px; }
+  .commentForm .checkboxLabelSm { margin-top: 0px; }
+  .commentsModule .dialogBoxLogin { top: -170px; }
+}
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/themes/universal/comments.css ::::: */
+
+.commentContainer, .commentFieldContainer, .commentSubmitControl { width: 86.5%; }
+.commentsListNested .commentContainer, .commentsListNested .commentFieldContainer { width: 89%; }
+.commentsModule .tabs li:first-child { border-left: medium none; }
+#commentsModule .dialogBox .module { background: none repeat scroll 0% 0% transparent; }
+#comments, #respond { padding: 10px 0px; }
+#comments h4, #respond h4, #related-content h4 { margin: 5px 0px 15px; }
+#aCol #comments { overflow: hidden; }
+#aCol #comments h4 { margin-left: 10px; margin-right: 10px; }
+.entry-comments h4, .entry-response h4 { margin: 10px; font-family: arial,helvetica,sans-serif; }
+.pages { border-top: 1px solid rgb(204, 204, 204); font-size: 1.1em; font-family: arial,helvetica,sans-serif; padding: 1.2em 0px; text-align: right; }
+.entry-comments ol { margin-left: 0px; }
+.entry-comments ol li { list-style-type: none; border-top: 1px solid rgb(204, 204, 204); clear: left; }
+.entry-comments .comment-number { width: 20px; margin-right: 5px; display: block; float: left; }
+.entry-comments .comment-meta { margin: 11px 11px 11px 9px; float: left; width: 130px; line-height: 1.5em; font-size: 0.916em; font-family: arial,helvetica,sans-serif; color: rgb(153, 153, 153); }
+.comment-meta abbr span, .comment-meta span, .comment-meta .comment-edit { display: block; }
+.comment-meta .updated { float: left; width: 105px; }
+.comment-meta .updated, .comment-link { border-bottom: medium none; }
+.comment-meta .comment-link { margin-top: 10px; }
+.updated .timestamp { color: rgb(153, 153, 153); font-size: 1em; }
+.moderation { margin: 5px 0px; }
+.moderation em { color: rgb(168, 24, 23); text-transform: uppercase; font-family: arial,helvetica,sans-serif; font-size: 0.8em; font-style: normal; }
+.comment-content { margin: 10px 10px 15px 150px; width: 340px; }
+.comment-content p, .comment-content cite { font-size: 1.083em; line-height: 1.4em; }
+.comment-content p { margin: 0px 0px 1em; }
+.comment-content cite { padding: 0.5em 0px; }
+.comment-content blockquote { font-size: 1em; clear: none; }
+.entry-related { padding: 10px; }
+.entry-related .entry { border-top: medium none; margin: 0px 42px 0px 0px; padding: 5px 0px 0px; }
+.entry-meta .blogrunner .entry, .entry-meta .blogrunner .external-links { width: 218px ! important; float: left; }
+#aCol .entry-meta .module h4 { margin-bottom: 10px; }
+.entry-related h5 { margin-bottom: 4px; font-size: 1.1em; font-weight: bold; font-family: arial,helvetica,sans-serif; text-transform: uppercase; }
+.entry-related .entry h6 { font: bold 1em georgia,"times new roman",times,serif; }
+.entry-meta .module { float: none; }
+.entry-related .entry ul { margin: 3px 0px 0px; }
+.entry-related .entry ul li { margin-bottom: 8px; padding: 0px; background: none repeat scroll 0% 0% transparent; }
+.entry-related .clearfix { margin-bottom: 5px; }
+.blogrunner .clearfix { background: url('blognav.gif') repeat-y scroll -10px 0px transparent; }
+.entry-response form { display: block; font-family: arial,helvetica,sans-serif; width: 100%; }
+.entry-response form p { font-size: 1.1em; line-height: 1.1em; color: rgb(153, 153, 153); }
+.entry-response form p label { width: 130px; float: left; color: rgb(0, 0, 0); font-size: 1em; }
+.entry-response form p label span { margin-top: 5px; color: rgb(153, 153, 153); display: block; width: 100px; }
+.entry-response #comment-code, .entry-response .loggedin { margin: 10px 0px 10px 130px; font-size: 1.3em; width: 350px; color: rgb(168, 24, 23) ! important; }
+#warnings { margin: 10px 0px 10px 130px; color: rgb(168, 24, 23) ! important; width: 350px; }
+#comment-code code { margin-top: 3px; display: block; font-size: 1.3em; width: 350px; }
+.entry-response form p { margin-bottom: 10px; }
+.entry-response form p input, .entry-response form p textarea { padding: 3px 2px; color: rgb(85, 85, 85); font-family: arial,helvetica,sans-serif; }
+.entry-response form p input { margin-right: 5px; }
+.entry-response form p textarea { width: 340px; }
+.entry-response #submit-comment { margin: 0px 0px 0px 130px; padding: 0px; border: medium none; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/themes/universal/archives.css ::::: */
+
+.blogArchives #content .latestEntry { margin-bottom: 30px; }
+.blogArchives #content .subColumn-3 { clear: both; }
+.blogArchives #content .categoryColumns { padding-top: 2px; }
+.blogArchives #content .tagColumns { padding-top: 5px; }
+.blogArchives #content .subColumn-3 .column, .blogArchives #content .tagColumns .column .refer li { width: 148px; }
+.blogArchives #content .subColumn-3 .column { margin-right: 18px; }
+.blogArchives #content .subColumn-3 .column .refer li { margin-bottom: 5px; }
+.blogArchives #content .tagColumns .column .refer li { float: left; }
+.blogArchives #content .tagColumns .column .refer li a { width: 120px; float: left; }
+.blogArchives #content .subColumn-3 .column .refer span.tagCount { float: right; color: rgb(119, 119, 119); text-align: right; }
+.blogArchives #content .singleRuleDivider { margin: 12px 0px 23px -10px; width: 500px; }
+.blogArchives #content h4 { float: left; }
+.blogArchives #content .sort { margin-top: 1px; float: right; }
+.blogArchives #content .sort label { padding-right: 3px; display: inline; }
+.blogArchives #content .sort * { vertical-align: middle; }
+.blogArchives #content .sort select { width: 96px; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/modules/twitterEmbed.css ::::: */
+
+.tweet { margin: 0px 0px 12px; }
+.tweet .bbpBox { padding: 20px; background: url('background.png') repeat scroll 0% 0% rgb(192, 222, 237); }
+.tweet .bbpBox p { min-height: 48px; padding: 10px 12px; border-radius: 5px; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 1.6em; line-height: 1.375em; color: rgb(0, 0, 0); }
+.tweet .bbpBox .timestamp { display: block; font-size: 0.75em; }
+.tweet .bbpBox .metadata { display: block; height: 40px; padding: 12px 0px 0px; border-top: 1px solid rgb(230, 230, 230); margin: 8px 0px 0px; }
+.tweet .bbpBox .author { line-height: 1.1875em; }
+.tweet .bbpBox .author img { float: left; width: 38px; height: 38px; margin: 0px 7px 0px 0px; }
+.entry-content .tweetEmbed { clear: both; width: 381px; margin: 0px auto 12px; font-size: 1em; }
+.tweetEmbed .tweet { padding: 12px 18px 12px 12px; border: 1px solid rgb(226, 226, 226); border-radius: 3px; margin: 0px; background: none repeat scroll 0% 0% transparent; }
+.tweetEmbed a { text-decoration: none; }
+.tweetEmbed a:hover { text-decoration: underline; }
+.tweetEmbed .tweetAvatar, .tweetEmbed .tweetAvatar img { width: 35px; height: 35px; }
+.tweetEmbed .tweetAvatar { float: left; }
+.tweetEmbed .tweetText, .tweetEmbed .tweetTimestamp { color: rgb(51, 51, 51); }
+.tweetEmbed .tweetAuthor, .tweetEmbed .tweetTimestamp { font-family: arial,helvetica,sans-serif; font-size: 1.1em; line-height: 1.909em; }
+.tweetEmbed .tweetAuthor { margin: -5px 0px 0px; color: rgb(128, 128, 128); }
+.tweetEmbed .tweetText { min-height: 48px; margin: 2px 0px 5px; font-size: 1.4em; }
+.tweetEmbed .tweetTimestamp { margin: 0px; }
+.tweetEmbed .tweetAuthor, .tweetEmbed .tweetText, .tweetEmbed .tweetTimestamp { margin-left: 45px; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/modules/common.css ::::: */
+
+.tabs li:first-child { border-left: 1px solid rgb(204, 204, 204); }
+.module .tabs li { margin-bottom: 0px; }
+.tabContent { padding: 5px 9px; background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.entry-content .tabContent { margin-bottom: 1em; }
+.module .tabContent .entry { padding: 6px 0px 3px; }
+.tabContent .singleRule:first-child { border-top: medium none; }
+.module .tabContent p, .module .tabContent h5 { font-size: 1.1em; font-family: arial,helvetica,sans-serif; }
+.entry-content .tabContent a, .entry-content .tabs li a { text-decoration: none; }
+.verticalTabSet .tabs li, .verticalTabSet .tabContent { border: medium none; }
+.verticalTabSet h4 { margin-bottom: 8px; }
+.verticalTabSet > .wrap { background: url('vertical_rule.gif') repeat-y scroll 138px 0px transparent; }
+.verticalTabSet .tabsContainer { float: left; margin-bottom: 8px; width: 131px; }
+.verticalTabSet .tabContent { clear: none; float: right; padding: 0px 0px 0px 7px; width: 220px; }
+.verticalTabSet .tabContent .entry:first-child { padding-top: 0px; }
+.verticalTabSet .tabContent .entry { padding-bottom: 4px; }
+.verticalTabSet img.left { display: inline; margin-right: 6px; }
+.verticalTabSet .tabContent p, .verticalTabSet .tabContent h5 { font-family: georgia,"times new roman",times,serif; font-size: 1.2em; }
+.verticalTabSet .tabContent .kicker { margin-bottom: 0px; }
+.verticalTabSet .tabContent p.more { font-family: arial,helvetica,sans-serif; font-size: 1.1em; margin-bottom: 0px; }
+.verticalTabSet .byline { border-bottom: medium none; display: block; margin: 2px 0px; }
+.verticalTabSet .tabs { overflow: visible; }
+.verticalTabSet .tabs, .verticalTabSet .tabs li { white-space: normal; }
+.verticalTabSet .tabs li { background-color: rgb(244, 244, 244); border-bottom: 1px solid rgb(204, 204, 204); cursor: pointer; float: none; padding: 7px 0px 7px 10px; position: relative; width: 121px; }
+.verticalTabSet .tabs li:first-child { border-top: 1px solid rgb(204, 204, 204); }
+.verticalTabSet .tabsContainer a:focus { outline: 0px none; }
+.verticalTabSet .tabs li a { display: block; float: left; width: 75px; }
+.verticalTabSet .tabs .moreContributors a { background: url('moreContribArrow.gif') no-repeat scroll right 13px transparent; float: none; padding-right: 7px; width: 81px; }
+.verticalTabSet .tabs li.selected { background-image: none; background-color: rgb(0, 0, 0); border-bottom: 1px solid rgb(0, 0, 0); border-top: 1px solid rgb(0, 0, 0); cursor: auto; margin-top: -1px; width: 132px; z-index: 999; }
+.verticalTabSet .tabs li.selected:first-child { margin-top: 0px; }
+.verticalTabSet .tabs li.selected a { background: none repeat scroll 0% 0% transparent; color: rgb(255, 255, 255); font-weight: bold; }
+.verticalTabSet .tabs li.selected .pointer { background: url('pointer.png') no-repeat scroll left top transparent; height: 41px; position: absolute; right: 0px; top: -1px; width: 12px; }
+.verticalTabSet .tabs li .wrap { display: table-cell; height: 25px; padding-right: 10px; vertical-align: middle; }
+.verticalTabSet .tabs .author { border: medium none; display: block; float: left; margin: 0px; width: 85%; }
+.verticalTabSet .tabs .allContributors .author { width: 80%; }
+.verticalTabSet .tabs .moreContributors { padding: 0px; width: 131px; }
+.verticalTabSet .tabs .moreContributors > a:hover { text-decoration: none; }
+.verticalTabSet .tabs li.tabSetOverlayHover { background: url('more-contrib-border.png') repeat-y scroll left top rgb(221, 221, 221); }
+.verticalTabSet .tabOverlayShadow { box-shadow: 0px 1px 2px rgb(153, 153, 153); }
+.verticalTabSet .tabs .moreContributors > a { background: url('more-contrib-arrow-down.png') no-repeat scroll 112px 17px transparent; padding: 7px 21px 7px 10px; width: 100px; }
+.verticalTabSet .opposingFloatControl { background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); left: 0px; position: absolute; width: 300px; z-index: 9999; }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl ul li { background-color: rgb(255, 255, 255); border-bottom: medium none; border-top: 1px solid rgb(226, 226, 226); padding-left: 10px; width: 134px; }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl .lastListItem { border-bottom: 1px solid rgb(226, 226, 226); }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl ul li a { background-image: none; padding-right: 0px; width: auto; }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl ul li:first-child { border-top: medium none; }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl ul li:hover { background-color: rgb(0, 0, 0); }
+.verticalTabSet .tabs .moreContributors .opposingFloatControl ul li:hover a { color: rgb(255, 255, 255); }
+.verticalTabSet .tabContent .post-comment { background-position: 0.5em 0.2em; padding-left: 18px; }
+.book .left { margin-right: 0px; }
+.book h5 { font-size: 1.1em; }
+.book p.summary { margin-bottom: 0px; }
+.book a.buy-button { display: block; }
+.book .buy-button img { margin: 6px 7px 5px 0px; }
+.book h5, .book .kicker, .book .byline, .book .author, .book .summary, .book .refer, .book a.buy-button { margin-left: 82px; }
+.module .author { border-bottom: 1px solid rgb(238, 238, 238); margin: 5px 0px 0px; }
+.module .author.first, .module .firstAuthor { margin: 0px; }
+.module .author.last, .module .lastAuthor { border-bottom: medium none; }
+.module .author p.summary { padding-top: 5px; }
+.module .author p.summary img { margin-top: 0px ! important; }
+#archive .entry { padding: 0px; }
+#archive h4 { float: left; }
+#archive select { margin: 11px 15px 4px; float: right; }
+#tipbox { margin: 0px 0px 0px 3px; text-align: right; }
+#tipbox #message { margin-right: 12px; width: 350px; }
+#tipbox #submit { margin: 5px 12px 0px 0px; padding: 0px; border: medium none; }
+#blog-index { margin: 5px 0px; }
+#blog-index a { font-size: 1.1em; font-family: arial,helvetica,sans-serif; display: block; text-align: center; }
+#com cite { font-style: normal; text-align: left; }
+#com .comment-author { margin-left: -13px; }
+.module .category ul.odd, .module .category ul.even { width: 50%; }
+.module .category ul.even { margin-left: 0px; }
+.module .category ul li { margin: 0px; padding: 0.5em 0px; font-size: 1.1em; font-family: arial,helvetica,sans-serif; border-bottom: 1px solid rgb(204, 204, 204); background: none repeat scroll 0% 0% transparent; }
+.module .category ul li.last { border-bottom: medium none; }
+#recent-posts .date { float: left; width: 100px; font-family: georgia,"times new roman",times,serif; }
+#recent-posts h5, #recent-posts .summary { margin-left: 105px; width: 244px; }
+#recent-posts .summary a { font-size: 0.9em; font-weight: normal; font-family: arial,helvetica,sans-serif; }
+#aCol .external-links { padding-top: 5px; }
+#aCol .external-links div.story { padding: 0px; }
+#cCol .external-links { padding: 5px; }
+.external-links .entry { padding: 0.3em 0px; }
+.external-links ul { margin-bottom: 12px; }
+.external-links ul li { background: none repeat scroll 0% 0% transparent; margin-bottom: 0.9em; padding: 0px; line-height: 1.1em; font-family: arial,helvetica,sans-serif; }
+.external-links ul li a { font-size: 0.917em; font-weight: bold; }
+.external-links h6 { margin-bottom: 1px; font-weight: bold; color: rgb(108, 188, 49); text-transform: uppercase; }
+.external-links li h6 { font-size: 0.833em; }
+.external-links h5, .external-links .meta { font-size: 1.1em; }
+.external-links p.tooltip, .external-links p.more { font-size: 1.1em; }
+.external-links p.tooltip { margin-bottom: 8px; font-weight: bold; font-family: arial,helvetica,sans-serif; }
+.external-links .credit { margin-right: 5px; margin-bottom: 0px; color: rgb(153, 153, 153); text-align: right; text-transform: none; }
+.external-links .credit a { color: rgb(0, 66, 118); }
+#tag-list ul { width: 45%; }
+#tag-list li { padding: 0px; font-size: 1.1em; font-family: arial,helvetica,sans-serif; width: 100%; background: none repeat scroll 0% 0% transparent; }
+#tag-list li, #tag-list li span { float: right; }
+#tag-list li a { width: 125px; float: left; }
+#tag-list li span { color: rgb(119, 119, 119); }
+#tag-list .even { margin-left: 3em; }
+.socialMediaModule li { display: block; float: left; margin-bottom: 9px; padding: 1px 17px 1px 23px; }
+.socialMediaModule .kicker { font-size: 10px; padding-top: 1px; }
+.socialMediaModule .facebook { background-position: 0px -1px; }
+.socialMediaModule .twitter { background-position: 0px -1px; padding-left: 21px; }
+.socialMediaModule .rssLg { padding-left: 18px; }
+.nav + .socialMediaModule, #blog-index + .socialMediaModule { background: none repeat scroll 0% 0% transparent; border-top: 1px solid rgb(204, 204, 204); }
+.socialMediaModule .socialSubsBlog li:first-child { background: none repeat scroll 0% 0% transparent; padding: 0px 12px 0px 7px; }
+.socialMediaModule h4 { margin-bottom: 13px; }
+.socialMediaModule .socialSubsNYT { margin-left: 5px; }
+.socialMediaModule .socialSubsNYT .refer { margin: 13px 0px 20px 5px; width: 370px; }
+.socialMediaModule .socialSubsNYT li { margin-bottom: 8px; padding-right: 5px; overflow: hidden; width: 64px; }
+.module #showtimeWidget { margin: 1em 0px ! important; }
+.module #showtimeWidget .header { margin: 0px 0.5em ! important; }
+.module #showtimeWidget div.container { border: 1px solid rgb(226, 226, 226); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.module #showtimeWidget .header .primary b { font-size: 14px; color: rgb(0, 0, 0); }
+.module #showtimeWidget .header .secondary label { font-size: 12px; }
+.module #showtimeWidget .header span.location { font-size: 10px; }
+.module #showtimeWidget td.showtimeInfo, .module #showtimeWidget th.showtimeInfo { font-size: 11px; }
+.module #showtimeWidget .header input#cityStateZip { margin-top: -3px; width: 80px; font-size: 11px; }
+.module #showtimeWidget .nainput { display: none; }
+.module #showtimeWidget #userInput .submit { border: medium none; }
+#Middle1 { float: right; display: inline; text-transform: uppercase; width: 88px; overflow: hidden; font-size: 9px; text-align: center; font-family: arial,helvetica,sans-serif; }
+#Middle1 img { display: block; margin-bottom: 1px; }
+.ad { text-align: center; }
+.leaderboard { border-bottom: 1px solid rgb(204, 204, 204); padding: 10px 0px; }
+#cCol .ad { background: none repeat scroll 0% 0% transparent; border-top: 1px solid rgb(204, 204, 204); margin-bottom: 15px; padding-top: 15px; }
+.ad table, #cCol .ad div, #cCol .ad img, #cCol .ad object, #cCol .ad iframe { margin: 0px auto; }
+#google_ads { text-align: left; }
+#google_ads_aCol { margin: 15px 30px 30px; }
+#blogroll ul, .module .singleRule { margin-bottom: 0px; }
+.blogCategories #artsbeat .resultsLabel { background: none repeat scroll 0% 0% rgb(38, 83, 155); }
+#artsbeat .inlineModule { border-top: 2px solid rgb(38, 83, 155); }
+.blogCategories #intransit .resultsLabel { background: none repeat scroll 0% 0% rgb(139, 151, 159); }
+#intransit .inlineModule { border-top: 2px solid rgb(139, 151, 159); }
+.blogCategories #publiceditor .resultsLabel { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#publiceditor .inlineModule { border-top: 2px solid rgb(0, 0, 0); }
+.blogCategories #parenting .resultsLabel { background: none repeat scroll 0% 0% rgb(213, 0, 36); }
+#parenting .inlineModule { border-top: 2px solid rgb(213, 0, 36); }
+.blogCategories #thelede .resultsLabel { background: none repeat scroll 0% 0% rgb(229, 83, 23); }
+#thelede .inlineModule { border-top: 2px solid rgb(229, 83, 23); }
+.blogCategories #thechoice .resultsLabel { background: none repeat scroll 0% 0% rgb(197, 71, 20); }
+#thechoice .inlineModule { border-top: 2px solid rgb(197, 71, 20); }
+.blogCategories #scientistatwork .resultsLabel { background: none repeat scroll 0% 0% rgb(48, 3, 87); }
+#scientistatwork .inlineModule { border-top: 2px solid rgb(48, 3, 87); }
+.blogCategories #fivethirtyeight .resultsLabel { background: none repeat scroll 0% 0% rgb(36, 153, 188); }
+#fivethirtyeight .inlineModule { border-top: 2px solid rgb(36, 153, 188); }
+.blogCategories #atwar .resultsLabel { background: none repeat scroll 0% 0% rgb(0, 97, 33); }
+.blogCategories #atwar .resultsLabel .kicker, .blogCategories #atwar .resultsLabel a, .blogCategories #atwar .resultsLabel a:hover { color: rgb(255, 255, 255); }
+#atwar .inlineModule { border-top: 2px solid rgb(0, 97, 33); }
+.blogCategories #runway .resultsLabel { background: none repeat scroll 0% 0% rgb(160, 160, 158); }
+#runway .inlineModule { border-top: 2px solid rgb(160, 160, 158); }
+.blogCategories #wheels .resultsLabel { background: none repeat scroll 0% 0% rgb(41, 154, 195); }
+#wheels .inlineModule { border-top: 2px solid rgb(41, 154, 195); }
+.blogCategories #wordplay .resultsLabel { background: none repeat scroll 0% 0% rgb(242, 164, 39); }
+#wordplay .inlineModule { border-top: 2px solid rgb(242, 164, 39); }
+.blogCategories #dotearth .resultsLabel { background: none repeat scroll 0% 0% rgb(0, 0, 0); }
+#dotearth .inlineModule { border-top: 2px solid rgb(0, 0, 0); }
+.dropDownModalBox, .dropDownModalLinkContainer { clear: both; border: 1px solid rgb(204, 204, 204); margin-bottom: 10px; }
+#memberTools .profileDropDownModal { margin-right: 4px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modal/saveModal.css ::::: */
+
+.xpsModal { font-family: arial,helvetica,sans-serif; font-size: 1.2em; }
+.nytModalContainer .xpsModal .inset { margin: 10px; }
+.xpsModal .nytModalContent .inset { margin: 10px 30px 30px; }
+.xpsModal .modalTitle { font-size: 1.5em; font-weight: bold; }
+.xpsModal .inset .singleRule { border-top: 0px none; }
+.xpsModal .modalBody { margin-top: 10px; width: 90%; }
+.xpsModal .modalBody span { color: rgb(0, 66, 118); }
+.xpsModal .modalFooter { height: 30px; margin: 20px auto 0px; }
+.firstSaveModal .modalFooter { background: url('save_first_message.png') no-repeat scroll left top transparent; height: 180px; }
+.loginToSaveModal .modalFooter { width: 50%; }
+.loginToSaveModal .modalFooter .modalButton { cursor: pointer; float: left; font-size: 0.9em; height: 22px; padding-top: 7px; text-align: center; width: 120px; }
+.loginToSaveModal .modalFooter .register { background-color: rgb(0, 66, 118); border-radius: 3px; color: rgb(255, 255, 255); }
+.loginToSaveModal .modalFooter .login { width: 65px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/modules/sharetools/common.css ::::: */
+
+.shareToolsInset { margin: 10px; }
+.shareToolsHeader { margin-bottom: 10px; }
+.shareToolsColumn, .shareToolsOpposingFloatControl .element1 { float: left; }
+.shareToolsOpposingFloatControl .element2 { float: right; }
+.shareToolsWrap { overflow: hidden; }
+.shareToolsSingleRule { border-top: 1px solid rgb(204, 204, 204); padding-top: 8px; }
+.shareToolsHeader h5, .shareToolsDialogBoxClose, .shareToolsThemeClassic li { font-family: arial,helvetica,sans-serif; }
+.shareToolsOverlay { background: none repeat scroll 0% 0% rgb(255, 255, 255); position: fixed; width: 100%; bottom: 0px; left: 0px; opacity: 0.5; z-index: 100000002; height: 100%; }
+.shareToolsDialogBox { background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); width: 396px; min-height: 220px; left: 50%; margin: -160px 0px 0px -215px; position: fixed; top: 50%; z-index: 100000003; box-shadow: 2px 2px 3px rgb(170, 170, 170); }
+.shareToolsDialogBox .shareToolsInset { margin: 16px 30px 22px; }
+.emailThisModal iframe { width: 867px; min-height: 420px; border: 0px none; visibility: visible ! important; }
+.shareToolsColumn .shareToolsInset { margin: 0px 10px 25px 0px; }
+.shareToolsLastColumn .shareToolsInset { margin: 0px 0px 25px 10px; }
+.shareToolsDialogBox .shareToolsColumn { width: 168px; }
+.shareToolsHeader h5 { font-size: 10px; text-transform: uppercase; line-height: 15px; }
+.shareToolsDialogBoxClose { font-size: 10px; text-transform: uppercase; background: url('close_window.gif') no-repeat scroll right center transparent; padding: 0px 19px 0px 0px; line-height: 15px; color: rgb(0, 0, 0) ! important; }
+.shareToolsFooter { text-align: center; }
+.shareToolsThemeClassic li { font-size: 10px; line-height: 14px; text-transform: uppercase; text-align: left; background-image: none; padding: 5px; border-bottom: 1px solid rgb(234, 232, 233); }
+.shareToolsThemeClassic .lastItem { border-bottom: 0px none; }
+.shareToolsThemeClassic li a, .shareToolsThemeClassic li a:visited, .shareToolsThemeClassic li a:hover, .shareToolsThemeClassic li span, .shareToolsThemeClassic li span:visited, .shareToolsThemeClassic li span:hover { color: rgb(51, 51, 51); }
+.shareToolsThemeClassic li a, .shareToolsThemeClassic li span { font-size: 10px; line-height: 13px; display: block; cursor: pointer; background-repeat: no-repeat; background-position: 0px 0px; padding: 2px 0px 2px 22px; }
+.shareToolsThemeClassic .noLabel a, .shareToolsThemeClassic .noLabel span { padding-left: 16px; min-height: 16px; }
+.shareToolsThemeClassic li span:hover { text-decoration: underline; }
+.shareToolsThemeClassic .shareToolsItemAd { padding: 8px 0px; text-align: center; }
+.shareToolsThemeClassic .shareToolsItemAd a { padding: 0px; }
+.shareToolsThemeClassicHorizontal .shareToolsList { overflow: auto; }
+.shareToolsThemeClassicHorizontal li { padding: 0px 8px; float: left; border-bottom: 0px none; }
+.shareToolsThemeClassicHorizontal .firstItem { padding: 0px 8px 0px 0px; }
+.shareToolsThemeClassicHorizontal .lastItem { padding: 0px 0px 0px 8px; }
+.shareToolsThemeClassic .shareToolsItemFacebook a, .shareToolsThemeClassic .shareToolsItemFacebook span { background-image: url('facebook.gif'); }
+.shareToolsThemeClassic .shareToolsItemTwitter a, .shareToolsThemeClassic .shareToolsItemTwitter span { background-image: url('twitter.gif'); }
+.shareToolsThemeClassic .shareToolsItemGoogle a, .shareToolsThemeClassic .shareToolsItemGoogle span { background-image: url('google.gif'); }
+.shareToolsThemeClassic .shareToolsItemTumblr a, .shareToolsThemeClassic .shareToolsItemTumblr span { background-image: url('tumblr.gif'); }
+.shareToolsThemeClassic .shareToolsItemLinkedin a, .shareToolsThemeClassic .shareToolsItemLinkedin span { background-image: url('linkedin.gif'); }
+.shareToolsThemeClassic .shareToolsItemReddit a, .shareToolsThemeClassic .shareToolsItemReddit span { background-image: url('reddit.gif'); }
+.shareToolsThemeClassic .shareToolsItemDigg a, .shareToolsThemeClassic .shareToolsItemDigg span { background-image: url('digg.gif'); }
+.shareToolsThemeClassic .shareToolsItemPermalink a, .shareToolsThemeClassic .shareToolsItemPermalink span { background-image: url('permalink.gif'); }
+.shareToolsThemeClassic .shareToolsItemPrint a, .shareToolsThemeClassic .shareToolsItemPrint span { background-image: url('print.gif'); }
+.shareToolsThemeClassic .shareToolsItemReprints a, .shareToolsThemeClassic .shareToolsItemReprints span { background-image: url('reprints.gif'); }
+.shareToolsThemeClassic .shareToolsItemSinglepage a, .shareToolsThemeClassic .shareToolsItemSinglepage span { background: url('singlepage.gif') no-repeat scroll 1px 1px transparent; }
+.shareToolsThemeClassic .shareToolsItemEmail a, .shareToolsThemeClassic .shareToolsItemEmail span { background: url('email.gif') no-repeat scroll 1px 4px transparent; }
+.shareToolsThemeClassic .shareToolsItemShowall a, .shareToolsThemeClassic .shareToolsItemShowall span { background-image: url('share-all.gif'); }
+.shareToolsThemeClassic .shareToolsItemSave a, .shareToolsThemeClassic .shareToolsItemSave span { background: url('saveicon_standard.png') no-repeat scroll 0px 2px transparent; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/modules/sharetools.css?v=06-15-2012 ::::: */
+
+.articleShareToolsBottom { margin: 23px 0px 23px 10px; }
+.articleShareToolsBottom li { border-left: 1px solid rgb(228, 228, 228); }
+.blogPost .articleShareToolsBottom li, .articleShareToolsBottom li:first-child { border: medium none; }
+.articleShareToolsBottom li a, .articleShareToolsBottom li span { opacity: 0.25; transition: opacity 0.05s ease-in-out 0s; }
+.blogPost .articleShareToolsBottom li a, .blogPost .articleShareToolsBottom li span, .hentry:hover + .entry-meta .articleShareToolsBottom li a, .hentry:hover + .entry-meta .articleShareToolsBottom li span, .entry-meta .shareToolsList:hover li a, .entry-meta .shareToolsList:hover li span { opacity: 1; }
+.shareToolsThemeClassic .noLabel a, .shareToolsThemeClassic .noLabel span { min-height: 12px; }
+.shareToolsThemeClassic .shareToolsItemEmail a, .shareToolsThemeClassic .shareToolsItemEmail span, .shareToolsThemeClassic .shareToolsItemSave a, .shareToolsThemeClassic .shareToolsItemSave span { padding-left: 19px; }
+.shareToolsThemeClassic .shareToolsItemShowall a, .shareToolsThemeClassic .shareToolsItemShowall span { padding-left: 18px; }
+.shareToolsThemeClassic .shareToolsItemPrint a, .shareToolsThemeClassic .shareToolsItemPrint span { padding: 2px 0px 1px 20px; background-position: 0px 2px; }
+.wideAd .articleShareToolsBottom .shareToolsItemGoogle { display: none; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.2/screen/modules/embeddedslideshow.css ::::: */
+
+.entry-content .embeddedSlideshow ul { margin: 0px; }
+.entry-content .embeddedSlideshow ul li { list-style: none outside none; }
+.embeddedSlideshow ul { margin-left: 0px; }
+.embeddedSlideshow h6 { text-transform: none; }
+.blog .embeddedSlideshow .mediaOverlay { font-size: 0.793em; }
+.blog .embeddedSlideshow a { text-decoration: none; }
+.blog .embeddedSlideshow a:hover { text-decoration: underline; }
+.blog .embeddedSlideshow .credit { font-size: 9px; }
+.entry-content .stepperContainer { margin-top: 3px; height: 22px; }
+.entry-content .stepperNumbers li { line-height: 1.3636em; }
+#dealbook .entry-content .stepperNumbers li { font-size: 0.687em; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.2/screen/modules/liveBloggingModule.css ::::: */
+
+.liveUpdatesModule { clear: both; }
+.liveUpdatesTools { height: 17px; padding: 15px 12px 13px; border: 1px solid rgb(226, 226, 226); margin: 0px 0px 14px; font-family: arial,helvetica,sans-serif; font-size: 1.2em; color: rgb(0, 0, 0); }
+.liveUpdateNav, .liveUpdateSubNav, .autoRefreshButton, .autoRefreshToggle, .liveUpdateSubNav .refreshNowButton, .liveUpdateSubNav .rss, .liveUpdateSubNav .twitter { display: inline-block; }
+.liveUpdatesNav, .liveUpdatesSubNav, .liveUpdatesTools .refreshNowButton, .liveUpdatesTools .isLoading img, .liveUpdatesTools .rss, .liveUpdatesTools .twitter { float: left; }
+.liveUpdatesSubNav { float: right; position: relative; top: 3px; }
+.liveUpdatesTools .autoRefreshToggle, .liveUpdatesTools .autoRefreshButton { font-weight: bold; }
+.autoRefreshButton { padding-right: 5px; border-right: 2px solid rgb(0, 0, 0); margin-right: 5px; font-size: 1.1667em; }
+.liveUpdatesTools .autoRefreshToggle { color: rgb(0, 66, 118); text-decoration: underline; cursor: pointer; }
+.liveUpdatesTools .refreshNowButton { padding-right: 5px; border-right: 1px solid rgb(0, 0, 0); margin-right: 5px; font-weight: bold; font-size: 0.8334em; line-height: 1.2em; color: rgb(0, 66, 118); text-decoration: underline; text-transform: uppercase; cursor: pointer; }
+.liveUpdatesTools .isLoading { position: relative; font-weight: normal; font-style: italic; font-size: 0.9167em; line-height: 1.091em; color: rgb(51, 51, 51); text-decoration: none; text-transform: none; cursor: none; }
+.liveUpdatesTools .isLoading img { position: absolute; top: -2px; left: -30px; width: 15px; height: 15px; margin: 0px 4px 0px 10px; }
+.liveUpdatesSubNav .rss { padding-right: 5px; border-right: 1px solid black; margin-right: 5px; }
+.liveUpdatesSubNav .twitter { background: none repeat scroll 0% 0% transparent; }
+.liveUpdatesSubNav .rss a, .liveUpdatesSubNav .twitter a { display: block; height: 12px; width: 12px; font-size: 1em; text-indent: -2000px; overflow: hidden; background-repeat: no-repeat; }
+.liveUpdatesSubNav .rss a { background: url('rss_icon_12x12.gif') no-repeat scroll 0% 0% transparent; }
+.liveUpdatesSubNav .twitter a { background: url('twitter_icon_blue_12x12.gif') no-repeat scroll 0% 0% transparent; }
+.liveUpdatesModule .update { margin-bottom: 10px; }
+.liveUpdatesModule .update:last-child { margin-bottom: 0px; }
+.post .updated-entry { margin: 0px 0px 10px -126px; }
+.wideAd .liveUpdatesTools, .wideAd .updated-entry { margin-left: 0px; }
+.post .updated-marker { height: 25px; border: 1px solid rgb(226, 226, 226); overflow: hidden; font-family: arial,helvetica,sans-serif; line-height: 1em; }
+.post .updated-entry .updated-marker { width: auto; margin: 0px; }
+.updated-entry .highlight { background: none repeat scroll 0% 0% rgb(240, 244, 245); }
+.post .updated-marker .time { float: left; display: inline; width: 92px; height: 19px; padding: 6px 12px 0px; background: url('vertical_rule.gif') repeat-y scroll right top rgb(255, 255, 255); font-weight: normal; font-size: 0.9167em; line-height: 1.3em; color: rgb(136, 136, 136); text-align: center; text-transform: uppercase; }
+.post .updated-marker .time a, .post .updated-marker .time a:visited { color: rgb(136, 136, 136); text-decoration: none; }
+.post .updated-marker .time a:hover { text-decoration: underline; }
+.post .updated-marker strong { position: relative; top: 7px; padding: 0px 0px 0px 6px; color: rgb(51, 51, 51); }
+.updated-entry .videoContainer { margin-left: 126px; }
+.nytVideo, .nytVideo video, .youtubeVideo, .youtubeVideo iframe { background: none repeat scroll 0px 0px rgb(0, 0, 0); }
+.youtubeVideo { position: relative; }
+.youtubeVideo, .youtubeVideo .thumb { height: 0px; padding-bottom: 56.25%; }
+.youtubeVideo iframe { height: 100%; left: 0px; position: absolute; top: 0px; width: 100%; z-index: 1; }
+.youtubeVideo .playButton { border-radius: 10px; height: 46px; left: 50%; margin: -23px 0px 0px -35px; position: absolute; top: 50%; width: 70px; z-index: 2; background-image: -moz-linear-gradient(90deg, rgb(110, 6, 16), rgb(255, 0, 0)); }
+.youtubeVideo .thumb { overflow: hidden; width: 100%; }
+.youtubeVideo .thumb img { height: auto; width: 100%; margin-top: -45px; }
+.youtubeVideo:hover .thumb { cursor: pointer; }
+.youtubeVideo:hover .playButton {  }
+.youtubeVideo .playButton .arrow { border-bottom: 10px solid transparent; border-left: 20px solid rgb(255, 255, 255); border-top: 10px solid transparent; height: 0px; left: 28px; position: absolute; top: 13px; width: 0px; }
+.clearfix:after { clear: both; content: "."; display: block; height: 0px; visibility: hidden; }
+
+/* ::::: http://graphics8.nytimes.com/css/blogs/3.1/screen/themes/universal/style.css ::::: */
+
+.post .updated-marker .time { width: auto; }
+.post .updated-entry, .updated-entry .videoContainer { margin-left: 0px; }
+
+/* ::::: http://graphics8.nytimes.com/css/0.1/screen/common/googleads.css ::::: */
+
+.nytd_google_ads { border: 1px solid rgb(157, 163, 173); background-color: rgb(248, 248, 249); width: 100%; font-family: Arial,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); font-weight: normal; padding-bottom: 8px; text-align: left; }
+.nytd_google_single_ad { padding-bottom: 0px; }
+.nytd_google_ads .header td { background-color: rgb(157, 163, 173); height: 20px; padding-top: 2px; padding-left: 11px; padding-bottom: 2px; color: rgb(255, 255, 255); }
+.nytd_google_ads .header td.left { width: 70%; }
+.nytd_google_ads .header td.right { width: 30%; text-align: right; }
+.nytd_google_ads .listing { padding: 4px; height: 55px; }
+.nytd_google_ads .listing td { width: 100%; height: 55px; line-height: 14px; padding: 4px 4px 5px 11px; }
+.nytd_google_single_ad .listing td { height: 110px; line-height: 22px; padding: 4px 4px 4px 16px; }
+.nytd_google_ads .listing a { font-size: 11px; color: rgb(51, 51, 51); font-weight: normal; text-decoration: none; }
+.nytd_google_ads .listing a.first { font-size: 12px; font-weight: bold; text-decoration: underline; }
+.nytd_google_ads .listing a.last { font-size: 10px; }
+.nytd_google_ads .listing a.first, .nytd_google_ads .listing a.last { color: rgb(0, 0, 102); }
+.nytd_google_single_ad .listing a, .nytd_google_single_ad .listing a.last { font-size: 14px; }
+.nytd_google_single_ad .listing a.first { font-size: 18px; }
+#MiddleRight .nytd_google_ads, #SFMiddle .nytd_google_ads { padding-bottom: 0px; }
+#MiddleRight .nytd_google_ads div.footer, #SFMiddle .nytd_google_ads div.footer { background-color: rgb(157, 163, 173); color: rgb(255, 255, 255); height: 11px; font-family: Arial,Helvetica,sans-serif; font-size: 12px; padding: 2px 5px 5px 11px; }
+#MiddleRight .nytd_google_ads div.footer a, #SFMiddle .nytd_google_ads div.footer a { color: rgb(255, 255, 255); }
+#MiddleRight .nytd_google_ads div.footer .left, #SFMiddle .nytd_google_ads div.footer .left { float: left; }
+#MiddleRight .nytd_google_ads div.footer .right, #SFMiddle .nytd_google_ads div.footer .right { float: right; }
+
+/* ::::: null ::::: */
+
+p.emActive span { background-color: rgb(242, 244, 245); }
+p span.emHighlight { background-color: rgb(255, 240, 179); }
+span.emInfo a { text-decoration: none; }
+a.emActiveAnchor { color: rgb(0, 0, 0); font-size: 11px; }
+span.emInfo { position: absolute; margin: -1px 0px 0px -8px; padding: 0px; font-size: 10px; background-color: transparent ! important; }
+
+/* ::::: null ::::: */
+
+#memberTools { height: 18px; }
+#memberTools li#duallink { border: medium none; margin: 0px 8px 0px 0px; float: left; width: 113px; padding: 0px; }
+#nyt-button-sub { background: url('btn_subscribenow2.gif') no-repeat scroll 0px 0px transparent; cursor: pointer; display: block; height: 16px; position: relative; width: 113px; }
+#nyt-button-sub:hover { background: url('btn_subscribenow2.gif') no-repeat scroll 0px -16px transparent; }
+#dual_hoverCraft { width: 446px; height: 329px; display: none; z-index: 2147483647; border: 1px solid rgb(204, 204, 204); position: absolute; left: -235px; top: 22px; box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.2); white-space: normal; }
+#dual_hoverCraft:before { content: url('arrowup.png'); position: absolute; top: -9px; left: 280px; width: 25px; height: 9px; display: block; overflow: hidden; }
+#dual_hoverCraft h6, #dual_hoverCraft p { visibility: hidden; }
+#dual_hoverCraft .dh-half { width: 223px; height: 329px; float: left; clear: none; }
+#dual_hoverCraft #dh-digi { background: url('bg_dualhover_digi.png') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+#dual_hoverCraft #dh-digi:hover { background: url('bg_dualhover_digi.png') no-repeat scroll 0px -329px rgb(242, 246, 249); cursor: pointer; }
+#dual_hoverCraft #dh-hd { background: url('bg_dualhover_hd.png') no-repeat scroll 0px 0px rgb(255, 255, 255); }
+#dual_hoverCraft #dh-hd:hover { background: url('bg_dualhover_hd.png') no-repeat scroll 0px -329px rgb(242, 246, 249); cursor: pointer; }
+#dual_hoverCraft .dh-cta { width: 223px; height: 329px; position: absolute; }
+#dual_hoverCraft .dh-cta a { display: block; height: 100%; outline: medium none; text-decoration: none; }
+#dual_hoverCraft #dh-digi .dh-cta { left: 0px; top: 0px; }
+#dual_hoverCraft #dh-hd .dh-cta { left: 224px; top: 0px; }

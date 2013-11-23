@@ -1,0 +1,1142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;">
+<meta name="wpd_url" content="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;">
+<meta name="wpd_date" content="2013-10-23T20:55Z">
+<div class="kxhead" data-id="HrUwtkcl" style="display: none;"><span class="kxtag kxinvisible" data-id="10508" data-alias="DataLogix provider tag"><script src="3" type="text/javascript"></script><script>
+
+(function(){
+  if (window.KRUX) {
+    var pubid = KRUXSetup.pubid;
+  } else if (window.Krux) {
+    var pubid = Krux.require('data').get('pubid');
+  } else { 
+    return;
+  }
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var u = prefix + "//apiservices.krxd.net/um?r=http%3A%2F%2Fkrxd.nexac.com%2Fdlx.gif&_kdpid=2dd640a6-6ebd-4d4f-af30-af8baa441a0d&pid=" + pubid + "&pubid=" + pubid;
+  var i = new Image();
+  i.src = u;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="15486" data-alias="Technographic Data provider tag"><script>
+
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="21418" data-alias="eXelate Media provider tag"><script type="text/javascript">
+
+  Krux('dataprovider.exelate');
+</script></span><span class="kxtag kxinvisible" data-id="22998" data-alias="Acxiom S2S provider tag"><script>
+
+(function(){
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var r_url = prefix + '//p.acxiom-online.com/pixel/sci'
+  var kurl = prefix + '//apiservices.krxd.net/um?partner=acxiom&r=' + r_url;
+  var i = new Image();
+  i.src = kurl;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="21233" data-alias="Krux Geographic Data provider tag"></span><span class="kxtag kxinvisible" data-id="17413" data-alias="Krux iCrossing Campaign Attribute"><script>
+
+Krux('scrape',
+ {
+  page_attr_campaignID:
+ {
+    url_param:
+'campaignId'
+  }
+});
+</script></span><span class="kxtag kxinvisible" data-id="13081" data-alias="Krux loadSegments"><script>
+
+// Override for special behavior, see notes
+(function() {
+  var store = Krux('require:store'),
+      old_set = store.set;
+  store.set = function(key, value, ttl) {
+    old_set(key, value, ttl);
+    if (key == 'segs') {
+      store.cookie.set('krux_segs', value.replace(/,/g, '|'), ttl);
+    }
+  };
+})();
+</script>
+<script type="text/javascript">Krux('require:segments')</script></span><span class="kxtag kxinvisible" data-id="18748" data-alias="Krux Interchange Extend User Matching (Google)"><script>
+
+(function(){
+  var prefix = location.protocol == 'https:' ? "https:" : "http:";
+  var r_url = prefix + '//cm.g.doubleclick.net/pixel'
+  var kurl = prefix + '//apiservices.krxd.net/um?partner=google&r=' + r_url;
+  var i = new Image();
+  i.src = kurl;
+})();
+</script></span><span class="kxtag kxinvisible" data-id="13157" data-alias="Krux Scrape Page Attributes"><script>
+
+(function() { 
+  function getMetaValue(name) {
+    if (! document.querySelector) {
+      return;
+    }
+    var metaTag = document.querySelector("meta[name='" + name + "']");
+    return metaTag && metaTag.content || "";
+  }
+
+  Krux('set', 'section', getMetaValue('CG'));
+  Krux('set', 'subsection', getMetaValue('SCG'));
+  Krux('set', 'page_attr_page_type', getMetaValue('PT'));
+  Krux('scrape', {
+    page_attr_cg: {
+      meta_name: "CG"
+    },
+    page_attr_scg: {
+      meta_name: "SCG"
+    },
+    page_attr_prot: {
+      meta_name: "WT.z_prot"
+    },
+    page_attr_ref: {
+    url_param: "ref"
+    },
+    page_attr_pst: {
+      meta_name: "PST"
+    },
+    page_attr_des: {
+      meta_name: "des"
+    },
+    page_attr_per: {
+      meta_name: "per"
+    },
+    page_attr_org: {
+      meta_name: "org"
+    },
+    page_attr_geo: {
+      meta_name: "geo"
+    },
+    page_attr_author: {
+      meta_name: "author"
+    }, 
+    page_attr_reco: {
+      meta_name: "RECO"
+    },  
+    page_attr_rer: {
+      meta_name: "RER"
+    },  
+    page_attr_res: {
+      meta_name: "RES"
+    },  
+    page_attr_resz: {
+      meta_name: "RESZ"
+    },  
+    page_attr_rentals: {
+      meta_name: "PSSST"
+    },  
+    page_attr_ticker: {
+      meta_name: "ticker"
+    },
+    page_attr_registered: {
+      javascript: 'regstatus'
+    },
+    page_attr_referrer: {
+      javascript: 'document.referrer'
+    },
+    page_attr_url_path_1: {
+      url_path: "1"
+    }
+  });
+})();
+</script></span><span class="kxtag kxinvisible" data-id="17510" data-alias="Krux iCrossing Keywords Attribute"><script>
+
+Krux('scrape',
+ {
+  page_attr_KEYWORDS:
+ {
+    url_param:
+'__KEYWORDS__'
+  }
+});
+</script></span><span class="kxtag kxinvisible" data-id="17028" data-alias="Krux Audience Extension User Matching"><img src="um"></span><span class="kxtag kxinvisible" data-id="23488" data-alias="Krux Data Transfer Code "><script>
+
+// Using Globals PriceMin to produce page attribute pricemin
+Krux('scrape', { "page_attr_pricemin": {js_global: "PriceMin"}});
+// Using Globals PriceMax to produce page attribute pricemax
+Krux('scrape', { "page_attr_pricemax": {js_global: "PriceMax"}});
+</script></span><span class="kxtag kxinvisible" data-id="18687" data-alias="Krux Pull RMID"><script>
+
+// Using Cookie RMID to produce page attribute cookie_rmid
+Krux('scrape', { "user_attr_cookie_rmid": {cookie: "RMID"}});
+</script></span></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="controltag" async="" type="text/javascript"></script><script src="cs.js" async=""></script><script src="common.js" type="text/javascript"></script><script src="mtr.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script async="" src="meter.js"></script><script src="env.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="prototype.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="effects.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="template.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="googleads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="urilist.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="boot.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="build.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<script src="articleShare.js" type="text/javascript"></script><script src="linkedintool.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="articleShareController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="articleShareLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="cookieValidator.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+<script src="Tacoda_AMS_DDC_Header.js" type="text/javascript"></script>
+<script src="fileit.js"></script>
+<script type="text/javascript" language="JavaScript" src="DropDown.js"></script>
+<script type="text/javascript" language="JavaScript" src="modifyNavigationDisplay.js"></script>
+<script type="text/javascript" language="JavaScript" src="altClickToSearch.js"></script>
+<script type="text/javascript" language="JavaScript" src="tooltip.js"></script>
+
+
+
+
+<!--[if IE 7]>
+		<style type="text/css">
+			@import url(http://graphics8.nytimes.com/css/common/screen/ie7.css); 
+			
+		</style>
+		<![endif]-->
+
+
+<title>Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58 - Obituary (Obit) - NYTimes.com</title>
+<meta name="description" content="Ms. Sedgwick broke new ground when, drawing on feminist scholarship, she teased out the hidden socio-sexual subplots in writers, which later helped create the discipline known as queer studies.">
+
+<meta name="keywords" content="Homosexuality,Sedgwick  Eve Kosofsky,Deaths (Obituaries),Colleges and Universities">
+
+<meta name="misspelling" content="">
+
+
+
+<meta name="ROBOTS" content="NOARCHIVE">
+
+<meta name="DISPLAYDATE" content="April 15, 2009">
+
+<meta name="hdl" content="Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58">
+
+<meta name="hdl_p" content="Eve Kosofsky Sedgwick, 58, a Pioneer Of Gay Studies and a Literary Theorist">
+ 
+<meta name="byl" content="By WILLIAM GRIMES">
+
+<meta name="lp" content="Ms. Sedgwick broke new ground when, drawing on feminist scholarship, she teased out the hidden socio-sexual subplots in writers, which later helped create the discipline known as queer studies.">
+
+<meta name="cre" content="The New York Times">
+
+<meta name="edt" content="NewYork">
+
+<meta name="pdate" content="20090415">
+
+<meta name="ttl" content="">
+ 
+<meta name="virtloc" content="">
+
+<meta name="des" content="Homosexuality;Deaths (Obituaries);Colleges and Universities">
+
+<meta name="per" content="">
+
+<meta name="org" content="">
+
+<meta name="geo" content="">
+
+<meta name="ticker" content="">
+
+<meta name="dat" content="April 15, 2009">
+
+<meta name="tom" content="Obituary (Obit)">
+
+<meta name="cat" content="">
+
+<meta name="col" content="">
+
+<meta name="dsk" content="Arts">
+
+<meta name="articleid" content="1194839469084">
+
+<meta name="CG" content="arts">
+
+<meta name="SCG" content="">
+
+<meta name="PT" content="Article">
+
+<meta name="PST" content="">
+
+<meta name="hdr_img" content="/images/article/header/sect_arts.gif">
+
+<meta name="thumbnail" content="images/2009/04/15/arts/15eve75.jpg">
+
+<meta name="thumbnail_height" content="75">
+
+<meta name="thumbnail_width" content="75">
+
+
+
+
+
+
+
+
+<meta name="ARTICLE_TEMPLATE_VERSION" content="600">
+
+<meta name="sec" content="A">
+
+<meta name="pg" content="25">
+
+<link rel="canonical" href="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html">
+<meta property="og:url" content="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html">
+
+<script type="text/JavaScript">
+
+	var google_hints = "Homosexuality,Deaths+(Obituaries),Colleges+and+Universities";
+	var google_ad_channel = "ar_arts";
+</script><script async="" src="meter-echo.js"></script>
+
+<link rel="alternate" media="handheld" href="http://mobile.nytimes.com/2009/04/15/arts/15sedgwick.xml">
+<link rel="alternate" type="application/rss+xml" title="NYTimes.com Arts RSS" href="http://www.nytimes.com/services/xml/rss/nyt/Arts.xml">
+<script src="osd.js" type="text/javascript"></script><script src="EventTracker.js" type="text/javascript"></script><script src="untitled" type="text/javascript"></script><script async="" src="tagx.js" type="text/javascript"></script><meta content="0" name="WT.z_imv" id="WT.z_imv"><meta content="1" name="WT.z_ica" id="WT.z_ica"><meta content="nyt4" name="WT.sourceapp" id="WT.sourceapp"><meta content="" name="WT.z_stcap" id="WT.z_stcap"><script src="controller.js" type="text/javascript"></script><script src="gw.js" type="text/javascript"></script><meta content="anon" name="WT.z_stat" id="WT.z_stat"><meta content="Arts" name="WT.cg_n" id="WT.cg_n"><meta content="Arts" name="WT.z_rcgn" id="WT.z_rcgn"><meta content="Article" name="WT.z_gpt" id="WT.z_gpt"><meta content="The New York Times" name="WT.cre" id="WT.cre"><meta content="0Mv3Ju0kCjlWrDXrmvxADeHw6Fn3qCqr8kdeFz9JchiAKuaKkdl/6loIV.Ynx4rkFI" name="WT.z_nyts" id="WT.z_nyts"><meta content="null" name="WT.z_nytd" id="WT.z_nytd"><meta content="007f010067d95259cc91000e" name="WT.z_rmid" id="WT.z_rmid"><meta content="evekosofskysedgwick.net" name="WT.z_ref" id="WT.z_ref"><meta content="0" name="WT.rv" id="WT.rv"><meta content="Obituary (Obit)" name="WT.z_gpst" id="WT.z_gpst"><meta content="Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58" name="WT.z_hdl" id="WT.z_hdl"><meta content="nyta-1194839469084" name="WT.z_aid" id="WT.z_aid"><meta content="20090415" name="WT.z_pud" id="WT.z_pud"><meta content="Archive" name="WT.z_put" id="WT.z_put"><meta content="Archive" name="WT.z.gsg" id="WT.z.gsg"><meta content="1987-Present" name="WT.z_gat" id="WT.z_gat"><meta content="free" name="WT.z_pua" id="WT.z_pua"><meta content="WILLIAM GRIMES" name="WT.z_clmst" id="WT.z_clmst"><meta content="Normal" name="WT.z_puv" id="WT.z_puv"><meta content="5 Years" name="WT.z_pudr" id="WT.z_pudr"><meta content="2009" name="WT.z_pyr" id="WT.z_pyr"><script src="wtinit.js" type="text/javascript" language="javascriptcontent"></script><script src="wtbase.js" type="text/javascript" language="javascriptcontent"></script><script src="ed97a7239e5e2845995c768226e7f894"></script><script src="chartbeat.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="15sedgwick.css" media="all">
+</head>
+<body><script src="178697002.js" type="text/javascript"></script><script src="ako" type="text/javascript"></script>
+
+
+<a name="top"></a>
+<!--Hat -->
+<nyt_header>
+
+</nyt_header>
+<a href="#articleBodyLink" class="jumpLink">Skip to article</a>
+<!--New call for topnav stuff. -->
+<div id="shell" class="">
+
+<div id="login">
+<ul id="memberTools">
+
+<!-- ADXINFO classification="Share_of_Voice_Tile_-_Left" campaign="nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U" priority="1002" isInlineSafe="Y" width="184" height="90" -->
+<script src="jquery-1.7.1.min.js"></script>
+<li id="duallink"> 
+	<a id="nyt-button-sub" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Bar1&amp;sn2=c9255824/df4f4e27&amp;sn1=d8c46e63/47ab1288&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp3004%2Ehtml%3Fadxc%3D225543%26adxa%3D349449%26page%3Dwww.nytimes.com/yr/mo/day/arts/15sedgwick.html%26pos%3DBar1%26campaignId%3D3L44Q" target="_top"></a>
+
+	<div id="dual_hoverCraft">
+		<div id="dh-digi" class="dh-half">
+			<h6>Try a Digital Subscription Today for Just 99¢ for Your First 4 Weeks</h6>
+			<p>Get unlimited access to NYTimes.com and NYTimes apps.</p>
+			<div class="dh-cta"><a class="nyt-button-actions" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Bar1&amp;sn2=c9255824/df4f4e27&amp;sn1=d8c46e63/47ab1288&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp5558%2Ehtml%3Fadxc%3D225543%26adxa%3D349449%26page%3Dwww.nytimes.com/yr/mo/day/arts/15sedgwick.html%26pos%3DBar1%26campaignId%3D3L44R" target="_top">&nbsp;</a></div>
+		</div>
+		<div id="dh-hd" class="dh-half">
+				<h6>Get 50% Off 12 Weeks of Home Delivery and Free All Digital Access</h6>
+				<p>All print options include free unlimited access to NYTimes.com and NYTimes apps.</p>
+				<div class="dh-cta"><a class="nyt-button-actions" target="_top" href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Bar1&amp;sn2=c9255824/df4f4e27&amp;sn1=1c1c0337/51cc6e05&amp;camp=nyt2013_bar1_ros_digi_hd_3L44Q_3L44R_3L44U&amp;ad=bar1_braniston_v2shorter_3L44Q_3L44R_3L44U&amp;goto=https%3A%2F%2Fwww%2Enytimesathome%2Ecom%2Fhd%2F205%3FMediaCode%3DWB7AA%26CMP%3D3L44U">&nbsp;</a></div>
+		</div>
+	</div>
+	<!--ADX javascript -->
+	<script type="text/javascript">
+
+	      var $j = jQuery.noConflict(); 
+	      $j(document).ready(function() {
+	        $j('#duallink').hover(function() {
+	            $j('#dual_hoverCraft').fadeIn('fast'); 
+	            $j('#toolbar,#masthead,#main').hover(function() {
+	               $j('#dual_hoverCraft').fadeOut(); 
+	          	})
+	       	})
+	      })
+
+	</script>
+<!--end of ADX js -->
+<!-- end ADX-->
+</li><!--end of Digital LI -->
+
+<script>document.cookie='bar1test=control;domain=nytimes.com;path=/'</script>
+
+			<li><a href="http://www.nytimes.com/auth/login?URI=http://">Log In</a></li> 
+			<li><a href="http://www.nytimes.com/gst/regi.html">Register Now</a></li>
+			
+
+
+</ul>
+<ul class="tabs">
+<li><a href="http://www.nytimes.com/">Home Page</a></li>
+<!--<li><a href="http://my.nytimes.com">My Times</a></li> -->
+<li><a href="http://www.nytimes.com/pages/todayspaper/index.html">Today's Paper</a></li>
+<li><a href="http://www.nytimes.com/video">Video</a></li>
+<li><a href="http://www.nytimes.com/mostpopular">Most Popular</a></li>
+<li><a href="http://topics.nytimes.com/top/reference/timestopics/">Times Topics</a></li>
+</ul>
+</div>
+
+<div id="page">
+
+<div id="masthead">
+
+<div id="Middle1">
+<!-- ADXINFO classification="Button_Ad_88x31_" campaign="ING_DirectSiteSearch13-1850637-nyt1" priority="8000" isInlineSafe="N" width="88" height="31" --><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Middle1C&amp;sn2=b55fcf6e/ea5b9a5d&amp;sn1=a0841e58/f829d125&amp;camp=ING_DirectSiteSearch13-1850637-nyt1&amp;ad=DirectSiteSearch12.ROS.FEB.dart88x31&amp;goto=http://ad.doubleclick.net/jump/N3282.nytimes.comSD6440/B7326326.2;sz=88x31;pc=nyt202539A325775;ord=2013.11.23.20.55.16?" target="_top">
+<img src="B7326326.2;sz=88x31;pc=nyt202539A325775;ord=2013.11.23.20.55.16" alt="Click Here" border="0" height="31" width="88"></a>
+</div>
+
+<form id="searchForm" name="searchForm" method="get" action="http://query.nytimes.com/search/sitesearch" enctype="application/x-www-form-urlencoded">
+<div id="nytSearchWidget">
+<label for="searchQuery">Search All NYTimes.com</label>
+<input name="query" id="searchQuery" type="text">
+<input id="searchSubmit" title="Search" alt="Go" src="go.gif" type="image">
+<input id="searchAll" name="type" value="nyt" type="hidden">
+</div>
+</form>
+<div id="branding">
+<a href="http://www.nytimes.com/"><img src="nytlogo152x23.gif" alt="New York Times" id="NYTLogo"></a>
+</div><!--#branding-->
+<div id="Bar3">
+
+</div>
+<div id="date">
+</div>
+
+<h1>
+
+<a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+</h1>
+
+</div>
+
+
+<div id="navigation">
+<ul class="tabs">
+<li id="navWorld"><a href="http://www.nytimes.com/pages/world/index.html">World</a>
+</li>
+<li id="navUS"><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a>
+</li>
+<li id="navNYRegion"><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a>
+</li>
+<li id="navBusiness"><a href="http://www.nytimes.com/pages/business/index.html">Business</a>
+</li>
+<li id="navTechnology"><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a>
+</li>
+<li id="navScience"><a href="http://www.nytimes.com/pages/science/index.html">Science</a>
+</li>
+<li id="navHealth"><a href="http://health.nytimes.com/pages/health/index.html">Health</a>
+</li>
+<li id="navSports"><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a>
+</li>
+<li id="navOpinion"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a>
+</li>
+<li id="navArts" class="selected"><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a>
+
+</li>
+<li id="navStyle"><a href="http://www.nytimes.com/pages/style/index.html">Style</a>
+</li>
+<li id="navTravel"><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a>
+</li>
+<li id="navJobs"><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a>
+</li>
+<li id="navRealestate"><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a>
+</li>
+<li id="navAutos"><a href="http://www.nytimes.com/pages/automobiles/index.html">Autos</a>
+</li>
+</ul>
+<div id="subNavigation"><ul id="subnavArts">
+<li><a href="http://www.nytimes.com/pages/arts/design/index.html">Art &amp; Design</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/books/index.html">Books</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance</a>
+</li>
+<li><a href="http://movies.nytimes.com/pages/movies/index.html">Movies</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/arts/music/index.html">Music</a>
+</li>
+<li><a href="http://www.nytimes.com/pages/arts/television/index.html">Television</a>
+</li>
+<li><a href="http://theater.nytimes.com/pages/theater/index.html">Theater</a>
+</li>
+</ul></div></div><!--#navigation -->
+<script type="text/javascript">modifyNavigationDisplay();</script>
+
+<!--space holder for tool bar -->
+
+<a name="articleBodyLink"></a>
+<div id="main">
+
+
+
+
+
+
+<div id="aColumn">
+<div id="article">
+<!--google_ad_section_start -->
+
+<h1>
+<nyt_headline version="1.0" type=" ">
+
+Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58
+</nyt_headline>
+</h1>
+
+
+<script language="JavaScript" type="text/JavaScript">function getSharePasskey() { return 'ex=1397620800&en=62f8376ce62805fd&ei=5124';}</script>
+<script language="JavaScript" type="text/JavaScript">
+
+function getShareURL() {
+	return encodeURIComponent('http://www.nytimes.com/2009/04/15/arts/15sedgwick.html');
+}
+function getShareHeadline() {
+	return encodeURIComponent('Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58');
+}
+function getShareDescription() { 
+
+	return encodeURIComponent('Ms. Sedgwick broke new ground when, drawing on feminist scholarship, she teased out the hidden socio-sexual subplots in writers, which later helped create the discipline known as queer studies.');
+}
+function getShareKeywords() {
+	return encodeURIComponent('Deaths (Obituaries),Colleges and Universities,Homosexuality,Eve Kosofsky Sedgwick');
+}
+function getShareSection() {
+	return encodeURIComponent('arts');
+}
+function getShareSectionDisplay() {
+
+	return encodeURIComponent('Arts');
+}
+function getShareSubSection() {
+	return encodeURIComponent('');
+}
+function getShareByline() {
+	return encodeURIComponent('By WILLIAM GRIMES');
+}
+function getSharePubdate() {
+	return encodeURIComponent('April 15, 2009');
+}
+</script>
+<div id="toolsRight">
+<nyt_reprints_form>
+
+<script language="javascript">
+
+			<!-- 
+			function submitCCCForm(){
+				PopUp = window.open('', '_Icon','location=no,toolbar=no,status=no,width=650,height=550,scrollbars=yes,resizable=yes');
+				this.document.cccform.submit();
+			}
+			// -->
+			</script>
+<form name="cccform" action="https://s100.copyright.com/CommonApp/LoadingApplication.jsp" target="_Icon"><input name="Title" value="Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58" type="hidden"><input name="Author" value="By WILLIAM GRIMES" type="hidden"><input name="ContentID" value="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html" type="hidden"><input name="FormatType" value="default" type="hidden"><input name="PublicationDate" value="APR 15 2009" type="hidden"><input name="PublisherName" value="The New York Times" type="hidden"><input name="Publication" value="nytimes.com" type="hidden"><input name="wordCount" value="701" type="hidden"></form>
+</nyt_reprints_form>
+<div class="articleTools">
+<div class="toolsContainer">
+<ul class="toolsList" id="toolsList">        <li id="twitter_item">            <a id="twitter_button">                <span>Twitter</span>            </a>        </li>            <li id="linkedin_item">            <a id="linkedin_button">Linkedin</a>        </li>    
+<li class="email">
+
+<a id="emailThis" onclick="s_code_linktrack('Article-Tool-EmailSignIn');" href="javascript:void(0);">Sign In to E-Mail</a>
+</li>
+<li class="print">
+<a href="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;pagewanted=print">Print</a>
+</li>
+
+<a href="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;pagewanted=all"></a>
+
+<li class="reprints"><a href="#" onclick="javascript:submitCCCForm();">Reprints</a></li>
+<li style="width: 168px;" class="closed" id="shareMenu"><a class="shareButton" href="#">Share</a><a style="opacity: 0;" class="hidden" href="#">Close</a><ul style="opacity: 0;" class="hidden" id="shareList"><li class="digg"><a href="#">Digg</a></li><li class="reddit"><a href="#">Reddit</a></li><li class="tumblr"><a href="#">Tumblr</a></li><li class="permalink"><a href="#">Permalink</a></li><li id="shareMenuAd"><script src="adx_remote.html"></script></li></ul></li></ul>
+<script language="JavaScript" type="text/javascript">writePost();</script>
+<div id="adxToolSponsor"><!-- ADXINFO classification="Business_SF_Markets_Module_Tile" campaign="FOX_SEARCHLIGHT_ATJD13-1849323A-nyt5" priority="8000" isInlineSafe="N" width="120" height="60" --><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Frame4A&amp;sn2=b51a2ac8/6ac48b2c&amp;sn1=bf064845/3c8bf8a0&amp;camp=FOX_SEARCHLIGHT_ATJD13-1849323A-nyt5&amp;ad=12YAS_NowPlaying120x60.gif&amp;goto=http%3A%2F%2Fwww%2Efoxsearchlight%2Ecom%2F12yearsaslave" target="_top">
+<img src="12YAS_NowPlaying120x60.gif" border="0" height="60" width="120">
+</a></div>
+</div>
+</div>
+</div>
+
+<nyt_byline version="1.0" type=" ">
+<div class="byline">By <a href="http://topics.nytimes.com/top/reference/timestopics/people/g/william_grimes/index.html?inline=nyt-per" title="More Articles by William Grimes">WILLIAM GRIMES</a></div>
+</nyt_byline>
+<div class="timestamp">Published: April 15, 2009 </div>
+<div id="articleBody">
+
+
+
+<!--NYT_INLINE_IMAGE_POSITION1 -->
+
+
+
+
+<nyt_text>
+
+<nyt_correction_top>
+</nyt_correction_top>
+    <p>Eve Kosofsky Sedgwick, whose critical writings on the ambiguities of sexual identity in fiction helped create the discipline known as queer studies, died on Sunday in Manhattan. She was 58.</p> 
+<div id="articleInline" class="inlineLeft">
+<div id="inlineBox"><a href="#secondParagraph" class="jumpLink">Skip to next paragraph</a>
+  
+   
+<div class="image">
+<img src="15eve190.jpg" alt="" border="0" height="260" width="190">
+<div class="credit">Duke University, 1997</div>
+<p class="caption">
+
+Eve Kosofsky Sedgwick 
+</p>
+</div>
+  
+   
+</div>
+</div><a name="secondParagraph"></a>
+ <p>The cause was breast cancer, her husband, Hal Sedgwick, said.</p><p> Ms. Sedgwick broke new ground when, drawing on feminist scholarship and the work of the French poststructuralist Michel Foucault, she began teasing out the hidden socio-sexual subplots in writers like <a href="http://topics.nytimes.com/top/reference/timestopics/people/d/charles_dickens/index.html?inline=nyt-per" title="More articles about Charles Dickens.">Charles Dickens</a> and <a href="http://topics.nytimes.com/top/reference/timestopics/people/j/henry_james/index.html?inline=nyt-per" title="More articles about Henry James.">Henry James</a>. In a 1983 essay on Dickens’s novel “Our Mutual Friend,” she drew attention to the homoerotic element in the obsessive relationship between Eugene Wrayburn and Bradley Headstone, rivals for the love of Lizzie Hexam but emotionally most fully engaged when facing off against each other.</p><p>Several of her essays became lightning rods for critics of poststructuralism, multiculturalism and gay studies — most notoriously “<a href="http://topics.nytimes.com/top/reference/timestopics/people/a/jane_austen/index.html?inline=nyt-per" title="More articles about Jane Austen.">Jane Austen</a> and the Masturbating Girl,” a paper delivered at the annual meeting of the Modern Language Association in 1989. In it, Ms. Sedgwick argued that Austen’s descriptions of the restless Marianne Dashwood in “Sense and Sensibility” should be understood in relation to contemporary thought on the evils of “self-abuse.”</p><p>Such subtexts, she insisted, are woven throughout literary texts, and the job of criticism is to ferret them out, especially the repressed themes of same-sex love. </p><p>“It’s about trying to understand different kinds of sexual desire and how the culture defines them,” she told The New York Times in 1998, explaining the function of queer theory. “It’s about how you can’t understand relations between men and women unless you understand the relationship between people of the same gender, including the possibility of a sexual relationship between them.” </p><p>Eve Kosofsky was born in Dayton, Ohio, and grew up in Bethesda, Md. After graduating from <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/cornell_university/index.html?inline=nyt-org" title="More articles about Cornell University.">Cornell</a> with a bachelor’s degree in English in 1971, she earned a master’s and a doctorate in English at <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/y/yale_university/index.html?inline=nyt-org" title="More articles about Yale University.">Yale</a>. In 1969, she married Hal Sedgwick, who survives her. The relationship struck some readers of Ms. Sedgwick’s work as anomalous: one of the creators of queer theory was straight, although she disliked the term, which ran counter to her notion of sexual orientation as a continuum rather than a category. </p><p>In addition to her husband, Ms. Sedgwick is survived by her mother, Rita Kosofsky of Bethesda; a sister, Nina Kopesky of Asheville, N.C.; and a brother, David Kosofsky of New Orleans. </p><p>From the late 1970s to the late ’80s, Ms. Sedgwick taught at Hamilton College, <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/b/boston_university/index.html?inline=nyt-org" title="More articles about Boston University">Boston University</a> and Amherst while developing a critical approach focusing on hidden social codes and submerged plots in familiar writers. Her essay on “Our Mutual Friend” was included in the influential collection “Between Men: English Literature and Male Homosocial Desire” (1985).</p><p>In 1988, <a href="http://topics.nytimes.com/top/reference/timestopics/people/f/stanley_fish/index.html?inline=nyt-per" title="More articles about Stanley Fish.">Stanley Fish</a>, who was transforming the English department at <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/d/duke_university/index.html?inline=nyt-org" title="More articles about Duke University.">Duke University</a> into a center of the new trends in criticism, recruited Ms. Sedgwick to Durham, N.C., where she taught for the next 10 years. While there, she published “Tendencies” (1993), “Novel Gazing: Queer Readings in Fiction” (1997) and her best-known work, “Epistemology of the Closet” (1990), which argued that Western culture could be understood only by critically dissecting the socially constructed concepts of homosexuality and heterosexuality. </p><p>In 1991, Ms. Sedgwick discovered that she had breast cancer. After treatment, the disease recurred in 1996, and she began turning her critical attention to social definitions of illness. In the book “A Dialogue on Love” (1999), she used conversations with her therapist, whom she saw while she was recovering from the effects of chemotherapy, to address her feelings about death, depression and sexual identity after having a mastectomy. </p><p>She moved to New York to be with her husband, a professor of visual perception at the State College of Optometry, and in 1998 began teaching at the Graduate Center of the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/c/city_university_of_new_york/index.html?inline=nyt-org" title="More articles about the City University of New York.">City University of New York</a>.</p><p>She continued to produce literary and social criticism, notably in the book “Touching Feeling: Affect, Pedagogy, Performativity” (2003), an attempt to link queer theory to the emotions. At her death, she was working on “Proust and the Little Queer Gods.” </p><nyt_correction_bottom>
+<div class="correctionNote">
+<p>This article has been revised to reflect the following correction:</p>
+<p>
+<span class="date">Correction: April     16, 2009</span>
+<br>
+<span>An obituary on Wednesday about Eve Kosofsky Sedgwick, a literary critic who focused on sexual identity in fiction, misidentified the <location code-source="nyt-geo" location-code="travel:::Go to the North Carolina Travel Guide.:::http://travel.nytimes.com/travel/guides/north-america/united-states/north-carolina/overview.html|||realestate::::::http://topics.nytimes.com/top/great-homes-and-destinations/destinations/the-carolinas/index.html" style="Y"><alt-code idsrc="nyt-geo" value="North Carolina">North Carolina</alt-code></location> city that is home to <org idsrc="nyt-org" value="arts,automobiles,books,business,college,dining,education,fashion,garden,giving,health,jobs,magazine,movies,multimedia,nyregion,obituaries,realestate,science,sports,style,technology,theater,travel,us,washington,weekinreview,world:::More articles about Duke University.:::http://topics.nytimes.com/top/reference/timestopics/organizations/d/duke_university/index.html"><alt-code idsrc="nyt-org" value="Duke University">Duke University</alt-code></org>, where she taught. It is <location code-source="nyt-geo" location-code="travel:::Go to the Durham Travel Guide.:::http://travel.nytimes.com/travel/guides/north-america/united-states/north-carolina/durham/overview.html" style="Y"><alt-code idsrc="nyt-geo" value="Durham (NC)">Durham</alt-code></location> — not <location code-source="nyt-geo" location-code="travel:::Go to the Chapel Hill Travel Guide.:::http://travel.nytimes.com/travel/guides/north-america/united-states/north-carolina/chapel-hill/overview.html" style="Y"><alt-code idsrc="nyt-geo" value="Chapel Hill (NC)">Chapel Hill</alt-code></location>, which is where the <org idsrc="nyt-org" value="arts,automobiles,books,business,college,dining,education,fashion,garden,giving,health,jobs,magazine,movies,multimedia,nyregion,obituaries,realestate,science,sports,style,technology,theater,travel,us,washington,weekinreview,world:::More articles about University of North Carolina:::http://topics.nytimes.com/top/reference/timestopics/organizations/u/university_of_north_carolina/index.html"><alt-code idsrc="nyt-org" value="University of North Carolina">University of North Carolina</alt-code></org> is located.</span>
+</p>
+</div>
+</nyt_correction_bottom><nyt_update_bottom>
+</nyt_update_bottom>
+</nyt_text>
+<div class="nextArticleLink clearfix">
+<a onclick="s_code_linktrack('Article-MoreArticlesBottom');" href="http://www.nytimes.com/pages/arts/index.html">More Articles in 
+				Arts »</a>
+<span>A version of this article appeared in print on April 15, 2009, on page A25 of the New York edition.</span>										
+</div>		
+</div>
+</div>
+<!--google_ad_section_end -->
+<!--story end -->
+<div id="articleExtras">
+
+<div id="adxCircBottom"><!-- ADXINFO classification="Text_Link" campaign="nyt2013_footer_digi_hp_ros_39Y4U" priority="1000" isInlineSafe="N" width="0" height="0" --><table border="0" width="100%">
+<tbody><tr>
+<td width="300"><a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Bottom1&amp;sn2=f1331da4/9e4d3013&amp;sn1=be704ee7/3e3a50a0&amp;camp=nyt2013_footer_digi_hp_ros_39Y4U&amp;ad=digi-testC2_original-try_unlimited_footer-39Y4U&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2FMultiproduct%2Flp39YYF%2Ehtml%3Fadxc%3D209250%26adxa%3D306644%26page%3Dwww.nytimes.com/yr/mo/day/arts/15sedgwick.html%26pos%3DBottom1%26campaignId%3D39Y4U"><img src="12-0999-Footer_Icon.jpg" style="float: left; margin-right: 5px;" alt="Get Home Delivery" align="middle" border="0" height="27" width="40">Try unlimited access to NYTimes.com for just 99¢.&nbsp; SEE OPTIONS »</a>
+
+</td>
+</tr>
+</tbody></table></div>
+
+
+<!--Google ads placeholder -->
+<div id="adxSponLink"><table id="adxSponLink_googleAds" class="nytd_google_ads nytd_google_single_ad" border="0" cellpadding="0" cellspacing="0"><tbody><tr class="header"><td class="left">Ads by Google</td><td class="right"><a target="popupad" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;">what's this?</a></td>
+</tr><tr class="listing" bidtype="CPC" targetingtype="site"><td colspan="2" valign="middle"><a class="first" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CVimRNRaRUripKYHT0AG33IHACJm7r8oDgcXt8hjZ3o6yBBABIJzz-AFQp_qusvv_____AWDJxqmLwKTYD6AB-4jq-APIAQGoAwGqBIIBT9BtEQCjqJwB3ZR84SZMpfAzSRzV89Zv5fnNzF-bxkVgKqzVtBV8A7ICi24Eb8BBt6xkb2dwsbmqV0V0NrTIl8dE46k97_HtiZqF0uvYrStY4CgJ1Syh1zHY4Tpzg1J2lRnfxMRkn6PUByiFdSRzoHyIR_WTOaf15SMMleU-s-CqTYAH7faVBw&amp;num=1&amp;sig=AOD64_1F5rLpAu3a81Wdix-CBKvH5qxemA&amp;client=ca-nytimes_article_var&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D827%26a%3DBTG-Scientifc_Text_Text%26Network%3DContent%26kw%3D%26ad%3D6596428961%26SiteTarget%3Dnytimes.com">Brain Training Games</a><br>Improve memory and attention with<br>scientific brain games.<br><a class="last" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CVimRNRaRUripKYHT0AG33IHACJm7r8oDgcXt8hjZ3o6yBBABIJzz-AFQp_qusvv_____AWDJxqmLwKTYD6AB-4jq-APIAQGoAwGqBIIBT9BtEQCjqJwB3ZR84SZMpfAzSRzV89Zv5fnNzF-bxkVgKqzVtBV8A7ICi24Eb8BBt6xkb2dwsbmqV0V0NrTIl8dE46k97_HtiZqF0uvYrStY4CgJ1Syh1zHY4Tpzg1J2lRnfxMRkn6PUByiFdSRzoHyIR_WTOaf15SMMleU-s-CqTYAH7faVBw&amp;num=1&amp;sig=AOD64_1F5rLpAu3a81Wdix-CBKvH5qxemA&amp;client=ca-nytimes_article_var&amp;adurl=http://www.lumosity.com/landing%3Frefer%3D827%26a%3DBTG-Scientifc_Text_Text%26Network%3DContent%26kw%3D%26ad%3D6596428961%26SiteTarget%3Dnytimes.com">www.lumosity.com</a></td></tr></tbody></table></div>
+
+
+<!--related blogs promo -->
+<!--related blogs promo end -->
+
+<div id="relatedTopics">
+<h3>Related Searches</h3>
+<form action="http://www.nytimes.com/mem/tnt.html" method="GET" enctype="application/x-www-form-urlencoded">
+<ul>
+<input name="retA" value="http://www.nytimes.com2009/04/15/arts/15sedgwick.html" type="hidden">
+<input name="retT" value="Eve Kosofsky Sedgwick, a Pioneer of Gay Studies and a Literary Theorist, Dies at 58" type="hidden">
+<input name="module" value="call" type="hidden">
+<input name="alert_context" value="1" type="hidden">	    
+<input name="topic1" value="Homosexuality" type="hidden">
+<input name="topic_field1" value="mdes" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=HOMOSEXUALITY&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=HOMOSEXUALITY&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Homosexuality</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=HOMOSEXUALITY&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic2" value="Deaths (Obituaries)" type="hidden">
+<input name="topic_field2" value="des" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=DEATHS+%28OBITUARIES%29&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=DEATHS+%28OBITUARIES%29&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Deaths (Obituaries)</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=DEATHS+%28OBITUARIES%29&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+<input name="topic3" value="Colleges and Universities" type="hidden">
+<input name="topic_field3" value="des" type="hidden">					
+<li>
+<span><a href="http://query.nytimes.com/search/query?ppds=des&amp;v1=COLLEGES+AND+UNIVERSITIES&amp;fdq=19960101&amp;td=sysdate&amp;sort=newest&amp;ac=COLLEGES+AND+UNIVERSITIES&amp;rt=1%2Cdes%2Corg%2Cper%2Cgeo" onclick="javascript:s_code_linktrack('Article-RelatedTopics');">Colleges and Universities</a></span>
+<span class="alert">
+<a href="http://select.nytimes.com/mem/tnt.html?module=call&amp;alert_context=1&amp;topic1=COLLEGES+AND+UNIVERSITIES&amp;topic_field1=des&amp;topic1_check=y&amp;retA=&amp;retT=&amp;cskey=" onclick="javascript:s_code_linktrack('Article-RelatedTopics'); dcsMultiTrack('DCS.dcssip','www.nytimes.com','DCS.dcsuri','/newstracker/add.html','WT.ti','Newstracker Add','WT.z_nta','Add','WT.pers','Per','WT.z_dcsm','1');">
+
+Get E-Mail Alerts</a>
+</span>
+</li>
+</ul>
+</form>
+</div>
+
+</div>
+<div class="clear"></div>
+</div>
+<div id="bColumn">
+<div class="columnGroup">
+<div class="nextArticleLink"><a onclick="s_code_linktrack('Article-MoreArticlesTop');" href="http://www.nytimes.com/pages/arts/index.html">More Articles in 
+				Arts »</a></div>
+</div>
+
+
+
+<div id="adxBigAd" class="columnGroup"><!-- ADXINFO classification="Half-Page_Ad_-_Standard" campaign="TWC_PhilomenaNov13-1905717-nyt5" priority="4000" isInlineSafe="N" width="300" height="600" --><div align="center"><script src="adServer.bs"></script><div style="display: inline; width: 300px; height: 600px; margin: 0px auto;" id="ebDiv1113056611801162" dir="ltr"><div style="border: 0px none; padding: 0px; margin: 0px; top: 0px; left: 0px; overflow: visible; font-size: 0px; line-height: 0px; text-align: left; display: inline;" dir="ltr" id="ebStdBannerDiv_17781869_1113056611801162"><object id="ebStdBannerFlash_17781869_1113056611801162" dir="ltr" name="ebStdBannerFlash_17781869_1113056611801162" style="border: 0px none; padding: 0px; margin: 0px; text-align: left; width: 300px; height: 600px;" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#" version="9,0,0,0" type="application/x-shockwave-flash" data="bf702789-dd79-48bb-addc-f34f4e937135.swf"><param name="play" value="true"><param name="wmode" value="opaque"><param name="menu" value="false"><param name="flashVars" value="ebDomain=www.nytimes.com&amp;ebAdID=17781869&amp;clickTag=http%3A//ds.serving-sys.com/BurstingCachedScripts//ReportPage_2_7_2_0.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D0%2526Pos%253D1113056611801162%2526EyeblasterID%253D17781869%2526dg%253D3348299%2526di%253D0%2526sessionid%253D1573267114043351533%2526OptOut%253D0%24%24ebImpressionID%3D1113056611801162%24%24ebTURLs%3D%5B%5D&amp;clickTAG=http%3A//ds.serving-sys.com/BurstingCachedScripts//ReportPage_2_7_2_0.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D0%2526Pos%253D1113056611801162%2526EyeblasterID%253D17781869%2526dg%253D3348299%2526di%253D0%2526sessionid%253D1573267114043351533%2526OptOut%253D0%24%24ebImpressionID%3D1113056611801162%24%24ebTURLs%3D%5B%5D&amp;clicktag=http%3A//ds.serving-sys.com/BurstingCachedScripts//ReportPage_2_7_2_0.html%3FebReportURL%3Dhttp%253A//bs.serving-sys.com/BurstingPipe/adServer.bs%253Fcn%253Dbrd%2526Page%253D%2526PluID%253D0%2526Pos%253D1113056611801162%2526EyeblasterID%253D17781869%2526dg%253D3348299%2526di%253D0%2526sessionid%253D1573267114043351533%2526OptOut%253D0%24%24ebImpressionID%3D1113056611801162%24%24ebTURLs%3D%5B%5D&amp;ebFSCmdHandler=ebStdBannerFlash_17781869_1113056611801162_DoFSCommand&amp;clickTARGET=_blank&amp;ebFlashID=ebStdBannerFlash_17781869_1113056611801162&amp;"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"></object><script for="ebStdBannerFlash_17781869_1113056611801162" event="FSCommand(command,args)" style="border: 0px none; padding: 0px; margin: 0px;">try{ebStdBannerFlash_17781869_1113056611801162_DoFSCommand(command,args);}catch(e){}</script></div><script>function ebStdBannerFlash_17781869_1113056611801162_DoFSCommand(command,args){ try{ if(!args||args=='null')args='';command = command.replace(/FSCommand:/ig,''); return EBG.ads['17781869_1113056611801162']._CCs['ebStdBannerFlash_17781869_1113056611801162']._handleMessage(command,args,'ebStdBannerFlash_17781869_1113056611801162');}catch(e){if(window.mmFSExceptionAlert)mmFSExceptionAlert('Command: '+command+'\nargs: '+args.toString()+'\n\nexception in DoFS func:\n'+e.message)}}function ebIsFlashExtInterfaceExist(){return true;}</script></div><script src="ebStdBanner.js"></script>
+<noscript>
+
+<a href="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=brd&FlightID=8473038&Page=&PluID=0&Pos=518478794" target="_blank"><img src="http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=bsr&FlightID=8473038&Page=&PluID=0&Pos=518478794" border=0 width=300 height=600></a>
+</noscript></div>
+<!--MOAT Standard Analytics Code starts here--> 
+ <script src="moatad.js" type="text/javascript"></script><noscript class="MOAT-nyt952824751?moatClientLevel1=Studios&amp;moatClientLevel2=The_Weinstein_Companyamp;moatClientLevel3=TWC_PhilomenaNov13-1905717-nyt5&amp;&amp;moatClientLevel4=PhilomenaNov13.Arts.Movies.eBlast300x600&amp;moatClientSlicer1=www.nytimes.com/yr/mo/day/arts/15sedgwick.html&amp;zMoatAT=Standard"></noscript> 
+ <!--MOAT Standard Analytics Code ends here--></div>
+
+
+
+<div class="columnGroup" id="mostPopWidget">
+
+      <!-- MOST POPULAR MODULE STARTS -->
+      <h4>MOST POPULAR</h4>
+         <div id="tabsContainer">
+         <ul class="tabs">
+            <li class="selected"><a href="#">E-Mailed</a></li>
+            <li><a href="#">Blogged</a></li>
+            <li><a href="#">Searched</a></li>
+            <li><a href="#">Viewed</a></li>
+            
+         </ul>
+         </div>
+            
+<div class="tabContent tabContentActive" id="mostEmailed">
+<ol>
+<li img="http://graphics8.nytimes.com/images/2013/11/24/travel/24-hours-map/24-hours-map-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/24/travel/24HOURS_SPAN/24HOURS_SPAN-thumbStandard-v2.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/24/travel/36-hours-in-charleston-sc.html?src=me" title="Click to go to this article">36 Hours in Charleston, S.C.</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/opinion/sunday/23robbins/23robbins-thumbStandard.jpg" kicker="News Analysis"><a href="http://www.nytimes.com/2013/11/24/sunday-review/the-year-the-monarch-didnt-appear.html?src=me" title="Click to go to this article">News Analysis: The Year the Monarch Didnâ€™t Appear</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/world/wine/wine-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/science/in-ruins-of-palace-a-wine-with-hints-of-cinnamon-and-top-notes-of-antiquity.html?src=me" title="Click to go to this article">Wine Cellar, Well Aged, Is Revealed in Israel</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/us/EXCHANGE-1/EXCHANGE-1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/us/EXCHANGE-2/EXCHANGE-2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/us/politics/tension-and-woes-before-health-website-crash.html?src=me" title="Click to go to this article">Tension and Flaws Before Health Website Crash</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/world/CHINA/CHINA-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/world/jpchina1/jpchina1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/world/jpchina2/jpchina2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/world/asia/urbanites-flee-chinas-smog-for-blue-skies.html?src=me" title="Click to go to this article">Urbanites Flee Chinaâ€™s Smog for Blue Skies</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/us/doctors/doctors-thumbStandard-v2.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/health/gynecologists-run-afoul-of-panel-when-patient-is-male.html?src=me" title="Click to go to this article">Gynecologists Run Afoul of Panel When Patient Is Male</a></li>
+<li kicker="Op-Ed Contributor"><a href="http://www.nytimes.com/2013/11/23/opinion/why-the-swiss-scorn-the-superrich.html?src=me" title="Click to go to this article">Op-Ed Contributor: Why the Swiss Scorn the Superrich</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/22/nyregion/rats-1/rats-1-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/22/nyregion/in-manhattan-alleys-owners-send-their-dogs-on-a-rat-hunt.html?src=me" title="Click to go to this article">In Manhattan Alleys, Dogs on Rat Hunts Find Bags of Fun</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/12/dining/essential-thanksgiving-1384202363516/essential-thanksgiving-1384202363516-thumbStandard-v2.jpg" kicker=""><a href="http://www.nytimes.com/interactive/2013/11/12/dining/essential-thanksgiving.html?src=me" title="Click to go to this article">Essential Thanksgiving</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/your-money/23money/23money-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/business/Moneyjp/Moneyjp-thumbStandard.jpg" kicker="Your Money"><a href="http://www.nytimes.com/2013/11/23/your-money/choosing-child-care-when-you-go-back-to-work.html?src=me" title="Click to go to this article">Your Money: Choosing Child Care When You Go Back to Work</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostemailed.html">Go to Complete List Â»</a>
+</div><!-- #most emailed top10 -->
+
+            <div class="tabContent" id="mostBlogged">
+<ol>
+<li><a href="http://www.nytimes.com/2013/11/22/us/politics/reid-sets-in-motion-steps-to-limit-use-of-filibuster.html?src=mb" title="Click to go to this article">In Landmark Vote, Senate Limits Use of the Filibuster</a></li>
+<li><a href="http://www.nytimes.com/2013/11/22/us/politics/a-move-years-in-the-making-with-lasting-ramifications.html?src=mb" title="Click to go to this article">Partisan Fever in Senate Likely to Rise</a></li>
+<li><a href="http://www.nytimes.com/2013/11/21/us/politics/gop-maps-out-waves-of-attacks-over-health-law.html?src=mb" title="Click to go to this article">G.O.P. Maps Out Waves of Attacks Over Health Law</a></li>
+<li><a href="http://www.nytimes.com/interactive/2013/11/21/us/politics/21republican-talking-points.html?src=mb" title="Click to go to this article">Republican Talking Points on Obamacare</a></li>
+<li><a href="http://www.nytimes.com/2013/11/22/opinion/democracy-returns-to-the-senate.html?src=mb" title="Click to go to this article">Democracy Returns to the Senate</a></li>
+<li><a href="http://www.nytimes.com/2013/11/21/us/politics/senate-democrats-poised-to-block-filibusters-of-presidential-picks.html?src=mb" title="Click to go to this article">Senate Democrats Poised to Block Filibusters of Presidential Picks</a></li>
+<li><a href="http://www.nytimes.com/2013/11/21/fashion/social-networking-App-allows-women-to-rate-men.html?src=mb" title="Click to go to this article">Whatâ€™s He Really Like? Check the Lulu App</a></li>
+<li><a href="http://www.nytimes.com/2013/11/22/opinion/krugman-expanding-social-security.html?src=mb" title="Click to go to this article">Expanding Social Security</a></li>
+<li><a href="http://www.nytimes.com/2013/11/22/us/in-kennedys-death-a-turning-point-for-a-nation-already-torn.html?src=mb" title="Click to go to this article">In Kennedyâ€™s Death, a Turning Point for a Nation Already Torn</a></li>
+<li><a href="http://www.nytimes.com/2013/11/22/us/politics/health-law-is-dividing-republican-governors.html?src=mb" title="Click to go to this article">Health Law Is Dividing Republican Governors</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostblogged.html">Go to Complete List »</a>
+</div><!-- #most blogged top10 -->
+
+            <div class="tabContent" id="mostSearched">
+<ol>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/kennedy/?src=ms">kennedy</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/thanksgiving/?src=ms">thanksgiving</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/magnus%20carlsen/?src=ms">magnus carlsen</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/chess/?src=ms">chess</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/modern%20love/?src=ms">modern love</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/china/?src=ms">china</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/social%20q%27s/?src=ms">social q's</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/health/?src=ms">health</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/education/?src=ms">education</a></li>
+<li><a href="http://query.nytimes.com/search/sitesearch/#/turkey/?src=ms">turkey</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/gst/mostsearched.html">Go to Complete List »</a>
+</div><!-- #most searched top10 -->
+
+            <div class="tabContent" id="mostViewed">
+<ol>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/us/doctors/doctors-thumbStandard-v2.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/health/gynecologists-run-afoul-of-panel-when-patient-is-male.html?src=mv" title="Click to go to this article">Gynecologists Run Afoul of Panel When Patient Is Male</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/world/wine/wine-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/science/in-ruins-of-palace-a-wine-with-hints-of-cinnamon-and-top-notes-of-antiquity.html?src=mv" title="Click to go to this article">Wine Cellar, Well Aged, Is Revealed in Israel</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/us/EXCHANGE-1/EXCHANGE-1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/us/EXCHANGE-2/EXCHANGE-2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/us/politics/tension-and-woes-before-health-website-crash.html?src=mv" title="Click to go to this article">Tension and Flaws Before Health Website Crash</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/nyregion/knockout/knockout-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/nyregion/knockout-game-a-spreading-menace-or-a-myth.html?src=mv" title="Click to go to this article">Police Unsure if Random Attacks Are Rising Threat or Urban Myth</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/22/arts/22JPHUNGER/22JPHUNGER-thumbStandard-v2.jpghttp://graphics8.nytimes.com/images/2013/11/22/arts/22HUNGER_SPAN/22HUNGER_SPAN-thumbStandard-v2.jpg" kicker="Movie Review | â€˜The Hunger Games: Catching Fireâ€™"><a href="http://www.nytimes.com/2013/11/22/movies/the-hunger-games-catching-fire-with-jennifer-lawrence.html?src=mv" title="Click to go to this article">Movie Review | â€˜The Hunger Games: Catching Fireâ€™: Striking Where Myth Meets Moment</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/22/us/22assess_span/22assess_span-thumbStandard.jpg" kicker="News Analysis"><a href="http://www.nytimes.com/2013/11/22/us/politics/a-move-years-in-the-making-with-lasting-ramifications.html?src=mv" title="Click to go to this article">News Analysis: Partisan Fever in Senate Likely to Rise</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/24/magazine/24talk/24talk-thumbStandard-v3.jpg" kicker="Talk"><a href="http://www.nytimes.com/2013/11/24/magazine/motorheads-lemmy-kilmister-im-paying-for-the-good-times.html?src=mv" title="Click to go to this article">Talk: MotÃ¶rheadâ€™s Lemmy Kilmister: â€˜Iâ€™m Paying for the Good Timesâ€™</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/world/sanctions/sanctions-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/world/middleeast/a-gamble-in-iran-talks-easing-of-the-sanctions.html?src=mv" title="Click to go to this article">A Gamble in Iran Talks: Easing of the Sanctions</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/world/CHINA/CHINA-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/world/jpchina1/jpchina1-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/world/jpchina2/jpchina2-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/world/asia/urbanites-flee-chinas-smog-for-blue-skies.html?src=mv" title="Click to go to this article">Urbanites Flee Chinaâ€™s Smog for Blue Skies</a></li>
+<li img="http://graphics8.nytimes.com/images/2013/11/23/arts/SOTHEBYS/SOTHEBYS-thumbStandard.jpghttp://graphics8.nytimes.com/images/2013/11/23/arts/23jpSOTHEBYS/23jpSOTHEBYS-thumbStandard.jpg" kicker=""><a href="http://www.nytimes.com/2013/11/23/arts/design/principal-auctioneer-of-sothebys-leaving-post.html?src=mv" title="Click to go to this article">Principal Auctioneer of Sothebyâ€™s Is Leaving Post</a></li>
+</ol>
+<a class="more" href="http://www.nytimes.com/most-popular-viewed">Go to Complete List Â»</a>
+</div><!-- #most viewed top10 -->
+
+            
+         <script type="text/javascript">new Accordian("mostPopWidget");</script>
+      <!-- MOST POPULAR MODULE ENDS -->
+   
+
+</div>
+<div id="adxMiddle" class="columnGroup"><!-- ADXINFO classification="Big_Ad_-_Standard" campaign="nyt2013_300x250_module_theater_hp_ros" priority="1000" isInlineSafe="N" width="300" height="250" --><div style="border: 0px solid rgb(0, 0, 0); width: 300px; height: 250px; margin: 0px auto;" align="center">
+<script type="text/javascript">
+
+ var movieWidth = 300;
+ var movieHeight = 250;
+ var altSrc = "http://graphics8.nytimes.com/adx/images/ADS/35/56/ad.355631/13-0529_theatre_300x250.jpg";
+ var swfFile = "http://graphics8.nytimes.com/adx/images/ADS/35/56/ad.355631/13-0529_theatre_300x250_02.swf";
+ var altClickThru = "http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/arts&pos=Box1&sn2=f3c96588/df48ce5f&sn1=f9ee57ed/8c7a533d&camp=nyt2013_300x250_module_theater_hp_ros&ad=TH-D-I-NYT-MOD-MOD-HP-ROS-1113&goto=http%3A%2F%2Fnytimes%2Ecom%2Ftheater%3FWT%2Emc%5Fid%3DTH%2DD%2DI%2DNYT%2DMOD%2DMOD%2DHP%2DROS%2D1113%26WT%2Emc%5Fev%3Dclick%26WT%2Emc%5Fc%3D230175";
+ var swfSrc = swfFile + "?clicktag=" + escape(altClickThru);
+</script>
+<script type="text/javascript" src="embed3.js">
+</script><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" id="Flash" height="250" width="300">
+ <param name="movie" value="http://graphics8.nytimes.com/adx/images/ADS/35/56/ad.355631/13-0529_theatre_300x250_02.swf?clicktag=http%3A//www.nytimes.com/adx/bin/adx_click.html%3Ftype%3Dgoto%26opzn%26page%3Dwww.nytimes.com/yr/mo/day/arts%26pos%3DBox1%26sn2%3Df3c96588/df48ce5f%26sn1%3Df9ee57ed/8c7a533d%26camp%3Dnyt2013_300x250_module_theater_hp_ros%26ad%3DTH-D-I-NYT-MOD-MOD-HP-ROS-1113%26goto%3Dhttp%253A%252F%252Fnytimes%252Ecom%252Ftheater%253FWT%252Emc%255Fid%253DTH%252DD%252DI%252DNYT%252DMOD%252DMOD%252DHP%252DROS%252D1113%2526WT%252Emc%255Fev%253Dclick%2526WT%252Emc%255Fc%253D230175">
+ <param name="wmode" value="opaque">
+ <param name="quality" value="high">
+ <param name="loop" value="true">
+ <embed src="13-0529_theatre_300x250_02.swf" quality="high" loop="true" wmode="opaque" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" height="250" width="300">
+ 
+ </object>
+
+</div></div>
+<div id="adxSponLink" class="columnGroup"><!-- ADXINFO classification="Email_Text_Ad_Version" campaign="GoogleAdSense_ARTICLE_GOOGLE_SPONLINK_A" priority="1002" isInlineSafe="N" width="0" height="0" --><script language="JavaScript" type="text/javascript">
+
+    // Sponlink_A_Short
+
+     if (document.getElementById("MiddleRight")) { google_targeting = 'content'; }
+     NYTD.GoogleAds.getGoogleAds("AFC", { 
+        google_ad_client:'nytimes_article_var',
+        ad_target_list:'sponLinkA'
+     });
+
+</script><script src="show_ads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="ads"></script></div>
+
+<div id="adxMiddle5" class="columnGroup"><!-- ADXINFO classification="Featured_Product_Image" campaign="nyt2013_300x79_xword_ros_3JKXR_ANON" priority="1000" isInlineSafe="N" width="120" height="90" --><div align="center">
+<a href="http://www.nytimes.com/adx/bin/adx_click.html?type=goto&amp;opzn&amp;page=www.nytimes.com/yr/mo/day/arts&amp;pos=Middle5&amp;sn2=6e68e216/aafe797a&amp;sn1=cbdc5560/35235adc&amp;camp=nyt2013_300x79_xword_ros_3JKXR_ANON&amp;ad=300x79_xword_ros_3JKXR&amp;goto=http%3A%2F%2Fwww%2Enytimes%2Ecom%2Fsubscriptions%2Fgames%2Flp3FUQQ%2Ehtml%3Fadxc%3D213447%26adxa%3D334430%26page%3Dwww.nytimes.com/yr/mo/day/arts/15sedgwick.html%26pos%3DMiddle5%26campaignId%3D3JKXR" target="_top">
+<img src="NYT_Crossword_300x79_OMF.jpg" border="0" height="79" width="300">
+</a>
+</div></div>
+
+
+
+<br>
+<!--Google ads placeholder -->
+<div id="adxSponLinkA" class="columnGroup"><table id="adxSponLinkA_googleAds" class="nytd_google_ads nytd_google_single_ad" border="0" cellpadding="0" cellspacing="0"><tbody><tr class="header"><td class="left">Ads by Google</td><td class="right"><a target="popupad" onclick="window.open('','popupad','left=100,top=100,width=390,height=390,resizable,scrollbars=no')" href="http://www.nytimes.com/ref/membercenter/faq/linkingqa16.html" style="font-family: Arial,Helvetica,sans-serif; color: white; font-size: 12px; padding-right: 7px;">what's this?</a></td>
+</tr><tr class="listing" bidtype="CPC" targetingtype="site"><td colspan="2" valign="middle"><a class="first" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CzEM-NhaRUqEM49fQAY-3gOAI0qT7ngTaqJvKFMzgupQFEAEgnPP4AVD5rLDyBmDJxqmLwKTYD6ABnPG9_wPIAQGoAwGqBIEBT9CbEVbDg-yiS_--xKBIF78bGgo7BM6pSPA8yjoKVWOoQdUvXQY20QcuoywbiOM2BBksfbJ5jgudSpaw99uCu2ycHw7Lk7VebclFZ4HCzcrvqHXxRqpRdP1IhQ3L8h6ICmhMHdvjO1upeHMoIW4XZc5bmXWOJDDWIs75ylnDP6xWgAfMjkI&amp;num=1&amp;sig=AOD64_2fVmvM7nTfHVmNtiVB_d3RwLWJVQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.iuniverse.com/LP02F01C037.aspx%3FCat%3DPPC%26LS%3DSearchEngine%26SRC%3DGoogle%26KW%3DiUniverseContentAds-DCO%26GKW%3DDCOTextAds%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DiUniverseContentAds%26utm_content%3Dwriting_google">Are You Writing a Book?</a><br>Get a free guide to professional<br>editing &amp; publishing options.<br><a class="last" target="_top" href="http://googleads.g.doubleclick.net/aclk?sa=l&amp;ai=CzEM-NhaRUqEM49fQAY-3gOAI0qT7ngTaqJvKFMzgupQFEAEgnPP4AVD5rLDyBmDJxqmLwKTYD6ABnPG9_wPIAQGoAwGqBIEBT9CbEVbDg-yiS_--xKBIF78bGgo7BM6pSPA8yjoKVWOoQdUvXQY20QcuoywbiOM2BBksfbJ5jgudSpaw99uCu2ycHw7Lk7VebclFZ4HCzcrvqHXxRqpRdP1IhQ3L8h6ICmhMHdvjO1upeHMoIW4XZc5bmXWOJDDWIs75ylnDP6xWgAfMjkI&amp;num=1&amp;sig=AOD64_2fVmvM7nTfHVmNtiVB_d3RwLWJVQ&amp;client=ca-nytimes_article_var&amp;adurl=http://www.iuniverse.com/LP02F01C037.aspx%3FCat%3DPPC%26LS%3DSearchEngine%26SRC%3DGoogle%26KW%3DiUniverseContentAds-DCO%26GKW%3DDCOTextAds%26utm_source%3Dgoogle%26utm_medium%3Dcpc%26utm_campaign%3DiUniverseContentAds%26utm_content%3Dwriting_google">www.iUniverse.com</a></td></tr></tbody></table></div>
+<!-- ADXINFO classification="Email_Text_Ad_Version" campaign="GoogleAdSense_REVIEWS_SPONLINK" priority="1002" isInlineSafe="N" width="0" height="0" --><script language="JavaScript" type="text/javascript">
+
+ // Sponlink_short 
+
+function getMetaValue(name) {
+  var els = document.getElementsByName(name);
+  if (els && els[0]) { return els[0].content; }
+  return "";
+}
+
+    NYTD.GoogleAds.paramObj = {google_ad_client:'nytimes_article_var', google_ad_channel:'left', ad_target_list:'sponLink' };
+    NYTD.GoogleAds.paramObj.google_hints = getMetaValue('keywords');
+    NYTD.GoogleAds.getGoogleAds("AFC", NYTD.GoogleAds.paramObj);
+ </script><script src="show_ads.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="show_ads_impl.js"></script><script>google_protectAndRun("ads_core.google_render_ad", google_handleError, google_render_ad);</script><script language="JavaScript1.1" src="ads_001.dat"></script>
+
+</div><!--end #bColumn -->
+
+<!--MOTHS -->
+
+  <!-- start MOTH -->
+  	<div id="insideNYTimes" class="doubleRule nocontent">
+            <script type="text/javascript" src="moth.js"></script><script src="effect_scroll.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="3.6.min.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="mothController.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script><script src="mothLegacy.js" type="text/javascript" charset="utf-8" onerror="throw('NYTD.require: An error occured: ' + this.src)"></script>
+        <div id="insideNYTimesHeader">
+                    <div class="navigation"><span id="leftArrow"><img id="mothReverse" src="moth_reverse_off.gif"></span>&nbsp;<span id="rightArrow"><img id="mothForward" src="moth_forward.gif"></span></div>
+                <h4>
+
+            Inside NYTimes.com        </h4>
+    </div>
+    
+        
+    <div id="insideNYTimesScrollWrapper">
+        <table id="insideNYTimesBrowser" cellspacing="0">
+            <tbody>
+                <tr>
+                                                <td class="first">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/world/index.html">World »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/world/americas/precarious-honduras-fears-another-bout-of-electoral-uncertainty.html"><img src="23MOTH_Honduras-moth.jpg" alt="Political Doubt Poses Risk to Honduras" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/world/americas/precarious-honduras-fears-another-bout-of-electoral-uncertainty.html">Political Doubt Poses Risk to Honduras</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/index.html">Arts »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/arts/design/principal-auctioneer-of-sothebys-leaving-post.html"><img src="23MOTH_Sothebys-moth.jpg" alt="Principal Auctioneer of Sotheby’s to Leave Post" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/arts/design/principal-auctioneer-of-sothebys-leaving-post.html">Principal Auctioneer of Sotheby’s to Leave Post</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/24/nyregion/frank-wood-still-promoting-bands-after-40-years.html"><img src="24MOTH_CHARACTER-moth.jpg" alt="Frank Wood Is Promoting Bands After 40 Years" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/24/nyregion/frank-wood-still-promoting-bands-after-40-years.html">Frank Wood Is Promoting Bands After 40 Years</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://www.nytimes.com/roomfordebate/2013/11/22/a-change-in-rules-on-filibusters-and-its-impact-on-congress">How the Senate Will Change, and Won’t</a></h3>
+                <p class="summary">Room for Debate asks: What are the likely effects of Democrats’ decision to limit filibusters?</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/opinion/the-thrill-of-breathlessness.html"><img src="23MOTH_Opart-moth.jpg" alt="Op-Ed: The Thrill of Breathlessness" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/opinion/the-thrill-of-breathlessness.html">Op-Ed: The Thrill of Breathlessness</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/booming/index.html">Booming »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/24/booming/bonfire-of-my-vanity.html"><img src="23MOTH_Booming-moth.jpg" alt="Bonfire of My Vanity" height="151" width="151"></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/24/booming/bonfire-of-my-vanity.html">Bonfire of My Vanity</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/sports/index.html">Sports »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/sports/manny-pacquiao-working-out-a-stormy-marriage-that-came-with-bells-and-a-ring.html"><span class="img" src="http://i1.nyt.com/images/2013/11/23/sports/23MOTH_Boxing/23MOTH_Boxing-moth.jpg" alt="Since Saving Marriage, Boxer’s Skills Wane" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/sports/manny-pacquiao-working-out-a-stormy-marriage-that-came-with-bells-and-a-ring.html">Since Saving Marriage, Boxer’s Skills Wane</a></h6>
+        </div>
+    </td>
+                                                    <td class="">
+            <div class="story">
+                <h6 class="kicker"><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a></h6>
+                <h3><a href="http://opinionator.blogs.nytimes.com/2013/11/22/lincoln-looks-south-of-the-border/">Disunion: Lincoln Looks South of the Border</a></h3>
+                <p class="summary">France’s intervention in Mexico caught the attention of the American president in 1863.</p>
+            </div>
+        </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/national/index.html">U.S. »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/us/veteran-union-activist-fasts-to-support-rights-for-illegal-immigrants.html"><span class="img" src="http://i1.nyt.com/images/2013/11/23/us/23moth_IMMIG2/23moth_IMMIG2-moth-v2.jpg" alt="Veteran Union Activist Fasts for Immigrants" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/us/veteran-union-activist-fasts-to-support-rights-for-illegal-immigrants.html">Veteran Union Activist Fasts for Immigrants</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate »</a>
+                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/24/realestate/a-lena-dunham-locale.html"><span class="img" src="http://i1.nyt.com/images/2013/11/24/realestate/24MOTH_EXCLUSIVE/24MOTH_EXCLUSIVE-moth.jpg" alt="A Lena Dunham Locale" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/24/realestate/a-lena-dunham-locale.html">A Lena Dunham Locale</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/opinion/index.html">Opinion »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/opinion/in-the-senate-new-rules-to-play-by.html"><span class="img" src="http://i1.nyt.com/images/2013/11/23/opinion/23MOTH_Letters/23MOTH_Letters-moth.jpg" alt="Letters: In the Senate, New Rules to Play By" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/opinion/in-the-senate-new-rules-to-play-by.html">Letters: In the Senate, New Rules to Play By</a></h6>
+        </div>
+    </td>
+                                                <td class="">
+        <div class="story">
+            <h6 class="kicker">
+                                    <a href="http://www.nytimes.com/pages/arts/dance/index.html">Dance »</a>                            </h6>
+            <div class="mothImage">
+                <a href="http://www.nytimes.com/2013/11/23/arts/dance/natalia-osipova-and-evgenia-obraztsova-dance-at-the-royal.html"><span class="img" src="http://i1.nyt.com/images/2013/11/23/arts/23MOTH_Ballerinas/23MOTH_Ballerinas-moth.jpg" alt="Dazzling Juliets Light the Stage of Royal Ballet" width="151" height="151"></span></a>
+            </div>
+            <h6 class="headline"><a href="http://www.nytimes.com/2013/11/23/arts/dance/natalia-osipova-and-evgenia-obraztsova-dance-at-the-royal.html">Dazzling Juliets Light the Stage of Royal Ballet</a></h6>
+        </div>
+    </td>
+                                    </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    </div><!-- end #insideNYTimes -->
+
+
+</div>
+<!--Footer -->
+
+<nyt_footer>	 
+<nyt_copyright>
+
+<div id="footer">
+<div class="footerRow">
+<a href="http://www.nytimes.com/">Home</a>
+<ul>
+<li><a href="http://www.nytimes.com/pages/world/index.html">World</a></li>
+<li><a href="http://www.nytimes.com/pages/national/index.html">U.S.</a></li>
+<li><a href="http://www.nytimes.com/pages/nyregion/index.html">N.Y. / Region</a></li>
+<li><a href="http://www.nytimes.com/pages/business/index.html">Business</a></li>
+<li><a href="http://www.nytimes.com/pages/technology/index.html">Technology</a></li>
+<li><a href="http://www.nytimes.com/pages/science/index.html">Science</a></li>
+<li><a href="http://www.nytimes.com/pages/health/index.html">Health</a></li>
+<li><a href="http://www.nytimes.com/pages/sports/index.html">Sports</a></li>
+<li><a href="http://www.nytimes.com/pages/opinion/index.html">Opinion</a></li>
+<li><a href="http://www.nytimes.com/pages/arts/index.html">Arts</a></li>
+<li><a href="http://www.nytimes.com/pages/style/index.html">Style</a></li>
+<li><a href="http://travel.nytimes.com/pages/travel/index.html">Travel</a></li>
+<li><a href="http://www.nytimes.com/pages/jobs/index.html">Jobs</a></li>
+<li><a href="http://www.nytimes.com/pages/realestate/index.html">Real Estate</a></li>
+<li><a href="http://www.nytimes.com/pages/automobiles/index.html">Automobiles</a></li>
+<li><a href="#top">Back to Top</a></li>
+</ul>
+</div>
+<a href="http://www.nytimes.com/ref/membercenter/help/copyright.html">Copyright 2009</a> 
+<a href="http://www.nytco.com/">The New York Times Company</a>
+<ul>
+<li><a href="http://www.nytimes.com/privacy">Privacy Policy</a></li>
+<li><a href="http://query.nytimes.com/gst/sitesearch_selector.html?query=&amp;date_select=full&amp;type=nyt">Search</a></li>
+<li><a href="http://www.nytimes.com/corrections.html">Corrections</a></li>
+<li><a href="http://www.nytimes.com/rss" class="rssButton">RSS</a></li>
+<li><a href="http://firstlook.nytimes.com/">First Look</a></li>
+<li><a href="http://www.nytimes.com/membercenter/sitehelp.html">Help</a></li>
+<li><a href="http://nytimes.com/ref/membercenter/help/infoservdirectory.html">Contact Us</a></li>
+<li><a href="http://www.nytco.com/careers/">Work for Us</a></li>
+<li><a href="http://spiderbites.nytimes.com/">Site Map</a></li>
+</ul>
+</div>
+
+</nyt_copyright>
+</nyt_footer>  
+
+</div>
+</div>
+
+			
+		<!-- Start UPT call -->
+		<img src="untitled_001.dat" border="0" height="1" width="3">
+		<!-- End UPT call -->
+	
+		
+        <script language="JavaScript"><!--
+          var dcsvid="0";
+          var regstatus="non-registered";
+        //--></script>
+        <script src="trackingTags_v1.1.js" type="text/javascript"></script>
+        <noscript>
+
+          <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://wt.o.nytimes.com/dcsym57yw10000s1s8g0boozt_9t1x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=1.0.7"/></div>
+        </noscript>
+   
+
+
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("t_section","Arts")</script>
+		<script language="Javascript">Tacoda_AMS_DDC_addPair("site","nytimes.com")</script>
+		<script language="JavaScript">Tacoda_AMS_DDC("http://te.nytimes.com/tte/blank.gif","1.0")</script>	
+		
+<img class="hidden" src="9b6f0081Q2F111Q25MTQ24iQ5ETF1iQ25TBQ3EQ7BJ6FtTUk6foQ5BMDQ25_-yQ25Q25DoyQ25f-D" height="1" width="3">
+
+
+
+
+
+
+<script language="javascript" src="57.js"></script>
+
+
+<script>
+
+NYTD.jQuery(window).on('load', function () {
+
+    function getMetaValue(name) {
+        var els = document.getElementsByName(name);
+        if (els && els[0]) { return els[0].content; }
+        return "";
+    }
+
+    var kurl = document.location.pathname;
+    var kgeoref = getMetaValue("geo");
+    var ksection = getMetaValue("CG");
+    var ksubsection = getMetaValue("SCG");
+    var kauthor = getMetaValue("author");
+    var kfacebstring = "AUTHOR=" + kauthor + "&GEO_REF=" + kgeoref + "&SECTION=" + ksection + "&SUBSECTION=" + ksubsection + "&URL=www.nytimes.com" + kurl;
+
+    NYTD.jQuery(".shareToolsItemFacebook").on('click', function () {
+        var scriptTag = document.createElement("script");
+        scriptTag.src = 'http://beacon.krxd.net/event.gif?event_id=HudKM7Cc&event_type=clk&pub_id=79816aa8-435a-471a-be83-4b3e0946daf2&' + kfacebstring; 
+        var firstScript = document.getElementsByTagName("script")[0];
+        firstScript.parentNode.insertBefore(scriptTag, firstScript);
+    });    
+});
+</script>
+
+<!-- ADXINFO classification="blank-but-count-imps" campaign="KRUX_DIGITAL_CONTROL_SCRIPT_LIVE_DEFAULT2" priority="1002" isInlineSafe="N" width="1" height="1" --><!-- BEGIN Krux Controltag -->
+<script class="kxct" data-id="HrUwtkcl" data-version="async:1.7" type="text/javascript">
+
+  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);
+  (function(){
+    var k=document.createElement('script');k.type='text/javascript';k.async=true;var m,src=(m=location.href.match(/\bkxsrc=([^&]+)\b/))&&decodeURIComponent(m[1]);
+    k.src=src||(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag?confid=HrUwtkcl';
+    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);
+  })();
+</script>
+<!-- END Krux Controltag -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ics:argument name="asset_id" value="1194839469084">
+
+
+
+</ics:argument><div id="nytLoginModalContainer" class="nytLoginModalContainer nytModalContainer" style="display: none; z-index: 2147483645;"><div class="nytOverlay" style="background: none repeat ; 0% transparent;"></div><div class="nytModal nytLoginModal  " style="width: 360px;"><div class="inset"><div class="nytModalHeader"><div class="opposingFloatControl"><div class="element1"><h5 class="nytModalHeading">Log in to NYTimes.com</h5></div><div class="element2 "><a href="#" class="nytModalClose">Close</a></div></div></div><div class="nytModalContent singleRule"><div class="inset"><div class="horizontalFormControl"><form action="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;" id="loginModalForm" class="loginModalForm"><div class="control"><div class="labelContainer"><div class="insetV"><label for="user">E-Mail/Member ID:</label></div></div><div class="fieldContainer"><input class="text" value="" id="user" name="userid" tabindex="1" type="text"></div></div><div class="control passwordControl"><div class="labelContainer containingBlock"><div class="insetV"><label for="password">Password:</label><span class="labelDescription"><a href="http://www.nytimes.com/forgot" tabindex="4">Forgot your password?</a></span></div></div><div class="fieldContainer"><input class="text" value="" id="password" name="password" tabindex="2" type="password"></div></div><div class="control"><div class="fieldContainer metaFootnote" id="loginModalRegiSwap">Don't have an NYTimes.com account? <a href="javascript:;">Register now for free.</a></div></div><div class="control horizontalControl loginSubmitControl lastControl"><div class="insetContainer wrap"><div class="control buttonControl"><span id="loginSubmitLoader" class="submitLoader hidden"><img src="loading-grey-lines-circle-18.gif"></span><button type="button" id="loginModalSubmitButton" class="loginButton applicationButton" tabindex="3">Log In</button></div><div class="control checkboxControl"><div class="fieldContainer"><input id="remember" name="remember" class="checkbox" checked="checked" type="checkbox"></div><div class="labelContainer"><label class="checkboxLabel" for="remember">Remember me</label></div></div></div></div></form></div></div></div></div><div class="nytModalPointer nytModalPointerDown" style=""></div></div></div><div id="nytRegiModalContainer" class="nytRegiModalContainer nytModalContainer" style="display: none; z-index: 2147483645;"><div class="nytOverlay" style="background: none repeat ; 0% transparent;"></div><div class="nytModal nytRegiModal  " style="width: 360px;"><div class="inset"><div class="nytModalHeader"><div class="opposingFloatControl"><div class="element1"><h5 class="nytModalHeading">Register at NYTimes.com</h5></div><div class="element2 "><a href="#" class="nytModalClose">Close</a></div></div></div><div class="nytModalContent singleRule"><div class="inset"><div class="horizontalFormControl horizontalModalFormControl"><form action="http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=2&amp;" validate="" id="regiModalForm" class="regiModalForm modalForm" method="post"><div class="control email"><div class="labelContainer"><div class="insetV"><label for="regi-email">E-Mail:</label></div></div><div class="fieldContainer"><input value="" id="regi-email" name="regi-email" type="email"></div></div><div class="control"><div class="labelContainer"><div class="insetV"><label for="regi-password">Password:</label></div></div><div class="fieldContainer"><input value="" id="regi-password" name="regi-password" type="password"></div></div><div class="control"><div class="labelContainer"><div class="insetV"><label for="regi-password2">Retype Password:</label></div></div><div class="fieldContainer"><input value="" id="regi-password2" name="regi-password2" type="password"></div></div><div class="control notify checkboxControl"><div class="fieldContainer"><input id="specialOffers" class="checkbox" name="subscribe[]" value="MM" checked="" type="checkbox"></div><div class="labelContainer"><label class="checkboxLabel" for="specialOffers">Receive occasional updates and special offers for The New York Timesâ€™s products and services.</label></div></div><div class="control"><div class="fieldContainer metaFootnote" id="regiModalLoginSwap">Already have an NYTimes.com account? <a href="javascript:;">Log In.</a></div></div><div class="control buttonControl"><div class="fieldContainer containingBlock"><span id="submitRegiLoader" class="submitLoader hidden"><img src="loading-grey-lines-circle-18.gif"></span><button type="button" id="regiModalSubmitButton" class="applicationButton">Create My Account</button></div></div></form></div></div></div></div><div class="nytModalPointer nytModalPointerDown" style=""></div></div></div><script src="untitled_002.dat"></script><div id="BF_WIDGET_1">&nbsp;<script src="UserWidget" type="text/javascript"></script></div><iframe src="15sedgwick_1.html" style="display: none; width: 0px; height: 0px;" name="google_osd_static_frame" id="google_osd_static_frame_6974129519970"></iframe></body>
+</html>
