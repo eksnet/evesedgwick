@@ -131,8 +131,8 @@ Index:  Imitation_and_Desire_in_Sedgwick_and_Soseki.html
 Folder: TZDPRK3A
 URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/TZDPRK3A/Imitation_and_Desire_in_Sedgwick_and_Soseki.html
 
-Link:   
-Item:   
-Index:  
-Folder: 
-URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries//
+Link:   The reeducation of a queer theorist: Battling cancer, a nice male psychoanalyst and her own sexual demons, the diva of queer theory learned a new way of living
+Item:   The reeducation of a queer theorist
+Index:  sedgwick.html
+Folder: ENJZVFMA
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/ENJZVFMA/sedgwick.html
