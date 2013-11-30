@@ -1,0 +1,25 @@
+OX_7979725377({
+  "ads":{
+    "medium":"w",
+    "record_tmpl":"http://ox-d.pubgears.com/{medium}/1.0/{rtype}?ai=84c96186-dbb1-4ad7-8a5a-679226b343e9&ts={txn_state}",
+    "adunits" : [
+      {
+        "auid":"501727",
+        "chain":[
+          {
+            "is_fallback":0,
+            
+            "ad_id":"1508892",
+            "width":"160",
+            "height":"600",
+            "html":"<script type=\"text/javascript\" src=\"http://tags.pubgears.com/theawl/ros/160x600/openx_3\"></script>\n",
+            "target":"_blank",
+            "ts":"1fHNpZD0xMDg4NTZ8cmFpZD0yMzliOGUwNi1kMzVkLTRkNjgtYTI5Ny0zZjM0YzUxMGY0NDJ8YXVpZD01MDE3Mjd8dXI9R09jMzZYUWpUWHxhcz0xNjB4NjAwfGFpZD0xNTA4ODkyfHB1Yj0xMzEyOTF8YXVtPURNSUQuV0VCfGxpZD04Nzg4ODl8dT0xfHQ9NXxyaWQ9ZTk0YjFiNDItNzRkOC00MWY0LThlMTQtODdjMmY5ZDE0YjAzfG9pZD0yNTMzMjF8Ym09QlVZSU5HLk5PTkdVQVJBTlRFRUR8cD0xNjYwfHBjPVVTRHxhYz1VU0R8cG09UFJJQ0lORy5DUE18cnQ9MTM4NTg1MTEwNXxwcj0xNjYwfGFkdj0xMzEyOTA",
+            "type":"thirdparty",
+            "ad_url":"<script type=\"text/javascript\" src=\"http://tags.pubgears.com/theawl/ros/160x600/openx_3\"></script>\n"
+          }
+        ]
+      }
+    ]
+  }
+});

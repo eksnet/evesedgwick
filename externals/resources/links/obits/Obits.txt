@@ -64,7 +64,13 @@ Index:  remembering-eve-kosofsky-sedgwick.html
 Folder: T9WF6MWR
 URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/T9WF6MWR/remembering-eve-kosofsky-sedgwick.html
 
-Link:   New Yorker
+Link:   New Yorker [primary archive]
+Item:   Eve Kosofsky Sedgwick : The New Yorker
+Index:  eve-kosofsky-sedgwick.html
+Folder: R7TUAQ4C
+URL:    http://evekosofskysedgwick.net/externals/resources/links/obits/R7TUAQ4C/eve-kosofsky-sedgwick.html
+
+Link:   New Yorker [2nd archive - text only]
 Item:   Eve Kosofsky Sedgwick
 Index:  Halford - 2009 - Eve Kosofsky Sedgwick.html
 Folder: EWBNR4JC

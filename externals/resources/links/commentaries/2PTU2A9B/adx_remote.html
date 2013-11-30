@@ -1,0 +1,15 @@
+
+var adxads = new Array(4);
+
+adxads[0] = "<!-- ADXINFO classification=\"Business_SF_Markets_Module_Tile\" campaign=\"FOX_SEARCHLIGHT_ATJD13-1849323A-nyt5\" priority=\"8000\" isInlineSafe=\"N\" width=\"120\" height=\"60\" --><a href=\"http://www.nytimes.com/adx/bin/adx_click.html?type=goto&opzn&page=www.nytimes.com/yr/mo/day/books&pos=Frame4A&sn2=29174d16/77d618f7&sn1=b9d1b336/66111484&camp=FOX_SEARCHLIGHT_ATJD13-1849323A-nyt5&ad=BN_NYT120x60_NowPlaying.gif&goto=http%3A%2F%2Fwww%2Efoxsearchlight%2Ecom%2Fblacknativity%2F\" target=\"_blank\">\n<img src=\"http://graphics8.nytimes.com/adx/images/ADS/35/67/ad.356771/BN_NYT120x60_NowPlaying.gif\" width=\"120\" height=\"60\" border=\"0\">\n</a>";
+adxpos_Frame4A = 0;
+
+adxads[1] = "<script>\nNYTD.jQuery(window).on('load', function () {\n\n    function getMetaValue(name) {\n        var els = document.getElementsByName(name);\n        if (els && els[0]) { return els[0].content; }\n        return \"\";\n    }\n\n    var kurl = document.location.pathname;\n    var kgeoref = getMetaValue(\"geo\");\n    var ksection = getMetaValue(\"CG\");\n    var ksubsection = getMetaValue(\"SCG\");\n    var kauthor = getMetaValue(\"author\");\n    var kfacebstring = \"AUTHOR=\" + kauthor + \"&GEO_REF=\" + kgeoref + \"&SECTION=\" + ksection + \"&SUBSECTION=\" + ksubsection + \"&URL=www.nytimes.com\" + kurl;\n\n    NYTD.jQuery(\".shareToolsItemFacebook\").on('click', function () {\n        var scriptTag = document.createElement(\"script\");\n        scriptTag.src = 'http://beacon.krxd.net/event.gif?event_id=HudKM7Cc&event_type=clk&pub_id=79816aa8-435a-471a-be83-4b3e0946daf2&' + kfacebstring; \n        var firstScript = document.getElementsByTagName(\"script\")[0];\n        firstScript.parentNode.insertBefore(scriptTag, firstScript);\n    });    \n});\n<\/script>\n";
+adxpos_Inv2 = 1;
+
+adxads[2] = "<!-- ADXINFO classification=\"blank-but-count-imps\" campaign=\"KRUX_DIGITAL_CONTROL_SCRIPT_LIVE_DEFAULT\" priority=\"1002\" isInlineSafe=\"N\" width=\"1\" height=\"1\" --><!-- BEGIN Krux Controltag -->\n<script class=\"kxct\" data-id=\"HrUwtkcl\" data-version=\"async:1.7\" type=\"text/javascript\">\n  window.Krux||((Krux=function(){Krux.q.push(arguments)}).q=[]);\n  (function(){\n    var k=document.createElement('script');k.type='text/javascript';k.async=true;var m,src=(m=location.href.match(/\\bkxsrc=([^&]+)\\b/))&&decodeURIComponent(m[1]);\n    k.src=src||(location.protocol==='https:'?'https:':'http:')+'//cdn.krxd.net/controltag?confid=HrUwtkcl';\n    var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(k,s);\n  })();\n<\/script>\n<!-- END Krux Controltag -->";
+adxpos_Inv3 = 2;
+
+adxads[3] = "<!-- ADXINFO classification=\"Big_Ad_-_Standard\" campaign=\"Bedlam_and_St_Joan_1904692-nyt10\" priority=\"4000\" isInlineSafe=\"N\" width=\"300\" height=\"250\" --><div align=\"center\"><script src=\"http://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=8437009&PluID=0&w=300&h=250&ord=2013.11.30.22.41.21&ucm=true&ifl=$$/ads/eyeblaster/addineyeV2.html$$&z=1\"><\/script>\n</div>";
+adxpos_MiddleRight = 3;
+adxsetup_done = true;

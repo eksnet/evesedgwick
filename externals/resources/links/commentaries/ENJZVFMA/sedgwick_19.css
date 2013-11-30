@@ -1,0 +1,45 @@
+
+/* ::::: null ::::: */
+
+a { color: rgb(0, 0, 255); }
+body, table, div, ul, li { margin: 0px; padding: 0px; }
+body { background-color: transparent; font-family: verdana,arial,sans-serif; }
+
+/* ::::: null ::::: */
+
+#adunit { background-color: rgb(255, 255, 255); height: 60px; width: 468px; }
+#ads { height: 60px; left: 0px; position: absolute; top: 0px; width: 468px; }
+#ads ul { list-style: none outside none; }
+#ads ul li { clear: both; float: left; line-height: 0; overflow: hidden; position: relative; }
+#ads table { border-collapse: collapse; border-spacing: 0px; }
+.separator { border-bottom: 1px solid rgb(216, 216, 216); }
+.rhtitle { color: rgb(0, 0, 255); text-decoration: none; word-wrap: break-word; }
+.rhtitle:hover { text-decoration: underline; }
+.rhbody { color: rgb(0, 0, 0); word-wrap: break-word; }
+.rhurlctr { cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rhurl { text-decoration: none; }
+.rhurl span { color: rgb(60, 176, 60); }
+#ads ul li { height: 60px; width: 468px; }
+.rh { display: inline-block; font-size: 0px; line-height: 0; overflow: hidden; padding: 1px 8px; width: 452px; }
+.rh > table { height: 100%; }
+.rh-body { display: inline-block; font-size: 11px; line-height: 13px; overflow: hidden; padding: 0px; }
+.rh-bodyc { padding: 0px; vertical-align: top; }
+.rh-title { display: inline-block; font-size: 18px; line-height: 22px; overflow: hidden; padding: 0px; white-space: nowrap; }
+.rh-titlec { padding: 0px; }
+.rh-url { display: inline-block; font-size: 11px; line-height: 15px; overflow: hidden; padding: 2px 0px; white-space: nowrap; }
+.rh-urlc { padding: 0px; }
+.rh1 { display: inline-block; font-size: 0px; line-height: 0; overflow: hidden; padding: 0px; }
+.rh1 > table { width: 100%; }
+.rh1c { padding: 0px; vertical-align: top; }
+.rh2 { display: inline-block; overflow: hidden; padding: 0px; width: 2px; }
+.rh2c { padding: 0px; width: 2px; }
+
+/* ::::: null ::::: */
+
+div, ul, li { margin: 0px; padding: 0px; }
+#abgc { height: 15px; position: absolute; right: 0px; text-rendering: geometricprecision; top: 0px; width: 15px; z-index: 9010; }
+#abgb { height: 100%; }
+#abgc img { display: block; }
+#abgc svg { display: block; }
+#abgs { display: none; height: 100%; }
+#abgl { text-decoration: none; }

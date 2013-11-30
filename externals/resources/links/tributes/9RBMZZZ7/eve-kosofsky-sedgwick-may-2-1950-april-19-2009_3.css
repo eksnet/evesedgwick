@@ -1,0 +1,42 @@
+
+/* ::::: null ::::: */
+
+html, body, div, .h3, a { font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0px; padding: 0px; text-decoration: inherit; }
+html { height: 100%; }
+body { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); font: 12px/1.5 Verdana; text-align: center; }
+a:link, a:visited { color: rgb(51, 102, 204); text-decoration: underline; }
+body a:hover, a:active { text-decoration: underline; }
+#widgets { background: none repeat scroll 0% 0% rgb(255, 255, 255); height: 100%; position: static; text-align: left; width: 100%; }
+.pane { background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0.5em 0px; }
+#widgets a { text-decoration: none; }
+.pane .h3 { color: rgb(122, 119, 100); background: none repeat scroll 0% 0% rgb(255, 255, 255); font: 22px/1.5 Georgia; margin-bottom: 6px; padding: 0px; text-align: left; }
+.tabs { padding: 0px; position: relative; width: 340px; }
+.tabs h3 { margin: 5px; }
+#discuss .d1 { margin: 0.5em 0px; padding: 0px 7px; }
+#discuss .n4 { color: rgb(153, 153, 153); font-weight: bold; }
+#discuss .h { display: block; color: rgb(102, 102, 102); font-family: Georgia; font-size: 18px; line-height: 1.2; margin: 2px 0px; }
+#discuss .c { color: rgb(255, 102, 0); }
+.autos .h3 { color: rgb(130, 78, 27); }
+.b2b .h3 { color: rgb(125, 92, 18); }
+.careers .h3 { color: rgb(92, 98, 179); }
+.citiestowns .h3 { color: rgb(196, 140, 0); }
+.compute .h3 { color: rgb(36, 127, 202); }
+.education .h3 { color: rgb(66, 130, 87); }
+.entertainment .h3 { color: rgb(215, 47, 25); }
+.espanol .h3 { color: rgb(229, 98, 27); }
+.health .h3 { color: rgb(44, 154, 165); }
+.homegarden .h3 { color: rgb(109, 129, 7); }
+.food .h3 { color: rgb(235, 126, 3); }
+.gadgets .h3 { color: rgb(126, 138, 142); }
+.hobbies .h3 { color: rgb(162, 45, 123); }
+.money .h3 { color: rgb(63, 99, 179); }
+.newsissues .h3 { color: rgb(126, 118, 100); }
+.parenting .h3 { color: rgb(0, 138, 196); }
+.people .h3 { color: rgb(157, 58, 50); }
+.pets .h3 { color: rgb(175, 151, 0); }
+.religion .h3 { color: rgb(122, 84, 158); }
+.shopping .h3 { color: rgb(168, 64, 32); }
+.sports .h3 { color: rgb(42, 117, 128); }
+.style .h3 { color: rgb(206, 82, 132); }
+.travel .h3 { color: rgb(59, 131, 23); }
+.videogames .h3 { color: rgb(0, 154, 141); }

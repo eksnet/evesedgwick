@@ -1,0 +1,866 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.theawl.com/2013/05/eve-sedgwick-after-death">
+<meta name="wpd_url" content="http://fast.dm.demdex.net/dest2.html?targus=1&amp;targusvalidttl=14400&amp;bizo=1&amp;bizovalidttl=14400&amp;nexac=1&amp;nexacvalidttl=14400&amp;addthis=1&amp;addthisvalidttl=14400&amp;dtlgx=1&amp;dtlgxvalidttl=20160&amp;tapad=1&amp;tapadvalidttl=1440&amp;gbm=1&amp;gbmvalidttl=20160#http%3A%2F%2Fwww.theawl.com%2F2013%2F05%2Feve-sedgwick-after-death">
+<meta name="wpd_date" content="2013-10-30T22:38Z">
+
+
+<title>Adobe AudienceManager</title>
+<script type="text/javascript">
+
+	var n = null, img = "img", iframe = "iframe", js = "js";
+    var Demdex={version:"4.4",dest:"2", //DO NOT change the format of this line
+		DEMDEX_NET : ".demdex.net",
+		SIX_MONTHS_IN_MINUTES : 259200,
+		_keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
+		cbmacros : [ "%timestamp%", "%rnd%", "%did%", "%http_proto%" ],
+		utl : {},
+		segs : [],
+		segdefs : [],
+		blown : [],
+		dexlc : "",
+		procd : {
+			js : [],
+			img : [],
+			iframe : [],
+			unknown : []
+		},
+		demdexSubmit : function(aStr) {
+			var img = new Image(0, 0);
+			img.onload = function() {
+			}
+			img.src = aStr
+		},
+		isTargetable : function() {
+			var retval = true;
+			var ck = Demdex.getCookie('demdex');
+			var dlc = Demdex.getCookie('DexLifeCycle');
+			if (ck && ck.match(/dv2:jY0wRKU\/M28\/lvlLHbINBA==/)) {
+				retval = false;
+			}
+			if (dlc && dlc.match(/^NOTARGET/)) {
+				retval = false;
+			}
+			return retval;
+		},
+		callOut : function(obj, map) {
+			if (this.canSetCookie()) {
+				var cookiePresent = false, dataPresent = false, dataValid = false, ck = this
+						.getCookie("dextp"), data = [], providerCode = obj.providerCode, ttl = map[providerCode
+						+ 'validttl'];
+
+				var did = this.getCookie("demdex");
+				if (!did)
+					return;
+
+				if (did.match(/^DID:/) || did.match(/^NOTARGET:/))
+					return;
+
+				if (ck) {
+					cookiePresent = true;
+					data = ck.split("|");
+					var tinfo = "";
+					for ( var i = 0; i < data.length; i++) {
+						tinfo = data[i];
+						if (tinfo.match("^" + providerCode + "-")) {
+							dataPresent = true;
+							var parts = tinfo.split("-");
+							var tstamp = parts[1];
+							var d = new Date();
+							var now = new Date();
+							d.setTime(tstamp);
+
+							if ((now - d.getTime()) < (ttl * 1000 * 60))
+								dataValid = true;
+							else
+								data.splice(i, 1);
+							break;
+						}
+					}
+				}
+
+				if (!(cookiePresent && dataPresent && dataValid)) {
+					var srcs = obj.srcs, j = srcs.length;
+
+					while (j--) {
+						//explode macros
+						for ( var i = 0; i < this.cbmacros.length; i++) {
+							var _m = this.cbmacros[i];
+							srcs[j] = srcs[j].replace(new RegExp(_m, 'gi'),
+									this.replaceMacro(_m));
+						}
+					}
+
+					if (obj.t == "img") {
+						var protocol = document.location.protocol == 'https:' ? 'https:'
+								: 'http:', imgs = [], srcs = obj.srcs, j = srcs.length;
+
+						while (j--) {
+							imgs[j] = new Image(0, 0);
+							imgs[j].onload = imgs[j].onerror = imgs[j].onabort = function() {
+							}
+							imgs[j].src = protocol + srcs[j];
+						}
+					} else if (obj.t == "js") {
+						var protocol = document.location.protocol == 'https:' ? 'https:'
+								: 'http:', scripts = [], srcs = obj.srcs, j = srcs.length;
+						while (j--) {
+							scripts[j] = document.createElement('script');
+							scripts[j].type = 'text/javascript';
+							scripts[j].src = srcs[j];
+							var _h = document.getElementsByTagName('script')[0];
+							_h.parentNode.insertBefore(scripts[j], _h);
+						}
+					}
+				}
+				if (!cookiePresent) {
+					this.setCookie("dextp", providerCode + "-"
+							+ (new Date()).getTime(), 8640000, "/",
+							".demdex.net", false);
+				} else if ((!dataPresent) || (!dataValid)) {
+					data.push(providerCode + "-" + (new Date()).getTime());
+					this.setCookie("dextp", data.join("|"), 8640000, "/",
+							".demdex.net", false);
+				}
+
+			}
+		},
+		nexacdpm : function(ttl) {
+			if (!this.getCookie("nexac") && this.canSetCookie()) {
+				var iframe = document.createElement('IFRAME');
+				iframe.setAttribute("style", "display:none");
+				iframe.setAttribute("width", "0");
+				iframe.setAttribute("height", "0");
+				iframe.setAttribute("id", "dlciframe");
+				iframe
+						.setAttribute(
+								'src',
+								document.location.protocol
+										+ "//r.nexac.com/e/getdata.xgi?dt=br&pkey=cmet59prscq84&ru="
+										+ encodeURIComponent(document.location.protocol
+												+ "//nexac.demdex.net/nexac.html?na_da:<na_da>"));
+				document.body.appendChild(iframe);
+				this.setCookie('nexac', '1', ttl, "/", '.demdex.net', false);
+			}
+
+		},
+		bizodpm : function(ttl) {
+			if (!this.getCookie("bizo") && this.canSetCookie()) {
+				this.utl['bizovalidttl'] = ttl;
+				var script = document.createElement("script");
+				script.type = "text/javascript";
+				if ("https:" == document.location.protocol) {
+					script
+							.setAttribute(
+									"src",
+									"https://api.bizographics.com/v1/profile.json?api_key=6332f8b7316a4d1284e9c1217a367347&callback=Demdex.parseBizo");
+				} else {
+					script
+							.setAttribute(
+									"src",
+									"http://api.bizographics.com/v1/profile.json?api_key=6332f8b7316a4d1284e9c1217a367347&callback=Demdex.parseBizo");
+				}
+				script.onload = script.onreadystatechange = function() {
+				};
+				var _h = document.getElementsByTagName('script')[0];
+				_h.parentNode.insertBefore(script, _h);
+			}
+
+		},
+		replaceMacro : function(macro) {
+			var cookie;
+
+			if (macro == "%rnd%" || macro == "%timestamp%") {
+				return "" + (new Date()).getTime();
+			}
+			if (macro == "%did%") {
+				cookie = this.getCookie('demdex');
+				if (cookie) {
+					return cookie.replace(/==/g, '').replace(/:/, '-');
+				}
+			}
+			if (macro == "%http_proto%") {
+				return (document.location.protocol == 'https:' ? 'https'
+						: 'http');
+			}
+
+			return macro;
+		},
+		canSetCookie : function() {
+			var csc = false;
+			if (navigator.cookieEnabled) {
+				var ck = this.getCookie("demdex");
+				if (!ck) {
+					this.setCookie("_dp", "1", 1, "/", this.DEMDEX_NET, false);
+					ck = this.getCookie("_dp");
+				}
+				if (ck)
+					csc = true;
+			}
+			return csc;
+		},
+		parseBizo : function(json) {
+			try {
+				var ttl = Demdex.utl['bizovalidttl'];
+				var vstr = "";
+				bg = json.bizographics;
+				if (bg.company_size) {
+					vstr += "company_size=" + bg.company_size.code;
+				}
+				if (bg.seniority) {
+					vstr += "&seniority=" + bg.seniority.code;
+				}
+				if (bg.location) {
+					vstr += "&location=" + bg.location.code;
+				}
+				if (bg.education) {
+					vstr += "&education=" + bg.education.code;
+				}
+				if (bg.gender) {
+					vstr += "&gender=" + bg.gender.code;
+				}
+				if (bg.group) {
+					vstr += "&group=" + bg.group.code;
+				}
+				if (bg.functional_area) {
+					if (bg.functional_area.length != null) {
+						for (i = 0; i < bg.functional_area.length; i++) {
+							vstr += "&functional_area="
+									+ bg.functional_area[i].code;
+						}
+					} else {
+						vstr += "&functional_area=" + bg.functional_area.code;
+					}
+				}
+				//industry -multivalued
+				if (bg.industry) {
+					if (bg.industry.length != null) {
+						for (i = 0; i < bg.industry.length; i++) {
+							vstr += "&industry=" + bg.industry[i].code;
+						}
+					} else {
+						vstr += "&industry=" + bg.industry.code;
+					}
+				}
+
+				this.setCookie("bizo", "1", ttl, "/", this.DEMDEX_NET, false);
+				if (vstr != "")
+					this
+							.demdexSubmit(document.location.protocol
+									+ "//dpm.demdex.net/demdot.jpg?et:dpm|dpid:22|data:"
+									+ vstr);
+			} catch (Err) {
+			}
+
+		},
+		// public method for encoding
+		encode : function(input) {
+			var output = "";
+			var chr1, chr2, chr3, enc1, enc2, enc3, enc4;
+			var i = 0;
+
+			input = Demdex._utf8_encode(input);
+
+			while (i < input.length) {
+
+				chr1 = input.charCodeAt(i++);
+				chr2 = input.charCodeAt(i++);
+				chr3 = input.charCodeAt(i++);
+
+				enc1 = chr1 >> 2;
+				enc2 = ((chr1 & 3) << 4) | (chr2 >> 4);
+				enc3 = ((chr2 & 15) << 2) | (chr3 >> 6);
+				enc4 = chr3 & 63;
+
+				if (isNaN(chr2)) {
+					enc3 = enc4 = 64;
+				} else if (isNaN(chr3)) {
+					enc4 = 64;
+				}
+
+				output = output + this._keyStr.charAt(enc1)
+						+ this._keyStr.charAt(enc2) + this._keyStr.charAt(enc3)
+						+ this._keyStr.charAt(enc4);
+
+			}
+
+			return output;
+		},
+
+		// public method for decoding
+		decode64 : function(input) {
+			var output = "";
+			var chr1, chr2, chr3;
+			var enc1, enc2, enc3, enc4;
+			var i = 0;
+
+			input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+
+			while (i < input.length) {
+
+				enc1 = this._keyStr.indexOf(input.charAt(i++));
+				enc2 = this._keyStr.indexOf(input.charAt(i++));
+				enc3 = this._keyStr.indexOf(input.charAt(i++));
+				enc4 = this._keyStr.indexOf(input.charAt(i++));
+
+				chr1 = (enc1 << 2) | (enc2 >> 4);
+				chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+				chr3 = ((enc3 & 3) << 6) | enc4;
+
+				output = output + String.fromCharCode(chr1);
+
+				if (enc3 != 64) {
+					output = output + String.fromCharCode(chr2);
+				}
+				if (enc4 != 64) {
+					output = output + String.fromCharCode(chr3);
+				}
+
+			}
+
+			output = Demdex._utf8_decode(output);
+
+			return output;
+
+		},
+
+		// private method for UTF-8 encoding
+		_utf8_encode : function(string) {
+			string = string.replace(/\r\n/g, "\n");
+			var utftext = "";
+
+			for ( var n = 0; n < string.length; n++) {
+
+				var c = string.charCodeAt(n);
+
+				if (c < 128) {
+					utftext += String.fromCharCode(c);
+				} else if ((c > 127) && (c < 2048)) {
+					utftext += String.fromCharCode((c >> 6) | 192);
+					utftext += String.fromCharCode((c & 63) | 128);
+				} else {
+					utftext += String.fromCharCode((c >> 12) | 224);
+					utftext += String.fromCharCode(((c >> 6) & 63) | 128);
+					utftext += String.fromCharCode((c & 63) | 128);
+				}
+
+			}
+
+			return utftext;
+		},
+
+		// private method for UTF-8 decoding
+		_utf8_decode : function(utftext) {
+			var string = "";
+			var i = 0;
+			var c = c1 = c2 = 0;
+
+			while (i < utftext.length) {
+
+				c = utftext.charCodeAt(i);
+
+				if (c < 128) {
+					string += String.fromCharCode(c);
+					i++;
+				} else if ((c > 191) && (c < 224)) {
+					c2 = utftext.charCodeAt(i + 1);
+					string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+					i += 2;
+				} else {
+					c2 = utftext.charCodeAt(i + 1);
+					c3 = utftext.charCodeAt(i + 2);
+					string += String.fromCharCode(((c & 15) << 12)
+							| ((c2 & 63) << 6) | (c3 & 63));
+					i += 3;
+				}
+
+			}
+
+			return string;
+		},
+		getCookie : function(name) {
+			var sPos = document.cookie.indexOf(name + "=");
+			var len = sPos + name.length + 1;
+			if ((!sPos) && (name != document.cookie.substring(0, name.length))) {
+				return null;
+			}
+			if (sPos == -1) {
+				return null;
+			}
+			var ePos = document.cookie.indexOf(';', len);
+			if (ePos == -1)
+				ePos = document.cookie.length;
+			return unescape(document.cookie.substring(len, ePos));
+		},
+
+		setCookie : function(name, value, expires, path, domain, secure) {
+			var today = new Date();
+			if (expires) {
+				expires = expires * 1000 * 60;
+			}
+			document.cookie = name
+					+ '='
+					+ value
+					+ ((expires) ? ';expires='
+							+ new Date(today.getTime() + expires).toUTCString()
+							: '') + ((path) ? ';path=' + path : '')
+					+ ((domain) ? ';domain=' + domain : '')
+					+ ((secure) ? ';secure' : '');
+		},
+
+		setDSTJSCookie : function(id) {
+			var cookie = this.getCookie('DSTJS');
+			this.setCookie('DSTJS', (cookie ? cookie + '|' : '') + id,
+					this.SIX_MONTHS_IN_MINUTES, '/', '.demdex.net', false);
+		},
+
+		publishCode : function(ptype, code, id) {
+			if (code == null) {
+				return;
+			}
+
+			var self = this;
+
+			//explode macros
+			for ( var i = 0; i < this.cbmacros.length; i++) {
+				var _m = this.cbmacros[i];
+				code = code
+						.replace(new RegExp(_m, 'gi'), this.replaceMacro(_m));
+			}
+
+			if (ptype == "img") {
+				//pixel
+				setTimeout(
+						function() {
+							var _gmi = new Image(0, 0), handleAbortOrError = function() {
+								self.setDSTJSCookie(id);
+							};
+
+							if (_gmi.addEventListener) {
+								_gmi.addEventListener('abort',
+										handleAbortOrError, false);
+								_gmi.addEventListener('error',
+										handleAbortOrError, false);
+							} else if (_gmi.attachEvent) {
+								_gmi.attachEvent('onabort', handleAbortOrError);
+								_gmi.attachEvent('onerror', handleAbortOrError);
+							}
+
+							_gmi.src = code;
+						}, 0);
+			} else if (ptype == "js") {
+				//javascript
+				var aDiv = document.createElement("div");
+				aDiv.style.display = "none";
+				var script = document.createElement('script');
+				if (script.addEventListener) {
+					/* Works in all major browsers except Opera and IE6/7/8 */
+					script.addEventListener('error', function() {
+						self.setDSTJSCookie(id);
+					}, false);
+				}
+				script.setAttribute('type', 'text/javascript');
+				script.setAttribute('src', code);
+				aDiv.appendChild(script);
+				document.body.appendChild(aDiv);
+			} else if (ptype == "iframe") {
+				//iframe
+				var iframe = document.createElement('iframe');
+				iframe.setAttribute("style", "display:none");
+				iframe.setAttribute("width", "0");
+				iframe.setAttribute("height", "0");
+				iframe.setAttribute("id", "ddiframe");
+				iframe.setAttribute('src', code);
+				document.body.appendChild(iframe);
+			}
+
+			this.procd[ptype].push(code);
+		},
+
+		parseQueryString : function(_qs) {
+			var map = {};
+			if (_qs) {
+				_qs = _qs.substring(1);
+				var arr = _qs.split("&");
+				for ( var i = 0; i < arr.length; i++) {
+					if (arr[i].split('=').length != 2)
+						continue;
+					var srac = arr[i].split('=')[0];
+					var srval = arr[i].split('=')[1];
+					map[srac] = srval;
+				}
+			}
+			return map;
+		},
+
+		main : function() {
+			try {
+				var dlc = this.getCookie('DexLifeCycle'), _qs = document.location.search
+						.toString(), map = this.parseQueryString(_qs), callOutData, proto = document.location.protocol, did = this
+						.replaceMacro('%did%');
+
+				if (!dlc)
+					dlc = "";
+
+				if (!this.isTargetable())
+					return;
+
+				if (map['bizo']) {
+					this.bizodpm(map['bizovalidttl']);
+				} //bizo
+				if (map['nexac']) {
+					this.nexacdpm(map['nexacvalidttl']);
+				} //DLX
+				if (map['targus']) {
+					callOutData = {
+						t : 'js',
+						providerCode : 'targus',
+						srcs : [ '//adadvisor.net/adscores/g.json?sid=9233633946' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['is_mediamath']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'mm',
+						srcs : [ '//sync.mathtag.com/sync/img?mt_exid=10004&mt_exuid='
+								+ did
+								+ '&redir='
+								+ proto
+								+ '%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D269%26dpuuid%3D[MM_UUID]%26ddsuuid%3d'
+								+ did ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['is_invitemedia']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'im',
+						srcs : [
+								'//va.px.invitemedia.com/set_partner_uid?partnerID=48&partnerUID='
+										+ did + '&sscs_active=1',
+								'//dpm.demdex.net/ibs:dpid=282&ddsuuid=' + did,
+								'//eu.px.invitemedia.com/set_partner_uid?partnerID=48&partnerUID='
+										+ did + '&sscs_active=1' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['is_exelate']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'ex',
+						srcs : [ '//loadm.exelator.com/load/?p=204&g=091&j=0&bi='
+								+ did ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['is_tg']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'tg',
+						srcs : [ '//adadvisor.net/adscores/g.pixel?sid=9211132908&aam=%DID%' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['turn']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'turn',
+						srcs : [ '//r.turn.com/r/du/id/L2NzaWQvMS9zcGlkLzU/url/%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D375%26dpuuid%3DPARTNER_UUID' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['qc']) {
+					callOutData = {
+						t : 'js',
+						providerCode : 'qc',
+						srcs : [ '//pixel.quantserve.com/api/segments.json?a='
+								+ map['qcaid'] + '&callback=Demdex.parseQC' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['dx']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'dx',
+						srcs : [ '//i.w55c.net/ping_match.gif?st=dmx&rurl=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D359%26dpuuid%3D_wfivefivec_' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['acx']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'acx',
+						srcs : [ '//p.acxiom-online.com/pixel/rci?pid=3017&uid=%DID%&redir=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D60%26dpuuid%3D%23COOKIEID%23' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['addthis']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'addthis',
+						srcs : [ '//su.addthis.com/red/usync?pid=16&puid=%DID%&url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D420%26dpuuid%3D%7B%7Buid%7D%7D' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['rubicon']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'rubicon',
+						srcs : [ "//tap.rubiconproject.com/oz/feeds/adobe/tokens?afu=%DID%" ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['ef']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'ef',
+						srcs : [ '//pixel.everesttech.net/0/gr?url=%HTTP_PROTO%%3A//dpm.demdex.net/ibs%3Adpid%3D411%26dpuuid%3D__EFGCK__%7C__EFGSURFER__' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['apnx']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'apnx',
+						srcs : [ '//ib.adnxs.com/getuid?%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D358%26dpuuid%3D%24UID' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['alaol']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'alaol',
+						srcs : [ '//tacoda.at.atwola.com/atx/sync/demdex/%DID%/defaut' ]
+					};
+					this.callOut(callOutData, map);
+				}
+				if (map['vid']) {
+					callOutData = {
+						t : 'img',
+						providerCode : 'vid',
+						srcs : [ '//sync.tidaltv.com/GenericUserSync.ashx?dpid=38noredirect' ]
+					};
+					this.callOut(callOutData, map);
+				}
+                if (map['tapad']) {
+                    callOutData = {
+                        t : 'img',
+                        providerCode : 'tapad',
+                        srcs : [ '//pixel.tapad.com/idsync/ex/receive?partner_id=ADB&partner_url=%HTTP_PROTO%%3A%2F%2Fdpm.demdex.net%2Fibs%3Adpid%3D540%26dpuuid%3D%24%7BTA_DEVICE_ID%7D&partner_device_id=%DID%' ]
+                    };
+                    this.callOut(callOutData, map);
+                }
+                if (map['twtr']) {
+                    callOutData = {
+                        t : 'img',
+                        providerCode : 'twtr',
+                        srcs : [ '//analytics.twitter.com/i/adsct?p_user_id=%DID%&p_id=38594' ]
+                    };
+                    this.callOut(callOutData, map);
+                }
+            } catch (__Err__) {
+				new Image().src = (document.location.protocol == "https:" ? "https://"
+						: "http://")
+						+ 'error.demdex.net/event?d_nsid=0&d_ld=message%3D'
+						+ encodeURIComponent(__Err__.message)
+						+ '%26url%3D'
+						+ encodeURIComponent(document.location.href)
+						+ '%26_ts%3D1334598077703';
+			}
+		},
+		parseQC : function(json) {
+			try {
+				var data = [], segs = json.segments, i, l;
+
+				for (i = 0, l = segs.length; i < l; i++) {
+					data.push('qcseg=' + segs[i].id);
+				}
+
+				if (data.length) {
+					new Image().src = document.location.protocol
+							+ '//dpm.demdex.net/demdot.jpg?et:dpm|dpid:19|data:'
+							+ data.join('&');
+				}
+			} catch (__Err__) {
+				new Image().src = (document.location.protocol == "https:" ? "https://"
+						: "http://")
+						+ 'error.demdex.net/event?d_nsid=0&d_ld=message%3D'
+						+ encodeURIComponent('Error in Demdex.parseQC callback:'
+								+ __Err__.message)
+						+ '%26url%3D'
+						+ encodeURIComponent(document.location.href)
+						+ '%26_ts%3D1334598077703';
+			}
+		},
+		/* 
+		 * a backwards compatable implementation of postMessage
+		 * by Josh Fraser (joshfraser.com)
+		 * released under the Apache 2.0 license.  
+		 *
+		 * this code was adapted from Ben Alman's jQuery postMessage code found at:
+		 * http://benalman.com/projects/jquery-postmessage-plugin/
+		 * 
+		 * other inspiration was taken from Luke Shepard's code for Facebook Connect:
+		 * http://github.com/facebook/connect-js/blob/master/src/core/xd.js
+		 *
+		 * the goal of this project was to make a backwards compatable version of postMessage
+		 * without having any dependency on jQuery or the FB Connect libraries
+		 *
+		 * my goal was to keep this as terse as possible since my own purpose was to use this 
+		 * as part of a distributed widget where filesize could be sensative.
+		 * 
+		 */
+
+		// everything is wrapped in the XD function to reduce namespace collisions
+		xd : (function() {
+			var TIME_LIMIT = 30000, INTERVAL = 5, interval_id, time = 0, last_hash, cache_bust = 1, attached_callback;
+			//			window = this;
+
+			return {
+				postMessage : function(message, target_url, target) {
+
+					if (!target_url) {
+						return;
+					}
+
+					target = target || parent; // default to parent
+
+					if (window['postMessage']) {
+						// the browser supports window.postMessage, so call it with a targetOrigin
+						// set appropriately, based on the target_url parameter.
+						target['postMessage'](message, target_url.replace(
+								/([^:]+:\/\/[^\/]+).*/, '$1'));
+
+					} else if (target_url) {
+						// the browser does not support window.postMessage, so set the location
+						// of the target to target_url#message. A bit ugly, but it works! A cache
+						// bust parameter is added to ensure that repeat messages trigger the callback.
+						target.location = target_url.replace(/#.*$/, '') + '#'
+								+ (+new Date) + (cache_bust++) + '&' + message;
+					}
+				},
+
+				receiveMessage : function(callback, source_origin) {
+					// browser supports window.postMessage
+					if (window['postMessage']) {
+						// bind the callback to the actual event associated with window.postMessage
+						if (callback) {
+							attached_callback = function(e) {
+								if ((typeof source_origin === 'string' && e.origin !== source_origin)
+										|| (Object.prototype.toString
+												.call(source_origin) === "[object Function]" && source_origin(e.origin) === !1)) {
+									//|| (source_origin.toString() === "[object Function]" && source_origin(e.origin) === !1)) {
+									return !1;
+								}
+								callback(e);
+							};
+						}
+						if (window['addEventListener']) {
+							window[callback ? 'addEventListener'
+									: 'removeEventListener']('message',
+									attached_callback, !1);
+						} else {
+							window[callback ? 'attachEvent' : 'detachEvent'](
+									'onmessage', attached_callback);
+						}
+					} else {
+						// a polling loop is started & callback is called whenever the location.hash changes
+						interval_id && clearInterval(interval_id);
+						interval_id = null;
+						time = 0;
+
+						if (callback) {
+							interval_id = setInterval(
+									function() {
+										if (time >= TIME_LIMIT) {
+											clearInterval(interval_id);
+										}
+										var hash = document.location.hash, re = /^#?\d+&/;
+										if (hash !== last_hash && re.test(hash)) {
+											last_hash = hash;
+											callback({
+												data : hash.replace(re, '')
+											});
+										}
+										time += INTERVAL;
+									}, INTERVAL);
+						}
+					}
+				}
+			};
+		})(),
+
+		onMessage : function(message) {
+			if (message.indexOf('-->jasmine<--') == 0) {
+				alert(message);
+				return;
+			}
+
+			try {
+				var m = message.split('|'), f = decodeURIComponent, id = f(m[0]), y = f(m[1]), c = f(m[2]);
+
+				Demdex.publishCode(y, c, id);
+			}
+			catch (__err__) {}
+		}
+	};
+
+	var Targus = {
+		parseInfo : function(json) {
+			try {
+				var strList = [], age = '', year, dobms, str;
+
+				for (key in json.targus) {
+					if ((key == "segment") || (key == "gender")) {
+						strList.push(key + "=" + json.targus[key]);
+					}
+
+					if (key == 'age') {
+						year = json.targus[key] || '';
+
+						if (year != '') {
+							dobms = Date.parse('01/01/' + year);
+							if (!isNaN(dobms)) {
+								age = parseInt(
+										(new Date().getTime() - dobms) / 31536000000,
+										10);
+							}
+						}
+
+						strList.push(key + '=' + age);
+					}
+				}
+
+				str = strList.join("&");
+				str = str.replace(/segment=/i, 'seg=').replace(/gender=/i,
+						'gen=');
+
+				var img = new Image(0, 0);
+				img.src = "//dpm.demdex.net/demdot.jpg?et:dpm|dpid:21|data:" + str.toLowerCase();
+			} catch (Err) {
+			}
+		}
+	};
+
+	(function() {
+		var origin = decodeURIComponent(
+				document.location.hash.replace(/^#/, '')).split('/');
+		Demdex.xd.demdexOrigin = origin[0] + '//' + origin[2];
+	})();
+
+	Demdex.xd.receiveMessage(function(message) {
+		Demdex.onMessage(message.data);
+	}, Demdex.xd.demdexOrigin);
+</script>
+
+</head>
+<body onload="setTimeout('Demdex.main()', 100);">
+
+</body>
+</html>

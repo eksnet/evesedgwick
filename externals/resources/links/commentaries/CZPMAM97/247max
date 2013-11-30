@@ -1,0 +1,4 @@
+
+var rp_account   = '10524';var rp_site      = '23459';var rp_zonesize  = '86569-2';var rp_adtype    = 'js';var rp_smartfile = '[SMART FILE URL]';
+document.write('<scr'+'ipt type="text/javascript" src="http://ads.rubiconproject.com/ad/10524.js"></scr'+'ipt>');
+// server: T8 - EAST site: theawl channel: ros size: 728x90 network: 247max tag_hash: theawl_ros_728x90_rt1_default via: memcache

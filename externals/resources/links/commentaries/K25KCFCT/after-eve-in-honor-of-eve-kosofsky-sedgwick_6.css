@@ -1,0 +1,251 @@
+
+/* ::::: http://s0.wp.com//i/noticons/noticons.css?ver=20131104 ::::: */
+
+.noticon { display: inline-block; width: 16px; height: 16px; -moz-osx-font-smoothing: grayscale; font-size: 16px; line-height: 1; font-family: 'Noticons'; text-decoration: inherit; font-weight: normal; font-style: normal; vertical-align: top; text-align: center; }
+.noticon {  }
+.noticon-standard:before { content: "?"; }
+.noticon-aside:before { content: "?"; }
+.noticon-image:before { content: "?"; }
+.noticon-gallery:before { content: "?"; }
+.noticon-video:before { content: "?"; }
+.noticon-status:before { content: "?"; }
+.noticon-quote:before { content: "?"; }
+.noticon-link:before { content: "?"; }
+.noticon-chat:before { content: "?"; }
+.noticon-audio:before { content: "?"; }
+.noticon-github:before { content: "?"; }
+.noticon-dribbble:before { content: "?"; }
+.noticon-twitter:before { content: "?"; }
+.noticon-facebook:before { content: "?"; }
+.noticon-facebook-alt:before { content: "?"; }
+.noticon-wordpress:before { content: "?"; }
+.noticon-googleplus:before { content: "?"; }
+.noticon-linkedin:before { content: "?"; }
+.noticon-linkedin-alt:before { content: "?"; }
+.noticon-pinterest:before { content: "?"; }
+.noticon-pinterest-alt:before { content: "?"; }
+.noticon-flickr:before { content: "?"; }
+.noticon-vimeo:before { content: "?"; }
+.noticon-youtube:before { content: "?"; }
+.noticon-tumblr:before { content: "?"; }
+.noticon-instagram:before { content: "?"; }
+.noticon-codepen:before { content: "?"; }
+.noticon-polldaddy:before { content: "?"; }
+.noticon-googleplus-alt:before { content: "?"; }
+.noticon-path:before { content: "?"; }
+.noticon-skype:before { content: "?"; }
+.noticon-digg:before { content: "?"; }
+.noticon-reddit:before { content: "?"; }
+.noticon-stumbleupon:before { content: "?"; }
+.noticon-pocket:before { content: "?"; }
+.noticon-dropbox:before { content: "?"; }
+.noticon-comment:before { content: "?"; }
+.noticon-category:before { content: "?"; }
+.noticon-tag:before { content: "?"; }
+.noticon-time:before { content: "?"; }
+.noticon-user:before { content: "?"; }
+.noticon-day:before { content: "?"; }
+.noticon-week:before { content: "?"; }
+.noticon-month:before { content: "?"; }
+.noticon-pinned:before { content: "?"; }
+.noticon-search:before { content: "?"; }
+.noticon-unzoom:before { content: "?"; }
+.noticon-zoom:before { content: "?"; }
+.noticon-show:before { content: "?"; }
+.noticon-hide:before { content: "?"; }
+.noticon-close:before { content: "?"; }
+.noticon-close-alt:before { content: "?"; }
+.noticon-trash:before { content: "?"; }
+.noticon-star:before { content: "?"; }
+.noticon-home:before { content: "?"; }
+.noticon-mail:before { content: "?"; }
+.noticon-edit:before { content: "?"; }
+.noticon-reply:before { content: "?"; }
+.noticon-feed:before { content: "?"; }
+.noticon-warning:before { content: "?"; }
+.noticon-share:before { content: "?"; }
+.noticon-attachment:before { content: "?"; }
+.noticon-location:before { content: "?"; }
+.noticon-checkmark:before { content: "?"; }
+.noticon-menu:before { content: "?"; }
+.noticon-refresh:before { content: "?"; }
+.noticon-minimize:before { content: "?"; }
+.noticon-maximize:before { content: "?"; }
+.noticon-404:before { content: "?"; }
+.noticon-spam:before { content: "?"; }
+.noticon-summary:before { content: "?"; }
+.noticon-cloud:before { content: "?"; }
+.noticon-key:before { content: "?"; }
+.noticon-dot:before { content: "?"; }
+.noticon-next:before { content: "?"; }
+.noticon-previous:before { content: "?"; }
+.noticon-expand:before { content: "?"; }
+.noticon-collapse:before { content: "?"; }
+.noticon-dropdown:before { content: "?"; }
+.noticon-dropdown-left:before { content: "?"; }
+.noticon-top:before { content: "?"; }
+.noticon-draggable:before { content: "?"; }
+.noticon-phone:before { content: "?"; }
+.noticon-send-to-phone:before { content: "?"; }
+.noticon-plugin:before { content: "?"; }
+.noticon-cloud-download:before { content: "?"; }
+.noticon-cloud-upload:before { content: "?"; }
+.noticon-external:before { content: "?"; }
+.noticon-document:before { content: "?"; }
+.noticon-book:before { content: "?"; }
+.noticon-cog:before { content: "?"; }
+.noticon-unapprove:before { content: "?"; }
+.noticon-cart:before { content: "?"; }
+.noticon-pause:before { content: "?"; }
+.noticon-stop:before { content: "?"; }
+.noticon-skip-back:before { content: "?"; }
+.noticon-skip-ahead:before { content: "?"; }
+.noticon-play:before { content: "?"; }
+.noticon-tablet:before { content: "?"; }
+.noticon-send-to-tablet:before { content: "?"; }
+.noticon-info:before { content: "?"; }
+.noticon-notice:before { content: "?"; }
+.noticon-help:before { content: "?"; }
+.noticon-fastforward:before { content: "?"; }
+.noticon-rewind:before { content: "?"; }
+.noticon-portfolio:before { content: "?"; }
+.noticon-heart:before { content: "?"; }
+.noticon-code:before { content: "?"; }
+.noticon-subscribe:before { content: "?"; }
+.noticon-unsubscribe:before { content: "?"; }
+.noticon-subscribed:before { content: "?"; }
+.noticon-reply-alt:before { content: "?"; }
+.noticon-reply-single:before { content: "?"; }
+.noticon-flag:before { content: "?"; }
+.noticon-print:before { content: "?"; }
+.noticon-lock:before { content: "?"; }
+.noticon-bold:before { content: "?"; }
+.noticon-italic:before { content: "?"; }
+.noticon-picture:before { content: "?"; }
+.noticon-uparrow:before { content: "?"; }
+.noticon-rightarrow:before { content: "?"; }
+.noticon-downarrow:before { content: "?"; }
+.noticon-leftarrow:before { content: "?"; }
+.noticon-notification:before { content: "?"; }
+.noticon-follow:before { content: "?"; }
+.noticon-unfollow:before { content: "?"; }
+.noticon-following:before { content: "?"; }
+.noticon-trophy:before { content: "?"; }
+.noticon-reblog:before { content: "?"; }
+.noticon-milestone:before { content: "?"; }
+.noticon-compact:before { content: "?"; }
+.noticon-gridview:before { content: "?"; }
+.noticon-newpost:before { content: "?"; }
+.noticon-trapper:before { content: "?"; }
+.noticon-spike:before { content: "?"; }
+.noticon-promoted:before { content: "?"; }
+.noticon-wordads:before { content: "?"; }
+.noticon-atsign:before { content: "?"; }
+.noticon-automattic:before { content: "?"; }
+.noticon-automattic-ring:before { content: "?"; }
+.noticon-automattic-blip:before { content: "?"; }
+.noticon-bullseye:before { content: "?"; }
+.noticon-text:before { content: "?"; }
+.noticon-like:before { content: "?"; }
+.noticon-stats:before { content: "?"; }
+.noticon-wp:before { content: "?"; }
+.noticon-wpcom:before { content: "?"; }
+.noticon-alert:before { content: "?"; }
+.noticon-up:before { content: "?"; }
+.noticon-right:before { content: "?"; }
+.noticon-down:before { content: "?"; }
+.noticon-left:before { content: "?"; }
+.noticon-close-small:before { content: "?"; }
+.noticon-arrow-right:before { content: "?"; }
+.noticon-arrow-left:before { content: "?"; }
+.noticon-camera:before { content: "?"; }
+.noticon-gplus:before { content: "?"; }
+.noticon-eye:before { content: "?"; }
+.noticon-eye-cross:before { content: "?"; }
+
+/* ::::: http://widgets.wp.com/likes/style.css?ver=20131104 ::::: */
+
+ul, li { margin: 0px; padding: 0px; list-style: none outside none; border: medium none; background: none repeat scroll 0% 0% transparent; }
+html { font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-size: 12px; clear: both; }
+body { margin: 0px; width: 99%; }
+div { border-radius: 0px ! important; }
+h3 { font-size: 12px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; margin: 3px 0px; padding: 0px; text-transform: none; letter-spacing: 0px; line-height: 1; font-weight: bold; width: 15.625%; float: left; position: static; background: none repeat scroll 0% 0% transparent; border: medium none; }
+.rtl h3 { float: right; text-align: right; }
+ul, li { margin: 0px; padding: 0px; text-indent: 0px; }
+li:before { content: ""; }
+div.pd-rating { margin: 0px; min-height: 23px; }
+a, a:link, a:visited { font-style: normal; }
+.sd-block:before, .sd-block:after, ul:before, ul:after { content: " "; display: block; height: 0px; overflow: hidden; }
+.sd-block:after, ul:after { clear: both; }
+.sd-block, ul {  }
+div.sd-block { border-top: 1px solid rgba(0, 0, 0, 0.13); padding: 10px 0px 5px; margin: 0px; width: 100% ! important; }
+div.sharedaddy.sharedaddy-dark .sd-block { border-top-color: rgba(50, 50, 50, 0.5); }
+.sd-content ul { margin: 0px; }
+.sd-content li { float: left; margin: 0px 5px 5px 0px ! important; display: block; }
+a.sd-button { margin: 0px; padding: 0px; display: inline-block; background: -moz-linear-gradient(center top , rgb(247, 247, 247) 0%, rgb(239, 239, 239) 100%) repeat scroll 0% 0% transparent; border-radius: 3px; border: 1px solid rgb(221, 221, 221) ! important; box-shadow: 0px 1px 0px rgb(255, 255, 255) inset; color: rgb(0, 0, 0) ! important; text-decoration: none; line-height: 1; font-size: 12px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; font-weight: normal; }
+a.sd-button:hover { color: rgb(0, 0, 0); text-shadow: 0px 1px 0px rgb(255, 255, 255); border-color: rgb(204, 204, 204); background: -moz-linear-gradient(center top , rgb(239, 239, 239) 0%, rgb(238, 238, 238) 100%) repeat scroll 0% 0% transparent; }
+a.sd-button:active { background-color: rgb(239, 239, 239); box-shadow: 0px -1px 0px rgb(255, 255, 255) inset; border-color: rgb(221, 221, 221); }
+a.sd-button span { padding: 4px 8px; display: block; opacity: 0.8; line-height: 1.5em; text-shadow: none; }
+a.sd-button:hover span { opacity: 1; }
+.sd-button span.share-count { font-size: 90%; color: rgb(102, 102, 102); margin-left: 5px; }
+.rtl .sd-button span.share-count { margin-right: 5px; }
+.sd-social-icon-text a.sd-button span, a.sd-button span { padding: 1px 5px 1px 23px; background-position: 2px center; background-repeat: no-repeat; }
+.sd-social-icon a.sd-button span { padding: 3px; width: 16px; height: 16px; text-indent: -9999px; background-position: center center; background-repeat: no-repeat; }
+.sd-social-text a.sd-button span { background: none repeat scroll 0% 0% transparent ! important; padding-left: 5px; }
+.sd-social-official li { height: 21px; }
+.no-text { width: 21px; height: 21px; }
+.no-text a { text-decoration: none; }
+.no-icon a span, li.no-icon div a span { padding-left: 5px; background-image: none; }
+.rtl .sd-social-icon-text a.sd-button span, .rtl a.sd-button span { padding: 3px 23px 3px 5px; background-position: 98% center; }
+.rtl .sd-social-text a.sd-button span { padding-left: 0px; padding-right: 5px; }
+.rtl .no-icon a span, .rtl li.no-icon div a span { padding-left: 0px; padding-right: 5px; }
+.sd-rating .pd-rating { width: 82.125%; float: right; margin: 0px; }
+.wpl-likebox { margin-right: 0px ! important; margin-left: 0px ! important; padding-right: 0px ! important; padding-left: 0px ! important; }
+.wpl-likebox .sd-content { margin: -2px 0px 0px; }
+.wpl-button { float: left; margin: 0px 5px 0px 0px; }
+.wpl-count { line-height: 1; text-align: left; margin: 0px; font-size: 12px; clear: both; padding-top: 20px; }
+ul.wpl-avatars { overflow: hidden; display: block; height: 37px; position: absolute; left: 65px; }
+ul.wpl-avatars li { width: 32px; height: 32px; }
+ul.wpl-avatars li a { margin: 0px 2px 0px 0px; border-bottom: medium none ! important; display: block; }
+ul.wpl-avatars li a img { background: none repeat scroll 0% 0% transparent; border: medium none; margin: 0px ! important; padding: 0px ! important; position: static; }
+.wpl-button a.sd-button span { padding: 1px 5px 1px 2px; text-shadow: none; }
+.wpl-button a.sd-button span:before { color: rgb(46, 162, 204); font-family: "Noticons"; content: "?"; font-size: 16px; line-height: 0; text-shadow: 0px 1px 0px rgb(255, 255, 255); position: relative; top: 3px; }
+.wpl-button a.sd-button.liked { background: none repeat scroll 0% 0% rgb(254, 255, 206); border: 1px solid rgb(243, 227, 137); box-shadow: 0px 1px 0px rgb(255, 255, 255) inset; cursor: default; }
+.wpl-button a.sd-button.liked span { opacity: 1; }
+.rtl .wpl-button { float: right; margin: 0px 0px 0px 5px; }
+.rtl .wpl-count { text-align: right; padding-top: 5px; }
+.rtl ul.wpl-avatars, .rtl .wpl-likebox { margin: 0px 0px 0px -2px ! important; float: right; }
+.rtl ul.wpl-avatars { position: inherit; height: inherit; }
+.rtl .wpl-button a.sd-button span { padding: 3px 5px; background-position: right center; }
+#wpl-mustlogin { width: 312px; padding: 15px; position: absolute; margin-left: -120px; z-index: 1001; text-shadow: none; background-color: rgb(255, 255, 255); color: rgb(51, 51, 51); border: 1px solid rgb(204, 204, 204); border-radius: 3px; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2); }
+#wpl-mustlogin p { margin: 0px; text-shadow: none; color: rgb(51, 51, 51); }
+#wpl-mustlogin label, #wpl-mustlogin a { text-shadow: none; color: rgb(51, 51, 51); }
+#wpl-mustlogin input[type="text"], #wpl-mustlogin input[type="password"] { width: 98.5%; text-shadow: none; border: 1px solid rgb(204, 204, 204); background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(51, 51, 51); }
+#wpl-mustlogin { line-height: 14px ! important; font-size: 11px; clear: left; margin-top: 5px; background: none repeat scroll 0% 0% rgb(240, 240, 240); padding: 10px; border-radius: 3px; }
+#wpl-mustlogin a { color: rgb(136, 136, 136); text-decoration: underline; }
+#wpl-mustlogin p { margin: 5px 0px; padding: 0px; }
+#wpl-mustlogin input.input { padding: 2px; background: none repeat scroll 0% 0% rgb(255, 255, 255); font-size: 11px; font-family: inherit; border: 1px solid rgb(204, 204, 204); line-height: 12px; }
+#wpl-mustlogin input#wp-submit { border: 1px solid rgb(204, 204, 204); font-size: 11px; background: none repeat-x scroll 0% 0% rgb(250, 250, 250); border-radius: 3px; padding: 2px 4px ! important; line-height: 12px; }
+#wpl-mustlogin label { position: relative; cursor: text; }
+#wpl-mustlogin label span { position: absolute; top: 0px; left: 5px; padding: 0px ! important; }
+.wpl-slim-likebox { display: inline-block; }
+.wpl-slim-likebox .wpl-button { float: none; }
+.wpl-slim-likebox .wpl-button a.sd-button span:before { text-shadow: none; }
+.wpl-slim-likebox .wpl-button a.sd-button, .wpl-slim-likebox .wpl-button a.sd-button.liked { border: medium none ! important; box-shadow: none; background: none repeat scroll 0% 0% transparent; color: rgb(170, 170, 170) ! important; font-size: 11px; white-space: nowrap; cursor: pointer; }
+.wpl-slim-likebox .wpl-button a.sd-button.liked { background: none repeat scroll 0% 0% rgb(48, 48, 48); border-radius: 2px; }
+.wpl-slim-likebox { display: inline-block; width: auto; }
+.wpl-slim-likebox .wpl-button { float: none; }
+.wpl-slim-likebox .wpl-button a.sd-button span:before { color: rgb(255, 255, 255); padding-right: 2px; font-size: 14px; }
+.wpl-slim-likebox a.sd-button span { padding: 3px 5px 3px 2px; }
+.wpl-slim-likebox .wpl-button a.sd-button:hover, .wpl-slim-likebox .wpl-button a.sd-button:hover span:before { color: rgb(104, 201, 232) ! important; }
+.rtl #wpl-mustlogin { margin-left: 0px; margin-right: -120px; }
+.rtl #wpl-mustlogin { clear: right; }
+.rtl #wpl-mustlogin label span { left: auto; right: 5px; }
+.wpl-likebox { position: static ! important; bottom: auto ! important; }
+div.comment-likes { height: 16px; float: none; width: 100%; clear: both; display: block; }
+div.comment-likes span.comment-like-feedback { font-size: 12px; opacity: 0.8; line-height: 12px; float: left; padding-top: 2px; padding-left: 2px; padding-right: 2px; }
+a.comment-like-link span { display: none; }
+a.comment-like-link { border: 0px none ! important; text-decoration: none ! important; padding: 0px; margin: 0px; float: left; }
+a.comment-like-link:before { color: rgb(46, 162, 204); font-family: "Noticons"; content: "?"; font-size: 16px; line-height: 0.9; display: inline-block; width: 16px; }
+a.comment-like-link.loading { opacity: 0; }
+a.comment-like-link:hover:before, div.comment-liked a.comment-like-link:before { color: rgb(241, 131, 30); }

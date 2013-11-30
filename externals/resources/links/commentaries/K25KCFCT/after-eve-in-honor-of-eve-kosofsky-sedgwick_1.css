@@ -1,0 +1,7 @@
+
+/* ::::: null ::::: */
+
+div#customButton { display: inline-block; background: none repeat scroll 0% 0% transparent; width: 16px; height: 16px; opacity: 0.8; margin: 4px; padding: 0px; }
+div#customButton:hover { cursor: pointer; opacity: 1; }
+#customButton span.icon { background: url('googleplus1.png') no-repeat scroll center center transparent; display: inline-block; width: 16px; height: 16px; }
+#customButton span.buttonText { display: none; }

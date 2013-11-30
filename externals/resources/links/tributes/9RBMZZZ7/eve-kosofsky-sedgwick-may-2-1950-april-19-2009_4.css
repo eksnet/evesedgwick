@@ -1,0 +1,63 @@
+
+/* ::::: null ::::: */
+
+html, body, div, span, .h3, h4, p { margin: 0px; padding: 0px; }
+body { color: rgb(51, 51, 51); font: 12px/1.5 Verdana; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin: 0px; width: 340px; }
+.pane { border: 1px solid rgb(221, 221, 221); padding: 5px; background: none repeat scroll 0% 0% white; margin: 0.5em 0px; }
+.pane .h3 { background: none repeat scroll 0% 0% rgb(247, 247, 239); padding: 0px 6px 0px 5px; }
+a { color: rgb(51, 102, 204); text-decoration: none; }
+h1 { background: none repeat scroll 0% 0% rgb(247, 247, 239); color: rgb(122, 119, 100); font: bold 20px/1.5 Arial; text-align: center; margin: 0px 0px 5px; padding: 0px 6px; }
+#fpr .h3 { font: 18px/1.5em Georgia; margin-bottom: 12px; text-align: left; }
+#fpr .fpni { margin: 0px 0px 1em 10px; }
+#fpr .fpni h4 { font: bold 14px Georgia; }
+#fpr h4 { font-weight: bold; clear: left; }
+#fpr .more a { background: url('ar1r.png') no-repeat scroll 100% 3px transparent; padding: 0px 14px 0px 0px; display: inline-block; }
+#fpr a { text-decoration: none; }
+.autos .h3 { color: rgb(130, 78, 27); }
+.b2b .h3 { color: rgb(125, 92, 18); }
+.careers .h3 { color: rgb(92, 98, 179); }
+.citiestowns .h3 { color: rgb(196, 140, 0); }
+.compute .h3 { color: rgb(36, 127, 202); }
+.education .h3 { color: rgb(66, 130, 87); }
+.entertainment .h3 { color: rgb(215, 47, 25); }
+.espanol .h3 { color: rgb(229, 98, 27); }
+.health .h3 { color: rgb(44, 154, 165); }
+.homegarden .h3 { color: rgb(109, 129, 7); }
+.food .h3 { color: rgb(235, 126, 3); }
+.gadgets .h3 { color: rgb(126, 138, 142); }
+.hobbies .h3 { color: rgb(162, 45, 123); }
+.money .h3 { color: rgb(63, 99, 179); }
+.newsissues .h3 { color: rgb(126, 118, 100); }
+.parenting .h3 { color: rgb(0, 138, 196); }
+.people .h3 { color: rgb(157, 58, 50); }
+.pets .h3 { color: rgb(175, 151, 0); }
+.religion .h3 { color: rgb(122, 84, 158); }
+.shopping .h3 { color: rgb(168, 64, 32); }
+.sports .h3 { color: rgb(42, 117, 128); }
+.style .h3 { color: rgb(206, 82, 132); }
+.travel .h3 { color: rgb(59, 131, 23); }
+.videogames .h3 { color: rgb(0, 154, 141); }
+.autos .h3 { background-color: rgb(255, 238, 224); }
+.b2b .h3 { background-color: rgb(255, 244, 220); }
+.careers .h3 { background-color: rgb(236, 238, 255); }
+.citiestowns .h3 { background-color: rgb(255, 246, 217); }
+.compute .h3 { background-color: rgb(227, 242, 255); }
+.education .h3 { background-color: rgb(231, 255, 239); }
+.entertainment .h3 { background-color: rgb(255, 230, 219); }
+.espanol .h3 { background-color: rgb(255, 232, 214); }
+.health .h3 { background-color: rgb(229, 253, 255); }
+.homegarden .h3 { background-color: rgb(221, 232, 161); }
+.food .h3 { background-color: rgb(255, 248, 220); }
+.gadgets .h3 { background-color: rgb(230, 238, 241); }
+.hobbies .h3 { background-color: rgb(243, 240, 234); }
+.money .h3 { background-color: rgb(229, 237, 255); }
+.newsissues .h3 { background-color: rgb(245, 243, 238); }
+.parenting .h3 { background-color: rgb(225, 247, 255); }
+.people .h3 { background-color: rgb(255, 234, 233); }
+.pets .h3 { background-color: rgb(250, 245, 214); }
+.religion .h3 { background-color: rgb(244, 233, 255); }
+.shopping .h3 { background-color: rgb(250, 233, 227); }
+.sports .h3 { background-color: rgb(219, 251, 255); }
+.style .h3 { background-color: rgb(255, 238, 245); }
+.travel .h3 { background-color: rgb(233, 255, 222); }
+.videogames .h3 { background-color: rgb(224, 255, 253); }

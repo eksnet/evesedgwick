@@ -1,0 +1,17 @@
+
+/* ::::: null ::::: */
+
+a:link { color: rgb(0, 0, 0); }
+a:visited { color: rgb(0, 0, 0); }
+a:hover { color: rgb(0, 0, 0); }
+a:active { color: rgb(0, 0, 0); }
+
+/* ::::: null ::::: */
+
+div, ul, li { margin: 0px; padding: 0px; }
+#abgc { height: 15px; position: absolute; right: 0px; text-rendering: geometricprecision; top: 0px; width: 15px; z-index: 9010; }
+#abgb { height: 100%; }
+#abgc img { display: block; }
+#abgc svg { display: block; }
+#abgs { display: none; height: 100%; }
+#abgl { text-decoration: none; }

@@ -1,0 +1,22 @@
+/**/ YUI.Env.JSONP.yui_3_11_0_11_1385852397587_841({
+   "about": "Follow us on Twitter at http://twitter.com/salon",
+   "category": "News/media website",
+   "company_overview": "Salon.com\nNews, Politics, Opinion, Life, Books, A&E and Tech\nBlogs: Broadsheet, War Room, How the World Works, Beyond the Multiplex\nColumnists: Joan Walsh, Glenn Greenwald, Cary Tennis",
+   "description": "You can support Salon by becoming a member of Salon Core. This ever-expanding membership program has several components. Most importantly, Salon Core allows you to support independent journalism. Secondly, you'll be part of the \"inner Salon\" with access to events, live webcasts and more. And third, you'll receive lots of optional perks which allow you to justify the expense to begin with. https://sub.salon.com/premium/",
+   "founded": "1995",
+   "is_published": true,
+   "talking_about_count": 52635,
+   "username": "salon",
+   "website": "http://www.salon.com http://twitter.com/salon",
+   "were_here_count": 0,
+   "id": "120680396518",
+   "name": "Salon",
+   "link": "http://www.facebook.com/salon",
+   "likes": 300270,
+   "cover": {
+      "cover_id": "10151445645891519",
+      "source": "http://scontent-a.xx.fbcdn.net/hphotos-prn1/s720x720/485554_10151445645891519_1259222540_n.jpg",
+      "offset_y": 0,
+      "offset_x": 0
+   }
+});

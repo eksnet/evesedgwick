@@ -1,0 +1,5 @@
+
+OAS_rn = '001234567890'; OAS_rns = '1234567890';
+OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+document.write("<scr"+"ipt type='text/javascript' src='http://oascentral.pubgears.com//RealMedia/ads/adstream_jx.ads/theawl.com/1" + OAS_rns +"@Top'><\/script>");
+// server: T9 - EAST site: theawl channel: ros size: 728x90 network: openx_l2 tag_hash: theawl_ros_728x90_247max via: memcache

@@ -1,0 +1,13 @@
+
+/* ::::: null ::::: */
+
+* { margin: 0px; padding: 0px; border: 0px none; float: right; }
+a { color: rgb(0, 66, 118); text-decoration: none; }
+ul li { background: url('bullet4x4.gif') no-repeat scroll left 0.45em transparent; padding: 0px 0px 0px 8px; }
+.refer li { margin-bottom: 2px; }
+.refer li, p.refer, div.refer { font-size: 1.1em; line-height: 1.182em; }
+ul.refer { margin-bottom: 6px; }
+.refer { margin-top: 2px; }
+ul { list-style: none outside none; padding-left: 0px; }
+a:hover { text-decoration: underline; }
+a:visited { color: rgb(102, 102, 153); }

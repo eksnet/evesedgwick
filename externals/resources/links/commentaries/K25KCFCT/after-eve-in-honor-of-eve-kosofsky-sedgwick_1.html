@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://supervalentthought.com/2010/03/18/after-eve-in-honor-of-eve-kosofsky-sedgwick/">
+<meta name="wpd_url" content="http://supervalentthought.com/2010/03/18/after-eve-in-honor-of-eve-kosofsky-sedgwick/">
+<meta name="wpd_date" content="2013-10-30T21:31Z">
+
+		<meta charset="UTF-8">
+		<title>Google+ sign-in iframe</title>
+		<script async="" src="cb=gapi.loaded_1"></script><script async="" src="cb=gapi.loaded_0"></script><script type="text/javascript" src="postmessage.js"></script>
+		<script type="text/javascript" src="jquery.js"></script>
+	
+<link rel="stylesheet" type="text/css" href="after-eve-in-honor-of-eve-kosofsky-sedgwick_1.css" media="all">
+</head>
+<body style="margin: 0px; padding: 0px;">
+
+		
+
+		<script type="text/javascript">
+
+			var googlePlusButtonHasBeenClicked = false;
+
+			/**
+			 * On ready, bind a click handler to our custom button - this click handler will
+			 * not be the only one - google will add their own in googlePlusButtonRender too
+			 * But this way we can know when the user has initiated a Google+ login
+			 * so we can display the loading graphic in the highlander comment form
+			 */
+			jQuery( document ).ready( function() {
+				googlePlusButtonHasBeenClicked = false;
+				jQuery( '#customButton' ).click( googlePlusOnClickCustomButton );
+			} );
+
+			/**
+			 * Let our parent know the user clicked on the Google+ button
+			 */
+			function googlePlusOnClickCustomButton() {
+				googlePlusButtonHasBeenClicked = true;
+
+				pm( {
+					target: window.parent,
+					type: 'googlePlusButtonClick',
+					data: 0,
+					origin: '*'
+				} );
+			}
+
+			/**
+			 * This callback is hit 1) when the Google library has rendered the custom button
+			 * and completed an initial autonomous check for auth and 2) when the user completes
+			 * a login
+			 *
+			 * At this point, we only want to notify the parent in case #2 - and this avoids
+			 * us firing up a userinfo.get on every page load by an auth'd user
+			 */
+			function googlePlusSignInCallback( authResult ) {
+				if ( googlePlusButtonHasBeenClicked ) {
+					if ( 'undefined' != typeof authResult.error ) {
+						googlePlusSignInEvent( { error: authResult.error } );
+					} else {
+						jQuery.when( googlePlusGetProfile(), googlePlusGetEmail() ).done( function( profileArgs, emailArgs) {
+							var data = {};
+							data.code = authResult.code;
+							data.access_token = authResult.access_token;
+							data.name = profileArgs.displayName;
+							data.avatar = profileArgs.image.url;
+							data.link = profileArgs.url;
+							data.uid = profileArgs.id;
+							data.email = emailArgs.email;
+							googlePlusSignInEvent( data );
+						} );
+					}
+				}
+			}
+
+			/**
+			 * Fetch the user's profile
+			 */
+			function googlePlusGetProfile() {
+				var dfd = jQuery.Deferred();
+				gapi.client.load( 'plus', 'v1', function() {
+					var request = gapi.client.plus.people.get( { userId: 'me' } );
+					request.execute( function( resp ) {
+						dfd.resolve( resp );
+					} );
+				} );
+				return dfd.promise();
+			}
+
+			/**
+			 * Fetch the user's email
+			 */
+			function googlePlusGetEmail() {
+				var dfd = jQuery.Deferred();
+				gapi.client.load('oauth2', 'v2', function() {
+					var request = gapi.client.oauth2.userinfo.get();
+					request.execute( function( resp ) {
+						dfd.resolve( resp );
+					} );
+				} );
+				return dfd.promise();
+			}
+			/**
+			 * Utility function to send sign in events to the parent of this iframe
+			 */
+			function googlePlusSignInEvent( data ) {
+				pm( {
+					target: window.parent,
+					type: 'googlePlusSignIn',
+					data: data,
+					origin: '*'
+				} );
+			}
+
+			/**
+			 * Render the button (attaches Google+ click and auth callbacks)
+			 */
+			function googlePlusButtonRender() {
+				gapi.signin.render( 'customButton', {
+					'callback': 'googlePlusSignInCallback',
+					'clientid': '108380595987-4e427srhd9jr0lsnohleutb2ilbuof70.apps.googleusercontent.com',
+					'cookiepolicy': 'single_host_origin',
+					'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email',
+					'accesstype' : 'offline',
+					'requestvisibleactions' : 'http://schemas.google.com/CreateActivity'
+				} );
+
+			}
+		</script>
+		<script gapi_processed="true" type="text/javascript" src="clientplusone.js"></script>
+
+		<div data-gapiattached="true" id="customButton">
+			<span class="icon"></span>
+			<span class="buttonText"></span>
+		</div>
+	
+
+<iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" src="after-eve-in-honor-of-eve-kosofsky-sedgwick_2.html" id="oauth2relay653379366" name="oauth2relay653379366"></iframe><iframe style="width: 1px; height: 1px; position: absolute; top: -100px;" src="after-eve-in-honor-of-eve-kosofsky-sedgwick_3.html"></iframe></body>
+</html>

@@ -1,0 +1,128 @@
+
+/* ::::: http://www.thevalve.org/go?css=valve/weblog_css ::::: */
+
+body { background-color: rgb(102, 153, 102); color: rgb(51, 51, 51); margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; }
+p { margin-top: 0px; margin-bottom: 12px; line-height: 140%; }
+p.small { margin-top: 0px; margin-bottom: 12px; font-size: 10px; line-height: 140%; }
+p.center { margin-top: 0px; margin-bottom: 12px; line-height: 140%; text-align: center; }
+p.commentauthor { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; border-top: 1px dotted rgb(102, 102, 102); margin-bottom: 35px; line-height: normal; padding: 2px; }
+.breadcrumb { margin: 0px 0px 10px; background-color: transparent; font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 10px; }
+img { border: 0px none; padding: 0px; margin: 10px; }
+img.ad { margin-top: 30px; }
+img.layout { border: 0px none; padding: 0px; margin: 0px; display: block; clear: both; }
+img.center { border: 0px none; padding: 0px; display: block; margin: 10px auto; }
+img.centerborder { border: 1px solid rgb(51, 51, 51); padding: 0px; display: block; margin: 10px auto; }
+h1 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 20px; }
+h1.postsby { margin-bottom: 20px; border-bottom: 2px solid rgb(51, 51, 51); padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 20px; }
+h2 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 18px; }
+h2.date { margin: 0px 0px 15px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 18px; text-align: right; }
+h3 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 14px; }
+h3.comments { margin-bottom: 12px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 14px; }
+h4 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 12px; }
+h4.linklist { margin-top: 11px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: normal; font-size: 12px; font-style: italic; }
+h4.navhead { margin-top: 30px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 12px; }
+h5 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 10px; }
+h6 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 8px; }
+hr { border: 0px none; width: 100%; color: rgb(51, 51, 51); background-color: rgb(51, 51, 51); height: 2px; }
+strong, b { font-weight: bold; }
+.author { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; }
+.nextprevlinks { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; text-align: center; }
+.entrylinks { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; text-align: right; margin-top: 12px; margin-bottom: 30px; line-height: 140%; }
+a { text-decoration: none; font-weight: normal; color: rgb(102, 0, 0); outline: medium none; border-bottom: 1px dotted rgb(102, 0, 0); }
+a:visited { color: rgb(102, 0, 0); }
+a:active { color: rgb(102, 0, 0); }
+a:hover { color: rgb(0, 102, 0); border-bottom: 1px solid rgb(0, 102, 0); }
+a.button, a.button:visited, a.button:active, a.button:hover { outline: medium none; border: 0px none; }
+a.buttonblack, a.buttonblack:visited, a.buttonblack:active, a.buttonblack:hover { outline: medium none; border: 1px solid rgb(51, 51, 51); }
+#header { background-color: rgb(255, 255, 255); border-bottom: 3px solid rgb(0, 0, 0); clear: both; }
+#content { background-color: rgb(255, 255, 255); margin: 10px 10px 10px 230px; border: 3px solid rgb(0, 0, 0); font-size: 12px; padding: 10px; overflow: visible; height: 100%; }
+#leftnav { margin: 10px; padding: 5px; border: 3px solid rgb(0, 0, 0); background-color: rgb(255, 255, 255); width: 194px; font-size: 11px; float: left; }
+#rightnav { margin: 10px; padding: 5px; border: 3px solid rgb(0, 0, 0); background-color: rgb(255, 255, 255); width: 194px; font-size: 11px; float: right; }
+#rightnav ul { border: 0px none; margin: 0px; padding: 0px; list-style-type: none; }
+#membercontent { background-color: rgb(255, 255, 255); margin: 10px; border: 3px solid rgb(0, 0, 0); font-size: 12px; padding: 10px; overflow: visible; height: 100%; }
+.bookevents { width: 148px; padding: 10px; margin-right: auto; margin-left: auto; margin-top: 30px; border: 2px dotted rgb(0, 0, 0); }
+.outerBorder { border: 1px solid rgb(75, 83, 136); }
+.header { margin: 0px 0px 14px; padding: 2px 0px; border: 1px solid rgb(0, 7, 112); background-color: rgb(121, 126, 184); text-align: center; }
+.copyright { text-align: center; font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 9px; color: rgb(153, 153, 153); margin-top: 15px; margin-bottom: 15px; }
+.searchSubmit { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); text-align: center; padding: 6px 10px 6px 6px; border: 1px solid rgb(75, 83, 136); background-color: rgb(198, 201, 207); }
+.fieldset { border: 1px solid rgb(153, 153, 153); padding: 10px; }
+.default, .defaultBold { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 3px 0px; background-color: transparent; }
+.defaultBold { font-weight: bold; }
+.paginate { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 0.1em; padding: 10px 6px 10px 4px; margin: 0px; background-color: transparent; }
+.pagecount { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 10px; color: rgb(102, 102, 102); font-weight: normal; background-color: transparent; }
+.tablePad { padding: 3px 3px 5px; background-color: rgb(255, 255, 255); }
+.resultRowOne { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 6px 6px 6px 8px; background-color: rgb(218, 218, 221); }
+.resultRowTwo { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 6px 6px 6px 8px; background-color: rgb(238, 238, 238); }
+.resultHead { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; font-weight: bold; color: rgb(0, 0, 0); padding: 8px 0px 8px 8px; border-bottom: 1px solid rgb(153, 153, 153); background-color: transparent; }
+form { margin: 0px; }
+.hidden { margin: 0px; padding: 0px; border: 0px none; }
+.input { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; height: 1.6em; padding: 0.3em 0px 0px 2px; margin-top: 6px; margin-bottom: 3px; }
+.textarea { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; margin-top: 3px; margin-bottom: 3px; }
+.select { background-color: rgb(255, 255, 255); font-family: Arial,Verdana,Sans-serif; font-size: 10px; font-weight: normal; letter-spacing: 0.1em; color: rgb(0, 0, 0); margin-top: 6px; margin-bottom: 3px; }
+.multiselect { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; margin-top: 3px; margin-bottom: 3px; }
+.radio { color: rgb(0, 0, 0); margin-top: 7px; margin-bottom: 4px; padding: 0px; border: 0px none; background-color: transparent; }
+.checkbox { background-color: transparent; margin: 3px; padding: 0px; border: 0px none; }
+
+/* ::::: http://www.thevalve.org/go?css=valve/weblog_css ::::: */
+
+body { background-color: rgb(102, 153, 102); color: rgb(51, 51, 51); margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; }
+p { margin-top: 0px; margin-bottom: 12px; line-height: 140%; }
+p.small { margin-top: 0px; margin-bottom: 12px; font-size: 10px; line-height: 140%; }
+p.center { margin-top: 0px; margin-bottom: 12px; line-height: 140%; text-align: center; }
+p.commentauthor { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; border-top: 1px dotted rgb(102, 102, 102); margin-bottom: 35px; line-height: normal; padding: 2px; }
+.breadcrumb { margin: 0px 0px 10px; background-color: transparent; font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 10px; }
+img { border: 0px none; padding: 0px; margin: 10px; }
+img.ad { margin-top: 30px; }
+img.layout { border: 0px none; padding: 0px; margin: 0px; display: block; clear: both; }
+img.center { border: 0px none; padding: 0px; display: block; margin: 10px auto; }
+img.centerborder { border: 1px solid rgb(51, 51, 51); padding: 0px; display: block; margin: 10px auto; }
+h1 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 20px; }
+h1.postsby { margin-bottom: 20px; border-bottom: 2px solid rgb(51, 51, 51); padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 20px; }
+h2 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 18px; }
+h2.date { margin: 0px 0px 15px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 18px; text-align: right; }
+h3 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 14px; }
+h3.comments { margin-bottom: 12px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 14px; }
+h4 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 12px; }
+h4.linklist { margin-top: 11px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: normal; font-size: 12px; font-style: italic; }
+h4.navhead { margin-top: 30px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 12px; }
+h5 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 10px; }
+h6 { margin: 0px; padding: 0px; font-family: Verdana,"Lucida Grande",Tahoma,Helvetica; font-weight: bold; font-size: 8px; }
+hr { border: 0px none; width: 100%; color: rgb(51, 51, 51); background-color: rgb(51, 51, 51); height: 2px; }
+strong, b { font-weight: bold; }
+.author { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; }
+.nextprevlinks { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; text-align: center; }
+.entrylinks { font-size: 9px; color: rgb(102, 102, 102); font-weight: normal; text-align: right; margin-top: 12px; margin-bottom: 30px; line-height: 140%; }
+a { text-decoration: none; font-weight: normal; color: rgb(102, 0, 0); outline: medium none; border-bottom: 1px dotted rgb(102, 0, 0); }
+a:visited { color: rgb(102, 0, 0); }
+a:active { color: rgb(102, 0, 0); }
+a:hover { color: rgb(0, 102, 0); border-bottom: 1px solid rgb(0, 102, 0); }
+a.button, a.button:visited, a.button:active, a.button:hover { outline: medium none; border: 0px none; }
+a.buttonblack, a.buttonblack:visited, a.buttonblack:active, a.buttonblack:hover { outline: medium none; border: 1px solid rgb(51, 51, 51); }
+#header { background-color: rgb(255, 255, 255); border-bottom: 3px solid rgb(0, 0, 0); clear: both; }
+#content { background-color: rgb(255, 255, 255); margin: 10px 10px 10px 230px; border: 3px solid rgb(0, 0, 0); font-size: 12px; padding: 10px; overflow: visible; height: 100%; }
+#leftnav { margin: 10px; padding: 5px; border: 3px solid rgb(0, 0, 0); background-color: rgb(255, 255, 255); width: 194px; font-size: 11px; float: left; }
+#rightnav { margin: 10px; padding: 5px; border: 3px solid rgb(0, 0, 0); background-color: rgb(255, 255, 255); width: 194px; font-size: 11px; float: right; }
+#rightnav ul { border: 0px none; margin: 0px; padding: 0px; list-style-type: none; }
+#membercontent { background-color: rgb(255, 255, 255); margin: 10px; border: 3px solid rgb(0, 0, 0); font-size: 12px; padding: 10px; overflow: visible; height: 100%; }
+.bookevents { width: 148px; padding: 10px; margin-right: auto; margin-left: auto; margin-top: 30px; border: 2px dotted rgb(0, 0, 0); }
+.outerBorder { border: 1px solid rgb(75, 83, 136); }
+.header { margin: 0px 0px 14px; padding: 2px 0px; border: 1px solid rgb(0, 7, 112); background-color: rgb(121, 126, 184); text-align: center; }
+.copyright { text-align: center; font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 9px; color: rgb(153, 153, 153); margin-top: 15px; margin-bottom: 15px; }
+.searchSubmit { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); text-align: center; padding: 6px 10px 6px 6px; border: 1px solid rgb(75, 83, 136); background-color: rgb(198, 201, 207); }
+.fieldset { border: 1px solid rgb(153, 153, 153); padding: 10px; }
+.default, .defaultBold { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 3px 0px; background-color: transparent; }
+.defaultBold { font-weight: bold; }
+.paginate { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 12px; font-weight: normal; letter-spacing: 0.1em; padding: 10px 6px 10px 4px; margin: 0px; background-color: transparent; }
+.pagecount { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 10px; color: rgb(102, 102, 102); font-weight: normal; background-color: transparent; }
+.tablePad { padding: 3px 3px 5px; background-color: rgb(255, 255, 255); }
+.resultRowOne { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 6px 6px 6px 8px; background-color: rgb(218, 218, 221); }
+.resultRowTwo { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; color: rgb(0, 0, 0); padding: 6px 6px 6px 8px; background-color: rgb(238, 238, 238); }
+.resultHead { font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; font-weight: bold; color: rgb(0, 0, 0); padding: 8px 0px 8px 8px; border-bottom: 1px solid rgb(153, 153, 153); background-color: transparent; }
+form { margin: 0px; }
+.hidden { margin: 0px; padding: 0px; border: 0px none; }
+.input { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; height: 1.6em; padding: 0.3em 0px 0px 2px; margin-top: 6px; margin-bottom: 3px; }
+.textarea { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; margin-top: 3px; margin-bottom: 3px; }
+.select { background-color: rgb(255, 255, 255); font-family: Arial,Verdana,Sans-serif; font-size: 10px; font-weight: normal; letter-spacing: 0.1em; color: rgb(0, 0, 0); margin-top: 6px; margin-bottom: 3px; }
+.multiselect { border-top: 1px solid rgb(153, 153, 153); border-left: 1px solid rgb(153, 153, 153); background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-family: Verdana,Geneva,Tahoma,Trebuchet MS,Arial,Sans-serif; font-size: 11px; margin-top: 3px; margin-bottom: 3px; }
+.radio { color: rgb(0, 0, 0); margin-top: 7px; margin-bottom: 4px; padding: 0px; border: 0px none; background-color: transparent; }
+.checkbox { background-color: transparent; margin: 3px; padding: 0px; border: 0px none; }

@@ -1,0 +1,4 @@
+
+if (!window.OX_ads) { OX_ads = []; }OX_ads.push({ "auid" : "501725" });
+document.write('<scr'+'ipt src="http://ox-d.pubgears.com/w/1.0/jstag"></scr'+'ipt>');
+// server: T6 - east site: theawl channel: ros size: 728x90 network: None tag_hash: theawl_ros_728x90_rt1_openx via: memcache

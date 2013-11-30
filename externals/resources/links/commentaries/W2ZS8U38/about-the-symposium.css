@@ -1,0 +1,369 @@
+
+/* ::::: http://www.bu.edu/honoringeve/wp-content/themes/bu-new-media-default/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0px; padding: 0px; border: 0px none; outline: 0px none; font-weight: normal; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+:focus { outline: 0px none; }
+body { font: 77%/150% arial,verdana,helvetica,sans-serif; }
+ol, ul { list-style: none outside none; }
+table { border-collapse: collapse; border-spacing: 0px; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* ::::: http://www.bu.edu/honoringeve/wp-content/themes/bu-new-media-default/masters.15.css ::::: */
+
+h1 { font-size: 200%; line-height: 115%; margin-bottom: 0.7em; }
+h2 { font-size: 165%; line-height: 115%; margin-bottom: 0.7em; }
+h3 { font-size: 130%; line-height: 115%; margin-bottom: 0.5em; }
+h4 { font-size: 120%; line-height: 115%; margin-bottom: 0.5em; }
+h5 { font-size: 110%; line-height: 115%; margin-bottom: 0.5em; }
+h6 { font-size: 90%; font-weight: bold; line-height: 115%; margin-bottom: 0.5em; }
+#content hr, #content pre, #content p, #content ul, #content ol, #content dl, #content pre, #content blockquote, #content address, #content table, #content form { margin-bottom: 1.6em; }
+blockquote { padding: 1.3em 2em 0px; margin: 1.3em 0px; }
+.fancy { font-family: "Georgia",times,serif; font-style: italic; font-weight: normal; }
+.caps { letter-spacing: 0.1em; text-transform: uppercase; font-weight: normal; font-style: normal; }
+.small { font-size: 0.8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide { display: none; }
+.highlight { background: none repeat scroll 0% 0% rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.center { text-align: center; }
+code { font-family: "Courier New",Courier,monospace; }
+big { font-size: 1.4em; }
+small { font-size: 0.8em; }
+strong, th, thead td { font-weight: bold; }
+cite, em, dfn, address { font-style: italic; }
+code, kbd, samp, pre, tt, var, input[type="text"], textarea { font-size: 110%; font-family: "courier",monospace; }
+s, strike, del { text-decoration: line-through; color: rgb(119, 119, 119); }
+ins, dfn { border-bottom: 1px solid rgb(204, 204, 204); }
+abbr, acronym { text-transform: uppercase; font-size: 85%; letter-spacing: 0.1em; }
+a abbr, a acronym { border: medium none; }
+abbr[title], acronym[title], dfn[title] { cursor: help; border-bottom: 1px solid rgb(204, 204, 204); }
+sup { vertical-align: super; }
+sub { vertical-align: sub; }
+#wrapper { width: 100%; margin: 0px auto; }
+#header-wrapper { height: 116px; margin: 0px auto; }
+#header { height: 116px; width: 864px; margin: 0px auto; }
+#header h1 { margin-bottom: 0px; }
+#header a#logotype { display: block; width: 212px; height: 35px; margin-top: 38px; float: left; }
+#quicksearch { text-align: right; float: right; margin-top: 45px; width: auto; }
+#quicksearch fieldset { margin: 0px; padding: 0px; }
+#quicksearch input { font-size: 0.9em ! important; }
+#quicksearch input#q { width: 11em; padding: 3px; margin-right: 5px; }
+#quicksearch input.button { font-weight: bold; font-size: 0.9em; width: 5.5em; text-transform: uppercase; padding: 2px 0px; margin: 0px; }
+#pnb { height: 32px; margin: 2px 0px; }
+#nav, #no-pnb { height: 100%; width: 872px; }
+#nav, #nav ul { padding: 0px; margin: 0px auto; list-style: none outside none; line-height: 1; text-transform: uppercase; }
+#nav li { float: left; width: auto; margin-right: 12px; }
+#nav li a { display: block; text-decoration: none; font-weight: bold; padding: 10px 5px 11px; }
+#nav li ul { position: absolute; margin-top: 0px; background: none repeat scroll 0% 0% rgb(30, 27, 23); width: 12em; left: -999em; z-index: 2; }
+#nav li li { width: 100%; margin-right: 0px; }
+#nav li li a { text-transform: none; font-weight: normal; display: block; width: auto; padding: 5px; }
+#nav li:hover ul, #nav li.sfhover ul { left: auto; }
+#content { width: 864px; margin: 0px auto; padding: 30px 0px; text-align: left; clear: both; }
+#content.fullwidth { margin: 0px; width: 100%; padding: 0px; }
+#content.fullwidth #content-banner img.banner { border: medium none; display: block; margin: 0px auto 15px; padding: 15px 0px; background-color: transparent; }
+#inner-content { width: 864px; margin: 30px auto 0px; }
+#content:after { display: block; clear: both; content: " "; height: 0px; overflow: hidden; }
+#left-column { width: 644px; float: left; }
+.alignleft, img.left-pic { float: left; margin-right: 1.6em; margin-bottom: 0.5em; }
+.alignright, img.right-pic { float: right; margin-left: 1.6em; margin-bottom: 0.5em; }
+img.banner { padding: 4px; margin-bottom: 15px; }
+img.styled, img.alignnone, img.aligncenter, img.alignleft, img.alignright, img.left-pic, img.right-pic { padding: 4px; }
+#content p.wp-caption-text { font-size: 86%; font-style: italic; line-height: 1em; margin: 0.5em 1em; }
+.wp-caption { text-align: center; padding-top: 4px; margin-bottom: 1.6em; }
+.wp-caption img { margin: 0px; padding: 0px; border: 0px none; }
+#left-column ul, div.blank ul { margin: 0px 0px 1.6em; overflow: hidden; }
+#left-column ul li, div.blank ul li { list-style: none outside none; margin-top: 0.7em; padding-left: 15px; }
+ol, dl { margin: 0px 0px 1em; }
+dl dt { font-weight: bold; margin-top: 0.7em; }
+dl dd { margin-left: 3em; }
+ol { margin-left: 2em; }
+ol li { background: none repeat scroll 0% 0% transparent; margin-top: 0.7em; list-style-type: decimal; list-style-position: outside; }
+#left-column ol.singlespace li, #left-column dl.singlespace dt, div.blank ol.singlespace li, div.blank dl.singlespace dt { margin-top: 0px; }
+#left-column ul.singlespace li, div.blank ul.singlespace li { list-style: none outside none; margin-top: 0px; padding-left: 15px; }
+.callout_right, .callout_left { width: 25%; }
+.callout_right { float: right; margin: 0.5em 0px 0.5em 1.5em; }
+.callout_left { float: left; margin: 0.5em 1.5em 0.5em 0px; }
+.callout_header { font-weight: bold; text-align: center; font-size: 120%; padding: 3px; }
+.callout_content { padding: 8px; }
+.pullquote_right, .pullquote_left { width: 33%; padding: 8px; text-indent: -0.5em; }
+.pullquote_right { float: right; margin: 0.5em 0px 0.5em 3em; }
+.pullquote_left { float: left; margin: 0.5em 3em 0.5em 0px; }
+.pullquote_quote { font-size: 130%; line-height: 130%; margin: 0px; padding: 0px; }
+.pullquote_attribution { font-family: "Warnock Pro","Goudy Old Style","Palatino","Book Antiqua",Georgia,serif; font-style: italic; font-weight: normal; font-size: 130%; text-align: right; }
+h2.news-headline { margin: 1.2em 0px 0.2em; }
+p.news-timestamp { font-size: 90%; font-weight: bold; }
+div.entry { margin-bottom: 1.6em; }
+div.meta { margin-bottom: 1.6em; font-style: italic; }
+#subscribe-container { margin-top: 0.4em; float: right; width: 10em; }
+#subscribe-label { float: left; width: 5em; }
+#subscribe-content { float: right; margin-top: 1px; }
+a.rss-link { background: url('rss-icon.gif') no-repeat scroll 0px 0px transparent; text-decoration: none; margin: 0px 0px 0px 6px; }
+#left-column a.rss-link:hover { background: url('rss-icon-o.gif') no-repeat scroll 0px 0px transparent; }
+a.rss-link span { visibility: hidden; }
+div.headline_thumb { clear: left; float: left; margin-right: 1em; }
+div.headline_thumb img { padding: 4px; }
+div.navigation { margin-top: 1.6em; }
+#left-column #homeflash { width: 636px; height: 200px; background: none repeat scroll 0% 0% rgb(255, 255, 255); margin-bottom: 15px; z-index: -1; }
+table { width: 100%; }
+th, td { padding: 0.8em; }
+caption { padding-bottom: 0.8em; font-weight: bold; }
+th, thead td { font-weight: bold; }
+table.styled_table td, table.styled_table th { padding: 0.4em; }
+#content fieldset { padding: 0px 1em 1em; margin: 0px 0px 1.2em; }
+#content fieldset h2 { margin-left: -12px; margin-right: -13px; }
+#content form h2 { font-size: 0.9em; font-weight: bold; text-transform: uppercase; margin-bottom: 1.8em; padding: 0.5em 0.5em 0.5em 1.2em; }
+#content fieldset div, #content fieldset fieldset { padding: 0px; margin: 0px 0px 1.2em; border: medium none; }
+label { float: left; width: 25%; }
+label em { color: rgb(153, 0, 0); font-size: 1.2em; }
+select { margin-right: 6px; }
+input.button { text-transform: uppercase; font-size: 1em; font-weight: bold; padding: 4px 12px; cursor: pointer; margin-right: 0.5em; }
+#content fieldset div.form-buttons { margin-top: 2em; margin-left: 25%; }
+fieldset fieldset.input-inline { margin-bottom: 0px; padding-bottom: 12px; }
+fieldset fieldset.input-inline input { float: left; margin: 2px 3px 0px 0px ! important; }
+fieldset fieldset.input-inline label { float: left; width: auto; margin-right: 10px; padding-top: 1px; }
+fieldset fieldset.input-row { margin-bottom: 0px; padding-bottom: 12px; }
+fieldset fieldset.input-row input { float: left; margin: 1px 3px 0px 0px ! important; clear: both; }
+fieldset fieldset.input-row label { display: block; float: none; width: auto; clear: right; padding-bottom: 3px; }
+#content button { border: 1px solid rgb(204, 204, 204); background-color: rgb(255, 255, 255); color: rgb(86, 86, 86); margin: 0px 0.583em 0.667em 0px; font-family: "Arial",Tahoma,Verdana,sans-serif; font-size: 100%; line-height: 130%; text-decoration: none; font-weight: bold; cursor: pointer; width: auto; overflow: visible; padding: 4px 10px 3px 7px; }
+#content button[type] { padding: 4px 10px 4px 7px; line-height: 17px; }
+:first-child + html #content button[type] { padding: 4px 10px 3px 7px; }
+#content button img, #content a.button img { margin: 0px 3px -3px 0px ! important; padding: 0px; border: medium none; width: 16px; height: 16px; float: none; }
+#content button:hover { background-color: rgb(223, 244, 255); border: 1px solid rgb(194, 225, 239); color: rgb(51, 102, 153); }
+#content button:active { background-color: rgb(98, 153, 197); border: 1px solid rgb(98, 153, 197); color: rgb(255, 255, 255); }
+body #content .positive { color: rgb(82, 146, 20); }
+#content button.positive:hover { background-color: rgb(230, 239, 194); border: 1px solid rgb(198, 216, 128); color: rgb(82, 146, 20); }
+#content button.positive:active { background-color: rgb(82, 146, 20); border: 1px solid rgb(82, 146, 20); color: rgb(255, 255, 255); }
+body #content .negative { color: rgb(209, 47, 25); }
+#content button.negative:hover { background: none repeat scroll 0% 0% rgb(251, 227, 228); border: 1px solid rgb(251, 194, 196); color: rgb(209, 47, 25); }
+#content button.negative:active { background-color: rgb(209, 47, 25); border: 1px solid rgb(209, 47, 25); color: rgb(255, 255, 255); }
+body #content .neutral { color: rgb(81, 71, 33); }
+#content button.neutral:hover { background: none repeat scroll 0% 0% rgb(255, 246, 191); border: 1px solid rgb(255, 211, 36); color: rgb(81, 71, 33); }
+#content button.neutral:active { background-color: rgb(255, 211, 36); border: 1px solid rgb(255, 211, 36); color: rgb(255, 255, 255); }
+#left-column .gform_body ul.gfield_radio li, #left-column .gform_body ul.gfield_checkbox li { margin: 0px; }
+#left-column .gform_body ul.gfield_radio, #left-column .gform_body ul.gfield_checkbox { width: 60%; padding-top: 0px; }
+#left-column .gform_body ul.gfield_radio li label, #left-column .gform_body ul.gfield_checkbox li label { float: none; }
+#left-column .gform_body .ginput_container label { width: 100%; }
+#wrapper #content a.noicon { background: none repeat scroll 0% 0% transparent; padding: 0px; }
+#content a[href^="mailto:"] { background: url('email.png') no-repeat scroll right center transparent; padding-right: 20px; padding-top: 2px; }
+#content a[href$=".pdf"] { background: url('pdf.png') no-repeat scroll right center transparent; padding-right: 20px; padding-top: 2px; }
+#content a[href$=".doc"] { background: url('doc.png') no-repeat scroll right center transparent; padding-top: 2px; padding-right: 20px; }
+#content a[href$=".xls"] { background: url('xls.png') no-repeat scroll right center transparent; padding-top: 2px; padding-right: 20px; }
+#content a[href$=".rss"], #content a[href$=".rdf"] { background: url('feed.png') no-repeat scroll right center transparent; padding-top: 2px; padding-right: 20px; }
+#content p.edit-link { background-color: rgb(255, 251, 204); padding: 4px 4px 2px 8px; margin: 0px; font-weight: normal; color: rgb(37, 131, 176); width: 4em; float: right; border: 1px solid rgb(230, 219, 85); }
+#content p.edit-link a { padding: 2px 0px 4px 20px; color: rgb(95, 140, 162); background: url('write-post.gif') no-repeat scroll 0% 0% transparent; }
+#content p.edit-link a:hover { color: rgb(213, 78, 33); text-decoration: underline; }
+#right-column { width: 196px; float: right; }
+#right-column #contentnav li { display: inline; }
+#right-column #contentnav li a { font-weight: bold; text-transform: uppercase; padding: 5px 0px; display: block; width: 196px; text-decoration: none; }
+#right-column #contentnav li ul { margin: -5px 0px 3px; border-bottom: medium none; }
+#right-column #contentnav li li a { padding: 3px 0px 3px 15px; font-weight: normal; text-transform: none; border-top: medium none; width: auto; }
+#right-column #contentnav li ul ul { margin: 0px; padding-left: 30px; }
+#right-column #contentnav li ul ul ul { padding-left: 15px; }
+#right-column #contentnav li li li a { background: none repeat scroll 0% 0% transparent; font-size: 90%; padding: 0.4em 0px; line-height: 110%; }
+#right-column .widget { font-size: 95%; margin-bottom: 24px; }
+#right-column .widget h2 { font-size: 105%; padding: 11px 7px 9px 8px; margin: 0px; font-weight: bold; text-transform: uppercase; }
+#right-column .widget h2 a { padding-left: 21px; padding-top: 1px; text-transform: uppercase; text-decoration: none; font-weight: bold; }
+#right-column #bu-calendar-widget ul.big li a { display: block; width: 196px; padding: 10px 0px; text-decoration: none; cursor: pointer; }
+#right-column #bu-calendar-widget ul.big li a:after { display: block; clear: both; content: " "; height: 0px; overflow: hidden; }
+#right-column #bu-calendar-widget ul.big li a span.date { float: left; margin: 0px 5px 0px 0px; display: block; width: 33px; text-align: center; }
+#right-column #bu-calendar-widget ul.big li a span.day { font-family: arial,helvetica,sans-serif; display: block; font-size: 1.7em; line-height: 0.8em; font-weight: bold; padding-top: 4px; }
+#right-column #bu-calendar-widget ul.big li a span.month { font-family: verdana,helvetica,sans-serif; text-transform: uppercase; font-weight: bold; font-size: 0.9em; }
+#right-column #bu-calendar-widget ul.big li a span.item { display: block; width: auto; margin-right: 12px; line-height: 1.3em; font-weight: bold; }
+#bu-calendar-widget ul.default { margin: 0px 0px 1.4em; padding: 0.8em 0px; }
+#bu-calendar-widget ul.default li { padding: 0.4em 0.8em 0.4em 0px; }
+#bu-calendar-widget ul.default li a { border: medium none; text-decoration: none; line-height: 120%; display: block; }
+#bu-calendar-widget ul.default li a span.date { background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0% 0%; background-clip: border-box; background-origin: padding-box; background-size: auto auto; background-color: inherit; font-weight: bold; padding-right: 0.5em; margin-right: 0.5em; }
+#right-column .widget-bu-calendar ul.big li a { display: block; width: 196px; padding: 10px 0px; text-decoration: none; cursor: pointer; }
+#right-column .widget-bu-calendar ul.big li a:after { display: block; clear: both; content: " "; height: 0px; overflow: hidden; }
+#right-column .widget-bu-calendar ul.big li a span.date { float: left; margin: 0px 5px 0px 0px; display: block; width: 33px; text-align: center; }
+#right-column .widget-bu-calendar ul.big li a span.day { font-family: arial,helvetica,sans-serif; display: block; font-size: 1.7em; line-height: 0.8em; font-weight: bold; padding-top: 4px; }
+#right-column .widget-bu-calendar ul.big li a span.month { font-family: verdana,helvetica,sans-serif; text-transform: uppercase; font-weight: bold; font-size: 0.9em; }
+#right-column .widget-bu-calendar ul.big li a span.item { display: block; width: auto; margin-right: 12px; line-height: 1.3em; font-weight: bold; }
+.widget-bu-calendar ul.default { margin: 0px 0px 1.4em; padding: 0.8em 0px; }
+.widget-bu-calendar ul.default li { padding: 0.4em 0.8em 0.4em 0px; }
+.widget-bu-calendar ul.default li a { border: medium none; text-decoration: none; line-height: 120%; display: block; }
+.widget-bu-calendar ul.default li a span.date { background-image: none; background-repeat: repeat; background-attachment: scroll; background-position: 0% 0%; background-clip: border-box; background-origin: padding-box; background-size: auto auto; background-color: inherit; font-weight: bold; padding-right: 0.5em; margin-right: 0.5em; }
+#right-column #bu-news-widget ul.default, #right-column .widget-bu-posts ul.default, #right-column div.widget_links ul.blogroll, #right-column div.widget_bu_links ul, #right-column div.widget_rss ul, #right-column div.widget_archive ul, #right-column div.widget_categories ul { margin: 0px 0px 1.4em; padding: 0.8em 0px; }
+#right-column #bu-news-widget li.noexcerpt, #right-column .widget-bu-posts li.noexcerpt, #right-column .widget_links ul.blogroll li, #right-column div.widget_bu_links ul li, #right-column div.widget_rss ul li, #right-column div.widget_archive ul li, #right-column div.widget_categories ul li { padding: 0.4em 0.8em 0.4em 0.7em; }
+#right-column #bu-news-widget li.noexcerpt a, #right-column .widget-bu-posts li.noexcerpt a, #right-column .widget_links ul.blogroll li a, #right-column div.widget_bu_links ul li a, #right-column div.widget_rss ul li a, #right-column div.widget_archive ul li a, #right-column div.widget_categories ul li a { border: medium none; font-size: 92%; text-decoration: none; line-height: 120%; display: block; }
+#right-column #bu-news-widget ul.excerpts, #right-column .widget-bu-posts ul.excerpts { margin: 0px 0px 1.4em; }
+#right-column #bu-news-widget li.excerpt, #right-column .widget-bu-posts li.excerpt { line-height: 1.3em; padding-bottom: 8px; }
+#right-column #bu-news-widget li.excerpt strong, #right-column .widget-bu-posts li.excerpt strong { display: block; font-size: 0.8em; padding-top: 8px; }
+#right-column #bu-news-widget li.excerpt a, #right-column .widget-bu-posts li.excerpt a { width: 196px; border: medium none; text-decoration: none; display: block; font-weight: bold; }
+#right-column .widget h2 img, #right-column .widget_rss h2 a:first-child { display: none; }
+#right-column div.widget_archive ul li a { display: inline; }
+#right-column div.widget select { width: 100%; }
+#right-column div.widget_categories ul li a { display: inline; }
+#right-column div.widget_categories ul.children { border-bottom: medium none; margin: 0px 0px -5px; padding-bottom: 0px; }
+#right-column div.widget_categories ul.children li { padding: 0px 0px 0.6em 0.8em; }
+div.post div.meta { padding-bottom: 20px; }
+.calendar { border-collapse: collapse; margin-bottom: 5px; }
+.calendar caption { padding-bottom: 5px; text-align: center; text-transform: uppercase; }
+.calendar caption a { font-weight: bold; text-decoration: none; }
+.calendar th { text-align: center; padding: 0px; border-right: medium none; }
+.calendar td { text-align: center; padding: 0px; font-size: 80%; line-height: 250%; }
+.calendar td a { font-weight: normal; display: block; text-decoration: none; }
+div.event-list { margin-bottom: 60px; }
+h2.calendar-topic { margin-top: 0px; }
+span.calendar-range { font-size: 70%; padding-left: 0.2em; }
+h3.event-date { margin: 1.6em 0px 0.6em; font-size: 112%; padding: 12px 0px 0px 6px; width: 40em; }
+div.event-summary { margin: 0px 0px 0.4em; overflow: hidden; }
+div.event-summary div { float: left; margin-bottom: -1000px; padding-bottom: 1000px; }
+div.event-time { float: left; width: 4.5em; text-align: left; padding: 0px 12px; font-weight: bold; font-size: 90%; }
+div.event-link { width: 38em; }
+#calendar-topics p { margin: 0px; padding: 0px; }
+#calendar-topics p a { text-decoration: none; font-weight: bold; }
+#right-column ul.calendar-topics { border-bottom: medium none; margin: 0px; }
+#right-column ul.calendar-topics li { list-style: none outside none; padding-left: 15px; }
+#right-column ul.calendar-topics li a { border-top: medium none; }
+.calendar .busy .day a { font-weight: bold; }
+.calendar .out { font-weight: normal; }
+.calendar .today .day a { font-weight: bold; }
+.calendar .today .day a:hover { text-decoration: underline; }
+#footer { clear: both; margin-bottom: 20px; }
+#footer div { width: 864px; margin: 0px auto; padding-top: 20px; text-align: left; text-transform: uppercase; }
+#footer ul { list-style: none outside none; margin-bottom: 20px; }
+#footer li { display: inline; font-size: 0.8em; margin: 0px 9px 0px 0px; padding-right: 11px; }
+#footer li a { text-decoration: none; text-transform: uppercase; background: none repeat scroll 0% 0% transparent; }
+body #footer li.butoday { border-right: medium none; }
+body #footer li.butoday a { font-weight: bold; color: rgb(138, 165, 177); }
+body #footer li.butoday a span { color: rgb(204, 0, 0); }
+
+/* ::::: http://www.bu.edu/honoringeve/wp-content/themes/bu-new-media-gray/style.6.css ::::: */
+
+body { color: rgb(68, 68, 68); background: none repeat scroll 0% 0% rgb(68, 68, 68); }
+#wrapper { background: url('bg-header-gray.jpg') repeat-x scroll 0% 0% rgb(255, 255, 255); }
+#left-column ul li, div.blank ul li { background: url('bullet-gray.gif') no-repeat scroll 0px 0.45em transparent; }
+#header h1 a { background: url('bg-logotype-gray.jpg') no-repeat scroll 0px 0px transparent; }
+h1, h2, h3, h4, h5 { color: rgb(34, 34, 34); }
+h6 { color: rgb(0, 0, 0); }
+a { color: rgb(98, 156, 190); }
+a:hover { text-decoration: none; }
+blockquote { border-top: 10px solid rgb(204, 204, 204); border-bottom: 10px solid rgb(204, 204, 204); color: rgb(153, 153, 153); }
+#quicksearch input { color: rgb(255, 255, 255); border: 1px solid rgb(170, 170, 170); }
+#quicksearch input#q { background: url('bg-input-gray.jpg') repeat-x scroll 0px 0px rgb(72, 72, 72); }
+#quicksearch input.button { color: rgb(170, 170, 170); background: none repeat scroll 0% 0% rgb(72, 72, 72); border: 1px solid rgb(170, 170, 170); }
+#quicksearch select { background: none repeat scroll 0% 0% rgb(51, 51, 51); color: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); }
+#nav li.sfhover, #nav li:hover { background: url('nav-bg-gray.jpg') repeat-x scroll 0px 0px rgb(81, 81, 81); }
+#nav.no-dive li.current_page_item:hover { background: none repeat scroll 0% 0% transparent; cursor: default; }
+#nav li li.sfhover, #nav li li:hover { background: none repeat scroll 0% 0% transparent; }
+#nav li ul { background: none repeat scroll 0% 0% rgb(81, 81, 81); }
+#nav li li a { border-top: 1px solid rgb(92, 92, 92); }
+#nav li a, #nav li.current_page_item ul li a, #nav li.current_page_ancestor ul li a { color: rgb(255, 255, 255); }
+#nav li a:hover, #nav li li a:hover, #nav li li.current_page_item a, #nav li.current_page_item ul li a:hover, #nav li.current_page_ancestor ul li a:hover, #nav li.current_page_item a, #nav li.current_page_ancestor a, #nav li.current_page_parent a { color: rgb(141, 213, 255); }
+.callout_right, .callout_left { border: 1px solid rgb(222, 222, 221); background: none repeat scroll 0% 0% rgb(250, 250, 250); color: rgb(0, 0, 0); }
+.callout_header { background: url('table-head.jpg') repeat-x scroll 0px 0px rgb(211, 211, 210); color: rgb(51, 51, 51); }
+.pullquote_right, .pullquote_left { color: rgb(0, 0, 0); border-top: 10px solid rgb(204, 204, 204); border-bottom: 10px solid rgb(204, 204, 204); }
+#content-banner { background-color: rgb(227, 240, 242); }
+img.banner { border: 1px solid rgb(187, 187, 187); background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+img.styled, img.alignnone, img.aligncenter, img.alignleft, img.alignright, img.left-pic, img.right-pic { border: 1px solid rgb(187, 187, 187); background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+.wp-caption { border: 1px solid rgb(187, 187, 187); background-color: rgb(238, 238, 238); }
+table { border-top: 1px solid rgb(204, 204, 204); border-left: 1px solid rgb(204, 204, 204); }
+th, td { border-bottom: 1px solid rgb(204, 204, 204); border-right: 1px solid rgb(204, 204, 204); }
+table.styled_table td, table.styled_table th { border-bottom: 2px solid rgb(255, 255, 255); border-right: 2px solid rgb(255, 255, 255); }
+table.styled_table { border-top: 2px solid rgb(255, 255, 255); border-left: 2px solid rgb(255, 255, 255); }
+table.styled_table tbody td { background-color: rgb(235, 235, 235); }
+table.styled_table thead { background: url('table-head.jpg') repeat-x scroll 0px 0px rgb(211, 211, 210); }
+table.styled_table tfoot, table.styled_table tbody th { background-color: rgb(225, 225, 225); }
+#content fieldset { border: 1px solid rgb(227, 225, 225); background: none repeat scroll 0% 0% rgb(252, 252, 252); }
+#content .contact_container form h2 { background: none repeat scroll 0% 0% rgb(241, 241, 241); color: rgb(51, 51, 51); }
+#content legend { color: rgb(51, 51, 51); background: none repeat scroll 0% 0% rgb(244, 244, 244); border: 1px solid rgb(204, 204, 204); }
+input.input-text:active, input.input-text:focus, textarea:active, textarea:focus, select:active, select:focus { border: 1px solid rgb(153, 153, 153); background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); }
+input.button { color: rgb(98, 156, 190); background: none repeat scroll 0% 0% rgb(252, 252, 252); border: 2px solid rgb(204, 204, 204); }
+input.button:hover { color: rgb(85, 85, 85); }
+input.input-text, textarea, select { background: none repeat scroll 0% 0% rgb(250, 250, 250); border: 1px solid rgb(204, 204, 204); color: rgb(51, 51, 51); }
+#left-column .gform_wrapper ul li { background: none repeat scroll 0% 0% transparent; padding-left: 0px; }
+.ui-datepicker th, .ui-datepicker td { padding: 0px; }
+.gform_wrapper .field_hover { border: 1px dashed rgb(33, 117, 169) ! important; }
+.gform_wrapper .field_selected { background-color: rgb(223, 239, 255); border: 1px solid rgb(194, 215, 239) ! important; }
+.gform_wrapper .gsection .gfield_label, .gform_wrapper h2.gsection_title, .gform_wrapper h3.gform_title { font-size: 16px; font-family: Helvetica,sans-serif; }
+.gform_wrapper .description, .gform_wrapper .gfield_description, .gform_wrapper .gsection_description, .gform_wrapper .instruction { font-family: verdana,sans-serif; }
+.gform_wrapper .gfield_required { color: rgb(204, 0, 0); }
+.gform_wrapper .gfield_error { background-color: rgb(255, 223, 223) ! important; border: 1px dotted rgb(200, 151, 151); }
+.gform_wrapper .gfield_error .gfield_label { color: rgb(121, 0, 0); }
+.gform_wrapper .validation_error { color: rgb(121, 0, 0); font-family: Helvetica,sans-serif; }
+.gform_wrapper .validation_message { color: rgb(121, 0, 0) ! important; font-family: verdana,sans-serif; }
+.gform_wrapper input.button { color: rgb(98, 156, 190); }
+.gform_wrapper input.button:hover { color: rgb(85, 85, 85); }
+#gforms_confirmation_message { background-color: rgb(255, 250, 198); border: 1px solid rgb(254, 218, 112); color: rgb(37, 37, 37); }
+.ui-datepicker-div, .ui-datepicker-inline, #ui-datepicker-div { font-family: "lucida sans","lucida grande",lucida,sans-serif; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 4px solid rgb(193, 193, 193); }
+.ui-datepicker-next, .ui-datepicker-prev { background: none repeat scroll 0% 0% rgb(238, 238, 238); }
+.ui-datepicker-next:hover, .ui-datepicker-prev:hover { background: none repeat scroll 0% 0% rgb(218, 218, 218); }
+.ui-datepicker-next a, .ui-datepicker-prev a { border: 1px solid rgb(211, 211, 211); }
+.ui-datepicker-header select { border: 1px solid rgb(211, 211, 211); color: rgb(85, 85, 85); background: none repeat scroll 0% 0% rgb(230, 230, 230); }
+.ui-datepicker-header option:focus, .ui-datepicker-header option:hover { background: none repeat scroll 0% 0% rgb(218, 218, 218); }
+table.ui-datepicker td a { color: rgb(85, 85, 85); background: none repeat scroll 0% 0% rgb(230, 230, 230); border: 1px solid rgb(255, 255, 255); }
+table.ui-datepicker td a:hover { border: 1px solid rgb(255, 255, 255); color: rgb(33, 33, 33); background: none repeat scroll 0% 0% rgb(218, 218, 218); }
+table.ui-datepicker td a:active { border: 1px solid rgb(170, 170, 170); color: rgb(33, 33, 33); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+table.ui-datepicker .ui-datepicker-title-row td { color: rgb(34, 34, 34); }
+table.ui-datepicker .ui-datepicker-title-row td a { color: rgb(34, 34, 34); }
+.gform_wrapper input, .gform_wrapper textarea, .gform_wrapper select { background: none repeat scroll 0px 0px rgb(250, 250, 250); border: 1px solid rgb(204, 204, 204); color: rgb(53, 50, 45); }
+.gform_wrapper input:active, .gform_wrapper input:focus, .gform_wrapper textarea:active, .gform_wrapper textarea:focus, .gform_wrapper select:active, .gform_wrapper select:focus { border: 1px solid rgb(153, 153, 153); background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); }
+#right-column .widget h2 { background: url('bg-widget-header.1.jpg') repeat-x scroll 0px 0px transparent; color: rgb(51, 51, 51); }
+#right-column .widget h2 a { color: rgb(51, 51, 51); background: url('nav-arrow.gif') no-repeat scroll 0px 1px transparent; }
+#right-column .widget h2 a:hover { color: rgb(102, 102, 102); }
+#right-column #bu-calendar-widget li a {  }
+#right-column #bu-calendar-widget ul.big li a:hover { color: rgb(98, 156, 190); }
+#right-column #bu-calendar-widget ul.big li a span.date { background: none repeat scroll 0% 0% rgb(159, 211, 242); }
+#right-column #bu-calendar-widget ul.big li a span.day { color: rgb(255, 255, 255); }
+#right-column #bu-calendar-widget ul.big li a span.month { color: rgb(87, 143, 175); }
+#right-column #bu-calendar-widget ul.big li a:hover span.date { color: rgb(255, 255, 255); }
+#bu-calendar-widget ul.default li a span.date { border-right: 1px solid rgb(204, 204, 204); }
+#bu-calendar-widget ul.default li a:hover, #bu-calendar-widget ul.default li a:hover span.date { color: rgb(51, 51, 51); }
+#right-column .widget-bu-calendar li a { border-top: medium none; }
+#right-column .widget-bu-calendar ul li a:hover { color: rgb(98, 156, 190); }
+#right-column .widget-bu-calendar ul li a span.date { border-right: 1px solid rgb(204, 204, 204); }
+#right-column .widget-bu-calendar ul li a span.month { color: rgb(87, 143, 175); }
+#right-column .widget-bu-calendar ul li a:hover span.date { color: rgb(51, 51, 51); }
+#right-column #bu-news-widget li a, #right-column .widget-bu-posts li a, #right-column #bu-calendar-widget li a, #right-column .widget-bu-calendar li a, #right-column .widget_links a, #right-column .widget_rss li a, #right-column .widget_archive li a, #right-column .widget_bu_links ul li a, #right-column .widget_categories li a { color: rgb(51, 51, 51); }
+#right-column #bu-news-widget li.excerpt strong, #right-column .widget-bu-posts li.excerpt strong { border-top: 1px solid rgb(202, 202, 202); color: rgb(175, 176, 170); }
+#right-column #bu-news-widget li a:hover, #right-column .widget-bu-posts li a:hover, #right-column #bu-calendar-widget li a:hover, #right-column .widget-bu-calendar li a:hover, #right-column .widget_links a:hover, #right-column .widget_rss li a:hover, #right-column .widget_archive li a:hover, #right-column .widget_bu_links ul li a:hover, #right-column .widget_categories li a:hover { color: rgb(87, 143, 175); }
+#right-column div.widget_rss .rss-date { color: rgb(98, 156, 190); }
+#right-column div.widget_rss .rssSummary { color: rgb(51, 51, 51); font-size: 90%; }
+#right-column div.widget_rss cite { color: rgb(51, 51, 51); font-size: 90%; }
+#right-column ul { border-bottom: 1px solid rgb(204, 204, 204); }
+#right-column li a { color: rgb(102, 102, 102); border-top: 1px solid rgb(204, 204, 204); }
+#right-column #contentnav li a.active, #right-column #contentnav li a:hover { color: rgb(98, 156, 190); }
+#right-column #contentnav li li a { background: url('bg-icn-gray-arrow.gif') no-repeat scroll 0px 0.6em transparent; border-top: medium none; color: rgb(102, 102, 102); }
+#right-column #contentnav li li a.active, #right-column #contentnav li li a:hover { background: url('bg-icn-gray-arrow-o.gif') no-repeat scroll 0px 0.6em transparent; }
+#right-column #contentnav li li ul li a.active, #right-column #contentnav li li ul li a:hover { background: none repeat scroll 0% 0% transparent; }
+#right-column #contentnav li.current_page_ancestor > a { color: rgb(98, 156, 190); }
+* html #right-column #contentnav li.current_page_ancestor > a { color: rgb(102, 102, 102); }
+#right-column #contentnav a.active { color: rgb(98, 156, 190); }
+div.post div.meta { border-bottom: 1px solid rgb(240, 240, 240); }
+div.headline_thumb img { border: 1px solid rgb(204, 204, 204); }
+h2.news-headline a { text-decoration: none; }
+h2.news-headline a:hover { text-decoration: underline; }
+.calendar { background: none repeat scroll 0% 0% rgb(237, 237, 237); }
+.calendar caption { color: rgb(102, 102, 102); }
+.calendar caption a:hover { color: rgb(153, 153, 153); }
+.calendar thead { border: 1px solid rgb(202, 202, 202); }
+.calendar th { background: none repeat scroll 0% 0% rgb(102, 102, 102); color: rgb(255, 255, 255); border-bottom: 1px solid rgb(204, 204, 204); }
+.calendar td a { color: rgb(68, 68, 68); }
+.calendar td a:hover { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#calendar-topics p a { color: rgb(102, 102, 102); }
+#calendar-topics p a:hover { color: rgb(98, 156, 190); }
+#right-column ul.calendar-topics li { background: url('bullet-gray.gif') no-repeat scroll 0px 0.45em transparent; }
+span.calendar-range { color: rgb(102, 102, 102); }
+h3.event-date { color: rgb(102, 102, 102); border-top: 1px solid rgb(204, 204, 204); }
+div.event-time { color: rgb(51, 51, 51); }
+.calendar .busy .day a { color: rgb(98, 156, 190); }
+.calendar .busy .day a:hover { color: rgb(68, 68, 68); }
+.calendar .out { color: rgb(92, 87, 79); background: none repeat scroll 0% 0% rgb(248, 247, 243); }
+.calendar .today .day a { color: rgb(255, 255, 255); background: none repeat scroll 0% 0% rgb(197, 197, 189); }
+.calendar .today .day a:hover { color: rgb(58, 65, 73); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+.selected { background: none repeat scroll 0% 0% rgb(197, 197, 189); }
+.eventDetail strong { color: rgb(98, 156, 190); }
+#footer { border-top: 1px solid rgb(34, 34, 34); }
+#footer div { color: rgb(204, 204, 204); }
+#footer span { color: rgb(133, 156, 170); }
+#footer ul { list-style: none outside none; }
+#footer li { border-right: 1px solid rgb(153, 153, 153); }
+#footer li a { color: rgb(204, 204, 204); }
+#footer li a:hover, #footer li.butoday a:hover, #footer li.butoday a:hover span { color: rgb(255, 255, 255); }
+
+/* ::::: http://www.bu.edu/honoringeve/files/custom.css? ::::: */
+
+#footer ul { background: url('bu-logo.gif') no-repeat scroll 0% 0% transparent; height: 50px; }
+#footer li.bu span { padding-left: 160px; }

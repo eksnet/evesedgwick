@@ -1,0 +1,27 @@
+
+/* Added file from json-parse/json-parse-min.js */
+/*
+YUI 3.11.0 (build d549e5c)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+YUI.add("json-parse",function(e,t){var n=e.config.global.JSON;e.namespace("JSON").parse=function(e,t,r){return n.parse(typeof e=="string"?e:e+"",t,r)}},"3.11.0",{requires:["yui-base"]});
+
+/* Added file from json-stringify/json-stringify-min.js */
+/*
+YUI 3.11.0 (build d549e5c)
+Copyright 2013 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+YUI.add("json-stringify",function(e,t){var n=":",r=e.config.global.JSON;e.mix(e.namespace("JSON"),{dateToString:function(e){function t(e){return e<10?"0"+e:e}return e.getUTCFullYear()+"-"+t(e.getUTCMonth()+1)+"-"+t(e.getUTCDate())+"T"+t(e.getUTCHours())+n+t(e.getUTCMinutes())+n+t(e.getUTCSeconds())+"Z"},stringify:function(){return r.stringify.apply(r,arguments)},charCacheThreshold:100})},"3.11.0",{requires:["yui-base"]});
+
+/* Added file from themes/salon/js/slnm/vendor/amazon/dtb.js */
+function aax_punt(){html='<a target="_blank" href="http://www.amazon.com/"><img src="http://cdn-aax.amazon.com/aax2/default/amzn_a-z-ebs_'+aax_size+'.jpg" border=0 /></a>',document.write(html)}function amzn_render(a){var b=amzn_ads[a];if(b==null)return aax_punt();if(typeof b.html=="undefined"||b.html=="")return aax_punt();document.writeln(b.html)}function aax_render_ad(a){if(!a.html||a.html=="")return;amzn_ads[aax_size]=a,ns_targ+="amzn_"+aax_size+"=1;",oas_targ+="amzn_"+aax_size+"=1;",windowGA_googleAddAttr&&GA_googleAddAttr("amzn_"+aax_size,"1")}YUI.add("amazon-dtb",function(a){});var aax_src=1064,aax_channel="100",aax_size="300x250",amzn_ads={};ns_targ=window.ns_targ||"",oas_targ=window.oas_targ||"",targ=window.targ||"";try{var params={src:aax_src,c:aax_channel,sz:aax_size,ec:0,slot:window.aax_slot,site:window.aax_site,pt:window.aax_pagetype,u:window.aax_refurl||(window.top?window.top.location+"":document.location),ct:window.aax_clickurl,cup:window.aax_clickurlparams},href="";for(var key in params)href+=key+"="+encodeURIComponent(params[key])+"&";href+="rnd="+Math.round(Math.random()*1e6),document.write("<script src='http://aax-us-east.amazon-adsystem.com/x/getad?"+href+"'></scr"+"ipt>")}catch(e){aax_punt()};
+/* Added file from themes/salon/js/slnm/apps/criteo-loader.js */
+YUI.add("criteo-loader",function(a){function e(a){var b,c,d,e=document.cookie.split(";");for(b=0;b<e.length;b++){c=e[b].substr(0,e[b].indexOf("=")),d=e[b].substr(e[b].indexOf("=")+1),c=c.replace(/^\s+|\s+$/g,"");if(c==a)return unescape(d)}return""}function j(){var a=window.crtg_content||"",b=a.split(";");if(googletag&&googletag.pubads)for(var c=0,d=b.length;c<d;c++){var e=b[c].split("=");googletag.pubads().setTargeting(e[0],e[1])}}var b="2475",c="cto_salon",d="crtg_content";window.crtg_content=e(c);var f=Math.floor(Math.random()*99999999999),g=location.protocol+"//rtax.criteo.com/delivery/rta/rta.js?netId="+escape(b);g+="&cookieName="+escape(c),g+="&rnd="+f,g+="&varName="+escape(d);var h=document.createElement("script");h.type="text/javascript",h.src=g,h.async=!0,document.getElementsByTagName("head").length>0?document.getElementsByTagName("head")[0].appendChild(h):document.getElementsByTagName("body").length>0&&document.getElementsByTagName("body")[0].appendChild(h);var i=window.slnm=window.slnm||{};i.additionalTargeting=i.additionalTargeting||[],i.additionalTargeting.push(j)},"0.0.1",{requires:["salon-ads"]});
+/* Added file from themes/salon/js/slnm/utils/ga-tracking-setup.js */
+slnm=window.slnm||{},YUI.add("ga-tracking-setup",function(a){a.gaTracking=function(b){function e(){var b,c="."+location.hostname.match(/[^\.]+\.[^\.]+$/);location.href.match(/\.stage\d\./)?b="UA-1232497-7":b="UA-1232497-1",_gaq.push(["_setAccount",b]),_gaq.push(["_setDomainName",c]),slnm.config.doTests&&slnm.assert("log","Google Analytics initialized.\nAccount: "+b+"\nDomain: "+c),i(d,!0),a.Array.each(d.events,function(a){h(a)}),f()}function f(){a.one("body").on("click",function(a){var b=a.target,c=a.target.ancestor(".gaTrackEvent, .gaTrackLinkEvent");if(c||b.hasClass("gaTrackEvent")||b.hasClass("gaTrackLinkEvent"))b=c||b,g(b)}),a.all(".reddit-widget .reddit-link a").on("click",function(a){h(["reddit","click",a.currentTarget.get("text")])})}function g(b,c){var d=c||a.JSON.parse(b.getAttribute("data-ga-track-json"));d.events?a.Array.each(d.events,function(a){h(a)}):h(d)}function h(b){b.unshift("_trackEvent"),_gaq.push(b),slnm.config.doTests&&slnm.assert("log","Google Analytics trackLink.\n"+a.JSON.stringify(b))}function i(b,c){c||(slnm.comscoreBeacon&&slnm.comscoreBeacon(),slnm.config.doTests&&slnm.assert("log","Comscore Beacon fired.")),a.each(b.slots,function(a,b){_gaq.push(["_setCustomVar",b,a[0],a[1],a[2]])}),_gaq.push(["_setCustomVar",4,"userType",slnm.user.userStatus,3]),_gaq.push(["_trackPageview"]),slnm.config.doTests&&slnm.assert("log","Google Analytics trackPage.\n"+a.JSON.stringify(b)+"\n userStatus: "+slnm.user.userStatus)}var c=this,d=a.JSON.parse(b.get("innerHTML"));c.trackPage=i,c.trackLink=h,c.inPageDepth=0,e()}},{version:"0.0.1",requires:["node","json","salon-user"]});

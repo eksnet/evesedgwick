@@ -1,0 +1,32 @@
+
+
+var OAS_taxonomy = 'muid=01041385851037942404463';
+var OAS_pubclick = 'http://msite.martiniadnetwork.com/action/track/type/0/pid/19112157414f79b29eb958e/sid/5591517184f7b4cd4af8a8/loc/http%3A%2F%2Fwww.theawl.com%2F2013%2F05%2Feve-sedgwick-after-death%2F';
+if (typeof MMI_ClickURL == 'undefined')
+var MMI_ClickURL = ' ';
+OAS_pubclick = OAS_pubclick + '/pubclick/' + MMI_ClickURL;
+var OAS_searchterms = '';
+var MMI_scriptstr =  "  ";
+
+
+function MMI_AdScript(tck, pos)
+{
+    switch(tck)
+    {
+    case 0:
+    eval("  document.write(\"<img  height='1' width='1' style='display: none;' border='0' src='http:\/\/b.scorecardresearch.com\/p?c1=8&c2=8500755&c3=5591517184f7b4cd4af8a8&c15=&cv=2.0&cj=1' ><\/img>\");");
+    break;
+    case 1:
+    eval(MMI_scriptstr.replace("cj=1","cj=1&c10="+pos));
+    break;
+    case 2:
+    eval("  document.write(\"<img height='1' width='1' style='display:none;' src='http:\/\/s.ixiaa.com\/digi\/74FD3F27-87A5-4623-80C8-AB4ED16EB84F\/a.gif?redirect=http%3A%2F%2Fmsite.martiniadnetwork.com%2Fdata%2Findex%2Fds%2Fixi%2Fabsid%2F01041385851037942404463%2Fsegments%2FAA%3D%7BAA_value%7D%2CAB%3D%7BAB_value%7D%2CAC%3D%7BAC_value%7D%2CAY%3D%7BAY_value%7D%2CAZ%3D%7BAZ_value%7D%2CEA%3D%7BEA_value%7D%2CEB%3D%7BEB_value%7D%2CEC%3D%7BEC_value%7D%2CED%3D%7BED_value%7D%2CEE%3D%7BEE_value%7D%2CGA%3D%7BGA_value%7D%2CGB%3D%7BGB_value%7D%2CGC%3D%7BGC_value%7D%2CGD%3D%7BGD_value%7D%2CGE%3D%7BGE_value%7D%2CGF%3D%7BGF_value%7D%2CGG%3D%7BGG_value%7D%2CGH%3D%7BGH_value%7D%2CGI%3D%7BGI_value%7D%2CGJ%3D%7BGJ_value%7D%2CHA%3D%7BHA_value%7D%2CHB%3D%7BHB_value%7D%2CHC%3D%7BHC_value%7D%2CHD%3D%7BHD_value%7D%2CHE%3D%7BHE_value%7D%2CHF%3D%7BHF_value%7D%2CVA%3D%7BVA_value%7D%2CVB%3D%7BVB_value%7D%2CVC%3D%7BVC_value%7D%2CVD%3D%7BVD_value%7D%2CVE%3D%7BVE_value%7D%2CFA%3D%7BFA_value%7D%2CFB%3D%7BFB_value%7D%2CFC%3D%7BFC_value%7D%2CFD%3D%7BFD_value%7D%2CFE%3D%7BFE_value%7D%2F'><\/img>\");document.write(\"<img src='http:\/\/ib.adnxs.com\/getuid?http:\/\/msite.martiniadnetwork.com\/sync\/index\/eid\/$UID\/' height='1' width='1' style='display:none;' \/>\");document.write(\"<script type='text\/javascript' src='http:\/\/ib.mookie1.com\/pibiview.js?go=4203&pid=51&xid=01041385851037942404463'><\/script>\");document.write(\"<img  height='1' width='1' style='display: none;' border='0' src='http:\/\/loadr.exelator.com\/load\/?p=104&g=280&absid=01041385851037942404463&j=0'><\/img>\");");
+    break;
+    case 3:
+    eval();
+    break;
+    /* Bug# 1107: Removing mShare toolbar from every ad call */
+    }
+ }
+
+ MMI_AdScript(0,''); MMI_AdScript(2,''); MMI_AdScript(-1,'');

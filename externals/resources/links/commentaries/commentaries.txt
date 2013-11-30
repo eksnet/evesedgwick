@@ -1,0 +1,138 @@
+Fields: 
+Link name from EKS.net
+Item name in  Zotero (Zotero gets from remote site)
+Index file name in Zotero folder
+Folder name in Zotero library 
+URL for archived site as it will appear in EKS.net
+
+abbreviated as:
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries// [modify as necessary]
+
+
+Link:  The Honoring Eve Symposium: Feminism and Queer Theory
+Item:   About the Symposium » Honoring Eve » Boston University
+Index:  about-the-symposium.html
+Folder: W2ZS8U38
+URL: http://evekosofskysedgwick.net/externals/resources/links/commentaries/W2ZS8U38/about-the-symposium.html 
+
+Link:   After Eve
+Item:   After Eve, in honor of Eve Kosofsky Sedgwick
+Index:  after-eve-in-honor-of-eve-kosofsky-sedgwick.html
+Folder: K25KCFCT
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/K25KCFCT/after-eve-in-honor-of-eve-kosofsky-sedgwick.html
+
+Link:   When Feminism Rules: Assessing Governance Feminism Projects from the International to the Local
+Item:   3rd Annual Eve Kosofsky Sedgwick Memorial Lecture in Gender and Sexuality Studies
+YouTube - link only
+
+Link:   Sedgwick Sense and Sensibility
+Item:   Interview: Sedgwick - O'Rourke
+Index:  20.Tvc.v9.intrvws.Sedg.html
+Folder: A3UH8FQI
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/A3UH8FQI/20.Tvc.v9.intrvws.Sedg.html
+
+Link:   [to be added]
+Item:   Teaching/Depression
+Index:  printese.html
+Folder: 5XE7IQ98
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/5XE7IQ98/printese.html
+
+Link/s:   Recorded comments One and Two
+Item:   Conference Comments and Conversations - Writing a Feminist's Life: The Legacy of Carolyn G. Heilbrun | S&F Online | Writing a Feminist's Life: The Legacy of Carolyn G. Heilbrun
+Index:  conference.html
+Folder: 84B3IVFT
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/84B3IVFT/conference.html
+
+Link:   Jane Austen and the Masturbating Girl
+Item:   Jane Austen and the Masturbating Girl - Sedgwick,_Jane_Austen_and_the_Masturbating_Girl.pdf
+Index:  Sedgwick,_Jane_Austen_and_the_Masturbating_Girl.pdf
+Folder: 86MRNDNZ
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/86MRNDNZ/Sedgwick,_Jane_Austen_and_the_Masturbating_Girl.pdf
+
+Link:   Between Men 
+Item:   Krieg, Joann P. ed., Walt Whitman: Here and Now; and Eve Kosofsky Sedgwick, Between Men: English Literature and Male Homosocial Desire [review] - viewcontent.cgi
+Index:  viewcontent.pdf
+Folder: Z6FGQ36U
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/Z6FGQ36U/viewcontent.pdf
+
+Link:   Tendencies
+Item:   Proclivities of Criticism
+Index:  proclivities-of-criticism.html
+Folder: SDQ4KHFD
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/SDQ4KHFD/proclivities-of-criticism.html
+
+Link:   Touching Feeling and Regarding Sedgwick
+Item:   Vibrating to the Chord of Queer
+Index:  vibrating-to-the-chord-of-queer.html
+Folder: U9VDZQBE
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/U9VDZQBE/vibrating-to-the-chord-of-queer.html
+
+Link:   The Weather in Proust
+Item:   ‘The Weather in Proust’ By Eve Kosofsky Sedgwick
+Index:  the-weather-in-proust-by-eve-kosofsky-sedgwick.html
+Folder: R9SRPHG7
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/R9SRPHG7/the-weather-in-proust-by-eve-kosofsky-sedgwick.html
+
+Link:    My Dear Holmes: Examining Sedgwick’s Theory of Homosociality in The Sign of Four
+Item:   My Dear Holmes: Examining Sedgwick's Theory of Homosociality in The Sign of Four
+Index:  My_Dear_Holmes_Examining_Sedgwicks_Theory_of_Homosociality_in_The_Sign_of_Four.html
+Folder: SUUAKG7F
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/SUUAKG7F/My_Dear_Holmes_Examining_Sedgwicks_Theory_of_Homosociality_in_The_Sign_of_Four.html
+
+Link:   New Conjunctions
+Item:   eve kosofsky sedgwick - artforum.com / in print - eve-kosofsky-sedgwick-artforumcom-_-in-print.pdf
+Index:  eve-kosofsky-sedgwick-artforumcom-_-in-print.pdf
+Folder: KCA2N4KT
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/KCA2N4KT/eve-kosofsky-sedgwick-artforumcom-_-in-print.pdf
+
+Link:   Eve Sedgwick, Once More
+Item:   Eve Sedgwick, Once More - Berlant,_Sedgwick_Once_More.pdf
+Index:  Eve Sedgwick, Once More - Berlant,_Sedgwick_Once_More.pdf
+Folder: AMKDQ368
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/AMKDQ368/Eve Sedgwick, Once More - Berlant,_Sedgwick_Once_More.pdf
+
+Link:   Sedgwick’s Geographies: Touching Space
+Item:   Sedgwick's geographies: Touching space
+Index:  Sedgwicks_geographies_Touching_space.html
+Folder: 39ZPF47R
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/39ZPF47R/Sedgwicks_geographies_Touching_space.html
+
+Link:   I’m Nobody: Eve Sedgwick After Death
+Item:   I'm Nobody: Eve Sedgwick After Death
+Index:  eve-sedgwick-after-death.html
+Folder: CZPMAM97
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/CZPMAM97/eve-sedgwick-after-death.html
+
+Link:   Loose reading? Sedgwick, Austen and critical practice
+Item:   Loose reading, Sedgwick, Austen and critical practice - edited version
+Index:  Loose_reading_Sedgwick_Austen_and_critical_practice_-_edited_version.html
+Folder: 4WK5U8GT
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/4WK5U8GT/Loose_reading_Sedgwick_Austen_and_critical_practice_-_edited_version.html
+
+Link:   ‘Queer Theory’ Is Entering The Literary Mainstream
+Item:   'Queer Theory' Is Entering The Literary Mainstream
+Index:  queer-theory-is-entering-the-literary-mainstream.html
+Folder: 2PTU2A9B
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/2PTU2A9B/queer-theory-is-entering-the-literary-mainstream.html
+
+Link:   Reading A Poem Is Being Written
+Item:   339-348.pdf
+Index:  339-348.pdf
+Folder: D7CFU6QU
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/D7CFU6QU/339-348.pdf
+
+Link:   Imitation and Desire in Sedgwick and Soseki
+Item:   Imitation and Desire in Sedgwick and Sōseki
+Index:  Imitation_and_Desire_in_Sedgwick_and_Soseki.html
+Folder: TZDPRK3A
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries/TZDPRK3A/Imitation_and_Desire_in_Sedgwick_and_Soseki.html
+
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/resources/links/commentaries//
