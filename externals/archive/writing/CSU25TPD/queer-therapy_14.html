@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.villagevoice.com/1999-08-03/books/queer-therapy/">
+<meta name="wpd_url" content="http://www.myvoicenation.com/widget/subscribe/nyv/Arts/3/">
+<meta name="wpd_date" content="2013-11-28T19:56Z">
+
+        
+    <script src="challenge_002.dat" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="queer-therapy_14.css" media="all">
+</head>
+<body>
+        <div id="main-container">
+            <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+            <script type="text/javascript" src="recaptcha_ajax.js"></script>
+            <script type="text/javascript">
+
+                var ssoFrame = window.parent.frames['easyXDM_mvn_provider'],
+                    MVN_Server = ssoFrame.MVN_Server,
+                    jQuery = ssoFrame.jQuery,
+                    $ = jQuery.extend(function (a,b) {
+                            return jQuery.apply(this, [a, b||document])
+                    }, jQuery);
+
+                var defaultEmailText = "Enter Your Email",
+                    omni = MVN_Server.client,
+                    cid = "nyv",
+                    sid = "8|57|1649",
+                    modalName = 'subscribe',
+                    closeButtonUrl = "";
+
+                function updateModal() {
+                    MVN_Server.client.updateModal(modalName, {'height': $('#main-container').outerHeight(true)});
+                }
+                function hideError(refresh){
+                    hideLoading();
+                    $('p.error').remove();
+                    if(refresh||false)
+                        updateModal();
+                }
+                function showError(err){
+                    var i, html = '';
+                    hideError();
+                    if (Object.prototype.toString.call(err) !== '[object Array]') {
+                        err = [err];
+                    }
+                    for(i = 0; i < err.length; i++) {
+                        html+='<p class="error">'+err[i]+'</p>'
+                    }
+                    $('#right').before(html);
+                    updateModal();
+                }
+                function showLoading(){
+                    hideError(true);
+                    if(!$('span#loading').length){
+                        $('body').append(
+                            $('<span id="loading"/>')
+                                .append(
+                                    $('<span class="trans-50"/>')
+                                ).append(
+                                    $('<span/>')
+                            )
+                        );
+                    }
+                    $('span#loading').show();
+                    omni.modalEvent(modalName, 'loading');
+                }
+                function hideLoading(){
+                    $('span#loading').hide();
+                }
+                function validate(){
+                    if(!$('input#email').val().match(/^[^@].*@.*\..*[^@]$/g)||false){
+                        showError("Invalid Email");
+                        return false;
+                    }else if($.trim($('input#recaptcha_response_field').val())==''){
+                        showError("Empty reCaptcha Response");
+                        return false;
+                    }else{
+                        return true;
+                    }
+                }
+                if (typeof document.createElement("input").placeholder === 'undefined') {
+                    $(document.body).on('focus', 'input[placeholder]', function () {
+                        if (this.value == $(this).attr('placeholder')) {
+                            this.value = '';
+                        }
+                        $(this).removeClass('placeholder');
+                    }).on('blur', 'input[placeholder]', function () {
+                        if (this.value == '') {
+                            this.value = $(this).attr('placeholder');
+                            $(this).addClass('placeholder');
+                        } else {
+                            $(this).removeClass('placeholder');
+                        }
+                    });
+                    $('input[placeholder]').blur();
+                }
+
+            </script>
+            <img title="Get Connected!" src="nyv.png" class="header">
+            <h2>NEWSLETTERS</h2>
+            <div class="line"></div>
+            <form action="http://www.myvoicenation.com/widget/subscribe/nyv/Arts/3/" id="subscribe">
+                <div id="left">
+                    <h1> JOIN </h1>
+                    <p>
+
+                        All-access pass to the top stories, events <br> and offers around town.
+                    </p>
+                                        <ul class="subscriptions">
+                                                    <li class="left">
+                                <label title="(<i>Up to multiple times a week</i>) Information on theater and the performing arts.">
+                                    <input name="subs[]" checked="" value="7" type="checkbox">
+                                    <p>
+
+                                                                                    Theatre                                                                            </p>
+                                </label>
+                            </li>
+                                                    <li class="right">
+                                <label title="What's happening in town? From underground club nights to the biggest outdoor festivals, our top picks for the week's best events will always keep you in on the action.">
+                                    <input name="subs[]" checked="" value="24" type="checkbox">
+                                    <p>
+
+                                                                                    Events                                                                            </p>
+                                </label>
+                            </li>
+                                                    <li class="left">
+                                <label title="(<i>Sent out every Thursday</i>) VIP events, free tickets, hot prize packages, and special offers only available to our subscribers.">
+                                    <input name="subs[]" checked="" value="3" type="checkbox">
+                                    <p>
+
+                                                                                    Promotions                                                                            </p>
+                                </label>
+                            </li>
+                                                    <li class="right">
+                                <label title="Pick your flicks with the week's reviews, trailers and giveaways delivered straight to your inbox just in time for the weekend.">
+                                    <input name="subs[]" checked="" value="16" type="checkbox">
+                                    <p>
+
+                                                                                    Film                                                                            </p>
+                                </label>
+                            </li>
+                                            </ul>
+                </div>
+                <!-- right -->
+                <div id="right">
+                                        <input placeholder="Enter Your Email" id="email" name="email" type="text">
+                    <div id="captcha">
+                        <p>
+
+                            Type in the phrase you see below:
+                        </p>
+                        <div class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio" id="recaptcha_widget" style="">
+                            <div id="recaptcha_image" style="width: 300px; height: 57px;"><img style="display: block;" alt="reCAPTCHA challenge image" src="image_002.dat" height="57" width="300"></div>
+                            <div class="recaptcha_only_if_incorrect_sol" style="color: red;">Incorrect please try again</div>
+                            <table class="captchaBar">
+                                <tbody><tr>
+                                    <td>
+                                        <span style="display: none;" id="recaptcha_challenge_field_holder"><input name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VuuMFBy_e5TdvItLtNPWElxI6iFAGZYai7uWrvxIyyfSkbXDIT7JFSAYoVg2cRUyzfnYMgu-DbFw7T8yP7YolXjXPjSmdU1N657UmKHzHUmH1NhOnYbbqUvqVDVBg7WEdoncD9khrHgUttJ_tyVuUYPY654jwl2CmXyydSykytzve5NCBD4" type="hidden"></span><input autocomplete="off" id="recaptcha_response_field" name="recaptcha_response_field" type="text">
+                                    </td>
+                                    <td>
+                                        <div class="reload">
+                                            <a href="javascript:Recaptcha.reload()">
+                                                <img src="reload.png" title="Get another CAPTCHA">
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="recaptcha_only_if_image">
+                                            <a href="javascript:Recaptcha.switch_type('audio')">
+                                                <img src="audio.png" title="Get an audio CAPTCHA">
+                                            </a>
+                                        </div>
+                                        <div class="recaptcha_only_if_audio">
+                                            <a href="javascript:Recaptcha.switch_type('image')">
+                                                <img src="image.png" title="Get an image CAPTCHA">
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button type="button" id="sign-up">Sign Up</button>
+                        <button type="button" id="remind-me-later">Remind Me Later</button>
+                        <button type="button" id="no-thanks">No Thanks</button>
+                    </div>
+                    <a href="http://www.myvoicenation.com/about/privacyPolicy/" class="privacyPolicy" target="_top">Privacy Policy</a>
+                </div>
+            </form>
+        </div>
+        <script type="text/javascript">
+
+            $(window).load(function(){
+                updateModal();
+                var i = 10, interval = setInterval(function(){
+                    if (i > 0) {
+                        updateModal();
+                        i--;
+                    } else clearInterval(interval);
+                }, 500);
+            });
+            $('input#email').focus(function(){
+                if($(this).val()==defaultEmailText){
+                    $(this).val('').css('color', '#000');
+                }
+                $('body > ul > li:first').removeClass('rborder');
+                    $('body > ul > li:last').addClass('lborder');
+                updateModal();
+            }).blur(function(){
+                $(this).val($.trim($(this).val()));
+                if($(this).val()==''||$(this).val()==defaultEmailText){
+                    $(this).val(defaultEmailText).css('color', '#888');
+                    updateModal();
+                }
+            }).keypress(function(e){
+                if(e.keyCode==13){
+                    $(this).blur();
+                    $('#sign-up').click();
+                }
+            });
+
+            $('#sign-up').click(function(){
+                if (validate()) {
+                    hideError(true);
+                    showLoading();
+                    var formData = $('form#subscribe').serializeArray();
+                    formData.push({name: 'cid', value: cid});
+                    formData.push({name: 'sid', value: sid});
+                    $.ajax({
+                        url: '/widget/subscribe_ajax',
+                        data: formData,
+                        type: 'POST',
+                        dataType: 'json',
+                        success: function(resp){
+                            if (resp){
+                                hideLoading();
+                                if(resp.status === 'success') {
+                                    omni.modalEvent(modalName, 'subscribed', resp);
+                                    return;
+                                } else if (resp.errors) {
+                                    showError(resp.errors);
+                                    Recaptcha.reload("t");
+                                    omni.modalEvent(modalName, 'error', resp);
+                                    return;
+                                }
+                            }
+                            showError('Unknown error, please try again.');
+                            omni.modalEvent(modalName, 'error');
+                        }
+                    });
+                }
+            });
+
+            $('#remind-me-later').click(function(){
+                omni.modalEvent(modalName, 'remindme');
+            });
+
+            $('#no-thanks').click(function(){
+                omni.modalEvent(modalName, 'nothanks');
+            });
+            Recaptcha.create('6LfmE70SAAAAALaT9GCVvdjZcjCk2bexMIb1pA74', 'recaptcha_widget', {theme: 'custom', custom_theme_widget: 'recaptcha_widget'});
+        </script>
+    
+</body>
+</html>

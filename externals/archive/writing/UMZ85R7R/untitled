@@ -1,0 +1,181 @@
+var Mint = new Object();
+Mint.save = function() 
+{
+	var now		= new Date();
+	var debug	= false; // this is set by php 
+	if (window.location.hash == '#Mint:Debug') { debug = true; };
+	var path	= 'http://www.vqronline.org/mint/?record&key=6b4732557a356e3654436a7154314c363238634338334b31';
+	path 		= path.replace(/^https?:/, window.location.protocol);
+	
+	// Loop through the different plug-ins to assemble the query string
+	for (var developer in this) 
+	{
+		for (var plugin in this[developer]) 
+		{
+			if (this[developer][plugin] && this[developer][plugin].onsave) 
+			{
+				path += this[developer][plugin].onsave();
+			};
+		};
+	};
+	// Slap the current time on there to prevent caching on subsequent page views in a few browsers
+	path += '&'+now.getTime();
+	
+	// Redirect to the debug page
+	if (debug) { window.open(path+'&debug&errors', 'MintLiveDebug'+now.getTime()); return; };
+	
+	var ie = /*@cc_on!@*/0;
+	if (!ie && document.getElementsByTagName && (document.createElementNS || document.createElement))
+	{
+		var tag = (document.createElementNS) ? document.createElementNS('http://www.w3.org/1999/xhtml', 'script') : document.createElement('script');
+		tag.type = 'text/javascript';
+		tag.src = path + '&serve_js';
+		document.getElementsByTagName('head')[0].appendChild(tag);
+	}
+	else if (document.write)
+	{
+		document.write('<' + 'script type="text/javascript" src="' + path + '&amp;serve_js"><' + '/script>');
+	};
+};
+if (!Mint.SI) { Mint.SI = new Object(); }
+Mint.SI.Referrer = 
+{
+	onsave	: function() 
+	{
+		var encoded = 0;
+		if (typeof Mint_SI_DocumentTitle == 'undefined') { Mint_SI_DocumentTitle = document.title; }
+		else { encoded = 1; };
+		var referer		= (window.decodeURI)?window.decodeURI(document.referrer):document.referrer;
+		var resource	= (window.decodeURI)?window.decodeURI(document.URL):document.URL;
+		return '&referer=' + escape(referer) + '&resource=' + escape(resource) + '&resource_title=' + escape(Mint_SI_DocumentTitle) + '&resource_title_encoded=' + encoded;
+	}
+};
+if(typeof window.addEventListener != 'undefined')
+	window.addEventListener('load', outclicks_init, false);
+else if(typeof document.addEventListener != 'undefined')
+	document.addEventListener('load', outclicks_init, false);
+
+else if(typeof window.attachEvent != 'undefined')
+	window.attachEvent('onload', outclicks_init);
+else
+{
+	if(typeof window.onload == 'function')
+	{
+		var existing = onload;
+
+		window.onload = function()
+		{
+			existing();
+			outclicks_init();
+		};
+	}
+	else
+	{
+		window.onload = outclicks_init;
+	}
+}
+
+function oc_addEvent(elm, evType, fn, useCapture) {
+	if (elm.addEventListener) {
+		elm.addEventListener(evType, fn, useCapture);
+		return true;
+	}
+	else if (elm.attachEvent) {
+		var r = elm.attachEvent('on' + evType, fn);
+		return r;
+	}
+	else {
+		elm['on' + evType] = fn;
+	}
+}
+
+function outclicks_init () {
+	 olinks = document.getElementsByTagName('a');
+	 this_domain = 'vqronline.org';
+
+	 for (i=0; i < olinks.length; i++) {
+		link = olinks[i].href;
+		// if it is off-domain and not a link, add listener
+		if(oc_get_domain(link) != this_domain && link.indexOf('javascript:') == -1) {
+            // hopefully that will do
+            oc_addEvent(olinks[i], "click", trackOutclicks);
+                        
+        }
+	 }
+
+}
+
+function oc_get_domain(str) {
+	if (str.substr(0,7) == 'http://') str = str.substr(7);
+	if (str.substr(0,8) == 'https://') str = str.substr(8);
+	str = str.substr(0,str.indexOf('/'));
+	str = str.replace('www.','');
+	return str;
+}
+
+function esc (str) {
+	if (typeof encodeURIComponent == 'undefined')
+		return escape(str);
+	else
+		return encodeURIComponent(str);
+}
+
+function trackOutclicks (e) {
+    e = (e) ? e : ((window.event) ? window.event : "");
+    if(e){
+        var elem = (e.target) ? e.target : e.srcElement;
+        var path = '/mint/pepper/andrewsutherland/outclicks/data.php';
+
+        path += "?outclick="+esc(elem.href);
+        path += "&from_title="+esc(document.title);
+        path += "&from="+esc(self.location);
+
+        // old browsers
+        if (typeof encodeURIComponent == 'undefined') {
+                // when user clicks a site, then back, then clicks another, don't retrack their hits
+                // don't worry, it confuses me too
+                c = document.getElementById('outClickTracker');
+                if (c) c.parentNode.removeChild(c);
+                document.body.innerHTML += '<script src="'+path+'" language="javascript" id="outClickTracker"></script>';
+        }
+        else {
+
+            var data = false;
+            /*@cc_on @*/
+            /*@if (@_jscript_version >= 5)
+            try { data = new ActiveXObject("Msxml2.XMLHTTP"); } 
+            catch (e) { try { data = new ActiveXObject("Microsoft.XMLHTTP"); } catch (E) { data = false; } }
+            @end @*/
+            if (!data && typeof XMLHttpRequest!='undefined') data = new XMLHttpRequest();
+            if (data) data.open("GET", path, false); data.send(null);
+        
+        }    
+    }
+
+}if (!Mint.SI) { Mint.SI = new Object(); }
+Mint.SI.RealEstate = 
+{
+	onsave	: function() 
+	{
+		var width = -1;
+		var height = -1;
+		
+		if (typeof window.innerWidth != "undefined")
+		{
+			width = window.innerWidth;
+			height = window.innerHeight;
+		}
+		else if (document.documentElement && typeof document.documentElement.offsetWidth != "undefined" && document.documentElement.offsetWidth != 0)
+		{
+			width = document.documentElement.offsetWidth;
+			height = document.documentElement.offsetHeight;
+		}
+		else if (document.body && typeof document.body.offsetWidth != "undefined")
+		{
+			width = d.body.offsetWidth;
+			height = d.body.offsetHeight;
+		};
+		
+		return '&window_width=' + width + '&window_height=' + height;
+	}
+};Mint.save();

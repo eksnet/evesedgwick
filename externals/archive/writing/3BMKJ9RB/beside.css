@@ -1,0 +1,777 @@
+
+/* ::::: http://www.electronicbookreview.com/modules/system/system.base.css?mt0u1w ::::: */
+
+#autocomplete { border: 1px solid; overflow: hidden; position: absolute; z-index: 100; }
+#autocomplete ul { list-style: none outside none; margin: 0px; padding: 0px; }
+#autocomplete li { background: none repeat scroll 0% 0% rgb(255, 255, 255); color: rgb(0, 0, 0); cursor: default; white-space: pre; }
+html.js input.form-autocomplete { background-image: url('throbber.gif'); background-position: 100% 2px; background-repeat: no-repeat; }
+html.js input.throbbing { background-position: 100% -18px; }
+html.js fieldset.collapsed { border-bottom-width: 0px; border-left-width: 0px; border-right-width: 0px; height: 1em; }
+html.js fieldset.collapsed .fieldset-wrapper { display: none; }
+fieldset.collapsible { position: relative; }
+fieldset.collapsible .fieldset-legend { display: block; }
+.form-textarea-wrapper textarea { display: block; margin: 0px; width: 100%; -moz-box-sizing: border-box; }
+.resizable-textarea .grippie { background: url('grippie.png') no-repeat scroll center 2px rgb(238, 238, 238); border-right: 1px solid rgb(221, 221, 221); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(221, 221, 221); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; cursor: s-resize; height: 9px; overflow: hidden; }
+body.drag { cursor: move; }
+.draggable a.tabledrag-handle { cursor: move; float: left; height: 1.7em; margin-left: -1em; overflow: hidden; text-decoration: none; }
+a.tabledrag-handle:hover { text-decoration: none; }
+a.tabledrag-handle .handle { background: url('draggable.png') no-repeat scroll 6px 9px transparent; height: 13px; margin: -0.4em 0.5em; padding: 0.42em 0.5em; width: 13px; }
+a.tabledrag-handle-hover .handle { background-position: 6px -11px; }
+div.indentation { float: left; height: 1.7em; margin: -0.4em 0.2em -0.4em -0.4em; padding: 0.42em 0px 0.42em 0.6em; width: 20px; }
+div.tree-child { background: url('tree.png') no-repeat scroll 11px center transparent; }
+div.tree-child-last { background: url('tree-bottom.png') no-repeat scroll 11px center transparent; }
+div.tree-child-horizontal { background: url('tree.png') no-repeat scroll -11px center transparent; }
+.tabledrag-toggle-weight-wrapper { text-align: right; }
+table.sticky-header { background-color: rgb(255, 255, 255); margin-top: 0px; }
+.progress .bar { background-color: rgb(255, 255, 255); border: 1px solid; }
+.progress .filled { background-color: rgb(0, 0, 0); height: 1.5em; width: 5px; }
+.progress .percentage { float: right; }
+.ajax-progress { display: inline-block; }
+.ajax-progress .throbber { background: url('throbber.gif') no-repeat scroll 0px -18px transparent; float: left; height: 15px; margin: 2px; width: 15px; }
+.ajax-progress .message { padding-left: 20px; }
+tr .ajax-progress .throbber { margin: 0px 2px; }
+.ajax-progress-bar { width: 16em; }
+.container-inline div, .container-inline label { display: inline; }
+.container-inline .fieldset-wrapper { display: block; }
+.nowrap { white-space: nowrap; }
+html.js .js-hide { display: none; }
+.element-hidden { display: none; }
+.element-invisible { position: absolute ! important; clip: rect(1px, 1px, 1px, 1px); overflow: hidden; height: 1px; }
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus { position: static ! important; clip: auto; overflow: visible; height: auto; }
+.clearfix:after { content: "."; display: block; height: 0px; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; }
+:first-child + html .clearfix { min-height: 1%; }
+
+/* ::::: http://www.electronicbookreview.com/modules/system/system.menus.css?mt0u1w ::::: */
+
+ul.menu { border: medium none; list-style: none outside none; text-align: left; }
+ul.menu li { margin: 0px 0px 0px 0.5em; }
+ul li.expanded { list-style-image: url('menu-expanded.png'); list-style-type: circle; }
+ul li.collapsed { list-style-image: url('menu-collapsed.png'); list-style-type: disc; }
+ul li.leaf { list-style-image: url('menu-leaf.png'); list-style-type: square; }
+li.expanded, li.collapsed, li.leaf { padding: 0.2em 0.5em 0px 0px; margin: 0px; }
+li a.active { color: rgb(0, 0, 0); }
+td.menu-disabled { background: none repeat scroll 0% 0% rgb(204, 204, 204); }
+ul.inline, ul.links.inline { display: inline; padding-left: 0px; }
+ul.inline li { display: inline; list-style-type: none; padding: 0px 0.5em; }
+.breadcrumb { padding-bottom: 0.5em; }
+ul.primary { border-bottom: 1px solid rgb(187, 187, 187); border-collapse: collapse; height: auto; line-height: normal; list-style: none outside none; margin: 5px; padding: 0px 0px 0px 1em; white-space: nowrap; }
+ul.primary li { display: inline; }
+ul.primary li a { background-color: rgb(221, 221, 221); border-color: rgb(187, 187, 187); border-style: solid solid none; border-width: 1px; height: auto; margin-right: 0.5em; padding: 0px 1em; text-decoration: none; }
+ul.primary li.active a { background-color: rgb(255, 255, 255); border-width: 1px; border-style: solid; border-color: rgb(187, 187, 187) rgb(187, 187, 187) rgb(255, 255, 255); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; }
+ul.primary li a:hover { background-color: rgb(238, 238, 238); border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(238, 238, 238); }
+ul.secondary { border-bottom: 1px solid rgb(187, 187, 187); padding: 0.5em 1em; margin: 5px; }
+ul.secondary li { border-right: 1px solid rgb(204, 204, 204); display: inline; padding: 0px 1em; }
+ul.secondary a { padding: 0px; text-decoration: none; }
+ul.secondary a.active { border-bottom: 4px solid rgb(153, 153, 153); }
+
+/* ::::: http://www.electronicbookreview.com/modules/system/system.messages.css?mt0u1w ::::: */
+
+div.messages { background-position: 8px 8px; background-repeat: no-repeat; border: 1px solid; margin: 6px 0px; padding: 10px 10px 10px 50px; }
+div.status { background-image: url('message-24-ok.png'); border-color: rgb(187, 238, 119); }
+div.status, .ok { color: rgb(35, 70, 0); }
+div.status, table tr.ok { background-color: rgb(248, 255, 240); }
+div.warning { background-image: url('message-24-warning.png'); border-color: rgb(238, 221, 85); }
+div.warning, .warning { color: rgb(136, 68, 0); }
+div.warning, table tr.warning { background-color: rgb(255, 252, 229); }
+div.error { background-image: url('message-24-error.png'); border-color: rgb(237, 84, 29); }
+div.error, .error { color: rgb(140, 46, 11); }
+div.error, table tr.error { background-color: rgb(254, 245, 241); }
+div.error p.error { color: rgb(51, 51, 51); }
+div.messages ul { margin: 0px 0px 0px 1em; padding: 0px; }
+div.messages ul li { list-style-image: none; }
+
+/* ::::: http://www.electronicbookreview.com/modules/system/system.theme.css?mt0u1w ::::: */
+
+fieldset { margin-bottom: 1em; padding: 0.5em; }
+form { margin: 0px; padding: 0px; }
+hr { border: 1px solid gray; height: 1px; }
+img { border: 0px none; }
+table { border-collapse: collapse; }
+th { border-bottom: 3px solid rgb(204, 204, 204); padding-right: 1em; text-align: left; }
+tbody { border-top: 1px solid rgb(204, 204, 204); }
+tr.even, tr.odd { background-color: rgb(238, 238, 238); border-bottom: 1px solid rgb(204, 204, 204); padding: 0.1em 0.6em; }
+th.active img { display: inline; }
+td.active { background-color: rgb(221, 221, 221); }
+.item-list .title { font-weight: bold; }
+.item-list ul { margin: 0px 0px 0.75em; padding: 0px; }
+.item-list ul li { margin: 0px 0px 0.25em 1.5em; padding: 0px; }
+.form-item, .form-actions { margin-top: 1em; margin-bottom: 1em; }
+tr.odd .form-item, tr.even .form-item { margin-top: 0px; margin-bottom: 0px; white-space: nowrap; }
+.form-item .description { font-size: 0.85em; }
+label { display: block; font-weight: bold; }
+label.option { display: inline; font-weight: normal; }
+.form-checkboxes .form-item, .form-radios .form-item { margin-top: 0.4em; margin-bottom: 0.4em; }
+.form-type-radio .description, .form-type-checkbox .description { margin-left: 2.4em; }
+input.form-checkbox, input.form-radio { vertical-align: middle; }
+.marker, .form-required { color: rgb(255, 0, 0); }
+.form-item input.error, .form-item textarea.error, .form-item select.error { border: 2px solid red; }
+.container-inline .form-actions, .container-inline.form-actions { margin-top: 0px; margin-bottom: 0px; }
+.more-link { text-align: right; }
+.more-help-link { text-align: right; }
+.more-help-link a { background: url('help.png') no-repeat scroll 0px 50% transparent; padding: 1px 0px 1px 20px; }
+.item-list .pager { clear: both; text-align: center; }
+.item-list .pager li { background-image: none; display: inline; list-style-type: none; padding: 0.5em; }
+.pager-current { font-weight: bold; }
+#autocomplete li.selected { background: none repeat scroll 0% 0% rgb(0, 114, 185); color: rgb(255, 255, 255); }
+html.js fieldset.collapsible .fieldset-legend { background: url('menu-expanded.png') no-repeat scroll 5px 65% transparent; padding-left: 15px; }
+html.js fieldset.collapsed .fieldset-legend { background-image: url('menu-collapsed.png'); background-position: 5px 50%; }
+.fieldset-legend span.summary { color: rgb(153, 153, 153); font-size: 0.9em; margin-left: 0.5em; }
+tr.drag { background-color: rgb(255, 255, 240); }
+tr.drag-previous { background-color: rgb(255, 255, 221); }
+.tabledrag-toggle-weight { font-size: 0.9em; }
+body div.tabledrag-changed-warning { margin-bottom: 0.5em; }
+tr.selected td { background: none repeat scroll 0% 0% rgb(255, 255, 204); }
+td.checkbox, th.checkbox { text-align: center; }
+.progress { font-weight: bold; }
+.progress .bar { background: none repeat scroll 0% 0% rgb(204, 204, 204); border-color: rgb(102, 102, 102); margin: 0px 0.2em; border-radius: 3px; }
+.progress .filled { background: url('progress.gif') repeat scroll 0% 0% rgb(0, 114, 185); }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/libraries/shadowbox-3.0.3/shadowbox.css?mt0u1w ::::: */
+
+#sb-title-inner, #sb-info-inner, #sb-loading-inner, div.sb-message { font-family: "HelveticaNeue-Light","Helvetica Neue",Helvetica,Arial,sans-serif; font-weight: 200; color: rgb(255, 255, 255); }
+#sb-container { position: fixed; margin: 0px; padding: 0px; top: 0px; left: 0px; z-index: 999; text-align: left; visibility: hidden; display: none; }
+#sb-overlay { position: relative; height: 100%; width: 100%; }
+#sb-wrapper { position: absolute; visibility: hidden; width: 100px; }
+#sb-wrapper-inner { position: relative; border: 1px solid rgb(48, 48, 48); overflow: hidden; height: 100px; }
+#sb-body { position: relative; height: 100%; }
+#sb-body-inner { position: absolute; height: 100%; width: 100%; }
+#sb-player.html { height: 100%; overflow: auto; }
+#sb-body img { border: medium none; }
+#sb-loading { position: relative; height: 100%; }
+#sb-loading-inner { position: absolute; font-size: 14px; line-height: 24px; height: 24px; top: 50%; margin-top: -12px; width: 100%; text-align: center; }
+#sb-loading-inner span { background: url('loading.gif') no-repeat scroll 0% 0% transparent; padding-left: 34px; display: inline-block; }
+#sb-body, #sb-loading { background-color: rgb(6, 6, 6); }
+#sb-title, #sb-info { position: relative; margin: 0px; padding: 0px; overflow: hidden; }
+#sb-title, #sb-title-inner { height: 26px; line-height: 26px; }
+#sb-title-inner { font-size: 16px; }
+#sb-info, #sb-info-inner { height: 20px; line-height: 20px; }
+#sb-info-inner { font-size: 12px; }
+#sb-nav { float: right; height: 16px; padding: 2px 0px; width: 45%; }
+#sb-nav a { display: block; float: right; height: 16px; width: 16px; margin-left: 3px; cursor: pointer; background-repeat: no-repeat; }
+#sb-nav-close { background-image: url('close.png'); }
+#sb-nav-next { background-image: url('next.png'); }
+#sb-nav-previous { background-image: url('previous.png'); }
+#sb-nav-play { background-image: url('play.png'); }
+#sb-nav-pause { background-image: url('pause.png'); }
+#sb-counter { float: left; width: 45%; }
+#sb-counter a { padding: 0px 4px 0px 0px; text-decoration: none; cursor: pointer; color: rgb(255, 255, 255); }
+#sb-counter a.sb-counter-current { text-decoration: underline; }
+div.sb-message { font-size: 12px; padding: 10px; text-align: center; }
+div.sb-message a:link, div.sb-message a:visited { color: rgb(255, 255, 255); text-decoration: underline; }
+
+/* ::::: http://www.electronicbookreview.com/modules/comment/comment.css?mt0u1w ::::: */
+
+#comments { margin-top: 15px; }
+.indented { margin-left: 25px; }
+.comment-unpublished { background-color: rgb(255, 244, 244); }
+.comment-preview { background-color: rgb(255, 255, 234); }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/modules/date/date_api/date.css?mt0u1w ::::: */
+
+.container-inline-date { clear: both; }
+.container-inline-date .form-item { float: none; margin: 0px; padding: 0px; }
+.container-inline-date > .form-item { display: inline-block; margin-right: 0.5em; margin-bottom: 10px; vertical-align: top; }
+.container-inline-date .form-item .form-item { float: left; }
+.container-inline-date .form-item, .container-inline-date .form-item input { width: auto; }
+.container-inline-date .description { clear: both; }
+.container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option { margin-right: 5px; }
+.container-inline-date .date-spacer { margin-left: -5px; }
+.views-right-60 .container-inline-date div { margin: 0px; padding: 0px; }
+.container-inline-date .date-timezone .form-item { clear: both; float: none; width: auto; }
+.container-inline-date .date-padding { padding: 10px; float: left; }
+.views-exposed-form .container-inline-date .date-padding { padding: 0px; }
+#calendar_div, #calendar_div td, #calendar_div th { margin: 0px; padding: 0px; }
+#calendar_div, .calendar_control, .calendar_links, .calendar_header, .calendar { border-collapse: separate; margin: 0px; width: 185px; }
+.calendar td { padding: 0px; }
+span.date-display-single {  }
+span.date-display-start {  }
+span.date-display-end {  }
+.date-prefix-inline { display: inline-block; }
+.date-clear { clear: both; display: block; float: none; }
+.date-no-float { clear: both; float: none; width: 98%; }
+.date-float { clear: none; float: left; width: auto; }
+.date-float .form-type-checkbox { padding-right: 1em; }
+.form-type-date-select .form-type-select[class$="hour"] { margin-left: 0.75em; }
+.date-container .date-format-delete { float: left; margin-top: 1.8em; margin-left: 1.5em; }
+.date-container .date-format-name { float: left; }
+.date-container .date-format-type { float: left; padding-left: 10px; }
+.date-container .select-container { clear: left; float: left; }
+div.date-calendar-day { background: none repeat scroll 0% 0% rgb(243, 243, 243); border-width: 1px; border-style: solid; border-color: rgb(238, 238, 238) rgb(187, 187, 187) rgb(187, 187, 187) rgb(238, 238, 238); color: rgb(153, 153, 153); float: left; line-height: 1; margin: 6px 10px 0px 0px; text-align: center; width: 40px; }
+div.date-calendar-day span { display: block; text-align: center; }
+div.date-calendar-day span.month { background-color: rgb(181, 190, 190); color: white; font-size: 0.9em; padding: 2px; text-transform: uppercase; }
+div.date-calendar-day span.day { font-size: 2em; font-weight: bold; }
+div.date-calendar-day span.year { font-size: 0.9em; padding: 2px; }
+.form-item.form-item-instance-widget-settings-input-format-custom, .form-item.form-item-field-settings-enddate-required { margin-left: 1.3em; }
+#edit-field-settings-granularity .form-type-checkbox { margin-right: 0.6em; }
+.date-year-range-select { margin-right: 1em; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?mt0u1w ::::: */
+
+#ui-datepicker-div { font-size: 100%; font-family: Verdana,sans-serif; background: none repeat scroll 0% 0% rgb(238, 238, 238); border-right: 2px solid rgb(102, 102, 102); border-bottom: 2px solid rgb(102, 102, 102); z-index: 9999; }
+.ui-datepicker { width: 17em; padding: 0.2em 0.2em 0px; }
+.ui-datepicker .ui-datepicker-header { position: relative; padding: 0.2em 0px; }
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { position: absolute; top: 2px; width: 1.8em; height: 1.8em; }
+.ui-datepicker .ui-datepicker-prev-hover, .ui-datepicker .ui-datepicker-next-hover { top: 1px; }
+.ui-datepicker .ui-datepicker-prev { left: 2px; }
+.ui-datepicker .ui-datepicker-next { right: 2px; }
+.ui-datepicker .ui-datepicker-prev-hover { left: 1px; }
+.ui-datepicker .ui-datepicker-next-hover { right: 1px; }
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span { display: block; position: absolute; left: 50%; margin-left: -8px; top: 50%; margin-top: -8px; }
+.ui-datepicker .ui-datepicker-title { margin: 0px 2.3em; line-height: 1.8em; text-align: center; }
+.ui-datepicker .ui-datepicker-title select { float: left; font-size: 1em; margin: 1px 0px; }
+.ui-datepicker select.ui-datepicker-month-year { width: 100%; }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year { width: 49%; }
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year { float: right; }
+.ui-datepicker table { width: 100%; font-size: 0.9em; border-collapse: collapse; margin: 0px 0px 0.4em; }
+.ui-datepicker th { padding: 0.7em 0.3em; text-align: center; font-weight: bold; border: 0px none; }
+.ui-datepicker td { border: 0px none; padding: 1px; }
+.ui-datepicker td span, .ui-datepicker td a { display: block; padding: 0.2em; text-align: right; text-decoration: none; }
+.ui-datepicker .ui-datepicker-buttonpane { background-image: none; margin: 0.7em 0px 0px; padding: 0px 0.2em; border-left: 0px none; border-right: 0px none; border-bottom: 0px none; }
+.ui-datepicker .ui-datepicker-buttonpane button { float: right; margin: 0.5em 0.2em 0.4em; cursor: pointer; padding: 0.2em 0.6em 0.3em; width: auto; overflow: visible; }
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current { float: left; }
+.ui-datepicker.ui-datepicker-multi { width: auto; }
+.ui-datepicker-multi .ui-datepicker-group { float: left; }
+.ui-datepicker-multi .ui-datepicker-group table { width: 95%; margin: 0px auto 0.4em; }
+.ui-datepicker-multi-2 .ui-datepicker-group { width: 50%; }
+.ui-datepicker-multi-3 .ui-datepicker-group { width: 33.3%; }
+.ui-datepicker-multi-4 .ui-datepicker-group { width: 25%; }
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header { border-left-width: 0px; }
+.ui-datepicker-multi .ui-datepicker-buttonpane { clear: left; }
+.ui-datepicker-row-break { clear: both; width: 100%; }
+.ui-datepicker-rtl { direction: rtl; }
+.ui-datepicker-rtl .ui-datepicker-prev { right: 2px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next { left: 2px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-prev:hover { right: 1px; left: auto; }
+.ui-datepicker-rtl .ui-datepicker-next:hover { left: 1px; right: auto; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane { clear: right; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button { float: left; }
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group { float: right; }
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header { border-right-width: 0px; border-left-width: 1px; }
+
+/* ::::: http://www.electronicbookreview.com/modules/field/theme/field.css?mt0u1w ::::: */
+
+.field .field-label { font-weight: bold; }
+.field-label-inline .field-label, .field-label-inline .field-items { float: left; }
+form .field-multiple-table { margin: 0px; }
+form .field-multiple-table th.field-label { padding-left: 0px; }
+form .field-multiple-table td.field-multiple-drag { width: 30px; padding-right: 0px; }
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle { padding-right: 0.5em; }
+form .field-add-more-submit { margin: 0.5em 0px 0px; }
+
+/* ::::: http://www.electronicbookreview.com/modules/node/node.css?mt0u1w ::::: */
+
+.node-unpublished { background-color: rgb(255, 244, 244); }
+.preview .node { background-color: rgb(255, 255, 234); }
+td.revision-current { background: none repeat scroll 0% 0% rgb(255, 255, 204); }
+
+/* ::::: http://www.electronicbookreview.com/modules/poll/poll.css?mt0u1w ::::: */
+
+.poll { overflow: hidden; }
+.poll .bar { height: 1em; margin: 1px 0px; background-color: rgb(221, 221, 221); }
+.poll .bar .foreground { background-color: rgb(0, 0, 0); height: 1em; float: left; }
+.poll .links { text-align: center; }
+.poll .percent { text-align: right; }
+.poll .total { text-align: center; }
+.poll .vote-form { text-align: center; }
+.poll .vote-form .choices { text-align: left; margin: 0px auto; display: table; }
+.poll .vote-form .choices .title { font-weight: bold; }
+.node-form #edit-poll-more { margin: 0px; }
+.node-form #poll-choice-table .form-text { display: inline; width: auto; }
+.node-form #poll-choice-table td.choice-flag { white-space: nowrap; width: 4em; }
+td.poll-chtext { width: 80%; }
+td.poll-chvotes .form-text { width: 85%; }
+
+/* ::::: http://www.electronicbookreview.com/modules/search/search.css?mt0u1w ::::: */
+
+.search-form { margin-bottom: 1em; }
+.search-form input { margin-top: 0px; margin-bottom: 0px; }
+.search-results { list-style: none outside none; }
+.search-results p { margin-top: 0px; }
+.search-results .title { font-size: 1.2em; }
+.search-results li { margin-bottom: 1em; }
+.search-results .search-snippet-info { padding-left: 1em; }
+.search-results .search-info { font-size: 0.85em; }
+.search-advanced .criterion { float: left; margin-right: 2em; }
+.search-advanced .action { float: left; clear: left; }
+
+/* ::::: http://www.electronicbookreview.com/modules/user/user.css?mt0u1w ::::: */
+
+#permissions td.module { font-weight: bold; }
+#permissions td.permission { padding-left: 1.5em; }
+#permissions tr.odd .form-item, #permissions tr.even .form-item { white-space: normal; }
+#user-admin-settings fieldset .fieldset-description { font-size: 0.85em; padding-bottom: 0.5em; }
+#user-admin-roles td.edit-name { clear: both; }
+#user-admin-roles .form-item-name { float: left; margin-right: 1em; }
+.password-strength { width: 17em; float: right; margin-top: 1.4em; }
+.password-strength-title { display: inline; }
+.password-strength-text { float: right; font-weight: bold; }
+.password-indicator { background-color: rgb(196, 196, 196); height: 0.3em; width: 100%; }
+.password-indicator div { height: 100%; width: 0%; background-color: rgb(71, 201, 101); }
+input.password-confirm, input.password-field { width: 16em; margin-bottom: 0.4em; }
+div.password-confirm { float: right; margin-top: 1.5em; visibility: hidden; width: 17em; }
+div.form-item div.password-suggestions { padding: 0.2em 0.5em; margin: 0.7em 0px; width: 38.5em; border: 1px solid rgb(180, 180, 180); }
+div.password-suggestions ul { margin-bottom: 0px; }
+.confirm-parent, .password-parent { clear: left; margin: 0px; width: 36.3em; }
+.profile { clear: both; margin: 1em 0px; }
+.profile .user-picture { float: right; margin: 0px 1em 1em 0px; }
+.profile h3 { border-bottom: 1px solid rgb(204, 204, 204); }
+.profile dl { margin: 0px 0px 1.5em; }
+.profile dt { margin: 0px 0px 0.2em; font-weight: bold; }
+.profile dd { margin: 0px 0px 1em; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/modules/workflow/workflow_admin_ui/workflow_admin_ui.css?mt0u1w ::::: */
+
+#workflow_admin_ui_overview .state-name input { margin-right: 2em; }
+#workflow_admin_ui_overview .state-status { text-align: center; }
+#workflow_admin_ui_overview .state-count { text-align: right; }
+#workflow_admin_ui_overview th.state-ops {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/modules/views/css/views.css?mt0u1w ::::: */
+
+.views-exposed-form .views-exposed-widget { float: left; padding: 0.5em 1em 0px 0px; }
+.views-exposed-form .views-exposed-widget .form-submit { margin-top: 1.6em; }
+.views-exposed-form .form-item, .views-exposed-form .form-submit { margin-top: 0px; margin-bottom: 0px; }
+.views-exposed-form label { font-weight: bold; }
+.views-exposed-widgets { margin-bottom: 0.5em; }
+.views-align-left { text-align: left; }
+.views-align-right { text-align: right; }
+.views-align-center { text-align: center; }
+.views-view-grid tbody { border-top: medium none; }
+.view .progress-disabled { float: none; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/modules/ctools/css/ctools.css?mt0u1w ::::: */
+
+.ctools-locked { color: red; border: 1px solid red; padding: 1em; }
+.ctools-owns-lock { background: none repeat scroll 0px 0px rgb(255, 255, 221); border: 1px solid rgb(240, 192, 32); padding: 1em; }
+a.ctools-ajaxing, input.ctools-ajaxing, button.ctools-ajaxing, select.ctools-ajaxing { padding-right: 18px ! important; background: url('status-active.gif') no-repeat scroll right center transparent; }
+div.ctools-ajaxing { float: left; width: 18px; background: url('status-active.gif') no-repeat scroll center center transparent; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/html-reset.css?mt0u1w ::::: */
+
+body { font-size: 100%; }
+#skip-to-nav, #page { font-size: 0.875em; line-height: 1.5em; }
+body, caption, th, td, input, textarea, select, option, legend, fieldset { font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif; }
+pre, code, kbd, samp, tt, var { font-family: "Courier New","DejaVu Sans Mono",monospace; }
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, hr, table, fieldset { margin: 1.5em 0px; }
+h1 { font-size: 2em; line-height: 1.5em; margin: 0.75em 0px; }
+h2 { font-size: 1.5em; margin: 1em 0px; }
+h3 { font-size: 1.3em; margin: 1.154em 0px; }
+h4, h5, h6 { font-size: 1.1em; margin: 1.364em 0px; }
+p {  }
+blockquote { margin-left: 2em; margin-right: 2em; }
+pre { font-size: 1.1em; margin: 1.364em 0px; }
+hr { height: 1px; border: 1px solid rgb(102, 102, 102); }
+address {  }
+ul, ol { margin-left: 0px; padding-left: 2em; }
+.item-list ul { margin: 1.5em 0px; padding: 0px 0px 0px 2em; }
+ul ul, ul ol, ol ol, ol ul, .item-list ul ul, .item-list ul ol, .item-list ol ol, .item-list ol ul { margin: 0px; }
+li { margin: 0px; padding: 0px; }
+.item-list ul li, ul.menu li, li.expanded, li.collapsed, li.leaf { margin: 0px; padding: 0px; }
+ul { list-style-type: disc; }
+ul ul { list-style-type: circle; }
+ul ul ul { list-style-type: square; }
+ul ul ul ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+ol ol { list-style-type: lower-alpha; }
+ol ol ol { list-style-type: decimal; }
+dl {  }
+dt { margin: 0px; padding: 0px; }
+dd { margin: 0px 0px 0px 2em; padding: 0px; }
+table { border-collapse: collapse; }
+th { text-align: left; padding: 0px; border-bottom: medium none; }
+tbody { border-top: medium none; }
+thead {  }
+tfoot {  }
+caption {  }
+colgroup {  }
+col {  }
+tr {  }
+td {  }
+form { margin: 0px; padding: 0px; }
+fieldset { padding: 0.5em; }
+legend {  }
+label {  }
+input {  }
+select {  }
+optgroup {  }
+option {  }
+textarea {  }
+button {  }
+a:link {  }
+a:visited {  }
+a:hover, a:focus {  }
+a:active {  }
+img { border: 0px none; }
+abbr, acronym { border-bottom: 1px dotted rgb(102, 102, 102); cursor: help; white-space: nowrap; }
+q {  }
+cite {  }
+strong, b {  }
+em, i {  }
+code, kbd, samp, tt, var {  }
+del {  }
+ins {  }
+big {  }
+small {  }
+sub {  }
+sup {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/wireframes.css?mt0u1w ::::: */
+
+.with-wireframes #header .section, .with-wireframes #content .section, .with-wireframes #navigation .section, .with-wireframes .region-sidebar-first .section, .with-wireframes .region-sidebar-second .section, .with-wireframes .region-footer, .with-wireframes .region-bottom { outline: 1px solid rgb(204, 204, 204); }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/layout-fixed.css?mt0u1w ::::: */
+
+body {  }
+#page-wrapper, .region-bottom { margin-left: auto; margin-right: auto; width: 760px; }
+#page {  }
+#header {  }
+#header .section {  }
+.region-header {  }
+#main-wrapper { position: relative; }
+#main {  }
+#content, .no-sidebars #content { float: left; width: 760px; margin-left: 0px; margin-right: -760px; padding: 0px; }
+.sidebar-first #content { width: 760px; margin-left: 200px; margin-right: -960px; }
+.sidebar-second #content { width: 560px; margin-left: 0px; margin-right: -560px; }
+.two-sidebars #content { width: 560px; margin-left: 200px; margin-right: -760px; }
+#content .section { margin: 0px; padding: 0px; }
+#navigation { float: left; width: 100%; margin-left: 0px; margin-right: -100%; padding: 0px; height: 3em; }
+.with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second { margin-top: 3em; }
+#navigation .section {  }
+.region-sidebar-first { float: left; width: 200px; margin-left: 0px; margin-right: -200px; padding: 0px; }
+.region-sidebar-first .section { margin: 0px 20px 0px 0px; padding: 0px; }
+.region-sidebar-second { float: left; width: 200px; margin-left: 560px; margin-right: -760px; padding: 0px; }
+.region-sidebar-second .section { margin: 0px 0px 0px 20px; padding: 0px; }
+.region-footer {  }
+.region-bottom {  }
+#header, #content, #navigation, .region-sidebar-first, .region-sidebar-second, .region-footer, .region-bottom { overflow: visible; word-wrap: break-word; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/page-backgrounds.css?mt0u1w ::::: */
+
+body {  }
+#page-wrapper {  }
+#page {  }
+#header {  }
+#header .section {  }
+#main-wrapper {  }
+#main {  }
+.region-footer {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/tabs.css?mt0u1w ::::: */
+
+div.tabs { margin: 0px 0px 5px; }
+ul.primary { margin: 0px; padding: 0px 0px 0px 10px; border-width: 0px; list-style: none outside none; white-space: nowrap; line-height: normal; background: url('tab-bar.png') repeat-x scroll left bottom transparent; }
+ul.primary li { float: left; margin: 0px; padding: 0px; }
+ul.primary li a { display: block; height: 24px; margin: 0px; padding: 0px 0px 0px 5px; border-width: 0px; font-weight: bold; text-decoration: none; color: rgb(119, 119, 119); background: url('tab-left.png') no-repeat scroll left -38px transparent; }
+ul.primary li a .tab { display: block; height: 20px; margin: 0px; padding: 4px 13px 0px 6px; border-width: 0px; line-height: 20px; background: url('tab-right.png') no-repeat scroll right -38px transparent; }
+ul.primary li a:hover, ul.primary li a:focus { border-width: 0px; background: url('tab-left.png') no-repeat scroll left -76px transparent; }
+ul.primary li a:hover .tab, ul.primary li a:focus .tab { background: url('tab-right.png') no-repeat scroll right -76px transparent; }
+ul.primary li.active a, ul.primary li.active a:hover, ul.primary li.active a:focus { border-width: 0px; color: rgb(0, 0, 0); background: url('tab-left.png') no-repeat scroll left 0px transparent; }
+ul.primary li.active a .tab, ul.primary li.active a:hover .tab, ul.primary li.active a:focus .tab { background: url('tab-right.png') no-repeat scroll right 0px transparent; }
+ul.secondary { margin: 0px; padding: 0px 0px 0px 5px; border-bottom: 1px solid rgb(192, 192, 192); list-style: none outside none; white-space: nowrap; background: url('tab-secondary-bg.png') repeat-x scroll left bottom transparent; }
+ul.secondary li { float: left; margin: 0px 5px 0px 0px; padding: 5px 0px; border-right: medium none; }
+ul.secondary a { display: block; height: 24px; margin: 0px; padding: 0px; border: 1px solid rgb(192, 192, 192); text-decoration: none; color: rgb(119, 119, 119); background: url('tab-secondary.png') repeat-x scroll left -56px transparent; }
+ul.secondary a .tab { display: block; height: 18px; margin: 0px; padding: 3px 8px; line-height: 18px; }
+ul.secondary a:hover, ul.secondary a:focus { background: url('tab-secondary.png') repeat-x scroll left bottom transparent; }
+ul.secondary a.active, ul.secondary a.active:hover, ul.secondary a.active:focus { border: 1px solid rgb(192, 192, 192); color: rgb(0, 0, 0); background: url('tab-secondary.png') repeat-x scroll left top transparent; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/pages.css?mt0u1w ::::: */
+
+body { margin: 0px; padding: 0px; }
+#page-wrapper {  }
+#page {  }
+#skip-link a, #skip-link a:visited { display: block; width: 100%; padding: 2px 0px 3px; text-align: center; background-color: rgb(102, 102, 102); color: rgb(255, 255, 255); }
+#header {  }
+#header .section {  }
+#logo { float: left; margin: 0px; padding: 0px; }
+#logo img { vertical-align: bottom; }
+#name-and-slogan { float: left; }
+h1#site-name, div#site-name { margin: 0px; font-size: 2em; line-height: 1.5em; }
+#site-name a:link, #site-name a:visited { color: rgb(0, 0, 0); text-decoration: none; }
+#site-name a:hover, #site-name a:focus { text-decoration: underline; }
+#site-slogan {  }
+.region-header { clear: both; }
+#main-wrapper {  }
+#main {  }
+#content {  }
+#content .section {  }
+.region-highlighted {  }
+.breadcrumb { padding-bottom: 0px; }
+h1.title, h2.node-title, h2.block-title, h2.title, h2.comment-form, h3.title { margin: 0px; }
+tr.even {  }
+tr.odd {  }
+div.messages { margin: 1.5em 0px; }
+div.messages ul { margin-top: 0px; margin-bottom: 0px; }
+div.status {  }
+div.warning, tr.warning {  }
+div.error, tr.error {  }
+.error {  }
+.warning {  }
+div.tabs {  }
+.region-help {  }
+.more-help-link {  }
+.region-content {  }
+ul.links {  }
+ul.links.inline { display: block; }
+ul.links li { padding: 0px 1em 0px 0px; }
+.item-list .pager { padding: 0px; }
+.item-list .pager li { padding: 0px 0.5em; }
+.feed-icon {  }
+.more-link {  }
+.region-sidebar-first {  }
+.region-sidebar-first .section {  }
+.region-sidebar-second {  }
+.region-sidebar-second .section {  }
+.region-footer {  }
+.region-bottom {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/blocks.css?mt0u1w ::::: */
+
+.block { margin-bottom: 1.5em; }
+.block.first {  }
+.block.last {  }
+.block.odd {  }
+.block.even {  }
+h2.block-title {  }
+.block .content {  }
+#block-aggregator-category-1 {  }
+#block-aggregator-feed-1 {  }
+#block-block-1 {  }
+#block-blog-recent {  }
+#block-book-navigation {  }
+#block-comment-recent {  }
+#block-forum-active {  }
+#block-forum-new {  }
+#block-locale-language {  }
+#block-menu-menu-NAME {  }
+#block-node-recent {  }
+#block-node-syndicate {  }
+#block-poll-recent {  }
+#block-profile-author-information {  }
+#block-search-form {  }
+#block-shortcut-shortcuts {  }
+#block-statistics-popular {  }
+#block-system-main-menu {  }
+#block-system-management {  }
+#block-system-navigation {  }
+#block-system-user-menu {  }
+#block-system-help {  }
+#block-system-main {  }
+#block-system-powered-by {  }
+#block-user-login {  }
+#block-user-new {  }
+#block-user-online {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/navigation.css?mt0u1w ::::: */
+
+li a.active { color: rgb(0, 0, 0); }
+#navigation {  }
+#navigation ul.links, #navigation .content ul { margin: 0px; padding: 0px; text-align: left; }
+#navigation ul.links li, #navigation .content li { float: left; padding: 0px 10px 0px 0px; }
+.region-navigation {  }
+#main-menu {  }
+#secondary-menu { float: right; }
+.block-menu {  }
+.block-menu-block {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/nodes.css?mt0u1w ::::: */
+
+.node {  }
+.preview .node {  }
+.node-promoted {  }
+.node-sticky {  }
+.node-unpublished {  }
+.node-unpublished div.workflow-state, .node-unpublished div.unpublished, .comment-unpublished div.unpublished { color: rgb(217, 217, 217); font-size: 36px; line-height: 1; font-family: "Arial Narrow",Helvetica,sans-serif; font-weight: bold; text-transform: uppercase; word-wrap: break-word; }
+.node-by-viewer {  }
+.node-teaser {  }
+.node-page {  }
+.node-article {  }
+h2.node-title {  }
+.node .user-picture {  }
+.node .submitted {  }
+.node .content {  }
+.node ul.links {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/comments.css?mt0u1w ::::: */
+
+#comments { margin: 1.5em 0px; }
+#comments h2.title {  }
+#comments h2.comment-form { border-top: 5px solid rgb(204, 204, 204); }
+#comments form.comment-form { padding: 10px; border-right: 1px solid rgb(204, 204, 204); border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(204, 204, 204) rgb(204, 204, 204); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; font-size: 0.85em; }
+.comment { border-top: 1px solid rgb(204, 204, 204); font-size: 0.85em; }
+.comment p { margin: 0.5em 0px; }
+.comment-preview { background-color: rgb(255, 255, 234); }
+.comment.new {  }
+.comment.first {  }
+.comment.last {  }
+.comment.odd {  }
+.comment.even {  }
+.comment-unpublished {  }
+.comment-unpublished div.unpublished {  }
+.comment-by-anonymous {  }
+.comment-by-node-author {  }
+.comment-by-viewer {  }
+h3.comment-title { margin-bottom: 0px; }
+.new { color: rgb(204, 0, 0); }
+.comment .user-picture {  }
+.comment .submitted {  }
+.comment .content {  }
+.comment .user-signature {  }
+.comment ul.links { margin-top: 0.5em; }
+.indented {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/forms.css?mt0u1w ::::: */
+
+.form-item { margin: 1.5em 0px; }
+.form-item input.error, .form-item textarea.error, .form-item select.error { border: 1px solid rgb(204, 0, 0); }
+.form-item label { display: block; font-weight: bold; }
+.form-item label.option { display: inline; font-weight: normal; }
+.form-required { color: rgb(204, 0, 0); }
+.form-item .description { font-size: 0.85em; }
+.form-checkboxes .form-item, .form-radios .form-item { margin: 0px; }
+.form-submit {  }
+.container-inline div, .container-inline label { display: inline; }
+.tips {  }
+.password-parent, .confirm-parent { margin: 0px; }
+#block-search-form {  }
+#user-login-form { text-align: left; }
+#user-login-form ul { margin-bottom: 0px; }
+html.js #user-login-form li.openid-link, #user-login-form li.openid-link { margin-top: 1.5em; margin-left: -20px; }
+#user-login-form li.user-link { margin-top: 1.5em; }
+#user-login ul { margin: 1.5em 0px; }
+form th { text-align: left; padding-right: 1em; border-bottom: 3px solid rgb(204, 204, 204); }
+form tbody { border-top: 1px solid rgb(204, 204, 204); }
+form tr.even { background-color: rgb(255, 255, 255); }
+form table .item-list ul { margin: 0px; }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/fields.css?mt0u1w ::::: */
+
+.field {  }
+.field-type-text {  }
+.field-type-text-long {  }
+.field-type-text-with-summary {  }
+.field-type-image {  }
+.field-type-file {  }
+.field-type-taxonomy-term-reference {  }
+.field-type-number-integer {  }
+.field-type-number-decimal {  }
+.field-type-number-float {  }
+.field-type-list-text {  }
+.field-type-list-boolean {  }
+.field-type-list-integer {  }
+.field-type-list-float {  }
+.field-type-datetime {  }
+.field-type-node-reference {  }
+.field-type-user-reference {  }
+.field-name-body {  }
+.field-name-field-image {  }
+.field-name-field-tags {  }
+.field-name-field-FIELDNAME {  }
+
+/* ::::: http://www.electronicbookreview.com/sites/all/themes/electronic/css/electronic.css?mt0u1w ::::: */
+
+body { font-family: georgia,"lucida grande",geneva,arial,tahoma,verdana,sans-serif; font-size: 14px; color: rgb(51, 51, 51); background-color: white; }
+a, a.active, a.active:visited, a:visited { text-decoration: none; color: rgb(51, 51, 221); }
+h1, h2, h3, h4 { font-weight: bold; font-size: 1em; color: black; }
+h1.title { font-size: 1.75em; line-height: 1.25em; }
+h1.title .prefix { color: rgb(153, 153, 153); }
+.colophon { margin-top: 1em; }
+.colophon h3 { margin-top: 0px; color: rgb(102, 99, 94); }
+.node-teaser .icon { float: left; width: 67px; margin-right: 8px; }
+.node-teaser .main-content { width: 495px; float: left; }
+.node-teaser { padding-top: 0.75em; }
+.view-content .node-teaser .field-name-body .field-item p { margin-bottom: 0px; }
+h2.block-title { font-size: 1.4em; margin-bottom: 1em; }
+h1#page-title { margin-bottom: 0px; width: 570px; }
+body.not-front #site-name {  }
+h1#site-name, div#site-name { font-size: 3em; text-transform: lowercase; color: rgb(153, 147, 94); }
+#main .region-content h2 { margin: 2em 0px 0.5em; }
+#main .region-content .node-teaser h2 { margin: 0px; }
+.sidebar h2.block-title { font-size: 1.2em; margin-bottom: 0.5em; }
+.region-header #block-block-4 { padding: 0px 20px; width: 510px; border: 1px solid rgb(102, 102, 102); background-color: rgb(238, 238, 238); margin-bottom: 0px; }
+.node-essay.view-mode-full { font-size: 14px; }
+.node-essay.view-mode-full .field-name-body a.note-ref, .node-essay.view-mode-full .field-name-body a.note, .node-essay.view-mode-full .field-name-body a.toggle-glosses { margin-right: 0.4em; margin-left: 0.2em; text-decoration: none; border: medium none; line-height: 0em; vertical-align: baseline; font-size: 0.95em; }
+.node-unpublished { background: none repeat scroll 0% 0% transparent; }
+.node-essay.view-mode-full .field-name-body a.note-ref { font-size: 11px; vertical-align: super; }
+.node-essay.view-mode-full .field-name-body a.note-ref, .node-essay.view-mode-full .field-name-body a.note { background-color: rgb(153, 153, 238); color: white; padding: 1px 2px; }
+.node-essay.view-mode-full .field-name-body a.toggle-glosses { background-color: rgb(255, 230, 128); color: black; padding: 1px 10px; }
+.node-essay.view-mode-full .field-name-body .gloss-container { background-color: rgb(255, 230, 128); color: black; padding: 10px 5px 5px 10px; }
+.sidebar h2.block-title { margin-bottom: 0.25em; font-size: 1em; color: rgb(102, 99, 94); }
+.sidebar p { margin-top: 0px; }
+.booktitle, .journaltitle, .filmtitle, .albumtitle, .gametitle, .foreignWord, .lightEmphasis, .foreignword, .lightemphasis { font-style: italic; }
+.longQuotation { padding-left: 10px; line-height: 13px; }
+.poem { padding-left: 20px; text-indent: -10px; margin-left: 10px; margin-bottom: 10px; }
+#header { padding-top: 1em; }
+#navigation { height: 3em; padding-top: 0em; position: relative; top: -0.75em; }
+.with-navigation #content, .with-navigation .region-sidebar-first, .with-navigation .region-sidebar-second { margin-top: 3em; }
+.region-content { width: 570px; }
+.region-content h2.block-title {  }
+.region-content .node.view-mode-full .field-name-body { margin-top: 2em; }
+.region-content .node.view-mode-full .node-gloss .field-name-body { margin-top: 0px; }
+#navigation { padding-top: 0.5em; width: 570px; }
+#header .block-search { padding-left: 580px; }
+#header .block-search .form-text { width: 110px; }
+#header .block-search .form-submit { width: 60px; font-size: 0.95em; }
+table.views-table { width: 760px; }
+.view-issue-report table th.views-field-title { width: 150px; }
+.view-issue-report table th.views-field-field-issue-type { width: 60px; }
+.view-issue-report table th.views-field-timestamp { width: 100px; }
+table { width: 100%; font-size: 0.923em; margin: 1em 0px 10px; border: 1px solid rgb(190, 191, 185); }
+table td, table th { vertical-align: top; padding: 8px 10px; border: 0px none; color: rgb(0, 0, 0); }
+tr.even, tr.odd { border-width: 0px 1px; border-style: solid; border-color: rgb(190, 191, 185); background: none repeat scroll 0% 0% rgb(243, 244, 238); }
+tr.odd { background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+tr.drag { background: none repeat scroll 0% 0% rgb(255, 238, 119); }
+tr.drag-previous { background: none repeat scroll 0% 0% rgb(255, 255, 187); }
+table th { text-transform: uppercase; background: none repeat scroll 0% 0% rgb(225, 226, 220); font-weight: normal; border-width: 1px; border-style: solid; border-color: rgb(190, 191, 185); padding: 3px 10px; }
+table th.active { background: none repeat scroll 0% 0% rgb(189, 190, 185); }
+table th a { display: block; position: relative; }
+table th.active a { padding: 0px 25px 0px 0px; }
+table th.active img { position: absolute; top: 3px; right: 3px; }
+table td.active { background: none repeat scroll 0% 0% rgb(233, 233, 221); }
+table tr.odd td.active { background: none repeat scroll 0% 0% rgb(243, 244, 238); }
+table tr.selected td.active, table tr.selected td { background: none repeat scroll 0% 0% rgb(255, 255, 204); border-color: rgb(238, 238, 187); }
+table.system-status-report tr { border-bottom: 1px solid rgb(204, 204, 204); }
+table.system-status-report tr.ok { color: rgb(37, 91, 30); background-color: rgb(229, 255, 226); }
+table.system-status-report tr.info { color: rgb(4, 15, 55); background-color: rgb(187, 221, 255); }
+table.system-status-report tr.warning { color: rgb(136, 68, 0); background-color: rgb(255, 252, 229); }
+table.system-status-report tr.error { color: rgb(140, 46, 11); background-color: rgb(254, 245, 241); }
+tr td:last-child { border-right: 1px solid rgb(190, 191, 185); }
+.node.view-mode-full #notes .note { margin-bottom: 1em; }
+.region-content .view-content .views-row { margin-bottom: 1.5em; }
+body.front .region-content .view-content .views-row { margin-bottom: 0px; margin-right: 2px; }
+.region-content .view-content .views-row .views-field-title { font-weight: bold; }
+.region-content .view-content .views-row .views-field-field-bibliographic { font-size: 0.9em; }
+.region-footer { padding: 2em 0px 0px; }
+.region-footer div.block { float: left; margin-left: 20px; }
+.thread-icon-large { float: left; margin-right: 10px; }
+body.node-type-thread #block-views-thread-essays-block { padding-top: 2em; }
+.front #content #page-title { display: none; }
+.front #block-views-all-threads-block .view-content { height: 130px; }
+.front #block-views-all-threads-block .views-row { float: left; }
+.front #block-views-recent-essays-block { clear: both; }
+.field-name-body p { margin: 0px 0px 1em; line-height: 1.6em; }
+.view-content .node-teaser { margin-bottom: 1em; }
+.node-type-essay .node-essay .field-name-field-publication-date, .node-type-ebr-meta .field-name-field-meta-contact, .node-type-ebr-meta .field-name-field-meta-associate-editor, .node-type-ebr-meta .field-name-field-meta-design-editor { margin-bottom: 1em; }
+.node-type-ebr-meta .group-footer p { margin-top: 0px; }
+.node-type-ebr-meta #block-views-thread-credits-block p { margin: 0px; }
+.node-type-ebr-meta #block-views-thread-credits-block .views-row { margin-bottom: 1em; }
+.node-type-ebr-meta .field-group-div { border-top: 1px solid rgb(153, 153, 153); padding: 0.25em 0px 1em; }
+.node-type-ebr-meta #block-views-thread-credits-block h2.block-title { margin-top: 0px; padding-top: 0.25em; border-top: 1px solid rgb(153, 153, 153); font-size: 1em; }
+.gloss-container { position: relative; left: 75px; font-size: 0.95em; }
+.view-issue-report td.views-field.body { width: 400px; }
+.thread-wuc { color: rgb(153, 153, 204); }
+.thread-musicsoundnoise { color: rgb(204, 204, 51); }
+.thread-imagenarrative { color: rgb(153, 153, 0); }
+.thread-webarts { color: rgb(255, 102, 51); }
+.thread-criticalecologies { color: rgb(102, 153, 51); }
+.thread-endconstruction { color: rgb(204, 153, 51); }
+.thread-internetnation { color: rgb(204, 153, 102); }
+.thread-electropoetics { color: rgb(102, 204, 255); }
+.thread-writingpostfeminism { color: rgb(255, 51, 0); }
+.thread-technocapitalism { color: rgb(92, 215, 133); }
+.thread-firstperson { color: rgb(114, 159, 255); }
+.thread-fictionspresent { color: rgb(221, 119, 136); }
+.thread-enfolded { color: rgb(151, 157, 164); }

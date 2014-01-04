@@ -1,0 +1,42 @@
+
+/* ::::: null ::::: */
+
+body { text-align: center; font: 12px/15px Arial,Verdana,sans-serif; margin: 0px; padding: 0px; overflow: hidden; background: none repeat scroll 0% 0% transparent; width: 440px; position: relative; }
+a { color: black; }
+#main-container { padding: 15px; margin: 0px; }
+#main-container > img.header { height: auto; }
+p { font-size: 15px; line-height: 21px; margin: 5px 0px 10px; font-weight: bold; }
+p.error { color: rgb(228, 0, 1); background-color: rgb(214, 214, 214); padding: 8px 5px; width: 302px; margin: 11px auto; clear: both; font-weight: bold; font-size: 14px; text-align: left; }
+p.error:before { content: "×"; padding: 0px 10px 0px 5px; }
+form#subscribe { overflow: hidden; padding: 0px; margin: 0px; position: relative; }
+#left { width: auto; float: none; }
+#right { width: auto; float: none; }
+ul.subscriptions { overflow: hidden; padding: 0px 0px 0px 36px; margin: 21px 0px 2px 20px; }
+ul.subscriptions li { list-style: none outside none; float: left; text-align: left; font-size: 16px; margin: 0px 0px 28px; width: 157px; }
+ul.subscriptions li.left { clear: left; width: 143px; }
+ul.subscriptions li input { margin-right: 5px; float: left; width: 12px; height: 12px; }
+ul.subscriptions li p { margin: 0px; font-size: 14px; padding-left: 5px; float: left; font-weight: bold; }
+#left a.privacyPolicy { position: absolute; bottom: 0px; left: 0px; }
+#subscribe input#email { color: rgb(136, 136, 136); margin-bottom: 10px; width: 296px; font-size: 15px; padding: 7px; border: 1px solid black; }
+#captcha {  }
+#captcha #recaptcha_widget { background: none repeat scroll 0px 0px rgb(255, 255, 255); color: rgb(0, 0, 0); min-height: 85px; margin-bottom: 10px; display: block; }
+#captcha #recaptcha_image { width: auto ! important; }
+#captcha #recaptcha_image img { margin: 0px auto; }
+#captcha table { border-collapse: collapse; margin: 1px auto 0px; padding: 0px; }
+#captcha td { padding: 0px; }
+#captcha td div a img { margin-top: 2px; }
+#captcha td div a img:first-child { margin-right: 2px; }
+#captcha p { font-size: 14px; text-align: center; }
+#captcha input { height: 19px; width: 218px; margin: 0px 2px; }
+.buttons button { background-color: rgb(252, 98, 4); margin: 7px auto 14px 5px; color: white; border: medium none; cursor: pointer; font-size: 12px; text-transform: uppercase; padding: 6px 11px; }
+.buttons button:first-child { margin-left: 0px; background-color: rgb(226, 0, 0); }
+span#loading span { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }
+span#loading span.trans-50 { opacity: 0.5; background-color: white; }
+span#loading > span + span { background: url('modal_spin.gif') no-repeat scroll center center transparent; }
+.line { border-top: 2px solid rgb(158, 158, 158); width: 306px; margin: 2px auto; }
+h1 { margin-bottom: 10px; font-size: 27px; }
+h2 { margin-top: 0px; }
+
+/* ::::: null ::::: */
+
+.recaptcha_is_showing_audio .recaptcha_only_if_image, .recaptcha_isnot_showing_audio .recaptcha_only_if_audio, .recaptcha_had_incorrect_sol .recaptcha_only_if_no_incorrect_sol, .recaptcha_nothad_incorrect_sol .recaptcha_only_if_incorrect_sol { display: none ! important; }

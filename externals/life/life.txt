@@ -1,0 +1,28 @@
+Fields: 
+Link name from EKS.net
+Item name in  Zotero (Zotero gets from remote site)
+Index file name in Zotero folder
+Folder name in Zotero library 
+URL for archived site as it will appear in EKS.net
+
+abbreviated as:
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/life// [modify as necessary]
+
+
+Link:   http://www.faculty.umb.edu/gary_zabel/Website/My%20Writings/BU%20Strike.pdf (or http://www.scribd.com/doc/26915090/The-Boston-University-Strike-of-1979 as was)
+Item:   BU Strike.pdf
+Index:  BU Strike.pdf
+Folder: 6VNQA2TB
+URL:    http://evekosofskysedgwick.net/externals/life/6VNQA2TB/BU Strike.pdf
+
+Link:   http://linguafranca.mirror.theinfo.org/9902/yaffe.html
+Item:   Lingua franca -- February 1999
+Index:  yaffe.html
+Folder: BMW3D6XV
+URL:    http://evekosofskysedgwick.net/externals/life/BMW3D6XV/yaffe.html
+
+

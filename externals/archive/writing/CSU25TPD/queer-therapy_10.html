@@ -1,0 +1,554 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.villagevoice.com/1999-08-03/books/queer-therapy/">
+<meta name="wpd_url" content="http://dbm1.tiqiq.com/tiqiq/dynamic_widget.aspx?widgetid=7732724999&amp;publisherid=1164199">
+<meta name="wpd_date" content="2013-11-28T19:56Z">
+<title>
+
+	Tiqiq SEUI mini event
+</title>
+    
+    
+    <script src="untitled_002.dat" defer="" async="" type="text/javascript"></script><script src="mixpanel.js" async="" type="text/javascript"></script><script src="ga.js" async="" type="text/javascript"></script><script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery-ui-1.8.1.custom.min.js"></script>
+    
+    
+
+    
+
+    <script type="text/javascript">
+
+
+        var RedrawDefaultTimerId = 0;
+        var AllEvents = "[{'Name': 'Winter Galactic', 'EventType': '3', 'dchange':'','wchange':'86.22299694951129925916702982','EventDate': '12/31' , 'Performer1ShortName': 'Winter galactic', 'Performer2ShortName': '', 'Performer1Name': 'Winter galactic', 'Performer2Name': '','Venue': 'Hammerstein Ballroom', 'SEUrl': 'http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&EventID=9209528021&PublisherID=1164199&WidgetID=7732724999','MinPrice': '146.94','Performer1ID': '76754','Performer2ID': '-2147483648'},{'Name': 'Andrew W.K.', 'EventType': '3', 'dchange':'','wchange':'56.097806399678003622459247330','EventDate': '12/31' , 'Performer1ShortName': '', 'Performer2ShortName': '', 'Performer1Name': 'Andrew w.k.', 'Performer2Name': '','Venue': 'Irving Plaza (Formerly The Fillmore)', 'SEUrl': 'http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&EventID=9186352035&PublisherID=1164199&WidgetID=7732724999','MinPrice': '61.62','Performer1ID': '17865','Performer2ID': '-2147483648'},{'Name': 'Johnny Winter', 'EventType': '3', 'dchange':'','wchange':'124.19394536057100664533595865','EventDate': '1/7' , 'Performer1ShortName': 'Johnny Winter', 'Performer2ShortName': '', 'Performer1Name': 'Johnny Winter', 'Performer2Name': '','Venue': 'B.B. King Blues Club & Grill - New York', 'SEUrl': 'http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&EventID=8903198869&PublisherID=1164199&WidgetID=7732724999','MinPrice': '56.88','Performer1ID': '1213','Performer2ID': '-2147483648'},{'Name': 'Action Bronson', 'EventType': '3', 'dchange':'','wchange':'125.70890165111270638908829864','EventDate': '1/10' , 'Performer1ShortName': 'Action Bronson', 'Performer2ShortName': '', 'Performer1Name': 'Action Bronson', 'Performer2Name': '','Venue': 'Irving Plaza (Formerly The Fillmore)', 'SEUrl': 'http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&EventID=9744024750&PublisherID=1164199&WidgetID=7732724999','MinPrice': '110.21','Performer1ID': '13639','Performer2ID': '-2147483648'}]";
+        var max = 5;
+        var defcss = "default_dark";
+        var HeaderUrl = "http://tickets.villagevoice.com";
+        var FooterUrl = "http://tickets.villagevoice.com";
+        var mm_rdr_url = "";
+
+        jQuery(document).ready(function () {
+
+            if (HeaderUrl != "") {
+                if (mm_rdr_url != '') {
+                    HeaderUrl = mm_rdr_url + HeaderUrl;
+                }
+                $("#wheader").attr("href", HeaderUrl)
+            }
+
+            if (FooterUrl != "") {
+                if (mm_rdr_url != '') {
+                    FooterUrl = mm_rdr_url + escape(FooterUrl);
+                }
+                document.getElementById('wfooter').innerHTML = "<a href='" + FooterUrl + "' target='_blank' style='display:block; height: 55px;'></a>";
+                /*
+                $('#wfooter').click(function (event) {
+                window.location = FooterUrl;
+                });
+                $("#wfooter").css({ cursor: "pointer" });
+                */
+            }
+
+            // if (defcss != 'default') {
+            var headID = document.getElementsByTagName("head")[0];
+            var cssNode = document.createElement('link');
+            cssNode.type = 'text/css';
+            cssNode.rel = 'stylesheet';
+            cssNode.href = '/TiqIq/WidgetCss/dynamic/' + defcss + '.css';
+            cssNode.media = 'screen';
+            headID.appendChild(cssNode);
+            //   }
+
+            AllEvents = eval(AllEvents);
+            drawEvents();
+            var rndmxp = Math.floor((Math.random() * 100) + 1);
+            if (rndmxp == 17) {
+                clicktrack("Widget Exposure");
+            }
+        })
+
+        function drawEvents() {
+            var limits = AllEvents.length;
+            //if (limits > max) limits = max;
+            for (var i = 0; i < limits; i++) {
+                var EName = AllEvents[i].Name;
+                var EventDate = AllEvents[i].EventDate;
+                //var Performer1ShortName = AllEvents[i].Performer1Name;
+                //if (Performer1ShortName == '') Performer1ShortName = AllEvents[i].Performer1ShortName;
+                var Performer1ShortName = AllEvents[i].Performer1ShortName;
+                //if (Performer1ShortName == '') Performer1ShortName = AllEvents[i].Performer1ShortName;
+                var Performer2ShortName = AllEvents[i].Performer2ShortName;
+                var Venue = AllEvents[i].Venue;
+                var SEUrl = AllEvents[i].SEUrl;
+                var MinPrice = AllEvents[i].MinPrice;
+                var dchange = AllEvents[i].dchange;
+                var wchange = AllEvents[i].wchange;
+                var p1id = AllEvents[i].Performer1ID;
+                var p2id = AllEvents[i].Performer2ID;
+                var eventtype = AllEvents[i].EventType;
+                var price_changes = "";
+                var schange_lbl = '';
+
+                var schange_val = '';
+
+                if (wchange != '') {
+                    wchange = wchange * 1 - 100;
+                }
+                if (dchange != '') {
+                    dchange = dchange * 1 - 100;
+                }
+
+                if (dchange != '') {
+                    schange_val = dchange;
+                    schange_lbl = "";
+                } else if (wchange != '') {
+                    schange_val = wchange;
+                    schange_lbl = "";
+                }
+
+                var pc_subclass = "";
+                if (schange_val != '') {
+                    schange_val = Math.round(schange_val);
+                    if ((schange_val * 1) >= 0) {
+                        //schange_val = "+" + schange_val;
+                        schange_val = schange_val;
+                        pc_subclass = 'up';
+                    } else {
+                        schange_val = schange_val * -1;
+                        pc_subclass = 'down';
+                    }
+                    price_changes = schange_lbl + ' ' + schange_val + '%';
+                }
+
+                var tmp_min_price = MinPrice.split('.');
+                MinPrice = tmp_min_price[0];
+
+                if (Performer1ShortName != '') {
+                    //var DName = Performer1ShortName + "@" + Venue;
+                    var DName = Performer2ShortName + "@" + Performer1ShortName;
+                } else {
+                    var DName = EName;
+                }
+
+                if (eventtype != '4') {
+                    DName = EName;
+                }
+                
+                if ((p1id == '175') || (p1id == '203')) {
+                    //DName = Performer2ShortName;
+                    DName = AllEvents[i].Name;
+                }
+
+                if ((p2id == '175') || (p2id == '203')) {
+                    //DName = Performer2ShortName;
+                    DName = AllEvents[i].Name;
+                }
+               
+                if (p1id == '69') {
+                    //DName = Performer2ShortName;
+                    DName = AllEvents[i].Performer1ShortName;
+                }
+                
+                if (DName.length > 24) {
+                DName = DName.substr(0, 21) + '...';
+                }
+
+                if (mm_rdr_url != '') {
+                    SEUrl = mm_rdr_url + escape(SEUrl);
+                    document.getElementById('wheader').href = mm_rdr_url + escape("http://www.tiqiq.com");
+                }
+
+                var EventLine = "<div class='VVwidgetDate'>" + EventDate + "</div><div class='EventName'>" + "<a href='" + SEUrl + "' class='event_line' target='_blank' onclick='" + 'clicktrack("Widget Click Generic");' + "'>" + DName + "</a><div class='sep'></div> <div class='EventFrom'>From $" + MinPrice + "</div><div class='EventPchange " + pc_subclass + "'>" + price_changes + "</div> </div><div class='EventBuy'>" + "<a href='" + SEUrl + "' target='_blank' onclick='" + 'clicktrack("Widget Click Generic");' + "'>" + "</a></div><div class='sep'></div>";
+                //var EventLine = "<div class='event_line'><div class='idl1'>" + EventDate + "</div><div class='idl2'>" + DName + "</div><div class='idl3'>$" + MinPrice + "</div><div class='idl4'><a href='" + SEUrl + "' target='_blank' onclick='" + 'clicktrack("Go Click - Tabbed"); clicktrack("Widget Click Generic");' + "'> </a></div><div class='sp'></div></div>";
+                $('#tiqcontainer').html($('#tiqcontainer').html() + EventLine);
+            }
+            $('#tiqcontainer').html($('#tiqcontainer').html() + "<div class='bspace'></div>");
+        }
+
+    </script>
+    
+   
+   
+   
+
+<!--//should be kept embedded do not take externally-->    
+
+
+
+
+
+<!--Analytics tracking codes-->
+<script type="text/javascript">
+
+
+function GetParamValueForTracking(ParamName) 
+{
+    if (typeof (URLParameters) != "undefined")
+        if (URLParameters != undefined)
+            if (URLParameters[ParamName.source.replace('=', '').toUpperCase()] != undefined)
+                return URLParameters[ParamName.source.replace('=', '').toUpperCase()];
+    return null;
+}
+
+
+if (!window["tiqAnalytics"]) {
+	var tiqAnalytics = {};
+}
+
+tiqAnalytics.ViewEvent = function(eventName)
+{
+	_gaq.push(['_setCustomVar',1, 'event name', eventName, 3]);
+	_gaq.push(['_trackPageview']);
+
+	var func = function(eventName)
+	{
+		if(!tiqAnalytics.externalWidget || (eventName != "view widget")) 
+			mpq.push(["track", eventName]); 
+	};
+
+	_gaq.push( function() { func(eventName); } );
+}
+
+tiqAnalytics.GetUrlCampaignValues = function (url) {
+    var response = {};
+    response.source = url.match(/utm_source=([^&]*)/i) ? url.match(/utm_source=([^&]*)/i)[1] : "";
+    if (GetParamValueForTracking(/utm_source=/) != null) 
+        if (response.source == '') 
+            response.source = GetParamValueForTracking(/utm_source=/);
+        
+    
+    response.medium = url.match(/utm_medium=([^&]*)/i) ? url.match(/utm_medium=([^&]*)/i)[1] : "";
+
+    if (GetParamValueForTracking(/utm_medium=/) != null)
+        if (response.medium == '')
+            response.medium = GetParamValueForTracking(/utm_medium=/);
+    response.keyword = url.match(/utm_term=([^&]*)/i) ? url.match(/utm_term=([^&]*)/i)[1] : "";
+
+    if (GetParamValueForTracking(/utm_term=/) != null)
+        if (response.keyword == '')
+            response.keyword = GetParamValueForTracking(/utm_term=/);
+    response.content = url.match(/utm_content=([^&]*)/i) ? url.match(/utm_content=([^&]*)/i)[1] : "";
+
+    if (GetParamValueForTracking(/utm_content=/) != null)
+        if (response.content == '')
+            response.content = GetParamValueForTracking(/utm_content=/);
+    response.campaign = url.match(/utm_campaign=([^&]*)/i) ? url.match(/utm_campaign=([^&]*)/i)[1] : "";
+
+    if (GetParamValueForTracking(/utm_campaign=/) != null)
+        if (response.campaign == '')
+            response.campaign = GetParamValueForTracking(/utm_campaign=/);
+
+    return response;
+}
+
+tiqAnalytics.BuyEvent = function (ticketId, auction) {
+    //analytics
+    var daysToGame = parseInt((g_oApp.oEvent.oEventInfo.Event.Time - (new Date())) / (24 * 3600 * 1000));
+    var priceMark = "unknown";
+    var ticket = null;
+
+    if (auction == "1")
+        ticket = g_oApp.oEvent.oTicket.oAuctionList.ActiveListings[ticketId];
+    else
+        ticket = g_oApp.oEvent.oTicket.oTicketList.ActiveListings[ticketId];
+
+    for (var i = 0; i < g_oApp.oEvent.oEventInfo.Event.Zones.length; i++) {
+        if (g_oApp.oEvent.oEventInfo.Event.Zones[i] != null) {
+            if (g_oApp.oEvent.oEventInfo.Event.Zones[i].ZoneID == ticket.ZoneID) {
+                priceMark = ticket.AskPrice > g_oApp.oEvent.oEventInfo.Event.Zones[i].ZoneStats.AvgAskPrice ? "above" :
+				    ticket.AskPrice == g_oApp.oEvent.oEventInfo.Event.Zones[i].ZoneStats.AvgAskPrice ? "equal" : "below";
+                break;
+            }
+        }
+        else
+            priceMark = 'Unknown';
+    }
+
+    //we send a late widget view event to mixpanel when buy is clicked,
+    //since external widget views cannot be counted there due to costs.
+    if (tiqAnalytics.externalWidget) {
+        mpq.push(["track", "Widget Buy Clicked", { "priceMark": priceMark, "daysToGame": daysToGame, "board": ticket.DataSource}]);
+        mpq.push(["track", "Widget Click Generic", { "priceMark": priceMark, "daysToGame": daysToGame, "board": ticket.DataSource}]);
+    } else if (location.href.match(/SingleEvent\.aspx|PublisherSingleEventHomePage\.aspx|NextGamePage\.aspx|SingleEventNoGameErr\.aspx|TicketListIndex\.aspx|\.tiqiq\.com\/tickets\//i))
+        mpq.push(["track", "Single Buy Clicked", { "priceMark": priceMark, "daysToGame": daysToGame, "board": ticket.DataSource}]);
+    else if (location.href.match(/MultiEvents\.aspx|PublisherHomePage\.aspx|MiniEvent\.aspx|MiniEventNew\.aspx|-tickets\//i))
+        mpq.push(["track", "Multi Buy Clicked", { "priceMark": priceMark, "daysToGame": daysToGame, "board": ticket.DataSource}]);
+    else
+        mpq.push(["track", "Buy Clicked", { "priceMark": priceMark, "daysToGame": daysToGame, "board": ticket.DataSource}]);
+
+    _gaq.push(['_trackEvent', 'ticket', 'buy', priceMark, daysToGame]);
+}	
+
+
+//Google Analytics
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-17157020-1']);
+_gaq.push(['_setAllowHash', false]);
+
+//MixPanel
+var mpq = mpq || [];
+mpq.push(["init", "cd0a4e1fd8d9d22a84630cb280d25939"]);
+
+//GA enhancements
+function Utmz(a){this.v=unescape(a);this.sr="(direct)";this.cn="(direct)";this.cmd="(none)";this.s="utmcsr="+this.sr+"|utmccn="+this.cn+"|utmcmd="+this.cmd;if(a!=null){this.s=a.replace(/^[0-9\.]*/,"");a.replace(/utmcsr=([^\|]*)\|utmccn=([^\|]*)\|utmcmd=([^|]*)/,function(){this.sr=arguments[1];this.cn=arguments[2];this.cmd=arguments[3]})}this.sv=function(){extga._sc("__utmz",this.v,182)};this.isNew=function(){return this.v=="null"};this._setCampName=function(b){this.v=this.v.replace(/utmccn=([^\|]*)/,"utmccn="+b);this.sv()};this._setCampSource=function(b){this.v=this.v.replace(/utmcsr=([^\|]*)/,"utmcsr="+b);this.sv()};this._setCampMedium=function(b){this.v=this.v.replace(/utmcmd=([^\|]*)/,"utmcmd="+b);this.sv()};this._setCampTerm=function(b){this.v=this.v.match(/utmctr=/)?this.v.replace(/utmctr=([^\|]*)/,"utmctr="+b):this.v+"|utmctr="+b;this.sv()};this._setCampContent=function(b){this.v=this.v.match(/utmcct=/)?this.v.replace(/utmcct=([^|]*)/,"utmcct="+b):this.v+"|utmcct="+b;this.sv()};this._reset=function(){this.v=this.v.replace(/^([0-9\.]*).*$/,"$1utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)")}}
+var extga={_fm:false,_fr:false,_rc:function(b){var c=new RegExp(b+"=([^;]*)","i");var a=document.cookie.match(c);return(a&&a.length==2)?a[1]:null},_Ua:function(a){if(a!=""){return" domain="+a}else{if(document.domain.match(/^www/)!=null){return" domain="+document.domain.replace(/^www/,"")}else{return" domain="+document.domain}}},_sc:function(g,i,h){var a=new Date();a.setTime(a.getTime()+(((typeof(h)!="undefined")?h:3)*24*60*60*1000));var d=g+"="+i+"; expires="+a.toGMTString()+"; path=/;"+this._Ua(this.domain);document.cookie=d},_override:false,_setCampValues:function(l,d,i,c,j,k){extga.domain=k||"";extga.outmz=new Utmz(extga._rc("__utmz"));_gaq.push(["_initData"]);extga.nutmz=new Utmz(extga._rc("__utmz"));if(extga.outmz.s!=extga.nutmz.s){extga._fr=true;extga.outmz=new Utmz(extga._rc("__utmz"))}else{if(extga.outmz.isNew()){extga._direct=true}}if(extga._getCampValues().medium=="referral"||extga._getCampValues().medium=="Argyle Social"){extga._fm=true}if(extga._fm||!extga._fr){if(extga._override){extga.nutmz._reset()}if(l){extga.nutmz._setCampSource(l)}if(d){extga.nutmz._setCampMedium(d)}if(i){extga.nutmz._setCampName(i)}if(c){extga.nutmz._setCampTerm(c)}if(j){extga.nutmz._setCampContent(j)}}},_getCampValues:function(){var b={sr:"source",cn:"name",md:"medium",ct:"content",tr:"term"};var c=unescape(extga._rc("__utmz"));var a={source:"",medium:"",name:"",term:"",content:"",isDirect:function(){return(a.content==""&&a.medium=="(none)"&&a.name=="(direct)"&&a.source=="(direct)"&&a.term=="")},isOrganic:function(){return(a.medium=="organic"&&a.name=="(organic)")},isCampaign:function(d){var e=new RegExp("("+d+")");return a.name.match(e)!=null}};if(c!=null){c.replace(/utmc([a-z]{2})=([^\|]*)/g,function(d,f,e){a[b[f]]=e})}return a}};
+
+if(location.href.match(/minievent(?:new)?\.aspx/i) != null)
+{
+	tiqAnalytics.extga = parent.document.extga ? parent.document.extga : parent.extga ? parent.extga : null;
+	tiqAnalytics.ref = parent.document.referrer ? parent.document.referrer : "";
+	tiqAnalytics.setCampaignDetails = false;
+}
+else
+{
+	tiqAnalytics.extga = self.extga ? self.extga : extga ? extga : null;
+	tiqAnalytics.ref = self.document.referrer ? self.document.referrer : "";
+	tiqAnalytics.setCampaignDetails = true;
+}
+
+tiqAnalytics.isAffiliate = false;
+tiqAnalytics.externalWidget = false;
+tiqAnalytics.campaign = '';
+tiqAnalytics.keyword = '';
+tiqAnalytics.template = '';
+tiqAnalytics.medium = '';
+tiqAnalytics.userId = "1384569746";
+tiqAnalytics.publisher = "VVNY";
+
+_gaq.push(["_setDomainName",".tiqiq.com"]);
+/*
+_gaq.push(["_setDomainName","tickets.ocweekly.com"]);
+_gaq.push(["_setDomainName","tickets.laweekly.com"]);
+_gaq.push(["_setDomainName","tickets.westword.com"]);
+_gaq.push(["_setDomainName","tickets.miaminewtimes.com"]);
+_gaq.push(["_setDomainName","tickets.browardpalmbeach.com"]);
+_gaq.push(["_setDomainName","tickets.sfweekly.com"]);
+_gaq.push(["_setDomainName","tickets.seattleweekly.com"]);
+_gaq.push(["_setDomainName","tickets.dallasobserver.com"]);
+_gaq.push(["_setDomainName","tickets.houstonpress.com"]);
+_gaq.push(["_setDomainName","tickets.phoenixnewtimes.com"]);
+_gaq.push(["_setDomainName","tickets.citypages.com"]);
+_gaq.push(["_setDomainName","tickets.villagevoice.com"]);
+_gaq.push(["_setDomainName","tickets.riverfronttimes.com"]);
+_gaq.push(["_setDomainName","tickets.voiceplaces.com"]);
+*/
+
+_gaq.push(["_initData"]);
+
+_gaq.push(function () {
+    //check if referrer is external
+
+    if (tiqAnalytics.publisher.length > 0) {
+        tiqAnalytics.isAffiliate = true;
+        tiqAnalytics.medium = 'affiliate';
+
+        
+        var cmpVals = tiqAnalytics.extga ? tiqAnalytics.extga._getCampValues() : null;
+        var refCmpVals = tiqAnalytics.GetUrlCampaignValues(tiqAnalytics.ref ? tiqAnalytics.ref : "");
+        //var refCmpVals = '';
+        
+
+        //if move from multi to single, we cannot analyse campaign details of traffic sources anymore.
+        if (location.href.match(/singleevent\.aspx/i) && tiqAnalytics.ref.match(/multievents\.aspx/i)) {
+            tiqAnalytics.setCampaignDetails = false;
+            var MPC = document.cookie.match(/mp_super_properties\s*=\s*([^;]*)/g);
+            if (MPC) {
+                MPC = decodeURIComponent(MPC[MPC.length - 1]);
+                var prm = MPC.match(/\"publisher\"\s*\:\s*\"([^\"]+)\"/);
+                tiqAnalytics.source = prm ? prm[1] : tiqAnalytics.source ? tiqAnalytics.source : "";
+                prm = MPC.match(/\"medium\"\s*\:\s*\"([^\"]+)\"/);
+                tiqAnalytics.medium = prm ? prm[1] : tiqAnalytics.medium ? tiqAnalytics.medium : "";
+                prm = MPC.match(/\"keyword\"\s*\:\s*\"([^\"]+)\"/);
+                tiqAnalytics.keyword = prm ? prm[1] : tiqAnalytics.keyword ? tiqAnalytics.keyword : "";
+                prm = MPC.match(/\"widget\stemplate\"\s*\:\s*\"([^\"]+)\"/);
+                tiqAnalytics.content = prm ? prm[1] : tiqAnalytics.content ? tiqAnalytics.content : "";
+                prm = MPC.match(/\"campaign\"\s*\:\s*\"([^\"]+)\"/);
+                tiqAnalytics.campaign = prm ? prm[1] : tiqAnalytics.campaign;
+            }
+        }
+
+        //check if medium is already set to "Argyle Social", otherwise set medium as "affiliate"
+        //we change the rest of the values, since argyle is setting non-important data.
+        else if (location.href.match(/redir\.aspx/ig)) {
+            if (cmpVals && cmpVals.medium == "Argyle Social") {
+                tiqAnalytics.campaign = "direct social (argyle) hop";
+                tiqAnalytics.keyword = cmpVals.source;
+            }
+            else {
+                tiqAnalytics.campaign = "direct social hop";
+                tiqAnalytics.keyword = tiqAnalytics.ref.replace(/https?:\/\/.*?(?:\?.*$|\/(.*)[\?\/]+.*$|\/(.*)$)/i, "$1$2"); //extract reffering page of url.
+            }
+        }
+        else if (refCmpVals && refCmpVals.medium.toLowerCase() == "campaign") {
+            tiqAnalytics.medium = 'affiliate campaign';
+            tiqAnalytics.campaign = refCmpVals.campaign;
+            tiqAnalytics.keyword = refCmpVals.keyword;
+        }
+        else if (cmpVals && cmpVals.medium == "Argyle Social") {
+            tiqAnalytics.campaign = 'social (argyle)';
+            tiqAnalytics.keyword = cmpVals.source;
+        }
+        else {
+            tiqAnalytics.keyword = "VillageVoice_Music_Dynamic";
+            if (tiqAnalytics.keyword && tiqAnalytics.keyword.length > 0) {
+                tiqAnalytics.campaign = "widget";
+                tiqAnalytics.template = "Dynamic Widget - Multi venues - New";
+            }
+            else {
+                tiqAnalytics.campaign = "link";
+                tiqAnalytics.keyword = tiqAnalytics.ref.replace(/https?:\/\//i, "");
+            }
+        }
+    }
+
+    if (tiqAnalytics.isAffiliate && tiqAnalytics.setCampaignDetails) {
+        tiqAnalytics.extga._override = true;
+        tiqAnalytics.extga._setCampValues(tiqAnalytics.publisher, tiqAnalytics.medium, tiqAnalytics.campaign, tiqAnalytics.keyword, tiqAnalytics.template, ".tiqiq.com");
+    }
+
+    //MixPanel
+    mpq.push(["identify", tiqAnalytics.userId]);
+    //TODO: check if to store on cookie to overcome iframes
+
+    mpq.push(["register", { "medium": tiqAnalytics.medium, "affiliate": tiqAnalytics.isAffiliate, "publisher": tiqAnalytics.publisher, "campaign": tiqAnalytics.campaign, "keyword": tiqAnalytics.keyword, "widget template": tiqAnalytics.template }, "all", 365]);
+});
+
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+//loading mixpanel - make sure user id is taken according to us - no differences.
+var MPC = document.cookie.match(/mp_super_properties\s*=\s*([^;]*)/g);
+if(MPC != null)
+{
+    MPC = decodeURIComponent(MPC[MPC.length-1]);
+    var UID = MPC.match(/\"distinct_id\"\s*\:\s*\"(\d+)\"/);
+    if(UID != null)
+    {   
+        MPC = MPC.replace(UID[1],tiqAnalytics.userId);
+        MPC = encodeURIComponent(MPC);
+        document.cookie = "mp_super_properties="+MPC;
+    }
+}
+
+(function() {
+var mp = document.createElement("script"); mp.type = "text/javascript"; mp.async = true;
+mp.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + "//api.mixpanel.com/site_media/js/api/mixpanel.js";
+var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(mp, s);
+})();
+
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+    tiqAnalytics.externalWidget = true;
+    _gaq.push(function () { tiqAnalytics.ViewEvent("view widget"); });
+
+
+    function clicktrack(eventname) {
+        // NIMROD
+        _gaq.push(function () { tiqAnalytics.ViewEvent(eventname); });
+    }
+
+</script>
+   
+   <script type="text/javascript" src="js"></script>
+<link rel="stylesheet" type="text/css" href="queer-therapy_10.css" media="all">
+</head>
+<body style="overflow: hidden; height: 100%; margin: 0px; padding: 0px;" ondragstart="self.event.returnValue=false;" scroll="no">
+
+
+
+
+    <form name="formTiqiqAjax" method="post" action="http://dbm1.tiqiq.com/tiqiq/dynamic_widget.aspx?widgetid=7732724999&amp;publisherid=1164199" id="formTiqiqAjax" style="background: none repeat ; 0% rgb(255, 255, 255);">
+<div>
+<input name="__EVENTTARGET" id="__EVENTTARGET" value="" type="hidden">
+<input name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" type="hidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE5OTIwNTQ2NTlkZKUJeEh4t3GbmMpkBHwr1eUHDCzXecGFeUiTi9RSkb++" type="hidden">
+</div>
+
+<script type="text/javascript">
+
+//<![CDATA[
+var theForm = document.forms['formTiqiqAjax'];
+if (!theForm) {
+    theForm = document.formTiqiqAjax;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResource.axd" type="text/javascript"></script>
+
+
+<script src="ScriptResource.axd" type="text/javascript"></script>
+<script type="text/javascript">
+
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="ScriptResource_001.axd" type="text/javascript"></script>
+    
+    <div id="wrapper" style="background: url('7732724999_Background_image.png') no-repeat ; 0% transparent;">
+        <script type="text/javascript">
+
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManagerSEUIPage', 'formTiqiqAjax', [], [], [], 90, '');
+//]]>
+</script>
+
+        
+    
+<div class="wdiv" style="height: 99%;">
+    <a href="http://tickets.villagevoice.com/" target="_top" class="wheader" id="wheader" onclick="clicktrack('Dynamic Powered by'); clicktrack('Widget Click Generic');">
+        
+    </a>
+
+    <div id="tiqcontainer">
+
+    <div class="VVwidgetDate">12/31</div><div class="EventName"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9209528021&amp;PublisherID=1164199&amp;WidgetID=7732724999" class="event_line" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);">Winter Galactic</a><div class="sep"></div> <div class="EventFrom">From $146</div><div class="EventPchange down"> 14%</div> </div><div class="EventBuy"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9209528021&amp;PublisherID=1164199&amp;WidgetID=7732724999" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);"></a></div><div class="sep"></div><div class="VVwidgetDate">12/31</div><div class="EventName"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9186352035&amp;PublisherID=1164199&amp;WidgetID=7732724999" class="event_line" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);">Andrew W.K.</a><div class="sep"></div> <div class="EventFrom">From $61</div><div class="EventPchange down"> 44%</div> </div><div class="EventBuy"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9186352035&amp;PublisherID=1164199&amp;WidgetID=7732724999" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);"></a></div><div class="sep"></div><div class="VVwidgetDate">1/7</div><div class="EventName"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=8903198869&amp;PublisherID=1164199&amp;WidgetID=7732724999" class="event_line" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);">Johnny Winter</a><div class="sep"></div> <div class="EventFrom">From $56</div><div class="EventPchange up"> 24%</div> </div><div class="EventBuy"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=8903198869&amp;PublisherID=1164199&amp;WidgetID=7732724999" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);"></a></div><div class="sep"></div><div class="VVwidgetDate">1/10</div><div class="EventName"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9744024750&amp;PublisherID=1164199&amp;WidgetID=7732724999" class="event_line" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);">Action Bronson</a><div class="sep"></div> <div class="EventFrom">From $110</div><div class="EventPchange up"> 26%</div> </div><div class="EventBuy"><a href="http://tickets.villagevoice.com/teams/NewYork/tickets/?BrandID=VVNYvMasterPage&amp;EventID=9744024750&amp;PublisherID=1164199&amp;WidgetID=7732724999" target="_top" onclick="clicktrack(&quot;Widget Click Generic&quot;);"></a></div><div class="sep"></div><div class="bspace"></div></div>
+
+    <div class="wfooter" id="wfooter"><a href="http://tickets.villagevoice.com/" target="_top" style="display: block; height: 55px;"></a></div>
+</div>
+    
+<span class="preloader1"></span>    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+                  
+   
+
+
+</div></form></body>
+</html>

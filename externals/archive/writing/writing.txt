@@ -1,0 +1,123 @@
+THESE LINKS and their archived web pages are intended for a Reviews section of the EKS.net website, to be created at some future point. Some of the links were found by Sarah, and some more recently by Hal and T. 
+
+Fields: 
+Link name from EKS.net
+Item name in  Zotero (Zotero gets from remote site)
+Index file name in Zotero folder
+Folder name in Zotero library 
+URL for archived site as it will appear in EKS.net
+
+abbreviated as:
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/archive/writing// [modify as necessary]
+
+
+Link:   Melissa Gregg, The Electronic Book Review [Touching Feeling]
+Item:   How to Avoid Being Paranoid | Electronic Book Review
+Index:  beside.html
+Folder: 3BMKJ9RB
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/3BMKJ9RB/beside.html
+
+Link:   Publishers Weekly [Touching Feeling]
+Item:   Nonfiction Book Review: Touching Feeling: Affect, Pedagogy, Performativity by Eve Kosofsky Sedgwick, Author, Eve Kosofskysedgwick, Author, Michele Ainabarale, Editor Duke University Press $22.95 (208p) ISBN 978-0-8223-3015-8
+Index:  978-0-8223-3015-8.html
+Folder: IZGKFIHG
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/IZGKFIHG/978-0-8223-3015-8.html
+
+Link:   Marla Morris, Journal of the History of Sexuality [Touching Feeling]
+Item:   see note, below
+Index:  3704866.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/3704866.pdf
+Note: Non-Zotero item from CUNY GC JStor, Journal of the History of Sexuality, Vol. 13, No. 2 (Apr., 2004), pp. 263-266
+
+Link:   Elaine Showalter, London Review of Books [Touching Feeling]
+Item:   Vibrating to the Chord of Queer
+Index:  vibrating-to-the-chord-of-queer.html
+Folder: A68FNRBN
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/A68FNRBN/vibrating-to-the-chord-of-queer.html
+
+
+Link:   David Kurnick, Village Voice
+Item:   Queer Therapy
+Index:  queer-therapy.html
+Folder: CSU25TPD
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/CSU25TPD/queer-therapy.html
+
+Link:   Tendencies, Virginia Quarterly Review
+Item:   VQR » Notes on Current Books, Spring 1994
+Index:  notes-on-current-books.html
+Folder: UMZ85R7R
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/UMZ85R7R/notes-on-current-books.html
+
+Link:   Marilyn Hacker, The Nation
+Item:   Academic OneFile - Document
+Index:  retrieve.html
+Folder: PTHGR2ME
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/PTHGR2ME/retrieve.html
+
+Link:   review of Epistemology, The Nation
+Item:   Academic OneFile - Document
+Index:  retrieve.html
+Folder: 9S9CJISZ
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/9S9CJISZ/retrieve.html
+
+Link:   review of Epistemology,  19th Century Literature 
+Item:   see note, below
+Index:  2933810.pdf
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/2933810.pdf
+Note: Non-Zotero item from CUNY GC JStor, Vol 46, No 4, March 1992, 19th Century Literature pp. 557-561
+Stable URL: http://www.jstor.org/stable/2933810
+
+Link:   review of Novel Gazing
+Item:   
+Index:  439060.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/439060.pdf
+Andrew Elfenbein, Modern Philology, Vol. 97, No. 1 (Aug., 1999), pp. 165-168
+
+Link:   review of Epistemology
+Item:   
+Index:  438684.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/438684.pdf
+Sherwood Williams, Modern Philology, Vol. 90, No. 4 (May, 1993), pp. 580-584
+
+
+
+Link:   Review of Gary in Your Pocket
+Item:   
+Index:  9608302834.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/9608302834.pdf
+Haile, Mark. Lambda Book Report, Aug96, Vol. 5 Issue 2, p19, 2p
+
+Link:   review of A Dialogue on Love
+Item:   
+Index:  2409978.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/2409978.pdf
+
+Link:   brief mention of Dialogue
+Item:   
+Index:  2231202.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/2231202.pdf
+Lambda Book Report, Sep99, Vol. 8 Issue 2, p31, 1/9p
+
+Link:   EKS intro to special issue
+Item:   
+Index:  9612174258.pdf
+Folder: NonZoteroPDFs
+URL:    http://evekosofskysedgwick.net/externals/archive/writing/NonZoteroPDFs/9612174258.pdf
+Introduction: Queerer than fiction. Sedgwick, Eve Kosofsky. Studies in the Novel. Fall96, Vol. 28 Issue 3, p277. 4p.
+
+Link:   
+Item:   
+Index:  
+Folder: 
+URL:    http://evekosofskysedgwick.net/externals/archive/writing//

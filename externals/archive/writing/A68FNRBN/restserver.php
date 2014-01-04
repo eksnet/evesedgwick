@@ -1,0 +1,1 @@
+/**/ fcbk.receiveCount([{"url":"http:\/\/www.lrb.co.uk\/v25\/n05\/elaine-showalter\/vibrating-to-the-chord-of-queer","normalized_url":"http:\/\/www.lrb.co.uk\/v25\/n05\/elaine-showalter\/vibrating-to-the-chord-of-queer","share_count":0,"like_count":0,"comment_count":0,"total_count":0,"click_count":0,"comments_fbid":283472288442750,"commentsbox_count":0}]);

@@ -1,0 +1,39 @@
+
+/* ::::: https://d7x5nblzs94me.cloudfront.net/v1/c/button.css?v=6 ::::: */
+
+body, html { margin: 0px; padding: 0px; overflow: visible; text-align: center; font-family: "HelveticaNeue",Arial,sans-serif; background: none repeat scroll 0% 0% transparent; }
+.ajximg { position: absolute; left: -789em; }
+.widget { position: absolute; top: 0px; left: 0px; text-align: center; white-space: nowrap; }
+.widget.center { position: relative; margin: 0px auto; }
+.widget.right { width: auto ! important; left: auto; right: 0px; }
+.widget.pocket { width: 60px; }
+.widget.save { width: 56px; }
+.widget.pocket.vertical { width: 60px; }
+.widget.save.vertical { width: 56px; }
+.widget.horizontal { width: 115px; }
+#btn { display: block; cursor: pointer; }
+#btn span { position: relative; display: block; border: 1px solid rgb(187, 187, 187); font-weight: bold; color: rgb(119, 119, 119); background: none repeat scroll 0% 0% rgb(255, 255, 255); }
+#btn:hover span { color: rgb(85, 85, 85); }
+.horizontal #btn span { float: left; height: 18px; padding: 0px 6px; line-height: 18px; font-size: 11px; font-weight: normal; border-radius: 3px; }
+.vertical #btn span { height: 33px; line-height: 33px; margin-bottom: 8px; font-size: 14px; }
+#btn span em { font-style: normal; transition: opacity 0.3s ease 0s; }
+#btn span em.fadeOut { opacity: 0; }
+#btn span i, #btn span u { display: block; position: absolute; border: 4px solid transparent; width: 0px; height: 0px; line-height: 0px; z-index: 10; }
+.vertical #btn span i, .vertical #btn span u { left: 50%; bottom: 0px; margin: 0px 0px -4px -4px; border-bottom: 0px none; }
+.vertical #btn span i { border-top-color: rgb(170, 170, 170); }
+.vertical #btn span u { margin-bottom: -3px; border-top-color: rgb(255, 255, 255); }
+.horizontal #btn span i, .horizontal #btn span u { top: 50%; left: 0px; margin: -4px 0px 0px -4px; border-left: 0px none; }
+.horizontal #btn span i { border-right-color: rgb(170, 170, 170); }
+.horizontal #btn span u { margin-left: -3px; border-right-color: rgb(255, 255, 255); }
+#btn b { display: block; height: 20px; line-height: 20px; font-size: 12px; background: url('pocket_button.png') no-repeat scroll center top / 60px auto transparent; }
+#btn:hover b { background-position: center center; }
+#btn.saved b { background-position: center bottom; }
+.pocket #btn b { width: 60px; }
+.horizontal.pocket #btn { padding-left: 66px; }
+.save #btn b { width: 56px; }
+.horizontal.save #btn { padding-left: 62px; }
+.horizontal #btn b { position: absolute; top: 0px; left: 0px; }
+.save #btn b { background-size: 56px auto; background-image: url('save_button.png'); }
+@media not all, only screen and (min-resolution: 144dpi) {
+  #btn b { background-image: url('pocket_button-2x.png'); }
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<meta name="wpd_version" content="0.2">
+<meta name="wpd_baseurl" content="http://www.villagevoice.com/1999-08-03/books/queer-therapy/">
+<meta name="wpd_url" content="http://www.myvoicenation.com/widget/article/nyv/arts/email/small/">
+<meta name="wpd_date" content="2013-11-28T19:56Z">
+
+        <script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+        <script type="text/javascript" src="recaptcha_ajax.js"></script>
+        <script type="text/javascript">
+
+            var ssoWindow = false,
+                defaultText = "enter email";
+
+            var ssoFrame = window.parent.frames['easyXDM_mvn_provider'],
+                MVN_Server = ssoFrame.MVN_Server,
+                jQuery = $ = ssoFrame.localjQuery(window);
+
+            if(!MVN_Server){
+                document.location.replace('about:blank');
+            }
+            if(typeof(Recaptcha) !== 'undefined' && !MVN_Server.user) {
+                Recaptcha.create("6LfmE70SAAAAALaT9GCVvdjZcjCk2bexMIb1pA74", "recaptcha_widget", {theme: "custom", custom_theme_widget: "recaptcha_widget"});
+            }
+            function updateWidget(){
+                MVN_Server.client.updateWidget(window.name, {'height': $('body').outerHeight(true)})
+            };
+            function showCaptcha(){
+                Recaptcha.reload("t");
+                $('#captcha, .options').show();
+                updateWidget();
+            }
+            function hideCaptcha(){
+                $('#captcha, .options').hide();
+                updateWidget();
+            }
+            function hideError(refresh){
+                hideLoading();
+                $('p.error').remove();
+                if(refresh||false)
+                    updateWidget();
+            }
+            function showError(err){
+                hideError();
+                $('form').before($('<p class="error"/>').text(err));
+                updateWidget();
+                return false;
+            }
+            function showLoading(){
+                hideError(true);
+                if(!$('span#loading').length)
+                    $('body').append(
+                        $('<span id="loading"/>')
+                            .append(
+                                $('<span class="trans-50"/>')
+                            ).append(
+                                $('<span/>')
+                        )
+                    );
+                $('span#loading').show();
+            }
+            function hideLoading(){
+                $('span#loading').hide();
+            }
+
+                        function init(){
+                if(MVN_Server.user){
+                    $('form').html('<input type="submit" value="Subscribe"/>');
+                }
+
+                updateWidget();
+                $('<img/>')[0].src = 'http://assets.myvoicenation.com/img/modal_spin.gif';
+                                $('input[name=email]').focus(function(){
+                    if($(this).val()==defaultText){
+                        $(this).val('').css('color', '#000');
+                        showCaptcha();
+                    }
+                }).blur(function(){
+                    $(this).val(jQuery.trim($(this).val()));
+                    if($(this).val()==''||$(this).val()==defaultText){
+                        $(this).val(defaultText).css('color', '#888');
+                        hideCaptcha();
+                    }
+                });
+                $('.options input[type=button]').click(function(e){
+                    e.preventDefault();
+                    hideError();
+                    $('input[name=email]').val('').blur();
+                });
+
+                            }
+            function validate(){
+                showLoading();
+                var email;
+                if(!MVN_Server.user){
+                    $('input[name=email]').val(email = jQuery.trim($('input[name=email]').val()));
+                    if(email=='')
+                        return showError("Please provide Email");
+                    if(!/^[a-z0-9\+._-]+@[a-z0-9.-]+\.[a-z]{2,4}$/i.test(email))
+                        return showError("Please provide valid email");
+                    if(jQuery.trim($('input#recaptcha_response_field').val())=='')
+                        return showError("Please provide reCaptcha Answer");
+                }else{
+                    email = MVN_Server.user.email;
+                }
+                var formData = $('form').serializeArray();
+                formData.push(
+                    {name: 'cid',       value: 'nyv'},
+                    {name: 'sub',       value: '7'},
+                    {name: 'section',   value: 'arts'}
+                );
+                $.ajax({
+                    type: 'POST',
+                    dataType: 'json',
+                    url: '/widget/article_ajax/',
+                    data: formData,
+                    success: function(obj){
+                        if(obj.status=='success'){
+                            var finish = function(){
+                                showLoading();
+                                $('body > div > div').html('<p>Thank you.<br/><br/>'+(
+                                    (obj.newuser)
+                                        ? 'Look for your Welcome email with details on how'
+                                        : '<a href="/profile/newsletters/nyv/" target="_parent">Login</a> to your account at anytime')+' to continue to customize your experience'
+                                );
+                                hideError(true);
+                            }
+                            validate = function(){
+                                var formData = $('form').serializeArray();
+                                showLoading();
+                                formData.push(
+                                    {name: 'cid',       value: 'nyv'},
+                                    {name: 'email',     value: email},
+                                    {name: 'section',   value: 'arts'}
+                                );
+                                $.ajax({
+                                    type: 'POST',
+                                    dataType: 'json',
+                                    url: '/widget/article_ajax/',
+                                    data: formData,
+                                    success: function(){
+                                        finish();
+                                    },
+                                    error: function(){
+                                        finish();
+                                    }
+                                });
+                            }
+                            if(obj.recommend&&obj.recommend.length>0){
+                                $('body > div > div p').html(obj.msg);
+                                $('form').html($('<div class="options step2"/>').append(
+                                    $('<input type="button" value="No Thanks" style=""/>')
+                                        .click(function(){
+                                            finish();
+                                        })
+                                ).append(
+                                    $('<input type="submit" value="Continue"/>')
+                                ));
+                                $('div.options').show();
+                                $('form').prepend($('<ul/>').html(function(){
+                                    var r = '';
+                                    $.each(obj.recommend, function(k, v){
+                                        r += '<li><input type="checkbox" value="'+v.subscription_id+'" name="subs[]"/><span onclick="javascript:document.forms[0].elements['+k+'].checked = !document.forms[0].elements['+k+'].checked;">'+v.name+'</a></li>';
+                                    });
+                                    return r;
+                                }));
+                                hideError(true);
+                            }else{
+                                finish();
+                            }
+                        }else if(obj.status=='error'){
+                            Recaptcha.reload();
+                            return showError((obj.error)?obj.error:'Error submitting, please try again');
+                        }else{
+                            $('input[name=email]').val('').blur();
+                            return showError('Error submitting, please try again');
+                        }
+                    },
+                    error: function(){
+                        Recaptcha.reload();
+                        return showError('Error submitting, please try again');
+                    }
+                });
+            }
+        </script><script src="challenge" type="text/javascript"></script>
+        
+    
+<link rel="stylesheet" type="text/css" href="queer-therapy_12.css" media="all">
+</head>
+<body class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio">
+        <div id="widget-article">
+                        <h2>Like this Story?</h2>
+                        <div>
+                <p>
+
+                                        Sign up for the Offstage Voice Newsletter:
+                                        (<i>Up to multiple times a week</i>) Information on theater and the performing arts.                </p>
+                <form action="http://www.myvoicenation.com/widget/article/nyv/arts/email/small/" onsubmit="javascript: return validate()||false;">
+                                    <input name="email" value="enter email" autocomplete="off" type="text">
+                    <div id="captcha">
+                        <div id="recaptcha_widget">
+                            <label>reCAPTCHA Security Check</label><br>
+                            <div style="width: 300px; height: 57px;" id="recaptcha_image"><img style="display: block;" alt="reCAPTCHA challenge image" src="image" height="57" width="300"></div>
+                            <table class="captchaBar" cellspacing="0">
+                                <tbody><tr>
+                                    <td>
+                                        <span style="display: none;" id="recaptcha_challenge_field_holder"><input name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AHJ_VuunoiB7OScUdoVd2vjvASORt20K8Ey4vCIVhYR6_hiONfDGo3RgPRO2sgr6ZCmjFPFLqxVmcCbPd3inDbvWaMAQjopJR7J_C4IqWFNemDCXo-zh7nsZH6noPg_t0AI5lCwjz_Yqt4DTIvTTPg_VaeUYP73lNPnQG3m8vK2fZhiWE6RWGKA" type="hidden"></span><input autocomplete="off" id="recaptcha_response_field" name="recaptcha_response_field" type="text">
+                                    </td>
+                                    <td>
+                                        <div class="reload">
+                                            <a href="javascript:Recaptcha.reload()">
+                                                <img src="reload.png" alt="Get another CAPTCHA">
+                                            </a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="recaptcha_only_if_image">
+                                            <a href="javascript:Recaptcha.switch_type('audio')">
+                                                <img src="audio.png" alt="Get an audio CAPTCHA">
+                                            </a>
+                                        </div>
+                                        <div class="recaptcha_only_if_audio">
+                                            <a href="javascript:Recaptcha.switch_type('image')">
+                                                <img src="image.png" alt="Get an image CAPTCHA">
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                    <div class="options">
+                        <a href="http://www.myvoicenation.com/about/privacyPolicy/" target="_top">Privacy Policy</a>
+                        <br>
+                        <br>
+                        <input value="Cancel" type="button">
+                        <input value="Continue" type="submit">
+                    </div>
+                                </form>
+            </div>
+        </div>
+        <script type="text/javascript">
+
+            MVN_Server.onReady(function(){
+                init();
+            });
+        </script>
+    
+</body>
+</html>
