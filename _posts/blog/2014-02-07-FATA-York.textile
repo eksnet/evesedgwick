@@ -1,0 +1,31 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "A Valentine’s Day celebration of Sedgwick’s poetry"
+
+related-images:
+    - panda-k-blog
+
+---
+The University of York has announced two events that continue a tradition of celebrations of Eve’s work begun last year with their conference on _Tendencies_.
+
+“To celebrate Queer History Month, Valentine's Day, and the twentieth anniversary of the publication of _Fat Art, Thin Art_, the Centre for Modern Studies is delighted to host an afternoon soirée to discuss Eve Kosofsky Sedgwick as a poet. The afternoon will feature a number of short position papers on different aspects of Sedgwick's poetry, including _A Dialogue on Love_.”
+
+The event, titled “Fat Art Thin Art: Eve Kosofsky Sedgwick as a Poet,” will be held on 
+Friday, February 14, from 1:00pm to 5:30pm in The Treehouse, Berrick Saul Building, on The University of York campus.
+
+It will be preceded by an evening of poetry titled “A Lovely Dialogue: Critics and Poets, Friends and Fans” on Thursday, February 13, from 6:00pm to 7:30pm at the same location. 
+
+“The evening will include a reading by Mary Baines Campbell, the author of two books of poems, _The World, The Flesh and Angels_ (Beacon, 1989) and _Trouble: Poems_ (Carnegie Mellon, 2003), as well as a leading scholar of Renaissance and Early Modern culture. It will also include a cast reading of Sedgwick’s Dr. Seussian queer bedtime story for children, 'Pandas in Trees.'”
+
+Both events are free and open to the public. Refreshments will be served. For further information, please contact  jason.edwards@york.ac.uk.
+
+_Image: Kissing from "Panda Wishes 4U" by Eve Kosofsky Sedgwick_
