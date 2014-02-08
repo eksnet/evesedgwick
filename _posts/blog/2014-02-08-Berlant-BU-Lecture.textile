@@ -1,0 +1,24 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "March 20, 2014: Fourth Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - Berlant-BU-2014
+
+---
+The Boston University Gender + Sexuality Studies Group has announced that Lauren Berlant will give this year’s lecture, “Sex in the Event of Happiness.”
+
+“Our theories of the historical event tend to take the shape of trauma and catastrophe.  What if we saw in sex the kind of event that structures our relation to history, intimacy, and sociality? Reading with _Last Tango in Paris_ (Bertolucci, 1972), thinking about sexual revolution, and contesting the desexualization of so much queer theory, this lecture poses questions about where the sexual revolution went awry and what’s left for sexual optimism.”
+
+Berlant is the George M. Pullman Distinguished Service Professor, Chicago University, and her most recent book, _Sex, or the Unbearable_ is a dialogue with Lee Edelman (Duke 2013). 
+
+The lecture will take place at 5:00 pm in the Florence and Chafetz Hillel House, 213 Bay State Road, Boston. It is free and open to the public. A reception will follow.
