@@ -12,6 +12,9 @@ medium: "silk, thread, kimono strips"
 dims: {width: various, height: ., depth: 0}
 catalog-number: "."
 
+index_img: weaving-7-detail_thumb.jpg
+description: "Hand-woven textile made from yarn warp and strips print fabrics as weft."
+
 related_media:
     - {type: album, name: "weavings"}
 

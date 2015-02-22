@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: "Hinged box with scrolls, front/t"
+
+src: pic000200
+tiffname: S 42-0002
+
+caption-title: "Hinged box with scrolls, front/c-t"
+caption: "Hinged box with scrolls, front/c"
+
+albums:
+    - "alb000100"
+---

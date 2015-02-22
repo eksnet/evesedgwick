@@ -33,8 +33,13 @@ layout: base
                 <div class='marginal record_count'>{{ record_count }} Records</div>-->
         
         {% for post in category.posts %}
-        <section class='preview'>
-            <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a></h4>
+            <div class='marginal' id='meta-container'>
+                {% if post.index_img %}
+                <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>  
+                {% endif %}
+            </div>
+        <section class='index-item'>
+            <h4><a href="{{ post.url }}">{{ post.title | upcase }}</a>{% if post.sub-title %}: {{ post.sub-title }}{% endif %}</h4>
             <p>{{ post.description | none }}</p>
             <h6>FILED UNDER - {% if post.nav %}{{ post.nav | category_link }}/{% endif %}{% if post.category %}{% if post.category == 'blog' %}{% else %}{{ post.category | category_link }}{% endif %}{% endif %}{% if post.sub-category %}/{{ post.sub-category | sub_category_link: post.category }}{% endif %}
                 {% assign related = false %}

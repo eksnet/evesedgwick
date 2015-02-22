@@ -12,6 +12,9 @@ medium: "shibori, silk, text"
 dims: {width: 0, height: 0, depth: 0}
 catalog-number: "000019-01"
 
+index_img: polyp_thumb.jpg
+description: "Multicolored strips of shibori fabric, imprinted with text from Proust, gathered, tied and knotted to resemble a sea anemone or coral polyp."
+
 related_media:
     - {type: album, name: "000020-01"}
 

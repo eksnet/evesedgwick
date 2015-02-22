@@ -266,8 +266,12 @@ ul#sub-nav {
   color:$light;
 }
 .toc {
-  text-align: right;
-  margin-top: 52px;
+  text-align: left;
+  margin-top: -6px;
+}
+.toc-art {
+  text-align: left;
+  margin-top: -60px;
 }
 span.right {
   float:right; 
@@ -292,10 +296,15 @@ section.extra {
    padding:3px 0px;
    margin:0px; 
   }
+  
+}
+
+section.index-item {
+  min-height:140px;
 }
 
 section.preview {
-  margin-bottom:44px;
+  min-height:140px;
 }
 
 section.biblio {
@@ -497,6 +506,12 @@ a:hover     {
    position:relative; 
    top:0px; 
    left:0px;
+}
+
+img.indexthumb {
+  float:right;
+  height: 150px;
+  width: 120px;
 }
 
 img.thumb {

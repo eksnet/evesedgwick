@@ -13,6 +13,9 @@ medium: "suminagashi, silk"
 dims: {width: 30, height: 12, depth: 0}
 catalog-number: "000062-01"
 
+index_img: for-beauty-suminagashi_thumb.jpg
+description: "Text from Proust on fabric dyed with suminagashi and shibori techniques."
+
 related_media:
     - {type: album, name: "000062-01"}
    

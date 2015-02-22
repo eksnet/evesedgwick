@@ -90,8 +90,13 @@ layout: base
                                 {% endfor %}-->
                 
                 {% for post in sub.posts %}
+                    <div class='marginal' id='meta-container'>
+                        {% if post.index_img %}
+                        <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>  
+                        {% endif %}
+                    </div>
                 <section class='preview'>
-                    <h4><a href="{{ post.url }}">{{ post.title | upcase }}{% if page.category == 'writing' %} ({% if post.pub-date != 10000 %}{{post.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</a></h4>
+                    <h4><a href="{{ post.url }}">{{ post.title | upcase }}{% if page.category == 'writing' %} ({% if post.pub-date != 10000 %}{{post.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</a>{% if post.sub-title %}: {{ post.sub-title }}{% endif %}</h4>
                     {% if sub.name == 'exhibitions' %}
                        <h6 style='font-size:12px; line-height:12px;'> {% if post.exhibition-location %}{{ post.exhibition-location | upcase }}, {{ post.exhibition-date }}{% endif %} </h6>
                     {% endif %}

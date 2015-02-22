@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: 
+
+src: pic000202
+tiffname: S 41-0056.tif
+
+caption-title: " "
+caption: " "
+
+albums:
+    - "alb000101"
+---

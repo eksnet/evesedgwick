@@ -12,6 +12,9 @@ medium: "silk, shibori, stamps"
 dims: {width: ., height: ., depth: 0}
 catalog-number: "."
 
+index_img: reality-is-flowerlike_thumb.jpg
+description: "Collage of fabrics, including ikat, shibori, appliquéed flowers, and decorative sewing, and text of zen death poem."
+
 related_media:
     - {type: album, name: "reality"}
 

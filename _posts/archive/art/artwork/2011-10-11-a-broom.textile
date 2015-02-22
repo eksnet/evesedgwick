@@ -12,6 +12,9 @@ medium: "silk, text"
 dims: {width: 14, height: 48, depth: 0}
 catalog-number: "000033-01"
 
+index_img: a-broom_thumb.jpg
+description: "Zen death poem formed with teal and umber lettering on white textile." 
+
 related_media:
     - {type: album, name: "000033-01"}
 

@@ -13,6 +13,9 @@ medium: "quilted cyanotype"
 dims: {width: 21, height: 21, depth: 0}
 catalog-number: "000030-01"
 
+index_img: for-beauty-cyano_thumb.jpg
+description: "Bodhisattva Quan Yin and text from Proust in cyanotype on overlapping pieces of fabric."
+
 related_media:
     - {type: album, name: "000030-01"}
    

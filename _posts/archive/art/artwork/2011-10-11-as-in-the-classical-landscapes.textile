@@ -6,6 +6,9 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
+index_img: as-in-the-classical-detail_thumb.jpg
+description: "Layered blue and white textiles with two bodhisattva heads and passage from Proust."
+
 title: "As in the Classical Landscapes"
 year: ND
 medium: "quilted cyanotype"

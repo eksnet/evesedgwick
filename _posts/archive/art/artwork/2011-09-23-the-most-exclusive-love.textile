@@ -12,6 +12,9 @@ medium: "text, fabric paint, quilted panels"
 dims: {width: 0, height: 0, depth: 0}
 catalog-number: "000021-01"
 
+index_img: exclusive-love_thumb.jpg
+description: "Text from Proust hand painted in multi-colored letters on light fabric with green bodhisattva heads above, and on dark fabric with brown bodhisattva heads below."
+
 related_media:
     - {type: album, name: "000021-01"}
 

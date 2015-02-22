@@ -12,6 +12,9 @@ medium: "quilted kimono scraps"
 dims: {width: 0, height: 0, depth: 0}
 catalog-number: "."
 
+index_img: quilt-1_thumb.jpg
+description: "Collection of four assemblages of variously colored and textured fabrics, decoratively sewn with gold thread."
+
 related_media:
     - {type: album, name: "quilted squares"}
    

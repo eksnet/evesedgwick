@@ -13,6 +13,9 @@ medium: "sewn paper with images and fabric"
 dims: {width: 24, height: 48, depth: 0}
 catalog-number: "000047-01"
 
+index_img: purple-flag_thumb.jpg
+description: "Paper and fabric collage with images of ruins, x-ray of human torso, and text."
+
 related_media:
     - {type: album, name: "000047-01"}
 

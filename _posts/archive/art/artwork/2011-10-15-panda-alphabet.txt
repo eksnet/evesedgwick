@@ -12,6 +12,9 @@ medium: "collage"
 dims: {width: 5, height: 7, depth: 0}
 catalog-number: "0"
 
+index_img: panda-a_thumb.jpg
+description: "Collection of collages, each representing a letter of the alphabet. Each collage shows the letter, a word that begins with the letter, and an image with one or more pandas that illustrates the word."
+
 related_media:
     - {type: album, name: "panda"}
 

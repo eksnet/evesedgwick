@@ -12,6 +12,9 @@ medium: "quilted cyanotype"
 dims: {width: 20, height: 14, depth: 0}
 catalog-number: "000043-01"
 
+index_img: three-fractures_thumb.jpg
+description: "Cyanotype print of X-ray of lower arm of bodhisattva sculpture on overlapping pieces of fabric."
+
 related_media:
     - {type: album, name: "000043-01"}
 

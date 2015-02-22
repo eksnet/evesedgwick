@@ -12,6 +12,9 @@ medium: "dyed silk scarf with text"
 dims: {width: 28, height: 30, depth: 0}
 catalog-number: "000065-01"
 
+index_img: borrow-moonlight-detail_thumb.jpg
+description: "Yellow, green and blue dyed textile with zen death poem."
+
 related_media:
     - {type: album, name: "000065-01"}
 

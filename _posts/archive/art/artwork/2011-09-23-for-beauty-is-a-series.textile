@@ -12,6 +12,9 @@ medium: "mixed media"
 dims: {width: 40, height: 7, depth: 0}
 catalog-number: "000028-01"
 
+index_img: marbled-book-3D_thumb.jpg
+description: "Accordion book with overlapping panels of multi-colored dyed paper imprinted with letters, forming a phrase from Proust."
+
 related_media:
     - {type: album, name: "000028-01"}
 

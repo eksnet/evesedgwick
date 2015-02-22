@@ -12,6 +12,9 @@ medium: "silk, ribbon, text"
 dims: {width: 18, height: 28, depth: 0}
 catalog-number: "000020-01"
 
+index_img: ribbon-banner-detail_thumb.jpg
+description: "Text from Proust printed on joined strips of beige, mustard and rust-colored shibori fabrics."
+
 related_media:
     - {type: album, name: "000019-01"}
 

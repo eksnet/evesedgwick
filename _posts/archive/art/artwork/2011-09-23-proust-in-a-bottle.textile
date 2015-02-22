@@ -12,6 +12,9 @@ medium: "book board, acetate, stamps, mixed media"
 dims: {width: 25, height: 6, depth: 0}
 catalog-number: "000024-01"
 
+index_img: proust-in-a-bottle-3D_thumb.jpg
+description: "Accordion book collage with text from Proust, pages from Proust, rubber stamps of Proust inside various glass jars, sky images and a small thermometer."
+
 related_media:
     - {type: album, name: "000024-01"}
 

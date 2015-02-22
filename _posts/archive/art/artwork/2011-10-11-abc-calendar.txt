@@ -12,6 +12,11 @@ medium: "store-bought calendar, stamps"
 dims: {width: 6, height: 12, depth: 0}
 catalog-number: "0"
 
+
+description: "Calendar booklet with two large letters of the alphabet (A-X) and associated images for each month, and smaller rubber-stamped alphabets on calendar dates."
+
+index_img: abc-january_thumb.jpg
+
 related_media:
     - {type: album, name: "abc"}
 

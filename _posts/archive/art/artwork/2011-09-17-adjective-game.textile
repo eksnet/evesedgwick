@@ -12,6 +12,10 @@ medium: "book board, fabric, velcro, text"
 dims: {width: 11, height: 8.5, depth: 0}
 catalog-number: "000025-01"
 
+index_img: adjective-game-flat_thumb.jpg
+
+description: "Passage from Proust on three hinged boards with orange and green handmade papers, and repositionable, velcro-backed adjectives."
+
 related_media:
     - {type: album, name: "000025-01"}
 

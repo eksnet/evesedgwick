@@ -12,6 +12,9 @@ medium: "store-bought calendar, stamps"
 dims: {width: 6, height: 12, depth: 0}
 catalog-number: "0"
 
+index_img: dropped-calendar-cover_thumb.jpg
+description: "Calendar booklet with rubber-stamped and colored images for each month such as fish, waves and mermaids; bodhisattva, fountain and mice; birds with hand holding an egg."
+
 related_media:
     - {type: album, name: "dropped"}
 
