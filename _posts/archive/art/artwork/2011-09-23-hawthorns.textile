@@ -7,7 +7,8 @@ sub-category: "artworks"
 type: "collage"
 tags: "proust"
 
-title: "Hawthorns"
+title: "Collage"
+sub-title: "Untitled (Hawthorns)"
 year: ND
 medium: "book board, text, paper"
 dims: {width: 11, height: 17, depth: 0}

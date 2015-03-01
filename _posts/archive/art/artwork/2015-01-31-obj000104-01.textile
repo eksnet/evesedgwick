@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "artist's book"
 
-title: "Hinged box with scrolls"
+title: Book/hinged
+sub-title: "Untitled"
 year: ND
 medium: "paper, paint, ink "
 dims: {width:  , height:  , depth: ,tbd}

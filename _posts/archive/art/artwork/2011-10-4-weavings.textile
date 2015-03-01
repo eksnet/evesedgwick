@@ -6,14 +6,15 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
-title: "Weavings"
+title: "Fabric/piece"
+sub-title: "Untitled (Weavings)"
 year: ND
 medium: "silk, thread, kimono strips"
 dims: {width: various, height: ., depth: 0}
 catalog-number: "."
 
 index_img: weaving-7-detail_thumb.jpg
-description: "Hand-woven textile made from yarn warp and strips print fabrics as weft."
+description: "Hand-woven textile made from yarn warp with strips of print fabrics as weft."
 
 related_media:
     - {type: album, name: "weavings"}

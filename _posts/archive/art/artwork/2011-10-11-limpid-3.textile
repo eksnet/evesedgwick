@@ -7,7 +7,8 @@ sub-category: "artworks"
 type: "textile art"
 tags: proust
 
-title: "Limpid Three Bodhisattvas"
+title: "Fabric/hanging"
+sub-title: "Untitled (Limpid three bodhisattvas)"
 year: ND
 medium: "quilted cyanotype"
 dims: {width: 36, height: 20, depth: 0}

@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
-title: "Reality is Flowerlike"
+title: "Fabric/hanging"
+sub-title: "Untitled (Reality is flowerlike)"
 year: ND
 medium: "silk, shibori, stamps"
 dims: {width: ., height: ., depth: 0}

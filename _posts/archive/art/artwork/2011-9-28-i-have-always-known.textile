@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
-title: "I Have Always Known"
+title: "Fabric/hanging"
+sub-title: "Untitled (I have always known)"
 year: ND
 medium: "text, shibori, silk"
 dims: {width: 36, height: 48, depth: 0}

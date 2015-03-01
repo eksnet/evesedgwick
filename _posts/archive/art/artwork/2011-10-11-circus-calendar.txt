@@ -6,13 +6,15 @@ category: art
 sub-category: "artworks"
 type: "calendar"
 
-title: "Circus Calendar"
+title: "Book/calendar"
+sub-title: "Untitled (Circus calendar)"
 year: 2005
 medium: "store-bought calendar, stamps"
 dims: {width: 6, height: 12, depth: 0}
 catalog-number: "0"
 
 index_img: circus-january_thumb.jpg
+
 description: "Calendar booklet with rubber-stamped and colored images for each month such as dancers, elephants, acrobats and animal parades."
 
 related_media:

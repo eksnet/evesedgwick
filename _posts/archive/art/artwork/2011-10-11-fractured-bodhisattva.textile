@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
-title: "Fractured Bodhisattva"
+title: "Fabric/hanging"
+sub-title: "Untitled (Fractured bodhisattva)"
 year: ND
 medium: "quilted cyanotype"
 dims: {width: 20, height: 14, depth: 0}

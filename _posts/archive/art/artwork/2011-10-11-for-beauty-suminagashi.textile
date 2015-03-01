@@ -7,7 +7,8 @@ sub-category: "artworks"
 type: "textile art"
 tags: "proust"
 
-title: "For Beauty is a Series of Hypotheses (Suminagashi)"
+title: "Fabric/hanging"
+sub-title: "Untitled (For beauty is a series of hypotheses - Suminagashi)"
 year: ND
 medium: "suminagashi, silk"
 dims: {width: 30, height: 12, depth: 0}

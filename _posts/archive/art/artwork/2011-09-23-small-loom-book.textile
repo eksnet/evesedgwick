@@ -6,13 +6,16 @@ category: art
 sub-category: "artworks"
 type: "artist's book"
 
-title: "Small Loom Book"
+title: "Book/woven"
+
+sub-title: "Untitled (Small loom book)"
 year: ND
 medium: "paper, text, book board, acetate"
 dims: {width: 3, height: 5, depth: 0}
 catalog-number: "000022-01"
 
 index_img: small-loom_thumb.jpg
+
 description: "Object made from gold board, text from Proust on accordion-folded, hand-colored paper, with gold thread passed through the peaked folds, and text on acetate across the threads."
 
 related_media:

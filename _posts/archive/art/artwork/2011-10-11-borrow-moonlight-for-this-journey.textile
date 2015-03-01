@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "textile art"
 
-title: "Borrow Moonlight for this Journey"
+title: "Fabric/hanging"
+sub-title: "Untitled (Borrow moonlight for this journey)"
 year: ND
 medium: "dyed silk scarf with text"
 dims: {width: 28, height: 30, depth: 0}

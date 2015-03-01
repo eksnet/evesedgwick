@@ -7,7 +7,8 @@ sub-category: "artworks"
 type: "collage"
 tags: "proust"
 
-title: "For Beauty is a Series of Hypotheses"
+title: "Fabric/hanging"
+sub-title: "Untitled (For beauty is a series of hypotheses)"
 year: ND
 medium: "quilted cyanotype"
 dims: {width: 21, height: 21, depth: 0}

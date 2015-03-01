@@ -6,7 +6,8 @@ category: art
 sub-category: "artworks"
 type: "calendar"
 
-title: "Dropped Calendar"
+title: "Book/calendar"
+sub-title: "Untitled (Dropped calendar)"
 year: 2004
 medium: "store-bought calendar, stamps"
 dims: {width: 6, height: 12, depth: 0}

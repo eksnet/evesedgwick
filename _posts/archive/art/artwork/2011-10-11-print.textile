@@ -4,9 +4,10 @@ published: true
 nav: archive
 category: art
 sub-category: "artworks"
-type: "proust"
+type: "collage"
 
-title: "Untitled (Print)"
+title: "Paper/print"
+sub-title: "Untitled (Print)"
 year: ND
 medium: "laser print on paper, stamp"
 dims: {width: 8.5, height: 11, depth: 0}
