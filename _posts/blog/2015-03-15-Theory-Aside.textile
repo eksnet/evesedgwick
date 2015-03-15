@@ -1,0 +1,23 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "Another newly published essay by Eve Sedgwick"
+
+related-images:
+    - TheoryAside
+    - TheoryMS
+ 
+ 
+    
+---
+
+"Writing the History of Homophobia," a previously unpublished manuscript from Eve Sedgwick's archive, has now been published in  _Theory Aside_. This collection, edited by Jason Potts and Daniel Stout, is published by Duke University Press. Eve's text is thought to have been given as a talk at Amherst College, where she taught from 1984 to 1988. She describes the impossibility of learning, for example, about Oscar Wilde’s homosexuality from the Encyclopedia Britannica of her childhood if one doesn’t know about it already. She takes this as an emblem of “the extremely elusive and maddeningly plural ways in which cultures and their various institutions efface and alter sexual meaning.” She goes on to say that “at least for Western society of the last two millennia, the many complicated paths by which, as we have said, sexual meaning is falsified, denied, and altered, all lead homosexuals to much the same thorny and difficult place.” 
+
