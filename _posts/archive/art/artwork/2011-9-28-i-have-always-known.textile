@@ -14,7 +14,7 @@ dims: {width: 36, height: 48, depth: 0}
 catalog-number: "."
 
 index_img: i-have-always-known_thumb.jpg
-description: "Text of death poem by Ariwara no Harihira on overlapping strips of suminagashi dyed fabric."
+description: "Text of death poem by Ariwara no Narihira on overlapping strips of suminagashi dyed fabric."
 
 related_media:
     - {type: album, name: "always-known"}

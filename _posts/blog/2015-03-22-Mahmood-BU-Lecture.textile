@@ -1,0 +1,24 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "March 5, 2015: Fifth Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - Mahmood-BU-2015
+
+---
+Professor Saba Mahmood spoke on "Moral Injury and Muhammed's Cartoons: Thinking Reparatively with Eve Sedgwick." Mahmood is Associate Professor of Sociocultural Anthropology at the University of California Berkeley. As in years past, the Boston University Gender + Sexuality Studies Group organized the lecture. Here is their description:
+
+"Taking its cue from Eve Sedgwick, this talk offers a 'reparative reading' of the ongoing struggle over the publication of cartoons of the Prophet Muhammed in Europe. Rather than read these debates as a standoff between religious taboos and secular freedoms, Mahmood unpacks the distinct epistemological and interpretive stakes at the heart of such conflicts.
+
+"Professor Mahmood’s work focuses on the interchange between religious and secular politics in postcolonial societies with special attention to issues of embodiment, cultural hermeneutics, law, and gender/sexuality.  Her work is best known for its interrogation of liberal assumptions about the proper boundary between ethics and politics, freedom and unfreedom, the religious and the secular, and agency and submission. She is the author of _The Politics of Piety_ (2nd edition, 2011) and, with Talal Assad, Wendy Brown, and Judith Butler, _Is Critique Secular? Blasphemy, Injury, and Free Speech_ (2009)."
+
+A video of Professor Mahmood's talk will be posted on BU's "(newwindow)Honoring Eve":http://www.bu.edu/honoringeve/ website.

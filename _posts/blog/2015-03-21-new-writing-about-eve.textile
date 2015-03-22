@@ -1,0 +1,23 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "New Writing About Eve Sedgwick"
+
+ 
+    
+---
+
+Two new essays about Eve Sedgwick's critical writing have recently appeared. Professor Anne-Lise François's essay "Late Exercises in Minimal Affirmatives" appears in _Theory Aside_, a collection edited by Jason Potts and Daniel Stout (Duke 2014). In her essay, François discusses "the lateral movement by which in their late work Barthes and Sedgwick set aside the burden of discontented, perfective energies and leave off prying, suspicious efforts to uncover concealed truth. They prefer instead a form of aesthetic engagement that moves laterally, arranging its materials side by side...." In her epigraph, François quotes Sedgwick's _Touching Feeling_: "Beside is an interesting preposition...because there is nothing very dualistic about it; a number of elements may lie alongside one another, though not an infinity of them."
+
+Jonathan A. Allan's essay "Falling in Love with Eve Kosofsky Sedgwick" appears in a special "Queer/Affect" issue of _Mosaic: A Journal for the Interdisciplinary Study of Literature_. Allan writes: "What does it mean to love a writer? This essay explores a number of writers and critics who have expressed love for Eve Kosofsky Sedgwick. I argue that love affords another model for thinking through questions of influence, particularly a theory of influence informed by queer theory and affect studies."
+
+We would be grateful if readers let us know about new work related to Eve Sedgwick. Please contact us at  <a class="email">info[a]evekosofskysedgwick.net</a>. 
+

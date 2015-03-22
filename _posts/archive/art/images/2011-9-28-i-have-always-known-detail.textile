@@ -9,7 +9,7 @@ title: Untitled (I Have Always Known...)
 src: i-have-always-known-detail
 
 caption-title: "Untitled (I Have Always Known...)(detail)"
-caption: "text, shibori, silk"
+caption: "text, shibori, silk (photo: Kevin Ryan)"
 
 albums:
     - "always-known"
