@@ -18,3 +18,5 @@ in:
 
   
 ---
+
+You can read the article <a href='http://sfonline.barnard.edu/heilbrun/sedgwick_01.htm'class="newwindow">here</a>.
