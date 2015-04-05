@@ -1,0 +1,18 @@
+function OAS_RICH(position) {
+if (position == 'Middle1') {
+document.write ('\n');
+document.write ('		<a href="http://pub.tetu.com/5c/tetu2015/news/L13/1187156300/Middle1/Tetu/PapaParty2015/PapaParty2015-2.html/725468514a6c5568664a6b4143674a41" target="_blank"><img src="http://imageceu1.247realmedia.com/RealMedia/ads/Creatives/Tetu/PapaParty2015/PapaParty2015.jpg/1427205296" style="border:0px black solid;" width="300" height="250" alt="" /></a>\n');
+}
+if (position == 'Right') {
+document.write ('<A HREF="http://pub.tetu.com/5c/tetu2015/news/1285557356/Right/default/empty.gif/725468514a6c5568664a6b4143674a41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Top') {
+document.write ('<A HREF="http://pub.tetu.com/5c/tetu2015/news/941708138/Top/default/empty.gif/725468514a6c5568664a6b4143674a41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'Top1') {
+document.write ('<A HREF="http://pub.tetu.com/5c/tetu2015/news/157763401/Top1/default/empty.gif/725468514a6c5568664a6b4143674a41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+if (position == 'x02') {
+document.write ('<A HREF="http://pub.tetu.com/5c/tetu2015/news/699261832/x02/default/empty.gif/725468514a6c5568664a6b4143674a41?x" target="_top"><IMG SRC="http://imageceu1.247realmedia.com/0/default/empty.gif"  WIDTH=1 HEIGHT=1 ALT="" BORDER=0 BORDER="0"></A>');
+}
+}
