@@ -5,7 +5,7 @@ nav: archive
 category: art
 sub-category: "artworks"
 type: "collage"
-tags: "proust"
+tags: 
 
 title: "Fabric/hanging"
 sub-title: "Untitled (Prayer flag 2)"
