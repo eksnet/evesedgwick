@@ -11,7 +11,7 @@ sub-title: "Untitled (Circus calendar)"
 year: 2005
 medium: "store-bought calendar, stamps"
 dims: {width: 6, height: 12, depth: 0}
-catalog-number: "0"
+catalog-number: "obj000074-01"
 
 index_img: circus-january_thumb.jpg
 

@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "collage"
+tags: 
+
+title: "Fabric/hanging"
+sub-title: "Untitled"
+year: ND
+medium: "fused silk"
+dims: {.}
+catalog-number: "obj000078-01"
+
+index_img: thangka-fused-silk-stupa_thumb.jpg
+description: "Thangka of stupa"
+
+related_media:
+    - {type: album, name: "alb000078-01"}
+
+---

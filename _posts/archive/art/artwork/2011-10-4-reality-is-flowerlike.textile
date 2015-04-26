@@ -11,7 +11,7 @@ sub-title: "Untitled (Reality is flowerlike)"
 year: ND
 medium: "silk, shibori, stamps"
 dims: {width: ., height: ., depth: 0}
-catalog-number: "."
+catalog-number: "obj000072-01"
 
 index_img: reality-is-flowerlike_thumb.jpg
 description: "Collage of fabrics, including ikat, shibori, appliquéed flowers, and decorative sewing, and text of zen death poem."

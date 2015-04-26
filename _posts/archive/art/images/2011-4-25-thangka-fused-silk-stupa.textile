@@ -4,13 +4,16 @@ published: true
 category: images
 type: image
 
-title: Silk Stupa
-
+title: "Fabric/hanging"
+sub-title: "Untitled"
+year: ND
+medium: fused silk
+catalog-number: 
 src: thangka-fused-silk-stupa
 
 caption-title: "Silk Stupa"
-caption: "fused silk, image (000052-01)"
+caption: "fused silk collage"
 
 albums:
-    - unknown
+    - alb000078-01
 ---

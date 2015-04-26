@@ -11,7 +11,7 @@ sub-title: "Untitled (Panda alphabet)"
 year: ND
 medium: "collage"
 dims: {width: 5, height: 7, depth: 0}
-catalog-number: "0"
+catalog-number: "obj000077-01"
 
 index_img: panda-a_thumb.jpg
 
