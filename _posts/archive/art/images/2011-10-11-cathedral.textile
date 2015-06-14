@@ -13,6 +13,5 @@ caption: "shibori on paper with fabric backing (photo: Kevin Ryan)"
 
 albums:
     - bodhi
-    - "cedar-creek"
     - "000061-01"
 ---

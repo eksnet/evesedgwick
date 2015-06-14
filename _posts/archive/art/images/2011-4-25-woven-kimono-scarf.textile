@@ -12,5 +12,5 @@ caption-title: "Untitled (woven scarf)"
 caption: "ribbon, thread, silk strips; 9x48 (000072-02)"
 
 albums:
-    - unknown
+    - "weavings" 
 ---

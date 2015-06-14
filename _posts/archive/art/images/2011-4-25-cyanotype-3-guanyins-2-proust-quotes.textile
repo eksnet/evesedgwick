@@ -13,5 +13,5 @@ caption: "quilted cyanotype; 19x36” (000063-01)"
 
 albums:
     - bodhi
-    - cedar-creek
+
 ---
