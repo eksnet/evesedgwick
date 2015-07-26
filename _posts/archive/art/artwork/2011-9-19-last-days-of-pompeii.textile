@@ -14,7 +14,7 @@ dims: {width: 15, height: 10, depth: 0}
 catalog-number: "obj000006-01"
 
 index_img: pompeii_thumb.jpg
-description: "Altered book.White-painted over has image of a smaller and a larger woman and a small plastic box attached."
+description: "Altered book.White-painted cover has image of a smaller and a larger woman and a small plastic box attached."
 
 related_media:
     - {type: album, name: "000006-01"}

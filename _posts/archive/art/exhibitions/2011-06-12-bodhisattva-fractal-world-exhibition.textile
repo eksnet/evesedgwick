@@ -8,6 +8,11 @@ type: collection
 
 role: artist
 title: Bodhisattva Fractal World
+sub-title:
+
+catalog-number: obj000134-01
+
+index_img: for-beauty-cyano_thumb.jpg
 
 description: none
 
@@ -16,6 +21,7 @@ exhibition-date: 2002
 
 related_records:
     - /art/bodhisattva_fractal_world-artist-statement
+
 
 related_media:
     - {type: album, name: bodhi}

@@ -1,0 +1,17 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: 
+
+src: pic000139-01
+path: LR/Collections/Cedar Creek exhibition/EKS753
+
+caption-title: " "
+caption: " "
+
+albums:
+    - "alb000102"
+---

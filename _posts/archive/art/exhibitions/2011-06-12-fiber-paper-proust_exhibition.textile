@@ -8,17 +8,19 @@ type: collection
 
 role: artist
 title: "Works in Fiber, Paper, and Proust"
+sub-title:
+
+catalog-number: obj000135-01
+index_img: proust-in-a-bottle-flat_thumb.jpg
 
 exhibition-location: Harvard University
 exhibition-date: 2005
 
 related_records:
-    - /art/fiber-paper-proust-artist-statement
-    
+    - /art/fiber-paper-proust-artist-statement  
+
 related_media:
     - {type: album, name: proust}
-    
-    
 ---
 
 <i>from the artist's statement:</i>
