@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Book/accordion
+
+src: pic000205
+path: LR/HD/Eve's art - Kevin Ryan - 2014-06-24/books/tiff/
+filename: S-26-0060.tif
+
+caption-title: "Accordion book"
+caption: "Closed"
+
+albums:
+    - "alb000104"
+---

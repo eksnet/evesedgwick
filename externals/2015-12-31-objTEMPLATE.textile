@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: " "
+
+title: 
+sub-title: "Untitled"
+year: ND
+medium: " "
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: " "
+
+index_img: 
+
+description: "   "
+
+related_media:
+    - {type: album, name: "  "}
+
+---

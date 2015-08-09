@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: 
+
+src: 
+path: 
+filename: 
+
+caption-title: " "
+caption: " "
+
+albums:
+    - ""
+---
