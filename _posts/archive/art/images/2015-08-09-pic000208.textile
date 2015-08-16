@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Fabric/Hanging
+
+src: pic000208
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/fabric works/tiff
+filename: S-1-0005.tif
+
+caption-title: "Fabric/hanging"
+caption: 
+
+albums:
+    - "alb000105"
+---
