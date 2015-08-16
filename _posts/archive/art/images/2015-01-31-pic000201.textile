@@ -4,13 +4,13 @@ published: true
 category: images
 type: image
 
-title: "Hinged box with scrolls, open/t"
+title: "Hinged box with scrolls, open"
 
 src: pic000201
 tiffname: S 43-0011
 
-caption-title: "Hinged box with scrolls, open/c-t"
-caption: "Hinged box with scrolls, open/c"
+caption-title: "Hinged box with scrolls"
+caption: "Open"
 
 albums:
     - "alb000100"

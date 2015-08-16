@@ -4,13 +4,13 @@ published: true
 category: images
 type: image
 
-title: "Hinged box with scrolls, front/t"
+title: "Hinged box with scrolls, front"
 
 src: pic000200
 tiffname: S 42-0002
 
-caption-title: "Hinged box with scrolls, front/c-t"
-caption: "Hinged box with scrolls, front/c"
+caption-title: "Hinged box with scrolls"
+caption: "Front"
 
 albums:
     - "alb000100"
