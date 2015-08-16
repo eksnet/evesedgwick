@@ -4,13 +4,14 @@ published: true
 category: images
 type: image
 
-title: 
+title: Book/Hinged
 
 src: pic000202
-tiffname: S 41-0056.tif
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/book/tiff
+filename: S 41-0056.tif
 
-caption-title: " "
-caption: " "
+caption-title: "Hinged book"
+caption: "Front view "
 
 albums:
     - "alb000101"

@@ -4,12 +4,13 @@ published: true
 category: images
 type: image
 
-title: "Hinged box with scrolls, open"
+title: "Book/Scroll"
 
 src: pic000201
-tiffname: S 43-0011
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/book/tiff
+filename: S 43-0011.tif
 
-caption-title: "Hinged box with scrolls"
+caption-title: "Scroll book"
 caption: "Open"
 
 albums:

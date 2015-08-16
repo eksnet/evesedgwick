@@ -4,15 +4,15 @@ published: true
 category: images
 type: image
 
-title: "Book/Scroll"
+title: Book/Hinged
 
-src: pic000200
+src: pic000207
 path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/book/tiff
-filename: S 42-0002
+filename: S-40-0048
 
-caption-title: "Scroll book"
-caption: "Front, closed"
+caption-title: "Hinged book "
+caption: "Oblique view"
 
 albums:
-    - "alb000100"
+    - "alb000101"
 ---
