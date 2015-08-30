@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000114-01"
+
+index_img: pic000217_thumb.jpg
+
+description: "Long, narrow weaving with brown- and cream-colored warp yarns and purple, blue, cream brown and red weft."
+
+related_media:
+    - {type: album, name: "alb000114"}
+
+---

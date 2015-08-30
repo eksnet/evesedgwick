@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000115-01"
+
+index_img: pic000218_thumb.jpg
+
+description: "Long, narrow, fringed weaving of yarn, ribbon and metallic thread in shades of wine red, orange, brown, yellow and purple."
+
+related_media:
+    - {type: album, name: "alb000115"}
+
+---
