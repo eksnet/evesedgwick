@@ -1,0 +1,24 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "'Between Men' at Thirty: Queer Studies Then and Now"
+
+related-images:
+    - BMwriting
+    - BMcover
+ 
+    
+---
+
+A conference marking the thirtieth anniversary of the publication of Eve Kosofsky Sedgwick’s _Between Men: English Literature and Male Homosocial Desire_ will be held on October 23. The Center for the Humanities at the CUNY Graduate Center is hosting the event in collaboration with the History of Art Department at the University of York.  The day-long conference will have three sessions of short talks reflecting on the book, its reception, and its continuing influence. There will also be a panel discussion among a number of the editors who published her work. Further information, including the schedule and a list of participants, is available  "(newwindow)here":http://www.centerforthehumanities.org/program/eve-kosofsky-sedgwicks-between-men-thirty-queer-studies-then-and-now. 
+
+Left image: Eve Sedgwick writing _Between Men_, circa 1982. 
+Right image: Manet's painting "Le Dejeuner sur l'herbe," altered by Sedgwick for the cover of _Between Men_.
