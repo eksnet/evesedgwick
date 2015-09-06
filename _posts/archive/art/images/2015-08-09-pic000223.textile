@@ -6,13 +6,13 @@ type: image
 
 title: Hanging/Fabric
 
-src: pic000220
+src: pic000222
 path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/fabric works/tiff
-filename: S-33-0021
+filename: S-35-0072
 
 caption-title: "Hanging fabric"
 caption: 
 
 albums:
-    - "alb000117"
+    - "alb000120"
 ---
