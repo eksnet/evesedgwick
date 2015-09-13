@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Collage/Photo - Days of 1988 (summer)
+
+src: pic000229
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/photocollages/tiff
+filename: S-12-0012
+
+caption-title: "Photo collage: Days of 1988 (summer)"
+caption: 
+
+albums:
+    - "alb000126"
+---

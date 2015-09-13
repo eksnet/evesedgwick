@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Collage/Photo
+
+src: pic000232
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/photocollages/tiff
+filename: S 28-0007
+
+caption-title: "Photocollage: Terrible Scrabble"
+caption: 
+
+albums:
+    - "alb000129"
+---

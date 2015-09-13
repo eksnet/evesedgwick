@@ -1,0 +1,18 @@
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Collage/Photo
+
+src: pic000233
+path: LR/HD/Eve's art-Kevin Ryan - 2014-06-24/photocollages/tiff
+filename: S 43-0034
+
+caption-title: "Photocollage: Listening to Dionne (1)"
+caption: 
+
+albums:
+    - "alb000130"
+---

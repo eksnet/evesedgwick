@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: archive
+category: art
+sub-category: "artworks"
+type: "Collage"
+
+title: "Collage/photo"
+sub-title: "Terrible Scrabble"
+year: 1988
+medium: "photographic prints on paper"
+dims: {width: , height: , depth: }
+catalog-number: "000129-01"
+
+index_img: pic000232_thumb.jpg
+
+description: "CONFIRM ID. Photocollage with images of Michael Lynch (& his son Stephin?), and Hal Sedgwick Eve Sedgwick’s house on 24 Lincoln Ave, Amherst, dated 7/2/88."
+
+related_media:
+    - {type: album, name: "alb000129"}
+
+---
