@@ -15,7 +15,7 @@ catalog-number: "000129-01"
 
 index_img: pic000232_thumb.jpg
 
-description: "CONFIRM ID. Photocollage with images of Michael Lynch (& his son Stephin?), and Hal Sedgwick Eve Sedgwick’s house on 24 Lincoln Ave, Amherst, dated 7/2/88."
+description: "Photocollage with images of Michael Lynch, his son Stephin, and Hal Sedgwick at Eve Sedgwick’s house on 24 Lincoln Ave, Amherst. Dated 7/2/88."
 
 related_media:
     - {type: album, name: "alb000129"}

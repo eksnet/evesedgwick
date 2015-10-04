@@ -33,7 +33,8 @@ layout: base
     
     <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
     <h6 class='biblio'>{% if page.medium %}{{ page.medium | upcase}}. {% if page.dims %}{{ page.dims.width | upcase }} x {{ page.dims.height | upcase }}{% if page.dims.depth != 0 %} x {{ page.dims.depth | upcase }}{% endif %}{% endif %}. {{ page.year | no_date }}{% endif %}</h6>
-    
+    <p>{{ page.description | none }}</p>
+                       
     {{ content }}
     
 </section>

@@ -100,7 +100,7 @@ layout: base
                     {% if sub.name == 'exhibitions' %}
                        <h6 style='font-size:12px; line-height:12px;'> {% if post.exhibition-location %}{{ post.exhibition-location | upcase }}, {{ post.exhibition-date }}{% endif %} </h6>
                     {% endif %}
-                    <p>{{ post.description | none }}</p>
+
                     {% assign related = false %}
                     {% for tag in post.tags %}
                         {% assign related = true %}

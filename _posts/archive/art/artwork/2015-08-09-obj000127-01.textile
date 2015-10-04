@@ -7,7 +7,7 @@ sub-category: "artworks"
 type: "Collage"
 
 title: "Collage/photo"
-sub-title: "Eternity’s White Flag - Before - / And God - at every Gate -"
+sub-title: "Eternity’s White Flag &#8211 Before &#8211 / And God &#8211 at every Gate &#8211"
 year: 1988
 medium: "photographic prints on cardboard"
 dims: {width: , height: , depth: }
@@ -15,7 +15,7 @@ catalog-number: "000127-01"
 
 index_img: pic000230_thumb.jpg
 
-description: "Photocollage with images of Eve Sedgwick and Michael Lynch by Emily Dickinson’s gravestone (reprinted as frontispiece for _Tendencies_)."
+description: "Photocollage with images of Eve Sedgwick and Michael Lynch by Emily Dickinson’s gravestone (reprinted as frontispiece for <i>Tendencies<i/>). Dated 7/3/88."
 
 related_media:
     - {type: album, name: "alb000127"}
