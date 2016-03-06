@@ -99,6 +99,39 @@ h6.biblio {
   font-size:10px;
   margin:-10px 0px 18px;
 }
+
+/* New format for "filed under" line - applied to breadcrumbs navigation text. Added 2016-02-07 */
+
+h7 {
+  margin:0px;
+  padding:0px;
+}
+h7 span {
+  font-weight:normal; 
+}
+h7 {
+  font-weight:normal;
+  font-size:12px;
+  line-height:10px;
+  color:$light;
+  margin:0px 0px 8px;
+}
+/* New format to modify h5. Added 2016-02-21 */
+h8 {
+  margin:0px;
+  padding:0px;
+}
+h8 span {
+  font-weight:normal; 
+}
+h8 {
+  font-family: Georgia, serif;
+   font-size:16px;
+   line-height:24px;
+   color:$black;
+   margin-bottom:18px;
+}
+
 img.preview {
   width:$column;
   height:215px;
@@ -111,6 +144,15 @@ img.squareleft {
   margin-top:45px;
   margin-left:0px;
 }
+
+/* left section full width image. Added by tm 2015-11-08 revised 2016-01-10*/
+img.fullwidth {
+  width:($column * 2) + ($margin * 1);
+  margin-top:45px;
+  margin-left:0px;
+}
+
+
 /* center section powerpoint image. Added by hs 2013-05-18 */
 img.pptcenter {
   width:542px;
@@ -432,6 +474,36 @@ h6 a:active    {
 } 
 
 h6 a:hover     { 
+  color: $dark; 
+  text-decoration:none; 
+  background-color: transparent;
+}
+/* additional formatting for h7. added 2016-02-07 */
+h7 a   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h7 a:link  {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+} 
+
+h7 a:visited   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h7 a:active    { 
+  color: $dark;  
+  text-decoration:none;
+  background-color: transparent;
+} 
+
+h7 a:hover     { 
   color: $dark; 
   text-decoration:none; 
   background-color: transparent;

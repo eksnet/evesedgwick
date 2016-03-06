@@ -5,6 +5,7 @@ nav: archive
 category: teaching
 sub-category: courses
 type: document
+title: "Asian Encounters"
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}
@@ -24,8 +25,6 @@ formats:
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
-
-h5. Asian Encounters
 
 This seminar concerns the relation of Asian religious thought – especially Buddhism – to European and American culture. Brahmanism and Buddhism have 'arrived' and been influential in western thought in many forms through many different encounters over many centuries.  Thus, by now an Asian encounter with western culture must also be understood as a re-encounter with a palimpsest of previous Asian currents and influences (as well as vice versa).  Necessarily, then, the seminar also involves a range of difficult methodological, theoretical, and political issues surrounding authenticity, dissemination, appropriation, and perhaps especially, pedagogy.
 

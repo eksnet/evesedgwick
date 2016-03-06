@@ -10,17 +10,18 @@ role: author
 with: none
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
-pub-date: 1985
-preview_img: betweenmen.jpg
+pub-date: 1993
+index_img: betweenmen1993_index.jpg
+full_left_img: betweenmen1993_full_left.jpg
 
 description:    none
 
 editions:
-    - description:  none
+    - description:  With a new preface by the author
       publisher:    Columbia University Press
       location:     New York
       series:       Gender and Culture Series
-      date:         1985
+      date:         1993
       binding:      Paperback
       isbn:         9780231082730
       pages:        244pp.
@@ -42,8 +43,35 @@ meta:
 
 ---
 
-Hailed by the New York Times as "one of the most influential texts in gender studies, men's studies and gay studies," this book uncovers the homosocial desire between men, from Restoration comedies to Tennyson's ??Princess??. –??From the jacket copy??
+Hailed by the New York Times as "one of the most influential texts in gender studies, men's studies and gay studies," this book uncovers the homosocial desire between men, from Restoration comedies to Tennyson's <i>Princess</i>. –<i>From the jacket copy</i>
 
-"In many ways, the book that turned queer theory from a latent to a manifest discipline." – ??Voice Literary Supplement??
+"In many ways, the book that turned queer theory from a latent to a manifest discipline." – <i>Voice Literary Supplement</i>
+"A crucial force in the emergence of gay and lesbian studies, <i>Between Men</i> provided a set of highly sophisticated intellectual itineraries and conceptual tools for analyzing the psychosocial complexities of male bonding in the British culture of 1750 to 1850." –<i>Stephen Barber and David Clark</i>, from the preface to <i>Regarding Sedgwick</i>
 
-"A crucial force in the emergence of gay and lesbian studies, ??Between Men?? provided a set of highly sophisticated intellectual itineraries and conceptual tools for analyzing the psychosocial complexities of male bonding in the British culture of 1750 to 1850." –??Stephen Barber and David Clark??, from the preface to ??Regarding Sedgwick??
+CONTENTS
+
+Preface
+Acknowledgments
+
+Introduction
+i. Homosocial Desire
+ii. Sexual Politics and Sexual Meaning
+iii. Sex or History?
+iv. What This Book Does
+
+1. Gender Asymmetry and Erotic Triangles
+2. Swan in Love: The Example of Shakespeare's Sonnets
+3. <i>The Country Wife</i>: Anatomies of Male Homosocial Desire
+4. <i>A Sentimental Journey</i>: Sexualism and the Citizen of the World
+5. Toward the Gothic: Terrorism and Homosexual Panic
+6. Murder Incorporated: <i>Confessions of a Justified Sinner</i>
+7. Tennyson's <i>Princess</i>: One Bride for Seven Brothers
+8. <i>Adam Bede</i> and <i>Henry Esmond</i>: Homosocial Desire and the Historicity of the Female
+9. Homophobia, Misogyny, and Capital: The Example of <i>Our Mutual Friend</i>
+10. Up the Postern Stair: <i>Edwin Drood</i> and the Homophobia of Empire
+
+Coda: Toward the Twentieth Century: English Readers of Whitman 
+
+Notes
+Bibliography
+Index

@@ -14,6 +14,9 @@
     {% if page.preview_img %}
     <img class='preview' src='/images/preview/{{ page.preview_img }}'>  
     {% endif %}
+    {% if page.full_left_img %}
+    <img class='fullwidth' src='/images/archive/{{ page.full_left_img }}'>  
+    {% endif %}
         <ul id='extras-anchors'>
         {% if formats %}
             <li><a href='#formats'>ALTERNATE FORMATS</a></li>

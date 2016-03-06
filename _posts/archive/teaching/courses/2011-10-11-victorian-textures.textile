@@ -5,6 +5,7 @@ nav: archive
 category: teaching
 sub-category: courses
 type: document
+title: "Victorian Textures"
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}

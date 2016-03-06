@@ -4,6 +4,7 @@ published: true
 nav: archive
 category: teaching
 sub-category: courses
+title: "Zero, Infinity, Chaos, Sublimity"
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}
@@ -19,8 +20,6 @@ related_media:
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
-
-h5. Zero, Infinity, Chaos, Sublimity
 
 This course examines how science and literature deal with the limits of representation. The emergent field of chaos theory investigates the interrelationship between chaotic behavior and systematic organization. While the disciplinary context for much of this recent work has been the physical sciences and mathematics, many of the problems and concepts with which chaos theorists work, including iterability, recursive systems, scaling, period doubling, interference and incommensurability can be related more or less directly to concerns that have preoccupied literary theorists and semioticians  in thinking about representational systems. Nor is this field of investigation without a significant history: in the West, the aesthetic notion of the sublime, which goes back at least to Longinus, has been the focus of a long and rich meditation on the relationship of language and representation to that which disrupts and limits it, and the legacy of what has been called the "Romantic sublime" continues to exert a powerful influence on our present literary culture.  In Asian thought, meanwhile, both Taoist and Buddhist traditions have explored implications of chaos, infinity, and nothingness.  Assuming that students of literature, scientists and mathematicians may have something to learn from talking to and reading one another, this seminar proposes to investigate some of the possible  connections: between current work in chaos theory and literary theory, and between both of these and some traditions of the sublime. 
 

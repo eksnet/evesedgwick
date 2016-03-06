@@ -1,9 +1,10 @@
 ---
 layout: base
 ---
-<section id='title' class='under'>   
+<section id='title' class='under'>
+<!--       
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
-    
+-->    
     {% include filing_notes.liquid %}
     
 </section>
@@ -20,7 +21,7 @@ layout: base
     
     {% include marginal.liquid %}
     
-    <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
+    <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}</h8> </h5>
     {% assign biblio = page.in[0] %}
     <h6 class='biblio'><i>in</i> {% for editor in biblio['editors'] %}{{ editor }}, {% endfor %}<i>{{ biblio['publication'] }}</i> ({% if biblio['location'] and biblio['location'] != 'none' %}{{ biblio['location'] }}: {% endif %}{% if biblio['publisher'] and biblio['publisher'] != 'none'  %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }})</h6>
     

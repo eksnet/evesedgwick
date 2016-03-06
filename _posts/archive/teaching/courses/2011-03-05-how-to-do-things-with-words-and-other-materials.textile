@@ -4,6 +4,7 @@ published: true
 nav: archive
 category: teaching
 sub-category: courses
+title: "How to Do Things with Words and Other Materials"
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}
@@ -11,15 +12,13 @@ meta:
     - {key: location, value: CUNY, display-value: Location, display: true, sort: true}
     - {key: creation-date, value: none, display-value: Date, display: true, sort: false}
 
-description: none
+description: 
 
 related_media:
     - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
-
-h5. How to Do Things with Words and Other Materials
 
 Preliminary Syllabus: How to Do Things with Words and Other Materials
 

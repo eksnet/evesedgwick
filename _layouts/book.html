@@ -2,8 +2,9 @@
 layout: base
 ---
 <section id='title' class='under'>   
+<!--  removes big bold title line
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
-    
+-->
     {% include filing_notes.liquid %}
         
 </section>
@@ -20,7 +21,7 @@ layout: base
     
     {% include marginal.liquid %}
     
-    <h5>{{ page.title }}{% if page.sub-title %}: {{ page.sub-title }}{% endif %}</h5>
+    <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}</h8> </h5>
     {% assign biblio = page.editions[0] %}
     <h6 class='biblio'>({{ biblio['location'] | upcase }}: {{ biblio['publisher'] | upcase }}, {{ biblio['date'] }}. {{ biblio['binding'] | upcase }}. {{ biblio['isbn'] }}. {{ biblio['pages'] }})</h6>
     

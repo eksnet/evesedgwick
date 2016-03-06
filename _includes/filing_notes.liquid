@@ -1,4 +1,4 @@
-<h6>FILED UNDER - {{ page.nav | category_link }}{% if page.category %}/{{ page.category | category_link }}{% endif %}{% if page.sub-category %}/{{ page.sub-category | sub_category_link: page.category }}{% endif %}
+<h6><h7>{{ page.nav | category_link }}{% if page.category %} / {{ page.category | category_link }}{% endif %}{% if page.sub-category %} / {{ page.sub-category | sub_category_link: page.category }}{% endif %}</h7>
     {% assign related = false %}
     {% for tag in page.tags %}
         {% assign related = true %}

@@ -4,6 +4,7 @@ published: true
 nav: archive
 category: teaching
 sub-category: courses
+title: "Queer Performativity"
 
 meta:
     - {key: type, value: document, display-value: Type, display: true, sort: true}
@@ -18,8 +19,6 @@ related_media:
     - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
 
 ---
-
-h5. Queer Performativity
 
 Monday, August 30: Introduction  
 Monday, September 6:  JL Austin, How to Do Things With Words  
