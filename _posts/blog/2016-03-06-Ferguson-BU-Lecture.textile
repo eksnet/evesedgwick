@@ -1,0 +1,23 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "March 15, 2016: Sixth Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - Ferguson-BU-2016
+
+---
+
+The Boston University Gender + Sexuality Studies Group has announced that the Sixth Annual Eve Kosofsky Sedgwick Memorial Lecture will be offered by Professor Roderick Ferguson, a pioneer of queer of color critique. His lecture is titled "The Diasporas of Black Queer Art."
+
+Professor Ferguson is the author of <i>The Reorder of Things: The University and Its Pedagogies of Minority Difference</i> (2011) and <i>Aberrations in Black: Toward a Queer of Color Critique</i> (2004). He teaches at the University of Illinois at Chicago.
+
+The lecture will be given March 15th, 2016 at 5:00pm in the BU Photonics Colloquium Room (8 St. Mary’s Street, 9th floor). A reception will follow.
