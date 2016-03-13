@@ -21,7 +21,7 @@ layout: base
     
     {% include marginal.liquid %}
     
-    <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}</h8> </h5>
+    <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}{% if page.category == 'writing' %} ({% if page.pub-date != 10000 %}{{page.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</h8> </h5>
     {% assign biblio = page.editions[0] %}
     <h6 class='biblio'>({{ biblio['location'] | upcase }}: {{ biblio['publisher'] | upcase }}, {{ biblio['date'] }}. {{ biblio['binding'] | upcase }}. {{ biblio['isbn'] }}. {{ biblio['pages'] }})</h6>
     

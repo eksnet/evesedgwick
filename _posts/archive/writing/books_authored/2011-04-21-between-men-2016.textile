@@ -10,9 +10,9 @@ role: author
 with: none
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
-pub-date: 1993
-index_img: betweenmen1993_index.jpg
-full_left_img: betweenmen1993_full_left.jpg
+pub-date: 2016
+index_img: betweenmen2016_index.jpeg
+full_left_img: betweenmen2016_full_left.jpg
 
 description:    none
 
@@ -21,19 +21,19 @@ editions:
       publisher:    Columbia University Press
       location:     New York
       series:       Gender and Culture Series
-      date:         1993
+      date:         2016
       binding:      Paperback
-      isbn:         9780231082730
-      pages:        244pp.
+      isbn:         9780231176293
+      pages:        272pp.
       further_editions:
         - type:         paperback
           date:         1986
           translations: Japanese
 
 urls:
-    - { display: amazon, url: "http://www.amazon.com/Between-Men-English-Literature-Homosocial/dp/0231082738/ref=sr_1_1?s=books&ie=UTF8&qid=1305861332&sr=1-1"}
-    - { display: indiebound, url: "http://www.indiebound.org/book/9780231082730"}
-    - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/11089512&referer=brief_results"}
+    - { display: amazon, url: "http://www.amazon.com/Between-Men-English-Literature-Homosocial-ebook/dp/B0175P82UW/ref=dp_kinw_strp_1"}
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780231176293"}
+    - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/927491779?referer=di&ht=edition"}
     
 meta:
     - {key: type,           value: document,            display-value: Type,        display: true}
@@ -43,15 +43,19 @@ meta:
 
 ---
 
-Hailed by the New York Times as "one of the most influential texts in gender studies, men's studies and gay studies," this book uncovers the homosocial desire between men, from Restoration comedies to Tennyson's <i>Princess</i>. –<i>From the jacket copy</i>
+"For all the power of Sedgwick's paradigms, and for all her finesse as a theoretician, her greatest gift was language itself, which she worked like a baroque, recalcitrant instrument, a bellows she forced to make unaccustomed sounds, pushing critical idioms (the received postures of literary-critical academic writing) into unfamiliar torsions." –<i>From the foreword by Wayne Koestenbaum</i>
 
-"In many ways, the book that turned queer theory from a latent to a manifest discipline." – <i>Voice Literary Supplement</i>
 
-"A crucial force in the emergence of gay and lesbian studies, <i>Between Men</i> provided a set of highly sophisticated intellectual itineraries and conceptual tools for analyzing the psychosocial complexities of male bonding in the British culture of 1750 to 1850." –<i>Stephen Barber and David Clark</i>, from the preface to <i>Regarding Sedgwick</i>
+
+
+
 
 CONTENTS
 
-Preface
+Foreword: The Eve Effect, by Wayne Koestenbaum
+
+Preface to the 1993 Edition
+
 Acknowledgments
 
 Introduction
