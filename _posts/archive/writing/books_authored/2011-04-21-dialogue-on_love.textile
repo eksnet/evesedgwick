@@ -11,8 +11,8 @@ role: author
 with: none
 title: A Dialogue on Love
 pub-date: 1999
-preview_img:      dialogueonlove.jpg
-
+index_img: A-Dialogue-On-Love_index.jpg
+full_left_img: A-Dialogue-On-Love_full-left.jpg
 description:    none
 
 editions:
@@ -40,3 +40,16 @@ Although not without pain, their improvised relationship is as unexpectedly plea
 "Eve Kosofsky Sedgwick’s brilliant _A Dialogue on Love_ is more than a compelling testament to the extraordinary powers of language to make sense of illness: It is a lyrically honest meditation on pleasures given and received at some of life’s most paradoxically difficult moments. Her writing here arises as if from her very soul, and the discovery she charts of her own emotional inner self is as astonishing as it is beautiful. Loving and wise teacher, groundbreaking and controversial scholar, scared but resilient breast cancer survivor, utterly fabulous queer icon, skilled weaver of gorgeous fabrics, shy daughter of middle-class Jews – Eve Sedgwick is all of these, but most importantly, as she proves herself in this great gift of a book, she is truly a poet of incomparable courage, insight, and power." –??Rafael Campo??
 
 "Sedgwick reports that since her cancer diagnosis she’s become more obsessed with crafts and weaving – the concrete joys of 'making stuff' offering relief from more troublingly abstract concerns. This book, densely colorful but deliciously extracurricular in tone and form, partakes of a similar aesthetic. Sedgwick, whose academic work has been attacked for its obscurity, has rarely written this accessibly. It’s disarming to learn that this radical critic refers to her husband of 25 years as her 'fella,' and there’s equal enjoyment in seeing this fiercely analytic theorist of homosexual identity as she uses her gaydar to suss out [her therapist's] tastes at first glance." –??David Kurnick, The Village Voice??
+
+<b>[Chapters]</b>
+
+1  &nbsp;&nbsp;&nbsp;"1992"
+2  &nbsp;&nbsp;&nbsp;"It's hard, this part"
+3  &nbsp;&nbsp;&nbsp;"Of course I know dreams are a part of the process"
+4  &nbsp;&nbsp;&nbsp;"We get into a talk about timidity"
+5  &nbsp;&nbsp;&nbsp;"I often, silently, try to guess how Shannon experiences his fatness"
+6  &nbsp;&nbsp;&nbsp;"I want to know"
+7  &nbsp;&nbsp;&nbsp;"<small>GENERALLY GOOD WEEKEND</small>"
+8  &nbsp;&nbsp;&nbsp;"Vivid and frightening dream"
+9  &nbsp;&nbsp;&nbsp;"<small>FIRST HOUR "ON THE COUCH"</small>"
+10 &nbsp;&nbsp;"<small>HAIKU AND CRAFTS YES</small>"

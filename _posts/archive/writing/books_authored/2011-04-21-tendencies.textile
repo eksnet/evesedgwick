@@ -11,7 +11,8 @@ role: author
 with: none
 title: Tendencies
 pub-date: 1993
-preview_img:      tendencies.jpg
+index_img: Tendencies_index.jpg
+full_left_img: Tendencies_full-left.jpg
 
 description:    none
 
@@ -39,4 +40,27 @@ The essays range from Diderot, Oscar Wilde, and Henry James to queer kids and tw
 
 "Eve Kosofsky Sedgwick is deservedly recognized as the primum mobile of lesbian and gay studies. Yet her real achievement lies not so much in the creation of a new academic discipline, as in the profound implications her work carries for the rest of the academy, and the wider world beyond. _Tendencies_ provides a marvelously exhilarating excursion across the range of her interests and involvements ... She is the most consistently intelligent, courageous, perceptive, daring, and sensible critic currently writing in the United States. I strongly recommend panic-buying." --_Simon Watney_
 
-"From the most celebrated and the most prolix practitioner of lesbian and gay theory comes a collection of critical essays augmented by a memorial to a friend dead of AIDS at 39; an ingratiatingly playful 'performance piece' about drag, co-written with Michael Moon; and other occasional pieces. The most difficult but the most rewarding essays are those on Henry James and Oscar Wilde. The latter in particular -- a close reading of _The Importance of Being Earnest_ that becomes a meditation on the 'avuncular,' itself a revision of the heterosexist and hermetic Oedipal model -- exemplifies Sedgwick's ability to liberate homoerotic texts from the punitively 'normalizing' paradigms of hegemonic discourses. _Tendencies,_ one of the first books issued under the imprint of Duke University Press' Series Q, is erudite, witty, and essential." --_Daniel Weiss, Virginia Quarterly Review_
+"From the most celebrated and the most prolix practitioner of lesbian and gay theory comes a collection of critical essays augmented by a memorial to a friend dead of AIDS at 39; an ingratiatingly playful 'performance piece' about drag, co-written with Michael Moon; and other occasional pieces. The most difficult but the most rewarding essays are those on Henry James and Oscar Wilde. The latter in particular&#8212;a close reading of _The Importance of Being Earnest_ that becomes a meditation on the 'avuncular,' itself a revision of the heterosexist and hermetic Oedipal model&#8212;exemplifies Sedgwick's ability to liberate homoerotic texts from the punitively 'normalizing' paradigms of hegemonic discourses. _Tendencies,_ one of the first books issued under the imprint of Duke University Press' Series Q, is erudite, witty, and essential." --_Daniel Weiss, Virginia Quarterly Review_
+
+<b>Contents</b>
+
+Foreword: T Times 
+Queer and Now 
+
+<b>Queer Tutelage</b> 
+Privilege of Unknowing: Diderot's <i>The Nun</i> 
+Tales of the Avunculate: <i>The Importance of Being Earnest</i> 
+Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i> 
+Memorial for Craig Owens 
+
+<b>Crossing of Discourses</b> 
+Jane Austen and the Masturbating Girl 
+Epidemics of the Will 
+Nationalisms and Sexualities 
+How to Bring Your Kids Up Gay: The War on Effeminate Boys 
+
+<b>Across Genders, Across Sexualities</b> 
+Willa Cather and Others 
+A Poem Is Being Written 
+Divinity: A Dossier, A Performance Piece, A Little-Understood Emotion (written with Michael Moon) 
+White Glasses

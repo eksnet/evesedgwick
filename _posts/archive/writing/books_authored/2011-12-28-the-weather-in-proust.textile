@@ -11,7 +11,8 @@ with: none
 title: The Weather in Proust
 sub-title: 
 pub-date: 2011
-preview_img: weatherinproust.JPG
+index_img: Weather-In-Proust_index.jpg
+full_left_img: Weather-In-Proust_full-left.jpg
 
 description:    none
 
@@ -41,3 +42,22 @@ meta:
 ---
 
 At the time of her death after a long battle with cancer, Eve Sedgwick had been working on a book on affect and Proust, and on the psychoanalyst Melanie Klein. This volume, edited by her friend and fellow-Series Q editor, Jonathan Goldberg, brings together a collection of her last work done since Duke's publication of <i>Touching Feeling</i>. In addition to her thoughts on affect, mind, Proust, and Klein, Sedgwick writes about Buddhism, her own artwork, and also looks back at her contributions to queer theory. Filled with luminous insight and Eve's singular prose, this will be the last book in Series Q.
+
+<b>Contents</b>
+
+<i>Editor's Introduction</i>
+
+The Weather in Proust 
+Cavafy, Proust, and the Queer Little Gods 
+Making Things, Practicing Emptiness 
+Melanie Klein and the Difference Affect Makes 
+Affect Theory and Theory of Mind 
+
+Anality: News from the Front 
+Making Gay Meanings 
+Thinking through Queer Theory 
+
+Reality and Realization 
+
+<i>Figure Credits</i>
+<i>Index</i>
