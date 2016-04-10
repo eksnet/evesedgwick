@@ -11,7 +11,8 @@ with: Adam Frank
 title: Shame and Its Sisters
 sub-title: A Silvan Tomkins Reader
 pub-date: 1995
-preview_img:      shameanditssisters.jpg
+index_img: Shame-and-Its-Sisters_index.jpg
+full_left_img: Shame-and-Its-Sisters_full-left.jpg
 
 description:    none
 

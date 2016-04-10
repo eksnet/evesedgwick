@@ -11,7 +11,8 @@ with: none
 title: Novel Gazing
 sub-title: Queer Readings in Fiction
 pub-date: 1997
-preview_img:      novelgazing.jpg
+index_img: Novel-Gazing_index.jpg
+full_left_img: Novel-Gazing_full-left.jpg
 
 description:    none
 

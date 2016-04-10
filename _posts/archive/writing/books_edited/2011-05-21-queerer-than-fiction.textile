@@ -20,7 +20,7 @@ in:
       date:         Fall 1996
 
 urls:
-  - { display: studies in the novel archives, url: "http://www.engl.unt.edu/sitn/archives_vol_28.html"}
+  - { display: studies in the novel archives, url: "http://english.unt.edu/sitn/archives_vol_28.html"}
   - { display: "excerpt: questia.com", url: "http://www.questia.com/googleScholar.qst?docId=5000436497"}
   - { display: highbeam research, url: "http://www.highbeam.com/publications/studies-in-the-novel-p1128/september-1996"}
 

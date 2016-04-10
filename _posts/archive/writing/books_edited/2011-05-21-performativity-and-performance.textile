@@ -10,7 +10,8 @@ role: editor
 with: Andrew Parker
 title: Performativity and Performance
 pub-date: 1995
-preview_img:      performativityandperformance.jpg
+index_img: Performance-and-Performativity_index.jpg
+full_left_img: Performance-and-Performativity_full-left.jpg
 
 description:    none
 

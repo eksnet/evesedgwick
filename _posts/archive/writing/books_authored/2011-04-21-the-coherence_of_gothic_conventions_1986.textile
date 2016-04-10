@@ -10,18 +10,18 @@ type: book
 role: author
 with: none
 title: The Coherence of Gothic Conventions
-pub-date: 1980
-preview_img:      coherence.jpg
-
+pub-date: 1986
+index_img: Coherence-of-Gothic-Conventions_1986_index.jpg
+full_left_img: Coherence-of-Gothic-Conventions_1986_full-left.jpg
 description:    none
 
 editions:
     - description:  none
-      publisher:    Arno Press
-      location:     New York
-      series:       Gothic Studies Series
-      date:         1980
-      isbn:         9780416014112
+      publisher:    Methuen
+      location:     New York and London
+      series:       University Paperbacks
+      date:         1986
+      isbn:         0-416-01411-9
       further_editions:
         - type:         paperback reissue with new material
           publisher:    Methuen & Co

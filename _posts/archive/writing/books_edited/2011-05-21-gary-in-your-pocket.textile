@@ -11,7 +11,8 @@ with: none
 title: Gary in Your Pocket
 sub-title: Stories and Notebooks of Gary Fisher
 pub-date: 1996
-preview_img:      garyinyourpocket.jpg
+index_img: Gary-in-Your-Pocket_index.jpg
+full_left_img: Gary-in-Your-Pocket_full-left.jpg
 
 description:    none
 
