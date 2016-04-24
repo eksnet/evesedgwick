@@ -1,15 +1,17 @@
 ---
-layout: article
+layout: book
 published: true
 nav: archive
 category: writing
-sub-category: "journal special issues edited"
-type: article
+sub-category: "books and journals edited"
+type: books and journal
 
 role: editor
 with: none
 title: Queerer than Fiction
 pub-date: 1996
+index_img: Studies-in-the-Novel_index.jpg
+full_left_img: Studies-in-the-Novel_full-left.jpg
 
 Description: none
 
@@ -26,15 +28,27 @@ urls:
 
 ---
 
-<i>from the Introduction:</i>
 
-In the last paragraphs of Freud's essay on the paranoid Dr. Schreber, there is discussion of what Freud considers a "striking similarity" between Schreber's persecutory delusion and Freud's own theory. Freud was indeed later to generalize, famously, that "the delusions of paranoiacs have an unpalatable external similarity and internal kinship to the systems of our philosophers" – among whom he included himself. For all his characteristic slyness, it may be true that the putative congruence between paranoia and theory was unpalatable to Freud. In the hands of subsequent thinkers, however, it has by now become less an embarrassment than a prescriptive article of faith: for literary and cultural critics, the prevailing theoretical challenge has been to find ever more subtle and searching ways of implementing a hermeneutic of suspicion. In a world where no one need be delusional to find evidence of systemic oppression, to theorize out of anything but a paranoid critical stance has come to seem naive or complaisant.
+<i>From the introduction to Novel Gazing</i>
 
-Even aside from the prestige that now attaches to a hermeneutic of suspicion in critical theory as a whole, queer studies in particular has had a distinctive history of intimacy with the paranoid imperative. Freud, of course, traced every instance of paranoia to the repression of same-sex desire, whether in women or in men. A chain of powerful, against-the-grain responses to Freud's argument, beginning with Guy Hocquenghem's ??Homosexual Desire??, has established the paranoid stance as a uniquely privileged one for understanding not – as in the Freudian tradition – homosexuality itself, but rather precisely the mechanisms of homophobic and heterosexist enforcement against it.
+<i>Novel Gazing: Queer Readings in Fiction</i> came together unprogrammatically.  Invited by the journal <i>Studies in the Novel</i> to edit a special issue, I asked forty or so writers I admire whether they could find room on their agendas to write something  that would, loosely speaking, convene the rubrics "novel" and "queer." I felt more than fortunate in the response, when these startlingly imaginative essays started tumbling in at a rate that soon overfilled the journal -- and didn't slow down even then. 
 
-Subversive and demystifying parody, suspicious archaeologies of the present, the detection of hidden patterns of violence and their exposure: these infinitely doable and teachable protocols of unveiling have become the common currency of cultural and historicist studies, and signs in turn of the special status that queer and antihomophobic inquiry seems to hold within that movement. If there is any obvious danger in the triumphalism of a hermeneutic of suspicion, it is that the broad consensual sweep of such methodological assumptions, the current near-profession-wide agreement about what constitutes narrative or explanation or adequate historicization, may, if it persists unquestioned, unintentionally impoverish the gene-pool of literary-critical perspectives and skills. The trouble with a narrow gene-pool, of course, is its diminished ability to respond to environmental (for instance, political) change. Another danger of the present paranoid consensus, however, is that it may require the disarticulation, disavowal, and misrecognition of other ways of reading – ways less oriented around suspicion – that are actually being practiced.
+
+
+<i>From the introduction to the special issue</i>
 
 One premise of the present collection is that a closer, more respectful attention to past and present queer reading practices – the kind of attention these essays, in their different ways, all embody – will show how the reservoir of practices already in use crucially exceeds the theorizations of a consensual hermeneutic of suspicion. Many of these essays are, rightly, incisive and unerring in their methodical suspicion; but what more unites them is a very different impulse and history, which would be badly misrecognized under the currently available rubrics.
 
-Perhaps instead of battening on the Freudian understanding of paranoia, for all its useful definitional linkage to homoerotic issues, it would be more descriptive here to use Melanie Klein's less differentiated, arguably less elegant concept of the paranoid position. The interest of Klein's concept lies, it seems to me, in her seeing the paranoid position always in the oscillatory context of a very different possible one, the depressive/reparative position. For Klein's infant or adult, the paranoid position – understandably marked by hatred, envy, and anxiety – is a position of terrible alertness to the dangers posed by hateful and envious part-objects that one cannot help but ingest from the world around one. By contrast, the depressive/reparative position is an anxiety-mitigating achievement that the infant or adult only sometimes, and briefly, succeeds in inhabiting: this is the position from which it is possible in turn to use one's own resources to assemble or "repair" the murderous part-objects into something like a whole (though not necessarily like any preexisting whole). Once assembled to one's own specifications, the more satisfying object is available both to be identified with and to offer one nourishment in turn. Among Klein's names for the reparative process is love.
 
+CONTENTS
+
+“Introduction: Queerer than Fiction” / Eve Kosofsky Sedgwick
+“Pursuing Perfection: <i>Dombey and Son</i>, Female Homoerotic Desire, and the Sentimental Heroine” / Mary Armstrong
+“Forged in Crisis: Queer Beginnings of Modern Masculinity in a Canonical French Novel” / James Creech
+“Strange Brothers” / Jonathan Goldberg
+“Strange Gourmet: Taste, Waste, Proust” / Joseph Litvak
+“The Importance of Being Bored: The Dividends of Ennui in <i>The Picture of Dorian Gray</i>” / Jeff Nunokawa
+“Tearing the Goat’s Flesh: Homosexuality, Abjection and the Production of a Late-Twentieth-Century Black Masculinity / Robert Reid-Pharr 
+“The Female World of Exorcism and Displacement (or, Relations Between Women in Henry James’s Nineteenth-Century <i>The Portrait of a Lady</i>) / Melissa Solomon
+“‘Sinister Fruitiness’: <i>Neuromancer</i>, Internet Sexuality and the Turing Test” / Tyler Stevens 
+“Prophylactics and Brains: <i>Beloved</i> in the Cybernetic Age of Aids” / Kathryn Bond Stockton
