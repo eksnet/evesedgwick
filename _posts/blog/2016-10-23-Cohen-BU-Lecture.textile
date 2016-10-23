@@ -1,0 +1,24 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "October 25, 2016: Seventh Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - Cohen-BU
+
+---
+Professor Cathy Cohen of the University of Chicago will give this year's lecture in Boston University's Honoring Eve series. Her title is "From Combahee to Black Lives Matter."  As in years past, the Boston University Gender + Sexuality Studies Group has organized the lecture. Here is their description:
+
+"In a history of black queer politics from the Combahee Collective to the contemporary Black Lives movement, Cohen identifies a new form of activism supported by a network of groups, many of which are led by young black women who identify as queer. Rather than organizing around a single charismatic leader and immediate policy changes, the new <i>leaderful</i> movement seeks expansive cultural transformation on behalf of marginalized communities.
+
+"Cathy Cohen is the David and Mary Winton Green Professor of Political Science and chair of political science at the University of Chicago. She is the author of <i>Democracy Remixed: Black Youth and the Future of American Politics</i> and <i>The Boundaries of Blackness: AIDS and the Breakdown of Black Politics</i>, as well as the coeditor, with Kathleen Jones and Joan Tronto, of <i>Women Transforming Politics: An Alternative Reader</i>.  In addition to her transformative scholarship on race, gender, and politics, Cohen is the principal investigator of two major social change projects: <i>The Black Youth Project</i> and the <i>Mobilization, Change and Political and Civic Engagement Project</i>."
+
+A video of Professor Cohen's talk will be posted on BU's "(newwindow)Honoring Eve":http://www.bu.edu/honoringeve/ website.
