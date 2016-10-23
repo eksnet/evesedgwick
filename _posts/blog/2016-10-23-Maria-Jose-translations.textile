@@ -1,0 +1,22 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "New translations of essays by Eve Sedgwick"
+
+related-images:
+    - maria-jose-translations
+ 
+    
+---
+
+We are pleased to report that Maria José Belbel Bullejos has edited two volumes of translations into Spanish and Euskara for Arteleku. In Spanish, the volumes are titled <i>Conocimiento feminista y políticas de traducción I</i> and <i>II</i>. Volume I contains translations of Eve Sedgwick's essay "Thinking Through Queer Theory" as well as essays by Wendy Brown and Gayle Rubin. Volume II has translations of Sedgwick's "Pedagogy of Buddhism," "Paranoid Reading and Reparative Reading," and the introduction to <i>Touching Feeling</i>. Volume II also includes an interpretive essay by Maria José Belbel Bullejos. The translations into Spanish are all done by Maria José Belbel Bullejos, and the translations into Euskara are by Juan Mari Mendizabal. 
+
+Additional information is available from Arteleku: "(newwindow)here for I":http://artxibo.arteleku.net/es/islandora/object/islandora:55, and  "(newwindow)here for II":http://artxibo.arteleku.net/es/islandora/object/islandora%3A54. PDFs of the full texts are accessible from these pages by clicking on the cover pictures.  Direct links to the PDFs are also here for volumes "(newwindow)I":http://artxibo.arteleku.net/sites/all/libraries/pdfjs/web/viewer.html?file=http%3A//artxibo.arteleku.net/es/islandora/object/islandora%253A55/datastream/OBJ/view and "(newwindow)II":http://artxibo.arteleku.net/sites/all/libraries/pdfjs/web/viewer.html?file=http%3A//artxibo.arteleku.net/es/islandora/object/islandora%253A54/datastream/OBJ/view.
