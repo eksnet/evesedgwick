@@ -12,7 +12,7 @@ description: none
 title: "New translations of essays by Eve Sedgwick"
 
 related-images:
-    - maria-jose-translations
+    - Maria-Jose-Translations
  
     
 ---

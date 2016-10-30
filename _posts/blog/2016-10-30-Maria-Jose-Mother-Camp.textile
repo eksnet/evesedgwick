@@ -1,0 +1,29 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: publications
+
+description: none
+
+title: "A Spanish translation of Esther Newton's <i>Mother Camp</i>"
+
+related-images:
+    - Camp-Maria-Jose-EKS
+ 
+    
+---
+
+Maria José Belbel Bullejos has published a Spanish-language edition of Esther Newton's <i>"(newwindow)Mother Camp: Female Impersonators in America":http://www.press.uchicago.edu/ucp/books/book/chicago/M/bo3634939.html</i>, first published in 1972. Based on field work in the mid-1960s, this anthropological study of drag performers and performance spaces has been of enduring interest to Eve Sedgwick and other queer theorists. The translation is by Belbel and Paloma Uria, and is available from "(newwindow)Múltiplos":http://www.multiplosbooks.org/distribucion/mother-camp-un-estudio-de-los-transformistas-femeninos-en-los-estados-unidos/.
+
+As we've noted <a href="http://evekosofskysedgwick.net/blog/Maria-Jose-translations.html">previously</a>, Belbel has been active in making available in Spanish the work of Sedgwick and other queer theorists. She is currently planning the 2017 publication of a Spanish translation of Sedgwick's <i>Tendencies</i>. 
+
+
+
+
+
+
+
