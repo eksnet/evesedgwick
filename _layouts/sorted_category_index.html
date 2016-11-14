@@ -109,6 +109,11 @@ layout: base
                     {% if related %}
                         <h6>RELATED - {{ post.tags | tag_links }}</h6>
                     {% endif %}
+<!-- section below (113-115) was created to provide for brief descriptions of articles in Archive. It is a modification of the exhibition-related section above(101-103). 2016-11-13 -->
+                    {% if sub.name == 'articles' %}
+                       <h5 style='font-weight:normal; font-size:15px; line-height:20px;'> {% if post.description %}{{ post.description }}{% endif %} </h5>
+                    {% endif %}
+
                 </section>
                 {% endfor %}
                 {% endif %}

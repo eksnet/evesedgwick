@@ -10,8 +10,7 @@ role: author
 title: A Response to C. Jacob Hale
 pub-date: 1997
 
-description: none
-
+description:
 in:
     - description:  journal
       publication:  Social Text
@@ -19,3 +18,4 @@ in:
       date:         Autumn-Winter 1997
   
 ---
+  
