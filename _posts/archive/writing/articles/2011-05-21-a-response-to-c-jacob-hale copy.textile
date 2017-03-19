@@ -1,0 +1,24 @@
+---
+layout: article
+published: true
+nav: archive
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: Response to C. Jacob Hale
+pub-date: 1997
+
+description: Response to C. Jacob Hale's "Leatherdyke Boys and Their Daddies - How to Have Sex Without Women or Men," published in the same special issue of <i>Social Text</i>. Sedgwick writes that Hale's paper begins "the project of articulating subjectivities that purposefully move across the boundaries of gender."
+
+in:
+    - description:  journal
+      publication:  Social Text
+      issue:        52-3
+      date:         Autumn-Winter 1997
+  
+---
+
+
+A response to C. Jacob Hale's "Leatherdyke Boys and Their Daddies: How to Have Sex Without Women or Men," published in the same special issue of Social Text. Sedgwick writes that Hale's paper begins "the project of articulating subjectivities that purposefully move across the boundaries of gender."  

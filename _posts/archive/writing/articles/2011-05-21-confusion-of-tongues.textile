@@ -22,5 +22,8 @@ in:
       location:     Oxford
       date:         1996
 
+description: This piece takes the form of a dialogue between Sedgwick and Moon in which they counter “typecasting Whitman as the pathetic fag son of a mean and withholding father and a possessive and demanding mother,” using letters between mother and son and the theories of psychoanalyst Sandor Ferenczi. 
   
 ---
+
+This piece takes the form of a dialogue between Sedgwick and Moon in which they counter “typecasting Whitman as the pathetic fag son of a mean and withholding father and a possessive and demanding mother,” using letters between mother and son and the theories of psychoanalyst Sandor Ferenczi. 

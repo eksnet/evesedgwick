@@ -8,9 +8,9 @@ type: resource
 title: About
 ---
 
-p(intro). This website is intended to be a resource for those interested in the life and work of Eve Kosofsky Sedgwick. This is an ongoing project. We welcome contributions from Eve's friends, colleagues, and students who wish to donate or share photos, handouts, class syllabi, or other materials.
+p(intro). This website is intended to be a resource for those interested in the life and work of Eve Kosofsky Sedgwick. This is an ongoing project. We would be glad to hear from Eve's friends, colleagues, and students who wish to share photos, handouts, class syllabi, or other materials.
 
-Contact T Meyerhoff at: <a class="email">info[a]evekosofskysedgwick.net</a>
+Contact Ti Meyerhoff at: <a class="email">info[a]evekosofskysedgwick.net</a>
 
 <h6 style="padding-top:28px;">CONTENT CURATION AND DEVELOPMENT: T Meyerhoff, Sarah McCarry, and Hal Sedgwick</h6>
 <h6>SITE DESIGN AND CONSTRUCTION: Bryan Reedy</h6>
