@@ -30,6 +30,8 @@ in:
          - description:  journal
            publication:  Metropolis
 
+index-desc: In this dialogue between Moon and Sedgwick they describe their childhood homes and the house they share, along with a cat, in Durham, North Carolina. The house also accommodates their respective partners, “when they can spend time there,” as they live “out-of-town.”
+
 description: In this dialogue between Moon and Sedgwick they describe their childhood homes and the house they share, along with a cat, in Durham, North Carolina. The house also accommodates their respective partners, “when they can spend time there,” as they live “out-of-town.”
   
 ---

@@ -8,12 +8,14 @@ type: article
 
 role: author
 title: Eulogy
-pub-date: 0000
+pub-date: 2002
 
 in:
     - description:  journal
       publication:  "Women and Performance: A Journal of Feminist Theory"
       issue:        25
+
+index-desc: This is a remembrance of writer and theorist Lynda Myoun Hart. Sedgwick describes her as having “a kind of relishing interest and almost X-ray analysis of cultural structures emerged from the unceasing, buoyant, and indeed seemingly joyful work of her thinking and writing.” 
 
 description: This is a remembrance of writer and theorist Lynda Myoun Hart. Sedgwick describes her as having “a kind of relishing interest and almost X-ray analysis of cultural structures emerged from the unceasing, buoyant, and indeed seemingly joyful work of her thinking and writing.” 
   

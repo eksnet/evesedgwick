@@ -19,6 +19,9 @@ in:
       publisher:    Routledge
       location:     New York
       date:         1996
+
+index-desc: Sedgwick argues that masculinity and femininity are “orthogonal to each other” so that “instead of being at opposite poles of the same axis, they are…independently variable.” Hence masculinity sometimes has nothing to do with men, and an inquiry into “masculinity” could include not only men who are “straight, gay, and bisexual” but also men who are female.
+
 description: Sedgwick argues that masculinity and femininity are “orthogonal to each other” so that “instead of being at opposite poles of the same axis, they are…independently variable.” Hence masculinity sometimes has nothing to do with men, and an inquiry into “masculinity” could include not only men who are “straight, gay, and bisexual” but also men who are female.
   
 ---
