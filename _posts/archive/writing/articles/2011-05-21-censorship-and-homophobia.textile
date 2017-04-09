@@ -1,0 +1,22 @@
+---
+layout: article
+published: true
+nav: archive
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: "[Censorship & Homophobia]"
+pub-date: 2013
+
+in:
+    - description:  chapbook
+
+      publication:  Guillotine Series No. 5
+      publisher:    Guillotine
+      location:     New York
+      date:         2013
+
+  
+---
