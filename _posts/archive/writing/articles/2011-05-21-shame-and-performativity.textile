@@ -7,17 +7,23 @@ sub-category: articles
 type: article
 
 role: author
-title: Shame and Performativity
-sub-title: "Henry James's <i>New York Edition Prefaces</i>"
-pub-date: 1995
+title: Afterword - Gary in Your Pocket
+sub-title: 
+pub-date: 1996
 
 in:
     - description:  book
-      editors:      D. McWhirter
-      publication:  "<i>Henry James's New York Editions: The Construction of Authorship</i>"
-      publisher:    Stanford University Press
-      location:     Stanford
-      date:         1995
+      editors:      Eve Kosofsky Sedgwick
+      publication:  "<i>Gary in Your Pocket: Stories and Notebooks of Gary Fisher</i>"
+      publisher:    Duke University Press
+      location:     Durham, NC
+      date:         1996
+
+index-desc: Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."
+
+description: Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."
 
   
 ---
+
+Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."

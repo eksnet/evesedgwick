@@ -15,5 +15,12 @@ in:
       publication:  Epoch
       issue:        3l.l
       date:         1982
+
+index-desc: Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.
+
+description: Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.
+
   
 ---
+
+Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.
