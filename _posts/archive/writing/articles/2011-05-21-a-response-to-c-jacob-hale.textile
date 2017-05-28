@@ -7,7 +7,7 @@ sub-category: articles
 type: article
 
 role: author
-title: Response to C. Jacob Hale
+title: A Response to C. Jacob Hale
 pub-date: 1997
 
 in:

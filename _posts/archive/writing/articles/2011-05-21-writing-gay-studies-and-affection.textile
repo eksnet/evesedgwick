@@ -7,7 +7,7 @@ sub-category: articles
 type: article
 
 role: author
-title: "Writing, Gay Studies, and Affection"
+title: "Writing, Gay Studies and Affection"
 pub-date: 1991
 
 in:
