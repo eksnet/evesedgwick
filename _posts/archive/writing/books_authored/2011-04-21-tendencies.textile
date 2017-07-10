@@ -18,7 +18,7 @@ description:    none
 
 editions:
     - description:  none
-      publisher:    Columbia University Press
+      publisher:    Duke University Press
       location:     "Durham, N.C."
       series:       Series Q
       date:         1993

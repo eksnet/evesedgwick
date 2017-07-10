@@ -11,13 +11,14 @@ with: none
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
 pub-date: 2016
+ed-note: Thirtieth anniversary edition. Foreword by Wayne Koestenbaum
 index_img: betweenmen2016_index.jpeg
 full_left_img: betweenmen2016_full-left.jpg
 
 description:    none
 
 editions:
-    - description:  30th anniversary edition with a new foreword by the Wayne Koestenbaum
+    - description:  30th anniversary edition with a new foreword by Wayne Koestenbaum
       publisher:    Columbia University Press
       location:     New York
       series:       Gender and Culture Series

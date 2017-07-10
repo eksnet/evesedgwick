@@ -11,6 +11,7 @@ with: none
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
 pub-date: 1993
+ed-note: With a new preface by the author
 index_img: betweenmen1993_index.jpg
 full_left_img: betweenmen1993_full_left.jpg
 

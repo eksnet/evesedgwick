@@ -11,6 +11,7 @@ role: author
 with: none
 title: Epistemology of the Closet
 pub-date: 2008
+ed-note: Updated with a new preface
 index_img: Epistemology2008_index.jpg
 full_left_img: Epistemology2008_full-left.jpg
 
