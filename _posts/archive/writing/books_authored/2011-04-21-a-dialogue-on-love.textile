@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: A Dialogue on Love
 pub-date: 1999
 index_img: A-Dialogue-On-Love_index.jpg

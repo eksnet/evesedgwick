@@ -7,7 +7,7 @@ sub-category: "books authored"
 type: book
 
 role: author
-with: none
+with:
 title: The Weather in Proust
 sub-title: 
 pub-date: 2011

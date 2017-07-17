@@ -7,7 +7,7 @@ sub-category: "books and journals edited"
 type: book
 
 role: editor
-with: none
+with:
 title: Queerer than Fiction
 pub-date: 1996
 index_img: Studies-in-the-Novel_index.jpg
@@ -15,9 +15,9 @@ full_left_img: Studies-in-the-Novel_full-left.jpg
 
 Description: none
 
-in:
+editions:
     - description:  journal
-      publication:  Studies in the Novel
+      publisher:  Studies in the Novel
       issue:        28.3
       date:         Fall 1996
 

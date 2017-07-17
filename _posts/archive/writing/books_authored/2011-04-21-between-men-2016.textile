@@ -7,7 +7,7 @@ sub-category: "books authored"
 type: book
 
 role: author
-with: none
+with:
 title: Between Men
 sub-title: English Literature and Male Homosocial Desire
 pub-date: 2016

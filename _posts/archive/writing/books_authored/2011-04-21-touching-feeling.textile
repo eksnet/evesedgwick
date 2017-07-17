@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: Touching Feeling
 sub-title: Affect, Pedagogy, Performativity
 pub-date: 2003

@@ -7,7 +7,7 @@ sub-category: "books and journals edited"
 type: book
 
 role: editor
-with: none
+with:
 title: Gary in Your Pocket
 sub-title: Stories and Notebooks of Gary Fisher
 pub-date: 1996

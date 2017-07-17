@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: Tendencies
 pub-date: 1993
 index_img: Tendencies_index.jpg

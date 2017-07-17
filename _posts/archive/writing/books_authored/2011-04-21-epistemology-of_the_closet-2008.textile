@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: Epistemology of the Closet
 pub-date: 2008
 ed-note: Updated with a new preface

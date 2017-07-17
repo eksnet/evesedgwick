@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: Epistemology of the Closet
 pub-date: 1990
 index_img: Epistemology1990_index.jpg

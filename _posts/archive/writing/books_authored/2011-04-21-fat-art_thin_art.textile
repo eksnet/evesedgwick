@@ -8,7 +8,7 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: "Fat Art, Thin Art"
 pub-date: 1994
 index_img: Fat-Art-Thin-Art_index.jpg

@@ -8,9 +8,10 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: The Coherence of Gothic Conventions
 pub-date: 1986
+ed-note: Revised with preface and additional chapter
 index_img: Coherence-of-Gothic-Conventions_1986_index.jpg
 full_left_img: Coherence-of-Gothic-Conventions_1986_full-left.jpg
 description:    none
@@ -34,11 +35,14 @@ urls:
 
 ---
 
-Containing revised opening and closing chapters, this new edition of _The Coherence of Gothic Conventions_ makes the case that the Gothic in English literature has been marked by a distinctive and highly influential set of ambitions about relations of meaning. Through readings of classic Gothic authors as well as of De Quincey and the Brontes, Sedgwick links the most characteristic thematic content of the Gothic firmly and usably to the genre’s radical claims for representation. A new introduction to this reprint of a 1980 study clarifies the connection between the linguistic or epistemological argument of the Gothic and its epochal crystallization of modern gender and modern homophobia. --_From the jacket copy_
+<i>The Coherence of Gothic Conventions</i> was first (1975) a dissertation, then, with substantial revisions to Chapter 1, a volume in the 1980 Arno Press collection, "Gothic Studies and Dissertations," whose Advisory Editor was Devendra P. Varma. The essay presented as Chapter 4 of this volume was written at the same time as the revised Chapter 1, and published in <i>PMLA</i> in March, 1981. <i>&#8212;From the Acknowledgments</i>
+
+This new edition of <i>The Coherence of Gothic Conventions</i> makes the case that the Gothic in English literature has been marked by a distinctive and highly influential set of ambitions about relations of meaning. Through readings of classic Gothic authors as well as of De Quincey and the Brontes, Sedgwick links the most characteristic thematic content of the Gothic firmly and usably to the genre’s radical claims for representation. [An added preface] clarifies the connection between the linguistic or epistemological argument of the Gothic and its epochal crystallization of modern gender and modern homophobia. <i>&#8212;From the jacket copy</i>
+
 
 CONTENTS
 
-Acknowledgements
+Acknowledgments
 Preface
 Introduction
 

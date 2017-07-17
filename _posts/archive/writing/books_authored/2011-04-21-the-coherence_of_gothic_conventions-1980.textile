@@ -8,9 +8,10 @@ type: book
 
 type: book
 role: author
-with: none
+with:
 title: The Coherence of Gothic Conventions
 pub-date: 1980
+ed-note: Dissertation with Chapter I much revised
 index_img: Coherence-of-Gothic-Conventions_1980_index.jpg
 full_left_img: Coherence-of-Gothic-Conventions_1980_full-left.jpg
 
@@ -22,7 +23,7 @@ editions:
       location:     New York
       series:       Gothic Studies Series
       date:         1980
-      isbn:         9780416014112
+      isbn:         0-405-12650-6
       further_editions:
         - type:         paperback reissue with new material
           publisher:    Methuen & Co
@@ -31,19 +32,19 @@ editions:
           translations: Japanese
 
 urls:
-    - { display: amazon, url: "http://www.amazon.com/Coherence-Gothic-Conventions-University-Paperback/dp/0416014119"}
+    
 
 ---
 
-Chapters II and III of this study appeared in my 1976 dissertation of the same title. Chapter I has been much revised as a result of work that I was enabled to do by a Mellon Postdoctoral Fellowship in the Humanities at Cornell --_From the Acknowledgements_
+Chapters II and III of this study appeared in my 1976 dissertation of the same title. Chapter I has been much revised as a result of work that I was enabled to do by a Mellon Postdoctoral Fellowship in the Humanities at Cornell --_From the Acknowledgments_
 
 CONTENTS
 
-Acknowledgements
+Acknowledgments
 Introduction
 
-Chapter 1. &nbsp;&nbsp;The Structure of Gothic Conventions
-Chapter 2. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
-Chapter 3. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i> 
+Chapter I. &nbsp;&nbsp;The Structure of Gothic Conventions
+Chapter II. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
+Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i> 
 
 Selected bibliography

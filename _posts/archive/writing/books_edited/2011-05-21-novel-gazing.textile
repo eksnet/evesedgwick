@@ -7,7 +7,7 @@ sub-category: "books and journals edited"
 type: book
 
 role: editor
-with: none
+with:
 title: Novel Gazing
 sub-title: Queer Readings in Fiction
 pub-date: 1997
