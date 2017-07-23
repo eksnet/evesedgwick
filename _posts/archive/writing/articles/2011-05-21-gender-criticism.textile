@@ -12,11 +12,9 @@ pub-date: 1993
 
 in:
     - description:  book
-      editors:      
-        - Stephen Greenblatt
-        - Giles Gunn
+      editors: Stephen Greenblatt and Giles Gunn
       publication:  Redrawing the Boundaries
-      issue:        52-3
+      issue:
       publisher:    MLA
       location:     New York
       date:         1993

@@ -23,7 +23,7 @@ layout: base
     
     <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}</h8> </h5>
     {% assign biblio = page.in[0] %}
-    <h6 class='biblio'><i>in</i> {% for editor in biblio['editors'] %}{{ editor }}, {% endfor %}<i>{{ biblio['publication'] }}</i> ({% if biblio['location'] and biblio['location'] != 'none' %}{{ biblio['location'] }}: {% endif %}{% if biblio['publisher'] and biblio['publisher'] != 'none'  %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }})</h6>
+    <h6 class='biblio'>In {% for editor in biblio['editors'] %}{{ editor }}, {% endfor %}<i>{{ biblio['publication'] }}</i> ({% if biblio['publisher'] %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }})</h6>
     
     {{ content }}
     

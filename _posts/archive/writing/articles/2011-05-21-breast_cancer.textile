@@ -14,7 +14,7 @@ pub-date: 1995
 in:
     - description:  journal
       publication:  Lesbian and Gay Studies Newsletter
-      date:         Fall 1995
+      date:         Fall, 1995
       
 index-desc: In this review of an art exhibition about breast cancer, Sedgwick critiques the premise that “artists - <i>all presumed healthy</i> - create works of art that would, somehow, give a ‘voice’ to…women - <i>all presumed voiceless</i> - struggling with the disease.” She also objects to the lack of representation of lesbians in both the exhibition and in cancer research.
 

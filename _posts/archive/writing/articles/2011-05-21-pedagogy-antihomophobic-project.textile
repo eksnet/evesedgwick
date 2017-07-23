@@ -13,8 +13,8 @@ pub-date: 1989
 in:
     - description:  journal
       publication:  South Atlantic Quarterly
-      issue:        89
-      date:         Winter 1989
+      issue:        
+      date:         Winter, 1989
 
 index-desc: In this examination of the politics of the canon, Sedgwick concludes that "the invaluable forms of critique and dismantlement...can be only one part of the strategy of an antihomophobic project." The other part creates a "pincers movement...with the re-creation of minority gay canons from currently noncanonical material."
 

@@ -12,10 +12,7 @@ pub-date: 1994
 
 in:
     - description:  book
-      editors:      
-        - James Chandler
-        - Arnold I. Davidson
-        - Harry Harootunian
+      editors: James Chandler, Arnold I. Davidson, and Harry Harootunian
       publication:  Questions of Evidence
       publisher:    University of Chicago Press
       location:     Chicago

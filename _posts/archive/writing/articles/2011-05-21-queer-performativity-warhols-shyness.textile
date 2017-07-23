@@ -13,10 +13,7 @@ pub-date: 1996
 
 in:
     - description:  book
-      editors:      
-        - Jennifer Doyle
-        - Jonathan Flatley
-        - José Eseban Muñoz
+      editors: Jennifer Doyle, Jonathan Flatley, and José Esteban Muñoz
       publication:  "Pop Out: Queer Warhol"
       issue:        
       publisher:    Duke University Press

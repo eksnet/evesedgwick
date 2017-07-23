@@ -12,9 +12,7 @@ pub-date: 1996
 
 in:
     - description:  book
-      editors:      
-        - Maurice Berger
-        - et al.
+      editors: Maurice Berger, Brian Wallis, and Simon Watson
       publication:  Constructing Masculinity
       publisher:    Routledge
       location:     New York

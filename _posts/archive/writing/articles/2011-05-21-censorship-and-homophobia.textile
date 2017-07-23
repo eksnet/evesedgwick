@@ -12,9 +12,8 @@ pub-date: 2013
 
 in:
     - description:  chapbook
-
-      publication:  Guillotine Series No. 5
-      publisher:    Guillotine
+      publication:  Guillotine
+      issue:        No. 5
       location:     New York
       date:         2013
 

@@ -13,8 +13,8 @@ pub-date: 2006
 in:
     - description:  journal
       publication:  The Scholar and Feminist Online
-      issue:        4
-      date:         Spring 2006
+      issue:        Issue 4.2
+      date:         Spring, 2006
 
 index-desc: This is a wide-ranging exploration of teacher, student, activist, and psychotherapy identities, using Silvan Tomkins’ ideas on “depressiveness” and Melanie Klein’s concept of a “depressive position,” along with consideration of several scenes from Sedgwick’s book, <i>A Dialogue on Love</i>.  She notes that “sometimes I feel like my students' analyst; other times, floundering all too visibly in my helplessness to evoke language from my seminar, I feel like a patient being held out on by 20 psychoanalysts at once.”
 

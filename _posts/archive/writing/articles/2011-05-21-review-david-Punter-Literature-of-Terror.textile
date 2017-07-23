@@ -13,8 +13,8 @@ pub-date: 1982
 in:
     - description:  journal
       publication:  Studies in Romanticism
-      issue:        21
-      date:         Summer 1982
+      issue:        
+      date:         Summer, 1982
 
 
 index-desc: In this book review, Sedgwick concludes that Punter "presents an important project...which when accomplished, will, as he claims, be revealing about how literature, psychology, and class intertwine"

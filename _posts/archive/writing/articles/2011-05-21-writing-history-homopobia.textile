@@ -13,9 +13,7 @@ pub-date: 2015
 
 in:
     - description:  book
-      editors:      
-        - Jason Potts
-        - Daniel Stout
+      editors: Jason Potts and Daniel Stout
       publication:  "Theory Aside"
       publisher:    Duke University Press
       location:     Durham, NC

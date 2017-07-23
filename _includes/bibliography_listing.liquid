@@ -7,13 +7,12 @@
     
     {% if record.type == 'article' %}
         {% assign biblio = record.in[0] %}
-        "<a href="{{ record.url }}">{{ record.title }}{% if record.sub-title %}: {{ record.sub-title }}{% endif %}</a>,"
-        {% if record.with %} (with {{ record.with }}),{% endif %}
-        {% if biblio['notes'] %} {{ biblio['notes'] }},{% endif %}
-        {% if biblio['editors'] %} in {% for ed in biblio['editors'] %}{{ ed }}, {% endfor %}eds.,{% endif %}
-        {% if biblio['publication'] %}<i>{{ biblio['publication' ]}}</i>{% endif %}
-        {% if biblio['publisher'] %} ({% if biblio['location'] %}{{ biblio['location'] }}: {% endif %}{{ biblio['publisher'] }}, {{ biblio['date'] }}).
-        {% else %},{% if biblio['issue'] %} {{ biblio['issue'] }},{% endif %}{% if biblio['date'] %} {{ biblio['date'] }}{% endif %}{% endif %}<br>
+        "<a href="{{ record.url }}">{{ record.title }}{% if record.sub-title %}: {{ record.sub-title }}{% endif %}</a>."
+        {% if record.with %} With {{ record.with }}.{% endif %}
+        {% if biblio['publication'] %} <i>{{ biblio['publication' ]}}</i>.{% endif %}
+        {% if biblio['editors'] %} Edited by {{ biblio['editors'] }}.{% endif %}
+        {% if biblio['publisher'] %} {{ biblio['publisher'] }}, {{ biblio['date'] }}.
+        {% else %}{% if biblio['issue'] %} {{ biblio['issue'] }},{% endif %} {{ biblio['date'] }}.{% endif %}<br>
     {% endif %}
     <br>
 {% endfor %}

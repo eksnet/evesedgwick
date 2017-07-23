@@ -7,14 +7,12 @@ sub-category: articles
 type: article
 
 role: author
-title: Teaching "Experimental Critical Writing"
+title: Teaching 'Experimental Critical Writing'
 pub-date: 1998
 
 in:
     - description:  journal
-      editors:      
-        - J. Lane
-        - Phelan
+      editors: Peggy Phelan and Jill Lane    
       publication:  The Ends of Performance
       publisher:    New York University Press
       location:     New York

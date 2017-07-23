@@ -7,16 +7,14 @@ sub-category: articles
 type: article
 
 role: author
-with:
-    -Andrew Parker
+with: Andrew Parker (first author)
+
 title: Introduction - Performativity and Performance
 pub-date: 1995
 
 in:
     - description:  book
-      editors:      
-        - Andrew Parker
-        - Eve Kosofsky Sedgwick
+      editors: Andrew Parker and Eve Kosofsky Sedgwick
       publication:  Performativity and Performance
       issue:        
       publisher:    Routledge
