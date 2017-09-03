@@ -26,9 +26,9 @@ category-settings:
     -   category: "supporting materials"
         description: ""
     -   category: conferences
-        description: "Tendencies at Twenty: An inter-disciplinary symposium"
+        description: ""
     -   category: articles
-        description: "These are uncollected publications from books, journals, and talks"
+        description: "These are uncollected publications from books, journals, and talks"        
 posts_per_page: 5
 
 index_images:
