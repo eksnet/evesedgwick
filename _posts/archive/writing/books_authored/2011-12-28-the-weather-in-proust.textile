@@ -5,7 +5,7 @@ nav: archive
 category: writing
 sub-category: "books authored"
 type: book
-
+ed-note: Edited by Jonathan Goldberg
 role: author
 with:
 title: The Weather in Proust

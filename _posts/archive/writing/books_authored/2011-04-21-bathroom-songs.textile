@@ -5,8 +5,7 @@ nav: archive
 category: writing
 sub-category: "books authored"
 type: book
-
-type: book
+ed-note: Edited by Jason Edwards with specially commissioned essays
 role: author
 with:
 title: "Bathroom Songs - Eve Kosofsky Sedgwick as a Poet"
