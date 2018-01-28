@@ -1,0 +1,25 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+description: none
+
+title: "March 29, 2018: Dean Spade will present the Eighth Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
+
+related-images:
+    - dean-spade-2015
+
+---
+Dean Spade, Associate Professor of Law at Seattle University, will give this year's lecture in the Honoring Eve series, organized by the Boston University Gender + Sexuality Studies Group. They describe the lecture, "How Social Movements Feel," as follows:
+
+"As organizers know, social movements are made of relationships. While efforts to dismantle, reform, and reimagine are often focused on critical analysis and material outcomes, much of what determines the impacts of social movements are the social relations, conflicts, and emotional capacities of participants. In conversation with the work of Eve Sedgwick, Dean Spade will explore questions facing contemporary movements about our <i>being together</i>."
+
+As described in his "(newwindow)faculty profile":https://law.seattleu.edu/faculty/profiles/dean-spade, Professor Spade "founded the Sylvia Rivera Law Project "(newwindow)www.srlp.org":https://srlp.org/, a non-profit law collective that provides free legal services to transgender, intersex and gender non-conforming people who are low-income and/or people of color. SRLP also engages in litigation, policy reform and public education on issues affecting these communities." Spade was a Williams Institute Law Teaching Fellow at UCLA, and has taught classes at Columbia and Harvard Law Schools.
+
+A video of Professor Spade's talk will be posted on BU's "(newwindow)Honoring Eve":http://www.bu.edu/honoringeve/ website.
+
