@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000120-01"
+
+index_img: pic000223_thumb.jpg
+
+description: "Long, narrow weaving in bright blue, turquoise, and marigold."
+
+related_media:
+    - {type: album, name: "alb000120"}
+
+---

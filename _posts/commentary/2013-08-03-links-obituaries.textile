@@ -1,0 +1,25 @@
+---
+layout: resource
+published: true
+nav: commentary
+category: links
+type: resource
+
+title: Obituaries
+---
+
+h5. Obituaries
+
+"(newwindow)Bay Area Reporter":http://www.ebar.com/news/article.php?sec=news&article=3880
+"(newwindow)Duke University Press":http://dukeupress.typepad.com/dukeupresslog/2009/04/eve-kosofsky-sedgwick-19502009.html 
+"(newwindow)Guardian (U.K.&#41;":http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory
+"(newwindow)Inside Higher Education":http://www.insidehighered.com/quicktakes/2009/04/14/eve-kosofsky-sedgwick-1950-2009
+"(newwindow)LGBT Collections, New York Public Library":http://www.nypl.org/blog/2009/04/13/remembering-eve-kosofsky-sedgwick
+"(newwindow)New York Times (Arts Section&#41;":http://www.nytimes.com/2009/04/15/arts/15sedgwick.html?_r=1
+"(newwindow)New York Times (ArtsBeat Blog&#41;":http://artsbeat.blogs.nytimes.com/2009/04/15/remembering-eve-kosofsky-sedgwick/?_r=0
+"(newwindow)New York Times (Week in Review&#41;":http://www.nytimes.com/2009/04/19/weekinreview/19cohen.html
+"(newwindow)New Yorker":http://www.newyorker.com/online/blogs/books/2009/04/eve-kosofsky-sedgwick.html
+"(newwindow)Tetu":http://www.tetu.com/2009/04/13/news/culture/mort-de-lintellectuelle-eve-kosofsky-sedgwick/
+"(newwindow)Toronto Star":http://www.thestar.com/News/Insight/article/620442
+
+Back to "LINKS":http://evekosofskysedgwick.net/links/

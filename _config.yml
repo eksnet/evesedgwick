@@ -14,7 +14,7 @@ description:    "Eve Kosofsky Sedgwick"
 nav:
     - archive
     - blog
-    - resources
+    - commentary
     
 category-settings:
     -   category: art
@@ -37,21 +37,6 @@ index_images:
     -   index3.jpg
     -   index4.jpg
     -   index5.jpg
-    -   index6.jpg
-    -   index7.jpg
-    -   index8.jpg
-    -   index9.jpg
-    -   index10.jpg
-    -   index11.jpg
-    -   index12.jpg
-    -   index13.jpg
-    -   index14.jpg
-    -   index15.jpg
-    -   index16.jpg
-    -   index17.jpg
-    -   index18.jpg
-    -   index19.jpg
-    -   index20.jpg
     
 index_image_duration: 10000
 index_image_transition: slow

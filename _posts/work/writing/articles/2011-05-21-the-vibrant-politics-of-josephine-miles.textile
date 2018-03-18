@@ -1,0 +1,26 @@
+---
+layout: article
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: The Vibrant Politics of Josephine Miles
+pub-date: 1982
+
+in:
+    - description:  journal
+      publication:  Epoch
+      issue:        Vol. 31, No. 1
+      date:         Autumn-Winter, 1982
+
+index-desc: Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.
+
+description: Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.
+
+  
+---
+
+Sedgwick examines Miles' poetry in relation to gender, disability, a California/west-coast perspective, money, and other lenses.

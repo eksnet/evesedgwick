@@ -1,0 +1,9 @@
+---
+layout: bibliography
+published: true
+nav: work
+category: writing
+type: document
+
+title: Bibliography
+---

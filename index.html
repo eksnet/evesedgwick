@@ -65,15 +65,18 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
         <header>
             <a href='/'><h1><br><span>EVE KOSOFSKY SEDGWICK</span></h1></a>
                 <ul id="nav" class="nav">
+                    
+                     <li><a href="/about/about.html">ABOUT</a></li> 
+            
                     <li><a href="/biography/biography.html">LIFE</a></li> 
 
-                    <li><a href="/archive/">ARCHIVE</a></li> 
+                    <li><a href="/work/">WORK</a></li> 
 
-                    <li><a href="/blog/page1">BLOG</a></li> 
-
-                    <li><a href="/resources/">RESOURCES</a></li> 
+                    <li><a href="/commentary/">COMMENTARY</a></li> 
                     
                     <li><a href="/foundation/foundation.html">FOUNDATION</a></li> 
+                    
+                    <li><a href="/blog/page1">BLOG</a></li> 
 
                 </ul>
 <!--
@@ -89,15 +92,30 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
                 </ul>
 -->
         </header>
-            
+        
+
 
         <section id='main'>
+            
             <section class="fadein">
                 {% for image in site.index_images %}
                     <img src='/images/index/{{ image }}' width='622' height='405'>
                 {% endfor %}
             </section>
         <section>
+            
+           <div class='marginalindex'> 
+			
+			<p><i>Welcome to the Eve Kosofsky Sedgwick website!</i></p>
+
+			<p>Eve Kosofsky Sedgwick (1950-2009) was a poet, artist, literary critic and teacher. She is perhaps best known as one of the originators of Queer Theory. Her work and her example continue to have a significant effect in shaping the lives and thought of many people.</p>
+
+			<p>This website offers an introduction to Sedgwick’s <a href="/biography/biography.html">Life</a> and <a href="/work/">Work</a>. Our <a href="/commentary/">Commentary</a> section includes papers and videos from several conferences about her work, as well as links to commentaries external to our website. The <a href="/blog/page1">Blog</a> carries news about relevant events and publications. </p>
+	
+			<p>More information, including how to contact us, is in our <a href="/about/about.html">About</a> section. 
+
+			<i>We would love to hear from you!</i></p></span></div>
+            
         <p class='intro' style=''>
             What I'm proudest of, I guess, is having a life where work and love are impossible to tell apart.<br><span style='float:right;'>- Eve Kosofsky Sedgwick</span>
         </p>
@@ -111,7 +129,7 @@ body {font-family:Arial, Helvetica, sans-serif; font-size:12px;}
         <h4></h4>
     </div>
     <div id="copyright">
-        <h6>Copyright © 2010-2017 H. A. Sedgwick. All rights reserved.</h6>
+        <h6>Copyright © 2010-2018 H. A. Sedgwick. All rights reserved.</h6>
     </div>
 
 </footer>

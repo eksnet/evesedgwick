@@ -1,0 +1,73 @@
+---
+layout: book
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+
+role: author
+with:
+title: Between Men
+sub-title: English Literature and Male Homosocial Desire
+pub-date: 1985
+index_img: betweenmen1985_index.jpg
+full_left_img: betweenmen1985_full_left.jpg
+
+description:    none
+
+editions:
+    - description:  
+      publisher:    Columbia University Press
+      location:     New York
+      series:       Gender and Culture Series
+      date:         1985
+      binding:      Hardcover
+      isbn:         0231058608
+      pages:        244pp.
+      further_editions:
+        - type:         paperback
+          date:         1986
+          translations: Japanese
+
+urls:
+    - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/716171864?referer=di&ht=edition"}
+    
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
+
+---
+
+"Sedgwick offers us dazzling illumination of how, in a homophobic world where homosocial desire bonds men together, their desire for each other must be manifested across the body of the woman they both claim to love. We learn what are the dynamics when two men love one woman, a triangle that occurs with surprising frequency in our literature. Clever, shocking, and probably irrefutable, <i>Between Men</i> is wonderfully readable."  –<i>Carolyn G. Heilbrun</i>
+
+
+
+CONTENTS
+
+Acknowledgments
+
+Introduction
+i. Homosocial Desire
+ii. Sexual Politics and Sexual Meaning
+iii. Sex or History?
+iv. What This Book Does
+
+1. Gender Asymmetry and Erotic Triangles
+2. Swan in Love: The Example of Shakespeare's Sonnets
+3. <i>The Country Wife</i>: Anatomies of Male Homosocial Desire
+4. <i>A Sentimental Journey</i>: Sexualism and the Citizen of the World
+5. Toward the Gothic: Terrorism and Homosexual Panic
+6. Murder Incorporated: <i>Confessions of a Justified Sinner</i>
+7. Tennyson's <i>Princess</i>: One Bride for Seven Brothers
+8. <i>Adam Bede</i> and <i>Henry Esmond</i>: Homosocial Desire and the Historicity of the Female
+9. Homophobia, Misogyny, and Capital: The Example of <i>Our Mutual Friend</i>
+10. Up the Postern Stair: <i>Edwin Drood</i> and the Homophobia of Empire
+
+Coda: Toward the Twentieth Century: English Readers of Whitman 
+
+Notes
+Bibliography
+Index

@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "collage"
+tags: "proust"
+
+title: "Collage"
+sub-title: "Untitled (Hawthorns)"
+year: ND
+medium: "book board, text, paper"
+dims: {width: 11, height: 17, depth: 0}
+catalog-number: "000026-01"
+
+index_img: hawthorns_thumb.jpg
+description: "Text from Proust with an antique photo of a woman and girl on hand-colored papers."
+
+related_media:
+    - {type: album, name: "000026-01"}
+
+---

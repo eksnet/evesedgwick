@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: "Fabric/hanging"
+sub-title: "Untitled (This final scene)"
+year: ND
+medium: "suminagashi, cyanotype, silk"
+dims: {width: 16, height: 16, depth: 0}
+catalog-number: "000038-01"
+
+index_img: this-final-scene_thumb.jpg
+
+description: "Three panels of fabric, joined:  brown, rust and mustard colored suminagashi (left), cyanotype bodhisattva (center), text of death poem by Choko in cyanotype (right)."
+
+related_media:
+    - {type: album, name: "000038-01"}
+
+---

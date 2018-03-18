@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "Collage"
+
+title: "Collage/photo"
+sub-title: "Listening to Dionne (1)"
+year: 1992
+medium: "photographic prints on paper"
+dims: {width: , height: , depth: }
+catalog-number: "000130-01"
+
+index_img: pic000233_thumb.jpg
+
+description: "Photocollage with images of Gary Fisher and Eric Patterson at Eve Sedgwick's house on Montgomery Ave., Durham. Dated 4/92. Signed: Eve K. Sedgwick."
+
+related_media:
+    - {type: album, name: "alb000130"}
+
+---

@@ -1,0 +1,22 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+tags: proust
+
+title: "Fabric/hanging"
+sub-title: "Untitled (Limpid three bodhisattvas)"
+year: ND
+medium: "quilted cyanotype"
+dims: {width: 36, height: 20, depth: 0}
+catalog-number: "000045-01"
+
+index_img: limpid-3-_thumb.jpg
+description: Images of bodhisattvas constructed from squares of cyanotype fabric. 
+related_media:
+    - {type: album, name: "000045-01"}
+
+---

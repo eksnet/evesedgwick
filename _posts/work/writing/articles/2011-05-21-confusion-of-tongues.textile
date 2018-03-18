@@ -1,0 +1,29 @@
+---
+layout: article
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+with: Michael Moon (first author)
+title: Confusion of Tongues
+sub-title: Louisa Van Velsor Whitman and Walt Whitman
+pub-date: 1996
+
+in:
+    - description:  book
+      editors: Betsy Erkkila and Jay Grossman
+      publication:  "Breaking Bounds: New Essays on Walt Whitman"
+      publisher:    Oxford University Press
+      location:     Oxford
+      date:         1996
+
+index-desc: This piece takes the form of a dialogue between Sedgwick and Moon in which they counter “typecasting Whitman as the pathetic fag son of a mean and withholding father and a possessive and demanding mother,” using letters between mother and son and the theories of psychoanalyst Sandor Ferenczi.
+
+description: This piece takes the form of a dialogue between Sedgwick and Moon in which they counter “typecasting Whitman as the pathetic fag son of a mean and withholding father and a possessive and demanding mother,” using letters between mother and son and the theories of psychoanalyst Sandor Ferenczi. 
+  
+---
+
+This piece takes the form of a dialogue between Sedgwick and Moon in which they counter “typecasting Whitman as the pathetic fag son of a mean and withholding father and a possessive and demanding mother,” using letters between mother and son and the theories of psychoanalyst Sandor Ferenczi. 

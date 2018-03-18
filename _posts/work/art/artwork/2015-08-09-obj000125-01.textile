@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000125-01"
+
+index_img: pic000228_thumb.jpg
+
+description: "Fringed weaving using yarns of different thicknesses in shades of beige, brown, and white. "
+
+related_media:
+    - {type: album, name: "alb000125"}
+
+---

@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: Fabric/hanging
+sub-title: "Untitled"
+year: ND
+medium: "shibori cloth and stamped text"
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000105-01"
+
+index_img: pic000208_thumb.jpg
+
+description: "Deep purple and white shibori cloth hanging with Japanese death poem."
+
+related_media:
+    - {type: album, name: "alb000105"}
+
+---

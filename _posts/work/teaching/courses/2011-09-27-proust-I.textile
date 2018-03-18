@@ -1,0 +1,102 @@
+---
+layout: document
+published: true
+nav: work
+category: teaching
+sub-category: courses
+type: document
+title: "Proust I"
+
+meta:
+    - {key: type, value: document, display-value: Type, display: true, sort: true}
+    - {key: title, value: Proust I, display-value: Title, display: true, sort: false}
+    - {key: location, value: CUNY, display-value: Location, display: true, sort: true}
+    - {key: creation-date, value: 2005, display-value: Date, display: true, sort: false}
+
+description: none
+
+related_media:
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
+
+formats:
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: transcript, format: html}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
+
+---
+
+Eve Kosofsky Sedgwick
+
+English 87100, Fall 2005
+Class hours: Tues. 6:30-8:30.  Class room: 3309
+
+	Proust I
+
+Description:
+This is part I of a year-long seminar organized around a close, start-to-finish reading of Marcel Proust’s ??A la recherche du temps perdu?? (In Search of Lost Time). We will be considering a wide range of the issues, motives, and ambitions embodied in the novel, including its complicated relation to the emerging discourses of Euro-American homosexuality. Other preoccupations that I hope will emerge through our discussions include the changing possibilities of novelistic genre; narratorial consciousness; texture; habit and addiction; experimental identities; meteorology; adult relations to childhood; the spatialities of present and past; the vicissitudes of gender; the bourgeois maternal in relation to such other roles as the grandmother, the aunt, the uncle, and a variety of domestic workers; alternatives to triangular desire; the languages of affect; phallic and non-phallic sexualities; the phenomenology and epistemology of sleep and dreams; the relations between Jewish diasporic being and queer diasporic being within modernism; and the affective, phenomenological, and philosophical ramifications of an interest in the transmigration of souls -- to name but a few.
+
+Some starting points:
+Proust’s novel has been especially stimulating to readers interested in psychoanalysis and/or deconstruction. One emphasis of our reading this year will be on the potential usefulness of Melanie Klein’s ideas in understanding Proust’s novel. For this purpose, I am asking students to read Meira Likierman’s ??Melanie Klein: Her Work in Context?? during the first several weeks of the semester. (Because Klein’s work both uses and differs from traditional [Freudian] psychoanalysis in important ways -- and because Freudian psychoanalysis has been so influential in twentieth-century readings of Proust -- students who don’t already have some background with psychoanalytic theory will want to read some Freud, as well. For our purposes I would especially suggest the following essays, to be found in [among other places] Peter Gay’s ??The Freud Reader??, a Norton paperback: “Three Essays on the Theory of Sexuality”; “A Special Type of Object-Choice Made by Men”; “On the Universal Tendency to Debasement in the Sphere of Love”; “The Dissolution of the Oedipus Complex”; and “Creative Writers and Day-Dreaming.”) For students who may not be familiar with deconstruction, I recommend Jonathan Culler’s ??On Deconstruction?? as a good introduction.
+
+Required texts:
+For ease of discussion, all students are required to use the new translation of Proust edited by Christopher Prendergast (individual translations by Lydia Davis et al.). Either the British (Viking) or U.S. (Penguin) edition of this translation is fine, though their pagination may differ by two or three pages. (For next semester, please note that Volumes V and VI are unavailable in this country; you can buy them in Britain through amazon.co.uk, but leave plenty of time to get them.) Those who wish to may supplement the translation by reading along in French.
+
+Marcel Proust, ??In Search of Lost Time vol. I, The Way By Swann’s?? (called Swann’s Way in U.S. edition), tr. Lydia Davis.
+Marcel Proust, ??In Search of Lost Time vol. II,  In the Shadow of Young Girls in Flower??, tr. James Grieve.
+Marcel Proust, ??In Search of Lost Time vol. III, The Guermantes Way??, tr. Mark Treharne.
+Meira Likierman, ??Melanie Klein: Her Work in Context??
+
+Class meetings:
+The reading schedule for the first semester follows.  Please focus on the section assigned for each class session; we won’t be able to pursue our strategy of close reading if we aren’t all reading/discussing the same passages at the same time.  
+Additionally, please note that we will be taking an unconventional itinerary through the first volume of the novel: we’re going to read “A Love of Swann’s” before we go back and read “Combray.” I have made this choice because it is so common to see “Combray” isolated and fetishized in discussions of  Proust, often with disastrous results for the critical assumptions and proceedings that then get applied to the rest of the novel. I’m hoping by this rather drastic intervention at least to deroutinize our sense of how “Combray” is related to the other sections of the novel.
+
+Readings: 
+1)  All page numbers below are for the British (Viking) edition–may be off a couple of pages from U.S. (Penguin) edition.
+2) Please don’t read the introductions to each volume–they contain plot spoilers!
+
+8/30: Introductory class
+9/6: Vol. I, pp. 191-324.  “A Love of Swann’s”: The Verdurins and their little clan, up to the Marquise de Saint-Euverte’s party.
+9/13: Vol. I, pp. 324-383.  “A Love of Swann’s”: To end of section.  Then: Vol. I, pp. 7-50.  “Combray” section 1: awakenings; bedtimes at Combray; the madeleine.
+9/19: Vol. I, pp. 51-166.  “Combray,” section 2: Aunt Léonie’s two rooms, to end of the scene with Mlle. Vinteuil.
+9/26: Vol. I, pp. 166-187.  To the end of “Combray.”  Then: Vol. I, pp. 387-430.  “Place-Names: The Name.”  Entire section.
+10/4: No class
+10/11: No class.
+10/18: Vol. II, pp. 5-121.  “Madame Swann at Home”: ending just before lunch at the Swanns’ with Bergotte.
+10/25: Vol. II, pp. 121-217.  “Madame Swann at Home,” to end of section.
+11/1: Vol. II, pp. 221-327.  “Place-Names: the Place,” up to the invitation to dinner at the Blochs’.
+11/8: Vol. II, pp. 327-413.  “Place-Names: the Place,” ending just before visit to Elstir’s studio.
+11/15: Vol. II, pp. 413-531.  “Place-Names: the Place,” to end of volume.
+11/22: Vol. III, pp.7-137.  “Part One,” ending with departure from Doncières.
+11/29: Vol. III, pp. 137-308.  “Part One,” to end of section.
+12/6: Vol. III, pp. 311-464:. “Part Two,” ending with “Teaser Augustus” joke.
+12/13: Vol. III, pp. 464-597. “Part Two,” to end of volume.  
+12/20: Papers due.									
+
+Assignments:
+1) All students (including auditors) are required to contribute orally in every class meeting.
+2) Final project: The focus of this semester is on the first half of A la recherche, so I do not encourage students to undertake a full-dress paper that would presume a knowledge of the novel as a whole.  Instead, you’ll need to use your ingenuity to come up with a writing project that makes sense in the context of what you have read.  Please discuss your project ideas with me by November 15 at the latest.  I encourage experimental forms and collaborative projects as appropriate.  All final papers are due in my mailbox by 5 p.m. on December 20.
+3) In addition, from time to time I may ask various seminar participants (both enrolled and auditing) to come prepared to lead a brief discussion of a short passage of their choice in that week’s reading.
+
+Some suggested Proust-related books:
+Bal, Mieke, ??The Mottled Screen: Reading Proust Visually??
+Bowie, Malcolm, ??Freud, Proust, and Lacan: Theory as Fiction??
+Carter, William C., ??Marcel Proust: A Life??
+Compagnon, Antoine, ??Proust: Between Two Centuries??
+Decombes, Vincent, ??Proust: Philosophy of the Novel??
+Deleuze, Gilles, ??Proust and Signs??
+ Everman, Anthony Albert, ??Lilies and Sesame: The Orient, Inversion, and Artistic Creation in A la recherche du temps perdu??
+Genette, Gerard, Narrative ??Discourse: An Essay in Method??
+Goodkin, Richard E., ??Around Proust??
+Kristeva, Julia, ??Proust and the Sense of Time??
+Kristeva, Julia, ??Time & Sense: Proust and the Experience of Literature??
+McDonald, Christie, ??The Proustian Fabric: Associations of Memory??
+Mehlman, Jeffrey, ??A structural study of autobiography: Proust, Leiris, Sartre, Lévi-Strauss?? 
+Paganini, Maria, ??Reading Proust: In Search of the Wolf-Fish??
+Poulet, Georges, ??Proustian Space??
+Rivers, J. R., ??Proust and the Art of Love: The Aesthetics of Sexuality in the Life, Times, and Art of Marcel Proust??
+Splitter, Randolph, ??Proust’s Recherche: A Psychoanalytic Interpretation??
+Sprinker, Michael, ??History and Ideology in Proust??
+Stonebridge, Lydsey, and John Phillips, eds., ??Reading Melanie Klein??
+Tadié, Jacques-Yves, ??Marcel Proust: A Life??
+

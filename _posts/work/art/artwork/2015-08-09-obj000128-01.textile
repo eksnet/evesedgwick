@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "Collage"
+
+title: "Collage/photo"
+sub-title: "Jacket Night at the ID450 Collective"
+year: 1988
+medium: "photographic prints on paper"
+dims: {width: , height: , depth: }
+catalog-number: "000128-01"
+
+index_img: pic000231_thumb.jpg
+
+description: "Photocollage with images of a gathering of the ID450 collective at Eve Sedgwick’s house on 24 Lincoln Ave, Amherst. Dated 7/15/88."
+
+related_media:
+    - {type: album, name: "alb000128"}
+
+---

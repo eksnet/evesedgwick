@@ -1,0 +1,25 @@
+---
+layout: article
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: "Writing, Gay Studies and Affection"
+pub-date: 1991
+
+in:
+    - description:  journal
+      publication:  Lesbian and Gay Studies Newsletter
+      issue:        
+      date:         "November, 1991"
+      
+index-desc: Unlike “White Glasses,” a memorial for Michael Lynch given while he was still living, this remembrance follows this death. Sedgwick describes Lynch’s qualities, his love of aesthetic, moral and political truth, flowers, what is bare and raw, and “the visionary fact of men having sex together - almost any men, almost anywhere.”
+
+description: Unlike “White Glasses,” a memorial for Michael Lynch given while he was still living, this remembrance follows this death. Sedgwick describes Lynch’s qualities, his love of aesthetic, moral and political truth, flowers, what is bare and raw, and “the visionary fact of men having sex together - almost any men, almost anywhere.”
+  
+---
+
+Unlike “White Glasses,” a memorial for Michael Lynch given while he was still living, this remembrance follows this death. Sedgwick describes Lynch’s qualities, his love of aesthetic, moral and political truth, flowers, what is bare and raw, and “the visionary fact of men having sex together - almost any men, almost anywhere.”

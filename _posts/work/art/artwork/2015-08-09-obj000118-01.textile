@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000118-01"
+
+index_img: pic000221_thumb.jpg
+
+description: "Long, narrow, fringed weaving in beige with interwoven rectangles along center. "
+
+related_media:
+    - {type: album, name: "alb000118"}
+
+---

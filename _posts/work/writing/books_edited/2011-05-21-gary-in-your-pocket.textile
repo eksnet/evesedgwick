@@ -1,0 +1,80 @@
+---
+layout: book
+published: true
+nav: work
+category: writing
+sub-category: "books and journals edited"
+type: book
+
+role: editor
+with:
+title: Gary in Your Pocket
+sub-title: Stories and Notebooks of Gary Fisher
+pub-date: 1996
+index_img: Gary-in-Your-Pocket_index.jpg
+full_left_img: Gary-in-Your-Pocket_full-left.jpg
+
+description:    none
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     "Durham, N.C."
+      series:       Series Q
+      date:         1996
+      isbn:         9780822317999
+      
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822317999"}
+    
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
+
+---
+
+The incandescent African American writer Gary Fisher was completely unpublished when he died of AIDS in 1994 at the age of thirty-two. This volume, which includes all of Fisher’s stories and a generous selection from his journals, notebooks, and poems, will introduce readers to a tender, graphic, extravagant, and unswervingly incisive talent. In Fisher’s writings the razor-sharp rage is equalled only by the enveloping sweetness; the raw eroticism by a dazzling writerly elegance. Evocations of a haunting and mobile childhood are mixed in Fisher’s stories with an X-ray view of the racialized sexual vernaculars of gay San Francisco; while the journals braid together the narratives of sexual exploration and discovery, a joyous and deepening vocation as a writer, a growing intimacy with death, and an engagement with racial problematics that becomes ever more gravely and probingly imaginative.
+
+A uniquely intimate, unflinching testimony of the experience of a young, African American gay man in the AIDS emergency, <i>Gary in Your Pocket</i> includes an introduction by Don Belton that describes Fisher’s achievement in the context of other work by Black gay men such as Marlon Riggs and Essex Hemphill, and a biographical afterword by Eve Kosofsky Sedgwick. -<i>From the jacket copy</i>
+
+"It is impossible to read <i>Gary in Your Pocket</i> and not marvel at [Fisher’s] talent.... Here is the unfolding world of a young gay man of the post-Stonewall generation, learning to embrace a gay identity with innocence and without shame... <i>Gary in Your Pocket</i> redefines the dimensions of African American literature. The body of black gay literature is all the more so enriched." -<i>Mark Haile, Lambda Book Report</i>
+
+"The importance of Gary Fisher’s work cannot be overstated. Presenting a singular and now lost artist, <i>Gary in Your Pocket</i> adds much needed insight into the forum of AIDS and sexuality. It will handily transcend any normal sense of audience or perceived notions of appeal." -<i>Randall Kenan</i>
+
+<b>CONTENTS</b>
+
+Gary at the Table: An Introduction, <i>Don Belton</i>
+
+Walking
+a cat poem
+Tawny
+"I hope he smiles"
+Picaro
+age of consent
+Mo-day
+Love in Prepositions
+After the Box
+geese on a string
+Before Sleep
+"Are you smart enough for Laurie"
+Red Cream Soda
+end of the semester
+Little thieves
+Games
+Four men
+Arabesque
+"please, father"
+Be-ing dead
+Second Virginity
+Cornerstone
+Several Lies about Mom
+From a notebook
+Three Boys
+cat sense
+The Villains of Necessity
+
+Journals and Notebooks
+
+Afterword, <i>Eve Kosofsky Sedgwick</i>

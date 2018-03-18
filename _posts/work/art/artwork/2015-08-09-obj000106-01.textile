@@ -1,0 +1,23 @@
+---
+layout: artwork
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: "fused silk"
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000106-01"
+
+index_img: pic000209_thumb.jpg
+
+description: "Handmade material in blue/green ombre with three rectangles in orange, pink, and purple."
+
+related_media:
+    - {type: album, name: "alb000106"}
+
+---
