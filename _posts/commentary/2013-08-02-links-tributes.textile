@@ -1,4 +1,4 @@
-x---
+---
 layout: resource
 published: true
 nav: commentary

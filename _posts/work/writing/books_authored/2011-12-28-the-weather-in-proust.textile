@@ -5,6 +5,7 @@ nav: work
 category: writing
 sub-category: "books authored"
 type: book
+tags: proust
 ed-note: Edited by Jonathan Goldberg
 role: author
 with:

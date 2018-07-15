@@ -5,7 +5,7 @@ nav: commentary
 category: conferences
 type: resource
 
-title: "  "
+title: " "
 
     
 ---

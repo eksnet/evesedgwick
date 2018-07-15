@@ -1,0 +1,46 @@
+---
+layout: resource
+published: true
+nav: commentary
+category: links
+type: resource
+
+title: Publications
+---
+
+h5. Articles
+
+<b>Allan, Jonathan A. "Falling in Love with Eve Kosofsky Sedgwick." </b>
+<i>Mosaic: a Journal for the Interdisciplinary Study of Literature</i>, vol. 48 no. 1, 2015, pp. 1-16.
+What does it mean to love a writer? This essay explores a number of writers and critics who have expressed love for Eve Kosofsky Sedgwick. I argue that love affords another model for thinking through questions of influence, particularly a theory of influence informed by queer theory and affect studies.
+
+<b>Crawford, L. "Slender Trouble: From Berlant's Cruel Figuring of Figure to Sedgwick's Fat Presence." </b>
+<i>GLQ: A Journal of Lesbian and Gay Studies</i>, vol. 23 no. 4, 2017, pp. 447-472. 
+This article argues that queer theory must depart from three temporalities often attributed to fat bodies even in queer circles and theory—most notably by Lauren Berlant in the much-lauded Cruel Optimism. ... A sustained reading of Sedgwick's poem "The Use of Being Fat" becomes the way through which this article argues for the possibility of a fat present/presence and the new fat hermeneutics required to notice the same. 
+
+<b>Culler, Jonathan. "Eve Kosofsky Sedgwick: 2 May 1950 - 12 April 2009." </b>
+<i>Proceedings of the American Philosophical Society, vol. 158, no. 3, 2014, pp. 281-286.</i> 
+"Eve Sedgwick, a literary critic and theorist of gender and sexuality and a deeply original thinker, was a formative influence for Queer Theory and the study of gender and sexuality in general. Emphasizing the range of affects, attractions, and libidinal investments that characterize individuals, her work disputed the simple binarisms, such as homosexual versus heterosexual, through which modern cultures have sought to understand desire and sexuality, and paved the way for a more nuanced and activist thinking of human possibilities."
+
+<b>Gonson, Claudia. "Eve Kosofsky Sedgwick." </b>
+<i>The Advocate</i>, Dec. 2015, p. 30. 
+Musician and manager Claudia Gonson of the Magnetic Fields remembers her mentor and friend, a poet and literary critic, and one of the originators of queer theory.
+
+<b>Herring, Scott. “Eve Sedgwick’s ‘Other Materials’: For Jonathan Goldberg and Michael Moon, In Appreciation.” </b>
+<i>Angelaki: Journal of Theoretical Humanities</i>, vol. 23, no. 1, 2018, pp. 5–18.
+“Eve Sedgwick’s ‘Other Materials’” refers to a graduate seminar that Sedgwick offered at the CUNY Graduate Center entitled “How to Do Things with Words and Other Materials.” As its title suggests, her seminar advanced Sedgwick’s enduring “fascination” with “making unspeaking objects” of all sorts, which elsewhere included the body’s organic and inorganic waste. Taking a cue from her teaching, I suggest that, while critics have extensively detailed Sedgwick’s contributions to literary interpretation, sexuality, gender, affect, and performativity, we should also appreciate her writings as theorizing queer material relations. This observation is pertinent given her rethinking of psychodynamic object relations theory alongside her creative writings on “the waste products,” or the matter we ceaselessly produce. My argument thus anchors its claims in a close non-Kleinian reading of her poem “Bathroom Song,” which also offers an unforeseen take on paranoid and reparative idioms of psycho-material being. How waste matter facilitates this unanticipated insight is one of my essay’s – and Sedgwick’s – subsidiary concerns.
+
+<b>Kopelson, Kevin. "The Mother of Us All?" </b>
+<i>SubStance</i>, vol. 43 no. 1, 2014, pp. 191-197.
+"I have long believed that the late Eve Kosofsky Sedgwick saw herself, at least in relation to gay male readers, as our mother...."
+
+<b>Smith, Nathan. "On First Looking into Sedgwick's Epistemology." </b>
+<i>The Gay & Lesbian Review Worldwide</i>, vol. 23, no. 1, 2016, p. 48.
+"Marking the 25th anniversary of the publication of Eve Kosofsky Sedgwick's strange and difficult book <i>The Epistemology of the Closet</i> (1990) is a tough job, but somebody has to do it. Let me try in a rather personal way...."
+
+<b>Watt, A. “Proust Between Print Culture and Visual Art: Eve Kosofsky Sedgwick’s ‘Works in Fiber, Paper and Proust’” </b>
+<i>Fudan Journal of the Humanities and Social Sciences</i>, vol 8, no. 2, 2015, p. 179. 
+This paper considers a very recent instance of Proust’s reception and adaptation: “Works in Fiber, Paper and Proust” created by the critic and theorist Eve Kosofsky Sedgwick (1950–2009) and first exhibited at Harvard University in 2005. These remarkable objects—including what Sedgwick calls an “accordion-book” and a “loom-book”—give a woven, layered physicality to Proust’s words and remobilise them in ways that force us to reconfigure our understanding of the text–reader relation. Sedgwick’s visual, textile artworks are the products of creative, adaptive practices undertaken as a sort of therapy that was instrumental in her coming to terms with the terminal cancer diagnosis she received in 1996. My paper explores Sedgwick’s adaptive practice and interrogates the insights their challenging hybridity offers us into the ongoing transmission of Proust’s work.
+
+
+Back to "LINKS":http://evekosofskysedgwick.net/links/

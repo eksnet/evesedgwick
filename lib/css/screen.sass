@@ -7,8 +7,10 @@ $dark: #3A393B;
 /*try a darker shade of light (see http://www.color-hex.com/color/939196)*/
 /*$light: #939196;*/
 $light: #666569;
-
+/* #BF1710 = red */
 $accent: #BF1710;
+$cornflower: #6b99d7;
+$lesbian: #ae95ce;
 
 $containerMargin:48px;
 
@@ -448,15 +450,23 @@ p {
     background-color: transparent;
   }
 
+/* commenting out original link specs
   a:link  {
-    color: $dark;
+    color: $accent;
     text-decoration: underline;
     background-color: transparent;
   } 
+  */
 
+  /* replacement specs -- making links blue and remove underline and Make visited purple*/
+  a:link  {
+    color: $cornflower;
+    text-decoration:none;
+    background-color: transparent;
+  } 
   a:visited   {
-    color: $dark;
-    text-decoration: underline;
+    color: $lesbian;
+    text-decoration:none;
     background-color: transparent;
   }
 
@@ -464,7 +474,7 @@ p {
     color: $light;  
     text-decoration:none;
     background-color: transparent;
-  } 
+  }
 
   a:hover     { 
     color: $accent; 
