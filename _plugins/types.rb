@@ -19,13 +19,6 @@ module Jekyll
           end
         end
       end
-      if self.data['type']
-        tag = self.data['type'].to_s.downcase
-        tag = tag.en.plural
-        unless tag == 'none' || tag == 'posts'
-          self.tags << tag
-        end
-      end
       self.tags.compact!
       self.tags.uniq!
     end
@@ -39,11 +32,11 @@ module Jekyll
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       collection.keys.each do |item|
         attribute_hash = collect_by_attribute(attribute, collection[item])
-        
+
         type_array = make_iterable(attribute_hash, :index => 'name', :items => 'posts')
         hash[item] << type_array
       end
-     
+
       return hash
     end
 
@@ -52,7 +45,7 @@ module Jekyll
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       posts.each do |post|
         if attribute == 'tags'
-          post.tags.each do |tag|
+          post.data['tags'].each do |tag|
             hash[tag] << post
           end
         else
@@ -64,11 +57,11 @@ module Jekyll
             else
               hash[post.data[attribute]] << post
             end
-          end 
+          end
         end
       end
       hash.values.map do |sort|
-          sort.sort! {|a, b| a.slug <=> b.slug}
+          sort.sort! {|a, b| a.data['slug'] <=> b.data['slug']}
       end
       return hash
     end
@@ -85,7 +78,7 @@ module Jekyll
 
     def collect_albums(posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
-      self.posts.each do |post|
+      posts.each do |post|
         if post.data['type'] == 'image'
           post.data['albums'].each do |album|
               hash[album] << post
@@ -93,7 +86,7 @@ module Jekyll
         end
       end
       hash.values.map do |sort|
-        sort.sort! {|a, b| a.slug <=> b.slug}
+        sort.sort! {|a, b| a.data['slug'] <=> b.data['slug'] }
       end
       return hash
     end
@@ -133,9 +126,9 @@ module Jekyll
     def site_payload
       payload = orig_site_payload
       # Custom collections
-      payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts)
-      payload['site']['navs'] = self.collect_by_attribute('nav', self.posts)
-      payload['site']['albums'] = self.collect_albums(self.posts)
+      payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts.docs)
+      payload['site']['navs'] = self.collect_by_attribute('nav', self.posts.docs)
+      payload['site']['albums'] = self.collect_albums(self.posts.docs)
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
       # Collections by attribute
@@ -157,7 +150,7 @@ module Jekyll
       payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
       payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
       payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
-      payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')      
+      payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
       payload
     end
 

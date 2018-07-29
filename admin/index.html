@@ -24,19 +24,19 @@ private: true
     </form>
 </section>
 <section id='table'>
-<table id="inventory" class="tablesorter"> 
-    <thead> 
-        <tr> 
-            <th>Title</th> 
+<table id="inventory" class="tablesorter">
+    <thead>
+        <tr>
+            <th>Title</th>
             <th>ID</th>
             <th>Type</th>
-            <th>Location</th> 
-            <th>URL</th> 
-        </tr> 
-    </thead> 
-    <tbody> 
+            <th>Location</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
         {% for post in site.posts %}
-            <tr class='row{{ forloop.index + 1}}'>
+            <tr class='row{{ forloop.index | plus: 1 }}'>
                 <td class='col1'><a href='{{ post.url }}'>{{ post.title }}</a></td>
                 <td class='col2'>{{ post.id }}</td>
                 <td class='col3'>{{ post.type }}</td>
@@ -44,8 +44,6 @@ private: true
                 <td class='col5'>{{ post.url }}</td>
             </tr>
         {% endfor %}
-    </tbody> 
+    </tbody>
 </table>
 </section>
-
-

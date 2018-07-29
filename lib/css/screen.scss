@@ -25,7 +25,7 @@ $margin:18px;
   border-top:1px solid $dark;
 }
 
-iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img { 
+iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img {
   border: none;
   margin: 0px;
   padding: 0px;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
   padding:0px;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
-  font-weight:normal; 
+  font-weight:normal;
 }
 h1 {
   display:inline-block;
@@ -88,10 +88,10 @@ h4 {
 }
 h5 {
   font-family: Georgia, serif;
-   font-size:16px;
-   line-height:24px;
-   color:$black;
-   margin-bottom:18px;
+  font-size:16px;
+  line-height:24px;
+  color:$black;
+  margin-bottom:18px;
 }
 h6 {
   font-weight:normal;
@@ -112,7 +112,7 @@ h7 {
   padding:0px;
 }
 h7 span {
-  font-weight:normal; 
+  font-weight:normal;
 }
 h7 {
   font-weight:normal;
@@ -127,7 +127,7 @@ h8 {
   padding:0px;
 }
 h8 span {
-  font-weight:normal; 
+  font-weight:normal;
 }
 h8 {
   font-family: Georgia, serif;
@@ -173,13 +173,13 @@ ul.nav {
   display:inline-block;
   float:right;
 }
-li { 
+li {
   display:inline-block;
   padding:5px 0px 4px 9px;
   font-size:10px;
   line-height:10px;
 }
-header li { 
+header li {
   display:inline-block;
   padding:5px 0px 4px 12px;
   font-size:12px;
@@ -193,7 +193,7 @@ p {
   margin:0px 0px 20px;
 }
 p.intro {
-  font-size:18px; 
+  font-size:18px;
   line-height:26px;
   margin-bottom:32px;
 }
@@ -253,9 +253,9 @@ footer {
   min-height:500px;
 }
 ul#nav {
-  
-  height:141px; 
-  padding-bottom:6px; 
+
+  height:141px;
+  padding-bottom:6px;
   text-align:right;
 }
 ul#sub-nav {
@@ -278,7 +278,7 @@ ul#sub-nav {
     color:$black;
   }
   span.heading {
-    font-weight: bold;  
+    font-weight: bold;
   }
 }
 .marginalnote {
@@ -298,9 +298,9 @@ ul#sub-nav {
     color:$black;
   }
 }
-	
+
 /* .marginalindex (below) was created for the purpose of adding explanatory text to Home Page 2018-02-04 */
-	
+
     .marginalindex {
       float:left;
       clear:left;
@@ -317,9 +317,9 @@ ul#sub-nav {
         line-height:19px;
         color:$black;
       }
-  
+
   span.heading {
-    font-weight: bold;  
+    font-weight: bold;
   }
 }
 .record_count {
@@ -342,7 +342,7 @@ ul#sub-nav {
   margin-top: -60px;
 }
 span.right {
-  float:right; 
+  float:right;
   text-align:right;
 }
 
@@ -352,19 +352,19 @@ section.content {
   min-height:500px;
 }
 
-section.extra { 
-  
+section.extra {
+
   h4 {
     @include bottom-border;
     padding:3px 0px;
     margin:4px 0px 12px;
-  }  
+  }
   ul li {
    display:block;
    padding:3px 0px;
-   margin:0px; 
+   margin:0px;
   }
-  
+
 }
 
 section.index-item {
@@ -382,8 +382,8 @@ section.biblio {
   }
 }
 div#meta-container{
-  float:left; 
-  clear:left; 
+  float:left;
+  clear:left;
   margin-left:(($column * 2) + ($margin * 2)) * -1;
   margin-top:2px;
   width:(($column * 2) + ($margin * 1)) * -1;;
@@ -420,22 +420,22 @@ div#meta-container {
       color: $light;
       text-decoration: none;
       background-color: transparent;
-    } 
+    }
 
     a:visited   {
       color: $light;
       text-decoration: none;
       background-color: transparent;
     }
-    a:active    { 
-      color: $light;  
+    a:active    {
+      color: $light;
       text-decoration:none;
       background-color: transparent;
-    } 
+    }
 
-    a:hover     { 
-      color: $accent; 
-      text-decoration:none; 
+    a:hover     {
+      color: $accent;
+      text-decoration:none;
       background-color: transparent;
     }
   }
@@ -455,7 +455,7 @@ p {
     color: $accent;
     text-decoration: underline;
     background-color: transparent;
-  } 
+  }
   */
 
   /* replacement specs -- making links blue and remove underline and Make visited purple*/
@@ -463,22 +463,22 @@ p {
     color: $cornflower;
     text-decoration:none;
     background-color: transparent;
-  } 
+  }
   a:visited   {
     color: $lesbian;
     text-decoration:none;
     background-color: transparent;
   }
 
-  a:active    { 
-    color: $light;  
+  a:active    {
+    color: $light;
     text-decoration:none;
     background-color: transparent;
   }
 
-  a:hover     { 
-    color: $accent; 
-    text-decoration:underline; 
+  a:hover     {
+    color: $accent;
+    text-decoration:underline;
     background-color: transparent;
   }
 }
@@ -493,7 +493,7 @@ h6 a:link  {
   color: $dark;
   text-decoration: none;
   background-color: transparent;
-} 
+}
 
 h6 a:visited   {
   color: $dark;
@@ -501,15 +501,15 @@ h6 a:visited   {
   background-color: transparent;
 }
 
-h6 a:active    { 
-  color: $dark;  
+h6 a:active    {
+  color: $dark;
   text-decoration:none;
   background-color: transparent;
-} 
+}
 
-h6 a:hover     { 
-  color: $dark; 
-  text-decoration:none; 
+h6 a:hover     {
+  color: $dark;
+  text-decoration:none;
   background-color: transparent;
 }
 /* additional formatting for h7. added 2016-02-07 */
@@ -523,7 +523,7 @@ h7 a:link  {
   color: $dark;
   text-decoration: none;
   background-color: transparent;
-} 
+}
 
 h7 a:visited   {
   color: $dark;
@@ -531,15 +531,15 @@ h7 a:visited   {
   background-color: transparent;
 }
 
-h7 a:active    { 
-  color: $dark;  
+h7 a:active    {
+  color: $dark;
   text-decoration:none;
   background-color: transparent;
-} 
+}
 
-h7 a:hover     { 
-  color: $dark; 
-  text-decoration:none; 
+h7 a:hover     {
+  color: $dark;
+  text-decoration:none;
   background-color: transparent;
 }
 
@@ -553,7 +553,7 @@ a:link  {
   color: $black;
   text-decoration: none;
   background-color: transparent;
-} 
+}
 
 a:visited   {
   color: $black;
@@ -561,19 +561,19 @@ a:visited   {
   background-color: transparent;
 }
 
-a:active    { 
-  color: $light;  
+a:active    {
+  color: $light;
   text-decoration:none;
-  background-color: transparent;
-} 
-
-a:hover     { 
-  color: $accent; 
-  text-decoration:none; 
   background-color: transparent;
 }
 
-#album-caption { 
+a:hover     {
+  color: $accent;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+#album-caption {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-size:12px;
@@ -587,7 +587,7 @@ a:hover     {
     margin-bottom: 0px 0px 8px 2px;
   }
   span.heading {
-    font-weight: bold;  
+    font-weight: bold;
   }
   h6 {
     text-align: right;
@@ -603,14 +603,14 @@ a:hover     {
 }
 
 .carousel {
-   position:absolute; 
-   top:0px; 
+   position:absolute;
+   top:0px;
    left:0px;
 }
 
 .carousel.no-scroll {
-   position:relative; 
-   top:0px; 
+   position:relative;
+   top:0px;
    left:0px;
 }
 
@@ -647,7 +647,7 @@ img.thumb4 {
   width: 120px;
 }
 
-#carousel_right, 
+#carousel_right,
 #carousel_left {
   width:50px;
   height:50px;
@@ -687,7 +687,7 @@ img.thumb4 {
 }
 
 #carousel_right_ico {
-  
+
   background-position: -40px -60px;
   left: auto;
   right: 5px;

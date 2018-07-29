@@ -6,17 +6,17 @@
 # Copyright (c) 2010 Dave Perrett, http://recursive-design.com/
 # Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 #
-# A generator that creates category pages for jekyll sites. 
+# A generator that creates category pages for jekyll sites.
 #
-# To use it, simply drop this script into the _plugins directory of your Jekyll site. You should 
-# also create a file called 'category_index.html' in the _layouts directory of your jekyll site 
+# To use it, simply drop this script into the _plugins directory of your Jekyll site. You should
+# also create a file called 'category_index.html' in the _layouts directory of your jekyll site
 # with the following contents (note: you should remove the leading '# ' characters):
 #
 # ================================== COPY BELOW THIS LINE ==================================
 # ---
 # layout: default
 # ---
-# 
+#
 # <h1 class="category">{{ page.title }}</h1>
 # <ul class="posts">
 # {% for post in site.categories[page.category] %}
@@ -26,12 +26,12 @@
 # {% endfor %}
 # </ul>
 # ================================== COPY ABOVE THIS LINE ==================================
-# 
-# You can alter the _layout_ setting if you wish to use an alternate layout, and obviously you
-# can change the HTML above as you see fit. 
 #
-# When you compile your jekyll site, this plugin will loop through the list of categories in your 
-# site, and use the layout above to generate a page for each one with a list of links to the 
+# You can alter the _layout_ setting if you wish to use an alternate layout, and obviously you
+# can change the HTML above as you see fit.
+#
+# When you compile your jekyll site, this plugin will loop through the list of categories in your
+# site, and use the layout above to generate a page for each one with a list of links to the
 # individual posts.
 #
 # Included filters :
@@ -40,14 +40,14 @@
 #
 # Available _config.yml settings :
 # - category_dir:          The subfolder to build category pages in (default is 'categories').
-# - category_title_prefix: The string used before the category name in the page title (default is 
+# - category_title_prefix: The string used before the category name in the page title (default is
 #                          'Category: ').
 module Jekyll
-  
-  
+
+
   # The CategoryIndex class creates a single category page for the specified category.
   class CategoryIndex < Page
-    
+
     # Initializes a new CategoryIndex.
     #
     #  +base+         is the String path to the <source>.
@@ -71,12 +71,12 @@ module Jekyll
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{category}"
     end
-    
+
   end
-  
+
   # The CategoryIndex class creates a single category page for the specified category.
   class SortedCategoryIndex < Page
-    
+
     # Initializes a new CategoryIndex.
     #
     #  +base+         is the String path to the <source>.
@@ -100,14 +100,14 @@ module Jekyll
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{category}"
     end
-    
+
   end
-  
-  
+
+
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
-    
-    # Creates an instance of CategoryIndex for each category page, renders it, and 
+
+    # Creates an instance of CategoryIndex for each category page, renders it, and
     # writes the output to a file.
     #
     #  +category_dir+ is the String path to the category folder.
@@ -126,18 +126,18 @@ module Jekyll
         self.pages << sindex
       end
     end
-    
+
     # Loops through the list of category pages and processes each one.
     def write_category_indexes
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || ''
-        nav_hash = self.collect_by_attribute('nav', self.posts)
+        nav_hash = self.collect_by_attribute('nav', self.posts.docs)
         nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
         cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
         nav_hash.keys.each do |nav|
           self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
-          nav_by_cat[nav].each do |cat_array| 
-            cat_array.each do |category| 
+          nav_by_cat[nav].each do |cat_array|
+            cat_array.each do |category|
               self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
               cat_by_sub[category['name']].each do |sub_array|
                 sub_array.each do |sub|
@@ -147,16 +147,16 @@ module Jekyll
             end
           end
         end
-        
+
       # Throw an exception if the layout couldn't be found.
       else
         throw "No 'category_index' layout found."
       end
     end
-    
+
   end
-  
-  
+
+
   # Jekyll hook - the generate method is called by jekyll, and generates all of the category pages.
   class GenerateCategories < Generator
     safe true
@@ -168,5 +168,5 @@ module Jekyll
     end
 
   end
-  
+
 end
