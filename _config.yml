@@ -1,11 +1,11 @@
 markdown:       rdiscount
-pygments:       false
+highlighter:    null
 multiviews:     false
 sass:           false
 haml:           false
 permalink:      /:categories/:title.html
-plugins:        ./_plugins
-destination:    .site
+plugins_dir:    ./_plugins
+destination:    _site
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
@@ -15,7 +15,7 @@ nav:
     - archive
     - blog
     - commentary
-    
+
 category-settings:
     -   category: art
         description: ""
@@ -28,7 +28,7 @@ category-settings:
     -   category: conferences
         description: ""
     -   category: articles
-        description: "These are uncollected publications from books, journals, and talks"        
+        description: "These are uncollected publications from books, journals, and talks"
 posts_per_page: 5
 
 index_images:
@@ -37,8 +37,8 @@ index_images:
     -   index3.jpg
     -   index4.jpg
     -   index5.jpg
-    
+
 index_image_duration: 10000
 index_image_transition: slow
 
-exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals"]
+exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals", "scripts"]

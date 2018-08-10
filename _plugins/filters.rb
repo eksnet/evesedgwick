@@ -1,13 +1,11 @@
 
 require 'linguistics'
-Linguistics::use( :en )         # extends Array, String, and Numeric
-Linguistics::classical=true
+Linguistics::use( :en, :classical => true )         # extends Array, String, and Numeric
 
 
 module Jekyll
-
   # Adds some extra filters used during the tag creation process.
-  module Filters
+  module EKSFilters
 
     # Outputs a list of tags as comma-separated <a> links. This is used
     # to output the tag list for each post on a tag page.
@@ -69,7 +67,7 @@ module Jekyll
         else
           '<a href="/'+item+'/">'+item.upcase+'</a>'
         end
-      end  
+      end
     end
 
     def sub_category_link(sub_category, category)
@@ -78,7 +76,7 @@ module Jekyll
       end
       '<a href="/'+category+'/'+sub_category+'/">'+sub_category.upcase+'</a>'
     end
-    
+
      def resource_link(category)
         if category.respond_to?('each')
           categories = category.sort!.map do |item|
@@ -99,7 +97,7 @@ module Jekyll
         else
           item = category
           '<a href="/'+item+'/'+item+'.html">'+item.upcase+'</a>'
-        end  
+        end
       end
 
     # Returns string
@@ -166,7 +164,7 @@ module Jekyll
     def plural(input)
       input.dup.en.plural
     end
-    
+
     def none(input)
       if input == 'none'
         ''
@@ -174,7 +172,7 @@ module Jekyll
         input
       end
     end
-    
+
     def carousel_width(input)
       width = (input.to_i * 138) - 18
       if width < 622
@@ -189,5 +187,6 @@ module Jekyll
     end
 
   end
-
 end
+
+Liquid::Template.register_filter(Jekyll::EKSFilters)
