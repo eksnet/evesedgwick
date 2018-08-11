@@ -1,7 +1,8 @@
 markdown:       rdiscount
 highlighter:    null
 multiviews:     false
-sass:           false
+sass:
+  sass_dir: lib/scss
 haml:           false
 permalink:      /:categories/:title.html
 plugins_dir:    ./_plugins
