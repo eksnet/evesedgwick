@@ -3,17 +3,17 @@ layout: base
 ---
 <section id='title' class='under'>   
     {% for datum in page.meta %}
-        {% case datum["key"] %} 
+        {% case datum["key"] %}
             {% when 'location' %}
                 {% assign location = datum["value"] %}
-            {% when 'creation-date' %} 
+            {% when 'creation-date' %}
                 {% assign creation_date = datum['value'] %}
-            {% when 'with' %} 
+            {% when 'with' %}
                 {% assign with = datum['value'] %}
         {% endcase %}
     {% endfor %}
     <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
-    
+
 </section>
 
 {% for media in page.related_media %}
@@ -25,7 +25,7 @@ layout: base
 {% endfor %}
 
 <section class='content'>
-    
+
     {{ content }}
-    
+
 </section>

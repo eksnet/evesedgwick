@@ -1,9 +1,10 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html> 
-<head> 
+<html>
+<head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eve Kosofsky Sedgwick{% if page.nav %} - {{ page.nav | capitalize }}{% endif %}{% assign write_title = true %}{% for category in site.iterable_categories %}{% if page.title == category.name %}{% assign write_title = false %}{% endif %}{% endfor %}{% if page.title == "all" %}{% assign write_title = false %}{% endif %}{% if write_title %}{% if page.title %} - {{ page.title }}{% endif %}{% endif %}</title>
 <meta name="Description" content="A resource for the exploration of the life and work of Eve Kosofsky Sedgwick.">
 
@@ -15,7 +16,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
 
 <!-- Local jQuery
-<script src="/lib/js/jquery/jquery.min.js" type="text/javascript"></script> 
+<script src="/lib/js/jquery/jquery.min.js" type="text/javascript"></script>
 <script src="/lib/js/jquery/jquery-ui.min.js" type="text/javascript"></script>-->
 
 

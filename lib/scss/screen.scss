@@ -1,21 +1,9 @@
 ---
-title: screen.sass
+permalink: lib/css/screen.css
 ---
 
-$black: #000;
-$dark: #3A393B;
-/*try a darker shade of light (see http://www.color-hex.com/color/939196)*/
-/*$light: #939196;*/
-$light: #666569;
-/* #BF1710 = red */
-$accent: #BF1710;
-$cornflower: #6b99d7;
-$lesbian: #ae95ce;
-
-$containerMargin:48px;
-
-$column:142px;
-$margin:18px;
+@import 'variables';
+@import 'utilities';
 
 @mixin bottom-border {
   border-bottom:1px solid $dark;
@@ -24,6 +12,17 @@ $margin:18px;
 @mixin top-border {
   border-top:1px solid $dark;
 }
+// box-sizing reset https://css-tricks.com/box-sizing/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
 
 iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img {
   border: none;
@@ -46,7 +45,6 @@ html, body {
   background-color: transparent;
   margin: 0px;
   padding: 0px;
-  text-align: center;
   vertical-align:baseline;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -57,15 +55,11 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
   font-weight:normal;
 }
 h1 {
-  display:inline-block;
-  width:($column * 2) + ($margin * 1);
   font-size:20px;
   line-height:20px;
-  padding:100px 0px 6px;
+  padding:10px 0px 6px;
 }
 h2 {
-  display:inline-block;
-  width:($column * 4) + ($margin * 3);
   font-size:20px;
   line-height:20px;
   padding:6px 0px;
@@ -73,7 +67,6 @@ h2 {
   @include bottom-border;
 }
 h3 {
-  display:inline-block;
   font-size:20px;
   line-height:28px;
   padding:0px;
@@ -82,7 +75,6 @@ h3 {
 h4 {
   font-size:16px;
   line-height:24px;
-  width:($column * 4) + ($margin * 3);
   color:$black;
   margin-bottom:12px;
 }
@@ -138,13 +130,12 @@ h8 {
 }
 
 img.preview {
-  width:$column;
-  height:215px;
-  margin-left:($column * 1) + ($margin * 1);
+  @include col(1);
+  height: 215px;
 }
 /* left section square image. Added by tm 2013-03-30 */
 img.squareleft {
-  width:($column * 2) + ($margin * 1);
+  @include col(2);
   height:302px;
   margin-top:45px;
   margin-left:0px;
@@ -152,7 +143,7 @@ img.squareleft {
 
 /* left section full width image. Added by tm 2015-11-08 revised 2016-01-10*/
 img.fullwidth {
-  width:($column * 2) + ($margin * 1);
+  @include col(2);
   margin-top:45px;
   margin-left:0px;
 }
@@ -166,25 +157,16 @@ img.pptcenter {
   margin-left:40px;
 }
 /* block indent for text. Added by hs 2013-04-06 */
-.blocktext {margin-left:40px; margin-right:40px;
+.blocktext {
+  margin-left:40px;
+  margin-right:40px;
 }
 
-ul.nav {
-  display:inline-block;
-  float:right;
-}
 li {
   display:inline-block;
   padding:5px 0px 4px 9px;
   font-size:10px;
   line-height:10px;
-}
-header li {
-  display:inline-block;
-  padding:5px 0px 4px 12px;
-  font-size:12px;
-  line-height:12px;
-  margin-top:123px;
 }
 p {
   font-family:Georgia;
@@ -195,7 +177,6 @@ p {
 p.intro {
   font-size:18px;
   line-height:26px;
-  margin-bottom:32px;
 }
 
 .nosub {
@@ -205,32 +186,58 @@ p.intro {
   background-color:rgba(128,128,128,0.6);
 }
 body {
-  min-width:(($column * 6) + ($margin * 5)) + ($containerMargin * 2);
   width:100%;
   border-top:4px solid black;
 }
 #container {
-  width:($column * 6) + ($margin * 5);
-  margin:0px $containerMargin;
+  @include ph;
+  margin: 10px auto;
+  max-width: $max-container-width;
   text-align:left;
-  height:100%;
+  position: relative;
+  @include medium {
+    margin: 80px auto;
+  }
+}
+#wrap {
+  @include row;
 }
 header {
-  width:($column * 6) + ($margin * 5);
   margin-bottom:32px;
+  overflow: hidden;
   @include bottom-border;
+  h1 {
+    font-weight: 100;
+    display: inline-block;
+  }
+  #nav {
+    display: inline-block;
+    padding: 12px 0px 6px 0px;
+    @include medium {
+      float: right;
+      padding-left: 10px;
+    }
+    margin-left: -5px;
+    margin-right: -5px;
+    li {
+      display:inline-block;
+      font-size:12px;
+      font-weight: 400;
+      line-height:12px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
 }
 section {
-  margin:0px 0px 28px;
+  margin: 0px 0px 28px;
 }
 .subsection {
-  margin:0px 0px 28px;
-  padding:0px;
+  margin: 32px 0px 0px 0px;
+  padding: 0px;
   border:none;
 }
 footer {
-  width:($column * 6) + ($margin * 5);
-  height:65px;
   border-top:1px solid #3A393B;
   margin-bottom:18px;
 }
@@ -242,51 +249,37 @@ footer {
 }
 
 #main {
-  width:($column * 4) + ($margin * 3);
-  margin: 20px 0px 36px (($column * 2) + ($margin * 2));
-  min-height:500px;
+  @include col(6);
+  @include medium {
+    @include col(4);
+    @include offset(2);
+  }
+  min-height: 500px;
 }
 
 #full {
-  width:($column * 6) + ($margin * 5);
+  @include col(6);
   margin: 20px 0px 36px;
   min-height:500px;
-}
-ul#nav {
-
-  height:141px;
-  padding-bottom:6px;
-  text-align:right;
 }
 ul#sub-nav {
   margin-top:2px;
 }
 .marginal {
-  float:left;
-  clear:left;
-  margin-left:(($column * 2) + ($margin * 2)) * -1;
-  width:($column * 2) + ($margin * 1);
-  margin-top:-45px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:12px;
-  line-height:18px;
-  color:$black;
-  p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:12px;
-    line-height:18px;
-    color:$black;
-  }
+  @include marginal;
   span.heading {
     font-weight: bold;
   }
+  @include small-only {
+    @include bottom-border;
+    @include top-border;
+    @include pv(s);
+    @include mv;
+  }
 }
 .marginalnote {
-  float:left;
-  clear:left;
-  margin-left:(($column * 2) + ($margin * 2)) * -1;
-  width:($column * 2) + ($margin * 1);
-  margin-top:18px;
+  @include marginal;
+  margin-top: 18px;
   font-family: Arial, Helvetica, sans-serif;
   font-size:12px;
   line-height:18px;
@@ -301,31 +294,28 @@ ul#sub-nav {
 
 /* .marginalindex (below) was created for the purpose of adding explanatory text to Home Page 2018-02-04 */
 
-    .marginalindex {
-      float:left;
-      clear:left;
-      margin-left:(($column * 2) + ($margin * 2)) * -1;
-      width:($column * 2) + ($margin * 1);
-      margin-top:-400px;
-      font-family: Georgia, Helvetica, sans-serif;
-      font-size:12px;
-      line-height:18px;
-      color:$black;
-      p {
-        font-family: Georgia, Helvetica, sans-serif;
-        font-size:13px;
-        line-height:19px;
-        color:$black;
-      }
-
-  span.heading {
-    font-weight: bold;
+.marginalindex {
+  @include marginal;
+  color: $black;
+  font-family: Georgia, Helvetica, sans-serif;
+  padding-top: 20px;
+  @include medium {
+    padding-top: 0;
+    top: 0;
+  }
+  p {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:19px;
+    color:$black;
   }
 }
 .record_count {
+  @include marginal;
   text-align: right;
   font-style: italic;
   color:$light;
+  margin-top: -18px;
 }
 .post-meta {
   margin-top: 2px;
@@ -382,16 +372,13 @@ section.biblio {
   }
 }
 div#meta-container{
-  float:left;
-  clear:left;
-  margin-left:(($column * 2) + ($margin * 2)) * -1;
+  @include col(2);
   margin-top:2px;
-  width:(($column * 2) + ($margin * 1)) * -1;;
 }
 div#meta-container {
   div {
-    width:$column;
-    margin-left:($column * 1) + ($margin * 1);
+    @include col(1);
+    @include offset(1);
     margin-top:18px;
   }
   p {
@@ -687,7 +674,6 @@ img.thumb4 {
 }
 
 #carousel_right_ico {
-
   background-position: -40px -60px;
   left: auto;
   right: 5px;
@@ -697,4 +683,15 @@ img.thumb4 {
   background-position: -40px -30px;
   left: 5px;
   right: auto;
+}
+.homepage-slideshow {
+  @include proportional(622, 405);
+  width: 100%;
+  img {
+    position:absolute;
+    left:0;
+    max-height: 100%;
+    max-width: 100%;
+    top:0;
+  }
 }
