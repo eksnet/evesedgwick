@@ -9,6 +9,7 @@ env:
     - 'FTP_DIRECTORY=[ftp_directory]'
 before_install:
   - sudo apt-get install -y wput
+install: true
 script:
   - scripts/build.sh
 after_success:
