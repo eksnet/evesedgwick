@@ -6,4 +6,4 @@ if [ -f .env ]; then
     source .env
 fi
 
-jekyll build
+bundle exec jekyll build
