@@ -42,4 +42,4 @@ index_images:
 index_image_duration: 10000
 index_image_transition: slow
 
-exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals", "scripts"]
+exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals", "scripts", "etc"]

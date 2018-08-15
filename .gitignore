@@ -1,4 +1,6 @@
 _site/*
 .env
+.sass-cache
 
+etc
 .DS_Store
