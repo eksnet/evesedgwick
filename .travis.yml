@@ -11,6 +11,6 @@ before_install:
   - sudo apt-get install -y wput
 script:
   - scripts/build.sh
-deploy:
+after_success:
   - scripts/deploy.sh
 
