@@ -4,7 +4,8 @@ set -e
 
 if [ -f .env ]; then
   source .env
-elif [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+elif [ "$TRAVIS_EVENT_TYPE" = "pull_request" ]; then
+  echo "Skipping deploy for PR update."
   exit
 elif [ "$TRAVIS_BRANCH" = "master" ]; then
   FTP_USER=$PRODUCTION_FTP_USER
