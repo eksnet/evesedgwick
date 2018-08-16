@@ -1,10 +1,12 @@
 markdown:       rdiscount
 highlighter:    null
 multiviews:     false
-sass:           false
+sass:
+  sass_dir: assets/scss
 haml:           false
 permalink:      /:categories/:title.html
 plugins_dir:    ./_plugins
+source: 	src
 destination:    _site
 
 title:          Eve Kosofsky Sedgwick
@@ -41,4 +43,4 @@ index_images:
 index_image_duration: 10000
 index_image_transition: slow
 
-exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals", "scripts"]
+exclude: ["config.rb", "rakefile", "x_resources", "README", "x_includes", "x_archive", "externals", "scripts", "etc"]

@@ -4,14 +4,7 @@ layout: base
 <!-- listing of all Categories under Nav-->
     {% if page.category == 'all' %}
         <section id='title'>
-            <h2>{{ page.nav | category_link}} </h2>
-            <ul class='nav' id='sub-nav'>
-            {% for nav in site.navs_by_category[page.nav] %}
-                {% for category in nav %}
-                    <li>{{ category.name | category_link }}</li>
-                {% endfor %}
-            {% endfor %}
-            </ul>
+            <h2>{{ page.nav | category_link}}</h2>
         </section>
 
         {% for nav in site.navs_by_category[page.nav] %}
@@ -20,7 +13,7 @@ layout: base
                 {% for post in category['posts'] %}
                     {% assign record_count = forloop.length %}
                 {% endfor %}
-                <div class='marginal record_count'>{{ record_count }} Records</div>
+                <div class='record_count'>{{ record_count }} Records</div>
                 {% for setting in site.category-settings %}
                     {% if setting.category == category.name %}
                         <p class='intro'>{{ setting.description }}</p>
@@ -33,14 +26,7 @@ layout: base
 
         {% if page.sub == 'all' %}
         <section id='title'>
-            <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}</span></h2>
-            <ul class='nav' id='sub-nav'>
-            {% for category in site.categories_by_sub[page.category] %}
-                {% for sub in category %}
-                    <li>{{ sub.name | sub_category_link: page.category }}</li>
-                {% endfor %}
-            {% endfor %}
-            </ul>
+            <h2 style=''>{{ page.nav | category_link }}&nbsp;<span> {{ page.category | category_link}}</span></h2>
         </section>
         <!-- endTitle -->
         {% else %}
@@ -49,9 +35,9 @@ layout: base
             {% if page.sub == sub.name %}
             <!-- Title block - Nav/Category/Sub -->
             <section id='title'>
-                <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}/{{ sub.name | sub_category_link: page.category }}</span></h2>
+                <h2 style=''>{{ page.nav | category_link }}&nbsp;<span> {{ page.category | category_link}}/{{ sub.name | sub_category_link: page.category }}</span></h2>
                 <ul class='nav' id='sub-nav'>
-                    <li><a href="/{{page.category}}/{{page.sub}}/sort.html">REMOVE TAGS</a></li>
+                    <li><a href="/{{page.category}}/{{page.sub}}/">SORT BY TAGS</a></li>
                 </ul>
             </section>
             <!-- endTitle -->
@@ -66,7 +52,7 @@ layout: base
             {% if page.sub == 'all' %}
                 <h2 class='subsection'><span>{{ sub.name | sub_category_link: page.category }}</h2>
                 {% for post in sub.posts %}
-                    {%assign record_count = forloop.length %}
+                    {% assign record_count = forloop.length %}
                 {% endfor %}
                 <div class='marginal record_count'>{{ record_count }} Records</div>
                 {% for setting in site.category-settings %}
@@ -76,23 +62,20 @@ layout: base
                 {% endfor %}
             {% else %}
             {% if page.sub == sub.name %}
+                <!-- Add Tag index to margin
                 {% for sub in site.sub-categories_by_tag[page.sub] %}
-                <div class='marginal toc-art'>
-                {% for tag in sub %}
-                    {% assign anchor = forloop.index %}
-                    {% for post in tag.posts %}
-                        {% assign record_count = forloop.length %}
-                    {% endfor %}
-                    <a href='#{{anchor}}'><span class='heading'>{{tag.name | upcase }}</span> {{ record_count }} Records</a><br>
-                {% endfor %}
-                </div>
-                {% endfor %}
-                {% for sub in site.sub-categories_by_tag[page.sub] %}
-                {% for tag in sub %}
-                    {% assign anchor = forloop.index %}
-                     <h2 class='subsection'><span><a href="#container" name="{{anchor}}">{{ tag.name | upcase }}</a></span></h2>
+                                <div class='marginal toc'>
+                                {% for tag in sub %}
+                                    {% assign anchor = forloop.index %}
+                                    {% for post in tag.posts %}
+                                        {% assign record_count = forloop.length %}
+                                    {% endfor %}
+                                    <a href='/{{page.category}}/{{page.sub}}/sort.html#{{anchor}}'><span class='heading'>{{tag.name | upcase }}</span> {{ record_count }} Records</a><br>
+                                {% endfor %}
+                                </div>
+                                {% endfor %}-->
 
-                {% for post in tag.posts %}
+                {% for post in sub.posts %}
                     <div class='marginal' id='meta-container'>
                         {% if post.index_img %}
                         <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>
@@ -112,15 +95,12 @@ layout: base
                         <h6>RELATED - {{ post.tags | tag_links }}</h6>
                     {% endif %}
 
-<!-- section below (line 116) provides for brief descriptions on index pages. 2017-03-26-->
+<!-- section below (line 113) provides for brief descriptions on index pages. 2017-03-26-->
                     {% if post.index-desc %} <h5 style='font-weight:normal; font-size:15px; line-height:20px;'> {{ post.index-desc }} </h5>{% endif %}
 
                 </section>
                 {% endfor %}
-                {% endfor %}
-                {% endfor %}
                 {% endif %}
-
             {% endif %}
             {% endfor %}
 
