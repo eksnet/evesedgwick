@@ -2,12 +2,6 @@ sudo: required
 language: ruby
 rvm:
   - 2.5.1
-env:
-  global:
-    - 'FTP_USER=[ftp_user]'
-    - 'FTP_PASSWORD=[ftp_password]'
-    - 'FTP_HOST=[ftp_host]'
-    - 'FTP_DIRECTORY=[ftp_directory]'
 before_install:
   - sudo apt-get install -y wput
 script:
