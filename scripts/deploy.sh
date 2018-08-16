@@ -4,6 +4,8 @@ set -e
 
 if [ -f .env ]; then
   source .env
+elif [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+  exit
 elif [ "$TRAVIS_BRANCH" = "master" ]; then
   FTP_USER=$PRODUCTION_FTP_USER
   FTP_PASSWORD=$PRODUCTION_FTP_PASSWORD
