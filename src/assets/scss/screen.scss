@@ -329,7 +329,7 @@ ul#sub-nav {
 }
 .toc-art {
   text-align: left;
-  margin-top: -60px;
+  z-index: 10001;
 }
 span.right {
   float:right;

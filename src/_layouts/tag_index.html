@@ -1,12 +1,12 @@
 ---
 layout: base
 ---
-<section id='title'>    
+<section id='title'>
     <h2><span>{{ "records tagged" | upcase}}&nbsp;</span>{{ page.tag | category_link}}</h2>
     <ul class='nav'>
     {% for tag in site.tags_by_category[page.tag] %}
     {% for category in tag %}
-        <li>{{ category.name | category_link }}</li>   
+        <li>{{ category.name | category_link }}</li>
     {% endfor %}
     {% endfor %}
     </ul>
@@ -18,7 +18,7 @@ layout: base
             {% for post in category.posts %}
                 {% assign record_count = forloop.length %}
             {% endfor %}
-            <a href='#{{anchor}}'><span class='heading'>{{category.name | upcase }}</span> {{ record_count }} Records</a><br>                    
+            <a href='#{{anchor}}'><span class='heading'>{{category.name | upcase }}</span> {{ record_count }} Records</a><br>
         {% endfor %}
         </div>
         {% endfor %}
@@ -31,11 +31,11 @@ layout: base
                     {% assign record_count = forloop.length %}
                 {% endfor %}
                 <div class='marginal record_count'>{{ record_count }} Records</div>-->
-        
+
         {% for post in category.posts %}
             <div class='marginal' id='meta-container'>
                 {% if post.index_img %}
-                <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>  
+                <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>
                 {% endif %}
             </div>
         <section class='index-item'>
@@ -49,7 +49,7 @@ layout: base
                 {% if related %}
                     <span class='right'>RELATED - {{ post.tags | tag_links }}</span>
                 {% endif %}
-            </h6>    
+            </h6>
         </section>
         {% endfor %}
         {% endfor %}
