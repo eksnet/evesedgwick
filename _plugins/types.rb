@@ -101,6 +101,20 @@ module Jekyll
       return bib
     end
 
+    def collect_tags(posts)
+      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      posts.each do |post|
+        if post.data['tags'].respond_to?('each')
+          post.data['tags'].each do |att|
+            hash[att] << post
+          end
+        else
+          hash[post.data['tags']] << post
+        end
+      end
+      return self.make_iterable(hash, :index => 'name', :items => 'posts')
+    end
+
     def collect_blogposts(posts)
       hash = Hash.new { |hash, key| hash[key] = Array.new }
       blogposts=posts['blog']
@@ -123,6 +137,11 @@ module Jekyll
 
     # Redefine site_payload to include our new method.
     alias_method :orig_site_payload, :site_payload
+
+    # Note about "x_by_y" collections: The nomenclature here is opposite of what
+    # one might expect. For instance, when using 'categories_by_sub', usage is
+    # categories_by_sub['art'], which returns a hash of subs: { "artwork" => [posts], ... }
+    # in other words, use categories_by_sub['category']['sub-category'] to retrieve posts for that sub
     def site_payload
       payload = orig_site_payload
       # Custom collections
@@ -133,16 +152,17 @@ module Jekyll
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
-        # sort 'writing' by pub-date
-        payload['site']['categories_by_sub']['writing'][0].each {|cat|
-          cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
-        }
-        # sort 'exhibitions' by exhibition-date
-        payload['site']['categories_by_sub']['art'][0].each {|sub|
-          if sub['name'] == 'exhibitions'
-            sub['posts'].sort! {|a, b| a.data['exhibition-date'] <=> b.data['exhibition-date']}
-          end
-        }
+      # sort 'writing' by pub-date
+      payload['site']['categories_by_sub']['writing'][0].each {|cat|
+        cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
+      }
+      payload['site']['subs_by_tag'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
+      # sort 'exhibitions' by exhibition-date
+      payload['site']['categories_by_sub']['art'][0].each {|sub|
+        if sub['name'] == 'exhibitions'
+          sub['posts'].sort! {|a, b| a.data['exhibition-date'] <=> b.data['exhibition-date']}
+        end
+      }
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
       payload['site']['sub-categories_by_tag'] = self.collection_by_attribute(payload['site']['sub-categories'], 'tags')

@@ -4,7 +4,7 @@ layout: base
 <!-- listing of all Categories under Nav-->
     {% if page.category == 'all' %}
         <section id='title'>
-            <h2>{{ page.nav | category_link}}</h2>
+            <h2>!!{{ page.nav | category_link}}</h2>
         </section>
 
         {% for nav in site.navs_by_category[page.nav] %}

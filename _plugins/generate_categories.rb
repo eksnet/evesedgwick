@@ -59,8 +59,14 @@ module Jekyll
       @dir  = category_dir
       @name = 'index.html'
       self.process(@name)
+      layout = "category_posts.html"
+      if category == 'all' and sub == 'all'
+        layout = "category_listing.html"
+      elsif sub == 'all'
+        layout = "sub_category_listing.html"
+      end
       # Read the YAML data from the layout page.
-      self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
+      self.read_yaml(File.join(base, '_layouts'), layout)
       self.data['nav']         = nav
       self.data['category']    = category
       self.data['sub']         = sub
@@ -113,6 +119,7 @@ module Jekyll
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
     def write_category_index(category_dir, nav, category, sub)
+      puts "writing category_index: #{category_dir}, #{nav} -> #{category} -> #{sub}"
       index = CategoryIndex.new(self, self.source, category_dir, nav, category, sub)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
@@ -129,31 +136,24 @@ module Jekyll
 
     # Loops through the list of category pages and processes each one.
     def write_category_indexes
-      if self.layouts.key? 'category_index'
-        dir = self.config['category_dir'] || ''
-        nav_hash = self.collect_by_attribute('nav', self.posts.docs)
-        nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
-        cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
-        nav_hash.keys.each do |nav|
-          self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
-          nav_by_cat[nav].each do |cat_array|
-            cat_array.each do |category|
-              self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
-              cat_by_sub[category['name']].each do |sub_array|
-                sub_array.each do |sub|
-                  self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
-                end
+      dir = self.config['category_dir'] || ''
+      nav_hash = self.collect_by_attribute('nav', self.posts.docs)
+      nav_by_cat = self.collection_by_attribute(nav_hash, 'category')
+      cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
+      nav_hash.keys.each do |nav|
+        self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
+        nav_by_cat[nav].each do |cat_array|
+          cat_array.each do |category|
+            self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
+            cat_by_sub[category['name']].each do |sub_array|
+              sub_array.each do |sub|
+                self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
               end
             end
           end
         end
-
-      # Throw an exception if the layout couldn't be found.
-      else
-        throw "No 'category_index' layout found."
       end
     end
-
   end
 
 
