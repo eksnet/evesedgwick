@@ -80,36 +80,6 @@ module Jekyll
 
   end
 
-  # The CategoryIndex class creates a single category page for the specified category.
-  class SortedCategoryIndex < Page
-
-    # Initializes a new CategoryIndex.
-    #
-    #  +base+         is the String path to the <source>.
-    #  +category_dir+ is the String path between <source> and the category folder.
-    #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, nav, category, sub)
-      @site = site
-      @base = base
-      @dir  = category_dir
-      @name = 'sort.html'
-      self.process(@name)
-      # Read the YAML data from the layout page.
-      self.read_yaml(File.join(base, '_layouts'), 'sorted_category_index.html')
-      self.data['nav']         = nav
-      self.data['category']    = category
-      self.data['sub']         = sub
-      # Set the title for this page.
-      title_prefix             = site.config['category_title_prefix'] || ''
-      self.data['title']       = "#{title_prefix}#{category}"
-      # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
-      self.data['description'] = "#{meta_description_prefix}#{category}"
-    end
-
-  end
-
-
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
 
@@ -125,13 +95,6 @@ module Jekyll
       index.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
       self.pages << index
-      unless sub == "all"
-        sindex = SortedCategoryIndex.new(self, self.source, category_dir, nav, category, sub)
-        sindex.render(self.layouts, site_payload)
-        sindex.write(self.dest)
-        # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
-        self.pages << sindex
-      end
     end
 
     # Loops through the list of category pages and processes each one.
@@ -163,7 +126,6 @@ module Jekyll
     priority :low
 
     def generate(site)
-      puts "entering generate CATEGORIES with #{site}"
       site.write_category_indexes
     end
 
