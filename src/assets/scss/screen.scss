@@ -236,6 +236,9 @@ section {
   margin: 32px 0px 0px 0px;
   padding: 0px;
   border:none;
+  &.type {
+    margin-bottom: 32px;
+  }
 }
 footer {
   border-top:1px solid #3A393B;
@@ -328,6 +331,7 @@ ul#sub-nav {
   margin-top: -6px;
 }
 .toc-art {
+  top: 27px;
   text-align: left;
   z-index: 10001;
 }

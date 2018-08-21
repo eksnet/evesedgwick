@@ -157,6 +157,7 @@ module Jekyll
         cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
       }
       payload['site']['subs_by_tag'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
+      payload['site']['subs_by_type'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_by_attribute('type', posts); m }
       # sort 'exhibitions' by exhibition-date
       payload['site']['categories_by_sub']['art'][0].each {|sub|
         if sub['name'] == 'exhibitions'
