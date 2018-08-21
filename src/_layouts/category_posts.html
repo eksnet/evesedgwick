@@ -8,16 +8,10 @@ layout: base
 {% endcomment %}
 
 {% if page.sub %}
-  {% assign tags = site.subs_by_tag[page.sub] %}
   {% assign types = site.subs_by_type[page.sub] %}
   <section id='title'>
     <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}/{{ page.sub | sub_category_link: page.category }}</span></h2>
-    <ul class="nav" id="sub-nav">
-      <li>RELATED TOPICS:</li>
-      {% for tag in tags %}
-        <li><a href="/{{tag.name}}">{{ tag.name | upcase }}</a></li>
-      {% endfor %}
-    </ul>
+    {% include tag_list.liquid collection="subs_by_tag" param="sub" %}
   </section>
 {% else %}
   {% assign posts = site.categories[page.category] %}

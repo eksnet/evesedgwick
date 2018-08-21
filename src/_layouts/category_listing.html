@@ -3,6 +3,7 @@ layout: base
 ---
 <section id='title'>
     <h2>{{ page.nav | category_link}} </h2>
+    {% include tag_list.liquid collection="navs_by_tag" param="nav" %}
 </section>
 
 {% for nav in site.navs_by_category[page.nav] %}

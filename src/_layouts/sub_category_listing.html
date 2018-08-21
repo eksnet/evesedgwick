@@ -3,6 +3,7 @@ layout: base
 ---
 <section id='title'>
     <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}</span></h2>
+    {% include tag_list.liquid collection="categories_by_tag" param="category" %}
 </section>
 {% for category in site.categories_by_sub[page.category] %}
     {% for sub in category %}

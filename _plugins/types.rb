@@ -112,7 +112,8 @@ module Jekyll
           hash[post.data['tags']] << post
         end
       end
-      return self.make_iterable(hash, :index => 'name', :items => 'posts')
+      #return self.make_iterable(hash, :index => 'name', :items => 'posts')
+      return hash
     end
 
     def collect_blogposts(posts)
@@ -147,9 +148,11 @@ module Jekyll
       # Custom collections
       payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts.docs)
       payload['site']['navs'] = self.collect_by_attribute('nav', self.posts.docs)
+      payload['site']['navs_by_tag'] = self.collect_by_attribute('nav', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
       payload['site']['albums'] = self.collect_albums(self.posts.docs)
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
+      payload['site']['categories_by_tag'] = self.collect_by_attribute('category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       # sort 'writing' by pub-date

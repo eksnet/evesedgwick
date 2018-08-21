@@ -89,7 +89,6 @@ module Jekyll
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
     def write_category_index(category_dir, nav, category, sub)
-      puts "writing category_index: #{category_dir}, #{nav} -> #{category} -> #{sub}"
       index = CategoryIndex.new(self, self.source, category_dir, nav, category, sub)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
