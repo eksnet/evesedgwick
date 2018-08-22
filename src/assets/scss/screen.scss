@@ -133,12 +133,15 @@ img.preview {
   @include col(1);
   height: 215px;
 }
+.square {
+  @include proportional(1,1);
+}
 /* left section square image. Added by tm 2013-03-30 */
 img.squareleft {
-  @include col(2);
-  height:302px;
-  margin-top:45px;
-  margin-left:0px;
+  margin: 0px auto;
+  max-width: 240px;
+  height: auto;
+  width: 100%;
 }
 
 /* left section full width image. Added by tm 2015-11-08 revised 2016-01-10*/
@@ -273,12 +276,6 @@ ul#sub-nav {
   span.heading {
     font-weight: bold;
   }
-  @include small-only {
-    @include bottom-border;
-    @include top-border;
-    @include pv(s);
-    @include mv;
-  }
 }
 .marginalnote {
   @include marginal;
@@ -292,6 +289,12 @@ ul#sub-nav {
     font-size:12px;
     line-height:18px;
     color:$black;
+  }
+  @include small-only {
+    @include bottom-border;
+    @include top-border;
+    @include pv(s);
+    @include mv;
   }
 }
 
