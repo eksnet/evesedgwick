@@ -596,7 +596,7 @@ a:hover     {
 
 .aperture {
   height:150px;
-  width:622px;
+  width:100%;
   overflow:hidden;
   position:relative;
 }
@@ -695,6 +695,11 @@ img.thumb4 {
   background-position: -40px -30px;
   left: 5px;
   right: auto;
+}
+#fancybox-wrap {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
 }
 .homepage-slideshow {
   @include proportional(622, 405);

@@ -2,7 +2,7 @@
     {% assign count = forloop.length %}
         {% capture carousel_width %}{{ count | carousel_width }}{% endcapture %}
     {% endfor %}
-    <section class='album' style='height:150px; width:622px; overflow:hidden; position:relative;'>
+    <section class='album' style='height:150px; width:100%; overflow:hidden; position:relative;'>
         {% if count > 4 %}<div class='album-nav' id='carousel_left' ><span id="carousel_left_ico"></span></div>{% endif %}
     <div class='aperture'>
     <div class='carousel' style='width:{{ carousel_width }}px;'>
