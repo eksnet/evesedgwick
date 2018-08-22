@@ -4,7 +4,7 @@ published: true
 nav: work
 category: art
 sub-category: "artworks"
-type: "Collage"
+type: "collage"
 
 title: "Collage/photo"
 sub-title: "Jacket Night at the ID450 Collective"

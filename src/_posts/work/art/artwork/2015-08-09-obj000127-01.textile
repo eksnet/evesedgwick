@@ -4,7 +4,7 @@ published: true
 nav: work
 category: art
 sub-category: "artworks"
-type: "Collage"
+type: "collage"
 
 title: "Collage/photo"
 sub-title: "Eternity’s White Flag &#8211 Before &#8211 / And God &#8211 at every Gate &#8211"

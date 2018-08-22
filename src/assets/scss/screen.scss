@@ -167,7 +167,7 @@ img.pptcenter {
 
 li {
   display:inline-block;
-  padding:5px 0px 4px 9px;
+  padding:6px 9px 4px 0px;
   font-size:10px;
   line-height:10px;
 }
@@ -215,10 +215,11 @@ header {
   }
   #nav {
     display: inline-block;
-    padding: 12px 0px 6px 0px;
+    padding: 12px 60px 6px 0px;
     @include medium {
       float: right;
       padding-left: 10px;
+      padding-right: 0;
     }
     margin-left: -5px;
     margin-right: -5px;
@@ -238,9 +239,9 @@ section {
 .subsection {
   margin: 32px 0px 0px 0px;
   padding: 0px;
-  border:none;
+  border: none;
   &.type {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
 }
 footer {
@@ -328,6 +329,10 @@ ul#sub-nav {
   text-align: right;
   font-style: normal;
   color:$light;
+  @include small-only {
+    @include mb(s);
+    text-align: left;
+  }
 }
 .toc {
   text-align: left;
