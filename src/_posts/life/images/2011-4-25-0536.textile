@@ -10,6 +10,7 @@ src: childhood19
 
 caption-title: "Eve, Bethesda, c. 1965"
 
-albums: 
+
+albums:
     - childhood
 ---

@@ -8,7 +8,28 @@
 <div class='aperture'>
 <div class='carousel' style='width:{{carousel_width}}px;'>
 	{% for image in images %}
-    <a href="/images/archive/{{ image.src }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" full="/images/archive/{{ image.src }}_full.jpg" rel="album_{% if album_x %}{{album_x}}_x_{% endif %}{{album_y}}"> <img class='thumb' src="/images/archive/{{ image.src }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;' />
+    <a
+      href="/images/archive/{{ image.src }}.jpg"
+      title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}"
+      caption="
+        {% if image.caption-title %}
+          <span class='heading'>{{ image.caption-title }} </span>
+        {% endif %}
+        {{ image.caption }}
+        {% if image.more-link %}
+          <a href='{{ image.more-link }}' target='_blank'>
+            SEE MORE
+          </a>
+        {% endif %}
+        "
+      full="/images/archive/{{ image.src }}_full.jpg"
+      rel="album_{% if album_x %}{{album_x}}_x_{% endif %}{{album_y}}"
+      >
+      <img
+        class='thumb'
+        src="/images/archive/{{ image.src }}_thumb.jpg"
+        style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'
+        />
   	</a>
   {% endfor %}
 </div>

@@ -11,6 +11,9 @@ src: childhood01
 caption-title: "The Kosofsky Family, Dayton, c. 1955"
 caption: "Back row (L to R): Rita and Leon Kosofsky, holding David. Front row (L to R): Nina and Eve."
 
-albums: 
+more-link: '/biography/biography.html'
+
+
+albums:
     - childhood
 ---
