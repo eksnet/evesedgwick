@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<section id='title' class='under'>   
+<section id='title' class='under'>
     {% for datum in page.meta %}
         {% case datum["key"] %}
             {% when 'location' %}
@@ -18,9 +18,7 @@ layout: base
 
 {% for media in page.related_media %}
     {% if media['type'] == 'album' %}
-        {% assign album_number = forloop.index %}
-        {% assign album_name = media['name'] %}
-        {% include album.liquid %}
+        {% include album.liquid album_name=media.name %}
     {% endif %}
 {% endfor %}
 

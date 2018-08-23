@@ -605,6 +605,9 @@ a:hover     {
    position:absolute;
    top:0px;
    left:0px;
+   p {
+     display: inline-block;
+   }
 }
 
 .carousel.no-scroll {

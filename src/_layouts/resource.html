@@ -3,25 +3,25 @@ layout: base
 ---
 <!--
 The links in this section were restricting us to 1 page per category (without a work-around)
-so we eliminated the links. This does not seem to be much of a loss for navigation. 
+so we eliminated the links. This does not seem to be much of a loss for navigation.
 The original of this file is stored in Backups folder with date 2013-06-08.
 By H and T 2013-06-08
 -->
 
 <section id='title'>
-<!--  
+<!--
 Commenting out line with hyper-link to category by H and T 2013-06-08
-    <h2 style=''>{{ page.nav | upcase }} <span>{{ page.category | resource_link}}</span></h2>  
+    <h2 style=''>{{ page.nav | upcase }} <span>{{ page.category | resource_link}}</span></h2>
 -->
 
     <h2 style=''>{{ page.nav | upcase }} <span>{{page.category | upcase}}</span></h2>
-    
-<!-- 
+
+<!--
 Commenting out section with hyperlinks to other categories by H and T 2013-06-08
     <ul class='nav' id='sub-nav'>
         {% for nav in site.navs_by_category[page.nav] %}
         {% for category in nav %}
-        <li>{{ category.name | resource_link }}</li>   
+        <li>{{ category.name | resource_link }}</li>
         {% endfor %}
         {% endfor %}
     </ul>
@@ -30,9 +30,7 @@ Commenting out section with hyperlinks to other categories by H and T 2013-06-08
 
 {% for media in page.related_media %}
     {% if media['type'] == 'album' %}
-        {% assign album_number = forloop.index %}
-        {% assign album_name = media['name'] %}
-        {% include album.liquid %}
+        {% include album.liquid album_name=media.name %}
     {% endif %}
 {% endfor %}
 

@@ -2,14 +2,14 @@
 layout: base
 ---
 
-<section id='title' class='under'>   
+<section id='title' class='under'>
     {% for datum in page.meta %}
-        {% case datum["key"] %} 
+        {% case datum["key"] %}
             {% when 'location' %}
                 {% assign location = datum["value"] %}
-            {% when 'creation-date' %} 
+            {% when 'creation-date' %}
                 {% assign creation_date = datum['value'] %}
-            {% when 'with' %} 
+            {% when 'with' %}
                 {% assign with = datum['value'] %}
         {% endcase %}
     {% endfor %}
@@ -17,27 +17,25 @@ layout: base
     <h3>{{ page.title | upcase }}<span> {{ location | no_location }}{{ creation_date | no_date }}{{ with | no_with }}</span></h3>
 -->
     {% include filing_notes.liquid %}
-    
+
 </section>
 
 {% for media in page.related_media %}
     {% if media['type'] == 'album' %}
-        {% assign album_number = forloop.index %}
-        {% assign album_name = media['name'] %}
-        {% include album.liquid %}
+        {% include album.liquid album_name=media.name %}
     {% endif %}
 {% endfor %}
 
 <section class='content'>
-    
+
     {% include marginal.liquid %}
-    
+
     <h5> <h8>{{ page.title | upcase }}{% if page.sub-title %}: {{ page.sub-title | upcase }}{% endif %}</h8> </h5>
     <h6 class='biblio'>{% if page.medium %}{{ page.medium | upcase}}. {% if page.dims %}{{ page.dims.width | upcase }} x {{ page.dims.height | upcase }}{% if page.dims.depth != 0 %} x {{ page.dims.depth | upcase }}{% endif %}{% endif %}. {{ page.year | no_date }}{% endif %}</h6>
     <p>{{ page.description | none }}</p>
-                       
+
     {{ content }}
-    
+
 </section>
 
 {% include extras.liquid %}
