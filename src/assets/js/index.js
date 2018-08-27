@@ -1,30 +1,28 @@
-/*!
-*
-* evekosofskysedgwick.org
-*
-*/
+//=require fancybox/jquery.fancybox-1.3.4.js
+//=require tablesorter/jquery.tablesorter.js
+//=require quicksearch/jquery.quicksearch.js
 
 $(document).ready (function () {
-    
+
     /* Replace email addresses */
     $(".email").each(function () {
         var mail_link = $(this).html().replace("[a]","@");
         $(this).html(mail_link);
         $(this).attr("href", "mailto:"+mail_link);
     });
-    
+
     /* Activate newwindow links */
     $("a.newwindow").attr("target","_blank");
 
   /* Activate Tablesorter */
   $("#inventory").tablesorter({
-    widgets: ['zebra'] 
+    widgets: ['zebra']
   });
   /* Activate Quicksearch */
   $('input#search').quicksearch('table tbody tr', {
     'stripeRows': ['odd', 'even']
   });
-  
+
   /* Activate Fancybox */
   function formatTitle(title, caption, currentArray, currentIndex, currentOpts) {
     return '<div id="album-caption">' + (title && title.length ? '<p>' + caption + '</p>' : '' ) + '<h6 id="count">'+(currentOpts.href.match(/\/blog\//) != "/blog/" ? '<span style="float:left;"><a href="'+ currentOpts.href.replace(".jpg", "_full.jpg") +'" target="_blank" style="color:#939196;">VIEW FULL SIZE</a></span>' : '' )+'IMAGE ' + (currentIndex + 1) + ' / ' + currentArray.length + '</h6></div>';
@@ -53,7 +51,7 @@ $(document).ready (function () {
     }
   });
 
-  /* carousel script*/ 
+  /* carousel script*/
   var carousel;
   var aperture_width=622;
   var thumb_width=120;
@@ -64,7 +62,7 @@ $(document).ready (function () {
   }
   $(".album").children("#carousel_right").click(function(e) {
     e.preventDefault();
-    carousel = $(this).siblings(".aperture").children(".carousel"); 
+    carousel = $(this).siblings(".aperture").children(".carousel");
     var carousel_width=parseInt(carousel.css("width").replace("px",""));
     if ((carousel_width + (parseInt(carousel.css("left").replace("px","")) - aperture_width)) < thumb_width) {
       carousel.animate({"left": (-(carousel_width-aperture_width))+"px"}, "slow");
@@ -75,7 +73,7 @@ $(document).ready (function () {
   });
   $(".album").children("#carousel_left").click(function(e) {
     e.preventDefault();
-    carousel = $(this).siblings(".aperture").children(".carousel"); 
+    carousel = $(this).siblings(".aperture").children(".carousel");
     if (carousel.css("left") != "0px") {
       if (carousel.css("left") != "auto") {
         if (Math.abs(parseInt(carousel.css("left").replace("px",""))) < thumb_width) {
@@ -94,7 +92,7 @@ $(document).ready (function () {
 
   /* nav show/hide */
   $(".album").mouseover(function() {
-    carousel = $(this).children(".aperture").children(".carousel"); 
+    carousel = $(this).children(".aperture").children(".carousel");
     var carousel_width=parseInt(carousel.css("width").replace("px",""));
     if (carousel.css("left") == '0px') {
       $(this).children("#carousel_right").show();

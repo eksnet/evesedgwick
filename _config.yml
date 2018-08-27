@@ -1,13 +1,18 @@
 markdown:       rdiscount
 highlighter:    null
 multiviews:     false
-sass:
-  sass_dir: assets/scss
 haml:           false
 permalink:      /:categories/:title.html
 plugins_dir:    ./_plugins
 source: 	src
 destination:    _site
+
+assets:
+  sources:
+    - assets/js
+    - assets/scss
+lunr_search:
+  js_dir: "assets"
 
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml

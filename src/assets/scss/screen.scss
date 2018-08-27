@@ -1,7 +1,3 @@
----
-permalink: assets/css/screen.css
----
-
 @import 'variables';
 @import 'utilities';
 
@@ -245,8 +241,19 @@ section {
   }
 }
 footer {
+  @include pv(s);
   border-top:1px solid #3A393B;
   margin-bottom:18px;
+}
+footer #copyright {
+  @include mt(s);
+  float: left;
+}
+footer #search-box {
+  float: right;
+  input {
+    @include p(xs);
+  }
 }
 #title {
   margin-bottom:56px;
