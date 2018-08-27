@@ -5,10 +5,7 @@ layout: base
 <section id='search-page'>
   <h2>Search</h2>
 
-  <form action="/search" id='search-form' method="get">
-    <label for='search-query'>Looking for</label>
-    <input type="text" id="search-query" name="q" placeholder="query" autocomplete="off">
-  </form>
+  {% include search_form.liquid label="Looking for"%}
 
   <section id="search-results" style="display: none;" ></section>
 </section>

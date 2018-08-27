@@ -252,9 +252,16 @@ footer #copyright {
 footer #search-box {
   float: right;
 }
-#search-query {
+#search-query,
+#search-submit {
   @include p(xs);
   @include ml(s);
+  border: 1px solid #3A393B;
+  height: 24px;
+}
+#search-submit {
+  vertical-align: bottom;
+  width: 24px;
 }
 #search-page {
   h2 {

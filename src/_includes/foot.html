@@ -3,9 +3,8 @@
         <h6>Copyright © 2010-2017 H. A. Sedgwick. All rights reserved.</h6>
     </div>
     <div id="search-box">
-      <form action="/search" method="get">
-        <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-      </form>
+      {% if page.permalink != "/search" %}
+        {% include search_form.liquid %}
+      {% endif %}
     </div>
-
 </footer>
