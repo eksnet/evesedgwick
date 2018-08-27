@@ -251,8 +251,26 @@ footer #copyright {
 }
 footer #search-box {
   float: right;
-  input {
-    @include p(xs);
+}
+#search-query {
+  @include p(xs);
+  @include ml(s);
+}
+#search-page {
+  h2 {
+    text-transform: uppercase;
+  }
+  #search-form {
+    @include pv(s);
+    border-bottom: 1px solid #3A393B;
+    text-transform: uppercase;
+  }
+  #search-results {
+    @include mv;
+    .related {
+      text-transform: uppercase;
+
+    }
   }
 }
 #title {

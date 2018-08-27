@@ -2,28 +2,39 @@
 permalink: /search
 layout: base
 ---
-<h2>Search evekosofskysedgwick.net</h2>
+<section id='search-page'>
+  <h2>Search</h2>
 
-<form action="/search" method="get">
-  <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
-</form>
+  <form action="/search" id='search-form' method="get">
+    <label for='search-query'>Looking for</label>
+    <input type="text" id="search-query" name="q" placeholder="query" autocomplete="off">
+  </form>
 
-<section id="search-results" style="display: none;" ></section>
+  <section id="search-results" style="display: none;" ></section>
+</section>
 
 {% raw %}
 <script id="search-results-template" type="text/mustache">
   {{#entries}}
-    <article>
-      <h3>
-        {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
-        <a href="{{url}}">{{title}}</a>
-      </h3>
-      {{#is_post}}
-      <ul>
-        {{#tags}}<li>{{.}} </li>{{/tags}}
-      </ul>
-      {{/is_post}}
-    </article>
+    {{#is_post}}
+      <div class='marginal' id='meta-container'>
+        {{#index_img}}
+          <img class='indexthumb' src='{{index_img}}'>
+        {{/index_img }}
+      </div>
+      <section class="preview">
+        <h4><a href="{{url}}">
+          {{{title}}}
+        </a></h3>
+        <h6 class="related">RELATED -
+          {{#category}}<a href="/{{category}}">{{category}}</a>{{/category}}
+          {{#sub-category}}<a href="/{{sub-category}}">{{sub-category}}</a>{{/sub-category}}
+          {{#tags}}
+            <a href="{{.}}">{{.}}</a>
+          {{/tags}}
+        </h6>
+      </section>
+    {{/is_post}}
   {{/entries}}
 </script>
 {% endraw %}
@@ -31,6 +42,6 @@ layout: base
 {% asset search.js %}
 <script type="text/javascript">
   $(function() {
-    $('#search-query').lunrSearch();
+    $('#search-query').lunrSearch({ titleMsg: ''});
   })
 </script>
