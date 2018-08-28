@@ -59,6 +59,7 @@ GEM
       RedCloth (~> 4.0)
     jekyll-watch (2.0.0)
       listen (~> 3.0)
+    json (2.1.0)
     kramdown (1.17.0)
     linguistics (2.1.0)
       loggability (~> 0.11)
@@ -99,19 +100,25 @@ GEM
     tilt (2.0.8)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (3.2.0)
+      execjs (>= 0.3.0, < 3)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   RedCloth (~> 4.2)
+  execjs (~> 2.7)
   haml (~> 5.0.4)
   jekyll (~> 3.8.3)
   jekyll-assets (~> 3.0.11)
   jekyll-textile-converter (~> 0.1.0)
   jekyll-watch (~> 2.0.0)
+  json (~> 2.0)
   linguistics (~> 2.1.0)
+  nokogiri (~> 1.7)
   sass (~> 3.5.7)
+  uglifier (~> 3.0)
 
 RUBY VERSION
    ruby 2.5.1p57
