@@ -5,9 +5,11 @@ layout: base
 <section id='search-page'>
   <h2>Search</h2>
 
-  {% include search_form.liquid label="Looking for"%}
+  {% include search_form.liquid label="Looking for" %}
 
-  <section id="search-results" style="display: none;" ></section>
+  <section id="search-results">
+    <img class="preloader" src="/images/preloader.gif" width="100px" />
+  </section>
 </section>
 
 {% raw %}

@@ -278,6 +278,11 @@ footer #search-box {
       text-transform: uppercase;
 
     }
+    .preloader {
+      @include mv(xl);
+      @include mh(a);
+      display: block;
+    }
   }
 }
 #title {
