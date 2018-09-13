@@ -247,10 +247,17 @@ footer {
 }
 footer #copyright {
   @include mt(s);
-  float: left;
+  @include medium {
+    float: left;
+  }
 }
 footer #search-box {
-  float: right;
+  @include medium {
+    float: right;
+  }
+  #search-query {
+    @include ml(0);
+  }
 }
 #search-query,
 #search-submit {
