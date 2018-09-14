@@ -22,12 +22,15 @@ layout: base
         {{/index_img }}
       </div>
       <section class="preview">
-        <h4><a href="{{url}}">
-          {{{title}}}
-        </a></h3>
+        <h4>
+          <a href="{{url}}">
+            {{title}}
+          </a>
+          {{sub_title}}
+          </h4>
         <h6 class="related">RELATED -
           {{#category}}<a href="/{{category}}">{{category}}</a>{{/category}}
-          {{#sub-category}}<a href="/{{sub-category}}">{{sub-category}}</a>{{/sub-category}}
+          {{#sub_category}}<a href="/{{category}}/{{sub_category}}">{{sub_category}}</a>{{/sub_category}}
           {{#tags}}
             <a href="{{.}}">{{.}}</a>
           {{/tags}}

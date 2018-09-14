@@ -17,8 +17,8 @@ module Jekyll
           'stopwords' => 'stopwords.txt',
           'fields' => {
             'title' => 10,
+            'sub_title' => 15,
             'category' => 20,
-            'sub-category' => 21,
             'tags' => 20,
             'body' => 1
           },
@@ -72,10 +72,11 @@ module Jekyll
             "body" => entry.body,
             "id" => i,
             "title" => entry.title,
+            "sub_title" => entry.data['sub-title'],
             "url" => entry.url,
             "date" => entry.date,
             "category" => entry.data['category'],
-            "sub-category" => entry.data['sub-category'],
+            "sub_category" => entry.data['sub-category'],
             "tags" => entry.data['tags'],
             "type" => entry.data['type'],
             "is_post" => entry.is_post,
