@@ -186,6 +186,10 @@ module Jekyll
       input.to_i
     end
 
+    def textilize(input)
+      RedCloth.new(input).to_html
+    end
+
   end
 end
 
