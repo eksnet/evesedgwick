@@ -1,5 +1,5 @@
 ---
-layout: foundation
+layout: base
 published: true
 nav: foundation
 category: foundation

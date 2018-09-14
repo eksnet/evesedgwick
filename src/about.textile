@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: base
 published: true
 nav: about
 category: about
