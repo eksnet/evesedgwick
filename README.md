@@ -148,7 +148,7 @@ description: "Passage from Proust on three hinged boards with orange and green h
 ---
 ```
 
-The following properties are used by artworks only (`exhibition` layout):
+The following properties are used by exhibitions only (`exhibition` layout):
 
 ```yaml
 ---
