@@ -5,18 +5,16 @@ layout: base
     <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}</span></h2>
     {% include tag_list.liquid collection="categories_by_tag" param="category" %}
 </section>
-{% for category in site.categories_by_sub[page.category] %}
-    {% for sub in category %}
-          <h2 class='subsection'><span>{{ sub.name | sub_category_link: page.category }}</h2>
-          {% for post in sub.posts %}
-              {%assign record_count = forloop.length %}
-          {% endfor %}
-          <div class='record_count'>{{ record_count }} Records</div>
-          {% for setting in site.category-settings %}
-              {% if setting.category == sub.name %}
-                  <p class='intro'>{{ setting.description }}</p>
-              {% endif %}
-          {% endfor %}
+{% for sub in site.categories_by_sub[page.category] %}
+    <h2 class='subsection'><span>{{ sub.name | sub_category_link: page.category }}</h2>
+    {% for post in sub.posts %}
+        {%assign record_count = forloop.length %}
+    {% endfor %}
+    <div class='record_count'>{{ record_count }} Records</div>
+    {% for setting in site.category-settings %}
+        {% if setting.category == sub.name %}
+            <p class='intro'>{{ setting.description }}</p>
+        {% endif %}
     {% endfor %}
 {% endfor %}
 {% for post in site.categories[page.category] %}

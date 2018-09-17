@@ -27,41 +27,34 @@ module Jekyll
 
   class Site
 
-    # Returns [{"blog"=>[[{"name"=>"blog", "posts"=>[, , , , , , , , , ]}]], "archive"=>[[{"name"=>"art", "posts"=>[, , , , , , , ]}, {"name"=>"teaching", "posts"=>[, , , , , ]}]] ]
+    # Returns {"blog"=>[[{"name"=>"blog", "posts"=>[, , , , , , , , , ]}]], "archive"=>[[{"name"=>"art", "posts"=>[, , , , , , , ]}, {"name"=>"teaching", "posts"=>[, , , , , ]}]] }
     def collection_by_attribute(collection, attribute)
-      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      hash = Hash.new { |hash, key| hash[key] = [] }
       collection.keys.each do |item|
         attribute_hash = collect_by_attribute(attribute, collection[item])
 
         type_array = make_iterable(attribute_hash, :index => 'name', :items => 'posts')
-        hash[item] << type_array
+        hash[item] = type_array
       end
-
       return hash
     end
 
-    # Returns [{<collection.title> => [{'name' => <attribute>, 'posts' => [{},{},{},{}]}]
+    # Returns {<collection.title> => {'name' => <attribute>, 'posts' => [{},{},{},{}]}
     def collect_by_attribute(attribute, posts)
-      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      hash = Hash.new { |hash, key| hash[key] = [] }
       posts.each do |post|
-        if attribute == 'tags'
-          post.data['tags'].each do |tag|
-            hash[tag] << post
-          end
-        else
-          if post.data[attribute]
-            if post.data[attribute].respond_to?('each')
-              post.data[attribute].each do |att|
-                hash[att] << post
-              end
-            else
-              hash[post.data[attribute]] << post
+        if post.data[attribute]
+          if post.data[attribute].respond_to?('each')
+            post.data[attribute].each do |att|
+              hash[att] << post
             end
+          else
+            hash[post.data[attribute]] << post
           end
         end
       end
       hash.values.map do |sort|
-          sort.sort! {|a, b| a.data['slug'] <=> b.data['slug']}
+        sort.sort! {|a, b| a.data['slug'] <=> b.data['slug']}
       end
       return hash
     end
@@ -93,10 +86,8 @@ module Jekyll
 
     def collect_bibliography(posts)
       bib=posts['writing']
-      bib.each do |posts|
-        posts.each do |p|
-          p['posts'].sort! {|a, b| b.data['pub-date'] <=> a.data['pub-date']}
-        end
+      bib.each do |p|
+        p['posts'].sort! {|a, b| b.data['pub-date'] <=> a.data['pub-date']}
       end
       return bib
     end
@@ -156,13 +147,13 @@ module Jekyll
       # Collections by attribute
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       # sort 'writing' by pub-date
-      payload['site']['categories_by_sub']['writing'][0].each {|cat|
+      payload['site']['categories_by_sub']['writing'].each {|cat|
         cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
       }
       payload['site']['subs_by_tag'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
       payload['site']['subs_by_type'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_by_attribute('type', posts); m }
       # sort 'exhibitions' by exhibition-date
-      payload['site']['categories_by_sub']['art'][0].each {|sub|
+      payload['site']['categories_by_sub']['art'].each {|sub|
         if sub['name'] == 'exhibitions'
           sub['posts'].sort! {|a, b| a.data['exhibition-date'] <=> b.data['exhibition-date']}
         end

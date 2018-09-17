@@ -760,3 +760,16 @@ img.thumb4 {
     top:0;
   }
 }
+.sitemap {
+  .list {
+    @include mv;
+  }
+  .cat-list {
+    &>ul>li {
+      display: block;
+      & > a {
+        @include bottom-border;
+      }
+    }
+  }
+}

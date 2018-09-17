@@ -19,10 +19,8 @@ Commenting out line with hyper-link to category by H and T 2013-06-08
 <!--
 Commenting out section with hyperlinks to other categories by H and T 2013-06-08
     <ul class='nav' id='sub-nav'>
-        {% for nav in site.navs_by_category[page.nav] %}
-        {% for category in nav %}
-        <li>{{ category.name | resource_link }}</li>
-        {% endfor %}
+        {% for category in site.navs_by_category[page.nav] %}
+          <li>{{ category.name | resource_link }}</li>
         {% endfor %}
     </ul>
 -->

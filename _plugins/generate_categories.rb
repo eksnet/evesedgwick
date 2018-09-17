@@ -104,14 +104,10 @@ module Jekyll
       cat_by_sub = self.collection_by_attribute(self.categories, 'sub-category')
       nav_hash.keys.each do |nav|
         self.write_category_index(File.join(dir, nav), nav, 'all', 'all')
-        nav_by_cat[nav].each do |cat_array|
-          cat_array.each do |category|
-            self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
-            cat_by_sub[category['name']].each do |sub_array|
-              sub_array.each do |sub|
-                self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
-              end
-            end
+        nav_by_cat[nav].each do |category|
+          self.write_category_index(File.join(dir, category['name']), nav, category['name'], 'all')
+          cat_by_sub[category['name']].each do |sub|
+            self.write_category_index(File.join(dir, category['name'], sub['name']), nav, category['name'],  sub['name'])
           end
         end
       end
