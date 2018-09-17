@@ -765,10 +765,15 @@ img.thumb4 {
     @include mv;
   }
   .cat-list {
-    &>ul>li {
+    & > ul > li {
+      @include mv(xs);
       display: block;
       & > a {
-        @include bottom-border;
+        font-weight: 600;
+      }
+      ul {
+        @include ml(s);
+        @include mt(s);
       }
     }
   }
