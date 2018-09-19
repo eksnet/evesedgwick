@@ -76,7 +76,9 @@ The following properties are used by layouts: `article`, `artwork`, `biography`,
 ```yaml
 ---
 with: Michael Moon (first author), Benjamin Gianni, and Scott Weir
-index_img: pic000136-01_thumb.jpg
+index_img: pic000136-01_thumb.jpg       # (optional) filename of image
+                                        # in src/images. Will appear
+                                        # in the margin of item listing
 related_media:                          # (optional) names of albums to include
     - { type: album, name: alb000102 }  # See "Albums" for more information.
 ---
@@ -200,6 +202,45 @@ body, title, sub-title, url, date, category, sub-category, tags, type, index_img
 The index takes a while to build (about 15s on my machine) which considerably slows down auto-rebuild in development. Therefore, the env variable `BUILD_SEARCH_INDEX` must be set or else index generation will be skipped and the site will not be built.
 
 This flag is set automatically when building the site with `scripts/build.sh`. When running jekyll locally with the `jekyll` command, search generation is disabled by default and the search function will be broken.
+
+### Albums
+In most cases, images appear as part of albums, which are shown in a carousel and can be inspected in a FancyBox modal. Images are defined by an image metadata file such as `src/_posts/life/images/2011-4-25-0518.textile`. Each of these corresponds to one image file, specified as `src`. Each image can belong to multiple albums, specified as an array on the `albums` property. Other metadata can be added as follows:
+
+```yaml
+---
+layout: image
+published: true
+category: images
+type: image
+
+title: Childhood 1
+
+src: childhood01                   # filename of image in `src/images/archive`
+
+caption-title: "The Kosofsky Family, Dayton, c. 1955"
+caption: "Back row (L to R): Rita and Leon Kosofsky, holding David. Front row (L to R): Nina and Eve."
+
+more-link: '/biography/biography.html' # (optional) url to a page, will be
+                                       # rendered as a link labelled "SEE MORE"
+
+albums:
+    - childhood
+---
+```
+
+#### Rendering albums
+Albums can be shown on a page with two mechanisms. Most layouts support a `related_media` param, which accepts an array of albums, as follows:
+
+```yaml
+related_media:
+    - {type: album, name: childhood}
+```
+
+Albums can also be added inline to anywhere in the body of a post using a the following include statement.
+
+```
+{% include album.liquid album_name='childhood' %}
+```
 
 
 ## Deployment
