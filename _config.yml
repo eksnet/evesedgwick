@@ -3,8 +3,7 @@ highlighter:    null
 multiviews:     false
 haml:           false
 permalink:      /:categories/:title.html
-plugins_dir:    ./_plugins
-source: 	src
+source: 	      src
 destination:    _site
 
 assets:

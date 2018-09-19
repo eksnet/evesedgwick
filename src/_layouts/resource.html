@@ -9,21 +9,7 @@ By H and T 2013-06-08
 -->
 
 <section id='title'>
-<!--
-Commenting out line with hyper-link to category by H and T 2013-06-08
-    <h2 style=''>{{ page.nav | upcase }} <span>{{ page.category | resource_link}}</span></h2>
--->
-
     <h2 style=''>{{ page.nav | upcase }} <span>{{page.category | upcase}}</span></h2>
-
-<!--
-Commenting out section with hyperlinks to other categories by H and T 2013-06-08
-    <ul class='nav' id='sub-nav'>
-        {% for category in site.navs_by_category[page.nav] %}
-          <li>{{ category.name | resource_link }}</li>
-        {% endfor %}
-    </ul>
--->
 </section>
 
 {% for media in page.related_media %}

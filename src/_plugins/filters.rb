@@ -1,3 +1,12 @@
+#############################
+# filters.rb
+#
+# Filters are helper functions used in the templates to add functionality
+# that would be difficult or cumbersome to achieve within the liquid language
+# https://help.shopify.com/en/themes/liquid/filters
+# These filters are added specifically to support the EKS site.
+#############################
+
 
 require 'linguistics'
 Linguistics::use( :en, :classical => true )         # extends Array, String, and Numeric
@@ -70,53 +79,12 @@ module Jekyll
       end
     end
 
+    # outputs a link tag for a given sub-category
     def sub_category_link(sub_category, category)
       if category.respond_to?('each')
         category = category[0]
       end
       '<a href="/'+category+'/'+sub_category+'/">'+sub_category.upcase+'</a>'
-    end
-
-     def resource_link(category)
-        if category.respond_to?('each')
-          categories = category.sort!.map do |item|
-            '<a href="/'+item+'/">'+item.upcase+'</a>'
-          end
-
-          connector = "and"
-          case categories.length
-          when 0
-            ""
-          when 1
-            categories[0].to_s
-          when 2
-            "#{categories[0]} #{connector} #{categories[1]}"
-          else
-            "#{categories[0...-1].join(', ')}, #{connector} #{categories[-1]}"
-          end
-        else
-          item = category
-          '<a href="/'+item+'/'+item+'.html">'+item.upcase+'</a>'
-        end
-      end
-
-    # Returns string
-    def meta_link(meta, tags)
-      meta=meta.to_s
-      meta_plural=meta.en.plural
-      if tags
-        tags = tags.keys.sort!.map do |item|
-          item.downcase
-        end
-      end
-      if tags.include?(meta.downcase)
-        '<a href="/tag/'+meta.downcase+'/">'+meta+'</a>'
-      elsif tags.include?(meta_plural.downcase)
-        '<a href="/tag/'+meta_plural.downcase+'/">'+meta+'</a>'
-      else
-        meta
-      end
-
     end
 
     # Outputs the post.date as formatted html, with hooks for CSS styling.
@@ -131,6 +99,7 @@ module Jekyll
       result
     end
 
+    # Outputs the prettified date if provided, or formats a nil.
     def no_date(input)
       if input
         if input == 'ND' or input == 'none'
@@ -140,6 +109,8 @@ module Jekyll
         end
       end
     end
+
+    # Outputs the prettified location if provided, or formats a nil.
     def no_location(input)
       if input
         if input=='none'
@@ -149,6 +120,8 @@ module Jekyll
         end
       end
     end
+
+    # Outputs the prettified 'with' if provided, or formats a nil.
     def no_with(input)
       if input
       if input == 'ND' or input == 'none'
@@ -161,10 +134,12 @@ module Jekyll
       end
     end
 
+    # Outputs the plural form of a provided word
     def plural(input)
       input.dup.en.plural
     end
 
+    # Outputs the input if provided, or empty string for nil
     def none(input)
       if input == 'none'
         ''
@@ -173,6 +148,8 @@ module Jekyll
       end
     end
 
+    # Outputs the appropriate "width" of a carousel for `input` number of images
+    # N.B.: "width" is the size of the scrollable area, not the visible width.
     def carousel_width(input)
       width = (input.to_i * 138) - 18
       if width < 622
@@ -186,6 +163,7 @@ module Jekyll
       input.to_i
     end
 
+    # Outputs the html-ified version of the provided textile string.
     def textilize(input)
       RedCloth.new(input).to_html
     end

@@ -1,24 +1,21 @@
+#############################
+# types.rb
+#
+# This plugin generates a variety of listings that are added to the Jekyll
+# `site` variable at build time. These lists/schema are used by templates
+# e.g. to retrieve all posts in a given category, or find all tags belonging
+# to posts in a particular sub-category.
+#############################
+
+
 module Jekyll
 
   class Post
 
     alias_method :orig_initialize, :initialize
+    # Removes blank or duplicate tags from a post
     def initialize(site, source, dir, name)
       orig_initialize(site, source, dir, name)
-      self.tags ||= []
-      if self.data['meta']
-        self.data['meta'].each do |d|
-          if d['sort']
-            tag = d['value'].to_s.downcase
-            if d['key'] == 'type'
-              tag=tag.en.plural
-            end
-            unless tag == 'none'
-              self.tags << tag
-            end
-          end
-        end
-      end
       self.tags.compact!
       self.tags.uniq!
     end
@@ -27,7 +24,9 @@ module Jekyll
 
   class Site
 
-    # Returns {"blog"=>[[{"name"=>"blog", "posts"=>[, , , , , , , , , ]}]], "archive"=>[[{"name"=>"art", "posts"=>[, , , , , , , ]}, {"name"=>"teaching", "posts"=>[, , , , , ]}]] }
+    # 2nd-order classifier used to categorize the list values
+    # within a hash of shape { key: [{},{}], key2: [{}, {}]}
+    # returns {"blog"=>[{"name"=>"blog", "posts"=>[, , , , , , , , , ]}]], "archive"=>[[{"name"=>"art", "posts"=>[, , , , , , , ]}, {"name"=>"teaching", "posts"=>[, , , , , ]}] }
     def collection_by_attribute(collection, attribute)
       hash = Hash.new { |hash, key| hash[key] = [] }
       collection.keys.each do |item|
@@ -39,7 +38,9 @@ module Jekyll
       return hash
     end
 
-    # Returns {<collection.title> => {'name' => <attribute>, 'posts' => [{},{},{},{}]}
+    # Categorizes an array of items (collection) by the provided attibute.
+    # e.g: collect_by_attribute('category', self.posts.docs)
+    # Returns { 'blog' => [{},{},{},{}], 'work' => [{},{},{}], ... }
     def collect_by_attribute(attribute, posts)
       hash = Hash.new { |hash, key| hash[key] = [] }
       posts.each do |post|
@@ -70,7 +71,7 @@ module Jekyll
     end
 
     def collect_albums(posts)
-      hash = Hash.new { |hash, key| hash[key] = Array.new }
+      hash = Hash.new { |hash, key| hash[key] = [] }
       posts.each do |post|
         if post.data['type'] == 'image'
           post.data['albums'].each do |album|
@@ -103,7 +104,6 @@ module Jekyll
           hash[post.data['tags']] << post
         end
       end
-      #return self.make_iterable(hash, :index => 'name', :items => 'posts')
       return hash
     end
 
@@ -144,14 +144,18 @@ module Jekyll
       payload['site']['bibliography'] = self.collect_bibliography(self.collection_by_attribute(self.categories, 'sub-category'))
       payload['site']['blog-pages'] = self.collect_blogposts(self.categories)
       payload['site']['categories_by_tag'] = self.collect_by_attribute('category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
-      # Collections by attribute
+
+      # Usage: site.categories_by_sub['art']['artwork'] => [{}, {}, {}]
       payload['site']['categories_by_sub'] = self.collection_by_attribute(self.categories, 'sub-category')
       # sort 'writing' by pub-date
       payload['site']['categories_by_sub']['writing'].each {|cat|
         cat['posts'].sort! {|a, b| a.data['pub-date'] <=> b.data['pub-date']}
       }
+
+      # Usage: site.subs_by_tag['artwork'] => [ 'proust': [{}, {}], 'calendars': [{}, {}]]
       payload['site']['subs_by_tag'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
       payload['site']['subs_by_type'] = self.collect_by_attribute('sub-category', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_by_attribute('type', posts); m }
+
       # sort 'exhibitions' by exhibition-date
       payload['site']['categories_by_sub']['art'].each {|sub|
         if sub['name'] == 'exhibitions'
@@ -161,11 +165,6 @@ module Jekyll
       payload['site']['tags_by_category'] = self.collection_by_attribute(self.tags, 'category')
       payload['site']['navs_by_category'] = self.collection_by_attribute(payload['site']['navs'], 'category')
       payload['site']['sub-categories_by_tag'] = self.collection_by_attribute(payload['site']['sub-categories'], 'tags')
-      # Iterable collections
-      payload['site']['iterable_categories'] = self.make_iterable(self.categories, :index => 'name', :items => 'posts')
-      payload['site']['iterable_sub'] = self.make_iterable(payload['site']['sub-categories'], :index => 'name', :items => 'posts')
-      payload['site']['iterable_navs'] = self.make_iterable(payload['site']['navs'], :index => 'name', :items => 'posts')
-      payload['site']['iterable_albums'] = self.make_iterable(payload['site']['albums'], :index => 'name', :items => 'images')
       payload
     end
 

@@ -2,6 +2,12 @@
 
 This is the source code for the Jekyll project that generates the EKS website. If you are not familiar with how Jekyll works, it would be a good idea to familiarize yourself with the [docs](https://jekyllrb.com/docs/home/).
 
+## Table of Contents
+ 1. [Environment](#environment)
+ 2. [Usage](#usage)
+ 3. [Editing](#editing)
+ 4. [Deployment](#deployment)
+
 ## Environment
 Seeing as Jekyll runs on Ruby, you will have to install Ruby before working with this repo. Currently, we are using version `2.5.1` and cannot guarantee compatibility with other versions.
 
@@ -199,12 +205,12 @@ Search has been added to the site using lunr.js in the client and an index const
 body, title, sub-title, url, date, category, sub-category, tags, type, index_img
 ```
 
-The index takes a while to build (about 15s on my machine) which considerably slows down auto-rebuild in development. Therefore, the env variable `BUILD_SEARCH_INDEX` must be set or else index generation will be skipped and the site will not be built.
+The index takes a while to build (about 15s on my machine) which considerably slows down auto-rebuild in development. Therefore, the env variable `BUILD_SEARCH_INDEX` must be set or else index generation will be skipped during build.
 
 This flag is set automatically when building the site with `scripts/build.sh`. When running jekyll locally with the `jekyll` command, search generation is disabled by default and the search function will be broken.
 
 ### Albums
-In most cases, images appear as part of albums, which are shown in a carousel and can be inspected in a FancyBox modal. Images are defined by an image metadata file such as `src/_posts/life/images/2011-4-25-0518.textile`. Each of these corresponds to one image file, specified as `src`. Each image can belong to multiple albums, specified as an array on the `albums` property. Other metadata can be added as follows:
+In most cases, images appear as part of albums, which are shown in a carousel and can be inspected in a FancyBox modal. Images are defined by an image metadata file such as `src/_posts/life/images/2011-4-25-0518.textile`. Each of these corresponds to one image file, specified as `src`. Each image can belong to one or more albums, as specified on the `albums` property. Other metadata can be added as follows:
 
 ```yaml
 ---
@@ -247,3 +253,7 @@ Albums can also be added inline to anywhere in the body of a post using a the fo
 The `master` branch is automatically built and deployed to production by Netlify. Check the build status in [branches](https://github.com/eksnet/evesedgwick/branches) or by logging into <http://netlify.com>.
 
 The `_site` directory, where compiled assets stored after building the site, is intentionally ignored by version control. Never commit built assets.
+
+
+## Plugins
+The organization functions of this site rely on a series of custom plugins that live in `src/_plugins`.

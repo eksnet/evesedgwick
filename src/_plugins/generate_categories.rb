@@ -60,9 +60,12 @@ module Jekyll
       @name = 'index.html'
       self.process(@name)
       layout = "category_posts.html"
+      title = "#{category.capitalize} - #{sub.capitalize}"
       if category == 'all' and sub == 'all'
+        title = nil
         layout = "category_listing.html"
       elsif sub == 'all'
+        title = category.capitalize
         layout = "sub_category_listing.html"
       end
       # Read the YAML data from the layout page.
@@ -71,8 +74,7 @@ module Jekyll
       self.data['category']    = category
       self.data['sub']         = sub
       # Set the title for this page.
-      title_prefix             = site.config['category_title_prefix'] || ''
-      self.data['title']       = "#{title_prefix}#{category}"
+      self.data['title']       = title
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{category}"
