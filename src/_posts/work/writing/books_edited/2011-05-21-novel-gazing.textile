@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -23,7 +23,7 @@ editions:
       series:       Series Q
       date:         1997
       isbn:         9780822320401
-      
+
 urls:
     - { display: indiebound, url: "http://www.indiebound.org/book/9780822320401"}
 
@@ -71,7 +71,7 @@ The Importance of Being Bored: The Dividends of Ennui in <i>The Picture of Doria
 Balzac's Queer Cousins and Their Friends / Michael Lucey
 
 
-<b>Part III. Teacher's Pet</b> 
+<b>Part III. Teacher's Pet</b>
 
 Defying "Development": Thomas Day's Queer Curriculum in <i>Sandford and Merton</i> / Anne Chandler
 
@@ -91,7 +91,7 @@ To Die For / Cindy Patton
 Tearing the Goat's Flesh: Crisis, Homosexuality, Abjection, and the Production of a Late-Twentieth-Century Black Masculinity / Robert F. Reid-Pharr
 
 
-<b>Part V. Libidinal Intelligence: Shocks and Recognitions</b> 
+<b>Part V. Libidinal Intelligence: Shocks and Recognitions</b>
 
 The Autochoreography of an Ex-Snow Queen: Dance, Desire, and the Black Masculine in Melvin Dixon's <i>Vanishing Rooms</i> / Maurice Wallace
 

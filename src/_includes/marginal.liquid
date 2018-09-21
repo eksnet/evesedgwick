@@ -6,16 +6,16 @@
 {% for record in page.related_records %}
     {% assign records = true %}
 {% endfor %}
-{% assign links = false %} 
+{% assign links = false %}
 {% for url in page.urls %}
     {% assign links = true %}
 {% endfor %}
 <div class='marginal' id='meta-container'>
     {% if page.preview_img %}
-    <img class='preview' src='/images/preview/{{ page.preview_img }}'>  
+    <img class='preview' src='/images/preview/{{ page.preview_img }}'>
     {% endif %}
     {% if page.full_left_img %}
-    <img class='fullwidth' src='/images/archive/{{ page.full_left_img }}'>  
+    <img class='fullwidth' src='/images/archive/{{ page.full_left_img }}'>
     {% endif %}
         <ul id='extras-anchors'>
         {% if formats %}

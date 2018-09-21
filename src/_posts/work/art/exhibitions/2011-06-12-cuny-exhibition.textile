@@ -1,5 +1,5 @@
 ---
-layout: exhibition
+layout: work
 published: true
 nav: work
 category: art
@@ -13,5 +13,5 @@ description: none
 
 exhibition-location: CUNY Graduate Center
 exhibition-date: 2001
-    
+
 ---

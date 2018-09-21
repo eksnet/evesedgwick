@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -21,9 +21,6 @@ in:
 
 index-desc: Noting that gender criticism can be a euphemism for, among other things, gay and lesbian criticism, Sedgwick distinguishes it from feminist, women's, and men's studies, at the same time observing that "the charting of a space between something called 'sex' and something called 'gender' has been one of the most influential and successful undertakings of feminist thought." Sedgwick gives significant attention to Foulcault's <i>History of Sexuality</i>, as well as "Post-Foucauldian" work.
 
-description: Noting that gender criticism can be a euphemism for, among other things, gay and lesbian criticism, Sedgwick distinguishes it from feminist, women's, and men's studies, at the same time observing that "the charting of a space between something called 'sex' and something called 'gender' has been one of the most influential and successful undertakings of feminist thought." Sedgwick gives significant attention to Foulcault's <i>History of Sexuality</i>, as well as "Post-Foucauldian" work.
-
-  
 ---
 
 Noting that gender criticism can be a euphemism for, among other things, gay and lesbian criticism, Sedgwick distinguishes it from feminist, women's, and men's studies, at the same time observing that "the charting of a space between something called 'sex' and something called 'gender' has been one of the most influential and successful undertakings of feminist thought." Sedgwick gives significant attention to Foulcault's <i>History of Sexuality</i>, as well as "Post-Foucauldian" work.

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -12,7 +12,7 @@ pub-date: 1998
 
 in:
     - description:  journal
-      editors: Peggy Phelan and Jill Lane    
+      editors: Peggy Phelan and Jill Lane
       publication:  The Ends of Performance
       publisher:    New York University Press
       location:     New York
@@ -22,7 +22,7 @@ index-desc: In this tour Sedgwick provides the course rationale, some assigned r
 
 description: In this tour Sedgwick provides the course rationale, some assigned readings, a description of how the course was conducted, and sample assignments such as "performative utterances," "the obituary imperative," and "collaborative archeology."
 
-  
+
 ---
 
 In this tour Sedgwick provides the course rationale, some assigned readings, a description of how the course was conducted, and sample assignments such as "performative utterances," "the obituary imperative," and "collaborative archeology."

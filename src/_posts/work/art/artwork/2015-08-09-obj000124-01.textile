@@ -1,5 +1,5 @@
 ---
-layout: artwork
+layout: work
 published: true
 nav: work
 category: art
@@ -10,7 +10,7 @@ title: FABRIC/HANGING
 sub-title: "Untitled"
 year: ND
 medium: ""
-dims: {width:  , height:  , depth: ,tbd}
+dims: {width:  , height:  , depth: }
 catalog-number: "obj000124-01"
 
 index_img: pic000227_thumb.jpg

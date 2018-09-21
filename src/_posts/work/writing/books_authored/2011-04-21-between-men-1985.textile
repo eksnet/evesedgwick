@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -17,7 +17,7 @@ full_left_img: betweenmen1985_full_left.jpg
 description:    none
 
 editions:
-    - description:  
+    - description:
       publisher:    Columbia University Press
       location:     New York
       series:       Gender and Culture Series
@@ -32,7 +32,7 @@ editions:
 
 urls:
     - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/716171864?referer=di&ht=edition"}
-    
+
 meta:
     - {key: type,           value: document,            display-value: Type,        display: true}
     - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
@@ -66,7 +66,7 @@ iv. What This Book Does
 9. Homophobia, Misogyny, and Capital: The Example of <i>Our Mutual Friend</i>
 10. Up the Postern Stair: <i>Edwin Drood</i> and the Homophobia of Empire
 
-Coda: Toward the Twentieth Century: English Readers of Whitman 
+Coda: Toward the Twentieth Century: English Readers of Whitman
 
 Notes
 Bibliography

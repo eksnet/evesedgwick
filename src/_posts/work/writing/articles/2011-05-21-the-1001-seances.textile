@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -8,20 +8,16 @@ type: article
 
 role: author
 title: "The 1001 Seances"
-sub-title: 
+sub-title:
 pub-date: 2011
 
 in:
     - description:  journal
       publication:  GLQ - A Journal of Lesbian and Gay Studies
       date:         "Vol. 17, No. 4, 2011"
-  
-index-desc: An appreciation of James Merrill's long poem, <i>The Book of Ephraim</i>, which emerged through evenings spent with David Jackson "at the Ouija Board / In touch with Ephraim Our Familiar Spirit," as Merrill describes them. Sedgwick writes that Merrill's "un-Proustian tone of elegiac wishfulness only obscures his acuteness about the fate of his poetic roman fleuve."
 
-description: An appreciation of James Merrill's long poem, <i>The Book of Ephraim</i>, which emerged through evenings spent with David Jackson "at the Ouija Board / In touch with Ephraim Our Familiar Spirit," as Merrill describes them. Sedgwick writes that Merrill's "un-Proustian tone of elegiac wishfulness only obscures his acuteness about the fate of his poetic roman fleuve."
+index-desc: An appreciation of James Merrill's long poem, <i>The Book of Ephraim</i>, which emerged through evenings spent with David Jackson "at the Ouija Board / In touch with Ephraim Our Familiar Spirit," as Merrill describes them. Sedgwick writes that Merrill's "un-Proustian tone of elegiac wishfulness only obscures his acuteness about the fate of his poetic roman fleuve."
 
 ---
 
 An appreciation of James Merrill's long poem, <i>The Book of Ephraim</i>, which emerged through evenings spent with David Jackson "at the Ouija Board / In touch with Ephraim Our Familiar Spirit," as Merrill describes them. Sedgwick writes that Merrill's "un-Proustian tone of elegiac wishfulness only obscures his acuteness about the fate of his poetic roman fleuve."
-
- 

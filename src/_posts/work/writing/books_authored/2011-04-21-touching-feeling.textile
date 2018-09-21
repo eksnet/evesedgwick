@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -28,7 +28,7 @@ editions:
 
 urls:
     - { display: indiebound, url: "http://www.indiebound.org/book/9780822330158"}
-    
+
 ---
 
 A pioneer in queer theory and literary studies, Eve Kosofsky Sedgwick brings together for the first time in _Touching Feeling_ her most powerful explorations of emotion and expression. In essays that show how her groundbreaking work in queer theory has developed into a deep interest in affect, Sedgwick offers what she calls "tools and techniques for nondualistic thought," in the process touching and transforming such theoretical discourses as psychoanalysis, speech-act theory, Western Buddhism, and the Foucauldian "hermeneutics of suspicion."
@@ -54,17 +54,17 @@ CONTENTS
 
 Acknowledgments
 
-Introduction 
+Introduction
 
-Interlude, Pedagogic 
+Interlude, Pedagogic
 
-1. &nbsp;Shame, Theatricality, and Queer Performativity: Henry James’s <i>The Art of the Novel</i> 
+1. &nbsp;Shame, Theatricality, and Queer Performativity: Henry James’s <i>The Art of the Novel</i>
 
-2. &nbsp;Around the Performative: Periperformative Vicinities in Nineteenth-Century Narrative 
+2. &nbsp;Around the Performative: Periperformative Vicinities in Nineteenth-Century Narrative
 
-3. &nbsp;Shame in the Cybernetic Fold: Reading Silvan Tomkins (Written with Adam Frank) 
+3. &nbsp;Shame in the Cybernetic Fold: Reading Silvan Tomkins (Written with Adam Frank)
 
-4. &nbsp;Paranoid Reading and Reparative Reading, or, You’re So Paranoid, You Probably Think This Essay Is About You 
+4. &nbsp;Paranoid Reading and Reparative Reading, or, You’re So Paranoid, You Probably Think This Essay Is About You
 
 5. &nbsp;Pedagogy of Buddhism
 

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -8,7 +8,7 @@ type: article
 
 role: author
 title: Afterword - Gary in Your Pocket
-sub-title: 
+sub-title:
 pub-date: 1996
 
 in:
@@ -21,9 +21,6 @@ in:
 
 index-desc: Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."
 
-description: Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."
-
-  
 ---
 
 Sedgwick recounts meeting Fisher, finding him "a pretty sensational writer," and becoming a friend and literary adviser. Tasked with editing and publishing this book after Fisher's death from AIDS, Sedgwick struggles with second thoughts about the title, agreed to by Fisher, as "trivializing" him, and with the "history of white patronage and patronization of African American Writers, the tonalities of which neither of us had any wish to reproduce." Sedgwick concludes that "for all its imposing reserve and truncated power, Gary's is an idiom that longs to traverse and be held in the minds of many people who never knew him in another form."
