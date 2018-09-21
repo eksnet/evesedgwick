@@ -1,5 +1,5 @@
 ---
-layout: exhibition
+layout: work
 published: true
 nav: work
 category: art

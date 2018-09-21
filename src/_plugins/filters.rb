@@ -42,6 +42,15 @@ module Jekyll
       end
     end
 
+    # Outputs a link to the specified post type.
+    #
+    # +type+ is a string
+    #
+    # Returns string
+    def type_link(type)
+      type ? "<a href='/#{type}'>#{type.upcase}</a>" : ''
+    end
+
     # Outputs a list of categories as comma-separated <a> links. This is used
     # to output the category list for each post on a category page.
     #

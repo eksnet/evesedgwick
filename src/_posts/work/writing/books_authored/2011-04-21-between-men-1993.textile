@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -35,7 +35,7 @@ urls:
     - { display: amazon, url: "http://www.amazon.com/Between-Men-English-Literature-Homosocial/dp/0231082738/ref=sr_1_1?s=books&ie=UTF8&qid=1305861332&sr=1-1"}
     - { display: indiebound, url: "http://www.indiebound.org/book/9780231082730"}
     - { display: worldcat, url: "http://www.worldcat.org/title/between-men-english-literature-and-male-homosocial-desire/oclc/264694749&referer=brief_results"}
-    
+
 meta:
     - {key: type,           value: document,            display-value: Type,        display: true}
     - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
@@ -72,7 +72,7 @@ iv. What This Book Does
 9. Homophobia, Misogyny, and Capital: The Example of <i>Our Mutual Friend</i>
 10. Up the Postern Stair: <i>Edwin Drood</i> and the Homophobia of Empire
 
-Coda: Toward the Twentieth Century: English Readers of Whitman 
+Coda: Toward the Twentieth Century: English Readers of Whitman
 
 Notes
 Bibliography

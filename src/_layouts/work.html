@@ -1,0 +1,43 @@
+---
+layout: base
+---
+<section id='title' class='under'>
+  {% include filing_notes.liquid %}
+</section>
+
+{% if page.related_media %}
+  {% for media in page.related_media %}
+      {% if media['type'] == 'album' %}
+          {% include album.liquid album_name=media.name %}
+      {% endif %}
+  {% endfor %}
+{% endif %}
+
+<h5>
+  {{ page.title | upcase }}{% if page.sub-title %}: <span>{{ page.sub-title | upcase }}</span>{% endif %}
+</h5>
+
+<section class='content'>
+    {% include marginal.liquid %}
+
+    {% if page.exhibition-location %}
+      <h6 class='biblio'>{{ page.exhibition-location | upcase }}, {{ page.exhibition-date }}</h6>
+    {% endif %}
+    {% if page.editions %}
+      {% assign biblio = page.editions[0] %}
+      <h6 class='biblio'>{% if page.ed-note %}{{ page.ed-note }}. {% endif %}{{ biblio['publisher'] }}, {{ biblio['date'] }}</h6>
+    {% endif %}
+    {% if page.medium %}
+      <h6 class='biblio'>{{ page.medium | upcase}}. {% if page.dims %}{{ page.dims.width | upcase }} x {{ page.dims.height | upcase }}{% if page.dims.depth != 0 %} x {{ page.dims.depth | upcase }}{% endif %}{% endif %}. {{ page.year | no_date }}</h6>
+    {% endif %}
+    {% if page.in %}
+      {% assign biblio = page.in[0] %}
+      <h6 class='biblio'>In {% for editor in biblio['editors'] %}{{ editor }}, {% endfor %}<i>{{ biblio['publication'] }}</i> ({% if biblio['publisher'] %}{{ biblio['publisher'] }}, {% endif %}{{ biblio['date'] }})</h6>
+    {% endif %}
+
+    {% if page.description %}<p>{{ page.description | none }}</p>{% endif %}
+
+    {{ content }}
+</section>
+
+{% include extras.liquid %}

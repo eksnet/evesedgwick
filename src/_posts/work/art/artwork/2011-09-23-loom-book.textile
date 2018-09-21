@@ -1,5 +1,5 @@
 ---
-layout: artwork
+layout: work
 published: true
 nav: work
 category: art
@@ -19,6 +19,6 @@ description: "Cardboard structure with yarn and text from Proust on interwoven s
 
 related_media:
     - {type: album, name: "000029-01"}
-   
+
 
 ---

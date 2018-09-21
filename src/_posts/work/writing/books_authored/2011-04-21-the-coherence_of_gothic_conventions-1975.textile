@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -11,7 +11,7 @@ role: author
 with:
 title: The Coherence of Gothic Conventions
 pub-date: 1975
-ed-note: 
+ed-note:
 index_img: Coherence-of-Gothic-Conventions_1975_index.jpg
 full_left_img: Coherence-of-Gothic-Conventions_1975_full-left.jpg
 
@@ -21,18 +21,18 @@ editions:
     - description:  none
       publisher:    Dissertation, Yale University
       location:     New Haven
-      series:       
+      series:
       date:         1975
-      isbn:         
+      isbn:
       further_editions:
-        - type:         
-          publisher:    
-          location:     
-          date:         
-          translations: 
+        - type:
+          publisher:
+          location:
+          date:
+          translations:
 
 urls:
-    - 
+    -
 
 ---
 
@@ -46,7 +46,7 @@ Introduction
 
 Chapter I. &nbsp;&nbsp;The Structure of Gothic Convention: Mostly <i>Melmoth</i>
 Chapter II. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
-Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i> 
+Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i>
 
 Afterword: Of Wandering
 

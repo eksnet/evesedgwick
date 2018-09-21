@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing

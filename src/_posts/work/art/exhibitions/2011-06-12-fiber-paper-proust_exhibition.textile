@@ -1,5 +1,5 @@
 ---
-layout: exhibition
+layout: work 
 published: true
 nav: work
 category: art
@@ -17,7 +17,7 @@ exhibition-location: Harvard University
 exhibition-date: 2005
 
 related_records:
-    - /art/fiber-paper-proust-artist-statement  
+    - /art/fiber-paper-proust-artist-statement
 
 related_media:
     - {type: album, name: proust}

@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -19,9 +19,6 @@ in:
 
 index-desc: Sedgwick gave this talk in response to a <i>Newsweek</i> article on political correctness on campus as thought policing, which stated that it is not enough "to refrain from insulting homosexuals or other minorities," because multiculturalism also expects students to "study their literature and culture alongside that of Plato, Shakespeare, and Locke." Sedgwick observes that this claim coexists with anti-gay regulation of speech such as <i>Bowers v. Hardwick</i> and broader regulation of speech in <i>FCC v. Pacifica</i>. She argues that "it is speech and visibility that give us any political power we have."
 
-description: Sedgwick gave this talk in response to a <i>Newsweek</i> article on political correctness on campus as thought policing, which stated that it is not enough "to refrain from insulting homosexuals or other minorities," because multiculturalism also expects students to "study their literature and culture alongside that of Plato, Shakespeare, and Locke." Sedgwick observes that this claim coexists with anti-gay regulation of speech such as <i>Bowers v. Hardwick</i> and broader regulation of speech in <i>FCC v. Pacifica</i>. She argues that "it is speech and visibility that give us any political power we have."
-
-  
 ---
 
 Sedgwick gave this talk in response to a <i>Newsweek</i> article on political correctness on campus as thought policing, which stated that it is not enough "to refrain from insulting homosexuals or other minorities," because multiculturalism also expects students to "study their literature and culture alongside that of Plato, Shakespeare, and Locke." Sedgwick observes that this claim coexists with anti-gay regulation of speech such as <i>Bowers v. Hardwick</i> and broader regulation of speech in <i>FCC v. Pacifica</i>. She argues that "it is speech and visibility that give us any political power we have."

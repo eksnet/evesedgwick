@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: work
 published: true
 nav: work
 category: teaching
@@ -48,10 +48,10 @@ Marcel Proust, ??In Search of Lost Time vol. III, The Guermantes Way??, tr. Mark
 Meira Likierman, ??Melanie Klein: Her Work in Context??
 
 Class meetings:
-The reading schedule for the first semester follows.  Please focus on the section assigned for each class session; we won’t be able to pursue our strategy of close reading if we aren’t all reading/discussing the same passages at the same time.  
+The reading schedule for the first semester follows.  Please focus on the section assigned for each class session; we won’t be able to pursue our strategy of close reading if we aren’t all reading/discussing the same passages at the same time.
 Additionally, please note that we will be taking an unconventional itinerary through the first volume of the novel: we’re going to read “A Love of Swann’s” before we go back and read “Combray.” I have made this choice because it is so common to see “Combray” isolated and fetishized in discussions of  Proust, often with disastrous results for the critical assumptions and proceedings that then get applied to the rest of the novel. I’m hoping by this rather drastic intervention at least to deroutinize our sense of how “Combray” is related to the other sections of the novel.
 
-Readings: 
+Readings:
 1)  All page numbers below are for the British (Viking) edition–may be off a couple of pages from U.S. (Penguin) edition.
 2) Please don’t read the introductions to each volume–they contain plot spoilers!
 
@@ -70,8 +70,8 @@ Readings:
 11/22: Vol. III, pp.7-137.  “Part One,” ending with departure from Doncières.
 11/29: Vol. III, pp. 137-308.  “Part One,” to end of section.
 12/6: Vol. III, pp. 311-464:. “Part Two,” ending with “Teaser Augustus” joke.
-12/13: Vol. III, pp. 464-597. “Part Two,” to end of volume.  
-12/20: Papers due.									
+12/13: Vol. III, pp. 464-597. “Part Two,” to end of volume.
+12/20: Papers due.
 
 Assignments:
 1) All students (including auditors) are required to contribute orally in every class meeting.
@@ -91,7 +91,7 @@ Goodkin, Richard E., ??Around Proust??
 Kristeva, Julia, ??Proust and the Sense of Time??
 Kristeva, Julia, ??Time & Sense: Proust and the Experience of Literature??
 McDonald, Christie, ??The Proustian Fabric: Associations of Memory??
-Mehlman, Jeffrey, ??A structural study of autobiography: Proust, Leiris, Sartre, Lévi-Strauss?? 
+Mehlman, Jeffrey, ??A structural study of autobiography: Proust, Leiris, Sartre, Lévi-Strauss??
 Paganini, Maria, ??Reading Proust: In Search of the Wolf-Fish??
 Poulet, Georges, ??Proustian Space??
 Rivers, J. R., ??Proust and the Art of Love: The Aesthetics of Sexuality in the Life, Times, and Art of Marcel Proust??
@@ -99,4 +99,3 @@ Splitter, Randolph, ??Proust’s Recherche: A Psychoanalytic Interpretation??
 Sprinker, Michael, ??History and Ideology in Proust??
 Stonebridge, Lydsey, and John Phillips, eds., ??Reading Melanie Klein??
 Tadié, Jacques-Yves, ??Marcel Proust: A Life??
-

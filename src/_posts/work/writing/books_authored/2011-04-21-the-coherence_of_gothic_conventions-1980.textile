@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -32,7 +32,7 @@ editions:
           translations: Japanese
 
 urls:
-    
+
 
 ---
 
@@ -45,6 +45,6 @@ Introduction
 
 Chapter I. &nbsp;&nbsp;The Structure of Gothic Conventions
 Chapter II. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
-Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i> 
+Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i>
 
 Selected bibliography

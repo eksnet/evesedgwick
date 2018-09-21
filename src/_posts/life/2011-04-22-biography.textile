@@ -1,5 +1,5 @@
 ---
-layout: biography
+layout: work
 published: true
 nav: life
 category: biography
@@ -204,6 +204,6 @@ As inevitably happens with metastatic cancer, however, this therapy eventually s
 
 Toward the end of the summer of 2008 Sedgwick's illness worsened again, eventually making her cancel or postpone all of her travel plans. A promised essay that she finished in November was the last writing project that she completed, although she continued to make plans for further projects. In the 2008–2009 academic year, she again gave her Proust seminar. She continued to attend and participate in these seminars, although increasingly relying on her graduate students to help lead them. In February of 2009, the cancer in her spine, no longer controlled by her therapy, began to press on her spinal cord, progressively weakening her legs over several weeks until she was confined to a wheelchair. For several weeks in March, no longer able to travel to the Graduate Center, Sedgwick held her Proust seminar, with beer and pizza, in her studio. Throughout this period Sedgwick continued to believe in the possibility that a new therapy might stabilize or even improve her condition, and she continued to make plans for such a future. By the end of March, however, Sedgwick’s physicians had concluded, as they then explained to her, that further therapy would not be helpful and that she did not have long to live. On April 10 she entered the hospice program at Beth Israel Medical Center in lower Manhattan. She died there just before midnight on Sunday, April 12, 2009.<sup class="marginal-note">3</sup>
 
-<div class='marginalnote'><sup><span class='heading'>3</span></sup>A longer narrative concerning Eve's cancer may be found "(newwindow)here":http://evekosofskysedgwick.net/biography/cancer2.html.</div>
+<div class='marginalnote'><sup><span class='heading'>3</span></sup>A longer narrative concerning Eve's cancer may be found "(newwindow)here":/biography/cancer2.html.</div>
 
 Although Hal Sedgwick was Sedgwick's primary caregiver during her illness, many students, friends, and family also gave her tremendous help and support. Following her death, Josh Wilner took over her Proust seminar for the remainder of the semester. Jon Goldberg, as noted above, has edited her writings from the last decade of her life into a book. Work on her archives and on many other projects, as described elsewhere in this website, continues.
