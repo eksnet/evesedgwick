@@ -1,4 +1,4 @@
-# [evekosofskysedgwick.net](evekosofskysedgwick.net)
+# [evekosofskysedgwick.net](http://evekosofskysedgwick.net)
 
 This is the source code for the Jekyll project that generates the EKS website. If you are not familiar with how Jekyll works, you can find documentation on [the project website](https://jekyllrb.com/docs/home/).
 
