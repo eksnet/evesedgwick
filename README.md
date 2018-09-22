@@ -90,7 +90,7 @@ related_media:                          # (optional) names of albums to include
 ---
 ```
 
-The following properties are used by layouts `post` and `work`:
+The following properties are used exclusively in the blog (`post` layout):
 
 ```yaml
 ---
@@ -98,14 +98,6 @@ meta: # (optional) provide structured metadata, to be displayed by the template
   - { key: location, value : Boston University }
   - { key: creation-date, value: 2018 }
   - { key: with, value: Dean Spade }
----
-```
-
-
-The following properties are specific to blog posts (`post` layout):
-
-```yaml
----
 related-images:                # (optional) filenames (excluding .jpg)
     - dean-spade-2015          # of one or more images saved in `src/images/blog`
 ---
@@ -120,11 +112,25 @@ sub-title: "Adjective Game"
 role: artist
 type: "artist's book"           # further organizational device, allows content within a sub-category to be grouped
 catalog-number: "000025-01"     # (optional)
+
+# Used mostly by Artworks
+medium: "book board, fabric"
+dims: {width: 11, height: 8.5, depth: 0}
+year: ND                        
+description: "Passage from Proust on three hinged boards with orange and green handmade papers, and repositionable, velcro-backed adjectives."
+# (description is optional)
+
+# Used mostly by Exhibitions
+exhibition-location: "Cedar Creek Gallery, Durham, NC"    # (optional)
+exhibition-date: 2000                                     # (optional)
+
+# Used mostly by Articles
 pub-date: 1997
 in:
     - description:  journal
       publication:  Social Text
       issue:        52/53, Vol. 15, Nos. 3 and 4
+      location:     Durham, NC
       date:         Autumn-Winter, 1997
       editors:
         - Phillip Brian Harper
@@ -135,38 +141,6 @@ index-desc: 'Response to C. Jacob Hale's "Leatherdyke Boys and Their Daddies - H
 # (index-desc is optional.) appears on category listing page if defined)
 ---
 ```
-
-The following properties are used by artworks and exhibitions (`work` layout):
-
-```yaml
----
-medium: "book board, fabric"
-dims: {width: 11, height: 8.5, depth: 0}
-year: ND                        
-description: "Passage from Proust on three hinged boards with orange and green handmade papers, and repositionable, velcro-backed adjectives."
-# (description is optional)
-exhibition-location: "Cedar Creek Gallery, Durham, NC"    # (optional)
-exhibition-date: 2000                                     # (optional)
----
-```
-
-The following properties are used by articles (`work` layout):
-
-```yaml
----
-editor:
-pub-date: 1996
-in:
-    - description:  book
-      editors:      Eve Kosofsky Sedgwick
-      publication:  "<i>Gary in Your Pocket: Stories and Notebooks of Gary Fisher</i>"
-      publisher:    Duke University Press
-      location:     Durham, NC
-      date:         1996
----
-```
-
-
 
 #### One-off Pages
 It doesn't make sense to build a template for information pages that don't need to be listed or categorized. In these cases, prefer to add a `.textile` or `.html` file directly in the `src` dir. See `index.html` `about.textile`, or `foundation.textile` for working examples. Pages added in this way will have a default url generated based on their filename. Note that these pages should *not* use the timestamp-title filename format described above for posts. Use `layout: base` to ensure the page is styled correctly.
