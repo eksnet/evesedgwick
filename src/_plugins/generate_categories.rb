@@ -123,6 +123,7 @@ module Jekyll
     priority :low
 
     def generate(site)
+      puts "entering generate TYPES with #{site}"
       site.write_category_indexes
     end
 

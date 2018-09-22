@@ -138,6 +138,7 @@ module Jekyll
       payload = orig_site_payload
       # Custom collections
       payload['site']['sub-categories'] = self.collect_by_attribute('sub-category', self.posts.docs)
+      payload['site']['types'] = self.collect_by_attribute('type', self.posts.docs)
       payload['site']['navs'] = self.collect_by_attribute('nav', self.posts.docs)
       payload['site']['navs_by_tag'] = self.collect_by_attribute('nav', self.posts.docs).inject({}) { |m, (sub, posts)| m[sub] = self.collect_tags(posts); m }
       payload['site']['albums'] = self.collect_albums(self.posts.docs)

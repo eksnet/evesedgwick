@@ -6,17 +6,17 @@
 # Copyright (c) 2010 Dave Perrett, http://recursive-design.com/
 # Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
 #
-# A generator that creates tag pages for jekyll sites. 
+# A generator that creates tag pages for jekyll sites.
 #
-# To use it, simply drop this script into the _plugins directory of your Jekyll site. You should 
-# also create a file called 'tag_index.html' in the _layouts directory of your jekyll site 
+# To use it, simply drop this script into the _plugins directory of your Jekyll site. You should
+# also create a file called 'tag_index.html' in the _layouts directory of your jekyll site
 # with the following contents (note: you should remove the leading '# ' characters):
 #
 # ================================== COPY BELOW THIS LINE ==================================
 # ---
 # layout: default
 # ---
-# 
+#
 # <h1 class="tag">{{ page.title }}</h1>
 # <ul class="posts">
 # {% for post in site.tags[page.tag] %}
@@ -26,12 +26,12 @@
 # {% endfor %}
 # </ul>
 # ================================== COPY ABOVE THIS LINE ==================================
-# 
-# You can alter the _layout_ setting if you wish to use an alternate layout, and obviously you
-# can change the HTML above as you see fit. 
 #
-# When you compile your jekyll site, this plugin will loop through the list of tags in your 
-# site, and use the layout above to generate a page for each one with a list of links to the 
+# You can alter the _layout_ setting if you wish to use an alternate layout, and obviously you
+# can change the HTML above as you see fit.
+#
+# When you compile your jekyll site, this plugin will loop through the list of tags in your
+# site, and use the layout above to generate a page for each one with a list of links to the
 # individual posts.
 #
 # Included filters :
@@ -40,14 +40,14 @@
 #
 # Available _config.yml settings :
 # - tag_dir:          The subfolder to build tag pages in (default is 'tags').
-# - tag_title_prefix: The string used before the tag name in the page title (default is 
+# - tag_title_prefix: The string used before the tag name in the page title (default is
 #                          'Tag: ').
 module Jekyll
-  
-  
+
+
   # The TagIndex class creates a single tag page for the specified tag.
   class TagIndex < Page
-    
+
     # Initializes a new TagIndex.
     #
     #  +base+         is the String path to the <source>.
@@ -69,14 +69,14 @@ module Jekyll
       meta_description_prefix  = site.config['tag_meta_description_prefix'] || ''
       self.data['description'] = "#{meta_description_prefix}#{tag}"
     end
-    
+
   end
-  
-  
+
+
   # The Site class is a built-in Jekyll class with access to global site config information.
   class Site
-    
-    # Creates an instance of TagIndex for each tag page, renders it, and 
+
+    # Creates an instance of TagIndex for each tag page, renders it, and
     # writes the output to a file.
     #
     #  +tag_dir+ is the String path to the tag folder.
@@ -88,24 +88,24 @@ module Jekyll
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
       self.pages << index
     end
-    
+
     # Loops through the list of tag pages and processes each one.
     def write_tag_indexes
       if self.layouts.key? 'tag_index'
-        dir = self.config['tag_dir'] || '/'
+        dir = self.config['tag_dir'] || 'tags'
         self.tags.keys.each do |tag|
           self.write_tag_index(File.join(dir, tag), tag)
         end
-        
+
       # Throw an exception if the layout couldn't be found.
       else
         throw "No 'tag_index' layout found."
       end
     end
-    
+
   end
-  
-  
+
+
   # Jekyll hook - the generate method is called by jekyll, and generates all of the tag pages.
   class GenerateTags < Generator
     safe true
@@ -117,5 +117,5 @@ module Jekyll
     end
 
   end
-  
+
 end

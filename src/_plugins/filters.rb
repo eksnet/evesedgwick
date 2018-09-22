@@ -23,9 +23,12 @@ module Jekyll
     #
     # Returns string
     def tag_links(tags)
+      unless tags.respond_to?('each')
+        return ''
+      end
       tags = tags.sort!.map do |item|
         if item
-          '<a href="/'+item+'/">'+item.upcase+'</a>'
+          '<a href="/tags/'+item+'/">'+item.upcase+'</a>'
         end
       end
 
@@ -40,6 +43,15 @@ module Jekyll
       else
         "#{tags[0...-1].join(', ')}, #{connector} #{tags[-1]}"
       end
+    end
+
+    # Outputs a link to the specified post type.
+    #
+    # +type+ is a string
+    #
+    # Returns string
+    def type_link(type)
+      type ? "<a href='/types/#{type}'>#{type.upcase}</a>" : ''
     end
 
     # Outputs a list of categories as comma-separated <a> links. This is used

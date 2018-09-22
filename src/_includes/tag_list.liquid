@@ -5,7 +5,7 @@
     <li>RELATED TOPICS:</li>
     {% for tag in tags %}
       {% assign tagname = tag[0] %}
-      <li><a href="/{{tagname}}">{{ tagname | upcase }}</a></li>
+      <li><a href="/tags/{{tagname}}">{{ tagname | upcase }}</a></li>
     {% endfor %}
   </ul>
 {% endif %}
