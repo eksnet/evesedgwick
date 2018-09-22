@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -15,7 +15,7 @@ in:
     - description:  book
       editors: Jennifer Doyle, Jonathan Flatley, and José Esteban Muñoz
       publication:  "Pop Out: Queer Warhol"
-      issue:        
+      issue:
       publisher:    Duke University Press
       location:     Durham
       date:         1996
@@ -23,9 +23,6 @@ in:
 
 index-desc: In this chapter from a collection of essays on queer Warhol, Sedgwick locates interconnections between queer shame and blushing; white and translucent skin; race and racism; browness, Hershey’s chocolate and the “Hershey highway;” and ways that the experience of being a queer child can manifest in adulthood. Sedgwick also observes that “the shame-delineated place of identity doesn’t determine the consistency or meaning of that identity, and race, gender, class, sexuality, appearance, and abledness are only a few of the defining social constructions that will crystalize there.”
 
-description: In this chapter from a collection of essays on queer Warhol, Sedgwick locates interconnections between queer shame and blushing; white and translucent skin; race and racism; browness, Hershey’s chocolate and the “Hershey highway;” and ways that the experience of being a queer child can manifest in adulthood. Sedgwick also observes that “the shame-delineated place of identity doesn’t determine the consistency or meaning of that identity, and race, gender, class, sexuality, appearance, and abledness are only a few of the defining social constructions that will crystalize there.”
-      
-        
 ---
 
 In this chapter from a collection of essays on queer Warhol, Sedgwick locates interconnections between queer shame and blushing; white and translucent skin; race and racism; browness, Hershey’s chocolate and the “Hershey highway;” and ways that the experience of being a queer child can manifest in adulthood. Sedgwick also observes that “the shame-delineated place of identity doesn’t determine the consistency or meaning of that identity, and race, gender, class, sexuality, appearance, and abledness are only a few of the defining social constructions that will crystalize there.”

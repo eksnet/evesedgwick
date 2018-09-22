@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -31,7 +31,7 @@ urls:
 
 <i>From the introduction to Novel Gazing</i>
 
-<i>Novel Gazing: Queer Readings in Fiction</i> came together unprogrammatically.  Invited by the journal <i>Studies in the Novel</i> to edit a special issue, I asked forty or so writers I admire whether they could find room on their agendas to write something  that would, loosely speaking, convene the rubrics "novel" and "queer." I felt more than fortunate in the response, when these startlingly imaginative essays started tumbling in at a rate that soon overfilled the journal -- and didn't slow down even then. 
+<i>Novel Gazing: Queer Readings in Fiction</i> came together unprogrammatically.  Invited by the journal <i>Studies in the Novel</i> to edit a special issue, I asked forty or so writers I admire whether they could find room on their agendas to write something  that would, loosely speaking, convene the rubrics "novel" and "queer." I felt more than fortunate in the response, when these startlingly imaginative essays started tumbling in at a rate that soon overfilled the journal -- and didn't slow down even then.
 
 
 
@@ -48,7 +48,7 @@ CONTENTS
 “Strange Brothers” / Jonathan Goldberg
 “Strange Gourmet: Taste, Waste, Proust” / Joseph Litvak
 “The Importance of Being Bored: The Dividends of Ennui in <i>The Picture of Dorian Gray</i>” / Jeff Nunokawa
-“Tearing the Goat’s Flesh: Homosexuality, Abjection and the Production of a Late-Twentieth-Century Black Masculinity / Robert Reid-Pharr 
+“Tearing the Goat’s Flesh: Homosexuality, Abjection and the Production of a Late-Twentieth-Century Black Masculinity / Robert Reid-Pharr
 “The Female World of Exorcism and Displacement (or, Relations Between Women in Henry James’s Nineteenth-Century <i>The Portrait of a Lady</i>) / Melissa Solomon
-“‘Sinister Fruitiness’: <i>Neuromancer</i>, Internet Sexuality and the Turing Test” / Tyler Stevens 
+“‘Sinister Fruitiness’: <i>Neuromancer</i>, Internet Sexuality and the Turing Test” / Tyler Stevens
 “Prophylactics and Brains: <i>Beloved</i> in the Cybernetic Age of Aids” / Kathryn Bond Stockton

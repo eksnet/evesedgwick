@@ -1,5 +1,5 @@
 ---
-layout: artwork
+layout: work
 published: true
 nav: work
 category: art
@@ -19,6 +19,6 @@ description: "Bodhisattva Quan Yin and text from Proust in cyanotype on overlapp
 
 related_media:
     - {type: album, name: "000030-01"}
-   
+
 
 ---

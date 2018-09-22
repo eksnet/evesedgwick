@@ -51,7 +51,11 @@ module Jekyll
     #
     # Returns string
     def type_link(type)
+<<<<<<< HEAD
       type ? "<a href='/types/#{type}'>#{type.upcase}</a>" : ''
+=======
+      type ? "<a href='/#{type}'>#{type.upcase}</a>" : ''
+>>>>>>> 5197e939195d2f7b3329c6a47d19c3bd3469b49a
     end
 
     # Outputs a list of categories as comma-separated <a> links. This is used

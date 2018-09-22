@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -44,23 +44,23 @@ The essays range from Diderot, Oscar Wilde, and Henry James to queer kids and tw
 
 <b>Contents</b>
 
-Foreword: T Times 
-Queer and Now 
+Foreword: T Times
+Queer and Now
 
-<b>Queer Tutelage</b> 
-Privilege of Unknowing: Diderot's <i>The Nun</i> 
-Tales of the Avunculate: <i>The Importance of Being Earnest</i> 
-Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i> 
-Memorial for Craig Owens 
+<b>Queer Tutelage</b>
+Privilege of Unknowing: Diderot's <i>The Nun</i>
+Tales of the Avunculate: <i>The Importance of Being Earnest</i>
+Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i>
+Memorial for Craig Owens
 
-<b>Crossing of Discourses</b> 
-Jane Austen and the Masturbating Girl 
-Epidemics of the Will 
-Nationalisms and Sexualities 
-How to Bring Your Kids Up Gay: The War on Effeminate Boys 
+<b>Crossing of Discourses</b>
+Jane Austen and the Masturbating Girl
+Epidemics of the Will
+Nationalisms and Sexualities
+How to Bring Your Kids Up Gay: The War on Effeminate Boys
 
-<b>Across Genders, Across Sexualities</b> 
-Willa Cather and Others 
-A Poem Is Being Written 
-Divinity: A Dossier, A Performance Piece, A Little-Understood Emotion (written with Michael Moon) 
+<b>Across Genders, Across Sexualities</b>
+Willa Cather and Others
+A Poem Is Being Written
+Divinity: A Dossier, A Performance Piece, A Little-Understood Emotion (written with Michael Moon)
 White Glasses

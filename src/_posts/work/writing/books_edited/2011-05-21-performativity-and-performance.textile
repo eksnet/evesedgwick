@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -24,7 +24,7 @@ editions:
 
 urls:
     - { display: indiebound, url: "http://www.indiebound.org/book/9780415910552"}
-    
+
 meta:
     - {key: type,           value: document,            display-value: Type,        display: true}
     - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
@@ -56,7 +56,7 @@ Introduction: Performativity and Performance / Andrew Parker and Eve Kosofsky Se
 4 Traumatic Awakenings / Cathy Caruth
 5 Katharsis: The Ancient Problem / Andrew Ford
 6 The Play of Conscience / Stephen Orgel
-7 The Shudder of Catharsis in Twentieth-Century Performance / Elin Diamond 
+7 The Shudder of Catharsis in Twentieth-Century Performance / Elin Diamond
 8 Performativity and Spacial Distinction: The End of AIDS Epidemiology / Cindy Patton
 9 Burning Acts&#8212;Injurious Speech / Judith Butler
 

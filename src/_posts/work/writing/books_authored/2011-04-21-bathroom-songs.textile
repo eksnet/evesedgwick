@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -19,7 +19,7 @@ editions:
     - description:  none
       publisher:    punctum books
       location:     Earth, Milky Way
-      series:       
+      series:
       date:         2017
       binding:      paper and ePDF
       isbn:         978-1-974-447-30-1 print, 978-1-974-447-31-8 ePDF
@@ -44,13 +44,13 @@ Introduction: Bathroom Songs? Eve Kosofsky Sedgwick as a Poet / Jason Edwards
 Look with Your Hands / Angus Connell Brown
 The Abject Animal Poetics of ‘The Warm Decembers’ / Ben Westwood
 Eve’s Muse / Kathryn R. Kent
-‘Shyly / as a big sister I would yearn / to trace its avocations’, 
+‘Shyly / as a big sister I would yearn / to trace its avocations’,
 or, Who’s the Muse? / Mary Baine Campbell
 Queer Therapy: On the Couch with Eve Kosofsky Sedgwick / Monica Pearl
 Waiting in the Dark: Some Musings on Sedgwick’s Performative(s) / Meg Boulton
 
 <b><i>Part II. The Uncollected Poems</i></b>
-Introduction: Someday We’ll Look Back with Pleasure Even on This: 
+Introduction: Someday We’ll Look Back with Pleasure Even on This:
 Sedgwick’s Uncollected Poems / Jason Edwards
 
 <b><i>Poems</i></b>

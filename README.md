@@ -77,7 +77,7 @@ title: "March 29, 2018: Dean Spade will present the Eighth Annual Eve Kosofsky S
 ---
 ```
 
-The following properties are used by layouts: `article`, `artwork`, `biography`, `book`, `document`, `exhibition`, `image`, `resource`:
+The following properties are used by layouts: `image`, `resource`, `work`:
 
 ```yaml
 ---
@@ -90,7 +90,7 @@ related_media:                          # (optional) names of albums to include
 ---
 ```
 
-The following properties are used by layouts: `article`, `artwork`, `biography`, `document`, `exhibition`, and `post`:
+The following properties are used by layouts `post` and `work`:
 
 ```yaml
 ---
@@ -111,7 +111,7 @@ related-images:                # (optional) filenames (excluding .jpg)
 ---
 ```
 
-The following properties are specific to archive items ( `artwork` `article`, `exhibition` layout):
+The following properties are specific to work items (`work` layout):
 
 ```yaml
 ---
@@ -120,15 +120,6 @@ sub-title: "Adjective Game"
 role: artist
 type: "artist's book"           # further organizational device, allows content within a sub-category to be grouped
 catalog-number: "000025-01"     # (optional)
-index-desc: 'Response to C. Jacob Hale's "Leatherdyke Boys and Their Daddies - How to Have Sex Without Women or Men," published in the same special issue of <i>Social Text</i>. Sedgwick writes that Hale's paper begins "the project of articulating subjectivities that purposefully move across the boundaries of gender.''
-# (index-desc is optional.) appears on category listing page if defined)
----
-```
-
-The following properties are specific to articles (`article` layout):
-
-```yaml
----
 pub-date: 1997
 in:
     - description:  journal
@@ -140,11 +131,12 @@ in:
         - Anne McClintock,
         - José Esteban Muñoz
         - Trish Rosen
+index-desc: 'Response to C. Jacob Hale's "Leatherdyke Boys and Their Daddies - How to Have Sex Without Women or Men," published in the same special issue of <i>Social Text</i>. Sedgwick writes that Hale's paper begins "the project of articulating subjectivities that purposefully move across the boundaries of gender.''
+# (index-desc is optional.) appears on category listing page if defined)
 ---
 ```
 
-
-The following properties are used by artworks only (`artwork` layout):
+The following properties are used by artworks and exhibitions (`work` layout):
 
 ```yaml
 ---
@@ -153,19 +145,12 @@ dims: {width: 11, height: 8.5, depth: 0}
 year: ND                        
 description: "Passage from Proust on three hinged boards with orange and green handmade papers, and repositionable, velcro-backed adjectives."
 # (description is optional)
+exhibition-location: "Cedar Creek Gallery, Durham, NC"    # (optional)
+exhibition-date: 2000                                     # (optional)
 ---
 ```
 
-The following properties are used by exhibitions only (`exhibition` layout):
-
-```yaml
----
-exhibition-location: "Cedar Creek Gallery, Durham, NC"
-exhibition-date: 2000
----
-```
-
-The following properties are used by articles only (`article` layout):
+The following properties are used by articles (`work` layout):
 
 ```yaml
 ---

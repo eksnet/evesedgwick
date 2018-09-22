@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -15,11 +15,9 @@ in:
     - description:  journal
       publication:  Amherst
       date:         Winter, l985
-      
+
 index-desc: In this address, given as part of a “Forum on Diversity” at Amherst College, Sedgwick makes use of the history of the campus statue known as Sabrina to discuss the status of women at the formerly male-only school. The one resident female on campus for most of the college’s history, Sabrina had long been the subject of pranks and ill treatment. In contrast to Sabrina’s mute suffering, Sedgwick advises, “women, feel anger. Think about what to do with anger…. <i>Write it</i>…[and] women, learn how to weep without stopping talking.”
 
-description: In this address, given as part of a “Forum on Diversity” at Amherst College, Sedgwick makes use of the history of the campus statue known as Sabrina to discuss the status of women at the formerly male-only school. The one resident female on campus for most of the college’s history, Sabrina had long been the subject of pranks and ill treatment. In contrast to Sabrina’s mute suffering, Sedgwick advises, “women, feel anger. Think about what to do with anger…. <i>Write it</i>…[and] women, learn how to weep without stopping talking.”
-  
 ---
 
 

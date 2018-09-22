@@ -1,5 +1,5 @@
 ---
-layout: book
+layout: work
 published: true
 nav: work
 category: writing
@@ -48,5 +48,5 @@ Introduction
 
 Chapter 1. &nbsp;&nbsp;The Structure of Gothic Conventions
 Chapter 2. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
-Chapter 3. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i> 
+Chapter 3. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i>
 Chapter 4. &nbsp;&nbsp;The Character in the Veil: Imagery of the Surface in the Gothic Novel

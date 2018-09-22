@@ -1,5 +1,5 @@
-x---
-layout: artwork
+---
+layout: work
 published: true
 nav: work
 category: art
@@ -19,6 +19,6 @@ description: "Collection of four assemblages of variously colored and textured f
 
 related_media:
     - {type: album, name: "quilted squares"}
-   
+
 
 ---

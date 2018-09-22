@@ -1,11 +1,11 @@
 ---
-layout: artwork
+layout: work
 published: true
 nav: work
 category: art
 sub-category: "artworks"
 type: "collage"
-tags: 
+tags:
 
 title: "Fabric/hanging"
 sub-title: "Untitled (Prayer flag 2)"

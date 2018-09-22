@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: work
 published: true
 nav: work
 category: writing
@@ -17,11 +17,9 @@ in:
     - description:  journal
       publication:  The Chronicle of Higher Education
       date:         "January 16, 2004"
-  
-index-desc: HBO’s <i>The L Word</i> was touted as a major disruption of lesbian stereotypes as well as a trojan horse of girl-on-girl action for the enlightenment of male heterosexual viewers. However, in this review Sedgwick finds that if it is “as bold and daring as claimed," <i>The L Word</i>'s "novelty does not lie in either a demographic coup or a startling use of the medium.”  Rather, Sedgwick praises the program for less radical virtues, and anticipates that its audience will consist of women and men, gay and not, “who enjoy smart and well-made domestic drama, psychological and relationship-based, low on violence, criminality, and sensation.”
 
-description: HBO’s <i>The L Word</i> was touted as a major disruption of lesbian stereotypes as well as a trojan horse of girl-on-girl action for the enlightenment of male heterosexual viewers. However, in this review Sedgwick finds that if it is “as bold and daring as claimed," <i>The L Word</i>'s "novelty does not lie in either a demographic coup or a startling use of the medium.”  Rather, Sedgwick praises the program for less radical virtues, and anticipates that its audience will consist of women and men, gay and not, “who enjoy smart and well-made domestic drama, psychological and relationship-based, low on violence, criminality, and sensation.”
+index-desc: HBO’s <i>The L Word</i> was touted as a major disruption of lesbian stereotypes as well as a trojan horse of girl-on-girl action for the enlightenment of male heterosexual viewers. However, in this review Sedgwick finds that if it is “as bold and daring as claimed," <i>The L Word</i>'s "novelty does not lie in either a demographic coup or a startling use of the medium.”  Rather, Sedgwick praises the program for less radical virtues, and anticipates that its audience will consist of women and men, gay and not, “who enjoy smart and well-made domestic drama, psychological and relationship-based, low on violence, criminality, and sensation.”
 
 ---
 
-HBO’s <i>The L Word</i> was touted as a major disruption of lesbian stereotypes as well as a trojan horse of girl-on-girl action for the enlightenment of male heterosexual viewers. However, in this review Sedgwick finds that if it is “as bold and daring as claimed," <i>The L Word</i>'s "novelty does not lie in either a demographic coup or a startling use of the medium.”  Rather, Sedgwick praises the program for less radical virtues, and anticipates that its audience will consist of women and men, gay and not, “who enjoy smart and well-made domestic drama, psychological and relationship-based, low on violence, criminality, and sensation.” 
+HBO’s <i>The L Word</i> was touted as a major disruption of lesbian stereotypes as well as a trojan horse of girl-on-girl action for the enlightenment of male heterosexual viewers. However, in this review Sedgwick finds that if it is “as bold and daring as claimed," <i>The L Word</i>'s "novelty does not lie in either a demographic coup or a startling use of the medium.”  Rather, Sedgwick praises the program for less radical virtues, and anticipates that its audience will consist of women and men, gay and not, “who enjoy smart and well-made domestic drama, psychological and relationship-based, low on violence, criminality, and sensation.”
