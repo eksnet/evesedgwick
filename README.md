@@ -1,6 +1,6 @@
 # [evekosofskysedgwick.net](evekosofskysedgwick.net)
 
-This is the source code for the Jekyll project that generates the EKS website. If you are not familiar with how Jekyll works, it would be a good idea to familiarize yourself with the [docs](https://jekyllrb.com/docs/home/).
+This is the source code for the Jekyll project that generates the EKS website. If you are not familiar with how Jekyll works, you can find documentation on [the project website](https://jekyllrb.com/docs/home/).
 
 ## Table of Contents
  1. [Environment](#environment)
