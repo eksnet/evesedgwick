@@ -38,7 +38,8 @@ You can run Jekyll locally as a development server. Which is what you'll want to
 
 ```
 jekyll serve
-## wait a few seconds, then check out your dev site at http://localhost:4000
+
+# wait about 10 seconds, then check out your dev site at http://localhost:4000
 ```
 
 You can also ask Jekyll to generate static assets. This happens automatically during deployment, so you really only need to do this if you are debugging a broken build.
