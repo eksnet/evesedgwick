@@ -1,7 +1,7 @@
 ruby '2.5.1'
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>3.8.3'
+gem 'jekyll', '~>3.8.4'
 gem 'nokogiri', '~> 1.7'
 gem 'json', '~> 2.0'
 gem 'execjs', '~> 2.7'
