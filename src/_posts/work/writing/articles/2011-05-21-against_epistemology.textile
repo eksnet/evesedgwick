@@ -1,0 +1,26 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: Against Epistemology
+pub-date: 1994
+
+in:
+    - description:  book
+      editors: James Chandler, Arnold I. Davidson, and Harry Harootunian
+      publication:  Questions of Evidence
+      publisher:    University of Chicago Press
+      location:     Chicago
+      date:         1994
+
+index-desc: Sedgwick considers Terry Castle's essay in the same volume, "Contagious Folly - <i>An Adventure</i> and Its Skeptics," as offering alternatives to "the lesbian eradicating options of credulous versus crazy." Instead, the Castle opens the question, "what kind of <i>act</i> was it...to write <i>and publish</i> this...claim made for a place in public history...of their subjectivities?" In the wake of the Rodney King verdict and the pre-publication assessments of "Jane Austen and the Masturbating Girl," Sedgwick seeks to "de-emphasize the epistemology of evidence and instead stress its erotics."
+
+
+---
+
+Sedgwick considers Terry Castle's essay in the same volume, "Contagious Folly - <i>An Adventure</i> and Its Skeptics," as offering alternatives to "the lesbian eradicating options of credulous versus crazy." Instead, the Castle opens the question, "what kind of <i>act</i> was it...to write <i>and publish</i> this...claim made for a place in public history...of their subjectivities?" In the wake of the Rodney King verdict and the pre-publication assessments of "Jane Austen and the Masturbating Girl," Sedgwick seeks to "de-emphasize the epistemology of evidence and instead stress its erotics."

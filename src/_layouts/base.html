@@ -1,0 +1,27 @@
+{% include head.html %}
+<body>
+    <div id='container'>
+        <header>
+          <a href='/'><h1>EVE KOSOFSKY SEDGWICK</h1></a>
+          <ul id='nav' class="nav">
+              <li><a href="/about">ABOUT</a></li>
+              <li><a href="/biography/biography.html">LIFE</a></li>
+              <li><a href="/work">WORK</a></li>
+              <li><a href="/commentary">COMMENTARY</a></li>
+              <li><a href="/foundation">FOUNDATION</a></li>
+              <li><a href="/blog/page1">BLOG</a></li>
+          </ul>
+        </header>
+        <div id='wrap'>
+          {% if page['full-width'] %}
+            {{ content }}
+          {% else %}
+            <section id='main'>
+              {{ content }}
+            </section>
+          {% endif %}
+        </div>
+        {% include foot.html %}
+    </div>
+</body>
+</html>

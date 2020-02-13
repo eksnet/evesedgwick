@@ -1,0 +1,11 @@
+{% assign index = page[include.param] %}
+{% assign tags = site[include.collection][index] %}
+{% if tags.size > 0 %}
+  <ul class="nav" id="sub-nav">
+    <li>RELATED TOPICS:</li>
+    {% for tag in tags %}
+      {% assign tagname = tag[0] %}
+      <li><a href="/tags/{{tagname}}">{{ tagname | upcase }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

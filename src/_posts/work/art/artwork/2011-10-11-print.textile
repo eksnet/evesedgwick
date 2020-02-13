@@ -1,0 +1,22 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "collage"
+
+title: "Paper/print"
+sub-title: "Untitled (Print)"
+year: ND
+medium: "laser print on paper, stamp"
+dims: {width: 8.5, height: 11, depth: 0}
+catalog-number: "obj000076-01"
+
+index_img: print_thumb.jpg
+description: "Laser print of section of brown, blue and gray shibori and suminagashi dyed fabric, framed in white with red chop/seal overlapping one corner."
+
+related_media:
+    - {type: album, name: "print"}
+
+---

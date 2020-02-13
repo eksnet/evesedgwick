@@ -1,12 +1,18 @@
-ruby '2.3.4'
+ruby '2.5.1'
 source 'https://rubygems.org'
 
-gem 'jekyll', '~>0.12.1'
+gem 'jekyll', '~>3.8.3'
+gem 'nokogiri', '~> 1.7'
+gem 'json', '~> 2.0'
+gem 'execjs', '~> 2.7'
+gem 'uglifier', '~> 3.0'
 
 group :jekyll_plugins do
   gem 'RedCloth', '~>4.2'
-  gem 'linguistics', '~>1.0.9'
-  gem 'haml', '~>3.1.1'
-  gem 'sass', '~>3.1.1'
+  gem 'linguistics', '~>2.1.0'
+  gem 'jekyll-watch', '~>2.0.0'
+  gem 'jekyll-textile-converter', '~>0.1.0'
+  gem 'jekyll-assets', '~>3.0.11'
+  gem 'haml', '~>5.0.4'
+  gem 'sass', '~>3.5.7'
 end
-

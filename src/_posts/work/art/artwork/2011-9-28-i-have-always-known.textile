@@ -1,0 +1,22 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: "Fabric/hanging"
+sub-title: "Untitled (I have always known)"
+year: ND
+medium: "text, shibori, silk"
+dims: {width: 36, height: 48, depth: 0}
+catalog-number: "obj000071-01"
+
+index_img: i-have-always-known_thumb.jpg
+description: "Text of death poem by Ariwara no Narihira on overlapping strips of suminagashi dyed fabric."
+
+related_media:
+    - {type: album, name: "always-known"}
+
+---

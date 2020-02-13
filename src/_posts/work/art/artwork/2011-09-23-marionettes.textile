@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "collage"
+tags: "proust"
+
+title: "Collage"
+sub-title: "Untitled (Marionettes)"
+year: ND
+medium: "book board, text, paper, paper dolls"
+dims: {width: 8.5, height: 19, depth: 0}
+catalog-number: "000027-01"
+
+index_img: marionettes_thumb.jpg
+description: "Articulated human figures made of hand-colored papers. Mounted on overlapping colored papers. Individual figures and background have text from Proust."
+
+related_media:
+    - {type: album, name: "000027-01"}
+
+---

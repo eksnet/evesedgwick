@@ -1,0 +1,25 @@
+---
+layout: base
+published: true
+---
+<section class="homepage-slideshow fadein">
+  {% for image in site.index_images %}
+    <img src='/images/index/{{ image }}' width='622' height='405'>
+  {% endfor %}
+</section>
+<p class='intro' style=''>
+  What I'm proudest of, I guess, is having a life where work and love are impossible to tell apart.<br><span style='float:right;'>- Eve Kosofsky Sedgwick</span>
+</p>
+<div class='marginalindex'>
+	<p><i>Welcome to the Eve Kosofsky Sedgwick website!</i></p>
+	<p>Eve Kosofsky Sedgwick (1950-2009) was a poet, artist, literary critic and teacher. She is perhaps best known as one of the originators of Queer Theory. Her work and her example continue to have a significant effect in shaping the lives and thought of many people.</p>
+	<p>This website offers an introduction to Sedgwick’s <a href="/biography/biography.html">Life</a> and <a href="/work/">Work</a>. Our <a href="/commentary/">Commentary</a> section includes papers and videos from several conferences about her work, as well as links to commentaries external to our website. The <a href="/blog/page1">Blog</a> carries news about relevant events and publications. </p>
+	<p>More information, including how to contact us, is in our <a href="/about/about.html">About</a> section.
+	<i>We would love to hear from you!</i></p>
+</div>
+<script>
+  $(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){$('.fadein :first-child').fadeOut('{{ site.index_image_transition }}').next('img').fadeIn('{{ site.index_image_transition }}').end().appendTo('.fadein');}, {{ site.index_image_duration }});
+  });
+</script>

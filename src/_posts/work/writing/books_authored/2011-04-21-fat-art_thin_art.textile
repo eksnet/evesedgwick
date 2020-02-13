@@ -1,0 +1,85 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+
+type: book
+role: author
+with:
+title: "Fat Art, Thin Art"
+pub-date: 1994
+index_img: Fat-Art-Thin-Art_index.jpg
+full_left_img: Fat-Art-Thin-Art_full-left.jpg
+
+description: none
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     Durham, N.C.
+      series:       Gender and Culture Series
+      date:         1994
+      binding:      cloth and paper
+      isbn:         9780822315124
+
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822315124"}
+
+---
+
+"_Fat Art, Thin Art_ is a wrenchingly honest account – or enactment – of a writer’s relation to her gift ... filled with hesitations, self-cancellations, erasures, and gratifying fireworks. The pleasure of _Fat Art, Thin Art_ is witnessing Sedgwick discovering, again and again, the wonders – gorgeous shames and vindications – of what she can say." –??Wayne Koestenbaum??
+
+"Reading _Fat Art, Thin Art_ is a thrilling experience. The publication of these poems will help to complete our picture of Eve Kosofsky Sedgwick who, already recognized as one of the most extraordinary critics of her generation, now proves herself one of its truly innovative poets." –??Maud Ellmann??
+
+"This is poetry of a great soul which presents to mind shapely and unmistakable presences brought very close to the eye. _Fat Art, Thin Art_ is a work of poetic distinction and indispensable human use." –??Allen Grossman??
+
+<b>Contents</b>
+
+<b>I</b>
+"Who fed this muse?"
+Joy. He's himself today! He knows me!
+"Grave, never offering back the face of my dear"
+"Guys who were 35 last year are 70 this year"
+The Navajo Rug
+A Vigil
+The Use of Being Fat
+"For years it drove me crazy"
+Performative (Toronto)
+Performative (San Francisco)
+"What I would be when I grew up"
+"Not like the clownish, friendly way you talk"
+Sh
+"I can tune my mind today"
+"All I know is I woke up thinking"
+Snapsh
+"Crushed. Dilapidated."
+The 58 1/2 Minute Hour
+How Not to Be There
+"Mobility, speech, sight"
+"A scar, just a scar"
+"When I got so sick it never occurred to me"
+"Little kid at the airport practicing"
+"In dreams they're interchangeable"
+Our
+"It seems there are two kinds of marriage"
+"One of us falls asleep on the other's shoulder"
+Not
+<i>Nicht Mehr Leben</i>
+"I'm safe so long as the single feather of our wing"
+"In dreams on which decades of marriage haven't"
+
+<b>II</b>
+Trace at 46
+An Essay on the Picture Plane
+Everything Always Distracts
+Sexual Hum
+Penn Central: New Haven Line
+Poet
+Sestina Lente
+
+<b>III</b>
+The Warm Decembers
+Note on "The Warm Decembers"

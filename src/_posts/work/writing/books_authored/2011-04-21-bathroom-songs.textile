@@ -1,0 +1,127 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+ed-note: Edited by Jason Edwards with specially commissioned essays
+role: author
+with:
+title: "Bathroom Songs - Eve Kosofsky Sedgwick as a Poet"
+pub-date: 2017
+index_img: Bathroom-songs_index.jpg
+full_left_img: Bathroom-songs_full_left.jpg
+
+description: none
+
+editions:
+    - description:  none
+      publisher:    punctum books
+      location:     Earth, Milky Way
+      series:
+      date:         2017
+      binding:      paper and ePDF
+      isbn:         978-1-974-447-30-1 print, 978-1-974-447-31-8 ePDF
+
+urls:
+    - { display: punctum books, url: "https://punctumbooks.com/titles/bathroom-songs-eve-kosofsky-sedgwick-as-a-poet"}
+
+---
+
+<i>Bathroom Songs: Eve Kosofsky Sedgwick as a Poet</i> is the first book of essays to consider the poetry of one of the twentieth- and early twenty-first-century’s most important literary, affect, and queer theorists. Acclaimed as one of the “truly innovative” poets of her generation by Maud Ellmann, Sedgwick’s work as a poet is, perhaps, less well known, but is no less compelling than her ground-breaking trilogy of queer theoretical texts: <i>Between Men: English Literature and Male Homosocial Desire, Epistemology of the Closet</i>, and <i>Tendencies</i>.
+
+The book includes seven specially commissioned essays considering Sedgwick’s published poetry and writing about poets, by Angus Brown, Meg Boulton, Mary Baine Campbell, Jason Edwards, Kathryn R. Kent, Monica Pearl, and Benjamin Westwood, that range across the complete range of Sedgwick’s work, from her earliest published lyrics through her first collection of poetry, <i>Fat Art, Thin Art</i>, to her part-haiku, part-prose autobiography, <i>A Dialogue on Love</i>, and beyond. In addition, the book contains over forty of Sedgwick’s previously uncollected poems, ranging from her earliest poem on T.E. Lawrence to her final poem ‘Death’, introduced and contextualized by Edwards.  - <i>From the jacket copy</i>
+
+<b>CONTENTS</b>
+
+Acknowledgments
+
+:::
+
+<b><i>Part I. Eve Kosofsky Sedgwick as a Poet</i></b>
+Introduction: Bathroom Songs? Eve Kosofsky Sedgwick as a Poet / Jason Edwards
+Look with Your Hands / Angus Connell Brown
+The Abject Animal Poetics of ‘The Warm Decembers’ / Ben Westwood
+Eve’s Muse / Kathryn R. Kent
+‘Shyly / as a big sister I would yearn / to trace its avocations’,
+or, Who’s the Muse? / Mary Baine Campbell
+Queer Therapy: On the Couch with Eve Kosofsky Sedgwick / Monica Pearl
+Waiting in the Dark: Some Musings on Sedgwick’s Performative(s) / Meg Boulton
+
+<b><i>Part II. The Uncollected Poems</i></b>
+Introduction: Someday We’ll Look Back with Pleasure Even on This:
+Sedgwick’s Uncollected Poems / Jason Edwards
+
+<b><i>Poems</i></b>
+
+<b>2006</b>
+Death
+Bathroom Song
+Forsan et haec olim meminisse juvabit
+
+<b>1988-1997</b>
+Pandas in Trees
+Untitled (Blake panda poems)
+Tru-Cut
+Valentine
+
+<b>1981</b>
+2/81
+
+<b>1974-1976</b>
+Lost Letter
+The Palimpsest
+Explicit
+Hank Williams and a Cat
+Jimmy Lane
+Jukebox
+
+<b>1971-1973</b>
+Die Sommernacht hat mir’s angetan
+Phantom Limb
+Two P.O.W. Suicides
+
+<b>1969-1971</b>
+Once There Was a Way to Get Back Homeward
+
+<b>1968-1969</b>
+The Ring of Fire
+The Prince of Love in the Desert Night
+Artery
+A Death by Water
+Yellow Toes
+Soutine
+Another Poem from the Creaking Bed
+Cain
+The City and Man
+Lullaby
+No More Dusk
+Ribs of Steel
+To a Friend
+When in Minute Script
+To a Swimmer
+Untitled (‘Wonder no more upon the mysteries’)
+From an Ending for "The Triumph of Life"
+
+<b>1967-1969</b>
+T.E. Lawrence and the Old Man, His Imagined Tormentor
+Movie Party, Telluride House, Ithaca, New York
+Falling in Love over <i>The Seven Pillars</i>
+Calling Overseas
+What the Poet Thought And What She Found in the Telluride Files:
+Epilogue: Teachers and Lovers
+The Last Poem of Yv*r W*nt*rs
+
+<b>1965-1967</b>
+Saul at Jeshimon [First Variant]
+Saul at Jeshimon [Second Variant]
+Siegfried Rex von Munthe, Soldier and Poet, Killed December, 1939, on the German Battleship Graf Spee
+
+<b>1964</b>
+Lawrence Reads <i>La Morte D’Arthur in the Desert</i>
+
+:::
+
+Bibliography
+Contributors

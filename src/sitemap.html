@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<div class='sitemap'>
+  <h2>SITE MAP</h2>
+
+  <div class='list tag-list'>
+    <h3>TAGS</h3>
+    <ul>
+    {% for tag in site.tags %}
+      {% assign tagname = tag[0] %}
+        <li><a href='/{{tagname}}'>{{ tagname | upcase }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  <div class='list cat-list'>
+    <h3>CATEGORIES</h3>
+    <ul>
+      {% for cat in site.categories_by_sub %}
+        {% assign catname = cat[0] %}
+        {% assign subs = cat[1] %}
+          <li>
+            <a href='/{{catname}}'>{{ catname | upcase }}</a>
+            <ul class='sub-list'>
+              {% for sub in subs %}
+                <li>{{ sub.name | sub_category_link: catname }}
+              {% endfor %}
+            </ul>
+          </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

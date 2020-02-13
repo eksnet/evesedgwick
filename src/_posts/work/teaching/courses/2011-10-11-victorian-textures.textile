@@ -1,0 +1,78 @@
+---
+layout: work
+published: true
+nav: work
+category: teaching
+sub-category: courses
+type: document
+title: "Victorian Textures"
+
+meta:
+    - {key: type, value: document, display-value: Type, display: true, sort: true}
+    - {key: title, value: Asian Encounters, display-value: Title, display: true, sort: false}
+    - {key: location, value: CUNY, display-value: Location, display: true, sort: true}
+    - {key: creation-date, value: none, display-value: Date, display: true, sort: false}
+
+description: none
+
+related_media:
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
+
+formats:
+    - {type: image, format: pdf, src: Queer-Performativity_pdf.pdf, public: true}
+    - {type: transcript, format: html}
+    - {type: text, format: txt, src: Queer-Performativity_ocr.txt, public: false}
+
+---
+
+
+	English 80200: Victorian Textures
+	Fall, 2001
+
+This seminar will undertake to analyze textures in British Victorian material and literary culture.  Our first and continuing project will be to arrive at some working definitions of "texture," including its relation to sight and touch, to scale, to structure and organization, to changing means and materials of production, to ornamentation, to sound, to colonial relations, to affects and sexualities, and to changing perceptual technologies.
+The readings of fiction and prose in the seminar will be aimed at developing a rich thematic sense of the textures of the material world of the Victorians, but simultaneously at understanding how the authors themselves use texture as a tool for gaining theoretical leverage on issues of history, class, imperial relations, spirituality, science and technology, gender and sexuality, labor and pleasure, and representation.  At the same time, the class will work on developing a vocabulary for the formal and phenomenological analysis of writerly texture itself.
+Authors read will include Ruskin, Eliot, Dickens, Morris, Somerville and Ross, and James, along with relevant critical work by Renu Bora and Carol Mavor.
+
+Handout:
+Bora, Renu, “Outing Texture,” from E.K. Sedgwick, ed., NOVEL GAZING: QUEER READINGS IN FICTION (Durham, N.C.: Duke U. Press, 1997)
+
+Books on order through GC-CUNY Virtual Bookshop (www.gc.cuny.edu/bookshop):
+Dickens, Charles.  OUR MUTUAL FRIEND.  Penguin paperback.  ISBN 0140430601
+Eliot, George.  THE LIFTED VEIL.  Virago (Penguin) paperback.  ISBN 0140161163
+Eliot, George.  SILAS MARNER.  Oxford World’s Classics paperback. ISBN 0192832107
+James, Henry.  THE SPOILS OF POYNTON.  Penguin paperback.  ISBN 0140432884
+Mavor, Carol.  PLEASURES TAKEN: PERFORMANCES OF SEXUALITY AND LOSS IN VICTORIAN PHOTOGRAPHS.   Duke Univ. Press paperback.  ISBN 0822316196
+Morris, William.  NEWS FROM NOWHERE AND OTHER WRITINGS.  Penguin paperback.  ISBN 0140433309
+Ruskin, John.  UNTO THIS LAST AND OTHER WRITINGS.  Penguin paperback.  ISBN 0140432116
+Somerville, E. OE., and Martin Ross.  THE REAL CHARLOTTE. J. S. Sanders & Co., PO Box 50331, Nashville, TN 37205. Paperback.  ISBN 1879941465
+
+Schedule of Meetings:
+
+August 28: Brief intro meeting
+Sept. 4: Renu Bora, “Outing Texture”(handout); John Ruskin, “The Nature of Gothic” and “The Work of Iron” (pp. 77-139 in UNTO THIS LAST collection)
+Sept. 11: George Eliot, THE LIFTED VEIL
+Sept. 18: NO CLASS (fall break)
+Sept. 25: George Eliot, SILAS MARNER, through Ch. IX (p. 72)
+Oct. 2: SILAS MARNER (finish)
+Oct. 9: NO CLASS (Monday schedule)
+Oct. 16: Charles Dickens, OUR MUTUAL FRIEND, Book I
+Oct. 23: OUR MUTUAL FRIEND, Book II
+Oct. 30: OUR MUTUAL FRIEND, Book III
+Nov. 6:  OUR MUTUAL FRIEND, Book IV
+Nov. 13: Carol Mavor, PLEASURES TAKEN
+Nov. 20: William Morris, NEWS FROM NOWHERE
+Nov. 27: Somerville and Ross, THE REAL CHARLOTTE, through Ch. 24 (p. 175)
+Dec. 4: THE REAL CHARLOTTE (finish)
+Dec. 11: Henry James, THE SPOILS OF POYNTON, through Ch. XI (p. 120)
+Dec. 18 (or makeup date to be arranged): THE SPOILS OF POYNTON (finish)
+FRIDAY, Dec. 21: All papers due
+
+
+Course Requirements:
+
+All auditors and enrolled students are required to
+(1) keep up with the reading on a weekly basis, and
+(2) speak in class at least once every week.
+Enrolled students are required to complete a mutually-agreed-on writing project.  Depending on where you are in your graduate work and what you want to use this class for, you have a variety of options for this project.  One possibility would be a reading journal, with weekly entries of  >5 pages recording your reflections on the current assignment, perhaps in relation to your other ongoing reading projects.  Or you might choose to write a full-dress (20-25 pp.) paper, which could be structured either around one or more of the texts studied, or around an encounter between another literary text and some of the material from this seminar.  Another possibility would be individual/small group research on some other aspect of Victorian textures.
+I expect you to consult with me substantively, early, and often about the nature and progress of your writing project.

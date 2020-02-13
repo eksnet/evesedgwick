@@ -1,0 +1,64 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+tags: proust
+ed-note: Edited by Jonathan Goldberg
+role: author
+with:
+title: The Weather in Proust
+sub-title:
+pub-date: 2011
+index_img: Weather-In-Proust_index.jpg
+full_left_img: Weather-In-Proust_full-left.jpg
+
+description:    none
+
+editions:
+    - description:  none
+      publisher:    Duke University Press
+      location:     Durham
+      series:       Series Q
+      date:         2011
+      binding:      Paperback
+      isbn:         9780822351580
+      pages:        240pp.
+      further_editions:
+
+
+urls:
+    - { display: amazon, url: "http://www.amazon.com/Weather-Proust-Eve-Kosofsky-Sedgwick/dp/0822351587"}
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780822351580"}
+    - { display: worldcat, url: "http://www.worldcat.org/title/weather-in-proust/oclc/741273595"}
+
+meta:
+    - {key: type,           value: document,            display-value: Type,        display: true}
+    - {key: title,          value: Asian Encounters,    display-value: Title,       display: true}
+    - {key: location,       value: CUNY,                display-value: Location,    display: true}
+    - {key: creation-date,  value: none,                display-value: Date,        display: true}
+
+---
+
+At the time of her death after a long battle with cancer, Eve Sedgwick had been working on a book on affect and Proust, and on the psychoanalyst Melanie Klein. This volume, edited by her friend and fellow-Series Q editor, Jonathan Goldberg, brings together a collection of her last work done since Duke's publication of <i>Touching Feeling</i>. In addition to her thoughts on affect, mind, Proust, and Klein, Sedgwick writes about Buddhism, her own artwork, and also looks back at her contributions to queer theory. Filled with luminous insight and Eve's singular prose, this will be the last book in Series Q.
+
+<b>Contents</b>
+
+<i>Editor's Introduction</i>
+
+The Weather in Proust
+Cavafy, Proust, and the Queer Little Gods
+Making Things, Practicing Emptiness
+Melanie Klein and the Difference Affect Makes
+Affect Theory and Theory of Mind
+
+Anality: News from the Front
+Making Gay Meanings
+Thinking through Queer Theory
+
+Reality and Realization
+
+<i>Figure Credits</i>
+<i>Index</i>

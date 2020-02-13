@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Book/hinged"
+sub-title: "Untitled"
+year: ND
+medium: "paper, yarn, cardboard"
+dims: {width:  , height:  , depth: tbd}
+catalog-number: "obj000103-01"
+
+index_img: pic000202_thumb.jpg
+
+description: "Weaving on stiff board base with translucent pages and text from Proust; white, lavender and orange yarns."
+
+related_media:
+    - {type: album, name: "alb000101"}
+
+---

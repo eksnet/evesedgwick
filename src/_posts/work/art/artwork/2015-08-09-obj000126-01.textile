@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "collage"
+
+title: "Collage/photo"
+sub-title: "Days of 1988 (summer)"
+year: ND
+medium: "photographic prints on cardboard"
+dims: {width: , height: , depth: }
+catalog-number: "000126-01"
+
+index_img: pic000229_thumb.jpg
+
+description: "Photocollage including images of Eve Sedgwick, Mary Russo, Hal Sedgwick and Dan Warner outdoors by Eve’s house on 24 Lincoln Ave, Amherst."
+
+related_media:
+    - {type: album, name: "alb000126"}
+
+---

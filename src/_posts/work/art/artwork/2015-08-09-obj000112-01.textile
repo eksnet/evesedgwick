@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000112-01"
+
+index_img: pic000215_thumb.jpg
+
+description: "Handmade material in black, pink, white and lavender with red accents and x-ray-like image in blue of human torso."
+
+related_media:
+    - {type: album, name: "alb000112"}
+
+---

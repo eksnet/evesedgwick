@@ -1,0 +1,780 @@
+@import 'variables';
+@import 'utilities';
+
+@mixin bottom-border {
+  border-bottom:1px solid $dark;
+}
+
+@mixin top-border {
+  border-top:1px solid $dark;
+}
+// box-sizing reset https://css-tricks.com/box-sizing/
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+iframe, form, fieldset, abbr, acronym, object, applet, table, ul, ol, dir, menu, a, img {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  list-style: none;
+}
+header, footer, section, article {
+  display: block;
+}
+html, body {
+  font-family: Georgia, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 13px;
+  color: #000;
+  background-color: transparent;
+  margin: 0px;
+  padding: 0px;
+  vertical-align:baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin:0px;
+  padding:0px;
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span {
+  font-weight:normal;
+}
+h1 {
+  font-size:20px;
+  line-height:20px;
+  padding:10px 0px 6px;
+}
+h2 {
+  font-size:20px;
+  line-height:20px;
+  padding:6px 0px;
+  margin:0px;
+  @include bottom-border;
+}
+h3 {
+  font-size:20px;
+  line-height:28px;
+  padding:0px;
+  margin:6px 0px 8px;
+}
+h4 {
+  font-size:16px;
+  line-height:24px;
+  color:$black;
+  margin-bottom:12px;
+}
+h5 {
+  font-family: Georgia, serif;
+  font-size:16px;
+  line-height:24px;
+  color:$black;
+  margin-bottom:18px;
+}
+h6 {
+  font-weight:normal;
+  font-size:10px;
+  line-height:10px;
+  color:$light;
+  margin:0px 0px 8px;
+}
+h6.biblio {
+  font-size:10px;
+  margin:-10px 0px 18px;
+}
+
+/* New format for "filed under" line - applied to breadcrumbs navigation text. Added 2016-02-07 */
+
+h7 {
+  margin:0px;
+  padding:0px;
+}
+h7 span {
+  font-weight:normal;
+}
+h7 {
+  font-weight:normal;
+  font-size:12px;
+  line-height:10px;
+  color:$light;
+  margin:0px 0px 8px;
+}
+/* New format to modify h5. Added 2016-02-21 */
+h8 {
+  margin:0px;
+  padding:0px;
+}
+h8 span {
+  font-weight:normal;
+}
+h8 {
+  font-family: Georgia, serif;
+   font-size:16px;
+   line-height:24px;
+   color:$black;
+   margin-bottom:18px;
+}
+
+img.preview {
+  @include col(1);
+  height: 215px;
+}
+.square {
+  @include proportional(1,1);
+}
+/* left section square image. Added by tm 2013-03-30 */
+img.squareleft {
+  margin: 0px auto;
+  max-width: 240px;
+  height: auto;
+  width: 100%;
+}
+
+/* left section full width image. Added by tm 2015-11-08 revised 2016-01-10*/
+img.fullwidth {
+  @include col(2);
+  margin-top:45px;
+  margin-left:0px;
+}
+
+
+/* center section powerpoint image. Added by hs 2013-05-18 */
+img.pptcenter {
+  width:542px;
+  height:407px;
+  margin-top:0px;
+  margin-left:40px;
+}
+/* block indent for text. Added by hs 2013-04-06 */
+.blocktext {
+  margin-left:40px;
+  margin-right:40px;
+}
+
+li {
+  display:inline-block;
+  padding:6px 9px 4px 0px;
+  font-size:10px;
+  line-height:10px;
+}
+p {
+  font-family:Georgia;
+  font-size:14px;
+  line-height:20px;
+  margin:0px 0px 20px;
+}
+p.intro {
+  font-size:18px;
+  line-height:26px;
+}
+
+.nosub {
+  padding-top:18px;
+}
+.block {
+  background-color:rgba(128,128,128,0.6);
+}
+body {
+  width:100%;
+  border-top:4px solid black;
+}
+#container {
+  @include ph;
+  margin: 10px auto;
+  max-width: $max-container-width;
+  text-align:left;
+  position: relative;
+  @include medium {
+    margin: 80px auto;
+  }
+}
+#wrap {
+  @include row;
+}
+header {
+  margin-bottom:32px;
+  overflow: hidden;
+  @include bottom-border;
+  h1 {
+    font-weight: 100;
+    display: inline-block;
+  }
+  #nav {
+    display: inline-block;
+    padding: 12px 60px 6px 0px;
+    @include medium {
+      float: right;
+      padding-left: 10px;
+      padding-right: 0;
+    }
+    margin-left: -5px;
+    margin-right: -5px;
+    li {
+      display:inline-block;
+      font-size:12px;
+      font-weight: 400;
+      line-height:12px;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+}
+section {
+  margin: 0px 0px 28px;
+}
+.subsection {
+  margin: 32px 0px 0px 0px;
+  padding: 0px;
+  border: none;
+  &.type {
+    margin-bottom: 28px;
+  }
+}
+footer {
+  @include pv(s);
+  border-top:1px solid #3A393B;
+  margin-bottom:18px;
+}
+footer #copyright {
+  @include mt(s);
+  @include medium {
+    float: left;
+  }
+}
+footer #search-box {
+  @include medium {
+    float: right;
+  }
+  #search-query {
+    @include ml(0);
+  }
+}
+#search-query,
+#search-submit {
+  @include p(xs);
+  @include ml(s);
+  border: 1px solid #3A393B;
+  height: 24px;
+}
+#search-submit {
+  cursor: pointer;
+  vertical-align: bottom;
+  width: 24px;
+}
+#search-page {
+  h2 {
+    text-transform: uppercase;
+  }
+  #search-form {
+    @include pv(s);
+    border-bottom: 1px solid #3A393B;
+    text-transform: uppercase;
+  }
+  #search-results {
+    @include mv;
+    .related {
+      text-transform: uppercase;
+
+    }
+    .preloader {
+      @include mv(xl);
+      @include mh(a);
+      display: block;
+    }
+  }
+}
+#title {
+  margin-bottom:56px;
+}
+#title.under {
+  @include bottom-border;
+}
+
+#main {
+  @include col(6);
+  @include medium {
+    @include col(4);
+    @include offset(2);
+  }
+  min-height: 500px;
+}
+
+#full {
+  @include col(6);
+  margin: 20px 0px 36px;
+  min-height:500px;
+}
+ul#sub-nav {
+  margin-top:2px;
+}
+.marginal {
+  @include marginal;
+  span.heading {
+    font-weight: bold;
+  }
+}
+.marginalnote {
+  @include marginal;
+  margin-top: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  color:$black;
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color:$black;
+  }
+  @include small-only {
+    @include bottom-border;
+    @include top-border;
+    @include pv(s);
+    @include mv;
+  }
+}
+
+/* .marginalindex (below) was created for the purpose of adding explanatory text to Home Page 2018-02-04 */
+
+.marginalindex {
+  @include marginal;
+  color: $black;
+  font-family: Georgia, Helvetica, sans-serif;
+  padding-top: 20px;
+  @include medium {
+    padding-top: 0;
+    top: 0;
+  }
+  p {
+    font-family: Georgia, Helvetica, sans-serif;
+    font-size:13px;
+    line-height:19px;
+    color:$black;
+  }
+}
+.record_count {
+  @include marginal;
+  text-align: right;
+  font-style: italic;
+  color:$light;
+  margin-top: -18px;
+}
+.post-meta {
+  margin-top: 2px;
+  text-align: right;
+  font-style: normal;
+  color:$light;
+  @include small-only {
+    @include mb(s);
+    text-align: left;
+  }
+}
+.toc {
+  text-align: left;
+  margin-top: -6px;
+}
+.toc-art {
+  top: 27px;
+  text-align: left;
+  z-index: 10001;
+}
+span.right {
+  float:right;
+  text-align:right;
+}
+
+/* ------------------- SECTIONS */
+
+section.content {
+  min-height:500px;
+}
+
+section.extra {
+
+  h4 {
+    @include bottom-border;
+    padding:3px 0px;
+    margin:4px 0px 12px;
+  }
+  ul li {
+   display:block;
+   padding:3px 0px;
+   margin:0px;
+  }
+
+}
+
+section.index-item {
+  min-height:140px;
+}
+
+section.preview {
+  min-height:140px;
+}
+
+section.biblio {
+  p {
+    font-size:12px;
+    line-height:20px;
+  }
+}
+div#meta-container{
+  @include col(2);
+  margin-top:2px;
+}
+div#meta-container {
+  div {
+    @include col(1);
+    @include offset(1);
+    margin-top:18px;
+  }
+  p {
+    font-size:10px;
+    line-height:13px;
+    margin-bottom:6px;
+  }
+  p.data {
+    color: $light;
+    font-style:normal;
+  }
+  ul {
+    margin-top:18px;
+    li {
+      float:right;
+      width:100%;
+      text-align:right;
+    }
+    a   {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    a:link  {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    }
+
+    a:visited   {
+      color: $light;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    a:active    {
+      color: $light;
+      text-decoration:none;
+      background-color: transparent;
+    }
+
+    a:hover     {
+      color: $accent;
+      text-decoration:none;
+      background-color: transparent;
+    }
+  }
+}
+
+/* ------------------- LINKS */
+
+p {
+  a   {
+    color: $dark;
+    text-decoration: underline;
+    background-color: transparent;
+  }
+
+/* commenting out original link specs
+  a:link  {
+    color: $accent;
+    text-decoration: underline;
+    background-color: transparent;
+  }
+  */
+
+  /* replacement specs -- making links blue and remove underline and Make visited purple*/
+  a:link  {
+    color: $cornflower;
+    text-decoration:none;
+    background-color: transparent;
+  }
+  a:visited   {
+    color: $lesbian;
+    text-decoration:none;
+    background-color: transparent;
+  }
+
+  a:active    {
+    color: $light;
+    text-decoration:none;
+    background-color: transparent;
+  }
+
+  a:hover     {
+    color: $accent;
+    text-decoration:underline;
+    background-color: transparent;
+  }
+}
+
+h6 a   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h6 a:link  {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h6 a:visited   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h6 a:active    {
+  color: $dark;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+h6 a:hover     {
+  color: $dark;
+  text-decoration:none;
+  background-color: transparent;
+}
+/* additional formatting for h7. added 2016-02-07 */
+h7 a   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h7 a:link  {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h7 a:visited   {
+  color: $dark;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+h7 a:active    {
+  color: $dark;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+h7 a:hover     {
+  color: $dark;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+a   {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:link  {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:visited   {
+  color: $black;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:active    {
+  color: $light;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+a:hover     {
+  color: $accent;
+  text-decoration:none;
+  background-color: transparent;
+}
+
+#album-caption {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  line-height:18px;
+  color:$black;
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    color:$black;
+    margin-bottom: 0px 0px 8px 2px;
+  }
+  span.heading {
+    font-weight: bold;
+  }
+  h6 {
+    text-align: right;
+    margin:0px 2px 0px 0px;
+  }
+}
+
+.aperture {
+  height:150px;
+  width:100%;
+  overflow:hidden;
+  position:relative;
+}
+
+.carousel {
+   position:absolute;
+   top:0px;
+   left:0px;
+   p {
+     display: inline-block;
+   }
+}
+
+.carousel.no-scroll {
+   position:relative;
+   top:0px;
+   left:0px;
+}
+
+img.indexthumb {
+  float:right;
+  height: 150px;
+  width: 120px;
+}
+
+img.thumb {
+  float:left;
+  height: 150px;
+  width: 120px;
+}
+
+img.thumb1, img.thumb2, img.thumb3, img.thumb4 {
+    margin-bottom: 28px;
+}
+img.thumb2 {
+  float:left;
+  height: 200px;
+  width: 302px;
+}
+
+img.thumb3 {
+  float:left;
+  height: 200px;
+  width: 195px;
+}
+
+img.thumb4 {
+  float:left;
+  height: 150px;
+  width: 120px;
+}
+
+#carousel_right,
+#carousel_left {
+  width:50px;
+  height:50px;
+  position:absolute;
+  background-color:transparent;
+  display:block;
+  z-index:100;
+  opacity:0.7;
+}
+
+#carousel_right:hover,
+#carousel_left:hover {
+  opacity:1;
+}
+
+#carousel_right {
+  right:0px;
+  top:50px;
+}
+
+#carousel_left {
+  left:0px;
+  top:50px;
+}
+
+#carousel_right_ico,
+#carousel_left_ico {
+  background-image: url('/assets/js/fancybox/fancybox.png');
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  margin-top:-15px;
+  z-index: 102;
+}
+
+#carousel_right_ico {
+  background-position: -40px -60px;
+  left: auto;
+  right: 5px;
+}
+
+#carousel_left_ico {
+  background-position: -40px -30px;
+  left: 5px;
+  right: auto;
+}
+#fancybox-wrap {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+.homepage-slideshow {
+  @include proportional(622, 405);
+  width: 100%;
+  img {
+    position:absolute;
+    left:0;
+    max-height: 100%;
+    max-width: 100%;
+    top:0;
+  }
+}
+.sitemap {
+  .list {
+    @include mv;
+  }
+  .cat-list {
+    & > ul > li {
+      @include mv(xs);
+      display: block;
+      & > a {
+        font-weight: 600;
+      }
+      ul {
+        @include ml(s);
+        @include mt(s);
+      }
+    }
+  }
+}

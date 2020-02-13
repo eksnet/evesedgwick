@@ -1,0 +1,13 @@
+<footer>
+    <div id="copyright">
+        <h6>
+          Copyright © 2010-{{ 'now' | date: '%Y' }} H. A. Sedgwick. All rights reserved.
+          <a href='/sitemap'>Site Map</a>
+        </h6>
+    </div>
+    <div id="search-box">
+      {% if page.permalink != "/search" %}
+        {% include search_form.liquid %}
+      {% endif %}
+    </div>
+</footer>

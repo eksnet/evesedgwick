@@ -1,0 +1,17 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "exhibitions"
+type: collection
+
+role: artist
+title: Floating Columns
+
+description: none
+
+exhibition-location: Rhode Island School of Design
+exhibition-date: 1999
+
+---

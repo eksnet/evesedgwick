@@ -1,7 +1,0 @@
-{% for category in site.categories_by_sub[page.category] %}
-    <ul>
-    {% for sub in category %}
-        <li>{{ sub.name | sub_category_link: page.category }}</li>   
-    {% endfor %}
-    </ul>
-{% endfor %}

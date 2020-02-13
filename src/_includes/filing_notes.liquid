@@ -1,0 +1,8 @@
+<h6>
+  <h7>{{ page.nav | category_link }}{% if page.category %} / {{ page.category | category_link }}{% endif %}{% if page.sub-category %} / {{ page.sub-category | sub_category_link: page.category }}{% endif %}</h7>
+    {% assign numTags = page.tags | size %}
+    {% assign type = page.type %}
+    {% if numTags > 0 or type %}
+        <span class='right'>RELATED - {{ page.tags | tag_links }} {{ type | type_link }}</span>
+    {% endif %}
+</h6>

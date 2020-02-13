@@ -1,0 +1,78 @@
+---
+layout: resource
+published: true
+nav: commentary
+category: conferences
+type: resource
+
+title: Reparative Reading at 21
+
+
+---
+
+<div class='marginal'>
+<img class='squareleft' src='/images/preview/Novel-Gazing_full-left.jpg'>
+</div>
+<b><i>Reparative Reading at 21</i></b>
+The University of York, 14 February 2017
+
+<b>Symposium Program and Video Recordings</b>
+<i>Scroll down page and click on videos to view the introduction and sessions.</i>
+
+Eve Kosofsky Sedgwick's influential essay, "Paranoid Reading and Reparative Reading, or, You're So Paranoid, You Probably Think This Essay Is About You," was the subject of a one-day symposium held on Valentine's Day 2017. The event was organized by Jason Edwards (U. York) and Angus Connell Brown (U. Birmingham). They comment that the publication of "'Paranoid Reading and Reparative Reading' marks both a landmark and a turning point for queer studies. Written in the years after Teresa de Lauretis christened queer theory in 1991, this intricate address of Melanie Klein, Sylvan Tomkins, Judith Butler, and D. A. Miller laid out a style of reading that continues to inform the scope and tone of critical theory in the 21st century."
+
+The symposium, "Reparative Reading at 21," is the most recent of a series of events marking anniversaries of significant works by Sedgwick. The organizers note that "an inkling of the reparative first appeared in the Autumn of 1996 as a short introduction to 'Queerer than Fiction', a special issue of <i>Studies in the Novel</i>. The following year, Sedgwick substantially rewrote the essay to introduce an expanded collection for Duke University Press, <i>Novel Gazing: Queer Readings in Fiction</i>. In 2003, the essay appeared in its third and final incarnation as a chapter in the last book Sedgwick published in her lifetime: <i>Touching Feeling</i>."
+
+The event was sponsored by the Universities of York and Birmingham and the Leverhulme Trust.
+
+
+
+<b>Introduction</b>
+PrEParative Reading: An Introduction
+Angus Brown & Jason Edwards
+
+<b>Session 1</b>
+Chair: Angus Brown  (University of Birmingham)
+
+“Revisiting Eve Kosofsky Sedgwick’s ‘Paranoid and Reparative’ in
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the Era of (T)rump, or ‘Know Your Assholes’”
+Kathryn R. Kent  (Williams College)
+
+“From Bardo to Argo: Maggie Nelson and Reparative Reading”
+Ben Nichols (King’s College London)
+
+“Reparative Reading at 21”
+Jason Edwards (University of York)
+
+<iframe src="https://player.vimeo.com/video/230281802" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/230281802">Introduction and Session 1</a> from the <a href="https://vimeo.com/user69957884">Eve Kosofsky Sedgwick Foundation.</a></p>
+
+<br><br>
+
+<b>Session 2</b>
+Chair: Jason Edwards (University of York)
+
+“Beyond Repair”
+Angus Brown (University of Birmingham)
+
+“Eve’s Room: Paranoid Closets and Reparative Closets”
+Monica Pearl (University of Manchester)
+
+“Queer Antinomianism and the Politics of Method”
+Heather Love (University of Pennsylvania)
+
+<iframe src="https://player.vimeo.com/video/230284532" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/230284532">Session 2</a> from the <a href="https://vimeo.com/user69957884">Eve Kosofsky Sedgwick Foundation.</a></p>
+
+<br><br>
+
+<b>Session 3</b>
+Chair: Emilie Morin (University of York)
+
+“Otherwise”
+Tyler Curtain (University of North Caroline at Chapel Hill)
+
+Respondent: Emilie Morin (University of York)
+
+<iframe src="https://player.vimeo.com/video/230386544" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/230386544">Session 3</a> from the <a href="https://vimeo.com/user69957884">Eve Kosofsky Sedgwick Foundation.</a></p>

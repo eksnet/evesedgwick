@@ -1,0 +1,25 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: "Gosh, Boy George, You Must be Awfully Secure in Your Masculinity"
+pub-date: 1996
+
+in:
+    - description:  book
+      editors: Maurice Berger, Brian Wallis, and Simon Watson
+      publication:  Constructing Masculinity
+      publisher:    Routledge
+      location:     New York
+      date:         1996
+
+index-desc: Sedgwick argues that masculinity and femininity are “orthogonal to each other” so that “instead of being at opposite poles of the same axis, they are…independently variable.” Hence masculinity sometimes has nothing to do with men, and an inquiry into “masculinity” could include not only men who are “straight, gay, and bisexual” but also men who are female.
+  
+---
+
+Sedgwick argues that masculinity and femininity are “orthogonal to each other” so that “instead of being at opposite poles of the same axis, they are…independently variable.” Hence masculinity sometimes has nothing to do with men, and an inquiry into “masculinity” could include not only men who are “straight, gay, and bisexual” but also men who are female.

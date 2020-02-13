@@ -1,0 +1,58 @@
+---
+layout: base
+---
+<section id='title' class='under'>
+    <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
+
+    {% include filing_notes.liquid %}
+
+</section>
+
+<section class='content biblio'>
+
+        {% for sub in site.bibliography[0] %}
+            {% if sub.name == 'books authored' %}
+                <h5>Books Authored</h5>
+
+                {% include bibliography_listing.liquid %}
+
+            {% endif %}
+        {% endfor %}
+
+        {% for sub in site.bibliography[0] %}
+            {% if sub.name == 'books and journals edited' %}
+                <h5>Books and Journals Edited</h5>
+
+                {% include bibliography_listing.liquid %}
+
+            {% endif %}
+        {% endfor %}
+
+        {% for sub in site.bibliography[0] %}
+            {% if sub.name == 'journal special issues edited' %}
+                <h5>Journal Special Issues Edited</h5>
+
+                {% include bibliography_listing.liquid %}
+
+            {% endif %}
+        {% endfor %}
+
+        {% for sub in site.bibliography[0] %}
+            {% if sub.name == 'books in progress' %}
+                <h5>Books in Progress</h5>
+
+                {% include bibliography_listing.liquid %}
+
+            {% endif %}
+        {% endfor %}
+
+        {% for sub in site.bibliography[0] %}
+            {% if sub.name == 'articles' %}
+                <h5>Published articles not included in her books:</h5>
+
+                {% include bibliography_listing.liquid %}
+
+            {% endif %}
+        {% endfor %}
+
+</section>

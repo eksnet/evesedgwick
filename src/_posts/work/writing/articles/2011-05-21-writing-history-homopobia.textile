@@ -1,0 +1,27 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: Writing the History of Homophobia
+pub-date: 2015
+
+
+in:
+    - description:  book
+      editors: Jason Potts and Daniel Stout
+      publication:  "Theory Aside"
+      publisher:    Duke University Press
+      location:     Durham, NC
+      date:         2015
+
+
+index-desc: Sedgwick traces particular difficulties in attempting the task of the essay's title. For example, she demonstrates the impossibility of learning about Oscar Wilde’s homosexuality from the circa 1960s <i>Encyclopedia Britannica</i> if one doesn’t already know. She takes this as an emblem of “the extremely elusive and maddeningly plural ways in which cultures and their various institutions efface and alter sexual meaning.” She goes on to say that “at least for Western society of the last two millennia, the many complicated paths by which...sexual meaning is falsified, denied, and altered, all lead homosexuals to much the same thorny and difficult place.”
+
+---
+
+Sedgwick traces particular difficulties in attempting the task of the essay's title. For example, she demonstrates the impossibility of learning about Oscar Wilde’s homosexuality from the circa 1960s <i>Encyclopedia Britannica</i> if one doesn’t already know. She takes this as an emblem of “the extremely elusive and maddeningly plural ways in which cultures and their various institutions efface and alter sexual meaning.” She goes on to say that “at least for Western society of the last two millennia, the many complicated paths by which...sexual meaning is falsified, denied, and altered, all lead homosexuals to much the same thorny and difficult place.”

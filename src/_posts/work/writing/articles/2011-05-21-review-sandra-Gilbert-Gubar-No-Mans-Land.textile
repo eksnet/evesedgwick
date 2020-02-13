@@ -1,0 +1,24 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+title: "Review of Sandra Gilbert and Susan Gubar, <i>No Man's Land: The Place of the Woman Writer in the Twentieth Century, Volume 1: The War of the Words</i>"
+pub-date: 1990
+
+in:
+    - description:  journal
+      publication:  English Language Notes
+      issue:
+      date:         September, 1990
+
+
+index-desc: In this book review, Sedgwick notes that <i>No Man's Land</i>  "makes in newly possible to construct some fine and useful maps," and concludes  that its contribution "is to show that joining the ladies need not require the fiction that our feelings about each other can be simple or uniform."
+
+---
+
+In this book review, Sedgwick notes that <i>No Man's Land</i>  "makes in newly possible to construct some fine and useful maps," and concludes  that its contribution "is to show that joining the ladies need not require the fiction that our feelings about each other can be simple or uniform."

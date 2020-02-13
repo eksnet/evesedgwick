@@ -1,0 +1,50 @@
+---
+layout: base
+full-width: true
+private: true
+---
+<section id='search-container' style='height:33px; margin-bottom:10px;'>
+    <form style='float:right;'>
+        <input class='filter' type="text" id="search" value='Filter Records ...' title='Filter Records ...' style="
+        background: white url(/lib/js/quicksearch/input-textbox-bg.gif) repeat-x;
+        border: 1px solid #ADADAD;
+        border-bottom-left-radius: 3px 3px;
+        border-bottom-left-radius: 3px 3px;
+        border-bottom-right-radius: 3px 3px;
+        border-bottom-right-radius: 3px 3px;
+        border-top-left-radius: 3px 3px;
+        border-top-left-radius: 3px 3px;
+        border-top-right-radius: 3px 3px;
+        border-top-right-radius: 3px 3px;
+        font-size: 11px;
+        margin: 0px 0px 12px;
+        padding: 3px;
+        color: #939196;
+        font-style:italic;
+        width: 250px;">
+    </form>
+</section>
+<section id='table'>
+<table id="inventory" class="tablesorter">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Location</th>
+            <th>URL</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for post in site.posts %}
+            <tr class='row{{ forloop.index | plus: 1 }}'>
+                <td class='col1'><a href='{{ post.url }}'>{{ post.title }}</a></td>
+                <td class='col2'>{{ post.id }}</td>
+                <td class='col3'>{{ post.type }}</td>
+                <td class='col4'>{{ post.nav }}/{{ post.category }}/{{ post.sub-category }}</td>
+                <td class='col5'>{{ post.url }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</section>

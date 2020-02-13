@@ -1,0 +1,53 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+
+type: book
+role: author
+with:
+title: The Coherence of Gothic Conventions
+pub-date: 1975
+ed-note:
+index_img: Coherence-of-Gothic-Conventions_1975_index.jpg
+full_left_img: Coherence-of-Gothic-Conventions_1975_full-left.jpg
+
+description:    none
+
+editions:
+    - description:  none
+      publisher:    Dissertation, Yale University
+      location:     New Haven
+      series:
+      date:         1975
+      isbn:
+      further_editions:
+        - type:
+          publisher:
+          location:
+          date:
+          translations:
+
+urls:
+    -
+
+---
+
+The dissertation describes a cluster of important thematic conventions in the Gothic novel, the interrelationships among them, and their influence on some early Victorian writing. It treats the persistence and development, through increasingly sophisticated psychological and linguistic articulations, of conventions of isolation and immobilization. Live burial, sleeplike and deathlike states, and the unspeakable are among the salient conventions. <i>&#8212;From the Abstract</i>
+
+CONTENTS
+
+Abstract
+Acknowledgements
+Introduction
+
+Chapter I. &nbsp;&nbsp;The Structure of Gothic Convention: Mostly <i>Melmoth</i>
+Chapter II. &nbsp;&nbsp;Language as Live Burial: Thomas De Quincey
+Chapter III. &nbsp;&nbsp;Immediacy, Doubleness, and the Unspeakable: <i>Wuthering Heights</i> and <i>Villette</i>
+
+Afterword: Of Wandering
+
+Selected bibliography

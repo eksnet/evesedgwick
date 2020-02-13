@@ -1,0 +1,66 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: "books authored"
+type: book
+
+type: book
+role: author
+with:
+title: Epistemology of the Closet
+pub-date: 2008
+ed-note: Updated with a new preface
+index_img: Epistemology2008_index.jpg
+full_left_img: Epistemology2008_full-left.jpg
+
+description:    none
+
+editions:
+    - description:  Updated with a new preface
+      publisher:    University of California Press
+      location:     Berkeley
+      series:       Centennial
+      date:         2008
+      binding:      paper
+      isbn:         9780520254060
+      notes:        "A Centennial Book. Awarded Honorable Mention for the MLA's James Russell Lowell Prize, 1991"
+      translations: "Japanese, Chinese, French, Russian, Spanish, Hebrew, Bulgarian, Portuguese"
+      further_editions:
+        - type:         paperback reissue with new material
+          date:         2008
+
+urls:
+    - { display: indiebound, url: "http://www.indiebound.org/book/9780520254060"}
+
+---
+
+"A signal event in the history of late twentieth-century gay studies. Sedgwick dispenses paradigms with breathtaking fluency, untangles every knot in gay theory, and proves that modern cognition itself hinges on the hetero/homo impasse. A virtuoso reader of novels and of predicaments, she illustrates what literary and cultural criticism, at its best, can be. I batten on every sentence. I don’t feel so remunerated, so challenged, so moved, by anything else I’ve read in the field." –??Wayne Koestenbaum??
+
+"_Epistemology of the Closet_ is a sometimes-dense work, but one filled with wit and empathy. Sedgwick writes with great intelligence and an eye for irony, but always makes clear that her theories and critical acumen are in the service of a politic that seeks to make the world a better and more humane place for everyone. An extraordinary book that reshapes how we think about literature, sexuality, and everyday life."  –??Michael Bronski??
+
+"This book gives us what the debate on 'outing' has lacked: a theory of the closet. By showing us that the closet is no place, but a structural relation – in our culture, the primary structural relation of knowledge/ignorance – Sedgwick has sharpened the edge of Foucault’s work on sexuality and power. In so doing, she has produced an essential antihomophobic text, the one every straight person had better read." –??Douglas Crimp??
+
+
+<b>Contents</b>
+
+Acknowledgements
+Credits
+Preface to the 2008 edition
+Introduction: Axiomatic
+
+1. Epistemology of the Closet
+
+2. Some Binarisms (I)
+<i>Billy Budd</i>: After the Homosexual
+
+3. Some Binarisms (II)
+Wilde, Nietzsche, and the Sentimental Relations of the Male Body
+
+4. The Beast in the Closet
+James and the Writing of Homosexual Panic
+
+5. Proust and the Spectacle of the Closet
+
+Index

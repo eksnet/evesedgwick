@@ -1,0 +1,25 @@
+---
+layout: work 
+published: true
+nav: work
+category: art
+sub-category: "exhibitions"
+type: collection
+
+role: artist
+title: Exhibition at Cedar Creek Gallery
+sub-title:
+
+catalog-number: obj000133-01
+
+index_img: pic000136-01_thumb.jpg
+
+description: none
+
+exhibition-location: "Cedar Creek Gallery, Durham, NC"
+exhibition-date: 2000
+
+related_media:
+    - {type: album, name: alb000102}
+
+---

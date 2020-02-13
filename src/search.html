@@ -1,0 +1,49 @@
+---
+permalink: /search
+layout: base
+---
+<section id='search-page'>
+  <h2>Search</h2>
+
+  {% include search_form.liquid label="Looking for" %}
+
+  <section id="search-results">
+    <img class="preloader" src="/images/preloader.gif" width="100px" />
+  </section>
+</section>
+
+{% raw %}
+<script id="search-results-template" type="text/mustache">
+  {{#entries}}
+    {{#is_post}}
+      <div class='marginal' id='meta-container'>
+        {{#index_img}}
+          <img class='indexthumb' src='{{index_img}}'>
+        {{/index_img }}
+      </div>
+      <section class="preview">
+        <h4>
+          <a href="{{url}}">
+            {{title}}
+          </a>
+          {{sub_title}}
+          </h4>
+        <h6 class="related">RELATED -
+          {{#category}}<a href="/{{category}}">{{category}}</a>{{/category}}
+          {{#sub_category}}<a href="/{{category}}/{{sub_category}}">{{sub_category}}</a>{{/sub_category}}
+          {{#tags}}
+            <a href="{{.}}">{{.}}</a>
+          {{/tags}}
+        </h6>
+      </section>
+    {{/is_post}}
+  {{/entries}}
+</script>
+{% endraw %}
+
+{% asset search.js %}
+<script type="text/javascript">
+  $(function() {
+    $('#search-query').lunrSearch({ titleMsg: ''});
+  })
+</script>

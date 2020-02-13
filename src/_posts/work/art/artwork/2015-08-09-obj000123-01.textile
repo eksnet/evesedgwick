@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: FABRIC/HANGING
+sub-title: "Untitled"
+year: ND
+medium: ""
+dims: {width:  , height:  , depth: ,tbd}
+catalog-number: "obj000123-01"
+
+index_img: pic000226_thumb.jpg
+
+description: "Long, narrow, fringed weaving with pink and yellow warp, and horizontal stripes in violet, teal and light orange."
+
+related_media:
+    - {type: album, name: "alb000123"}
+
+---

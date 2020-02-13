@@ -1,0 +1,22 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "calendar"
+
+title: "Book/calendar"
+sub-title: "Untitled (Dropped calendar)"
+year: 2004
+medium: "store-bought calendar, stamps"
+dims: {width: 6, height: 12, depth: 0}
+catalog-number: "obj000075-01"
+
+index_img: dropped-calendar-cover_thumb.jpg
+description: "Calendar booklet with rubber-stamped and colored images for each month such as fish, waves and mermaids; bodhisattva, fountain and mice; birds with hand holding an egg."
+
+related_media:
+    - {type: album, name: "dropped"}
+
+---

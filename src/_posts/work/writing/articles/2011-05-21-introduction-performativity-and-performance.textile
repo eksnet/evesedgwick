@@ -1,0 +1,28 @@
+---
+layout: work
+published: true
+nav: work
+category: writing
+sub-category: articles
+type: article
+
+role: author
+with: Andrew Parker (first author)
+
+title: Introduction - Performativity and Performance
+pub-date: 1995
+
+in:
+    - description:  book
+      editors: Andrew Parker and Eve Kosofsky Sedgwick
+      publication:  Performativity and Performance
+      issue:
+      publisher:    Routledge
+      location:     London and New York
+      date:         1995
+
+index-desc: The papers given at the 1993 English Institute and published here attempted to "take stock of the uses...and new affordances of the performativities" at the intersection of performance. Parker and Sedgwick conclude that these essays lift stress "from the issues that surround <i>being something</i>..." and open a stage for explorations of "that even older, even newer question, of how saying something can be doing something."
+
+---
+
+The papers given at 1993 English Institute and published here attempted to "take stock of the uses...and new affordances of the performativities" at the intersection of performance. Parker and Sedgwick conclude that these essays lift stress "from the issues that surround <i>being something</i>..." and open a stage for explorations of "that even older, even newer question, of how saying something can be doing something."

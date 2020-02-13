@@ -1,0 +1,23 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "textile art"
+
+title: "Fabric/hanging"
+sub-title: "Bodhisattva Fractal World"
+year: ND
+medium: "quilted marbled and patterned silk, text"
+dims: {width: 30, height: 12, depth: 0}
+catalog-number: "000032-01"
+
+index_img: bodhisattva-fractal-world_thumb.jpg
+
+description: "Rust and white ribbons with text on top of blue, black and white suminagashi textile."
+
+related_media:
+    - {type: album, name: "000032-01"}
+
+---

@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<section id='title'>
+    <h2 style=''>{{ page.nav | upcase }} <span>{{page.category | upcase}}</span></h2>
+</section>
+
+{% for media in page.related_media %}
+    {% if media['type'] == 'album' %}
+        {% include album.liquid album_name=media.name %}
+    {% endif %}
+{% endfor %}
+
+<section class='content'>
+
+    {% include marginal.liquid %}
+
+    {{ content }}
+
+</section>
+
+{% include extras.liquid %}

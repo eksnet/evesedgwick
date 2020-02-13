@@ -1,0 +1,70 @@
+---
+layout: base
+---
+{% comment %}
+  I'm fairly convinced there isn't any case where posts are listed at a category,
+  rather than sub-category level. But if there were, this is how we'd do it.
+  -BL
+{% endcomment %}
+
+{% if page.sub %}
+  {% assign types = site.subs_by_type[page.sub] %}
+  <section id='title'>
+    <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}/{{ page.sub | sub_category_link: page.category }}</span></h2>
+    {% include tag_list.liquid collection="subs_by_tag" param="sub" %}
+  </section>
+{% else %}
+  {% assign posts = site.categories[page.category] %}
+  <section id='title'>
+    <h2 style=''>{{ page.nav | category_link }}&nbsp;<span>{{ page.category | category_link}}</span></h2>
+  </section>
+{% endif %}
+
+<div class='marginal toc-art'>
+  {% for type in types %}
+    {% assign name = type[0] %}
+    {% assign posts = type[1] %}
+    <a href='#{{name}}'>
+      <span class='heading'>
+        {{name | upcase }}
+      </span>
+      {{ posts | size }} Records
+    </a>
+    <br>
+  {% endfor %}
+</div>
+
+{% for type in types %}
+  {% assign subsection = type[0] %}
+  {% assign posts = type[1] %}
+  <h2 class='subsection type'>
+    <span>
+      <a href="#container" name="{{subsection}}">
+        {{ subsection | upcase }}
+      </a>
+    </span>
+  </h2>
+  {% for post in posts %}
+    <div class='marginal' id='meta-container'>
+      {% if post.index_img %}
+      <img class='indexthumb' src='/images/archive/{{ post.index_img }}'>
+      {% endif %}
+    </div>
+    <section class='preview'>
+      <!--<h4><a href="{{ post.url }}">{{ post.title | upcase }}{% if page.category == 'writing' %} ({% if post.pub-date != 10000 %}{{post.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</a>{% if post.sub-title %}: {{ post.sub-title }}{% endif %}</h4>-->
+      <h4><a href="{{ post.url }}">{{ post.title | upcase }}{% if post.sub-title %}: {{ post.sub-title }}{% endif %}</a>{% if page.category == 'writing' %} ({% if post.pub-date != 10000 %}{{post.pub-date}}{% else %} forthcoming {% endif %}){% endif %}</h4>
+
+      {% if post.exhibition-location %}<h6 style='font-size:12px; line-height:12px;'>{{ post.exhibition-location | upcase }}, {{ post.exhibition-date }}</h6>{% endif %}
+
+      {% assign related = false %}
+      {% for tag in post.tags %}
+        {% assign related = true %}
+      {% endfor %}
+      {% if related %}
+        <h6>RELATED - {{ post.tags | tag_links }}</h6>
+      {% endif %}
+  <!-- section below (line 116) provides for brief descriptions on index pages. 2017-03-26-->
+      {% if post.index-desc %} <h5 style='font-weight:normal; font-size:15px; line-height:20px;'> {{ post.index-desc }} </h5>{% endif %}
+    </section>
+  {% endfor %}
+{% endfor %}

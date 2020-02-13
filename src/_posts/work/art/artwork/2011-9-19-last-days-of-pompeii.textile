@@ -1,0 +1,22 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Book/altered"
+sub-title: "Untitled (Last days of Pompeii)"
+year: ND
+medium: "altered book, collage, mixed media"
+dims: {width: 15, height: 10, depth: 0}
+catalog-number: "obj000006-01"
+
+index_img: pompeii_thumb.jpg
+description: "Altered book.White-painted cover has image of a smaller and a larger woman and a small plastic box attached."
+
+related_media:
+    - {type: album, name: "000006-01"}
+
+---

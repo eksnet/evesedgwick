@@ -1,0 +1,23 @@
+---
+layout: work 
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Book/hinged"
+sub-title: "Untitled (Scroll book)"
+year: ND
+medium: "paper scrolls, book board, paint, mixed media"
+dims: {width: 11, height: 8.5, depth: 0}
+catalog-number: "000007-01"
+
+index_img: scroll-book_thumb.jpg
+
+description: "Five miniature scrolls of yellow, gold and orange paper on green rollers with hand-written texts. Scrolls are mounted in a small yellow box with images of deer, and left- and right-hinged covers."
+
+related_media:
+    - {type: album, name: "000007-01"}
+
+---

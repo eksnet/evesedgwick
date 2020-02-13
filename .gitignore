@@ -1,4 +1,7 @@
 _site/*
-.site/*
+.env
+.sass-cache
+.jekyll-cache
 
+etc
 .DS_Store

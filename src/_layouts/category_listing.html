@@ -1,0 +1,20 @@
+---
+layout: base
+---
+<section id='title'>
+    <h2>{{ page.nav | category_link}} </h2>
+    {% include tag_list.liquid collection="navs_by_tag" param="nav" %}
+</section>
+
+{% for category in site.navs_by_category[page.nav] %}
+    <h2 class='subsection'><span>{{ category['name'] | category_link }}</span></h2>
+    {% for post in category['posts'] %}
+        {% assign record_count = forloop.length %}
+    {% endfor %}
+    <div class='record_count'>{{ record_count }} Records</div>
+    {% for setting in site.category-settings %}
+        {% if setting.category == category.name %}
+            <p class='intro'>{{ setting.description }}</p>
+        {% endif %}
+    {% endfor %}
+{% endfor %}

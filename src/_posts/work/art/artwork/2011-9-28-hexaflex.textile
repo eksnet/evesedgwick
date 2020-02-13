@@ -1,0 +1,22 @@
+---
+layout: work
+published: true
+nav: work
+category: art
+sub-category: "artworks"
+type: "artist's book"
+
+title: "Book/flexagon"
+sub-title: "Untitled (Hexaflexagon)"
+year: ND
+medium: "folded paper, stamps"
+dims: {width: 0, height: 0, depth: 0}
+catalog-number: "obj000070-01"
+
+index_img: hexaflex_thumb.jpg
+description: "Text from Proust and rubber-stamped koi fish (one face of hexaflexagon)"
+
+related_media:
+    - {type: album, name: "hexaflex"}
+
+---
