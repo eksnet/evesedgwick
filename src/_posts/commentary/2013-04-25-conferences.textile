@@ -4,13 +4,11 @@ published: true
 nav: commentary
 category: conferences
 type: resource
-
 title: Tendencies at Twenty
-
-
 ---
 
-p(intro).
+p(intro) 
+
 <div class='marginal'>
 <img class='squareleft' src='/images/preview/T20-Tendencies-cover.jpg'>
 </div>
