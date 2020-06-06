@@ -6,8 +6,7 @@ category: conferences
 type: resource
 title: Tendencies at Twenty
 ---
-
-p(intro) 
+<p class="intro">
 
 <div class='marginal'>
 <img class='squareleft' src='/images/preview/T20-Tendencies-cover.jpg'>
