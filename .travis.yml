@@ -10,4 +10,6 @@ after_success:
   - scripts/deploy.sh
 deploy:
   skip_cleanup: true
+conflict:
+  - oh no
 
