@@ -7,10 +7,10 @@ type: resource
 
 title: Tendencies at Twenty
 
-    
+
 ---
 
-p(intro). 
+p(intro).
 <div class='marginal'>
 <img class='squareleft' src='/images/preview/T20-Tendencies-cover.jpg'>
 </div>
@@ -22,21 +22,21 @@ The University of York, Thursday 14 February 2013</p>
 
 <p>To celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text <i>Tendencies</i>, the Centre for Modern Studies hosted an inter-disciplinary symposium where 12 diverse scholars each offered a short position paper on a chapter from the book, before a roundtable discussion at the end of the day. </p>
 
-<p><a href='http://evekosofskysedgwick.net/conferences/T20-JE-Intro.html'><b>Welcome and Introduction</b></a></p>
+<p><a href='/conferences/T20-JE-Intro.html'><b>Welcome and Introduction</b></a></p>
 <p><b>Queer Tutelage, chaired by Jason Edwards</b><br>
-Jason Edwards (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-JE.html'>'T Times & Queer and Now'</a> <br>
-Nicole Devarenne (University of Dundee), <a href='http://evekosofskysedgwick.net/conferences/T20-ND.html'>'Privilege of Unknowing: Diderot’s <i>The Nun</i>'</a> <br>
-Ben Nichols (King’s College London), <a href='http://evekosofskysedgwick.net/conferences/T20-BN.html'>'Tales of the Avunculate: <i>The Importance of Being Earnest</i>'</a><br>
-Denis Flannery (University of Leeds), <a href='http://evekosofskysedgwick.net/conferences/T20-DF.html'>'Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i>'</a></p>
+Jason Edwards (University of York), <a href='/conferences/T20-JE.html'>'T Times & Queer and Now'</a> <br>
+Nicole Devarenne (University of Dundee), <a href='/conferences/T20-ND.html'>'Privilege of Unknowing: Diderot’s <i>The Nun</i>'</a> <br>
+Ben Nichols (King’s College London), <a href='/conferences/T20-BN.html'>'Tales of the Avunculate: <i>The Importance of Being Earnest</i>'</a><br>
+Denis Flannery (University of Leeds), <a href='/conferences/T20-DF.html'>'Is the Rectum Straight?: Identification and Identity in <i>The Wings of the Dove</i>'</a></p>
 <p><b>Crossing of Discourses, chaired by Claire Westall</b><br>
-Izzy Isgate (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-II.html'>'Jane Austen and the Masturbating Girl'</a><br>
-Helen Finch (University of Leeds), <a href='http://evekosofskysedgwick.net/conferences/T20-HF.html'>'Nationalisms and Sexualities'</a><br>
-Robert Mills (University College London), <a href='http://evekosofskysedgwick.net/conferences/T20-RM.html'>'How to Bring Your Kids Up Gay: The War on Effeminate Boys'</a><br>
-Alex Beaumont (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-AB.html'>'Epidemics of the Will'</a></p>
+Izzy Isgate (University of York), <a href='/conferences/T20-II.html'>'Jane Austen and the Masturbating Girl'</a><br>
+Helen Finch (University of Leeds), <a href='/conferences/T20-HF.html'>'Nationalisms and Sexualities'</a><br>
+Robert Mills (University College London), <a href='/conferences/T20-RM.html'>'How to Bring Your Kids Up Gay: The War on Effeminate Boys'</a><br>
+Alex Beaumont (University of York), <a href='/conferences/T20-AB.html'>'Epidemics of the Will'</a></p>
 <p><b>Across Genders, Across Sexualities, chaired by Jo Applin</b><br>
-Pam Thurschwell (University of Sussex),<a href='http://evekosofskysedgwick.net/conferences/T20-PT.html'>‘Willa Cather and Others’</a><br>
-Angus Brown (Oxford University), <a href='http://evekosofskysedgwick.net/conferences/T20-ABr.html'>‘A Poem Is Being Written’</a>      (added for online presentation)<br>
-James Boaden (University of York), <a href='http://evekosofskysedgwick.net/conferences/T20-JB.html'>‘Divinity: A Dossier, A Performance Piece, A Little Understood Emotion (written with Michael Moon)’</a><br>
-Sarah Monks (University of East Anglia), <a href='http://evekosofskysedgwick.net/conferences/T20-SM.html'>‘White Glasses’ & ‘Memorial for Craig Owens’</a></p>
+Pam Thurschwell (University of Sussex),<a href='/conferences/T20-PT.html'>‘Willa Cather and Others’</a><br>
+Angus Brown (Oxford University), <a href='/conferences/T20-ABr.html'>‘A Poem Is Being Written’</a>      (added for online presentation)<br>
+James Boaden (University of York), <a href='/conferences/T20-JB.html'>‘Divinity: A Dossier, A Performance Piece, A Little Understood Emotion (written with Michael Moon)’</a><br>
+Sarah Monks (University of East Anglia), <a href='/conferences/T20-SM.html'>‘White Glasses’ & ‘Memorial for Craig Owens’</a></p>
 <p><b>Round Table, chaired by Jason Edwards and Carol Mavor</b><br> (audio recording in preparation)</p>
-<p><a href='http://evekosofskysedgwick.net/conferences/T20-JE-Ackn.html'><b>Acknowledgements</b></a></p>
+<p><a href='/conferences/T20-JE-Ackn.html'><b>Acknowledgements</b></a></p>

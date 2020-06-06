@@ -11,7 +11,7 @@ title: Obituaries
 h5. Obituaries
 
 "(newwindow)Bay Area Reporter":http://www.ebar.com/news/article.php?sec=news&article=3880
-"(newwindow)Duke University Press":http://dukeupress.typepad.com/dukeupresslog/2009/04/eve-kosofsky-sedgwick-19502009.html 
+"(newwindow)Duke University Press":http://dukeupress.typepad.com/dukeupresslog/2009/04/eve-kosofsky-sedgwick-19502009.html
 "(newwindow)Guardian (U.K.&#41;":http://www.guardian.co.uk/books/2009/may/12/eve-kosofsky-sedgwick-obituary-queer-theory
 "(newwindow)Inside Higher Education":http://www.insidehighered.com/quicktakes/2009/04/14/eve-kosofsky-sedgwick-1950-2009
 "(newwindow)LGBT Collections, New York Public Library":http://www.nypl.org/blog/2009/04/13/remembering-eve-kosofsky-sedgwick
@@ -22,4 +22,4 @@ h5. Obituaries
 "(newwindow)Tetu":http://www.tetu.com/2009/04/13/news/culture/mort-de-lintellectuelle-eve-kosofsky-sedgwick/
 "(newwindow)Toronto Star":http://www.thestar.com/News/Insight/article/620442
 
-Back to "LINKS":http://evekosofskysedgwick.net/links/
+Back to "LINKS":/links/

@@ -16,8 +16,6 @@ related-images:
 
 ---
 
-The Centre for Modern Studies at the University of York has announced that it will be hosting an inter-disciplinary symposium “to celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text "(newwindow)<i>Tendencies</i>":http://evekosofskysedgwick.net/writing/tendencies.html." Visit "(newwindow)Tendencies at Twenty":http://www.york.ac.uk/modernstudies/events/spring2013/tendencies-at-twenty/ for more information.
+The Centre for Modern Studies at the University of York has announced that it will be hosting an inter-disciplinary symposium “to celebrate queer history month, Valentine’s Day, and the 20th anniversary of the publication, in 1993, of Eve Kosofsky Sedgwick’s groundbreaking queer-theoretical text "(newwindow)<i>Tendencies</i>":/writing/tendencies.html." Visit "(newwindow)Tendencies at Twenty":http://www.york.ac.uk/modernstudies/events/spring2013/tendencies-at-twenty/ for more information.
 
-Update: Texts of symposium presentations are now available on the "website":http://evekosofskysedgwick.net/conferences/conferences.html. 
-
-
+Update: Texts of symposium presentations are now available on the "website":/conferences/conferences.html.
