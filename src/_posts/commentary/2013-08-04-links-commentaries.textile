@@ -8,7 +8,7 @@ type: resource
 title: Commentaries
 ---
 
-h5. COMMENTARIES 
+h5. COMMENTARIES
 
 <b>Conferences</b>
 
@@ -25,7 +25,7 @@ Janet Halley. Boston University School of Law 2013.
 <b>By Eve Sedgwick</b>
 
 "(newwindow)Sedgwick Sense and Sensibility":http://nideffer.net/proj/Tvc/interviews/20.Tvc.v9.intrvws.Sedg.html
-Interview by Mark Kerr and Kristin O'Rourke in <i>Thresholds: Viewing Culture</i>, 1995. 
+Interview by Mark Kerr and Kristin O'Rourke in <i>Thresholds: Viewing Culture</i>, 1995.
 
 "(newwindow)Jane Austen and the Masturbating Girl":http://criticalinquiry.uchicago.edu/uploads/pdf/Sedgwick,_Jane_Austen_and_the_Masturbating_Girl.pdf
 PDF of article in <i>Critical Inquiry</i>, 1991.
@@ -33,11 +33,11 @@ PDF of article in <i>Critical Inquiry</i>, 1991.
 
 <b>Book Reviews</b>
 
-"(newwindow)Between Men":http://ir.uiowa.edu/cgi/viewcontent.cgi?article=1120&context=wwqr 
+"(newwindow)Between Men":http://ir.uiowa.edu/cgi/viewcontent.cgi?article=1120&context=wwqr
 C. Carroll Hollis in <i>Walt Whitman Quarterly</i>, 1986.
 
 "(newwindow)Tendencies":http://www.nytimes.com/1993/12/26/books/proclivities-of-criticism.html
-Karla Jay in the <i>New York Times</i>, 1993. 
+Karla Jay in the <i>New York Times</i>, 1993.
 
 "(newwindow)Touching Feeling and Regarding Sedgwick":http://www.lrb.co.uk/v25/n05/elaine-showalter/vibrating-to-the-chord-of-queer
 Elaine Showalter in <i>London Review of Books</i>, 2003.
@@ -62,11 +62,11 @@ Vincent Quinn, "(newwindow)Loose reading? Sedgwick, Austen and critical practice
 
 Maria Russo,"(newwindow)The reeducation of a queer theorist: Battling cancer, a nice male psychoanalyst and her own sexual demons, the diva of queer theory learned a new way of living":http://www.salon.com/1999/09/27/sedgwick/ in <i>Salon</i>, 1999.
 
-Dinitia Smith, "(newwindow)'Queer Theory' Is Entering The Literary Mainstream":http://www.nytimes.com/1998/01/17/books/queer-theory-is-entering-the-literary-mainstream.html?pagewanted=all&src=pm in the <i>New York Times</i>, 1998. 
+Dinitia Smith, "(newwindow)'Queer Theory' Is Entering The Literary Mainstream":http://www.nytimes.com/1998/01/17/books/queer-theory-is-entering-the-literary-mainstream.html?pagewanted=all&src=pm in the <i>New York Times</i>, 1998.
 
 Philomila Tsoukala, "(newwindow)Reading A Poem Is Being Written":http://www.law.harvard.edu/students/orgs/jlg/vol331/339-348.pdf in <i>Harvard Journal of Law and Gender</i>, 2010.
 
 J. Keith Vincent, "(newwindow)Imitation and Desire in Sedgwick and Soseki":http://www.academia.edu/3673395/Imitation_and_Desire_in_Sedgwick_and_Soseki in <i>Proceedings of the Association for Japanese Literary Studies</i>, 2010.
 
 
-Back to "LINKS":http://evekosofskysedgwick.net/links/
+Back to "LINKS":/links/
