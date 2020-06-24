@@ -132,7 +132,6 @@ local exportPresetFields = {
  local hideSections = {
    'exportLocation',
    'fileNaming',
-   --'fileSettings',
    'imageSettings',
    'video',
    'watermarking'
