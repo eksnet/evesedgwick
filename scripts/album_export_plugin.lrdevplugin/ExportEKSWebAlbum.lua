@@ -1,7 +1,18 @@
 local LrView = import 'LrView'
 local LrDialogs = import 'LrDialogs'
 local LrExportSession = import 'LrExportSession'
+local LrPathUtils = import 'LrPathUtils'
+local LrDate = import 'LrDate'
+
+local EKSMeta = require 'EKSMeta'
 local bind = LrView.bind
+
+local separator = ''
+if WIN_ENV then
+  separator = '\\'
+else
+  separator = '/'
+end
 
 local function chooseDir( title ) 
   return LrDialogs.runOpenPanel({
@@ -157,6 +168,19 @@ local renderPhoto = function (photo, settings)
   exportSession:doExportOnCurrentTask()
 end
 
+local outputMeta = function(photo, settings)
+  local src = LrPathUtils.removeExtension(photo:getFormattedMetadata('fileName'))
+
+  local meta = EKSMeta.generateMeta({
+    src = src,
+    title = photo:getFormattedMetadata('title'),
+    caption = photo:getFormattedMetadata('caption'),
+    album = settings.albumName
+  })
+  local date = LrDate.timeToUserFormat(LrDate.currentTime(), '%Y-%m-%e', true)
+  EKSMeta.saveMeta(meta, settings.metaExportLocation .. separator .. date .. '-' .. LrPathUtils.addExtension(src, 'textile'))
+end
+
 local processRenderedPhotos = function( functionContext, filterContext )
   local settings = filterContext.propertyTable
   updateFilterStatus(settings)
@@ -166,6 +190,7 @@ local processRenderedPhotos = function( functionContext, filterContext )
       resizePhoto(rendition.photo, settings, settings.thumbWidth, "thumb")
       resizePhoto(rendition.photo, settings, settings.fullWidth, "full")
       renderPhoto(rendition.photo, settings)
+      outputMeta(rendition.photo, settings)
     else
       LrDialogs.message(pathOrMessage)
     end
