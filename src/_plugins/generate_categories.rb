@@ -61,6 +61,7 @@ module Jekyll
       self.process(@name)
       layout = "category_posts.html"
       title = "#{category.capitalize} - #{sub.capitalize}"
+      description = "#{nav} - #{category}#{sub != 'all' ? ' - ' + sub : ''}"
       if category == 'all' and sub == 'all'
         title = nil
         layout = "category_listing.html"
@@ -77,7 +78,7 @@ module Jekyll
       self.data['title']       = title
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
-      self.data['description'] = "#{meta_description_prefix}#{category}"
+      self.data['description'] = "#{meta_description_prefix} #{description}"
     end
 
   end

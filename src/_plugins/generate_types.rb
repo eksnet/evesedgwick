@@ -22,7 +22,7 @@ module Jekyll
       self.data['title']       = type.capitalize
       # Set the meta-description for this page.
       meta_description_prefix  = site.config['type_meta_description_prefix'] || ''
-      self.data['description'] = "#{meta_description_prefix}#{type}"
+      self.data['description'] = "#{meta_description_prefix} #{type.capitalize}"
     end
   end
 
