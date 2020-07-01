@@ -28,16 +28,6 @@ module Jekyll
   end
 
 
-  # Sub-class Jekyll::StaticFile to allow recovery from unimportant exception
-  # when writing the sitemap file.
-  class StaticSitemapFile < StaticFile
-    def write(dest)
-      super(dest) rescue ArgumentError
-      true
-    end
-  end
-
-
   # Generates a sitemap.xml file containing URLs of all pages and posts.
   class SitemapGenerator < Generator
     safe true
@@ -61,9 +51,6 @@ module Jekyll
         f.write(generate_footer())
         f.close
       end
-
-      # Add a static file entry for the zip file, otherwise Site::cleanup will remove it.
-      site.static_files << Jekyll::StaticSitemapFile.new(site, site.dest, '/', 'sitemap.xml')
     end
 
     private
@@ -149,7 +136,7 @@ module Jekyll
       # Remove the trailing slash from the baseurl if it is present, for consistency.
       #baseurl = site.config['baseurl']
       #baseurl = baseurl[0..-2] if baseurl=~/\/$/
-      baseurl = "http://eveksedgwickfoundation.org"
+      baseurl = "https://eveksedgwickfoundation.org"
 
       "
   <url>
