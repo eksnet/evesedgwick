@@ -2,6 +2,8 @@
 
 This is the source code for the Jekyll project that generates the EKS website. If you are not familiar with how Jekyll works, you can find documentation on [the project website](https://jekyllrb.com/docs/home/).
 
+If you are new to all this, please see the detailed primer for setting up Git, GitHub and a local dev server [here](https://docs.google.com/document/d/e/2PACX-1vT26AohlTC8NTlp8UFxfp-IWFFQJ7zm60ccp3WThGaNnUI18PyfG7VrB_ULySGbMWWXV5WAlLHrnDQ6/pub).
+
 ## Table of Contents
  1. [Environment](#environment)
  2. [Usage](#usage)
