@@ -7,8 +7,6 @@ type: post
 
 tags: events
 
-description: none
-
 title: "March 29, 2018: Dean Spade will present the Eighth Annual Eve Kosofsky Sedgwick Memorial Lecture at Boston University"
 
 related-images:

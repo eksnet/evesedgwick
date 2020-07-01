@@ -37,6 +37,11 @@ category-settings:
         description: "These are uncollected publications from books, journals, and talks"
 posts_per_page: 5
 
+category_meta_description_prefix: "Materials from the Eve Kosofsky Sedgwick archive:"
+type_meta_description_prefix: "Materials from the Eve Kosofsky Sedgwick archive:"
+blog_meta_description_prefix: "News from the EKS Foundation: Page"
+
+
 index_images:
     -   index1.jpg
     -   index2.jpg

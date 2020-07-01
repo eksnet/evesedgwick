@@ -70,8 +70,8 @@ module Jekyll
       self.data['pages']       = pages
       self.data['nav']         = "blog"
       # Set the meta-description for this page.
-      meta_description_prefix  = site.config['category_meta_description_prefix'] || ''
-      self.data['description'] = "#{meta_description_prefix}#{page}"
+      meta_description_prefix  = site.config['blog_meta_description_prefix'] || ''
+      self.data['description'] = "#{meta_description_prefix} #{page}"
     end
     
   end
