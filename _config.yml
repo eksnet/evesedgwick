@@ -16,6 +16,7 @@ lunr_search:
 title:          Eve Kosofsky Sedgwick
 feed:           /atom.xml
 description:    "Eve Kosofsky Sedgwick"
+canonical_url:        "https://eveksedgwickfoundation.org"
 
 nav:
     - archive
