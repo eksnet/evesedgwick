@@ -44,7 +44,7 @@ module Jekyll
 
     # Loops through the list of category pages and processes each one.
     def write_type_indexes
-      dir = self.config['type_dir'] || 'types'
+      dir = self.config['type_dir'] || '/types'
       type_hash = self.collect_by_attribute('type', self.posts.docs)
       type_hash.keys.each do |type|
         self.write_type_index(File.join(dir, type), type)
