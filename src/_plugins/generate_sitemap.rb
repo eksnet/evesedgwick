@@ -31,7 +31,7 @@ module Jekyll
   # Generates a sitemap.xml file containing URLs of all pages and posts.
   class SitemapGenerator < Generator
     safe true
-    priority :low
+    priority :lowest
 
     # Generates the sitemap.xml file.
     #
