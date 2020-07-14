@@ -92,7 +92,7 @@ module Jekyll
     # Loops through the list of tag pages and processes each one.
     def write_tag_indexes
       if self.layouts.key? 'tag_index'
-        dir = self.config['tag_dir'] || 'tags'
+        dir = self.config['tag_dir'] || '/tags'
         self.tags.keys.each do |tag|
           self.write_tag_index(File.join(dir, tag), tag)
         end
