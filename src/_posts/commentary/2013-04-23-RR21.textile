@@ -6,7 +6,7 @@ category: conferences
 type: resource
 
 title: Reparative Reading at 21
-
+index_img: /images/preview/Novel-Gazing_full-left.jpg
 
 ---
 

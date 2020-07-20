@@ -17,6 +17,7 @@ module Jekyll
         "art" => "VisualArtwork",
         "articles" => "ScholarlyArticle",
         "artworks" => "VisualArtwork",
+        "biography" => "Article",
         "blog" => "BlogPosting",
         "books authored" => "Book",
         "books and journals edited" => "Book",
@@ -26,8 +27,8 @@ module Jekyll
         "images" => "ImageObject",
         "teaching" => "Course",
       }
-      key = ['category', 'sub-category'].select{ |key| @page.data.key?(key) }.last
-      categories_types.key?(@page.data[key]) && categories_types[@page.data[key]]
+      key = ['category', 'sub-category'].select{ |key| @page.key?(key) }.last
+      categories_types.key?(@page[key]) && categories_types[@page[key]]
     end
 
     
@@ -36,7 +37,7 @@ module Jekyll
     # 2: mapped entity type based on category or sub-category
     # 3: entity based on layout
     def type
-      @page.data['schema_type'] || category_type || case @page.data['layout']
+      @page['schema_type'] || category_type || case @page['layout']
         when "post"
           "BlogPosting"
         when "image"
@@ -51,15 +52,17 @@ module Jekyll
     end
 
     def image
-      if @page.data.key?('index_img')
-        "#{baseurl}/images/#{@page.data['index_img']}.jpg"
-      elsif @page.data.key?('related-images')
-        fname = @page.data['related-images'][0]
+      if @page.key?('index_img')
+        "#{baseurl}/images/#{@page['index_img']}"
+      elsif @page.key?('related-images')
+        fname = @page['related-images'][0]
         "#{baseurl}/images/#{fname}.jpg"
-      elsif @page.data.key?('related_media')
-        album_name = @page.data['related_media'].select{|item| item['type'] == 'album'}.first
-        album = @site.albums[album_name]
-        "#{baseurl}/images/archive/#{album.first.src}"
+      elsif @page.key?('related_media')
+        album = @page['related_media'].select{|item| item['type'] == 'album'}
+        if album.size > 0
+          album_items = @site.config['albums'][album[0]['name']]
+          album_items.size > 0 && "#{baseurl}/images/archive/#{album_items.first.data['src']}"
+        end
       end
     end
 
@@ -67,9 +70,9 @@ module Jekyll
       {
         "@context" => "http://schema.org",
         "@type" => type,
-        "@id" => "#{baseurl}/#{@page.url.gsub('index.html', '')}" ,
+        "@id" => "#{baseurl}#{@page['url']}" ,
         "image" => image,
-        "name" => @page.data['title']
+        "name" => @page['title']
       }
     end
 
@@ -77,18 +80,17 @@ module Jekyll
       JSON.generate(data)
     end
   end
-  # The StructuredData class parses front matter for each page and adds a 
-  # json_ld attribute on each page that can be used to populate 
-  # the json-ld tag in a corresponding liquid template.
-  class StructuredData < Generator
-    safe true
-    priority :low
+  
+  class JsonLdTag < Liquid::Tag
+    def initialize(tag_name, page, tokens)
+      super
+      @page = page
+    end
 
-    def generate(site)
-      site.pages.each do |page|
-        page.data['json_ld'] = JsonLdItem.new(page, site).json
-      end
+    def render(context)
+      JsonLdItem.new(context.registers[:page], context.registers[:site]).json
     end
   end
-
 end
+
+Liquid::Template.register_tag('json_ld', Jekyll::JsonLdTag)
