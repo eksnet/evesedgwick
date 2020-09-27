@@ -136,7 +136,7 @@ module Jekyll
       # Remove the trailing slash from the baseurl if it is present, for consistency.
       #baseurl = site.config['baseurl']
       #baseurl = baseurl[0..-2] if baseurl=~/\/$/
-      baseurl = "https://eveksedgwickfoundation.org"
+      baseurl = "https://evekosofskysedgwick.net"
 
       "
   <url>
