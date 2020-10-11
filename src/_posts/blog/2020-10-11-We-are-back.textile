@@ -1,0 +1,13 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: news
+
+title: "Evekosofskysedgwick.net is back online!"
+
+---
+Hello world
