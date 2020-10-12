@@ -1,5 +1,26 @@
+# domain redirect for eveksedgwickfoundation.org
 http://eveksedgwickfoundation.org/* https://evekosofskysedgwick.net/:splat 301!
 https://eveksedgwickfoundation.org/* https://evekosofskysedgwick.net/:splat 301!
 http://www.eveksedgwickfoundation.org/* https://evekosofskysedgwick.net/:splat 301!
 https://www.eveksedgwickfoundation.org/* https://evekosofskysedgwick.net/:splat 301!
+
+# seo fix broken links
+/about/about.html                         /about
+/archive                                  /work
+/blog/Maria-Jose-translations.html        /blog/maria-jose-translations-copy
+/images/blogs/bu-lecture-poster.jpg       /images/blog/Cohen-BU.jpg
+/textile%20arts                           /types/textile%20art/
+/writing/dialogue-on_love.html            /writing/a-dialogue-on-love
+/writing/epistemology-of_the_closet.html  /writing/epistemology-of_the_closet-2008
+/internals/NelsonM_In-the-Bardo.pdf       /blog/nelson-in-the-bardo
+/talks                                    /tags/talks
+/miscellany                               /tags/miscellany
+/events                                   /tags/events
+/types/artist                             /art
+/types/about                              /about
+/publications                             /tags/publications
+/news                                     /blog
+/proust                                   /tags/proust
+/images                                   /
+/images/index/index7.jpg                  /
 
