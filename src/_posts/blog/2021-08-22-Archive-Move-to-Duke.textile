@@ -1,0 +1,22 @@
+---
+layout: post
+published: true
+nav: blog
+category: blog
+type: post
+
+tags: events
+
+title: "July 2020: Eve Kosofsky Sedgwick’s Archive Moves to Duke"
+
+related-images:
+    - Laura-and-Sarah
+---
+
+The "(newwindow)Sallie Bingham Center for Women’s History & Culture":https://library.duke.edu/rubenstein/bingham in Duke University’s Rubenstein Library is now the permanent home for the archive of Eve Kosofsky Sedgwick. When Sedgwick died in 2009, the contents of her archive were inherited by H. A. Sedgwick, who has donated them to Duke.
+
+Over the past decade, the books, papers, and artworks comprising the archive have been meticulously organized and documented, principally by Sarah McCarry, working first with H. A. Sedgwick and later with the Eve Kosofsky Sedgwick Foundation. During this time, the process of selecting a new home for the archive was going on. Many highly suitable institutions expressed interest in housing it, especially after "(newwindow)Jane Hu’s article about it":https://www.newyorker.com/books/page-turner/between-us-a-queer-theorists-devoted-husband-and-enduring-legacy appeared in the New Yorker. Duke stood out because of its superb facilities and staff; because of the inter-disciplinary cooperation among their special collections, which is well-suited to the breadth of Sedgwick’s interests and activities; and most of all because of the sustained yet patient enthusiasm of Laura Micham, who is the Merle Hoffman Director of the Sallie Bingham Center. 
+
+Once a gift agreement had been signed last summer, and moving arrangements had been made, Micham and McCarry, working together in Sedgwick’s studio over the course of a week, prepared the 73 boxes of materials, some of which are shown in this photo (with Micham on the left and McCarry on the right). Everything was palletized and trucked to Durham, North Carolina, where it is now safely housed in the storage facility of Duke’s library, and intake processing has begun. This material joins 8 boxes of papers that Sedgwick had left at Duke when she moved to the The Graduate Center at the City University of New York.
+
+With the disruptions caused by COVID-19, it is not possible at present to say exactly when, but it is hoped that the Eve Kosofsky Sedgwick archive will be ready to receive visitors by sometime in 2021. An announcement will be made, and further information, including a collection description and a finding aid, will be available at that time.
