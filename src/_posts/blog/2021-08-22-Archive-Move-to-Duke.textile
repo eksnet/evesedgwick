@@ -7,7 +7,7 @@ type: post
 
 tags: events
 
-title: “July 2020: Eve Kosofsky Sedgwick’s Archive Moves to Duke”
+title: "July 2020: Eve Kosofsky Sedgwick’s Archive Moves to Duke"
 
 related-images:
     - Laura and Sarah.jpg
