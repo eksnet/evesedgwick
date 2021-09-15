@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 nav: blog
 category: blog
 type: post
@@ -10,8 +10,7 @@ tags: events
 title: "July 2020: Eve Kosofsky Sedgwick’s Archive Moves to Duke"
 
 related-images:
-    - Laura and Sarah.jpg
-
+    - Laura-and-Sarah
 ---
 
 The "(newwindow)Sallie Bingham Center for Women’s History & Culture":https://library.duke.edu/rubenstein/bingham in Duke University’s Rubenstein Library is now the permanent home for the archive of Eve Kosofsky Sedgwick. When Sedgwick died in 2009, the contents of her archive were inherited by H. A. Sedgwick, who has donated them to Duke.
