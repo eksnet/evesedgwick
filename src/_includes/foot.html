@@ -10,4 +10,16 @@
         {% include search_form.liquid %}
       {% endif %}
     </div>
+    <!-- When authing into CMS, we need to redirect to the identity widget at /admin. -->
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
 </footer>
