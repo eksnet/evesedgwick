@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '~>3.8.4'
 gem 'nokogiri', '~> 1.10'
-gem 'json', '~> 2.0'
+gem 'json', '~> 2.3'
 gem 'execjs', '~> 2.7'
 gem 'uglifier', '~> 3.0'
 
