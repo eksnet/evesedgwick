@@ -58,7 +58,7 @@ layout: base
                     {% endif %}
             {% endif %}
             
-            {{ post.content | textilize }}
+            {{ post.content | format_body: post.path }}
             
             {% assign related = false %}
             {% for tag in post.tags %}

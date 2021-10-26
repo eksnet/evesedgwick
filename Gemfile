@@ -9,7 +9,6 @@ gem 'uglifier', '~> 3.0'
 
 group :jekyll_plugins do
   gem 'RedCloth', '~>4.2'
-  gem 'rdiscount', '~>2.2'
   gem 'linguistics', '~>2.1.0'
   gem 'jekyll-watch', '~>2.0.0'
   gem 'jekyll-textile-converter', '~>0.1.0'

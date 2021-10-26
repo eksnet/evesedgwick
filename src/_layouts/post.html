@@ -41,8 +41,9 @@ layout: base
     <div class='aperture'>
     <div class='carousel' style='width:{{ carousel_width }}px;'>
         {% for image in page.related-images %}
-        <a href="/images/blog/{{ image }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
-            <img class='thumb' src="/images/blog/{{ image }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
+        {% assign image_fname = image | replace: "/src/images/blog", "" | replace: ".jpg", "" %}
+        <a href="/images/blog/{{ image_fname }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
+            <img class='thumb' src="/images/blog/{{ image_fname }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
         </a>
         {% endfor %}
     </div>
@@ -52,8 +53,9 @@ layout: base
         {% else %}
         <div class='carousel no-scroll' style='width:{{ carousel_width }}px;'>
         {% for image in page.related-images %}
-        <a href="/images/blog/{{ image }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
-            <img class='thumb{{ count }}' src="/images/blog/{{ image }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
+        {% assign image_fname = image | replace: "/src/images/blog", "" | replace: ".jpg", "" %}
+        <a href="/images/blog/{{ image_fname }}.jpg" title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}" caption="{% if image.caption-title %}<span class='heading'>{{ image.caption-title }} </span>{% endif %}{{ image.caption }}" rel="album_{{ album_x }}">
+            <img class='thumb{{ count }}' src="/images/blog/{{ image_fname }}_thumb.jpg" style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'>
         </a>
         {% endfor %}
         </div>

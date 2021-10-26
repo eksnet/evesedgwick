@@ -180,6 +180,14 @@ module Jekyll
       RedCloth.new(input).to_html
     end
 
+    def format_body(content, path)
+      if path.split('.').last == 'md'
+        markdownify(content)
+      else
+        textilize(content)
+      end
+    end
+
   end
 end
 
