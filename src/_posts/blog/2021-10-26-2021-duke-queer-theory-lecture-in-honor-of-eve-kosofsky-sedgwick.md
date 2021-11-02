@@ -7,8 +7,8 @@ published: true
 title: "2021 Duke Queer Theory Lecture in Honor of Eve Kosofsky Sedgwick "
 tags:
   - events
-related-images: /src/images/blog/peterson.jpeg
-related-images-thumbs: /src/images/blog/peterson_thumb.jpeg
+related-images: /src/images/blog/peterson.jpg
+related-images-thumbs: /src/images/blog/peterson_thumb.jpg
 ---
 Duke’s annual [Queer Theory Lecture](https://gendersexualityfeminist.duke.edu/events/annual-queer-theory-lecture) in Honor of Eve Kosofsky Sedgwick was given on Thursday, October 14, 2021 by [Dr. Jules Gill-Peterson](https://www.jgillpeterson.com/). Dr. Peterson's talk was titled "Queer Theory Killed Venus Xtravaganza: What's Trans About Queer Studies Now?" The talk can be viewed online [here](https://duke.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=2986a255-ad98-4db4-bd23-ad9d00f73ef0).
 
