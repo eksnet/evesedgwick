@@ -3,6 +3,7 @@ layout: base
 ---
 <section id='title' class='under'>
     <h3>{{ page.title | upcase }}{% if page.sub-title %}<span> {{ page.sub-title| upcase }}</span>{% endif %}</h3>
+    <h6>{{ page.caption }}</h6>
 
     <h6>&nbsp;
         {% assign related = false %}
@@ -27,6 +28,10 @@ layout: base
     {% include marginal.liquid %}
 
     <img src="/images/archive/{{ page.src }}.jpg" width='622'>
+    
+    <section id='image-page-content'>
+        {{ content }}
+    </section>
 
 </section>
 
