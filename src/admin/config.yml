@@ -9,13 +9,14 @@ collections:
     create: true
     label: "Blog"
     folder: "src/_posts/blog"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{publish_date}}-{{title}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Nav", name: "nav", widget: "hidden", default: "blog"}
       - {label: "Category", name: "category", widget: "hidden", default: "blog"}
       - {label: "Type", name: "type", widget: "hidden", default: "post"}
       - {label: "Published", name: "published", widget: "hidden", default: true}
+      - {label: "Publish Date", name: "publish_date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Tags", name: "tags", widget: "list"}
       - label: "Related Images"
