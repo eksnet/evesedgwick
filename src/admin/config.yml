@@ -5,6 +5,40 @@ publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
 collections:
+  - name: "images"
+    create: true
+    label: "Images"
+    folder: "src/_posts/work/art/images"
+    slug: "{{publish_date}}-{{title}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Category", name: "category", widget: "hidden", default: "images"}
+      - {label: "Type", name: "type", widget: "hidden", default: "image"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Caption Title", name: "caption-title", widget: "string"}
+      - {label: "Caption", name: "caption", widget: "text"}
+      - label: "More Link"
+        name: "more-link"
+        widget: "relation"
+        collection: "images"
+        value_field: "title"
+        search_fields: ["title", "caption-title", "caption"]
+      - label: "Image File (thumb)"
+        name: "src-thumb"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Image File (medium)"
+        name: "src-med"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Image File (full)"
+        name: "src-full"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Albums"
+        name: "albums"
+        widget: "list"
+        field: {label: "album", name: "album", widget: "string"}
   - name: "blog"
     create: true
     label: "Blog"
