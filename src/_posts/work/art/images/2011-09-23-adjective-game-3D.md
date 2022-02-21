@@ -10,10 +10,7 @@ src: adjective-game-3D
 
 caption-title: "Adjective Game"
 caption: "book board, fabric, velcro, text"
-more-link: "/images/adjective-game-3D"
 
 albums:
     - "000025-01"
 ---
-
-Some descriptive content about this image.
