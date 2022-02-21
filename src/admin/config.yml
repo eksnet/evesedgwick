@@ -5,6 +5,25 @@ publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
 collections:
+  - name: "images"
+    create: true
+    label: "Images"
+    folder: "src/_posts/work/art/images"
+    slug: "{{publish_date}}-{{title}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Category", name: "category", widget: "hidden", default: "images"}
+      - {label: "Type", name: "type", widget: "hidden", default: "image"}
+      - {label: "Caption Title", name: "caption-title", widget: "string"}
+      - {label: "Caption", name: "caption", widget: "string"}
+      - label: "Image File"
+        name: "src"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Albums"
+        name: "albums"
+        widget: "list"
+        field: {label: "album", name: "album", widget: "string"}
   - name: "blog"
     create: true
     label: "Blog"
