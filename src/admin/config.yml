@@ -14,10 +14,25 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "category", widget: "hidden", default: "images"}
       - {label: "Type", name: "type", widget: "hidden", default: "image"}
+      - {label: "Title", name: "title", widget: "string"}
       - {label: "Caption Title", name: "caption-title", widget: "string"}
-      - {label: "Caption", name: "caption", widget: "string"}
-      - label: "Image File"
-        name: "src"
+      - {label: "Caption", name: "caption", widget: "text"}
+      - label: "More Link"
+        name: "more-link"
+        widget: "relation"
+        collection: "images"
+        value_field: "title"
+        search_fields: ["title", "caption-title", "caption"]
+      - label: "Image File (thumb)"
+        name: "src-thumb"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Image File (medium)"
+        name: "src-med"
+        widget: "image"
+        media_folder: "/src/images/archive"
+      - label: "Image File (full)"
+        name: "src-full"
         widget: "image"
         media_folder: "/src/images/archive"
       - label: "Albums"

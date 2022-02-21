@@ -8,8 +8,20 @@
 <div class='aperture'>
 <div class='carousel' style='width:{{carousel_width}}px;'>
 	{% for image in images %}
+    {% assign src_thumb = image.src | append: "_thumb.jpg" %}
+    {% assign src_med = image.src | append: ".jpg" %}
+    {% assign src_full = image.src | append: "_full.jpg" %}
+    {% if image.src-thumb %}
+      {% assign src_thumb = image.src-thumb %}
+    {% endif %}
+    {% if image.src-med %}
+      {% assign src_med = image.src-med %}
+    {% endif %}
+    {% if image.src-full %}
+      {% assign src_full = image.src-full %}
+    {% endif %}
     <a
-      href="/images/archive/{{ image.src }}.jpg"
+      href="/images/archive/{{ src_med }}"
       title="{% if image.caption-title %}{{ image.caption-title }}{% endif %}"
       caption="
         {% if image.caption-title %}
@@ -22,12 +34,12 @@
           </a>
         {% endif %}
         "
-      full="/images/archive/{{ image.src }}_full.jpg"
+      full="/images/archive/{{ src_full }}"
       rel="album_{% if album_x %}{{album_x}}_x_{% endif %}{{album_y}}"
       >
       <img
         class='thumb'
-        src="/images/archive/{{ image.src }}_thumb.jpg"
+        src="/images/archive/{{ src_thumb }}"
         style='margin-right:{% if forloop.last %} 0px {% else %} 18px {% endif %} ;'
         />
   	</a>
