@@ -2,6 +2,7 @@
 layout: post
 category: images
 type: image
+publish_date: 2022-02-21
 title: Adjective Detail Page test
 caption-title: test
 caption: test caption
