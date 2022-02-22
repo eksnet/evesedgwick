@@ -16,4 +16,4 @@ src-thumb: ribbon-banner-detail_thumb.jpg
 published: true
 src-full: ribbon-banner_full.jpg
 ---
-_
+__
