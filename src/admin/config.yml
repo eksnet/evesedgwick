@@ -26,6 +26,7 @@ collections:
       - label: "Detail Page"
         name: "more-link"
         widget: "string"
+        default: "/images/{{slug}}"
       - label: "Image File (thumb)"
         name: "src-thumb"
         widget: "image"
@@ -72,4 +73,4 @@ collections:
         media_library:
           config:
               multiple: true
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", default: ""}
