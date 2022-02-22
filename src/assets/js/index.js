@@ -25,7 +25,7 @@ $(document).ready (function () {
 
   /* Activate Fancybox */
   function formatTitle(title, caption, currentArray, currentIndex, currentOpts) {
-    return '<div id="album-caption">' + (title && title.length ? '<p>' + caption + '</p>' : '' ) + '<h6 id="count">'+(currentOpts.href.match(/\/blog\//) != "/blog/" ? '<span style="float:left;"><a href="'+ currentOpts.href.replace(".jpg", "_full.jpg") +'" target="_blank" style="color:#939196;">VIEW FULL SIZE</a></span>' : '' )+'IMAGE ' + (currentIndex + 1) + ' / ' + currentArray.length + '</h6></div>';
+    return '<div id="album-caption">' + (title && title.length ? '<p>' + caption + '</p>' : '' ) + '<h6 id="count">'+(currentOpts.href.match(/\/blog\//) != "/blog/" ? '<span style="float:left;"><a href="'+ currentOpts.getAttribute('data-full') +'" target="_blank" style="color:#939196;">VIEW FULL SIZE</a></span>' : '' )+'IMAGE ' + (currentIndex + 1) + ' / ' + currentArray.length + '</h6></div>';
   }
 
   $(".carousel a").fancybox({

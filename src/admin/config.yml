@@ -14,31 +14,34 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Category", name: "category", widget: "hidden", default: "images"}
       - {label: "Type", name: "type", widget: "hidden", default: "image"}
+      - {label: "Publish Date", name: "publish_date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Caption Title", name: "caption-title", widget: "string"}
       - {label: "Caption", name: "caption", widget: "text"}
-      - label: "More Link"
+      - label: "Albums"
+        name: "albums"
+        widget: "list"
+        summary: '{{fields.album}}'
+        field: {label: "album", name: "album", widget: "string"}
+      - label: "Detail Page"
         name: "more-link"
-        widget: "relation"
-        collection: "images"
-        value_field: "title"
-        search_fields: ["title", "caption-title", "caption"]
+        widget: "string"
       - label: "Image File (thumb)"
         name: "src-thumb"
         widget: "image"
         media_folder: "/src/images/archive"
+        public_folder: ""
       - label: "Image File (medium)"
         name: "src-med"
         widget: "image"
         media_folder: "/src/images/archive"
+        public_folder: ""
       - label: "Image File (full)"
         name: "src-full"
         widget: "image"
         media_folder: "/src/images/archive"
-      - label: "Albums"
-        name: "albums"
-        widget: "list"
-        field: {label: "album", name: "album", widget: "string"}
+        public_folder: ""
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "blog"
     create: true
     label: "Blog"
