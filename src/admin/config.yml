@@ -5,6 +5,43 @@ publish_mode: editorial_workflow
 media_folder: "src/images"
 public_folder: "/images"
 collections:
+  - name: "artworks"
+    create: true
+    label: "Artworks"
+    folder: "src/_posts/work/art/artwork"
+    slug: "{{publish_date}}-{{title}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "work"}
+      - {label: "Category", name: "category", widget: "hidden", default: "art"}
+      - {label: "Sub-Category", name: "sub-category", widget: "hidden", default: "artworks"}
+      - {label: "Nav", name: "nav", widget: "hidden", default: "work"}
+      - {label: "Publish Date", name: "publish_date", widget: "datetime", format: "YYYY-MM-DD", time_format: false, hidden: true}
+      - {label: "Type (e.g. collage)", name: "type", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Sub-Title", name: "sub-title", widget: "string"}
+      - {label: "Medium", name: "medium", widget: "string"}
+      - {label: "Year", name: "year", widget: "string", default: "ND"}
+      - label: "Dimensions"
+        name: "dims"
+        widget: "object"
+        required: false
+        fields: 
+          - {label: "Width", name: "width", widget: "string"}
+          - {label: "Height", name: "height", widget: "string"}
+          - {label: "Depth", name: "depth", widget: "string"}
+      - {label: "Description", name: "description", widget: "text", required: false}
+      - label: "Index Image"
+        name: "index_img"
+        widget: "image"
+        media_folder: "/src/images/archive"
+        public_folder: ""
+      - label: "Related Albums"
+        name: "related_media"
+        widget: "list"
+        fields:
+          - { label: "Type", name: "type", widget: "hidden", default: "album"}
+          - { label: "Album Name", name: "name", widget: "string"}
+
   - name: "images"
     create: true
     label: "Images"
@@ -31,6 +68,7 @@ collections:
             name: "type"
             widget: "select"
             options: ["none", "self", "image"]
+            default: none
           - label: "Select Image as Detail Page"
             name: "image"
             widget: "relation"
@@ -38,6 +76,7 @@ collections:
             search_fields: ["title", "caption-title", "caption"]
             value_field: "/images/{{slug}}"
             display_fields: ["title", "caption"]
+            required: false
       - label: "Image File (thumb)"
         name: "src-thumb"
         widget: "image"
