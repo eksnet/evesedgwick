@@ -7,7 +7,7 @@ title: Image test
 caption-title: Image test
 caption: kjdf
 albums:
-  - 000027-01
+  - new-test-album
 detail-page:
   type: self
   image: /images/2015-08-09-pic000209
