@@ -11,7 +11,7 @@ collections:
     folder: "src/_posts/work/art/images"
     slug: "{{publish_date}}-{{title}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "image"}
       - {label: "Category", name: "category", widget: "hidden", default: "images"}
       - {label: "Type", name: "type", widget: "hidden", default: "image"}
       - {label: "Publish Date", name: "publish_date", widget: "datetime", format: "YYYY-MM-DD", time_format: false}
@@ -25,11 +25,19 @@ collections:
         field: {label: "album", name: "album", widget: "string"}
       - label: "Detail Page"
         name: "detail-page"
-        widget: "relation"
-        collection: "images"
-        search_fields: ["title", "caption-title", "caption"]
-        value_field: "/images/{{slug}}"
-        display_fields: ["title", "caption"]
+        widget: "object"
+        fields:
+          - label: "Select Type of Detail Page"
+            name: "type"
+            widget: "select"
+            options: ["none", "self", "image"]
+          - label: "Select Image as Detail Page"
+            name: "image"
+            widget: "relation"
+            collection: "images"
+            search_fields: ["title", "caption-title", "caption"]
+            value_field: "/images/{{slug}}"
+            display_fields: ["title", "caption"]
       - label: "Image File (thumb)"
         name: "src-thumb"
         widget: "image"
