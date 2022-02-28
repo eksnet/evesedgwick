@@ -8,9 +8,12 @@ caption-title: "!!"
 caption: More link should point to adj game
 albums:
   - 000027-01
-detail-page: /images/2011-09-23-exclusive-love
-src-thumb: A-Dialogue-On-Love_full-left.jpg
 src-med: A-Dialogue-On-Love_full-left.jpg
+detail-page: /images/2011-09-23-exclusive-love
+detail-page-options:
+  detail-page-type: image
+  detail-page: /images/2015-08-09-pic000217
+src-thumb: A-Dialogue-On-Love_full-left.jpg
 src-full: A-Dialogue-On-Love_index.jpg
 ---
 !
