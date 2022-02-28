@@ -24,9 +24,12 @@ collections:
         summary: '{{fields.album}}'
         field: {label: "album", name: "album", widget: "string"}
       - label: "Detail Page"
-        name: "more-link"
-        widget: "string"
-        default: "/images/{{slug}}"
+        name: "detail-page"
+        widget: "relation"
+        collection: "images"
+        search_fields: ["title", "caption-title", "caption"]
+        value_field: "/images/{{slug}}"
+        display_fields: ["title", "caption"]
       - label: "Image File (thumb)"
         name: "src-thumb"
         widget: "image"
@@ -42,7 +45,7 @@ collections:
         widget: "image"
         media_folder: "/src/images/archive"
         public_folder: ""
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
   - name: "blog"
     create: true
     label: "Blog"

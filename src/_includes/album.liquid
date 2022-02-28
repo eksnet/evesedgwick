@@ -28,8 +28,8 @@
           <span class='heading'>{{ image.caption-title }} </span>
         {% endif %}
         {{ image.caption }}
-        {% if image.more-link %}
-          <a href='{{ image.more-link }}' target='_blank'>
+        {% if image.detail-page %}
+          <a href='{{ image.detail-page | remove_permalink_date }}' target='_blank'>
             SEE MORE
           </a>
         {% endif %}

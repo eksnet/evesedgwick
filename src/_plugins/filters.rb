@@ -146,6 +146,20 @@ module Jekyll
       end
     end
 
+    # removes the date part of the slug and appends the
+    # slugified title to the `prefix`.
+    #
+    # "2022-01-01-post-title" | get_permalink "/images/"
+    # => "/images/post-title"
+    def remove_permalink_date(slug)
+      match = slug.match(
+        /^(.*?)[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}-(.*)$/
+        )
+      prefix = match[1]
+      title_slugified = match[2]
+      "#{prefix}#{title_slugified}"
+    end
+
     # Outputs the plural form of a provided word
     def plural(input)
       input.dup.en.plural
