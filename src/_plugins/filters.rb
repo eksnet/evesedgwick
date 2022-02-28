@@ -155,6 +155,9 @@ module Jekyll
       match = slug.match(
         /^(.*?)[0-9]{4}-[0-9]{1,2}-[0-9]{1,2}-(.*)$/
         )
+      if match.nil?
+        raise "Improperly formated slug, #{slug}"
+      end
       prefix = match[1]
       title_slugified = match[2]
       "#{prefix}#{title_slugified}"
