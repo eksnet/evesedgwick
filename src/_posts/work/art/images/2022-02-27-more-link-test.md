@@ -8,7 +8,7 @@ caption-title: "!!"
 caption: More link should point to adj game
 albums:
   - 000027-01
-detail-page: 2011-09-23-adjective-game-3D
+detail-page: /images/2011-4-25-adjective-game-flat
 src-thumb: A-Dialogue-On-Love_full-left.jpg
 src-med: A-Dialogue-On-Love_full-left.jpg
 src-full: A-Dialogue-On-Love_index.jpg
