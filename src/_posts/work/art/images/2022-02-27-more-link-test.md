@@ -13,6 +13,7 @@ detail-page: /images/2011-09-23-exclusive-love
 detail-page-options:
   detail-page-type: image
   detail-page: /images/2015-08-09-pic000217
+  detail-page-image: /images/2015-08-09-pic000209
 src-thumb: A-Dialogue-On-Love_full-left.jpg
 src-full: A-Dialogue-On-Love_index.jpg
 ---
