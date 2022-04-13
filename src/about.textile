@@ -1,6 +1,6 @@
 ---
 layout: work
-published: false
+published: true
 nav: about
 category: about
 type: about
