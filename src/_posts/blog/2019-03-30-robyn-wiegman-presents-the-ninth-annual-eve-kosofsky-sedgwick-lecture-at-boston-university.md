@@ -9,8 +9,8 @@ title: Robyn Wiegman presents the Ninth Annual Eve Kosofsky Sedgwick Lecture at
   Boston University
 tags:
   - events
-related-images: /src/images/blog/wiegman.jpg
-related-images-thumbs: /src/images/blog/wiegman_thumb.jpg
+related-images: /src/images/blog/outrage.jpeg
+related-images-thumbs: /src/images/blog/outrage_thumb.jpeg
 ---
 The Ninth Annyal Eve Kosofsky Sedgwick Lecture at Boston University, titled "Outrage" and presented by Robyn Wiegman, is available to watch online [here](https://www.bu.edu/buniverse/view/?v=1sFY4O0). 
 
