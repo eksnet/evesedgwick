@@ -6,6 +6,8 @@ type: post
 published: true
 publish_date: 2022-07-29
 title: Inaugural Eve Kosofsky Sedgwick Travel Grant Recipients Announced
+tags:
+  - Grants
 related-images: /src/images/blog/grants.jpg
 related-images-thumbs: /src/images/blog/grants_thumb.jpg
 ---
