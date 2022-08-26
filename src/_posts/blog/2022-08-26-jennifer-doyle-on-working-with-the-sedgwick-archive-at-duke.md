@@ -9,7 +9,7 @@ title: Jennifer Doyle on Working with the Sedgwick Archive at Duke
 tags:
   - archive
 related-images: /src/images/blog/jose.jpg
-related-images-thumbs: /src/images/blog/jose_thumb.jpeg
+related-images-thumbs: /src/images/blog/jose_thumb.jpg
 ---
 Image caption: A photo of a postcard José Esteban Muñoz sent Eve from Florida the summer of 1991
 
