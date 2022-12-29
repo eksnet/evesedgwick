@@ -5,7 +5,7 @@ category: blog
 type: post
 published: true
 publish_date: 2022-12-29
-title: 2023 Eve Kosofsky Sedgwick Travel Grant Applications Are Now Open
+title: 2023-2024 Eve Kosofsky Sedgwick Travel Grant Applications Are Now Open
 tags:
   - Grants
 related-images: /src/images/blog/eks.jpg
