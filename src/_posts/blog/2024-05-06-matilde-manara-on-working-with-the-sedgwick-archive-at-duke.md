@@ -8,8 +8,8 @@ publish_date: 2024-05-06
 title: Matilde Manara on Working with the Sedgwick Archive at Duke
 tags:
   - archive
-related-images: /src/images/blog/proust-box.jpg
-related-images-thumbs: /src/images/blog/proust-box_thumb.jpg
+related-images: /src/images/blog/manara.jpg
+related-images-thumbs: /src/images/blog/manara_thumb.jpg
 ---
 *Image caption: Proust Box notebook with notes on paper dolls, hexaflexagons (first pages), Eve Kosofsky Sedgwick Papers, Box 40.*
 
