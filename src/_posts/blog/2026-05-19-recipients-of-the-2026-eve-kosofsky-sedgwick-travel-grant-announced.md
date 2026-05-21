@@ -5,7 +5,7 @@ category: blog
 type: post
 published: true
 publish_date: 2026-05-19
-title: Recipients of the 2026 Eve Kosofsky Sedgwick Travel Grant Announced
+title: Recipients of the 2026-2027 Eve Kosofsky Sedgwick Travel Grants Announced
 tags:
   - grants
 related-images: /src/images/blog/C-H-manuscript.jpg
